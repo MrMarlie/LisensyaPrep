@@ -121,6 +121,486 @@
       ],
       "answer": "Protista",
       "explanation": "Woese proposed the Three-Domain System (1990) based on ribosomal RNA sequences: Bacteria (prokaryotes), Archaea (prokaryotes with archaeal biochemistry), and Eukarya (all eukaryotes — protists, fungi, plants, animals). Protista is a Kingdom within the domain Eukarya, not a domain itself."
+    },
+    {
+      "id": 11,
+      "question": "What is the difference between mitosis and meiosis?",
+      "choices": [
+        "Mitosis produces 4 haploid cells; meiosis produces 2 diploid cells",
+        "Mitosis produces 2 genetically identical diploid cells for growth and repair; meiosis produces 4 genetically unique haploid gametes for sexual reproduction",
+        "Mitosis occurs in reproductive cells only; meiosis occurs in all body cells",
+        "Both processes are identical except for the number of divisions"
+      ],
+      "answer": "Mitosis produces 2 genetically identical diploid cells for growth and repair; meiosis produces 4 genetically unique haploid gametes for sexual reproduction",
+      "explanation": "Mitosis: one division → 2 identical diploid daughter cells (2n). Used for growth, repair, and asexual reproduction. Meiosis: two divisions → 4 haploid cells (n) that are genetically unique due to crossing over and independent assortment. Used to produce gametes in sexually reproducing organisms."
+    },
+    {
+      "id": 12,
+      "question": "What is the function of the mitochondria?",
+      "choices": [
+        "Synthesizing proteins from mRNA instructions",
+        "Producing ATP (cellular energy) through aerobic cellular respiration",
+        "Packaging and secreting proteins for export from the cell",
+        "Breaking down cellular waste and foreign materials"
+      ],
+      "answer": "Producing ATP (cellular energy) through aerobic cellular respiration",
+      "explanation": "The mitochondrion is the 'powerhouse of the cell' — it produces most of the cell's ATP through aerobic respiration. The inner mitochondrial membrane houses the electron transport chain and ATP synthase. The mitochondrion also has its own DNA, evidence for the endosymbiotic theory."
+    },
+    {
+      "id": 13,
+      "question": "What is the central dogma of molecular biology?",
+      "choices": [
+        "Proteins → RNA → DNA (reverse information flow)",
+        "DNA → mRNA (transcription) → Protein (translation)",
+        "DNA → Protein (direct translation without RNA)",
+        "RNA → DNA → Protein (reverse transcription is universal)"
+      ],
+      "answer": "DNA → mRNA (transcription) → Protein (translation)",
+      "explanation": "The central dogma (Crick, 1958) describes the flow of genetic information: DNA is transcribed into mRNA in the nucleus, then mRNA is translated into protein by ribosomes in the cytoplasm. Exceptions exist: retroviruses use reverse transcriptase to copy RNA back into DNA."
+    },
+    {
+      "id": 14,
+      "question": "What is the difference between a genotype and a phenotype?",
+      "choices": [
+        "Genotype is observable; phenotype is genetic",
+        "Genotype is the genetic makeup (alleles) of an organism; phenotype is the observable physical expression of those genes (plus environment)",
+        "Genotype determines only physical traits; phenotype includes only behavioral traits",
+        "They are interchangeable terms in classical genetics"
+      ],
+      "answer": "Genotype is the genetic makeup (alleles) of an organism; phenotype is the observable physical expression of those genes (plus environment)",
+      "explanation": "Genotype refers to the actual allele combinations an organism carries (e.g., Tt, AABB). Phenotype refers to the observable characteristics (tall plant, brown eyes) that result from genotype-environment interaction. Two organisms can have the same phenotype but different genotypes (e.g., TT and Tt both produce tall plants)."
+    },
+    {
+      "id": 15,
+      "question": "What is natural selection and what are its requirements?",
+      "choices": [
+        "Random changes in allele frequencies in a population over time",
+        "The process by which heritable traits that increase survival and reproduction become more common over generations, requiring variation, heritability, and differential reproduction",
+        "The deliberate selection of organisms with desired traits for breeding purposes",
+        "The elimination of all harmful mutations from a population over time"
+      ],
+      "answer": "The process by which heritable traits that increase survival and reproduction become more common over generations, requiring variation, heritability, and differential reproduction",
+      "explanation": "Natural selection requires: (1) variation in traits among individuals, (2) heritability of those traits, and (3) differential survival and reproduction ('fitness'). Organisms whose heritable traits best suit the environment leave more offspring, so favorable traits become more common over generations (Darwin, 1859)."
+    },
+    {
+      "id": 16,
+      "question": "What is osmosis?",
+      "choices": [
+        "The movement of solutes from high to low concentration across a membrane",
+        "The movement of water molecules across a semipermeable membrane from a region of lower solute concentration to higher solute concentration",
+        "Active transport of water molecules against a concentration gradient",
+        "The diffusion of gases across cell membranes during respiration"
+      ],
+      "answer": "The movement of water molecules across a semipermeable membrane from a region of lower solute concentration to higher solute concentration",
+      "explanation": "Osmosis is the passive movement of water across a selectively permeable membrane, driven by the osmotic gradient (water moves toward higher solute/lower water potential). Cells in hypotonic solutions swell; in hypertonic solutions, they shrink (crenate in animals, plasmolyze in plants)."
+    },
+    {
+      "id": 17,
+      "question": "What is the role of decomposers in an ecosystem?",
+      "choices": [
+        "Converting light energy into chemical energy for primary producers",
+        "Breaking down dead organic matter and recycling nutrients back into the ecosystem",
+        "Transferring energy from primary consumers to secondary consumers",
+        "Regulating population sizes of herbivores in a community"
+      ],
+      "answer": "Breaking down dead organic matter and recycling nutrients back into the ecosystem",
+      "explanation": "Decomposers (bacteria and fungi) break down dead organisms and organic waste, releasing inorganic nutrients (nitrogen, phosphorus, carbon) back into the soil and atmosphere. Without decomposers, nutrients would remain locked in dead matter and primary producers could not sustain themselves."
+    },
+    {
+      "id": 18,
+      "question": "What is the endosymbiotic theory?",
+      "choices": [
+        "The theory that viruses evolved from symbiotic bacteria that invaded host cells",
+        "The theory that mitochondria and chloroplasts originated as free-living prokaryotes that were engulfed by ancestral eukaryotic cells",
+        "The theory that eukaryotes evolved directly from archaea without endosymbiosis",
+        "The theory that cells form symbiotic partnerships to increase metabolic efficiency"
+      ],
+      "answer": "The theory that mitochondria and chloroplasts originated as free-living prokaryotes that were engulfed by ancestral eukaryotic cells",
+      "explanation": "The endosymbiotic theory (Margulis, 1967) proposes that mitochondria evolved from engulfed α-proteobacteria and chloroplasts from engulfed cyanobacteria. Evidence includes: both have their own circular DNA, double membranes, ribosomes similar to bacteria, and divide by binary fission."
+    },
+    {
+      "id": 19,
+      "question": "What is genetic drift and when does it have the greatest effect?",
+      "choices": [
+        "Deliberate selection of alleles by humans in artificial breeding programs",
+        "Random changes in allele frequencies in a population due to chance events, greatest in small populations",
+        "The gradual accumulation of mutations in a population over many generations",
+        "The flow of genes between populations through migration"
+      ],
+      "answer": "Random changes in allele frequencies in a population due to chance events, greatest in small populations",
+      "explanation": "Genetic drift is a mechanism of evolution — random sampling errors in reproduction that change allele frequencies unpredictably. In small populations, drift can be very powerful (Founder effect, Bottleneck effect), potentially fixing harmful alleles or eliminating beneficial ones by chance alone."
+    },
+    {
+      "id": 20,
+      "question": "What is the greenhouse effect and why is it important?",
+      "choices": [
+        "The warming of greenhouses for plant cultivation in cold climates",
+        "The trapping of solar heat in Earth's atmosphere by greenhouse gases like CO₂, CH₄, and H₂O — essential for life but intensified by human activities",
+        "The reflection of solar radiation by Earth's surface back into space",
+        "The cooling effect produced by vegetation in urban environments"
+      ],
+      "answer": "The trapping of solar heat in Earth's atmosphere by greenhouse gases like CO₂, CH₄, and H₂O — essential for life but intensified by human activities",
+      "explanation": "The natural greenhouse effect keeps Earth habitable (~15°C average instead of -18°C). Greenhouse gases (CO₂, CH₄, N₂O, H₂O) absorb and re-emit infrared radiation. The enhanced greenhouse effect from burning fossil fuels is the primary driver of global climate change."
+    },
+    {
+      "id": 21,
+      "question": "What is apoptosis?",
+      "choices": [
+        "The uncontrolled division of cancer cells",
+        "Programmed cell death — a natural, regulated process of cellular self-destruction essential for development and homeostasis",
+        "Cell death caused by external injury or toxins",
+        "The process of cell differentiation during embryonic development"
+      ],
+      "answer": "Programmed cell death — a natural, regulated process of cellular self-destruction essential for development and homeostasis",
+      "explanation": "Apoptosis is genetically programmed cell death that occurs normally — removing damaged cells, shaping organs during embryonic development (e.g., separating fingers), and eliminating immune cells after infection. Dysregulation of apoptosis is implicated in cancer (too little) and neurodegenerative diseases (too much)."
+    },
+    {
+      "id": 22,
+      "question": "What is the difference between aerobic and anaerobic respiration?",
+      "choices": [
+        "Aerobic respiration occurs in mitochondria; anaerobic occurs in the nucleus",
+        "Aerobic respiration uses oxygen and produces up to 36-38 ATP per glucose; anaerobic occurs without oxygen and produces only 2 ATP",
+        "Aerobic respiration produces CO₂; anaerobic produces only water",
+        "Aerobic respiration is less efficient than anaerobic respiration"
+      ],
+      "answer": "Aerobic respiration uses oxygen and produces up to 36-38 ATP per glucose; anaerobic occurs without oxygen and produces only 2 ATP",
+      "explanation": "Aerobic respiration: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + 36-38 ATP (via glycolysis + Krebs cycle + ETC). Anaerobic (fermentation): glycolysis only → 2 ATP + lactate (animals) or ethanol + CO₂ (yeast). Aerobic is much more efficient but requires oxygen."
+    },
+    {
+      "id": 23,
+      "question": "What is CRISPR-Cas9 and its significance in biology?",
+      "choices": [
+        "A virus that infects bacteria and alters their DNA",
+        "A precise gene editing tool derived from a bacterial immune system that can cut and modify DNA at specific target sequences",
+        "A protein that repairs DNA damage caused by radiation",
+        "A diagnostic tool for identifying genetic mutations in patients"
+      ],
+      "answer": "A precise gene editing tool derived from a bacterial immune system that can cut and modify DNA at specific target sequences",
+      "explanation": "CRISPR-Cas9 (Doudna & Charpentier, Nobel Prize 2020) uses guide RNA to direct the Cas9 enzyme to a specific DNA sequence, where it cuts both strands. The cell's repair mechanisms can then be exploited to delete, correct, or insert genetic sequences, revolutionizing medicine, agriculture, and basic research."
+    },
+    {
+      "id": 24,
+      "question": "What is mutualism and provide an example?",
+      "choices": [
+        "A relationship where one organism benefits and the other is harmed",
+        "A symbiotic relationship where both organisms benefit, e.g., mycorrhizae-plant mutualism or clownfish-sea anemone",
+        "A relationship where one organism benefits and the other is unaffected",
+        "Competition between two species for the same resource"
+      ],
+      "answer": "A symbiotic relationship where both organisms benefit, e.g., mycorrhizae-plant mutualism or clownfish-sea anemone",
+      "explanation": "Mutualism is a symbiosis where both species benefit. Examples: (1) mycorrhizal fungi + plant roots (fungi get sugars, plant gets phosphorus), (2) clownfish + sea anemone (fish protected by stinging tentacles, fish droppings fertilize anemone), (3) nitrogen-fixing Rhizobium + legumes."
+    },
+    {
+      "id": 25,
+      "question": "What is homeostasis and give an example in humans?",
+      "choices": [
+        "The process of cellular differentiation during development",
+        "The maintenance of a stable internal environment despite external changes, e.g., regulating blood glucose by insulin and glucagon",
+        "The evolutionary tendency of organisms to become more complex over time",
+        "The balanced state of an ecosystem when no species are added or removed"
+      ],
+      "answer": "The maintenance of a stable internal environment despite external changes, e.g., regulating blood glucose by insulin and glucagon",
+      "explanation": "Homeostasis is the ability of organisms to maintain internal stability (pH, temperature, glucose, water balance). Human blood glucose: after eating, the pancreas releases insulin (lowers glucose); fasting triggers glucagon (raises glucose). This negative feedback system keeps glucose at ~5 mmol/L."
+    },
+    {
+      "id": 26,
+      "question": "What are the light-dependent reactions of photosynthesis?",
+      "choices": [
+        "The reactions that occur in the stroma using ATP and NADPH to fix CO₂",
+        "Reactions occurring in the thylakoid membranes that use light energy to produce ATP, NADPH, and release O₂ through water splitting",
+        "The reactions that convert glucose to pyruvate in the cytoplasm",
+        "Reactions using chlorophyll to directly convert CO₂ into glucose"
+      ],
+      "answer": "Reactions occurring in the thylakoid membranes that use light energy to produce ATP, NADPH, and release O₂ through water splitting",
+      "explanation": "Light-dependent reactions (light reactions) occur in the thylakoid membranes. Light excites electrons in chlorophyll → electron transport chain → produces ATP (photophosphorylation) and NADPH. Water molecules are split (photolysis), releasing O₂ as a byproduct. Products (ATP and NADPH) power the Calvin Cycle."
+    },
+    {
+      "id": 27,
+      "question": "What is the Calvin cycle?",
+      "choices": [
+        "The process of breaking down glucose to produce ATP in mitochondria",
+        "The light-independent reactions in the chloroplast stroma that use ATP and NADPH to convert CO₂ into glucose",
+        "The process by which amino acids are assembled into proteins in ribosomes",
+        "The cycle of nitrogen through the soil, atmosphere, and plants"
+      ],
+      "answer": "The light-independent reactions in the chloroplast stroma that use ATP and NADPH to convert CO₂ into glucose",
+      "explanation": "The Calvin Cycle (C3 photosynthesis) occurs in the stroma and uses CO₂, ATP, and NADPH to produce G3P (glyceraldehyde-3-phosphate), from which glucose is synthesized. The enzyme RuBisCO catalyzes CO₂ fixation. Three turns of the cycle produce one net G3P."
+    },
+    {
+      "id": 28,
+      "question": "What is a keystone species?",
+      "choices": [
+        "The most numerous species in an ecosystem",
+        "A species that has a disproportionately large effect on ecosystem structure relative to its abundance",
+        "The largest predator at the top of a food chain",
+        "A species found exclusively in a single geographic location"
+      ],
+      "answer": "A species that has a disproportionately large effect on ecosystem structure relative to its abundance",
+      "explanation": "A keystone species has an ecological impact far exceeding its biomass. Classic example: sea otters control sea urchin populations, which otherwise overgraze kelp forests. Removing a keystone species causes dramatic ecosystem change (trophic cascade). Sea stars (Paine's experiments) and wolves (Yellowstone) are other examples."
+    },
+    {
+      "id": 29,
+      "question": "What is the difference between innate and adaptive immunity?",
+      "choices": [
+        "Innate immunity is stronger; adaptive immunity is faster",
+        "Innate immunity is immediate, non-specific, and present from birth; adaptive immunity is specific, has memory, and involves T and B lymphocytes",
+        "Innate immunity involves antibodies; adaptive immunity involves complement proteins",
+        "Innate immunity learns from infections; adaptive immunity is fixed from birth"
+      ],
+      "answer": "Innate immunity is immediate, non-specific, and present from birth; adaptive immunity is specific, has memory, and involves T and B lymphocytes",
+      "explanation": "Innate immunity (physical barriers, phagocytes, NK cells, inflammation, complement) is non-specific and responds immediately. Adaptive immunity (T cells, B cells, antibodies) is antigen-specific, develops over days, and creates immunological memory — the basis for vaccination."
+    },
+    {
+      "id": 30,
+      "question": "What is the sliding filament theory of muscle contraction?",
+      "choices": [
+        "Muscle cells physically increase in length when contracted",
+        "Actin (thin) filaments slide over myosin (thick) filaments, shortening the sarcomere without the filaments themselves changing length",
+        "Myosin filaments break down and reform to generate contractile force",
+        "Calcium ions directly provide the energy for muscle contraction"
+      ],
+      "answer": "Actin (thin) filaments slide over myosin (thick) filaments, shortening the sarcomere without the filaments themselves changing length",
+      "explanation": "The sliding filament theory (Huxley & Hanson, 1954) explains muscle contraction: myosin heads bind to actin, pull it toward the center of the sarcomere (power stroke), then release and reset. ATP provides energy; calcium (from SR) triggers contraction by exposing myosin binding sites on actin."
+    },
+    {
+      "id": 31,
+      "question": "What is polyploidy and its significance in plant evolution?",
+      "choices": [
+        "Having more than the normal number of chromosomes due to non-disjunction in meiosis",
+        "Having more than two complete sets of chromosomes (3n, 4n, etc.) — a major mechanism of speciation in plants",
+        "A condition where multiple genes control a single trait",
+        "The presence of multiple alleles for a gene in a population"
+      ],
+      "answer": "Having more than two complete sets of chromosomes (3n, 4n, etc.) — a major mechanism of speciation in plants",
+      "explanation": "Polyploidy (having >2 sets of chromosomes) is much more common in plants than animals and is a major driver of plant speciation. Many crop plants are polyploid (wheat is hexaploid-6n; potato is tetraploid-4n; banana is triploid-3n). Allopolyploidy (combining genomes from different species) can create new fertile species instantly."
+    },
+    {
+      "id": 32,
+      "question": "What is the nitrogen cycle and why is it important?",
+      "choices": [
+        "The movement of nitrogen through the food web from producers to consumers",
+        "The biogeochemical cycle transforming nitrogen between atmospheric N₂, soil nitrates/ammonium, and organic compounds — essential for amino acid and nucleotide synthesis",
+        "The process by which plants absorb nitrogen from the atmosphere directly",
+        "The chemical conversion of nitrogen to oxygen in photosynthesis"
+      ],
+      "answer": "The biogeochemical cycle transforming nitrogen between atmospheric N₂, soil nitrates/ammonium, and organic compounds — essential for amino acid and nucleotide synthesis",
+      "explanation": "The nitrogen cycle: N₂ fixation (Rhizobium, lightning) → ammonification (decomposers) → nitrification (Nitrosomonas, Nitrobacter) → plant uptake → consumption → denitrification (Pseudomonas) → N₂. Since N₂ cannot be used directly by most organisms, biological nitrogen fixation is crucial for ecosystem productivity."
+    },
+    {
+      "id": 33,
+      "question": "What is population ecology's concept of carrying capacity (K)?",
+      "choices": [
+        "The initial population size before any growth occurs",
+        "The maximum population size a given environment can sustain indefinitely given available resources",
+        "The rate at which a population grows under ideal conditions",
+        "The minimum viable population needed to avoid extinction"
+      ],
+      "answer": "The maximum population size a given environment can sustain indefinitely given available resources",
+      "explanation": "Carrying capacity (K) is determined by limiting factors (food, water, shelter, space, disease). Logistic population growth models use K: dN/dt = rN(1-N/K). As N approaches K, growth slows and stops. Population regulation mechanisms (density-dependent factors) become stronger as K is approached."
+    },
+    {
+      "id": 34,
+      "question": "What is epistasis?",
+      "choices": [
+        "When two alleles of the same gene are both expressed (codominance)",
+        "When the expression of one gene is masked or modified by a different gene at another locus",
+        "When multiple genes contribute to a single quantitative trait (polygenic inheritance)",
+        "When a single gene affects multiple phenotypic traits (pleiotropy)"
+      ],
+      "answer": "When the expression of one gene is masked or modified by a different gene at another locus",
+      "explanation": "Epistasis is gene-gene interaction where one gene (epistatic gene) masks or modifies the phenotypic effect of another gene (hypostatic gene) at a different locus. Classic example: coat color in Labrador dogs — a second gene determines whether pigment is deposited in the fur (B/b) or not (E/e gene acts epistatically)."
+    },
+    {
+      "id": 35,
+      "question": "What is horizontal gene transfer (HGT) and why is it significant in microbiology?",
+      "choices": [
+        "Transfer of genes from parent to offspring through sexual reproduction",
+        "Transfer of genetic material between organisms outside the normal parent-to-offspring pathway — major mechanism of antibiotic resistance spread in bacteria",
+        "Transfer of genes between cells of the same organism during development",
+        "The movement of transposons within a single organism's genome"
+      ],
+      "answer": "Transfer of genetic material between organisms outside the normal parent-to-offspring pathway — major mechanism of antibiotic resistance spread in bacteria",
+      "explanation": "HGT in bacteria occurs through: (1) transformation (uptake of free DNA), (2) transduction (via phage), and (3) conjugation (direct cell contact via pili). HGT allows bacteria to rapidly acquire antibiotic resistance genes, making it a major public health challenge."
+    },
+    {
+      "id": 36,
+      "question": "What is a biome and how are biomes classified?",
+      "choices": [
+        "A single ecosystem in a geographic location",
+        "A large-scale community of organisms defined primarily by climate (temperature and precipitation) and characterized by distinctive vegetation",
+        "A classification of organisms based on their ecological roles",
+        "The total diversity of species in a given geographic region"
+      ],
+      "answer": "A large-scale community of organisms defined primarily by climate (temperature and precipitation) and characterized by distinctive vegetation",
+      "explanation": "Biomes are major terrestrial communities defined by climate. Types include: tropical rainforest, savanna, desert, temperate deciduous forest, temperate grassland, taiga (boreal forest), and tundra. The Philippines falls primarily in the tropical rainforest biome, characterized by high biodiversity and year-round warmth."
+    },
+    {
+      "id": 37,
+      "question": "What is the difference between incomplete dominance and codominance?",
+      "choices": [
+        "They are identical phenomena — the heterozygote shows both parental phenotypes",
+        "Incomplete dominance produces a blended intermediate phenotype; codominance shows both parental phenotypes simultaneously in the same organism",
+        "Incomplete dominance occurs only in flowers; codominance occurs only in blood types",
+        "Incomplete dominance results in three phenotypes; codominance results in only two"
+      ],
+      "answer": "Incomplete dominance produces a blended intermediate phenotype; codominance shows both parental phenotypes simultaneously in the same organism",
+      "explanation": "Incomplete dominance: RR (red) × WW (white) → RW (pink) — a blend. Codominance: both alleles are fully expressed simultaneously — IAIB blood type shows both A and B antigens, human hemoglobin in sickle cell trait shows both normal and sickle hemoglobin."
+    },
+    {
+      "id": 38,
+      "question": "What is the role of ribosomes in cells?",
+      "choices": [
+        "Digesting cellular waste and foreign particles",
+        "Synthesizing proteins by translating mRNA sequences according to the genetic code",
+        "Packaging proteins for export from the cell",
+        "Storing lipids for cellular membrane production"
+      ],
+      "answer": "Synthesizing proteins by translating mRNA sequences according to the genetic code",
+      "explanation": "Ribosomes are the sites of protein synthesis. They read mRNA codons (3-nucleotide sequences) and recruit corresponding aminoacyl-tRNA molecules to assemble the polypeptide chain. Free ribosomes synthesize cytoplasmic proteins; ribosomes on the rough ER synthesize membrane and secretory proteins."
+    },
+    {
+      "id": 39,
+      "question": "What is a phylogenetic tree and what does it show?",
+      "choices": [
+        "A map showing the geographic distribution of related species",
+        "A branching diagram representing the evolutionary relationships and common ancestors among groups of organisms",
+        "A family tree showing the inheritance of traits within a single species",
+        "A classification system for dividing species into taxonomic groups"
+      ],
+      "answer": "A branching diagram representing the evolutionary relationships and common ancestors among groups of organisms",
+      "explanation": "A phylogenetic tree (cladogram) uses morphological, molecular, and genetic data to infer evolutionary history. Branch points (nodes) represent common ancestors; branch lengths may represent time or genetic distance. Modern phylogenetics relies heavily on DNA and rRNA sequence comparisons."
+    },
+    {
+      "id": 40,
+      "question": "What is the Hardy-Weinberg principle and what are its five equilibrium conditions?",
+      "choices": [
+        "A principle stating that evolution always occurs at a constant rate in large populations",
+        "A mathematical model stating allele frequencies remain constant if no evolution is occurring; requires no mutation, random mating, large population, no gene flow, and no natural selection",
+        "A principle explaining how new alleles arise through mutation in small populations",
+        "A model showing that dominant alleles always increase in frequency over time"
+      ],
+      "answer": "A mathematical model stating allele frequencies remain constant if no evolution is occurring; requires no mutation, random mating, large population, no gene flow, and no natural selection",
+      "explanation": "Hardy-Weinberg equilibrium: p² + 2pq + q² = 1 (where p and q are allele frequencies). A population in HWE is not evolving. Any violation of the 5 conditions (no mutation, random mating, large population, no migration, no selection) causes allele frequencies to change — i.e., evolution is occurring."
+    },
+    {
+      "id": 41,
+      "question": "What is active transport and how does it differ from passive transport?",
+      "choices": [
+        "Active transport moves molecules from low to high concentration, requires ATP; passive transport moves molecules down their concentration gradient without energy",
+        "Active transport uses carrier proteins; passive transport occurs through the lipid bilayer only",
+        "Active transport is faster; passive transport is slower",
+        "Active transport occurs only in plant cells; passive transport occurs in all cells"
+      ],
+      "answer": "Active transport moves molecules from low to high concentration, requires ATP; passive transport moves molecules down their concentration gradient without energy",
+      "explanation": "Passive transport (diffusion, facilitated diffusion, osmosis) moves molecules down concentration gradients — no energy required. Active transport moves molecules against their gradient using ATP (e.g., Na⁺/K⁺ ATPase pump, proton pump). It is essential for maintaining cellular ion gradients and nutrient absorption."
+    },
+    {
+      "id": 42,
+      "question": "What is carrying capacity in population ecology and what factors determine it?",
+      "choices": [
+        "The minimum population size for genetic viability",
+        "The maximum population size an environment can sustain, determined by limiting factors like food, water, space, and disease",
+        "The rate of population growth under ideal conditions",
+        "The number of individuals per unit area at any given time"
+      ],
+      "answer": "The maximum population size an environment can sustain, determined by limiting factors like food, water, space, and disease",
+      "explanation": "Carrying capacity (K) is the population size at which birth rate equals death rate (population growth = 0). It is set by limiting resources: food, water, shelter, mates, and disease. Density-dependent factors (competition, predation, disease) become stronger as the population approaches K, regulating growth."
+    },
+    {
+      "id": 43,
+      "question": "What is the role of the liver in human digestion?",
+      "choices": [
+        "Producing digestive enzymes that break down proteins in the stomach",
+        "Producing bile salts that emulsify fats, and processing absorbed nutrients from the portal circulation",
+        "Absorbing water and electrolytes from digested food",
+        "Secreting insulin to regulate blood glucose after meals"
+      ],
+      "answer": "Producing bile salts that emulsify fats, and processing absorbed nutrients from the portal circulation",
+      "explanation": "The liver: (1) produces bile (stored in gallbladder) containing bile salts that emulsify dietary fats for lipase action; (2) receives portal blood with absorbed nutrients and processes them; (3) performs gluconeogenesis, glycogen storage, protein synthesis, and detoxification."
+    },
+    {
+      "id": 44,
+      "question": "What is lateral meristem and what is its function in plants?",
+      "choices": [
+        "Tissue at shoot and root tips responsible for primary growth (increase in length)",
+        "Tissue on the sides of stems and roots responsible for secondary growth (increase in girth/width)",
+        "Tissue responsible for producing flowers and reproductive structures",
+        "Tissue at leaf margins that produces lateral branches"
+      ],
+      "answer": "Tissue on the sides of stems and roots responsible for secondary growth (increase in girth/width)",
+      "explanation": "Lateral meristems are the vascular cambium (produces secondary xylem and phloem — wood and bark) and cork cambium (produces periderm). They are responsible for secondary growth — increasing the diameter of stems and roots. Only dicots and gymnosperms have significant lateral meristem activity."
+    },
+    {
+      "id": 45,
+      "question": "What is the role of the kidney in homeostasis?",
+      "choices": [
+        "Producing insulin to regulate blood glucose",
+        "Filtering blood to remove metabolic wastes, regulating water and electrolyte balance, and maintaining blood pH",
+        "Producing bile to aid in fat digestion",
+        "Synthesizing red blood cells for oxygen transport"
+      ],
+      "answer": "Filtering blood to remove metabolic wastes, regulating water and electrolyte balance, and maintaining blood pH",
+      "explanation": "The kidneys perform: (1) filtration of ~180L of blood plasma/day; (2) selective reabsorption of glucose, amino acids, water, ions; (3) secretion of waste products (urea, creatinine, drugs); (4) regulation of blood volume and pressure (renin-angiotensin system); (5) pH regulation through bicarbonate control."
+    },
+    {
+      "id": 46,
+      "question": "What is transpiration in plants and what factors affect its rate?",
+      "choices": [
+        "The process of absorbing water through root hairs from the soil",
+        "The loss of water vapor through stomata, primarily from leaves, driven by temperature, humidity, wind, and light",
+        "The transport of sugars from leaves to roots through the phloem",
+        "The process of CO₂ entering leaves through stomata during photosynthesis"
+      ],
+      "answer": "The loss of water vapor through stomata, primarily from leaves, driven by temperature, humidity, wind, and light",
+      "explanation": "Transpiration pulls water up through the xylem (transpiration pull/cohesion-tension mechanism). Factors increasing transpiration: higher temperature, lower humidity, wind, higher light intensity (opens stomata). Abscisic acid (ABA) causes stomatal closure during drought. 97% of water absorbed by roots is transpired."
+    },
+    {
+      "id": 47,
+      "question": "What is the difference between a virus and a bacterium?",
+      "choices": [
+        "Viruses are larger than bacteria",
+        "Viruses are non-cellular obligate intracellular parasites requiring a host to replicate; bacteria are single-celled organisms capable of independent reproduction",
+        "Both are treated effectively with antibiotics",
+        "Viruses have a cell wall; bacteria do not"
+      ],
+      "answer": "Viruses are non-cellular obligate intracellular parasites requiring a host to replicate; bacteria are single-celled organisms capable of independent reproduction",
+      "explanation": "Bacteria: prokaryotic cells with their own ribosomes, metabolic machinery, and ability to reproduce independently. Can be killed by antibiotics. Viruses: acellular (protein coat + nucleic acid), no ribosomes or independent metabolism, require host cell machinery to replicate. Antibiotics are ineffective against viruses."
+    },
+    {
+      "id": 48,
+      "question": "What is ecological succession and what is the difference between primary and secondary succession?",
+      "choices": [
+        "The evolution of species over geological time scales",
+        "The directional change in community composition over time; primary begins on bare substrate with no soil; secondary begins where soil remains after disturbance",
+        "The replacement of one ecosystem type by another due to climate change",
+        "The seasonal changes in species abundance throughout the year"
+      ],
+      "answer": "The directional change in community composition over time; primary begins on bare substrate with no soil; secondary begins where soil remains after disturbance",
+      "explanation": "Ecological succession is the process of community change over time. Primary succession (e.g., on volcanic rock or glacial till) begins with pioneer species (lichens, mosses) and can take centuries. Secondary succession (e.g., after forest fire, agricultural abandonment) is faster because soil and seed banks remain."
+    },
+    {
+      "id": 49,
+      "question": "What is the significance of the phospholipid bilayer structure of the cell membrane?",
+      "choices": [
+        "It provides rigid structural support for the cell",
+        "Its amphipathic nature (hydrophilic heads outward, hydrophobic tails inward) creates a selectively permeable barrier that controls the passage of substances",
+        "It stores energy in the form of phospholipid molecules",
+        "It facilitates all active transport across the membrane through lipid channels"
+      ],
+      "answer": "Its amphipathic nature (hydrophilic heads outward, hydrophobic tails inward) creates a selectively permeable barrier that controls the passage of substances",
+      "explanation": "Phospholipids have hydrophilic (water-loving) phosphate heads and hydrophobic (water-fearing) fatty acid tails. In water, they spontaneously form bilayers with tails facing inward. This creates a barrier that: freely allows nonpolar/small molecules through, restricts ions and large polar molecules, requiring transport proteins."
+    },
+    {
+      "id": 50,
+      "question": "What is gene expression and how is it regulated in eukaryotes?",
+      "choices": [
+        "Gene expression refers only to translation of mRNA into proteins",
+        "Gene expression is the process by which genetic information produces a functional product (RNA or protein), regulated at transcriptional, post-transcriptional, translational, and post-translational levels",
+        "Gene expression is the physical appearance of genetic traits in an organism",
+        "Gene expression occurs only when genes are permanently activated"
+      ],
+      "answer": "Gene expression is the process by which genetic information produces a functional product (RNA or protein), regulated at transcriptional, post-transcriptional, translational, and post-translational levels",
+      "explanation": "Gene expression encompasses both transcription (DNA → mRNA) and translation (mRNA → protein). Eukaryotic regulation includes: transcriptional (promoters, enhancers, transcription factors, chromatin remodeling); post-transcriptional (splicing, miRNA); translational (ribosome access); post-translational (protein modification, degradation)."
     }
   ]
 }

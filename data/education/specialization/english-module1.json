@@ -121,6 +121,481 @@
       ],
       "answer": "Action Research — because it is practitioner-led inquiry aimed at improving a specific classroom practice",
       "explanation": "Action research is conducted by practitioners (teachers) within their own classrooms to solve an identified problem and immediately improve practice. Key features: the teacher is the researcher, the context is the teacher's own setting, and the primary goal is practical improvement — not generalizable theory."
+    },
+    {
+      "id": 11,
+      "question": "What is a morpheme?",
+      "choices": [
+        "A single letter of the alphabet",
+        "The smallest unit of meaning in a language",
+        "A single spoken syllable",
+        "A unit of sound that can change word meaning"
+      ],
+      "answer": "The smallest unit of meaning in a language",
+      "explanation": "A morpheme is the smallest grammatical unit that carries meaning. 'Dogs' has two morphemes: 'dog' (free morpheme, content word) + '-s' (bound morpheme, plural marker). Morphemes may be free (stand alone) or bound (require attachment to another morpheme)."
+    },
+    {
+      "id": 12,
+      "question": "What is pragmatics in linguistics?",
+      "choices": [
+        "The study of the historical development of language",
+        "The study of how context influences the interpretation of meaning in communication",
+        "The study of the internal structure of words",
+        "The study of sound patterns in language"
+      ],
+      "answer": "The study of how context influences the interpretation of meaning in communication",
+      "explanation": "Pragmatics examines how context — social, situational, and conversational — affects how utterances are interpreted. It includes speech acts, implicature (Grice), politeness, deixis, and discourse, going beyond literal sentence meaning."
+    },
+    {
+      "id": 13,
+      "question": "What literary device involves the repetition of initial consonant sounds in closely connected words?",
+      "choices": ["Assonance", "Consonance", "Alliteration", "Onomatopoeia"],
+      "answer": "Alliteration",
+      "explanation": "Alliteration is the repetition of the same consonant sound at the beginning of nearby words (e.g., 'Peter Piper picked a peck'). Assonance is the repetition of vowel sounds. Consonance is the repetition of consonant sounds anywhere in the word. Onomatopoeia is words that sound like what they describe."
+    },
+    {
+      "id": 14,
+      "question": "Who wrote 'The Waste Land' (1922) and what modernist technique does it prominently employ?",
+      "choices": [
+        "W.B. Yeats — stream of consciousness narration",
+        "T.S. Eliot — fragmentation, allusion, and multiple voices/perspectives",
+        "Virginia Woolf — interior monologue and temporal stream",
+        "Ezra Pound — imagism and minimalist imagery"
+      ],
+      "answer": "T.S. Eliot — fragmentation, allusion, and multiple voices/perspectives",
+      "explanation": "T.S. Eliot's 'The Waste Land' (1922) is a defining modernist poem employing extreme fragmentation, dense literary and cultural allusions, multiple speakers, multiple languages, and stream-of-consciousness techniques to depict spiritual desolation in post-WWI Europe."
+    },
+    {
+      "id": 15,
+      "question": "What is the difference between denotation and connotation?",
+      "choices": [
+        "Denotation is subjective meaning; connotation is dictionary meaning",
+        "Denotation is the literal dictionary meaning; connotation is the emotional or cultural association",
+        "Denotation refers to verbs; connotation refers to adjectives",
+        "They are interchangeable terms for word meaning"
+      ],
+      "answer": "Denotation is the literal dictionary meaning; connotation is the emotional or cultural association",
+      "explanation": "Denotation is the explicit, primary meaning of a word (e.g., 'snake' = reptile). Connotation is the secondary meaning with emotional or cultural associations (e.g., 'snake' connotes deception or danger). Understanding both is essential for literary interpretation and word choice."
+    },
+    {
+      "id": 16,
+      "question": "What is a Bildungsroman?",
+      "choices": [
+        "A German term for a poem about nature and beauty",
+        "A novel that follows the moral and psychological growth of a protagonist from youth to adulthood",
+        "A dramatic monologue exploring a character's inner conflict",
+        "A literary movement emphasizing realism in portraying working-class life"
+      ],
+      "answer": "A novel that follows the moral and psychological growth of a protagonist from youth to adulthood",
+      "explanation": "A Bildungsroman (German: 'formation novel') is a coming-of-age narrative tracing a protagonist's development from youth through formative experiences. Examples include Dickens' Great Expectations, Goethe's Wilhelm Meister, and José Rizal's Noli Me Tangere (with Filipino parallels)."
+    },
+    {
+      "id": 17,
+      "question": "What is code-switching in sociolinguistics?",
+      "choices": [
+        "Changing passwords to secure digital communication",
+        "Alternating between two or more languages or dialects within a single conversation or utterance",
+        "Translating text from one language to another for comprehension",
+        "Teaching two languages simultaneously in a bilingual classroom"
+      ],
+      "answer": "Alternating between two or more languages or dialects within a single conversation or utterance",
+      "explanation": "Code-switching is the practice of shifting between languages, dialects, or registers in a conversation (e.g., Taglish in the Philippines). Research shows code-switching among bilinguals is rule-governed, creative, and signals group identity — not a sign of linguistic deficiency."
+    },
+    {
+      "id": 18,
+      "question": "What is the SQ3R reading strategy?",
+      "choices": [
+        "Skim, Question, Read, Recite, Review",
+        "Survey, Question, Read, Recite, Review",
+        "Summarize, Query, Reread, Reflect, Respond",
+        "Scan, Question, Reason, Record, Review"
+      ],
+      "answer": "Survey, Question, Read, Recite, Review",
+      "explanation": "SQ3R (Francis Robinson, 1946) is a systematic reading strategy: Survey (preview headings), Question (turn headings into questions), Read (answer the questions), Recite (recall key points), Review (synthesize the whole). It activates prior knowledge and improves retention."
+    },
+    {
+      "id": 19,
+      "question": "Who wrote 'Things Fall Apart' and what is its significance in world literature?",
+      "choices": [
+        "Wole Soyinka — first African Nobel laureate who criticized colonialism in drama",
+        "Chinua Achebe — considered the 'father of African literature,' depicting the impact of British colonialism on Igbo culture",
+        "Ngugi wa Thiong'o — Kenyan novelist who later renamed himself to reject colonialism",
+        "Chimamanda Adichie — feminist author who wrote about Nigerian independence"
+      ],
+      "answer": "Chinua Achebe — considered the 'father of African literature,' depicting the impact of British colonialism on Igbo culture",
+      "explanation": "'Things Fall Apart' (Achebe, 1958) is one of the most widely read African novels, depicting the collapse of Okonkwo's Igbo world under British colonialism and Christian missions. Its title alludes to W.B. Yeats' 'The Second Coming,' highlighting the deliberate intertextual dialogue with Western canonical texts."
+    },
+    {
+      "id": 20,
+      "question": "What is the plot structure described by Freytag's Pyramid?",
+      "choices": [
+        "Introduction, Development, Conflict, Climax, Resolution",
+        "Exposition, Rising Action, Climax, Falling Action, Denouement (Resolution)",
+        "Problem, Complication, Rising Tension, Turning Point, Solution",
+        "Setting, Characters, Conflict, Theme, Resolution"
+      ],
+      "answer": "Exposition, Rising Action, Climax, Falling Action, Denouement (Resolution)",
+      "explanation": "Freytag's Pyramid (Gustav Freytag, 1863) maps dramatic structure in five parts: Exposition (introduction of characters and setting), Rising Action (complication and building tension), Climax (the turning point), Falling Action (consequences), and Denouement/Resolution (final outcome)."
+    },
+    {
+      "id": 21,
+      "question": "What distinguishes a simile from a metaphor?",
+      "choices": [
+        "Similes compare abstract concepts; metaphors compare physical objects",
+        "Similes use 'like' or 'as' to make comparisons; metaphors state directly that one thing IS another",
+        "Similes are used in poetry; metaphors are used in prose",
+        "Similes are more complex; metaphors are simpler figures of speech"
+      ],
+      "answer": "Similes use 'like' or 'as' to make comparisons; metaphors state directly that one thing IS another",
+      "explanation": "Simile: 'Her smile was like sunshine.' Metaphor: 'Her smile was sunshine.' Both are figurative comparisons, but simile signals the comparison with 'like' or 'as,' while metaphor makes an implicit or direct identification of one thing with another."
+    },
+    {
+      "id": 22,
+      "question": "What is synecdoche?",
+      "choices": [
+        "A figure of speech where a part represents the whole or vice versa",
+        "The use of a related term to replace a direct term",
+        "Attributing human qualities to non-human things",
+        "An overstatement for emphasis"
+      ],
+      "answer": "A figure of speech where a part represents the whole or vice versa",
+      "explanation": "Synecdoche uses a part to represent the whole ('All hands on deck' — hands representing sailors) or the whole to represent a part ('The Philippines won the gold' — meaning Philippine athletes). It differs from metonymy, where an associated concept substitutes for the thing itself."
+    },
+    {
+      "id": 23,
+      "question": "What is task-based language teaching (TBLT)?",
+      "choices": [
+        "Teaching language skills through isolated drills and exercises",
+        "Using communicative tasks as the primary unit of instruction to promote authentic language use",
+        "Assigning daily homework tasks to practice grammar rules",
+        "Teaching grammar through task completion within a behaviorist framework"
+      ],
+      "answer": "Using communicative tasks as the primary unit of instruction to promote authentic language use",
+      "explanation": "TBLT (Long, Willis) organizes instruction around meaning-focused communicative tasks (planning a trip, solving a problem) rather than language forms. The cycle is: Pre-task (prepare), Task (execute), Post-task (analyze language). It bridges form and function in language learning."
+    },
+    {
+      "id": 24,
+      "question": "Who is Paz Marquez Benitez and why is she significant in Philippine literature?",
+      "choices": [
+        "She wrote 'Florante at Laura,' the first Tagalog romance",
+        "She wrote 'Dead Stars' (1925), considered the first modern Philippine short story in English",
+        "She was the first Filipino woman to win the Palanca Award",
+        "She pioneered the use of Filipino language in academic writing"
+      ],
+      "answer": "She wrote 'Dead Stars' (1925), considered the first modern Philippine short story in English",
+      "explanation": "'Dead Stars' by Paz Marquez Benitez (1925) is considered the first modern Philippine short story written in English. It explores themes of false idealization, unfulfilled longing, and the disillusionment of maturity through Alfredo Salazar's obsession with Esperanza and Julia Salas."
+    },
+    {
+      "id": 25,
+      "question": "What is CALP (Cognitive Academic Language Proficiency)?",
+      "choices": [
+        "Basic conversational skills needed for everyday social interaction",
+        "The academic language proficiency required for school success in cognitively demanding, context-reduced tasks",
+        "A standardized test measuring bilingual language ability",
+        "The minimum English proficiency for immigrant students"
+      ],
+      "answer": "The academic language proficiency required for school success in cognitively demanding, context-reduced tasks",
+      "explanation": "Cummins distinguished BICS (Basic Interpersonal Communication Skills) — conversational fluency developed in 1-2 years — from CALP — academic language for reading academic texts, writing essays, and reasoning in content areas, which takes 5-7 years to develop. Teachers must not mistake BICS for overall language proficiency."
+    },
+    {
+      "id": 26,
+      "question": "What is the monitor hypothesis in Krashen's Input Hypothesis theory?",
+      "choices": [
+        "Conscious learning helps students monitor or edit their language output",
+        "Teachers monitor student language acquisition and intervene when errors occur",
+        "Learners monitor input to filter out incomprehensible language",
+        "The subconscious acquisition monitor controls language fluency"
+      ],
+      "answer": "Conscious learning helps students monitor or edit their language output",
+      "explanation": "Krashen's Monitor Hypothesis states that consciously learned language (rules, grammar) serves only as a monitor or editor — it checks and corrects output before or after it is produced. The monitor works only when there is time, focus on form, and knowledge of the rule."
+    },
+    {
+      "id": 27,
+      "question": "What is free verse in poetry?",
+      "choices": [
+        "Poetry with a simple, accessible style for all readers",
+        "Poetry freely available for public use without copyright",
+        "Poetry that does not follow regular meter or rhyme schemes",
+        "Poetry written in the oral tradition without written form"
+      ],
+      "answer": "Poetry that does not follow regular meter or rhyme schemes",
+      "explanation": "Free verse is poetry that does not adhere to traditional formal structures of meter, rhyme, or stanza patterns. It relies on natural rhythms of speech, line breaks, and sound devices for effect. Walt Whitman's 'Song of Myself' is a pioneering example."
+    },
+    {
+      "id": 28,
+      "question": "What is the purpose of a thesis statement in an essay?",
+      "choices": [
+        "To summarize all the evidence presented in the essay",
+        "To identify the topic of the essay",
+        "To state the main argument or central claim of the essay that guides its development",
+        "To provide background information on the topic"
+      ],
+      "answer": "To state the main argument or central claim of the essay that guides its development",
+      "explanation": "A thesis statement is a declarative sentence (usually at the end of the introduction) that makes a specific, arguable claim and tells readers what the essay will argue and how. A strong thesis is specific, debatable, and supported by evidence throughout the essay."
+    },
+    {
+      "id": 29,
+      "question": "What is critical literacy?",
+      "choices": [
+        "Advanced reading comprehension skills for complex academic texts",
+        "The ability to analyze texts for underlying power structures, ideology, and social positioning",
+        "Literacy skills needed for critical thinking in mathematics and science",
+        "The ability to evaluate sources for credibility and accuracy"
+      ],
+      "answer": "The ability to analyze texts for underlying power structures, ideology, and social positioning",
+      "explanation": "Critical literacy encourages readers to question whose interests a text serves, whose voices are represented or silenced, and how language constructs social realities. Rooted in Paulo Freire's work, it empowers learners to 'read the word and the world' critically."
+    },
+    {
+      "id": 30,
+      "question": "What is an unreliable narrator in fiction?",
+      "choices": [
+        "A narrator whose account is incomplete due to limited knowledge",
+        "A narrator whose credibility is compromised by bias, limited understanding, or deliberate deception",
+        "A third-person narrator who does not know all the facts",
+        "A narrator who frequently changes perspective throughout the story"
+      ],
+      "answer": "A narrator whose credibility is compromised by bias, limited understanding, or deliberate deception",
+      "explanation": "An unreliable narrator (Booth, 1961) is one whose account cannot be taken at face value. The reader must read between the lines to understand what is 'really' happening. Classic examples: Stevens in 'The Remains of the Day,' Nick Carraway in 'The Great Gatsby,' Holden Caulfield in 'The Catcher in the Rye.'"
+    },
+    {
+      "id": 31,
+      "question": "What is magical realism as a literary mode?",
+      "choices": [
+        "Science fiction that uses magic systems based on scientific principles",
+        "A narrative style that blends realistic narrative with magical elements treated as ordinary occurrences",
+        "Fantasy literature set in realistic historical settings",
+        "Fairy tales rewritten with modern realistic settings"
+      ],
+      "answer": "A narrative style that blends realistic narrative with magical elements treated as ordinary occurrences",
+      "explanation": "Magical realism presents magical events matter-of-factly alongside mundane reality. Associated with Latin American literature (García Márquez's '100 Years of Solitude'), it also appears in Philippine writing. It often reflects cultural worldviews where the supernatural coexists with the natural."
+    },
+    {
+      "id": 32,
+      "question": "What is phonics instruction and why is it important for reading teachers?",
+      "choices": [
+        "Teaching students to recognize high-frequency sight words by memorization",
+        "Teaching the relationships between letters (graphemes) and sounds (phonemes) to decode words",
+        "Teaching pronunciation through auditory discrimination exercises",
+        "Teaching reading comprehension through phonological awareness activities"
+      ],
+      "answer": "Teaching the relationships between letters (graphemes) and sounds (phonemes) to decode words",
+      "explanation": "Phonics instruction teaches the systematic relationships between written symbols (graphemes) and sounds (phonemes). Research (National Reading Panel) strongly supports systematic, explicit phonics instruction as a foundation for reading acquisition, especially for early readers and struggling decoders."
+    },
+    {
+      "id": 33,
+      "question": "What is the genre approach to writing instruction?",
+      "choices": [
+        "Allowing students to choose any writing genre based on personal preference",
+        "Teaching writing by explicitly teaching the structure, purpose, and language features of specific text types",
+        "Teaching all genres simultaneously to develop versatile writers",
+        "Using genre fiction (mystery, romance, sci-fi) to motivate reluctant writers"
+      ],
+      "answer": "Teaching writing by explicitly teaching the structure, purpose, and language features of specific text types",
+      "explanation": "The genre approach (Sydney School/Systemic Functional Linguistics) teaches students the conventions of specific text types (narrative, persuasive, expository). By modeling, joint construction, and independent writing within genres, students learn how language works differently in different social contexts."
+    },
+    {
+      "id": 34,
+      "question": "What is intertextuality?",
+      "choices": [
+        "The connection between a text and its historical context",
+        "The shaping of a text's meaning by references to or echoes of other texts",
+        "The relationship between a writer's biography and their literary work",
+        "The study of translations across different languages and cultures"
+      ],
+      "answer": "The shaping of a text's meaning by references to or echoes of other texts",
+      "explanation": "Intertextuality (Kristeva, Barthes) is the idea that all texts contain traces of other texts and exist in relationship to a wider network of texts. Understanding intertextual references enriches interpretation — for example, recognizing Achebe's 'Things Fall Apart' title as referencing Yeats deepens the novel's meaning."
+    },
+    {
+      "id": 35,
+      "question": "What is the difference between intensive and extensive reading?",
+      "choices": [
+        "Intensive reading is fast; extensive reading is slow and careful",
+        "Intensive involves close, detailed analysis of short texts; extensive involves reading large amounts for overall comprehension and fluency",
+        "Intensive reading is assigned; extensive reading is voluntary",
+        "Intensive reading is for comprehension; extensive reading is for vocabulary"
+      ],
+      "answer": "Intensive involves close, detailed analysis of short texts; extensive involves reading large amounts for overall comprehension and fluency",
+      "explanation": "Intensive reading involves careful, detailed study of texts to understand language features, vocabulary, and structure (typical of language classrooms). Extensive reading involves reading large amounts of slightly below-level texts for pleasure and fluency, which Krashen connects to language acquisition through 'comprehensible input.'"
+    },
+    {
+      "id": 36,
+      "question": "Who wrote 'The Great Gatsby' and what is the American Dream motif in the novel?",
+      "choices": [
+        "Ernest Hemingway — the pursuit of wealth leads to war and meaninglessness",
+        "F. Scott Fitzgerald — the corruption and ultimate hollowness of the American Dream in the Roaring Twenties",
+        "William Faulkner — the Southern aristocracy's failed pursuit of the American Dream",
+        "John Steinbeck — the working class's betrayal by the American Dream during the Depression"
+      ],
+      "answer": "F. Scott Fitzgerald — the corruption and ultimate hollowness of the American Dream in the Roaring Twenties",
+      "explanation": "'The Great Gatsby' (Fitzgerald, 1925) critiques the American Dream through Jay Gatsby's pursuit of wealth, status, and Daisy Buchanan. The green light symbolizes unattainable desire. The novel exposes how the Dream's promise of upward mobility masks moral corruption, class rigidity, and inevitable disillusionment."
+    },
+    {
+      "id": 37,
+      "question": "What is prosody in the study of poetry?",
+      "choices": [
+        "The study of prose narrative techniques in long-form literature",
+        "The study of versification including meter, rhythm, rhyme, and sound patterns in poetry",
+        "The branch of linguistics studying sentence structure and syntax",
+        "The technique of interpreting symbolic meaning in literary works"
+      ],
+      "answer": "The study of versification including meter, rhythm, rhyme, and sound patterns in poetry",
+      "explanation": "Prosody is the study of the formal elements of poetry: meter (the pattern of stressed and unstressed syllables), rhythm, rhyme scheme, stanza form, and sound devices (alliteration, assonance, etc.). It provides the tools for formal analysis of poetic craft."
+    },
+    {
+      "id": 38,
+      "question": "What does 'scaffolded writing instruction' mean?",
+      "choices": [
+        "Teaching writing using construction and building metaphors",
+        "Providing temporary, structured support that is gradually withdrawn as students develop writing independence",
+        "Using writing templates that students fill in to complete assignments",
+        "Organizing writing instruction around a sequential scaffold of five essay structures"
+      ],
+      "answer": "Providing temporary, structured support that is gradually withdrawn as students develop writing independence",
+      "explanation": "Scaffolded writing instruction provides graduated support — modeling, shared writing, guided writing, independent writing — that is progressively reduced as students gain competence. The 'I do, we do, you do' (gradual release of responsibility) model is the most common framework."
+    },
+    {
+      "id": 39,
+      "question": "What is a literature circle?",
+      "choices": [
+        "A circular seating arrangement for literature classes",
+        "A small-group discussion activity where students assume different roles to discuss a shared reading",
+        "A debate activity comparing characters from different literary works",
+        "A school library reading program for elementary students"
+      ],
+      "answer": "A small-group discussion activity where students assume different roles to discuss a shared reading",
+      "explanation": "Literature circles (Harvey Daniels) are small, peer-led discussion groups where students read the same book and take on roles (Discussion Director, Summarizer, Vocabulary Enricher, Illustrator) to guide structured conversations. They develop reading comprehension, critical thinking, and collaborative discussion skills."
+    },
+    {
+      "id": 40,
+      "question": "What is the Affective Filter Hypothesis and its application to English language teaching?",
+      "choices": [
+        "A hypothesis that emotional content in texts helps motivate language learners",
+        "Krashen's hypothesis that negative emotions (anxiety, low confidence) block language acquisition by raising a 'filter' against input",
+        "A theory that affective domain objectives are more important than cognitive objectives in language teaching",
+        "A hypothesis that positive affect in the classroom automatically produces language acquisition"
+      ],
+      "answer": "Krashen's hypothesis that negative emotions (anxiety, low confidence) block language acquisition by raising a 'filter' against input",
+      "explanation": "Krashen's Affective Filter Hypothesis states that emotional variables raise or lower a 'filter' that blocks or allows comprehensible input to reach the language acquisition device. EFL/ESL teachers lower the filter by creating low-anxiety, supportive, encouraging classroom environments."
+    },
+    {
+      "id": 41,
+      "question": "What is a haiku and what are its structural requirements?",
+      "choices": [
+        "A Korean verse form with 4-4-4 syllable structure",
+        "A Japanese poem of three lines with 5-7-5 syllable structure, often depicting nature",
+        "A Chinese poem with exactly 7 characters per line",
+        "A short poem of any length with a single seasonal image"
+      ],
+      "answer": "A Japanese poem of three lines with 5-7-5 syllable structure, often depicting nature",
+      "explanation": "A traditional haiku is a three-line Japanese poem with 5 syllables in the first line, 7 in the second, and 5 in the third. It typically captures a moment in nature (kigo = seasonal reference) and uses juxtaposition (kireji = cutting word) to create an effect. Matsuo Basho is the master of the form."
+    },
+    {
+      "id": 42,
+      "question": "What is the distinction between a pidgin and a creole language?",
+      "choices": [
+        "Pidgins are written languages; creoles are spoken only",
+        "A pidgin is a simplified contact language with no native speakers; a creole develops when a pidgin becomes the native language of a community",
+        "Pidgins are developed by linguists; creoles develop naturally",
+        "They are different names for the same phenomenon of language mixing"
+      ],
+      "answer": "A pidgin is a simplified contact language with no native speakers; a creole develops when a pidgin becomes the native language of a community",
+      "explanation": "A pidgin arises from contact between groups with no common language — it is simplified and used for limited communication. When the next generation grows up speaking a pidgin as their first language, it expands grammatically and becomes a creole (e.g., Chavacano in the Philippines is a Spanish-based creole)."
+    },
+    {
+      "id": 43,
+      "question": "What is the whole language approach to literacy instruction?",
+      "choices": [
+        "Teaching reading by systematically drilling phoneme-grapheme correspondences",
+        "An approach emphasizing meaningful engagement with authentic texts and learning language as a whole system",
+        "Teaching the whole class simultaneously rather than differentiating instruction",
+        "Covering the whole English curriculum in one school year"
+      ],
+      "answer": "An approach emphasizing meaningful engagement with authentic texts and learning language as a whole system",
+      "explanation": "The whole language approach (Goodman, Smith) views language as a meaning-making system best learned through authentic reading and writing experiences, not isolated skills practice. It emphasizes student choice, real literature, and construction of meaning, in contrast to phonics-first approaches."
+    },
+    {
+      "id": 44,
+      "question": "What is foil character in literature?",
+      "choices": [
+        "A villainous character who opposes the protagonist",
+        "A character whose contrasting traits highlight the qualities of another character (usually the protagonist)",
+        "A secondary character who provides comic relief",
+        "A character who narrates events they did not witness firsthand"
+      ],
+      "answer": "A character whose contrasting traits highlight the qualities of another character (usually the protagonist)",
+      "explanation": "A foil character is deliberately constructed to contrast with another character to emphasize certain traits. In 'Harry Potter,' Draco Malfoy is Harry's foil — his cunning, prejudice, and cowardice highlight Harry's courage, loyalty, and compassion."
+    },
+    {
+      "id": 45,
+      "question": "What is the purpose of portfolio assessment in English language arts?",
+      "choices": [
+        "To collect standardized test scores in one document for reporting",
+        "To gather samples of student writing over time that demonstrate growth, reflection, and diverse competencies",
+        "To compare student work with national writing standards",
+        "To store finished essays for publication"
+      ],
+      "answer": "To gather samples of student writing over time that demonstrate growth, reflection, and diverse competencies",
+      "explanation": "Portfolio assessment in English language arts collects multiple writing samples, drafts, revisions, and student reflections over time. It reveals development and growth that single tests cannot show, and encourages metacognitive reflection on the writing process."
+    },
+    {
+      "id": 46,
+      "question": "What is the stream of consciousness technique in literature?",
+      "choices": [
+        "A technique portraying the continuous, often unstructured flow of thoughts and feelings in a character's mind",
+        "A narrative technique where events are presented in strict chronological order",
+        "A writing style emphasizing the rapid action and movement of plot",
+        "A technique using multiple narrators to show different perspectives"
+      ],
+      "answer": "A technique portraying the continuous, often unstructured flow of thoughts and feelings in a character's mind",
+      "explanation": "Stream of consciousness (William James's psychological concept, literary technique developed by Woolf, Joyce, Faulkner) mimics the natural flow of a character's thoughts, including fragmentary, associative, and apparently illogical elements. Virginia Woolf's 'Mrs. Dalloway' is a celebrated example."
+    },
+    {
+      "id": 47,
+      "question": "What is genre theory in writing and how does it inform teaching?",
+      "choices": [
+        "The belief that students should be free to write in any genre they choose",
+        "The study of how texts are socially situated, purposeful, and follow conventionalized structures that can be taught explicitly",
+        "A theory that distinguishes literary genres (novel, poem, drama) for classification purposes",
+        "The application of science fiction, mystery, and romance conventions to academic writing"
+      ],
+      "answer": "The study of how texts are socially situated, purposeful, and follow conventionalized structures that can be taught explicitly",
+      "explanation": "Genre theory (Martin, Halliday) posits that genres are typified responses to recurring social situations. Teaching writing through genre means explicitly teaching the stages, purpose, and language features of text types (narrative, argument, report), making implicit knowledge explicit — particularly important for students from non-mainstream discourse communities."
+    },
+    {
+      "id": 48,
+      "question": "What is the New Criticism approach to literary analysis?",
+      "choices": [
+        "A contemporary approach using digital tools to analyze literary texts",
+        "A mid-20th century approach emphasizing close reading of the text itself, excluding biographical and historical context",
+        "A critical approach centering on the author's stated intentions",
+        "A socially conscious approach examining literature's role in perpetuating inequality"
+      ],
+      "answer": "A mid-20th century approach emphasizing close reading of the text itself, excluding biographical and historical context",
+      "explanation": "New Criticism (Wimsatt, Brooks, Warren) advocates for 'the text itself' — focusing on imagery, paradox, irony, ambiguity, and organic unity, excluding the 'intentional fallacy' (author's intent) and 'affective fallacy' (reader's emotional response). Close reading skills from New Criticism remain fundamental to literary analysis."
+    },
+    {
+      "id": 49,
+      "question": "What is code-mixing versus code-switching?",
+      "choices": [
+        "They are identical sociolinguistic phenomena",
+        "Code-switching involves alternating languages between utterances; code-mixing involves mixing within a single utterance",
+        "Code-switching is formal; code-mixing is informal",
+        "Code-switching occurs in speaking; code-mixing occurs in writing"
+      ],
+      "answer": "Code-switching involves alternating languages between utterances; code-mixing involves mixing within a single utterance",
+      "explanation": "Code-switching (inter-sentential) is the alternation between languages at sentence or clause boundaries: 'Kain tayo. Let's go.' Code-mixing (intra-sentential) involves mixing within a single utterance: 'Kumain na kami ng lunch.' Both reflect sophisticated bilingual competence."
+    },
+    {
+      "id": 50,
+      "question": "What is the feminist literary criticism approach?",
+      "choices": [
+        "An approach that only studies literature written by women",
+        "A critical framework that examines how gender, power, and patriarchal ideology are constructed and challenged in literary texts",
+        "A theory that women write better literature than men",
+        "An approach that evaluates literature based on its positive portrayal of female characters"
+      ],
+      "answer": "A critical framework that examines how gender, power, and patriarchal ideology are constructed and challenged in literary texts",
+      "explanation": "Feminist literary criticism (Showalter, Gilbert, Gubar) examines how literature represents, constructs, and challenges gender roles and patriarchal power structures. It asks: How are women represented? Whose story is told? Whose voice is silenced? It reads both canonical texts and recovered women's writing critically."
     }
   ]
 }

@@ -211,6 +211,146 @@
       "choices": ["Increases soil temperature", "Reduces water runoff and soil erosion on slopes", "Improves pest control", "Increases fertilizer efficiency"],
       "answer": "Reduces water runoff and soil erosion on slopes",
       "explanation": "Contour farming involves plowing and planting across the slope (perpendicular to water flow), which slows runoff, increases water infiltration, and significantly reduces soil erosion."
+    },
+    {
+      "id": 31,
+      "question": "What is Cation Exchange Capacity (CEC)?",
+      "choices": ["The total amount of water soil can hold", "The soil's ability to hold and exchange positively charged ions", "The rate at which nutrients leach from soil", "The pH buffering capacity of soil"],
+      "answer": "The soil's ability to hold and exchange positively charged ions",
+      "explanation": "CEC is a measure of the soil's ability to hold and release cations (positively charged ions like Ca²⁺, Mg²⁺, K⁺, and NH₄⁺). High CEC soils (clays, organic-rich soils) retain more nutrients."
+    },
+    {
+      "id": 32,
+      "question": "What soil pH range is generally optimal for most field crops?",
+      "choices": ["4.0–5.0", "5.5–6.5", "7.5–8.5", "8.0–9.0"],
+      "answer": "5.5–6.5",
+      "explanation": "Most field crops grow best in a slightly acidic to near-neutral pH of 5.5–6.5. Within this range, most plant nutrients are highly available and toxic elements are less soluble."
+    },
+    {
+      "id": 33,
+      "question": "What is leaching in soil science?",
+      "choices": ["The upward movement of salt to the soil surface", "The downward movement of water and dissolved nutrients through the soil profile", "The breakdown of organic matter by microorganisms", "Compaction of soil particles by raindrops"],
+      "answer": "The downward movement of water and dissolved nutrients through the soil profile",
+      "explanation": "Leaching is the process by which water-soluble nutrients (especially nitrates) are washed downward through the soil profile and may be lost from the root zone, reducing soil fertility."
+    },
+    {
+      "id": 34,
+      "question": "What is the primary source of soil organic matter?",
+      "choices": ["Inorganic minerals from parent rock", "Decomposed plant and animal residues", "Rainfall and irrigation water", "Synthetic fertilizers"],
+      "answer": "Decomposed plant and animal residues",
+      "explanation": "Soil organic matter is primarily derived from the decomposition of plant and animal residues by soil microorganisms. It improves soil structure, water retention, nutrient supply, and biological activity."
+    },
+    {
+      "id": 35,
+      "question": "What is soil porosity?",
+      "choices": ["The total mineral content of the soil", "The percentage of soil volume occupied by pores", "The rate of water infiltration", "The ratio of clay to sand particles"],
+      "answer": "The percentage of soil volume occupied by pores",
+      "explanation": "Soil porosity refers to the proportion of the soil volume made up of pores (spaces). These pores hold air and water, which are essential for root growth and microbial activity."
+    },
+    {
+      "id": 36,
+      "question": "Which micronutrient deficiency causes interveinal chlorosis in young leaves?",
+      "choices": ["Nitrogen deficiency", "Iron (Fe) deficiency", "Calcium deficiency", "Boron deficiency"],
+      "answer": "Iron (Fe) deficiency",
+      "explanation": "Iron (Fe) deficiency causes interveinal chlorosis in young leaves — the leaf tissue between veins turns yellow while the veins remain green. This occurs because iron is immobile in plants and young leaves cannot draw it from older leaves."
+    },
+    {
+      "id": 37,
+      "question": "What is the role of mycorrhizae in plant nutrition?",
+      "choices": ["They fix atmospheric nitrogen for plants", "They form symbiotic associations with roots and enhance phosphorus uptake", "They decompose organic matter into humus", "They protect roots from fungal pathogens"],
+      "answer": "They form symbiotic associations with roots and enhance phosphorus uptake",
+      "explanation": "Mycorrhizae are mutualistic fungi that colonize plant roots, extending the root's absorptive surface area. They greatly enhance uptake of phosphorus and other immobile nutrients in exchange for plant sugars."
+    },
+    {
+      "id": 38,
+      "question": "What is the difference between macronutrients and micronutrients?",
+      "choices": ["Macronutrients are from soil; micronutrients are from the atmosphere", "Macronutrients are needed in large amounts; micronutrients in trace amounts", "Macronutrients promote vegetative growth; micronutrients promote fruit set", "Macronutrients are organic; micronutrients are inorganic"],
+      "answer": "Macronutrients are needed in large amounts; micronutrients in trace amounts",
+      "explanation": "Macronutrients (N, P, K, Ca, Mg, S) are required in relatively large quantities by plants, while micronutrients (Fe, Mn, Zn, Cu, B, Mo, Cl) are needed in very small (trace) amounts but are still essential."
+    },
+    {
+      "id": 39,
+      "question": "What is vermicomposting?",
+      "choices": ["Composting using high-temperature steam sterilization", "The use of earthworms to decompose organic waste into nutrient-rich compost", "Fermenting plant residues in anaerobic conditions", "Adding vermiculite to improve compost structure"],
+      "answer": "The use of earthworms to decompose organic waste into nutrient-rich compost",
+      "explanation": "Vermicomposting uses earthworms (usually Eisenia fetida) to convert organic waste into vermicompost — a nutrient-rich, biologically active material that improves soil structure and fertility."
+    },
+    {
+      "id": 40,
+      "question": "What is the purpose of applying lime to acidic soils?",
+      "choices": ["To provide nitrogen fertilization", "To raise soil pH and improve nutrient availability", "To increase soil bulk density", "To control soil-borne fungal diseases"],
+      "answer": "To raise soil pH and improve nutrient availability",
+      "explanation": "Liming acidic soils raises the pH, which improves the availability of nutrients like phosphorus and calcium, reduces the toxicity of aluminum and manganese, and enhances beneficial microbial activity."
+    },
+    {
+      "id": 41,
+      "question": "Which soil texture class has the highest water-holding capacity?",
+      "choices": ["Sandy soil", "Silty soil", "Loam soil", "Clay soil"],
+      "answer": "Clay soil",
+      "explanation": "Clay soils have the highest water-holding capacity due to their large surface area and fine particles, but they can have poor drainage. Sandy soils have the lowest water-holding capacity but drain quickly."
+    },
+    {
+      "id": 42,
+      "question": "What is the role of nitrogen-fixing bacteria such as Rhizobium?",
+      "choices": ["They convert ammonium to nitrate in the soil", "They convert atmospheric nitrogen gas into forms that plants can use", "They decompose organic matter to release nitrogen", "They prevent nitrogen loss through denitrification"],
+      "answer": "They convert atmospheric nitrogen gas into forms that plants can use",
+      "explanation": "Rhizobium bacteria live in symbiotic root nodules of legumes and fix atmospheric N₂ into ammonia (NH₃), which the plant can use. This biological nitrogen fixation reduces the need for synthetic N fertilizers."
+    },
+    {
+      "id": 43,
+      "question": "What is the function of phosphorus in plants?",
+      "choices": ["Primarily involved in chlorophyll production and green color", "Energy transfer (ATP), root development, and photosynthesis", "Regulation of stomatal opening and water balance", "Activation of enzymes involved in nitrogen metabolism"],
+      "answer": "Energy transfer (ATP), root development, and photosynthesis",
+      "explanation": "Phosphorus is a component of ATP (energy currency), DNA, RNA, and cell membranes. It is critical for energy transfer, root development, early plant growth, and the light reactions of photosynthesis."
+    },
+    {
+      "id": 44,
+      "question": "What is denitrification?",
+      "choices": ["The conversion of nitrate to organic nitrogen by plants", "The loss of nitrogen from soil as gas (N₂ or N₂O) by bacteria", "The addition of nitrogen to soil through rainfall", "The fixation of atmospheric nitrogen by legumes"],
+      "answer": "The loss of nitrogen from soil as gas (N₂ or N₂O) by bacteria",
+      "explanation": "Denitrification is the microbial process that converts soil nitrate (NO₃⁻) to nitrogen gases (N₂, N₂O) under anaerobic conditions, resulting in nitrogen loss from the soil. It is significant in waterlogged soils."
+    },
+    {
+      "id": 45,
+      "question": "What is soil texture determined by?",
+      "choices": ["The arrangement of soil particles (structure)", "The proportion of sand, silt, and clay particles", "The organic matter content of the soil", "The color and mineral composition of the soil"],
+      "answer": "The proportion of sand, silt, and clay particles",
+      "explanation": "Soil texture refers to the relative proportions of sand (0.05–2mm), silt (0.002–0.05mm), and clay (<0.002mm) particles. Texture affects drainage, water retention, aeration, and nutrient-holding capacity."
+    },
+    {
+      "id": 46,
+      "question": "What is green manuring?",
+      "choices": ["Applying animal manure with green coloration", "Incorporating a growing or freshly cut green crop into the soil to improve fertility", "Composting vegetable scraps into fertilizer", "Applying liquid fertilizer to crop leaves"],
+      "answer": "Incorporating a growing or freshly cut green crop into the soil to improve fertility",
+      "explanation": "Green manuring involves growing a crop (usually a legume) and then plowing it under while still green. It adds organic matter, nitrogen (if legume), and improves soil physical properties."
+    },
+    {
+      "id": 47,
+      "question": "What is soil compaction and how does it affect crops?",
+      "choices": ["Loosening of soil that improves root growth", "Compression of soil particles that restricts root growth and water infiltration", "The aggregation of clay particles that improves drainage", "The natural settling of soil that is beneficial for seedbed preparation"],
+      "answer": "Compression of soil particles that restricts root growth and water infiltration",
+      "explanation": "Soil compaction reduces pore spaces, limiting root penetration, water infiltration, and air movement. It is caused by heavy machinery and tillage when soil is wet, and reduces crop yields significantly."
+    },
+    {
+      "id": 48,
+      "question": "What is the nitrogen cycle in soil?",
+      "choices": ["The seasonal variation in soil nitrogen levels", "The movement of nitrogen through the atmosphere, soil organisms, and plants", "The ratio of nitrogen to carbon in organic matter", "The leaching pattern of nitrates during rainfall"],
+      "answer": "The movement of nitrogen through the atmosphere, soil organisms, and plants",
+      "explanation": "The nitrogen cycle describes nitrogen transformations: atmospheric N₂ → fixation → ammonification → nitrification → plant uptake → decomposition → denitrification back to N₂. Understanding the cycle helps optimize nitrogen fertilization."
+    },
+    {
+      "id": 49,
+      "question": "What is a soil horizon?",
+      "choices": ["The slope or gradient of agricultural land", "A distinct layer of soil that differs from adjacent layers in physical, chemical, or biological properties", "The boundary between arable and non-arable land", "The depth at which water table is found"],
+      "answer": "A distinct layer of soil that differs from adjacent layers in physical, chemical, or biological properties",
+      "explanation": "Soil horizons are distinct horizontal layers in a soil profile (O, A, B, C horizons). Each horizon has different properties resulting from soil-forming processes, and together they make up the soil profile."
+    },
+    {
+      "id": 50,
+      "question": "What is foliar fertilization?",
+      "choices": ["Applying fertilizer at planting time", "Applying liquid fertilizer directly to plant leaves", "Incorporating fertilizer into the soil before planting", "Using slow-release pellets placed near the roots"],
+      "answer": "Applying liquid fertilizer directly to plant leaves",
+      "explanation": "Foliar fertilization involves spraying dilute nutrient solutions directly onto plant leaves for rapid absorption. It is used to correct micronutrient deficiencies quickly or supplement soil application during critical growth stages."
     }
   ]
 }

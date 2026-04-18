@@ -121,6 +121,486 @@
       ],
       "answer": "Mensahe mismo — sa paraan ng pagkakabuo at organisasyon ng mga salita at tunog",
       "explanation": "Sa modelo ni Jakobson, ang bawat komunikatibong gawain ay may anim na elemento: nagpadala, tatanggap, mensahe, konteksto, code, at channel. Ang 'poetic function' ay nakatuon sa mensahe — sa istilo, ritmo, at estetikong organisasyon ng wika — na siyang pinakamahalagang katangian ng malikhaing panitikan."
+    },
+    {
+      "id": 11,
+      "question": "Ano ang kaibahan ng 'ponema' at 'morpema' sa linggwistika?",
+      "choices": [
+        "Ang ponema ay yunit ng kahulugan; ang morpema ay yunit ng tunog",
+        "Ang ponema ay yunit ng tunog na may kakayahang magbago ng kahulugan; ang morpema ay pinakamaliit na yunit ng kahulugan",
+        "Ang ponema ay ginagamit sa pagsulat; ang morpema ay ginagamit sa pagsasalita",
+        "Ang dalawa ay magkaparehong konsepto sa linggwistika"
+      ],
+      "answer": "Ang ponema ay yunit ng tunog na may kakayahang magbago ng kahulugan; ang morpema ay pinakamaliit na yunit ng kahulugan",
+      "explanation": "Ang ponema ay pinakamaliit na yunit ng tunog na may pagpapakaibang pagpapakahulugan (phonemic contrast). Ang morpema naman ay pinakamaliit na yunit ng kahulugan — maaaring malaya (tulad ng 'bahay') o nakatali (tulad ng 'mag-' sa 'mag-aaral'). Ang ponolohiya ang nag-aaral ng mga ponema; ang morpolohiya ang nag-aaral ng mga morpema."
+    },
+    {
+      "id": 12,
+      "question": "Sino ang itinuturing na 'Hari ng Balagtasan' at bakit?",
+      "choices": [
+        "Jose Rizal — dahil sa kanyang mga nobelang mapanuring panlipunan",
+        "Jose Corazon de Jesus (Huseng Batute) — dahil sa kanyang kahusayan sa tulang pag-aawitan at debate",
+        "Lope K. Santos — dahil sa pagsulat ng Balarila ng Wikang Pambansa",
+        "Francisco Balagtas — dahil sa kanya ang pinakasikat na awit sa panitikang Filipino"
+      ],
+      "answer": "Jose Corazon de Jesus (Huseng Batute) — dahil sa kanyang kahusayan sa tulang pag-aawitan at debate",
+      "explanation": "Si Jose Corazon de Jesus, na kilala bilang 'Huseng Batute,' ang tinatawag na 'Hari ng Balagtasan' dahil sa kanyang walang kapantay na kahusayan sa sining ng balagtasan — ang pagtatalo sa pamamagitan ng tula. Siya ang nagtaguyod ng tradisyong ito sa makabagong panahon."
+    },
+    {
+      "id": 13,
+      "question": "Ano ang 'balagtasan' bilang uri ng aktibidad sa panitikan at wika?",
+      "choices": [
+        "Isang maikling tula na may pitong taludtod",
+        "Isang uri ng debate na isinasagawa sa pamamagitan ng patulang pagtatalo (awitan) ng dalawa o higit pang kalahok",
+        "Isang pormal na pagtatanghal ng mga awit ng Tagalog",
+        "Isang koleksyon ng mga kasabihan at salawikain"
+      ],
+      "answer": "Isang uri ng debate na isinasagawa sa pamamagitan ng patulang pagtatalo (awitan) ng dalawa o higit pang kalahok",
+      "explanation": "Ang balagtasan ay isang katutubong anyo ng debate sa Filipino na isinasagawa sa pamamagitan ng patulang pagtatalo ng dalawa o higit pang kalahok tungkol sa isang paksa. Ito ay pinangalanan kay Francisco Balagtas at pinanatili ng mga makata at manunulat bilang tradisyon ng wika at panitikang Filipino."
+    },
+    {
+      "id": 14,
+      "question": "Alin sa mga sumusunod na epiko ang nagmula sa rehiyon ng Bicol (Sorsogon)?",
+      "choices": [
+        "Biag ni Lam-ang",
+        "Darangen",
+        "Ibalon",
+        "Hinilawod"
+      ],
+      "answer": "Ibalon",
+      "explanation": "Ang 'Ibalon' ay ang epikong nagmula sa Bicol (Ibalong — ang sinaunang pangalan ng Bikol). Isinasalaysay nito ang mga pakikipagsapalaran ng mga bayaning si Baltog, Handiong, at Bantong. Ang Biag ni Lam-ang ay Ilokano; ang Darangen ay Maranao; ang Hinilawod ay mula sa Panay Bukidnon."
+    },
+    {
+      "id": 15,
+      "question": "Ano ang 'katutubong panitikan' (folk literature) ng Pilipinas?",
+      "choices": [
+        "Mga akdang isinulat ng mga Pilipino sa panahon ng kolonyalismo",
+        "Mga akdang pasalita na ipinasa sa susunod na henerasyon bago pa man dumating ang mga mananakop",
+        "Mga akdang isinulat sa wikang Espanyol ng mga Pilipinong ilustrado",
+        "Mga akdang isinulat ng mga pari at misyonero para sa mga katutubong Pilipino"
+      ],
+      "answer": "Mga akdang pasalita na ipinasa sa susunod na henerasyon bago pa man dumating ang mga mananakop",
+      "explanation": "Ang katutubong panitikan (folk literature) ay kinabibilangan ng mga alamat, epiko, mito, bugtong, salawikain, at awiting-bayan na ipinasa sa pamamagitan ng salita bago pa man ang pagsulat. Ito ang nagpapatunay ng mayaman at makulay na kalinangan ng mga sinaunang Pilipino."
+    },
+    {
+      "id": 16,
+      "question": "Ano ang pagkakaiba ng 'denotasyon' at 'konotasyon' ng salita?",
+      "choices": [
+        "Ang denotasyon ay pangalang tawag ng salita; ang konotasyon ay kahulugan nito",
+        "Ang denotasyon ay literal na kahulugan ng salita; ang konotasyon ay karagdagang emosyonal o kultural na kahulugan",
+        "Ang denotasyon ay ginagamit sa pormal na sitwasyon; ang konotasyon ay sa impormal",
+        "Ang dalawa ay magkaparehong kahulugan ng isang salita"
+      ],
+      "answer": "Ang denotasyon ay literal na kahulugan ng salita; ang konotasyon ay karagdagang emosyonal o kultural na kahulugan",
+      "explanation": "Halimbawa: ang salitang 'aso' — ang denotasyon nito ay 'isang uri ng alagang hayop.' Ang konotasyon nito sa Filipino ay maaaring negatibo (paghamak). Ang pag-unawa sa dalawang antas ng kahulugan ay mahalaga sa pagbabasa at pagsusuri ng panitikan at reklamong pangwika."
+    },
+    {
+      "id": 17,
+      "question": "Ano ang 'akronim' at 'akrostiko'? Paano sila nagkakaiba?",
+      "choices": [
+        "Parehong paraan ng pagbuo ng bagong salita mula sa mga titik",
+        "Ang akronim ay salitang binubuo ng mga paunang titik (hal. NEDA); ang akrostiko ay tulang ginagamit ang mga unang titik ng bawat linya upang bumuo ng mensahe",
+        "Ang akronim ay ginagamit sa pagtuturo; ang akrostiko ay ginagamit sa marketing",
+        "Ang akronim ay may kahulugan; ang akrostiko ay walang kahulugan"
+      ],
+      "answer": "Ang akronim ay salitang binubuo ng mga paunang titik (hal. NEDA); ang akrostiko ay tulang ginagamit ang mga unang titik ng bawat linya upang bumuo ng mensahe",
+      "explanation": "Ang akronim ay isang uri ng abbreviation na nabubuo mula sa mga unang titik o bahagi ng mga salita (hal. TESDA, CHED, LRT). Ang akrostiko naman ay isang uri ng tula o kasabihan kung saan ang mga unang titik ng bawat linya ay bumubuo ng isang salita o mensahe."
+    },
+    {
+      "id": 18,
+      "question": "Sa pagtuturo ng Filipino, ano ang layunin ng 'communicative approach' o komunikatibong pamamaraan?",
+      "choices": [
+        "Pagbibigay-diin sa memorisasyon ng mga panuntunan ng gramatika",
+        "Paglinang ng kakayahan ng mag-aaral na gamitin ang wika para sa tunay na komunikasyon sa iba't ibang sitwasyon",
+        "Pagtuturo ng Filipino gamit ang Ingles bilang midyum ng instruksyon",
+        "Pagbibigay ng pagsusulit sa wastong gamit ng mga panlapi at panuntunan ng palaugnayan"
+      ],
+      "answer": "Paglinang ng kakayahan ng mag-aaral na gamitin ang wika para sa tunay na komunikasyon sa iba't ibang sitwasyon",
+      "explanation": "Ang komunikatibong pamamaraan (Communicative Language Teaching) ay naglalayong paunlarin ang kakayahang komunikatibo ng mga mag-aaral — ang kakayahang gamitin ang wika nang angkop at epektibo sa iba't ibang sitwasyong panlipunan. Mas inuuna ang komunikasyon kaysa sa perpektong gramatika."
+    },
+    {
+      "id": 19,
+      "question": "Alin sa mga sumusunod ang tamang paggamit ng 'ng' at 'nang'?",
+      "choices": [
+        "'Nang' ay palagi pang ginagamit sa harap ng pangngalan",
+        "'Ng' ay pang-angkop ng mga pangngalan; 'nang' ay ginagamit bilang pang-abay o nagpapakita ng oras/paraan",
+        "Parehong magkapalit-palit na magagamit",
+        "'Nang' ay mas pormal; 'ng' ay mas impormal"
+      ],
+      "answer": "'Ng' ay pang-angkop ng mga pangngalan; 'nang' ay ginagamit bilang pang-abay o nagpapakita ng oras/paraan",
+      "explanation": "Ang 'ng' ay ginagamit bilang pang-angkop ng mga pangngalan (hal. 'kotse ng titay') at nagpapakita ng posesyon o paksa. Ang 'nang' naman ay ginagamit bilang pang-abay (hal. 'Tumakbo siya nang mabilis') o nagpapakita ng oras sa nakaraan (hal. 'Nang dumating si Juan...'). Ang pagkakakilanlan ng pagkakaiba nito ay madalas na tinutukoy sa LET."
+    },
+    {
+      "id": 20,
+      "question": "Ano ang 'pagtuturo ng wika batay sa teksto' (text-based language teaching) sa Filipino?",
+      "choices": [
+        "Ang paggamit ng aklat-aralin bilang pangunahing mapagkukunan ng kaalaman",
+        "Isang pamamaraan na gumagamit ng iba't ibang uri ng teksto (naratibo, deskriptibo, argumentatibo) bilang batayan ng pagtuturo ng wika at kasanayan",
+        "Ang pagbabasa ng mga teksto nang malakas sa klase",
+        "Pagtuturo ng gramatika sa pamamagitan ng pagkopya ng mga teksto"
+      ],
+      "answer": "Isang pamamaraan na gumagamit ng iba't ibang uri ng teksto (naratibo, deskriptibo, argumentatibo) bilang batayan ng pagtuturo ng wika at kasanayan",
+      "explanation": "Ang text-based teaching ay gumagamit ng mga tunay na teksto (halimbawa, balita, tula, sanaysay) upang ituro ang gramatika, bokabularyo, at kasanayan sa wika sa isang makabuluhang konteksto. Itinuturo rin dito ang mga katangian ng bawat uri ng teksto upang matulungan ang mga mag-aaral na sumulat ng mga ito."
+    },
+    {
+      "id": 21,
+      "question": "Alin ang tamang anyo ng pandiwa sa pangungusap: 'Siya ay ______ ng kanyang kaibigan kahapon' (bisita)?",
+      "choices": [
+        "Binibisita",
+        "Binisita",
+        "Bibisita",
+        "Bisita"
+      ],
+      "answer": "Binisita",
+      "explanation": "Ang 'kahapon' ay nagpapahiwatig ng nakaraang panahon (past tense). Ang aspeto ng pandiwa ay 'natapos' (completed). Ang 'binisita' ay ang nakaraang panahunan ng pandiwang 'bisitahin' na may unlaping 'b-in-' na nagpapahiwatig ng nakaraang gawain na natapos na."
+    },
+    {
+      "id": 22,
+      "question": "Ano ang 'malikhaing pagsulat' (creative writing) at bakit ito mahalaga sa kurikulum ng Filipino?",
+      "choices": [
+        "Pagsulat ng mga teknikal na ulat at opisyal na sulat",
+        "Pagpapahayag ng sariling damdamin, karanasan, at imahinasyon sa pamamagitan ng iba't ibang anyo ng panitikan",
+        "Pagkopya ng mga halimbawang akda upang paunlarin ang kakayahan sa pagsulat",
+        "Pagsulat ng mga liham para sa opisyal na layunin"
+      ],
+      "answer": "Pagpapahayag ng sariling damdamin, karanasan, at imahinasyon sa pamamagitan ng iba't ibang anyo ng panitikan",
+      "explanation": "Ang malikhaing pagsulat ay nagbibigay-pagkakataon sa mga mag-aaral na ipahayag ang kanilang sarili, paunlarin ang kanilang pagkamalikhain, at mapaunlad ang kanilang kakayahan sa Filipino sa pamamagitan ng tula, maikling kuwento, sanaysay, at iba pang anyo ng panitikan."
+    },
+    {
+      "id": 23,
+      "question": "Ano ang 'aktibong pakikinig' (active listening) at paano ito pinauunlad sa klase?",
+      "choices": [
+        "Ang pakikinig habang nagsasagawa ng iba pang aktibidad",
+        "Ang ganap na pagbibigay-atensiyon sa nagsasalita, pag-unawa ng mensahe, at pagbibigay ng angkop na tugon",
+        "Ang pakikinig sa mga recorded na audio para sa pagsasanay",
+        "Ang pagkopya ng lahat ng sinasabi ng guro"
+      ],
+      "answer": "Ang ganap na pagbibigay-atensiyon sa nagsasalita, pag-unawa ng mensahe, at pagbibigay ng angkop na tugon",
+      "explanation": "Ang aktibong pakikinig ay nangangailangan ng ganap na konsentrasyon, pag-unawa, pagsagot, at pag-alala ng sinasabi ng kausap. Ito ay isang mahalagang kasanayan sa komunikasyon na maaaring paunlarin sa pamamagitan ng mga gawain tulad ng pagtala ng mga pangunahing ideya, pagbubuod, at pagtanong ng mga katanungan."
+    },
+    {
+      "id": 24,
+      "question": "Alin sa mga sumusunod ang pinakamahusay na naglalagom ng layunin ng K-12 Mother Tongue-Based Multilingual Education (MTB-MLE) sa Pilipinas?",
+      "choices": [
+        "Palitan ang pagtuturo ng Filipino at Ingles ng katutubong wika sa lahat ng antas",
+        "Gamitin ang katutubong wika (first language) ng bata bilang pangunahing midyum ng instruksyon sa K-3 upang mapalakas ang pundasyon ng kakayahan sa pagbabasa at pagsulat",
+        "Ituro ang Filipino at Ingles nang sabay-sabay mula sa kindergarten",
+        "Tiyakin na ang lahat ng mag-aaral ay matuto ng tatlong wika bago mag-Grade 4"
+      ],
+      "answer": "Gamitin ang katutubong wika (first language) ng bata bilang pangunahing midyum ng instruksyon sa K-3 upang mapalakas ang pundasyon ng kakayahan sa pagbabasa at pagsulat",
+      "explanation": "Batay sa pananaliksik, mas madaling matuto ang mga bata kapag ang instruksyon ay nagsimula sa kanilang unang wika. Ang MTB-MLE ay naglalayong bumuo ng matibay na pundasyon ng literasiya sa unang wika bago lumipat sa Filipino at Ingles bilang midyum ng instruksyon."
+    },
+    {
+      "id": 25,
+      "question": "Ano ang 'palaugnayan' (syntax) at ano ang pinag-aaralan nito?",
+      "choices": [
+        "Ang pag-aaral ng mga tunog at palatunugan ng wika",
+        "Ang pag-aaral ng istraktura ng pangungusap at kung paano pinagsasama-sama ang mga salita upang bumuo ng makabuluhang pahayag",
+        "Ang pag-aaral ng kahulugan ng mga salita at parirala",
+        "Ang pag-aaral ng pagbabago ng wika sa paglipas ng panahon"
+      ],
+      "answer": "Ang pag-aaral ng istraktura ng pangungusap at kung paano pinagsasama-sama ang mga salita upang bumuo ng makabuluhang pahayag",
+      "explanation": "Ang palaugnayan o syntax ay ang sangay ng linggwistika na nag-aaral ng mga panuntunan sa pagsasama-sama ng mga salita upang bumuo ng mga wastong parirala at pangungusap. Kabilang dito ang pag-aaral ng kayarian ng pangungusap (simuno, panaguri, layon), uri ng sugnay, at pagbabago ng ayos ng pangungusap."
+    },
+    {
+      "id": 26,
+      "question": "Ano ang layunin ng 'whole language approach' sa pagtuturo ng Filipino?",
+      "choices": [
+        "Ituro ang bawat ponema nang isa-isa bago ang mga salita at pangungusap",
+        "Bigyang-diin ang kabuuang kahulugan at konteksto ng wika gamit ang tunay na mga teksto kaysa sa hiwa-hiwalay na kasanayan",
+        "Ituro ang lahat ng kasanayan sa wika nang sabay-sabay sa iisang aralin",
+        "Gumamit ng buong libro sa isang aralin"
+      ],
+      "answer": "Bigyang-diin ang kabuuang kahulugan at konteksto ng wika gamit ang tunay na mga teksto kaysa sa hiwa-hiwalay na kasanayan",
+      "explanation": "Ang whole language approach ay naniniwala na ang pinakamabisang paraan ng pagkatuto ng wika ay sa pamamagitan ng tunay na paggamit nito sa makabuluhang konteksto. Ginagamit ang tunay na panitikan at layuning komunikasyon — hindi isolated na drills — bilang pangunahing lapit sa pagtuturo."
+    },
+    {
+      "id": 27,
+      "question": "Ano ang 'Filipino bilang wikang panturo' (Filipino as medium of instruction) sa konteksto ng batas at polisiya sa Pilipinas?",
+      "choices": [
+        "Ang Filipino ay dapat gamitin sa lahat ng paksa sa lahat ng antas ng paaralan",
+        "Ayon sa K-12 curriculum, ang Filipino ay ginagamit bilang midyum ng instruksyon sa mga paksang may kaugnayan sa Filipino at Araling Panlipunan sa mga mas mataas na antas",
+        "Ang Ingles lamang ang pinapayagang midyum ng instruksyon sa lahat ng paksa",
+        "Ang wikang panturo ay napagpapasyahan ng bawat paaralan nang walang polisiya mula sa DepEd"
+      ],
+      "answer": "Ayon sa K-12 curriculum, ang Filipino ay ginagamit bilang midyum ng instruksyon sa mga paksang may kaugnayan sa Filipino at Araling Panlipunan sa mga mas mataas na antas",
+      "explanation": "Ayon sa K-12 Language Policy ng DepEd, ang Filipino ay ginagamit bilang midyum ng instruksyon sa Filipino at Araling Panlipunan, habang ang Ingles ay ginagamit sa Matematika, Agham, at iba pang teknikal na paksa. Ang katutubong wika ay ginagamit sa K-3."
+    },
+    {
+      "id": 28,
+      "question": "Sino si Jose Rizal sa konteksto ng panitikang Filipino sa Espanyol?",
+      "choices": [
+        "Ang nagtatag ng wikang Filipino at sumulat ng Balarila",
+        "Ang pambansang bayani ng Pilipinas at may-akda ng Noli Me Tangere at El Filibusterismo na naglalayong ilantad ang pang-aabuso ng kolonyalismo",
+        "Ang pinaka-kilalang manunulat ng awit at korido sa panahon ng Espanyol",
+        "Ang nanguna sa Himagsikang Pilipino laban sa Espanya noong 1896"
+      ],
+      "answer": "Ang pambansang bayani ng Pilipinas at may-akda ng Noli Me Tangere at El Filibusterismo na naglalayong ilantad ang pang-aabuso ng kolonyalismo",
+      "explanation": "Si Jose Rizal ay isinulat ang Noli Me Tangere (1887) at El Filibusterismo (1891) sa wikang Espanyol bilang matapang na pagpuna sa pang-aabuso ng Espanyol na kolonyalismo at simbahan sa Pilipinas. Ang mga nobelang ito ay nag-ambag nang malaki sa pagkamulat ng Pilipino at sa pagsiklab ng rebolusyon."
+    },
+    {
+      "id": 29,
+      "question": "Ano ang 'Komisyon sa Wikang Filipino' (KWF) at ano ang papel nito?",
+      "choices": [
+        "Isang samahan ng mga guro ng Filipino sa buong bansa",
+        "Ang pambansang ahensya ng gobyerno na nangangasiwa sa patakaran, pananaliksik, at pagpapaunlad ng wikang Filipino",
+        "Ang komiteng gumagawa ng mga pagsusulit sa LET para sa mga guro ng Filipino",
+        "Ang organisasyong naglalathala ng mga aklat-aralin sa Filipino para sa K-12"
+      ],
+      "answer": "Ang pambansang ahensya ng gobyerno na nangangasiwa sa patakaran, pananaliksik, at pagpapaunlad ng wikang Filipino",
+      "explanation": "Ang KWF (Komisyon sa Wikang Filipino) ay ang opisyal na institusyon ng gobyerno na responsible sa pagpapaunlad, pagpapalakas, at pagpapalaganap ng wikang Filipino. Ito ang nagtatakda ng mga norma sa paggamit ng wika at nagtataguyod ng pananaliksik sa wika at panitikan."
+    },
+    {
+      "id": 30,
+      "question": "Ano ang 'kaantasan ng wika' (register) sa sosyolinggwistika?",
+      "choices": [
+        "Ang bilang ng mga salita na alam ng isang taong nagsasalita ng isang wika",
+        "Ang antas ng kahusayan ng isang mag-aaral sa Filipino",
+        "Ang pagbabago ng estilo at antas ng paggamit ng wika ayon sa sitwasyon, paksa, at relasyon ng mga kausap",
+        "Ang pagkakasunod-sunod ng mga antas ng edukasyon sa Filipino"
+      ],
+      "answer": "Ang pagbabago ng estilo at antas ng paggamit ng wika ayon sa sitwasyon, paksa, at relasyon ng mga kausap",
+      "explanation": "Ang register ay ang pagbabago ng wika ng isang tao batay sa konteksto ng pakikipag-usap. Halimbawa, gumagamit ng pormal na wika sa harap ng guro o sa opisina, at impormal na wika sa mga kaibigan. Ang kakayahang mag-adjust ng register ay mahalagang bahagi ng komunikatibong kakayahan."
+    },
+    {
+      "id": 31,
+      "question": "Alin sa mga sumusunod ang halimbawa ng 'dayalogo' bilang uri ng teksto sa Filipino?",
+      "choices": [
+        "Isang tula na naglalarawan ng kalikasan",
+        "Isang kwentong pampamilya na may moral na aral",
+        "Isang usapan sa pagitan ng dalawa o higit pang tauhan na nagpapakita ng kanilang mga katangian at pananaw",
+        "Isang ulat tungkol sa mga pangyayari sa komunidad"
+      ],
+      "answer": "Isang usapan sa pagitan ng dalawa o higit pang tauhan na nagpapakita ng kanilang mga katangian at pananaw",
+      "explanation": "Ang dayalogo ay isang anyo ng teksto na nagpapakita ng usapan sa pagitan ng mga tauhan. Ginagamit ito sa dula, kuwento, at iba pang anyong pampanitikan upang ipahayag ang mga katangian, saloobin, at relasyon ng mga tauhan nang direkta."
+    },
+    {
+      "id": 32,
+      "question": "Ano ang layunin ng pagbabasa ng tula sa klase ng Filipino?",
+      "choices": [
+        "Ang pag-aaral ng tamang balarila at gramatika ng Filipino",
+        "Ang paglinang ng pagmamahal sa wikang Filipino at pag-unawa sa damdamin, imahen, at mensahe ng tula",
+        "Ang pagsasaulo ng tula para sa pagsusulit",
+        "Ang pagpapabuti ng boses at tono ng mag-aaral sa pagbabasa nang malakas"
+      ],
+      "answer": "Ang paglinang ng pagmamahal sa wikang Filipino at pag-unawa sa damdamin, imahen, at mensahe ng tula",
+      "explanation": "Ang pagbabasa ng tula sa klase ay naglalayong paunlarin ang kakayahan ng mag-aaral na pahalagahan ang kagandahan ng wika, unawain ang metapora at tayutay, at maramdaman ang mensahe at emosyon ng makata. Ito rin ay nagpapalalim ng kaalaman sa kultura at tradisyon ng bansa."
+    },
+    {
+      "id": 33,
+      "question": "Ano ang kahulugan ng 'linggwistikong relatibidad' (Sapir-Whorf hypothesis)?",
+      "choices": [
+        "Ang lahat ng wika sa buong mundo ay may parehong istruktura",
+        "Ang wika ng isang tao ay nakakaimpluwensya sa kanyang pananaw sa mundo at paraan ng pag-iisip",
+        "Ang mga wikang may mas maraming salita ay higit na advanced kaysa sa iba",
+        "Ang mga wika ay relatibong madaling matutunan sa anumang edad"
+      ],
+      "answer": "Ang wika ng isang tao ay nakakaimpluwensya sa kanyang pananaw sa mundo at paraan ng pag-iisip",
+      "explanation": "Ayon sa Sapir-Whorf hypothesis (linggwistikong determinismo/relatibidad), ang wika ay hindi lamang salamin ng pag-iisip kundi nakakaapekto ito sa kung paano nakikita at nauunawaan ng isang tao ang kanyang kapaligiran. Halimbawa, ang isang wikang may maraming salita para sa 'niyebe' ay nagpapahiwatig ng mas detalyadong pag-unawa sa uri ng niyebe."
+    },
+    {
+      "id": 34,
+      "question": "Ano ang 'pananaw' (point of view) sa pagsusuri ng maikling kwento?",
+      "choices": [
+        "Ang tema o pangunahing mensahe ng kwento",
+        "Ang perspektibang ginagamit ng may-akda sa pagsasalaysay ng kwento (unang tao, pangalawang tao, ikatlong tao)",
+        "Ang pananaw ng mga tauhan tungkol sa isang isyu sa kwento",
+        "Ang lugar kung saan isinasalaysay ang kwento"
+      ],
+      "answer": "Ang perspektibang ginagamit ng may-akda sa pagsasalaysay ng kwento (unang tao, pangalawang tao, ikatlong tao)",
+      "explanation": "Ang pananaw ng tagapagsalaysay (point of view) ay nagtatakda kung sino ang nagsasalaysay at kung gaano kalawak ang kaalaman ng tagapagsalaysay. Sa unang tao (ako/kami), limitado ang kaalaman sa isang tauhan. Sa ikatlong tao omniscient, alam ng tagapagsalaysay ang lahat."
+    },
+    {
+      "id": 35,
+      "question": "Alin sa mga sumusunod ang nagpapakita ng tamang gamit ng panghalip na paggalang?",
+      "choices": [
+        "'Kayo po ba si Gng. Reyes?' — sa pagsasalita sa isang guro",
+        "'Ikaw ba si Gng. Reyes?' — sa pagsasalita sa isang guro",
+        "'Siya ba si Gng. Reyes?' — sa pagsasalita sa isang guro",
+        "'Sila ba si Gng. Reyes?' — sa pagsasalita sa isang guro"
+      ],
+      "answer": "'Kayo po ba si Gng. Reyes?' — sa pagsasalita sa isang guro",
+      "explanation": "Sa Filipino, ang 'kayo' ay ginagamit bilang panghalip ng paggalang sa pakikipag-usap sa isang taong mas matanda o may katayuan (tulad ng guro). Ang 'ikaw' ay para sa mga kapantay o mas bata. Ang karagdagang 'po' ay nagbibigay ng respeto at kagalang-galang na tono sa pakikipag-usap."
+    },
+    {
+      "id": 36,
+      "question": "Ano ang 'poryo' o 'purong Filipino' at bakit ito isang usapin sa modernong paggamit ng wika?",
+      "choices": [
+        "Ang Filipino na walang mga salitang hiniram mula sa ibang wika",
+        "Ang pinakatandang anyo ng Tagalog na sinasalita sa Maynila",
+        "Ang debate sa pagitan ng paggamit ng dalisay na Filipino kumpara sa pagsasama ng mga hiniram na salita at 'Filipino ngayon'",
+        "Ang pormal na anyo ng Filipino na itinakda ng Komisyon sa Wikang Filipino"
+      ],
+      "answer": "Ang debate sa pagitan ng paggamit ng dalisay na Filipino kumpara sa pagsasama ng mga hiniram na salita at 'Filipino ngayon'",
+      "explanation": "Ang usapin ng 'purismo' sa Filipino ay isang panga-akademiyang debate — ang ilan ay nagtataguyod ng paggamit ng dalisay na Filipino na nagmula sa katutubong salita, habang ang iba naman ay kinikilala na ang Filipino bilang wikang buhay ay likas na nagbabago at tumatanggap ng mga bagong salita mula sa ibang wika."
+    },
+    {
+      "id": 37,
+      "question": "Ano ang kaibahan ng 'pagtuturo ng tungkol sa wika' at 'pagtuturo sa pamamagitan ng wika'?",
+      "choices": [
+        "Walang pagkakaiba — parehong nagtuturo ng wika",
+        "Ang pagtuturo ng tungkol sa wika ay nag-aaral ng istruktura at sistema ng wika; ang pagtuturo sa pamamagitan ng wika ay gumagamit ng wika bilang kasangkapan sa pag-aaral ng mga paksa",
+        "Ang una ay para sa elementarya; ang pangalawa ay para sa secondary",
+        "Ang una ay para sa mga guro; ang pangalawa ay para sa mga mag-aaral"
+      ],
+      "answer": "Ang pagtuturo ng tungkol sa wika ay nag-aaral ng istruktura at sistema ng wika; ang pagtuturo sa pamamagitan ng wika ay gumagamit ng wika bilang kasangkapan sa pag-aaral ng mga paksa",
+      "explanation": "Ang pagtuturo ng tungkol sa wika (language as subject) ay nakatuon sa gramatika, bokabularyo, at sistema ng wika. Ang pagtuturo sa pamamagitan ng wika (language as medium) ay gumagamit ng wika upang matuto ng ibang paksa — halimbawa, pag-aaral ng Agham sa pamamagitan ng Filipino."
+    },
+    {
+      "id": 38,
+      "question": "Ano ang 'parabula' bilang anyo ng panitikan?",
+      "choices": [
+        "Isang mahabang tula na may bayani at labanan",
+        "Isang maikling kwentong naglalaman ng aral o leksyong moral, karaniwang gumagamit ng mga tauhang hayop o tao",
+        "Isang talumpati na nagbibigay ng pampublikong mensahe",
+        "Isang uri ng dula na may masayang katapusan"
+      ],
+      "answer": "Isang maikling kwentong naglalaman ng aral o leksyong moral, karaniwang gumagamit ng mga tauhang hayop o tao",
+      "explanation": "Ang parabula ay isang maikling kwentong may nakatagong aral o leksyong moral. Halimbawa, ang mga parabula ni Esopo (Aesop's Fables) ay gumagamit ng mga hayop upang ipahayag ang mga katotohanan tungkol sa pag-uugali ng tao. Sa Filipino, maraming katutubong parabula ang nagpapakita ng mga halaga ng ating lipunan."
+    },
+    {
+      "id": 39,
+      "question": "Ano ang 'intonasyon' at bakit ito mahalaga sa oral communication sa Filipino?",
+      "choices": [
+        "Ang bilis ng pagsasalita",
+        "Ang taas at pagbaba ng tono ng boses sa pagsasalita na nagbibigay ng kahulugan at damdamin sa pahayag",
+        "Ang dami ng salita na sinasabi sa isang minuto",
+        "Ang dami ng ingay sa pagsasalita"
+      ],
+      "answer": "Ang taas at pagbaba ng tono ng boses sa pagsasalita na nagbibigay ng kahulugan at damdamin sa pahayag",
+      "explanation": "Ang intonasyon ay ang melodiya ng pagsasalita — ang pagbaba at pag-akyat ng tono na nagbibigay ng kahulugan, damdamin, at intensyon sa isang pahayag. Sa Filipino, ang pagbabago ng intonasyon ay maaaring magbago ng pahayag mula sa tanong patungo sa utos o mula sa neutral na pahayag patungo sa nagtatampo o naiinis."
+    },
+    {
+      "id": 40,
+      "question": "Sino si Virgilio Almario (Rio Alma) at ano ang kanyang kontribusyon sa panitikang Filipino?",
+      "choices": [
+        "Siya ang nagtatag ng Katipunan at sumulat ng mga makabayan na sanaysay",
+        "Siya ay isang nangungunang makata, kritiko, at pambansang alagad ng sining na nagtaguyod ng modernong tula at pananaliksik sa wika at panitikan",
+        "Siya ang nagtatag ng Komisyon sa Wikang Filipino noong 1991",
+        "Siya ang unang Pilipinong manunulat na naglathala ng nobela sa Filipino"
+      ],
+      "answer": "Siya ay isang nangungunang makata, kritiko, at pambansang alagad ng sining na nagtaguyod ng modernong tula at pananaliksik sa wika at panitikan",
+      "explanation": "Si Virgilio Almario (Rio Alma) ay kinikilala bilang isa sa pinakamahalagang Pilipinong makata at kritiko ng ika-20 siglo. Siya ay naging Komisyoner ng Komisyon sa Wikang Filipino at aktibong nagtataguyod ng Filipino bilang wikang pananaliksik at pampanitikan."
+    },
+    {
+      "id": 41,
+      "question": "Ano ang 'epikong Mindanao' na Darangen at ano ang pangkat na nagmamay-ari nito?",
+      "choices": [
+        "Isang epiko ng mga Igorot sa Cordillera na nagsasalaysay ng pakikipaglaban sa mga dayuhan",
+        "Isang epikong pag-aawitan ng mga Maranao ng Lake Lanao na nagsasalaysay ng pakikipagsapalaran ni Rajah Indarapatra",
+        "Isang epiko ng mga Tausug ng Sulu na naglalaman ng mga batas ng dagat",
+        "Isang epiko ng mga Maguindanao na nagsasalaysay ng paglikha ng mundo"
+      ],
+      "answer": "Isang epikong pag-aawitan ng mga Maranao ng Lake Lanao na nagsasalaysay ng pakikipagsapalaran ni Rajah Indarapatra",
+      "explanation": "Ang Darangen ay ang mahabang epiko ng mga Maranao ng Lake Lanao, Mindanao. Ito ay isinasagawa sa pamamagitan ng pag-aawitan at sumasaklaw ng mahigit 72,000 linya. Kinikilala ito ng UNESCO bilang intangible cultural heritage at isa sa pinakamahabang epiko sa buong mundo."
+    },
+    {
+      "id": 42,
+      "question": "Ano ang 'pagtuturo ng bokabularyo' (vocabulary instruction) na epektibo sa Filipino?",
+      "choices": [
+        "Pagpapalista ng mga salita at pag-uutos sa mag-aaral na isaulo ang mga kahulugan",
+        "Pagtuturo ng mga salita sa makabuluhang konteksto, paggamit ng iba't ibang estratehiya tulad ng semantic mapping, at pagbibigay ng maraming pagkakataon na gamitin ang mga salita",
+        "Paggamit ng diksyonaryo lamang bilang pangunahing kagamitan sa pagkatuto ng mga salita",
+        "Pagbibigay ng pagsusulit sa bokabularyo tuwing linggo upang masigurado ang memoryasyon"
+      ],
+      "answer": "Pagtuturo ng mga salita sa makabuluhang konteksto, paggamit ng iba't ibang estratehiya tulad ng semantic mapping, at pagbibigay ng maraming pagkakataon na gamitin ang mga salita",
+      "explanation": "Batay sa pananaliksik, ang pinakamabisang pagtuturo ng bokabularyo ay kinabibilangan ng: (1) pagpapakita ng salita sa konteksto, (2) pagtuklas ng kahulugan sa pamamagitan ng konteksto, (3) paggamit ng visual organizers tulad ng semantic maps, at (4) pagbibigay ng maraming pagkakataon na marinig at gamitin ang salita sa iba't ibang paraan."
+    },
+    {
+      "id": 43,
+      "question": "Ano ang 'genre ng teksto' sa pagtuturo ng Filipino at bakit mahalaga ang pagkilala nito?",
+      "choices": [
+        "Ang estilo ng isang partikular na manunulat na may katangiang pangwika",
+        "Ang iba't ibang uri ng teksto (naratibo, deskriptibo, ekspositri, argumentatibo) na may natatanging layunin, istraktura, at katangian ng wika",
+        "Ang kategorya ng panitikan batay sa haba ng akda",
+        "Ang klasipikasyon ng mga akda batay sa panahon ng pagsulat"
+      ],
+      "answer": "Ang iba't ibang uri ng teksto (naratibo, deskriptibo, ekspositri, argumentatibo) na may natatanging layunin, istraktura, at katangian ng wika",
+      "explanation": "Ang genre ng teksto ay mahalaga sa pagtuturo ng Filipino dahil ang bawat uri ng teksto ay may iba't ibang layunin at istraktura. Ang pag-unawa sa genre ay tumutulong sa mga mag-aaral na maunawaan ang layunin ng pagbabasa at gamitin ang angkop na istraktura sa pagsulat."
+    },
+    {
+      "id": 44,
+      "question": "Ano ang 'tayutay na anaphora' sa retorika at panitikan?",
+      "choices": [
+        "Ang paulit-ulit na paggamit ng salita o parirala sa simula ng magkakasunod na linya o pangungusap",
+        "Ang paggamit ng salita sa dulo ng bawat linya sa isang tula",
+        "Ang paghahambing ng dalawang magkaibang bagay nang walang 'tulad ng'",
+        "Ang pagbibigay ng katangiang pantao sa mga bagay"
+      ],
+      "answer": "Ang paulit-ulit na paggamit ng salita o parirala sa simula ng magkakasunod na linya o pangungusap",
+      "explanation": "Ang anaphora ay isang retorikong pigurang gumagamit ng paulit-ulit na parirala sa simula ng magkakasunod na linya o pangungusap para sa epektong pandamdamin o panghikayat. Halimbawa: 'Magmahal tayo... Magmahal tayo... Magmahal tayo sa ating bansa.'"
+    },
+    {
+      "id": 45,
+      "question": "Ano ang 'pag-unawa sa teksto' (reading comprehension) at ano ang mga antas nito?",
+      "choices": [
+        "Ang pagbabasa ng teksto nang mabilis at nang mahimbing",
+        "Ang kakayahang unawain ang kahulugan ng teksto sa tatlong antas: literal, inferential, at kritikal/evaluative",
+        "Ang kakayahang basahin ang anumang teksto nang walang pagkakamali sa pagbigkas",
+        "Ang pagbilang ng mga salita sa isang teksto"
+      ],
+      "answer": "Ang kakayahang unawain ang kahulugan ng teksto sa tatlong antas: literal, inferential, at kritikal/evaluative",
+      "explanation": "Ang pag-unawa sa teksto ay may tatlong antas: (1) Literal — ang direktang impormasyon sa teksto; (2) Inferential — ang mga konklusyong makukuha mula sa hindi direktang sinabi; at (3) Kritikal/Evaluative — ang pagtatasa at pagpapabuti ng kahulugan batay sa kaalaman at karanasan ng mambabasa."
+    },
+    {
+      "id": 46,
+      "question": "Ano ang 'deskriptibong linggwistika' at paano ito nagkakaiba sa 'preskriptibong linggwistika'?",
+      "choices": [
+        "Ang deskriptibo ay nagsusulat ng gramatika; ang preskriptibo ay nagsasalita ng wika",
+        "Ang deskriptibong linggwistika ay naglalarawan kung paano talaga ginagamit ang wika; ang preskriptibo ay nagtatakda kung paano dapat gamitin ang wika ayon sa pamantayan",
+        "Ang deskriptibo ay para sa mga sinaunang wika; ang preskriptibo ay para sa mga modernong wika",
+        "Ang deskriptibo ay mas tumpak; ang preskriptibo ay mas subjektibo"
+      ],
+      "answer": "Ang deskriptibong linggwistika ay naglalarawan kung paano talaga ginagamit ang wika; ang preskriptibo ay nagtatakda kung paano dapat gamitin ang wika ayon sa pamantayan",
+      "explanation": "Ang deskriptibong linggwistika ay naglalarawan ng aktwal na paggamit ng wika ng mga nagsasalita nito — kahit na labag ito sa 'pamantayan.' Ang preskriptibong linggwistika naman ay nagtatakda ng mga panuntunan ng 'tamang' paggamit ng wika. Ang modernong linggwistika ay pangunahing deskriptibo."
+    },
+    {
+      "id": 47,
+      "question": "Ano ang 'salawikain' at paano ito nagkakaiba sa 'kasabihan'?",
+      "choices": [
+        "Parehong mga maikling kasabihang may aral — walang pagkakaiba",
+        "Ang salawikain ay may sukat at tugma at nagbibigay ng aral; ang kasabihan ay maikling pahayag ng katotohanan o karunungang may o walang sukat at tugma",
+        "Ang salawikain ay para sa matatanda; ang kasabihan ay para sa mga bata",
+        "Ang salawikain ay mula sa iba't ibang rehiyon; ang kasabihan ay sa Tagalog lamang"
+      ],
+      "answer": "Ang salawikain ay may sukat at tugma at nagbibigay ng aral; ang kasabihan ay maikling pahayag ng katotohanan o karunungang may o walang sukat at tugma",
+      "explanation": "Ang salawikain (proverb) ay maikling pahayag na nagbibigay ng karunungang bayan, karaniwang may tugma. Halimbawa: 'Ang hindi marunong lumingon sa pinanggalingan ay hindi makararating sa paroroonan.' Ang kasabihan (saying) ay katulad ngunit maaaring walang tugma at mas maikli."
+    },
+    {
+      "id": 48,
+      "question": "Ano ang 'talumpati' (speech) bilang anyo ng teksto at ano ang mga katangian ng epektibong talumpati?",
+      "choices": [
+        "Isang maikling kwentong ikinuwento sa harap ng madla",
+        "Isang pormal na pasalitang pagpapahayag ng mga ideya at argumento na may layuning makahikayat, magbigay-impormasyon, o manibago ng pananaw ng tagapakinig",
+        "Isang talaan ng mga katanungan at sagot sa isang pagtitipon",
+        "Isang malikhaing akda na isinulat para sa pagtatanghal"
+      ],
+      "answer": "Isang pormal na pasalitang pagpapahayag ng mga ideya at argumento na may layuning makahikayat, magbigay-impormasyon, o manibago ng pananaw ng tagapakinig",
+      "explanation": "Ang talumpati ay isang organisadong pasalitang presentasyon na karaniwang may panimula, katawan, at konklusyon. Ang epektibong talumpati ay may malinaw na layunin, nakaakit sa damdamin at isipan ng tagapakinig, at ginagamit ang angkop na wika at tono para sa sitwasyon."
+    },
+    {
+      "id": 49,
+      "question": "Ano ang 'mapanuring pagbabasa' (critical reading) at paano ito maaaring paunlarin sa klase?",
+      "choices": [
+        "Ang pagbabasa nang mabilis at mahimbing ng mga maiikling teksto",
+        "Ang pakikipag-ugnayan sa teksto sa pamamagitan ng pagtatanong, pag-aanalisa ng argumento, at pagtatasa ng katibayan at intensyon ng may-akda",
+        "Ang pagbabasa ng mga teksto na may mataas na antas ng kahirapan",
+        "Ang pagkopya ng mga pangunahing ideya mula sa isang teksto"
+      ],
+      "answer": "Ang pakikipag-ugnayan sa teksto sa pamamagitan ng pagtatanong, pag-aanalisa ng argumento, at pagtatasa ng katibayan at intensyon ng may-akda",
+      "explanation": "Ang mapanuring pagbabasa ay nangangailangan ng aktibong pakikipag-ugnayan sa teksto — hindi lamang pag-unawa sa kahulugan kundi pagtatanong tungkol sa katumpakan, layunin, at posibleng pinanggalingan ng ideya. Maaaring paunlarin ito sa pamamagitan ng Socratic questioning, think-alouds, at paggamit ng graphic organizers."
+    },
+    {
+      "id": 50,
+      "question": "Ano ang 'haka-haka' (inference) sa pagbabasa at paano ito mahalaga sa pag-unawa sa teksto?",
+      "choices": [
+        "Ang paglalahad ng mga katotohanan na hayagang nakalahad sa teksto",
+        "Ang paggawa ng lohikal na konklusyon o pangungusap batay sa mga pahiwatig o implikasyon ng teksto na hindi direktang sinabi",
+        "Ang pagbibigay ng sariling opinyon tungkol sa paksa ng teksto",
+        "Ang pagtatanong ng may-akda sa mambabasa sa pamamagitan ng teksto"
+      ],
+      "answer": "Ang paggawa ng lohikal na konklusyon o pangungusap batay sa mga pahiwatig o implikasyon ng teksto na hindi direktang sinabi",
+      "explanation": "Ang haka-haka (inference) ay ang proseso ng paggamit ng mga pahiwatig sa teksto kasama ang sariling kaalaman at karanasan upang makakuha ng kahulugang hindi direktang nasasaad. Ito ay isang mahalagang kasanayan sa mataas na antas ng pagbabasa at kritikal na pag-iisip."
     }
   ]
 }

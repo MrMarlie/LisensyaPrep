@@ -211,6 +211,146 @@
       "choices": ["Small farms are more profitable per unit", "As farm size increases, average cost per unit decreases up to an optimal size", "Prices scale proportionally with farm size", "Large farms always have lower quality products"],
       "answer": "As farm size increases, average cost per unit decreases up to an optimal size",
       "explanation": "Economies of scale occur when increasing production size reduces the average cost per unit, often due to better use of machinery, bulk purchasing of inputs, and more efficient labor organization."
+    },
+    {
+      "id": 31,
+      "question": "What is opportunity cost in agricultural decision-making?",
+      "choices": ["The cost of purchasing farm equipment", "The value of the next best alternative foregone when making a decision", "The expense of a missed market window", "The cost of unused farmland"],
+      "answer": "The value of the next best alternative foregone when making a decision",
+      "explanation": "Opportunity cost is the value of the best alternative given up when a choice is made. For example, if a farmer plants rice instead of corn, the opportunity cost is the profit that could have been earned from corn."
+    },
+    {
+      "id": 32,
+      "question": "What does the law of diminishing marginal returns state?",
+      "choices": ["Adding more land always increases total production", "Adding more of one input eventually yields smaller increases in output", "Market prices decrease as production increases", "Labor productivity always declines over time"],
+      "answer": "Adding more of one input eventually yields smaller increases in output",
+      "explanation": "The law of diminishing returns states that as you add more units of a variable input (e.g., fertilizer) to fixed inputs, the marginal (additional) output from each extra unit eventually decreases."
+    },
+    {
+      "id": 33,
+      "question": "What is a subsistence farm?",
+      "choices": ["A highly mechanized commercial operation", "A farm that produces primarily for the farmer's own consumption with little surplus", "A farm funded by government subsidies", "A farm specializing in a single cash crop"],
+      "answer": "A farm that produces primarily for the farmer's own consumption with little surplus",
+      "explanation": "A subsistence farm produces mainly to feed the farm family, with little or no surplus for sale. Most smallholder farms in developing countries have subsistence characteristics."
+    },
+    {
+      "id": 34,
+      "question": "What is the difference between fixed and variable costs in farm management?",
+      "choices": ["Fixed costs change seasonally; variable costs remain constant", "Fixed costs remain constant regardless of output; variable costs change with production level", "Fixed costs apply to equipment; variable costs apply to land", "Fixed costs are government-set prices; variable costs are market prices"],
+      "answer": "Fixed costs remain constant regardless of output; variable costs change with production level",
+      "explanation": "Fixed costs (land rent, depreciation, insurance) remain constant regardless of how much is produced. Variable costs (seeds, fertilizer, labor) change directly with the level of production."
+    },
+    {
+      "id": 35,
+      "question": "What is break-even analysis in farm planning?",
+      "choices": ["Analysis of the best time to harvest for maximum profit", "Determining the production level where total revenue equals total costs", "Comparing costs between two farming systems", "Analyzing the breakdown of equipment costs"],
+      "answer": "Determining the production level where total revenue equals total costs",
+      "explanation": "Break-even analysis identifies the output level or price at which total revenue exactly covers total costs, resulting in neither profit nor loss. It helps farmers determine the minimum yield or price needed to cover expenses."
+    },
+    {
+      "id": 36,
+      "question": "What is price elasticity of demand?",
+      "choices": ["The flexibility of market prices throughout the year", "The percentage change in quantity demanded relative to percentage change in price", "The range of prices a commodity can achieve", "The responsiveness of supply to changes in input costs"],
+      "answer": "The percentage change in quantity demanded relative to percentage change in price",
+      "explanation": "Price elasticity of demand (PED) = % change in quantity demanded ÷ % change in price. If PED > 1, demand is elastic; if PED < 1, it is inelastic. Agricultural commodities typically have inelastic demand."
+    },
+    {
+      "id": 37,
+      "question": "What is the purpose of agricultural insurance?",
+      "choices": ["To guarantee a minimum price for agricultural products", "To protect farmers from financial losses due to crop failure, weather, or disasters", "To provide loans for farm expansion", "To subsidize the cost of agricultural inputs"],
+      "answer": "To protect farmers from financial losses due to crop failure, weather, or disasters",
+      "explanation": "Agricultural insurance provides financial compensation to farmers when crops or livestock are lost due to natural calamities, pests, or diseases, helping stabilize farm income and encourage investment."
+    },
+    {
+      "id": 38,
+      "question": "What is an agricultural cooperative?",
+      "choices": ["A government agency overseeing farm production", "A business owned and controlled by its farmer-members for mutual benefit", "A corporation that contracts smallholder farmers", "An international organization providing farm loans"],
+      "answer": "A business owned and controlled by its farmer-members for mutual benefit",
+      "explanation": "An agricultural cooperative is a member-owned business organization where farmers pool resources to achieve goals such as bulk buying of inputs, collective marketing, credit access, and shared services."
+    },
+    {
+      "id": 39,
+      "question": "What is value chain analysis in agriculture?",
+      "choices": ["Measuring the total value of a farm's assets", "Examining all activities from production to consumer that add value to a product", "Analyzing the price differences between farm gate and retail", "Calculating the value of land improvements over time"],
+      "answer": "Examining all activities from production to consumer that add value to a product",
+      "explanation": "Agricultural value chain analysis maps all the steps from input supply → production → processing → distribution → retail → consumption, identifying where value is added and where inefficiencies or losses occur."
+    },
+    {
+      "id": 40,
+      "question": "What is agribusiness?",
+      "choices": ["Farming activities restricted to large commercial estates", "The sector encompassing agricultural production, processing, distribution, and related industries", "Government programs supporting agricultural development", "Small-scale farming using traditional methods"],
+      "answer": "The sector encompassing agricultural production, processing, distribution, and related industries",
+      "explanation": "Agribusiness refers to all business activities in the agricultural system — from input supply and farming to processing, marketing, and distribution. It integrates farming with commercial business principles."
+    },
+    {
+      "id": 41,
+      "question": "What is the role of agricultural extension services?",
+      "choices": ["Providing government subsidies directly to farmers", "Transferring research-based knowledge and technology to farmers to improve productivity", "Regulating farm prices and marketing channels", "Enforcing environmental compliance on farms"],
+      "answer": "Transferring research-based knowledge and technology to farmers to improve productivity",
+      "explanation": "Agricultural extension services bridge the gap between research institutions and farmers by disseminating improved technologies, providing technical advice, and facilitating access to markets and resources."
+    },
+    {
+      "id": 42,
+      "question": "What is the concept of comparative advantage in agricultural trade?",
+      "choices": ["Countries with the best technology dominate all agricultural trade", "Countries should produce and export goods for which they have the lowest relative opportunity cost", "Agricultural trade benefits only the exporting country", "Countries should produce all their own food to ensure food security"],
+      "answer": "Countries should produce and export goods for which they have the lowest relative opportunity cost",
+      "explanation": "Comparative advantage theory (Ricardo) states that countries benefit from specializing in producing goods they can produce most efficiently relative to other goods, and trading for the rest, even if one country is absolutely better at everything."
+    },
+    {
+      "id": 43,
+      "question": "What is capital in agricultural economics?",
+      "choices": ["The farmer's own labor contribution", "Manufactured resources used in production such as machinery, buildings, and equipment", "The market value of agricultural land", "Financial loans obtained for farming"],
+      "answer": "Manufactured resources used in production such as machinery, buildings, and equipment",
+      "explanation": "Capital in economics refers to produced (manufactured) resources that are used in further production. Farm capital includes machinery, irrigation systems, storage facilities, and breeding stock."
+    },
+    {
+      "id": 44,
+      "question": "What is the multiplier effect in agricultural economics?",
+      "choices": ["The effect of using multiple fertilizers simultaneously", "Increased agricultural income leads to multiple rounds of spending throughout the economy", "The compounding effect of interest on farm loans", "Price increases multiplied across the supply chain"],
+      "answer": "Increased agricultural income leads to multiple rounds of spending throughout the economy",
+      "explanation": "The agricultural multiplier effect means that an increase in farm income is spent on goods and services, whose producers in turn spend their income, creating a chain of economic activity that multiplies the initial impact."
+    },
+    {
+      "id": 45,
+      "question": "What is a technology demonstration plot in extension?",
+      "choices": ["A government-owned research station", "A small plot used to show farmers improved farming practices under local conditions", "A commercial farm funded by technology companies", "An experimental greenhouse for developing new varieties"],
+      "answer": "A small plot used to show farmers improved farming practices under local conditions",
+      "explanation": "A technology demonstration plot (or demo farm) shows farmers the results of using improved technologies (seeds, practices, inputs) under their own local conditions, making it more convincing than results from distant research stations."
+    },
+    {
+      "id": 46,
+      "question": "What is the principle of farm diversification?",
+      "choices": ["Focusing all resources on the most profitable single crop", "Producing a variety of enterprises to spread risk and stabilize income", "Using diverse fertilizer sources to improve soil health", "Employing workers from diverse backgrounds"],
+      "answer": "Producing a variety of enterprises to spread risk and stabilize income",
+      "explanation": "Farm diversification involves engaging in multiple enterprises (different crops, livestock, agritourism) so that if one enterprise fails due to weather, pests, or price drops, others can compensate and stabilize farm income."
+    },
+    {
+      "id": 47,
+      "question": "What is contract farming?",
+      "choices": ["A seasonal labor contract between a farmer and farm workers", "An arrangement where a buyer provides inputs and guarantees purchase of the crop at an agreed price", "A lease agreement for renting agricultural land", "A government contract to supply food for public institutions"],
+      "answer": "An arrangement where a buyer provides inputs and guarantees purchase of the crop at an agreed price",
+      "explanation": "Contract farming is an agreement between a processing company or buyer and farmers, where the company provides inputs, technical support, and guarantees to buy the crop at a pre-agreed price, reducing market risk for farmers."
+    },
+    {
+      "id": 48,
+      "question": "What is the purpose of farm records?",
+      "choices": ["To comply with government taxation only", "To track income, expenses, and production for informed decision-making", "To document land ownership for legal purposes", "To record weather conditions for crop insurance claims"],
+      "answer": "To track income, expenses, and production for informed decision-making",
+      "explanation": "Farm records provide data on costs, revenues, yields, and resources, enabling farmers to analyze profitability, identify inefficiencies, apply for credit, and make better management decisions."
+    },
+    {
+      "id": 49,
+      "question": "What is market failure in agriculture?",
+      "choices": ["When crop prices fall below the cost of production", "When markets do not allocate resources efficiently, often requiring government intervention", "When farmers fail to sell their produce before it spoils", "When agricultural products fail quality standards"],
+      "answer": "When markets do not allocate resources efficiently, often requiring government intervention",
+      "explanation": "Market failure occurs when the free market does not achieve an efficient allocation of resources. In agriculture, it can be due to externalities, public goods (irrigation), information asymmetry, or market power by buyers."
+    },
+    {
+      "id": 50,
+      "question": "What is the difference between gross margin and net profit in farm management?",
+      "choices": ["Gross margin is total revenue; net profit includes all costs", "Gross margin is revenue minus variable costs; net profit is gross margin minus fixed costs", "Gross margin is the profit before tax; net profit is after tax", "Gross margin applies to crops; net profit applies to livestock"],
+      "answer": "Gross margin is revenue minus variable costs; net profit is gross margin minus fixed costs",
+      "explanation": "Gross margin = Total Revenue – Variable Costs. It is a useful measure for comparing enterprises. Net profit = Gross Margin – Fixed Costs (overhead). Net profit represents the true profitability of the farm business."
     }
   ]
 }

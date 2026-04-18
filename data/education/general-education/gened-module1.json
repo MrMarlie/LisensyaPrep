@@ -121,6 +121,391 @@
       ],
       "answer": "P63,412.09",
       "explanation": "Using compound interest: A = P(1 + r/n)^(nt). Here P = 50,000; r = 0.08; n = 4 (quarterly); t = 3. A = 50,000(1.02)^12 = 50,000 × 1.26824 ≈ P63,412.09. The quarterly compounding (not annual) is the key to this calculation."
+    },
+    {
+      "id": 11,
+      "question": "Which figure of speech is used in the sentence: 'The wind whispered secrets through the trees'?",
+      "choices": ["Simile", "Metaphor", "Personification", "Hyperbole"],
+      "answer": "Personification",
+      "explanation": "Personification assigns human qualities to non-human things. 'Whispered secrets' attributes a human action (whispering secrets) to the wind, which is a non-human element of nature."
+    },
+    {
+      "id": 12,
+      "question": "Which sentence contains a dangling modifier?",
+      "choices": [
+        "Running quickly, the dog chased the ball.",
+        "Running quickly, the ball was chased by the dog.",
+        "The dog, running quickly, chased the ball.",
+        "The dog chased the ball while running quickly."
+      ],
+      "answer": "Running quickly, the ball was chased by the dog.",
+      "explanation": "A dangling modifier is a phrase that does not clearly or logically modify the subject of the main clause. In this sentence, 'Running quickly' appears to modify 'ball' — but a ball cannot run. The modifier is 'dangling' because its intended subject (dog) is not the subject of the main clause."
+    },
+    {
+      "id": 13,
+      "question": "What is the correct plural form of 'criterion'?",
+      "choices": ["Criterions", "Criteria", "Criterias", "Criterian"],
+      "answer": "Criteria",
+      "explanation": "Criterion is a Latin-origin word whose plural form is 'criteria' (not 'criterions'). This follows the Latin neuter second-declension pattern. Similarly: phenomenon → phenomena, datum → data, medium → media."
+    },
+    {
+      "id": 14,
+      "question": "In Philippine literature, 'Florante at Laura' written by Francisco Balagtas is classified as what type of poetry?",
+      "choices": ["Korido", "Awit", "Duplo", "Balagtasan"],
+      "answer": "Awit",
+      "explanation": "'Florante at Laura' (1838) is an awit — a Tagalog poem with 12 syllables per line (dodecasyllabic) divided into four-line stanzas. The korido has 8 syllables per line. Balagtas used the awit form to embed nationalistic themes under Spanish rule."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following best describes the passive voice in English?",
+      "choices": [
+        "The subject performs the action",
+        "The subject receives the action",
+        "The sentence has no subject",
+        "The verb is in the present tense"
+      ],
+      "answer": "The subject receives the action",
+      "explanation": "In passive voice, the grammatical subject receives the action (e.g., 'The book was written by Rizal'). In active voice, the subject performs the action. Filipino writing often requires students to recognize and convert between active and passive constructions."
+    },
+    {
+      "id": 16,
+      "question": "Solve: If 3x − 7 = 2x + 5, what is the value of x?",
+      "choices": ["10", "12", "2", "−2"],
+      "answer": "12",
+      "explanation": "3x − 7 = 2x + 5 → 3x − 2x = 5 + 7 → x = 12. Verification: 3(12) − 7 = 29 and 2(12) + 5 = 29. ✓"
+    },
+    {
+      "id": 17,
+      "question": "A rectangular lot is 60 meters long and 40 meters wide. What is its perimeter?",
+      "choices": ["2,400 m", "200 m", "100 m", "240 m"],
+      "answer": "200 m",
+      "explanation": "Perimeter of a rectangle = 2(length + width) = 2(60 + 40) = 2 × 100 = 200 meters. Note: the area would be 2,400 sq m (l × w), a common confusion."
+    },
+    {
+      "id": 18,
+      "question": "What is 35% of 240?",
+      "choices": ["84", "80", "78", "90"],
+      "answer": "84",
+      "explanation": "35% of 240 = 0.35 × 240 = 84. Alternatively, 10% of 240 = 24, so 30% = 72 and 5% = 12, giving 72 + 12 = 84."
+    },
+    {
+      "id": 19,
+      "question": "In a class of 40 students, 25 passed the exam. What percentage passed?",
+      "choices": ["60%", "62.5%", "65%", "55%"],
+      "answer": "62.5%",
+      "explanation": "Percentage = (part ÷ whole) × 100 = (25 ÷ 40) × 100 = 0.625 × 100 = 62.5%."
+    },
+    {
+      "id": 20,
+      "question": "What is the next term in the arithmetic sequence: 3, 7, 11, 15, ___?",
+      "choices": ["17", "18", "19", "20"],
+      "answer": "19",
+      "explanation": "The common difference in this arithmetic sequence is 4 (7−3=4, 11−7=4). The next term = 15 + 4 = 19."
+    },
+    {
+      "id": 21,
+      "question": "Ano ang tamang kahulugan ng salitang 'bisa' sa pangungusap na 'Sa bisa ng batas, siya ay nakulong'?",
+      "choices": ["Dahil sa", "Laban sa", "Ayon sa lakas ng", "Sa tulong ng"],
+      "answer": "Dahil sa",
+      "explanation": "Sa konteksto ng 'Sa bisa ng batas,' ang 'bisa' ay nangangahulugang 'epekto' o 'kapangyarihan' ng batas. Sa idyomang ito, ang 'sa bisa ng' ay katumbas ng 'dahil sa' o 'alinsunod sa' (by virtue of)."
+    },
+    {
+      "id": 22,
+      "question": "Alin sa mga sumusunod ang wastong paggamit ng gitling (-)?",
+      "choices": [
+        "Mag-aaral",
+        "Mag aaral",
+        "Magaaral",
+        "Mag.aaral"
+      ],
+      "answer": "Mag-aaral",
+      "explanation": "Ang gitling ay ginagamit sa pagitan ng unlapi at salitang nagsisimula sa patinig (a, e, i, o, u) upang maiwasan ang di-magandang tunog at malito sa pagbigkas. Kaya 'mag-aaral' (hindi 'magaaral') ang wastong baybay."
+    },
+    {
+      "id": 23,
+      "question": "Sino si Andres Bonifacio sa kasaysayan ng Pilipinas?",
+      "choices": [
+        "Unang Pangulo ng Pilipinas",
+        "Tagapagtatag ng Katipunan at pinuno ng rebolusyon laban sa Espanya",
+        "Manunulat ng Noli Me Tangere",
+        "Pinuno ng Biak-na-Bato na nagkasundo sa mga Kastila"
+      ],
+      "answer": "Tagapagtatag ng Katipunan at pinuno ng rebolusyon laban sa Espanya",
+      "explanation": "Si Andres Bonifacio (1863–1897) ang nagtatag ng Katipunan (KKK) noong 1892 at namuno sa rebolusyonaryong kilusan laban sa kolonyal na pamamahala ng Espanya. Siya ang tinatawag na 'Ama ng Pilipinong Rebolusyon.'"
+    },
+    {
+      "id": 24,
+      "question": "Ano ang tawag sa uri ng tayutay na gumagamit ng mga salitang may katulad na tunog sa simula ng bawat salita (hal. 'Mabilis, maliksi, maagap')?",
+      "choices": ["Tugma", "Aliterasyon", "Asonansa", "Onomatopoeia"],
+      "answer": "Aliterasyon",
+      "explanation": "Ang aliterasyon ay ang paulit-ulit na paggamit ng parehong katinig sa simula ng magkakatabi o magkakapit na mga salita. Ito ay madalas na ginagamit sa tula at pagsasalita upang lumikha ng musikal na epekto."
+    },
+    {
+      "id": 25,
+      "question": "What is the process by which liquid water changes into water vapor called?",
+      "choices": ["Condensation", "Sublimation", "Evaporation", "Precipitation"],
+      "answer": "Evaporation",
+      "explanation": "Evaporation is the process by which liquid water changes to water vapor (gas) at temperatures below the boiling point due to the absorption of energy. It differs from boiling, which occurs at a specific boiling point throughout the liquid."
+    },
+    {
+      "id": 26,
+      "question": "What is Newton's Second Law of Motion?",
+      "choices": [
+        "An object at rest stays at rest unless acted upon by a force",
+        "For every action there is an equal and opposite reaction",
+        "Force equals mass times acceleration (F = ma)",
+        "Objects in motion tend to remain in motion at constant velocity"
+      ],
+      "answer": "Force equals mass times acceleration (F = ma)",
+      "explanation": "Newton's Second Law states that the net force on an object equals its mass multiplied by its acceleration (F = ma). It explains why heavier objects require more force to accelerate and is fundamental to mechanics."
+    },
+    {
+      "id": 27,
+      "question": "What is the chemical symbol for gold?",
+      "choices": ["Go", "Gd", "Ag", "Au"],
+      "answer": "Au",
+      "explanation": "Gold's chemical symbol is Au, derived from the Latin word 'Aurum.' Silver is Ag (Argentum), and Gd is Gadolinium. Memorizing symbols from Latin names is important for science teachers."
+    },
+    {
+      "id": 28,
+      "question": "What is the main function of the cell membrane?",
+      "choices": [
+        "Producing energy for the cell",
+        "Controlling what enters and exits the cell (selective permeability)",
+        "Synthesizing proteins for the cell",
+        "Storing genetic information"
+      ],
+      "answer": "Controlling what enters and exits the cell (selective permeability)",
+      "explanation": "The cell membrane is a selectively permeable phospholipid bilayer that regulates the passage of substances into and out of the cell, maintaining the internal environment and controlling communications with the outside environment."
+    },
+    {
+      "id": 29,
+      "question": "What causes the seasons on Earth?",
+      "choices": [
+        "The varying distance of Earth from the Sun",
+        "The tilt of Earth's axis as it orbits the Sun",
+        "The rotation of Earth on its own axis",
+        "Changes in the Sun's intensity throughout the year"
+      ],
+      "answer": "The tilt of Earth's axis as it orbits the Sun",
+      "explanation": "Earth's axial tilt of approximately 23.5° causes one hemisphere to receive more direct sunlight during part of its orbit (summer) while the other receives less (winter). Earth is actually slightly closer to the Sun during the Northern Hemisphere's winter."
+    },
+    {
+      "id": 30,
+      "question": "What is the difference between speed and velocity?",
+      "choices": [
+        "Speed is faster than velocity",
+        "Speed is a scalar (magnitude only); velocity is a vector (magnitude and direction)",
+        "Velocity is measured in km/hr; speed is measured in m/s",
+        "Speed applies to objects; velocity applies to waves"
+      ],
+      "answer": "Speed is a scalar (magnitude only); velocity is a vector (magnitude and direction)",
+      "explanation": "Speed is a scalar quantity that measures how fast an object moves (distance/time). Velocity is a vector quantity that includes both the speed and the direction of motion. An object moving in a circle at constant speed has changing velocity."
+    },
+    {
+      "id": 31,
+      "question": "Under the 1987 Philippine Constitution, who is the Commander-in-Chief of the Armed Forces of the Philippines?",
+      "choices": ["The Senate President", "The Chief Justice", "The President of the Philippines", "The Secretary of National Defense"],
+      "answer": "The President of the Philippines",
+      "explanation": "Article VII, Section 18 of the 1987 Constitution designates the President as the Commander-in-Chief of the AFP. The President may call the armed forces to prevent or suppress lawless violence, invasion, or rebellion."
+    },
+    {
+      "id": 32,
+      "question": "What is the Bayanihan spirit in Philippine culture?",
+      "choices": [
+        "A traditional Filipino martial art",
+        "The Filipino cultural tradition of communal unity and helping one another",
+        "A type of Filipino folk dance",
+        "A philosophy of individual self-reliance"
+      ],
+      "answer": "The Filipino cultural tradition of communal unity and helping one another",
+      "explanation": "Bayanihan is a Filipino cultural value of communal solidarity — the spirit of voluntarily helping neighbors in need. Symbolized by neighbors carrying a house together, it reflects the Filipino value of collective cooperation (pagtulong sa kapwa)."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is NOT one of the three branches of the Philippine government?",
+      "choices": ["Executive", "Legislative", "Administrative", "Judicial"],
+      "answer": "Administrative",
+      "explanation": "The three branches of the Philippine government are: Executive (headed by the President), Legislative (Congress: Senate + House of Representatives), and Judicial (headed by the Supreme Court). 'Administrative' is not a separate branch but functions within these."
+    },
+    {
+      "id": 34,
+      "question": "The concept of 'Archipelagic doctrine' in Philippine territory means:",
+      "choices": [
+        "The Philippines claims only islands above sea level",
+        "The waters enclosed by the baselines connecting the outermost islands are considered internal waters of the Philippines",
+        "The Philippines has sovereignty over all waters within 200 nautical miles",
+        "Each island of the Philippines is a separate territorial unit"
+      ],
+      "answer": "The waters enclosed by the baselines connecting the outermost islands are considered internal waters of the Philippines",
+      "explanation": "The Archipelagic Doctrine treats the Philippine islands and the waters between them as a unified whole. Straight baselines are drawn connecting the outermost points of the outermost islands, and all enclosed waters become internal waters of the Philippines."
+    },
+    {
+      "id": 35,
+      "question": "What is the concept of 'social stratification'?",
+      "choices": [
+        "The geographical division of society into urban and rural areas",
+        "The hierarchical arrangement of individuals and groups in society based on wealth, power, or prestige",
+        "The legal system for classifying crimes by severity",
+        "The economic system of dividing labor between skilled and unskilled workers"
+      ],
+      "answer": "The hierarchical arrangement of individuals and groups in society based on wealth, power, or prestige",
+      "explanation": "Social stratification refers to the ranking of individuals into hierarchical layers or classes in society based on factors like wealth, income, occupation, education, and social prestige, affecting life opportunities and social mobility."
+    },
+    {
+      "id": 36,
+      "question": "What is the correct way to express 'Ginagawa ko ang aking trabaho' in formal Filipino?",
+      "choices": [
+        "Ginagawa ko ang aking gawain.",
+        "Ginagawa ko ang aking trabaho.",
+        "Isinasagawa ko ang aking mga katungkulan.",
+        "Nagtatrabaho ako."
+      ],
+      "answer": "Isinasagawa ko ang aking mga katungkulan.",
+      "explanation": "Sa mas pormal na antas ng Filipino, mas angkop gamitin ang salitang 'isinasagawa' at 'katungkulan' kaysa 'ginagawa' at 'trabaho' (na Espanyol ang pinagmulan). Ang pormal na Filipino ay gumagamit ng mas mataas na antas ng salita."
+    },
+    {
+      "id": 37,
+      "question": "What is the importance of healthy food choices for teachers' professional performance?",
+      "choices": [
+        "It has no direct impact on professional performance",
+        "Proper nutrition supports cognitive function, energy levels, and overall well-being that enable effective teaching",
+        "Only physical education teachers need to maintain healthy diets",
+        "It is relevant only to teachers with existing medical conditions"
+      ],
+      "answer": "Proper nutrition supports cognitive function, energy levels, and overall well-being that enable effective teaching",
+      "explanation": "Proper nutrition affects concentration, memory, energy, and emotional regulation — all critical for effective teaching. Teacher wellness is explicitly connected to professional effectiveness in the PPST framework."
+    },
+    {
+      "id": 38,
+      "question": "What is the concept of sustainable development?",
+      "choices": [
+        "Economic growth at the expense of environmental resources",
+        "Development that meets present needs without compromising the ability of future generations to meet theirs",
+        "The development of renewable energy sources only",
+        "Rapid industrialization with technological innovation"
+      ],
+      "answer": "Development that meets present needs without compromising the ability of future generations to meet theirs",
+      "explanation": "The Brundtland Commission (1987) defined sustainable development as 'development that meets the needs of the present without compromising the ability of future generations to meet their own needs,' balancing economic growth, social equity, and environmental protection."
+    },
+    {
+      "id": 39,
+      "question": "What type of triangle has all three sides of different lengths?",
+      "choices": ["Equilateral", "Isosceles", "Scalene", "Right"],
+      "answer": "Scalene",
+      "explanation": "A scalene triangle has all three sides of different lengths and therefore all three angles are also different. An equilateral triangle has all three sides equal. An isosceles triangle has exactly two equal sides."
+    },
+    {
+      "id": 40,
+      "question": "What is the prime factorization of 60?",
+      "choices": ["2² × 3 × 5", "2 × 3 × 10", "4 × 15", "2³ × 7"],
+      "answer": "2² × 3 × 5",
+      "explanation": "60 = 2 × 30 = 2 × 2 × 15 = 2 × 2 × 3 × 5 = 2² × 3 × 5. Prime factorization expresses a number as a product of prime numbers only. 4 × 15 is a factorization but not prime factorization since 4 and 15 are not prime."
+    },
+    {
+      "id": 41,
+      "question": "What is the significance of June 12, 1898 in Philippine history?",
+      "choices": [
+        "The signing of the Treaty of Paris",
+        "The declaration of Philippine independence from Spain in Kawit, Cavite",
+        "The start of the Philippine-American War",
+        "The ratification of the Malolos Constitution"
+      ],
+      "answer": "The declaration of Philippine independence from Spain in Kawit, Cavite",
+      "explanation": "On June 12, 1898, General Emilio Aguinaldo proclaimed Philippine independence from Spain in his home in Kawit, Cavite. This date is celebrated as Philippine Independence Day, though Spain formally ceded the Philippines to the United States via the Treaty of Paris on December 10, 1898."
+    },
+    {
+      "id": 42,
+      "question": "What is civic consciousness?",
+      "choices": [
+        "Awareness of civic examination requirements for government positions",
+        "Awareness of one's rights and responsibilities as a member of society and active participation in civic life",
+        "Knowledge of local and national tax laws",
+        "Understanding of the civil service commission procedures"
+      ],
+      "answer": "Awareness of one's rights and responsibilities as a member of society and active participation in civic life",
+      "explanation": "Civic consciousness refers to being aware of and engaged with the issues and activities of one's community and nation — knowing one's rights, fulfilling duties (voting, paying taxes, obeying laws), and participating in governance."
+    },
+    {
+      "id": 43,
+      "question": "What principle is illustrated when a teacher shows equal respect to all students regardless of their socioeconomic status?",
+      "choices": ["Utilitarianism", "Human dignity and equal rights", "Social Darwinism", "Meritocracy"],
+      "answer": "Human dignity and equal rights",
+      "explanation": "Treating all students with equal respect regardless of background reflects the principle of human dignity — the inherent worth of every person — and equal rights under the law. This is enshrined in the Philippine Constitution and is a core value in professional teaching ethics."
+    },
+    {
+      "id": 44,
+      "question": "What is the difference between deductive and inductive reasoning?",
+      "choices": [
+        "Deductive uses examples; inductive uses rules",
+        "Deductive reasoning moves from general premises to specific conclusions; inductive moves from specific observations to general conclusions",
+        "Deductive is used in science; inductive is used in mathematics",
+        "Deductive requires more evidence than inductive reasoning"
+      ],
+      "answer": "Deductive reasoning moves from general premises to specific conclusions; inductive moves from specific observations to general conclusions",
+      "explanation": "Deductive reasoning: All humans are mortal; Rizal is human; therefore Rizal is mortal. Inductive reasoning: Every crow observed has been black; therefore all crows are probably black. Mathematics uses deductive proof; scientific inquiry often uses inductive reasoning."
+    },
+    {
+      "id": 45,
+      "question": "What is the main instrument of the Rondalla ensemble in the Philippines?",
+      "choices": ["Kulintang", "Bandurria", "Kudyapi", "Arpa"],
+      "answer": "Bandurria",
+      "explanation": "The Rondalla is a Filipino string ensemble whose lead instrument is the bandurria (a plucked string instrument with 14 strings). Other instruments include the laud, octavina, guitar, and bajo de uñas (bass guitar)."
+    },
+    {
+      "id": 46,
+      "question": "What is the significance of 'sining' (art) in Filipino culture?",
+      "choices": [
+        "It serves only as entertainment with no cultural value",
+        "It expresses cultural identity, values, beliefs, and the Filipino experience across generations",
+        "It is limited to visual arts created during the colonial period",
+        "It is practiced only by professional artists"
+      ],
+      "answer": "It expresses cultural identity, values, beliefs, and the Filipino experience across generations",
+      "explanation": "Filipino art (sining) is an expression of national identity — from traditional crafts, weaving, and woodcarving to contemporary visual arts, music, theater, and dance. It preserves cultural heritage and communicates the Filipino experience and values."
+    },
+    {
+      "id": 47,
+      "question": "What is the Golden Rule and which subject area is it most associated with in basic education?",
+      "choices": [
+        "Treat others as you wish to be treated — most associated with Mathematics",
+        "Treat others as you wish to be treated — most associated with Values Education",
+        "Do unto others before they do unto you — associated with Social Studies",
+        "Help those who help you — associated with Science"
+      ],
+      "answer": "Treat others as you wish to be treated — most associated with Values Education",
+      "explanation": "The Golden Rule ('Treat others as you wish to be treated') is one of the most universal ethical principles, found across world religions and cultures. It is a cornerstone concept in Values Education (Edukasyon sa Pagpapakatao) in Philippine basic education."
+    },
+    {
+      "id": 48,
+      "question": "What is the purpose of the Philippine flag's colors?",
+      "choices": [
+        "Blue = sea, Red = soil, White = clouds",
+        "Blue = peace, Red = courage/patriotism, White = purity/equality",
+        "Blue = sky, Red = sacrifice, White = peace",
+        "Blue = loyalty, Red = love, White = freedom"
+      ],
+      "answer": "Blue = peace, Red = courage/patriotism, White = purity/equality",
+      "explanation": "The Philippine flag's blue stripe symbolizes peace, truth, and justice; the red stripe represents patriotism and valor; and the white equilateral triangle stands for equality and fraternity. The sun and three stars represent the island groups."
+    },
+    {
+      "id": 49,
+      "question": "If the temperature in Celsius is 37°C, what is it in Fahrenheit?",
+      "choices": ["98.6°F", "99.6°F", "100.6°F", "97.6°F"],
+      "answer": "98.6°F",
+      "explanation": "Using the formula: °F = (°C × 9/5) + 32 → (37 × 9/5) + 32 = (333/5) + 32 = 66.6 + 32 = 98.6°F. This is normal human body temperature, a commonly tested conversion in both science and general knowledge."
+    },
+    {
+      "id": 50,
+      "question": "What is the concept of 'rule of law'?",
+      "choices": [
+        "The principle that only rulers make laws",
+        "The principle that everyone, including the government, is subject to and accountable under the law",
+        "A legal doctrine allowing courts to overturn all laws",
+        "The principle that laws must be obeyed only by ordinary citizens"
+      ],
+      "answer": "The principle that everyone, including the government, is subject to and accountable under the law",
+      "explanation": "The rule of law is the principle that all individuals and institutions, including the government, are accountable to laws that are publicly promulgated, equally enforced, and independently adjudicated. It is a cornerstone of democratic governance and the Philippine constitutional system."
     }
   ]
 }

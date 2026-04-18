@@ -276,6 +276,146 @@
       ],
       "answer": "The amount of body fat reserves relative to frame size",
       "explanation": "Body condition scoring is a visual and tactile assessment of an animal's fatness/thinness. It helps farmers make management decisions about feeding, breeding, and health interventions."
+    },
+    {
+      "id": 31,
+      "question": "What is the approximate gestation period of a cow?",
+      "choices": ["115 days", "150 days", "280 days", "350 days"],
+      "answer": "280 days",
+      "explanation": "The gestation period of a cow is approximately 280–285 days (about 9 months). Knowing this allows farmers to plan calving schedules and manage nutritional requirements of pregnant cows."
+    },
+    {
+      "id": 32,
+      "question": "What is rumen microflora and why is it important?",
+      "choices": ["Beneficial plants grown alongside livestock", "Microorganisms in the rumen that digest fibrous feed materials", "Bacteria on the skin of ruminants that prevent infections", "Feed additives that improve digestion"],
+      "answer": "Microorganisms in the rumen that digest fibrous feed materials",
+      "explanation": "Rumen microflora consists of bacteria, protozoa, and fungi that ferment plant fiber (cellulose, hemicellulose) into volatile fatty acids that provide energy to the ruminant host. They are essential for efficient fiber digestion."
+    },
+    {
+      "id": 33,
+      "question": "What is artificial insemination (AI) in livestock production?",
+      "choices": ["Creating genetically identical animals through cloning", "Manual introduction of semen into the female reproductive tract to achieve pregnancy", "The use of hormones to induce estrus in females", "Cross-breeding animals from different farms"],
+      "answer": "Manual introduction of semen into the female reproductive tract to achieve pregnancy",
+      "explanation": "Artificial insemination is the deliberate introduction of collected semen from a genetically superior male into the female's reproductive tract. It allows widespread use of superior genetics without the risk of disease transmission from natural mating."
+    },
+    {
+      "id": 34,
+      "question": "What is colostrum and why is it important for newborns?",
+      "choices": ["The milk produced during late lactation with low nutrients", "The first milk produced after birth, rich in antibodies and immune factors", "A special feed supplement for newborn animals", "The milk produced after weaning the calf"],
+      "answer": "The first milk produced after birth, rich in antibodies and immune factors",
+      "explanation": "Colostrum is the thick, yellowish first milk produced in the first 24–48 hours after parturition. It is rich in immunoglobulins (antibodies), vitamins, and nutrients, providing passive immunity to newborns whose immune systems are not yet mature."
+    },
+    {
+      "id": 35,
+      "question": "What is the purpose of castration in livestock management?",
+      "choices": ["To improve milk production in male animals", "To improve meat quality, reduce aggression, and make males easier to handle", "To enhance the breeding performance of bulls", "To prevent disease transmission between animals"],
+      "answer": "To improve meat quality, reduce aggression, and make males easier to handle",
+      "explanation": "Castration (removal of testicles) eliminates male hormone production, resulting in calmer behavior, improved meat quality (less taint), and easier handling. Castrated males (steers, barrows, wethers) are more efficiently finished for meat."
+    },
+    {
+      "id": 36,
+      "question": "What is a heifer?",
+      "choices": ["A cow that has given birth more than twice", "A young female bovine that has not yet given birth", "A castrated male bovine", "A female bovine in its second lactation"],
+      "answer": "A young female bovine that has not yet given birth",
+      "explanation": "A heifer is a young female bovine that has not yet calved. After her first calving, she becomes a cow. Heifers are bred to calve at around 2 years of age for optimal lifetime productivity."
+    },
+    {
+      "id": 37,
+      "question": "What is Total Digestible Nutrients (TDN)?",
+      "choices": ["The total weight of feed consumed per day", "A measure of feed energy value based on the sum of digestible organic nutrients", "The minimum nutrient requirement for animal maintenance", "The ratio of protein to carbohydrate in a feed ration"],
+      "answer": "A measure of feed energy value based on the sum of digestible organic nutrients",
+      "explanation": "TDN is a traditional measure of feed energy value equal to the sum of digestible crude protein, crude fiber, nitrogen-free extract, and 2.25 × digestible ether extract. It is used to formulate and balance livestock rations."
+    },
+    {
+      "id": 38,
+      "question": "What is the difference between broiler and layer chickens?",
+      "choices": ["Broilers produce eggs; layers produce meat", "Broilers are raised for meat production; layers are raised for egg production", "Broilers are local breeds; layers are imported breeds", "Broilers are female; layers are male chickens"],
+      "answer": "Broilers are raised for meat production; layers are raised for egg production",
+      "explanation": "Broilers are selected for rapid body weight gain and efficient feed conversion for meat production, typically slaughtered at 5–7 weeks. Layers are selected for high egg production, laying up to 300+ eggs per year."
+    },
+    {
+      "id": 39,
+      "question": "What is embryo transfer in cattle breeding?",
+      "choices": ["Moving cattle embryos between countries for genetic improvement", "Transferring embryos from a genetically superior donor cow to recipient cows", "Creating embryos through in vitro fertilization only", "Freezing embryos for later use in the same cow"],
+      "answer": "Transferring embryos from a genetically superior donor cow to recipient cows",
+      "explanation": "Embryo transfer involves superovulating a genetically superior donor cow, collecting multiple embryos, and transferring them to recipient (surrogate) cows. This allows one superior cow to produce many more offspring than natural breeding."
+    },
+    {
+      "id": 40,
+      "question": "What is the dressing percentage in meat production?",
+      "choices": ["The percentage of meat free from disease", "Carcass weight expressed as a percentage of the live body weight", "The ratio of lean meat to fat in the carcass", "The percentage of animals that survive slaughter"],
+      "answer": "Carcass weight expressed as a percentage of the live body weight",
+      "explanation": "Dressing percentage = (Carcass weight ÷ Live weight) × 100. It indicates how much of the live animal converts to usable carcass. Beef cattle typically have a dressing percentage of 55–65%."
+    },
+    {
+      "id": 41,
+      "question": "What is the estrous cycle length in cattle?",
+      "choices": ["7 days", "14 days", "21 days", "28 days"],
+      "answer": "21 days",
+      "explanation": "The estrous cycle in cattle averages 21 days (range 18–24 days). The period of estrus (standing heat) lasts only 12–18 hours, so accurate detection is critical for successful natural or artificial insemination."
+    },
+    {
+      "id": 42,
+      "question": "What is biosecurity in animal production?",
+      "choices": ["The financial security of livestock investments", "Measures taken to prevent the introduction and spread of diseases in a livestock operation", "Security systems to prevent livestock theft", "Safety protocols for workers handling dangerous animals"],
+      "answer": "Measures taken to prevent the introduction and spread of diseases in a livestock operation",
+      "explanation": "Biosecurity encompasses practices like controlled access to farm premises, quarantine of new animals, proper sanitation, vaccination programs, and pest control, all aimed at preventing disease entry and spread within a herd or flock."
+    },
+    {
+      "id": 43,
+      "question": "What is crossbreeding in animal production?",
+      "choices": ["Breeding animals from the same breed to intensify desired traits", "Mating animals of different breeds to combine desirable traits from both parents", "Selecting only the best animals within a breed for breeding", "Crossing domestic animals with wild species"],
+      "answer": "Mating animals of different breeds to combine desirable traits from both parents",
+      "explanation": "Crossbreeding combines two or more breeds to capture hybrid vigor (heterosis) and complement traits. For example, crossing Brahman (heat tolerance) with Angus (meat quality) produces offspring superior to either parent in many traits."
+    },
+    {
+      "id": 44,
+      "question": "What is the purpose of silage in livestock feeding?",
+      "choices": ["Providing supplemental vitamins to livestock", "Preserving green fodder through fermentation for use during dry season", "Processing grain for easier digestion", "Storing dry hay in airtight conditions"],
+      "answer": "Preserving green fodder through fermentation for use during dry season",
+      "explanation": "Silage is fermented, high-moisture stored fodder made from green crops (corn, grasses) that have been preserved through anaerobic fermentation. It provides livestock with nutritious feed during periods when fresh pasture is unavailable."
+    },
+    {
+      "id": 45,
+      "question": "What is the main difference between ruminants and monogastric animals?",
+      "choices": ["Ruminants are larger; monogastrics are smaller", "Ruminants have a multi-chambered stomach and can digest cellulose; monogastrics have a simple stomach", "Ruminants produce meat only; monogastrics produce eggs and meat", "Ruminants are herbivores; monogastrics are omnivores"],
+      "answer": "Ruminants have a multi-chambered stomach and can digest cellulose; monogastrics have a simple stomach",
+      "explanation": "Ruminants (cattle, sheep, goats) have a four-chambered stomach (rumen, reticulum, omasum, abomasum) allowing microbial digestion of cellulose in fibrous feeds. Monogastrics (pigs, poultry) have a single-chambered stomach and cannot digest cellulose efficiently."
+    },
+    {
+      "id": 46,
+      "question": "What is the purpose of vaccination in livestock?",
+      "choices": ["To treat existing diseases in animals", "To stimulate the immune system to produce immunity against specific diseases", "To improve growth rates and feed efficiency", "To prevent reproductive problems in breeding animals"],
+      "answer": "To stimulate the immune system to produce immunity against specific diseases",
+      "explanation": "Vaccination introduces antigens (killed or modified pathogens) that stimulate the immune system to produce antibodies, providing immunity against specific diseases. Vaccination programs are the most cost-effective disease prevention strategy in livestock."
+    },
+    {
+      "id": 47,
+      "question": "What is the purpose of deworming in livestock management?",
+      "choices": ["To improve coat quality in animals", "To control internal parasites (helminths) that reduce productivity", "To prevent bacterial infections in the digestive system", "To reduce external parasites like ticks and lice"],
+      "answer": "To control internal parasites (helminths) that reduce productivity",
+      "explanation": "Deworming (anthelmintic treatment) controls internal parasites like roundworms, tapeworms, and flukes that cause malnutrition, anemia, diarrhea, and reduced growth rates. Regular deworming is essential for maintaining livestock health and productivity."
+    },
+    {
+      "id": 48,
+      "question": "What is the five freedoms principle in animal welfare?",
+      "choices": ["Five rights of farmers regarding livestock management", "Freedom from hunger/thirst, discomfort, pain/disease, fear, and freedom to express normal behavior", "Five categories of livestock: cattle, swine, poultry, goats, and sheep", "Five production systems for animal husbandry"],
+      "answer": "Freedom from hunger/thirst, discomfort, pain/disease, fear, and freedom to express normal behavior",
+      "explanation": "The Five Freedoms (Farm Animal Welfare Council, 1979) are internationally recognized animal welfare standards: (1) freedom from hunger and thirst, (2) freedom from discomfort, (3) freedom from pain/injury/disease, (4) freedom to express normal behavior, and (5) freedom from fear and distress."
+    },
+    {
+      "id": 49,
+      "question": "What is average daily gain (ADG) in livestock production?",
+      "choices": ["The average daily milk production per cow", "The average daily weight gain of an animal over a production period", "The daily feed intake divided by body weight", "The average number of animals added to a herd per day"],
+      "answer": "The average daily weight gain of an animal over a production period",
+      "explanation": "ADG = (Final weight – Initial weight) ÷ Number of days. It measures the growth rate of a livestock animal and is a key performance indicator for meat-producing animals. Higher ADG means faster, more efficient production."
+    },
+    {
+      "id": 50,
+      "question": "What is the purpose of a feedlot operation?",
+      "choices": ["Producing milk from high-yielding dairy cows", "Intensively feeding livestock in a confined area to maximize rapid weight gain before slaughter", "Providing pasture-based nutrition for breeding stock", "Managing breeding herds for genetic improvement"],
+      "answer": "Intensively feeding livestock in a confined area to maximize rapid weight gain before slaughter",
+      "explanation": "A feedlot is a type of animal feeding operation where cattle (or other livestock) are confined in pens and fed a high-energy diet (usually grain-based) to maximize growth rate and finish them to market weight as efficiently as possible."
     }
   ]
 }

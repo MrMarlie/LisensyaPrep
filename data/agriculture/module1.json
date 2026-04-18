@@ -211,6 +211,146 @@
       "choices": ["Total biomass produced per unit area", "Amount of marketable product produced per unit area", "Number of plants per hectare", "Quality of the harvested product"],
       "answer": "Amount of marketable product produced per unit area",
       "explanation": "Yield refers to the amount of marketable or economic product (grain, fruit, etc.) produced per unit area, usually expressed as tons per hectare or kilograms per hectare."
+    },
+    {
+      "id": 31,
+      "question": "What is vernalization in crop science?",
+      "choices": ["Exposing seeds to cold to induce flowering", "Applying fertilizer in winter", "Storing crops at low temperatures", "Grafting during cold season"],
+      "answer": "Exposing seeds to cold to induce flowering",
+      "explanation": "Vernalization is the process of exposing seeds or plants to prolonged cold temperatures to stimulate or accelerate subsequent flowering. It is critical for temperate crops like wheat and barley."
+    },
+    {
+      "id": 32,
+      "question": "What is intercropping?",
+      "choices": ["Planting crops in raised beds", "Growing two or more crops simultaneously on the same land", "Rotating crops each season", "Planting a single crop in rows"],
+      "answer": "Growing two or more crops simultaneously on the same land",
+      "explanation": "Intercropping is the practice of growing two or more crops at the same time in the same field, which can increase land productivity, reduce pests, and improve soil health."
+    },
+    {
+      "id": 33,
+      "question": "Which plant hormone is primarily responsible for cell elongation and phototropism?",
+      "choices": ["Cytokinin", "Gibberellin", "Auxin (IAA)", "Abscisic acid"],
+      "answer": "Auxin (IAA)",
+      "explanation": "Auxin (Indole-3-acetic acid) promotes cell elongation and is responsible for phototropism — the bending of plants toward light — by accumulating on the shaded side of the shoot."
+    },
+    {
+      "id": 34,
+      "question": "What is the scientific name of rice?",
+      "choices": ["Zea mays", "Triticum aestivum", "Oryza sativa", "Sorghum bicolor"],
+      "answer": "Oryza sativa",
+      "explanation": "Rice is scientifically named Oryza sativa. It is the world's most important staple crop and the primary food source for more than half of the world's population, including the Philippines."
+    },
+    {
+      "id": 35,
+      "question": "What is photoperiodism?",
+      "choices": ["The rate of photosynthesis per day", "The response of plants to the relative length of day and night", "Light intensity effects on crop color", "Duration of sunlight needed for germination"],
+      "answer": "The response of plants to the relative length of day and night",
+      "explanation": "Photoperiodism is the physiological response of plants to the relative lengths of light and dark periods, controlling flowering time in many crop species."
+    },
+    {
+      "id": 36,
+      "question": "A short-day plant will flower when:",
+      "choices": ["Day length exceeds its critical photoperiod", "Night length exceeds its critical dark period", "It receives continuous light", "Temperature drops below 15°C"],
+      "answer": "Night length exceeds its critical dark period",
+      "explanation": "Short-day plants actually respond to long nights. They flower when the night period exceeds their critical dark period, making 'short-night plant' a more accurate (though less common) term."
+    },
+    {
+      "id": 37,
+      "question": "What is the primary purpose of roguing in seed production?",
+      "choices": ["Removing weeds from the field", "Removing off-type or diseased plants to maintain variety purity", "Thinning overcrowded seedlings", "Harvesting mature seed heads early"],
+      "answer": "Removing off-type or diseased plants to maintain variety purity",
+      "explanation": "Roguing is the removal of off-type, diseased, or inferior plants from a seed production field to maintain the genetic purity and health of the seed lot."
+    },
+    {
+      "id": 38,
+      "question": "What is ratooning in crop production?",
+      "choices": ["Transplanting young seedlings", "Harvesting regrowth from crop stumps after the main harvest", "Training vine crops on trellises", "Applying fertilizer at the base of the plant"],
+      "answer": "Harvesting regrowth from crop stumps after the main harvest",
+      "explanation": "Ratooning is the practice of harvesting the regrowth that emerges from the stubble or root stock after the main crop has been cut, used in sugarcane, rice, and banana production."
+    },
+    {
+      "id": 39,
+      "question": "What is the term for the arrangement of leaves on a stem?",
+      "choices": ["Phyllotaxy", "Vernation", "Phyllody", "Venation"],
+      "answer": "Phyllotaxy",
+      "explanation": "Phyllotaxy (or phyllotaxis) refers to the arrangement pattern of leaves on a stem. Common patterns include alternate, opposite, and whorled arrangements."
+    },
+    {
+      "id": 40,
+      "question": "Which of the following crops is classified as a legume?",
+      "choices": ["Corn (Zea mays)", "Soybean (Glycine max)", "Rice (Oryza sativa)", "Wheat (Triticum aestivum)"],
+      "answer": "Soybean (Glycine max)",
+      "explanation": "Soybean belongs to the family Fabaceae (legumes). Legumes have nitrogen-fixing root nodules containing Rhizobium bacteria, which make them valuable in crop rotation systems."
+    },
+    {
+      "id": 41,
+      "question": "What is the purpose of thinning in crop production?",
+      "choices": ["Adding more seeds to sparse areas", "Reducing plant density to improve individual plant yield", "Removing leaves to improve air circulation", "Cutting back stems to promote branching"],
+      "answer": "Reducing plant density to improve individual plant yield",
+      "explanation": "Thinning removes excess plants to reduce competition for water, nutrients, and light, allowing remaining plants to develop fully and produce higher individual yields."
+    },
+    {
+      "id": 42,
+      "question": "What is lodging in crop production?",
+      "choices": ["Storing harvested crops in a barn", "The bending or falling over of crop stems due to weak culms or adverse weather", "The formation of knots in timber crops", "Planting crops in furrows"],
+      "answer": "The bending or falling over of crop stems due to weak culms or adverse weather",
+      "explanation": "Lodging occurs when crop stems bend or fall over, caused by weak stems, heavy grain load, strong winds, or excessive rain. It reduces harvest efficiency and can cause significant yield losses."
+    },
+    {
+      "id": 43,
+      "question": "Which plant hormone promotes fruit ripening and is also involved in senescence?",
+      "choices": ["Cytokinin", "Gibberellin", "Ethylene", "Auxin"],
+      "answer": "Ethylene",
+      "explanation": "Ethylene is a gaseous plant hormone that promotes fruit ripening, leaf abscission, and senescence. It is used commercially to ripen bananas and other climacteric fruits."
+    },
+    {
+      "id": 44,
+      "question": "What is crop rotation and its main benefit?",
+      "choices": ["Growing the same crop in different fields each season to maximize profit", "Growing different crops sequentially on the same land to break pest cycles and improve soil", "Rotating planting schedules to match market prices", "Harvesting crops in rotation to spread labor needs"],
+      "answer": "Growing different crops sequentially on the same land to break pest cycles and improve soil",
+      "explanation": "Crop rotation is growing a series of different crops in sequence on the same land. Benefits include breaking pest and disease cycles, improving soil fertility (especially with legumes), and reducing erosion."
+    },
+    {
+      "id": 45,
+      "question": "What is the harvest index?",
+      "choices": ["The ratio of grain yield to total aboveground biomass", "The percentage of crop harvested on time", "The number of harvests per year", "The efficiency of the harvesting machinery"],
+      "answer": "The ratio of grain yield to total aboveground biomass",
+      "explanation": "Harvest index (HI) is the ratio of economic yield (grain) to total aboveground biological yield (biomass). A higher harvest index indicates more efficient partitioning of assimilates into the harvestable product."
+    },
+    {
+      "id": 46,
+      "question": "What is apomixis in plants?",
+      "choices": ["Cross-pollination between two varieties", "Seed formation without fertilization", "Vegetative propagation through cuttings", "Formation of multiple embryos in one seed"],
+      "answer": "Seed formation without fertilization",
+      "explanation": "Apomixis is the formation of seeds and embryos without fertilization. It produces offspring genetically identical to the mother plant and is of great interest to plant breeders for fixing hybrid vigor."
+    },
+    {
+      "id": 47,
+      "question": "Which irrigation method delivers water directly to the root zone with minimal evaporation loss?",
+      "choices": ["Flood irrigation", "Furrow irrigation", "Sprinkler irrigation", "Drip irrigation"],
+      "answer": "Drip irrigation",
+      "explanation": "Drip (trickle) irrigation delivers water directly to the plant root zone through emitters, minimizing evaporation and runoff. It is the most water-efficient irrigation method, especially for high-value crops."
+    },
+    {
+      "id": 48,
+      "question": "What is allelopathy?",
+      "choices": ["Mutualistic relationship between two crop species", "The suppression of one plant's growth by chemicals released by another plant", "Sensitivity of crops to aluminum toxicity", "Attraction of beneficial insects by crop odors"],
+      "answer": "The suppression of one plant's growth by chemicals released by another plant",
+      "explanation": "Allelopathy is a biological phenomenon where a plant produces chemicals (allelochemicals) that influence the growth of neighboring plants, which can be exploited in weed management."
+    },
+    {
+      "id": 49,
+      "question": "What are the main benefits of mulching in crop production?",
+      "choices": ["Increases soil temperature and promotes pest activity", "Conserves soil moisture, regulates temperature, and suppresses weeds", "Improves deep soil drainage and increases pH", "Provides additional nutrients directly to roots"],
+      "answer": "Conserves soil moisture, regulates temperature, and suppresses weeds",
+      "explanation": "Mulching provides multiple benefits: it conserves soil moisture by reducing evaporation, regulates soil temperature, suppresses weed growth by blocking light, and can add organic matter as it decomposes."
+    },
+    {
+      "id": 50,
+      "question": "What is phenotypic plasticity in crops?",
+      "choices": ["The ability of a crop to produce identical plants through cloning", "The capacity of a genotype to express different phenotypes in response to environmental conditions", "Genetic modification to improve crop traits", "The stability of a variety across different environments"],
+      "answer": "The capacity of a genotype to express different phenotypes in response to environmental conditions",
+      "explanation": "Phenotypic plasticity is the ability of a single genotype to produce different phenotypes depending on environmental conditions such as temperature, water availability, and light, allowing crops to adapt to variable environments."
     }
   ]
 }

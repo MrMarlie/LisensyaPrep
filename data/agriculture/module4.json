@@ -276,6 +276,146 @@
       ],
       "answer": "A pest of potential economic importance not yet present or not widely distributed in an area",
       "explanation": "According to ISPM No. 5 (FAO), a quarantine pest is a pest of potential economic importance to the area endangered thereby and not yet present there, or present but not widely distributed and being officially controlled."
+    },
+    {
+      "id": 31,
+      "question": "What is biological control in crop protection?",
+      "choices": ["Using genetically modified crops to resist pests", "Using natural enemies such as predators, parasites, or pathogens to control pest populations", "Applying biological pesticides derived from synthetic sources", "Controlling pests through crop rotation alone"],
+      "answer": "Using natural enemies such as predators, parasites, or pathogens to control pest populations",
+      "explanation": "Biological control involves using living organisms — predators (ladybugs), parasitoids (Trichogramma wasps), or pathogens (Bacillus thuringiensis) — to suppress pest populations as part of IPM."
+    },
+    {
+      "id": 32,
+      "question": "What is the economic threshold (ET) in pest management?",
+      "choices": ["The pest density at which a crop becomes completely destroyed", "The pest density at which control measures should be applied to prevent economic damage", "The cost of pesticide application per hectare", "The minimum profit margin after pest damage"],
+      "answer": "The pest density at which control measures should be applied to prevent economic damage",
+      "explanation": "The economic threshold is the pest population density at which the cost of pest damage equals the cost of control. Farmers should intervene at or just below this level to prevent economic injury."
+    },
+    {
+      "id": 33,
+      "question": "What is a systemic pesticide?",
+      "choices": ["A pesticide that kills only soil-dwelling pests", "A pesticide that is absorbed and transported throughout the plant's vascular system", "A pesticide applied only to the soil surface", "A pesticide effective against a broad spectrum of pests"],
+      "answer": "A pesticide that is absorbed and transported throughout the plant's vascular system",
+      "explanation": "Systemic pesticides are absorbed by the plant and distributed through the xylem or phloem, making all plant tissues toxic to target pests. They are effective against sucking insects and provide longer residual protection."
+    },
+    {
+      "id": 34,
+      "question": "What does LD50 represent in toxicology?",
+      "choices": ["The lowest dose that causes any toxic effect", "The dose that causes death in 50% of a test population", "The lethal dose for 50% of plants in a field", "The concentration of pesticide remaining after 50 days in soil"],
+      "answer": "The dose that causes death in 50% of a test population",
+      "explanation": "LD50 (Lethal Dose 50) is the amount of a substance that kills 50% of a test population. A lower LD50 indicates a more toxic substance. It is used to compare the relative toxicity of pesticides."
+    },
+    {
+      "id": 35,
+      "question": "What are pheromone traps used for in crop protection?",
+      "choices": ["Attracting beneficial insects to the crop", "Monitoring pest populations and mass-trapping using sex attractants", "Repelling pests from entering the field", "Marking field boundaries to prevent pesticide drift"],
+      "answer": "Monitoring pest populations and mass-trapping using sex attractants",
+      "explanation": "Pheromone traps use synthetic sex pheromones to attract and capture adult insects (usually males), allowing farmers to monitor pest population density and timing for better spray decisions or for mass trapping."
+    },
+    {
+      "id": 36,
+      "question": "What is virulence in plant pathology?",
+      "choices": ["The ability of a pathogen to survive in soil", "The degree of pathogenicity — how severely a pathogen can cause disease", "The speed at which disease spreads through a crop", "The resistance of a pathogen to fungicides"],
+      "answer": "The degree of pathogenicity — how severely a pathogen can cause disease",
+      "explanation": "Virulence refers to the degree or measure of pathogenicity — how aggressively a pathogen causes damage to its host plant. A highly virulent pathogen causes severe disease symptoms even at low inoculum levels."
+    },
+    {
+      "id": 37,
+      "question": "What is the purpose of pre-harvest interval (PHI) for pesticides?",
+      "choices": ["The waiting time before applying the next pesticide dose", "The minimum time between the last pesticide application and crop harvest to ensure safe residue levels", "The period after planting when no pesticides should be applied", "The interval between pest scouting and spray decisions"],
+      "answer": "The minimum time between the last pesticide application and crop harvest to ensure safe residue levels",
+      "explanation": "The pre-harvest interval (PHI) is the mandatory waiting period after the last pesticide application before harvest. It ensures that pesticide residues degrade to safe levels before the food reaches consumers."
+    },
+    {
+      "id": 38,
+      "question": "What is the mode of action of organophosphate insecticides?",
+      "choices": ["Disrupting the insect's molting process", "Inhibiting acetylcholinesterase, causing continuous nerve impulse firing", "Blocking the insect's respiratory system", "Disrupting cell membrane integrity"],
+      "answer": "Inhibiting acetylcholinesterase, causing continuous nerve impulse firing",
+      "explanation": "Organophosphates inhibit acetylcholinesterase, the enzyme that breaks down acetylcholine at nerve synapses. This causes continuous nerve firing, leading to paralysis and death. They also pose hazards to humans and animals."
+    },
+    {
+      "id": 39,
+      "question": "What is phytotoxicity?",
+      "choices": ["Toxicity of plants to animals", "Damage to plants caused by pesticide application", "The poisonous effect of mycotoxins on humans", "Plant resistance to herbicide application"],
+      "answer": "Damage to plants caused by pesticide application",
+      "explanation": "Phytotoxicity refers to the injury caused to plants by pesticides — manifesting as leaf burn, stunting, discoloration, or even plant death. It can be caused by incorrect dosage, incompatible pesticide mixtures, or application during heat stress."
+    },
+    {
+      "id": 40,
+      "question": "What is the disease triangle in plant pathology?",
+      "choices": ["Three main symptoms of any plant disease", "The interaction of host, pathogen, and environment necessary for disease to occur", "Three types of pathogens: fungi, bacteria, and viruses", "Three stages of disease progression"],
+      "answer": "The interaction of host, pathogen, and environment necessary for disease to occur",
+      "explanation": "The disease triangle states that plant disease requires the simultaneous presence of a susceptible host, a virulent pathogen, and a favorable environment. Removing any one component prevents disease development."
+    },
+    {
+      "id": 41,
+      "question": "What is a plant-parasitic nematode?",
+      "choices": ["A beneficial soil organism that enhances nutrient cycling", "A microscopic roundworm that parasitizes plant roots, causing yield losses", "A viral pathogen spread by soil insects", "A type of fungal pathogen affecting cereals"],
+      "answer": "A microscopic roundworm that parasitizes plant roots, causing yield losses",
+      "explanation": "Plant-parasitic nematodes are microscopic roundworms that feed on plant roots, causing galls, stunting, and yield losses. Root-knot nematodes (Meloidogyne spp.) are among the most economically important crop pests worldwide."
+    },
+    {
+      "id": 42,
+      "question": "What is mycotoxin contamination in stored crops?",
+      "choices": ["Toxic compounds produced by bacteria in stored grains", "Toxic compounds produced by molds that contaminate crops and pose health risks", "Chemical residues from fungicide applications", "Natural plant compounds that are toxic to insects"],
+      "answer": "Toxic compounds produced by molds that contaminate crops and pose health risks",
+      "explanation": "Mycotoxins are secondary metabolites produced by molds like Aspergillus, Fusarium, and Penicillium. Aflatoxins contaminate corn, peanuts, and rice under poor storage conditions and are carcinogenic to humans and livestock."
+    },
+    {
+      "id": 43,
+      "question": "What is the difference between contact and systemic fungicides?",
+      "choices": ["Contact fungicides are newer; systemic are older formulations", "Contact fungicides protect the plant surface only; systemic fungicides penetrate and move within plant tissue", "Contact fungicides treat soil; systemic treat foliage", "Contact fungicides are more toxic; systemic are safer"],
+      "answer": "Contact fungicides protect the plant surface only; systemic fungicides penetrate and move within plant tissue",
+      "explanation": "Contact (protectant) fungicides form a barrier on the plant surface to prevent infection. Systemic (curative) fungicides are absorbed into plant tissue and can move to untreated parts, stopping or curing existing infections."
+    },
+    {
+      "id": 44,
+      "question": "What is a fumigant in pesticide classification?",
+      "choices": ["A pesticide applied as granules to the soil", "A pesticide applied as a gas or vapor to kill pests in soil or stored products", "A liquid pesticide sprayed directly on insects", "A pesticide mixed with irrigation water"],
+      "answer": "A pesticide applied as a gas or vapor to kill pests in soil or stored products",
+      "explanation": "Fumigants are chemicals that produce gas or vapor to kill pests. Phosphine and methyl bromide are used to fumigate soil (for nematodes) and stored grains (for weevils and other storage pests)."
+    },
+    {
+      "id": 45,
+      "question": "What is crop resistance breeding in pest management?",
+      "choices": ["Developing pesticide-resistant crops to allow more chemical use", "Developing crop varieties with genetic resistance to pests and diseases through breeding", "Training farmers to resist using chemical pesticides", "Breeding more vigorous crops that outgrow pest damage"],
+      "answer": "Developing crop varieties with genetic resistance to pests and diseases through breeding",
+      "explanation": "Host plant resistance involves developing crop varieties with genetic mechanisms that deter, tolerate, or resist pest damage. It is one of the most economical and sustainable strategies in IPM programs."
+    },
+    {
+      "id": 46,
+      "question": "What is crop sanitation in pest management?",
+      "choices": ["Washing harvested crops to remove pesticide residues", "Removing and destroying crop debris to reduce overwintering pest and disease inocula", "Sterilizing farm tools to prevent pathogen spread", "Fumigating farm storage areas before harvest"],
+      "answer": "Removing and destroying crop debris to reduce overwintering pest and disease inocula",
+      "explanation": "Crop sanitation involves removing plant debris, infected plant parts, and volunteer plants after harvest to eliminate habitats and food sources for pests and pathogens that would otherwise survive to infect the next crop."
+    },
+    {
+      "id": 47,
+      "question": "What are Koch's postulates used to establish?",
+      "choices": ["Recommended pesticide dosage for a new compound", "That a specific microorganism causes a specific plant disease", "The residual activity of a fungicide in soil", "The LD50 of a new insecticide"],
+      "answer": "That a specific microorganism causes a specific plant disease",
+      "explanation": "Koch's postulates establish disease causation: (1) The organism is found in diseased hosts, (2) isolated and grown in pure culture, (3) inoculated into a healthy host to reproduce the disease, and (4) re-isolated and confirmed as the same organism."
+    },
+    {
+      "id": 48,
+      "question": "What is a biopesticide?",
+      "choices": ["A synthetic pesticide with low toxicity to vertebrates", "A pesticide derived from natural biological materials such as microorganisms, plants, or minerals", "Any pesticide approved for organic farming", "A pesticide that biodegrades within 24 hours"],
+      "answer": "A pesticide derived from natural biological materials such as microorganisms, plants, or minerals",
+      "explanation": "Biopesticides are derived from natural materials. Examples include Bacillus thuringiensis (bacterial insecticide), neem extract (botanical), and kaolin clay (mineral). They tend to be less harmful to non-target organisms."
+    },
+    {
+      "id": 49,
+      "question": "What is pesticide resistance?",
+      "choices": ["The ability of farmers to resist pressure to use pesticides", "The inherited genetic ability of a pest population to survive exposure to a pesticide", "A crop's tolerance to pesticide application without damage", "The chemical stability of a pesticide in the environment"],
+      "answer": "The inherited genetic ability of a pest population to survive exposure to a pesticide",
+      "explanation": "Pesticide resistance develops through natural selection when susceptible individuals die from pesticide exposure but resistant individuals survive and reproduce, passing on resistance genes to offspring."
+    },
+    {
+      "id": 50,
+      "question": "What is the sanitary and phytosanitary (SPS) agreement in relation to crop protection?",
+      "choices": ["A local law governing farm hygiene standards", "An international WTO agreement allowing measures to protect human, animal, and plant health from risks related to pests and diseases", "A Philippine law on pesticide registration", "Standards for pesticide residues in export products"],
+      "answer": "An international WTO agreement allowing measures to protect human, animal, and plant health from risks related to pests and diseases",
+      "explanation": "The WTO SPS Agreement allows countries to impose trade restrictions based on science-backed measures to protect human, animal, and plant health from food safety risks, diseases, and pests, including setting pesticide Maximum Residue Limits (MRLs)."
     }
   ]
 }

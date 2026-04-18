@@ -121,6 +121,486 @@
       ],
       "answer": "Restructures the curriculum so students examine concepts and issues from the perspectives of diverse cultural and ethnic groups",
       "explanation": "Banks' four levels are: (1) Contributions — heroes and holidays; (2) Additive — content added without structural change; (3) Transformation — curriculum restructured for multiple cultural perspectives; (4) Social Action — students act on social justice issues. Transformation is a deeper structural reform than surface-level addition."
+    },
+    {
+      "id": 11,
+      "question": "What is the primary purpose of formative assessment?",
+      "choices": [
+        "To assign final grades at the end of the grading period",
+        "To provide ongoing feedback during instruction to improve learning",
+        "To compare student performance against national norms",
+        "To certify student achievement for promotion or graduation"
+      ],
+      "answer": "To provide ongoing feedback during instruction to improve learning",
+      "explanation": "Formative assessment is assessment FOR learning — it occurs during instruction and provides feedback that teachers use to adjust teaching and that students use to improve. Summative assessment is assessment OF learning at the end of an instructional unit."
+    },
+    {
+      "id": 12,
+      "question": "Howard Gardner's Theory of Multiple Intelligences challenges the traditional view of intelligence because it:",
+      "choices": [
+        "Argues that IQ tests measure all forms of human intelligence",
+        "Proposes that intelligence is a single general factor (g factor)",
+        "Identifies at least 8 distinct types of intelligence rather than a single general ability",
+        "Claims that intelligence is solely determined by genetic factors"
+      ],
+      "answer": "Identifies at least 8 distinct types of intelligence rather than a single general ability",
+      "explanation": "Gardner proposed at least 8 intelligences: linguistic, logical-mathematical, spatial, musical, bodily-kinesthetic, interpersonal, intrapersonal, and naturalist. This has major implications for teaching — students may excel in ways not measured by traditional tests."
+    },
+    {
+      "id": 13,
+      "question": "What is the key distinction between reliability and validity in educational assessment?",
+      "choices": [
+        "Reliability refers to difficulty; validity refers to discrimination",
+        "Reliability is consistency of measurement; validity is whether the test measures what it is intended to measure",
+        "Reliability applies to teacher-made tests; validity applies to standardized tests",
+        "Reliability measures achievement; validity measures intelligence"
+      ],
+      "answer": "Reliability is consistency of measurement; validity is whether the test measures what it is intended to measure",
+      "explanation": "A test can be reliable (consistent results) but not valid (doesn't measure the right thing). For example, a broken scale consistently shows the wrong weight — it is reliable but not valid. A valid test must also be reliable, but not vice versa."
+    },
+    {
+      "id": 14,
+      "question": "What is scaffolding in the context of teaching and learning?",
+      "choices": [
+        "Organizing classroom furniture to support group work",
+        "Providing temporary, adjustable support to help students accomplish tasks just beyond their current ability",
+        "Giving students a detailed outline of all lessons for the entire school year",
+        "Using technology to display lessons on digital scaffolds or slide frameworks"
+      ],
+      "answer": "Providing temporary, adjustable support to help students accomplish tasks just beyond their current ability",
+      "explanation": "Scaffolding (Vygotsky) is the instructional technique of providing structured support — hints, prompts, worked examples, step-by-step guidance — that is gradually removed as students develop competence and independence."
+    },
+    {
+      "id": 15,
+      "question": "In the Philippine K-12 curriculum, what is the purpose of Mother Tongue-Based Multilingual Education (MTB-MLE) in Grades 1-3?",
+      "choices": [
+        "To replace Filipino and English with regional languages permanently",
+        "To use the learner's first language as the primary medium of instruction to build strong foundational literacy skills",
+        "To teach foreign languages to young Filipino learners",
+        "To assess students' proficiency in multiple languages simultaneously"
+      ],
+      "answer": "To use the learner's first language as the primary medium of instruction to build strong foundational literacy skills",
+      "explanation": "MTB-MLE uses the child's home language (mother tongue) as the primary medium of instruction in K-3, based on research showing that children learn more effectively in their first language. Filipino and English are introduced as separate subjects before becoming languages of instruction."
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of a rubric in student assessment?",
+      "choices": [
+        "To reduce the number of test questions needed",
+        "To provide clear criteria and performance level descriptors for evaluating student work",
+        "To automatically generate student grades without teacher judgment",
+        "To rank students from highest to lowest performance"
+      ],
+      "answer": "To provide clear criteria and performance level descriptors for evaluating student work",
+      "explanation": "A rubric is a scoring guide with explicit criteria and descriptions of performance at each level (e.g., Excellent, Proficient, Developing, Beginning). It increases scoring consistency, transparency, and provides students with clear expectations."
+    },
+    {
+      "id": 17,
+      "question": "According to Erikson's Theory of Psychosocial Development, what is the primary developmental task of school-age children (ages 6-12)?",
+      "choices": [
+        "Trust vs. Mistrust",
+        "Autonomy vs. Shame and Doubt",
+        "Industry vs. Inferiority",
+        "Identity vs. Role Confusion"
+      ],
+      "answer": "Industry vs. Inferiority",
+      "explanation": "Erikson's fourth stage (Industry vs. Inferiority) occurs during school years (6-12). Children develop competence through learning and productivity. Success builds a sense of industry (capability); failure leads to feelings of inferiority. Teachers play a crucial role in fostering or undermining this sense of competence."
+    },
+    {
+      "id": 18,
+      "question": "What is differentiated instruction?",
+      "choices": [
+        "Teaching the same content using the same methods to all students",
+        "Adjusting content, process, products, and learning environment to meet diverse learner needs",
+        "Creating separate curricula for advanced and struggling students",
+        "Using only technology to personalize instruction"
+      ],
+      "answer": "Adjusting content, process, products, and learning environment to meet diverse learner needs",
+      "explanation": "Differentiated instruction (Carol Tomlinson) involves proactively modifying what students learn (content), how they learn it (process), how they demonstrate learning (products), and the environment, based on readiness, interest, and learning profile."
+    },
+    {
+      "id": 19,
+      "question": "What is the spiral curriculum concept developed by Jerome Bruner?",
+      "choices": [
+        "Curriculum organized in a circular, non-sequential pattern",
+        "A curriculum where topics are introduced simply and revisited at progressively deeper levels",
+        "Teaching all subjects simultaneously rather than one at a time",
+        "A curriculum that spirals from practical skills to abstract theory"
+      ],
+      "answer": "A curriculum where topics are introduced simply and revisited at progressively deeper levels",
+      "explanation": "Bruner's spiral curriculum proposes that any subject can be taught to any learner at any stage if presented appropriately. Topics are revisited multiple times across grade levels, each time with greater complexity and abstraction."
+    },
+    {
+      "id": 20,
+      "question": "What is cooperative learning and what evidence supports its effectiveness?",
+      "choices": [
+        "Students working individually on the same assignment at the same time",
+        "A structured approach where students work in small groups with individual and group accountability toward shared goals",
+        "Students helping each other informally without any structure",
+        "Teachers cooperating with parents to support student learning"
+      ],
+      "answer": "A structured approach where students work in small groups with individual and group accountability toward shared goals",
+      "explanation": "Cooperative learning (Johnson & Johnson, Slavin) involves structured small-group work with positive interdependence, individual accountability, and social skills development. Research consistently shows it improves academic achievement, social skills, and attitudes toward learning."
+    },
+    {
+      "id": 21,
+      "question": "What is metacognition and how does it apply to teaching?",
+      "choices": [
+        "The use of technology to track student learning progress",
+        "Thinking about one's own thinking — awareness and control of one's learning strategies",
+        "The teacher's ability to assess student performance accurately",
+        "A method for students to memorize content more effectively"
+      ],
+      "answer": "Thinking about one's own thinking — awareness and control of one's learning strategies",
+      "explanation": "Metacognition (Flavell) is the ability to monitor, evaluate, and regulate one's own learning. Metacognitive learners plan before tasks, monitor during, and evaluate after. Teachers develop metacognition through think-alouds, reflection journals, and self-assessment."
+    },
+    {
+      "id": 22,
+      "question": "What is the concept of 'transfer of learning'?",
+      "choices": [
+        "Moving students to a different class or school",
+        "The ability to apply previously learned knowledge or skills to new situations or problems",
+        "Transferring teaching responsibilities to another teacher",
+        "The process of converting theoretical knowledge into practical skills"
+      ],
+      "answer": "The ability to apply previously learned knowledge or skills to new situations or problems",
+      "explanation": "Transfer of learning is the application of prior knowledge to new contexts. Positive transfer occurs when prior learning facilitates new learning. Negative transfer occurs when prior learning interferes. Teachers promote transfer by using varied examples and real-world applications."
+    },
+    {
+      "id": 23,
+      "question": "What is the affective domain in Bloom's Taxonomy?",
+      "choices": [
+        "The domain related to physical skills and movement",
+        "The domain related to knowledge and intellectual skills",
+        "The domain related to emotions, attitudes, values, and motivations",
+        "The domain related to social interaction and communication"
+      ],
+      "answer": "The domain related to emotions, attitudes, values, and motivations",
+      "explanation": "Bloom's affective domain (Krathwohl) includes objectives related to feelings, values, attitudes, and motivation. Its levels from lowest to highest are: Receiving, Responding, Valuing, Organization, and Characterization by value."
+    },
+    {
+      "id": 24,
+      "question": "What is the primary purpose of the Philippine Professional Standards for Teachers (PPST)?",
+      "choices": [
+        "To determine teacher salary grades and benefits",
+        "To define the expected competencies and professional development of Filipino teachers across career stages",
+        "To establish minimum academic qualifications for teacher certification",
+        "To serve as the basis for teacher disciplinary actions"
+      ],
+      "answer": "To define the expected competencies and professional development of Filipino teachers across career stages",
+      "explanation": "The PPST (DepEd Order No. 42 s. 2017) articulates what teachers should know, value, and be able to do at four career stages: Beginning, Proficient, Highly Proficient, and Distinguished. It guides recruitment, development, and performance evaluation of teachers."
+    },
+    {
+      "id": 25,
+      "question": "What is problem-based learning (PBL)?",
+      "choices": [
+        "Using multiple-choice problems as the primary mode of assessment",
+        "A student-centered approach where learning is organized around complex, real-world problems",
+        "Drilling students with repeated practice problems for mastery",
+        "Teaching problem-solving skills as a separate subject"
+      ],
+      "answer": "A student-centered approach where learning is organized around complex, real-world problems",
+      "explanation": "PBL engages students in investigating and resolving authentic, ill-structured problems as the stimulus for learning. Students develop content knowledge, critical thinking, collaboration, and self-directed learning — transferable skills that textbook exercises cannot provide."
+    },
+    {
+      "id": 26,
+      "question": "What is the significance of RA 10533 (Enhanced Basic Education Act of 2013) for teachers?",
+      "choices": [
+        "It increased teacher salaries by 50%",
+        "It established the K-12 program extending basic education to 13 years",
+        "It created the Teacher Education Council",
+        "It required all teachers to earn masteral degrees"
+      ],
+      "answer": "It established the K-12 program extending basic education to 13 years",
+      "explanation": "RA 10533 mandated the implementation of the K-12 Basic Education Program, adding Kindergarten and two years of Senior High School (Grades 11-12) to the existing 10-year cycle. This brought Philippine education in line with international standards."
+    },
+    {
+      "id": 27,
+      "question": "What is portfolio assessment and what does it reveal that traditional tests cannot?",
+      "choices": [
+        "A single-test snapshot that measures mastery at one point in time",
+        "A collection of student work over time that shows growth, reflection, and diverse competencies",
+        "A financial portfolio tracking the cost of student assessments",
+        "A ranking system comparing students in a class"
+      ],
+      "answer": "A collection of student work over time that shows growth, reflection, and diverse competencies",
+      "explanation": "Portfolio assessment collects authentic student work (writing samples, projects, reflections) over time. It shows learning growth, captures skills that tests cannot measure (creativity, organization), and encourages student self-reflection on their own learning."
+    },
+    {
+      "id": 28,
+      "question": "What is Piaget's concept of 'schema' in cognitive development?",
+      "choices": [
+        "A diagram teachers use to organize lesson content",
+        "Mental frameworks or structures that organize and interpret information",
+        "The physical organization of the classroom environment",
+        "A scoring framework for student assessment"
+      ],
+      "answer": "Mental frameworks or structures that organize and interpret information",
+      "explanation": "A schema (Piaget) is a cognitive structure or mental blueprint that helps individuals organize and interpret experiences. New information is either assimilated into existing schemas or causes accommodation (modification of schemas). This process drives cognitive development."
+    },
+    {
+      "id": 29,
+      "question": "What is the role of feedback in the teaching-learning process?",
+      "choices": [
+        "Feedback is only relevant for grading purposes",
+        "Effective feedback informs students about their performance and guides improvement in learning",
+        "Feedback should only be given at the end of the semester",
+        "Negative feedback should be avoided to preserve student confidence"
+      ],
+      "answer": "Effective feedback informs students about their performance and guides improvement in learning",
+      "explanation": "Research (Hattie) consistently shows feedback is among the most powerful influences on learning. Effective feedback is specific, timely, related to learning goals, and actionable — it tells students not just how they did but what to do next."
+    },
+    {
+      "id": 30,
+      "question": "What does the principle of 'Inclusion' mean in the context of special education in the Philippines?",
+      "choices": [
+        "Removing students with disabilities from the general education system",
+        "Educating all students, including those with disabilities, in general education classes with appropriate support",
+        "Creating separate high-quality special schools for all students with disabilities",
+        "Including parents of special needs students in regular teacher meetings"
+      ],
+      "answer": "Educating all students, including those with disabilities, in general education classes with appropriate support",
+      "explanation": "Inclusive education places students with disabilities in general education classes alongside their peers, with appropriate accommodations, modifications, and support services. RA 7277 (Magna Carta for Disabled Persons) and DepEd policies support inclusive education in the Philippines."
+    },
+    {
+      "id": 31,
+      "question": "What is the difference between the 'hidden curriculum' and the 'formal curriculum'?",
+      "choices": [
+        "Formal curriculum is tested; hidden curriculum is not tested",
+        "Hidden curriculum refers to unstated values, norms, and behaviors learned through school experience; formal curriculum is the officially planned content",
+        "Formal curriculum is for elementary; hidden curriculum is for secondary",
+        "Hidden curriculum involves extracurricular activities"
+      ],
+      "answer": "Hidden curriculum refers to unstated values, norms, and behaviors learned through school experience; formal curriculum is the officially planned content",
+      "explanation": "The hidden curriculum (Philip Jackson) refers to the implicit lessons about norms, values, obedience, punctuality, and social roles that students learn through school routines and culture — not through official lessons. Teachers must be aware of unintended messages they send."
+    },
+    {
+      "id": 32,
+      "question": "What is authentic assessment?",
+      "choices": [
+        "Assessment using only original, non-photocopied test materials",
+        "Assessment that requires students to demonstrate knowledge through real-world tasks that have meaning and purpose",
+        "Assessment verified by an external party to ensure fairness",
+        "Oral examinations as opposed to written tests"
+      ],
+      "answer": "Assessment that requires students to demonstrate knowledge through real-world tasks that have meaning and purpose",
+      "explanation": "Authentic assessment uses real-world tasks (performances, projects, exhibitions) that mirror the ways knowledge is used in professional and community contexts. It assesses students' ability to apply, not just recall information."
+    },
+    {
+      "id": 33,
+      "question": "What is Pavlov's Classical Conditioning and its application to classroom management?",
+      "choices": [
+        "Rewarding good behavior with prizes to increase its frequency",
+        "A neutral stimulus paired with an unconditioned stimulus eventually elicits the same response — applied to create positive classroom associations",
+        "Punishing misbehavior to decrease its occurrence",
+        "Observing model behavior to learn appropriate classroom conduct"
+      ],
+      "answer": "A neutral stimulus paired with an unconditioned stimulus eventually elicits the same response — applied to create positive classroom associations",
+      "explanation": "Classical conditioning (Pavlov) pairs a neutral stimulus with a meaningful one until the neutral stimulus alone produces the response. In classrooms: consistent routines, a calm voice, and positive classroom climate can condition students to feel safe and ready to learn."
+    },
+    {
+      "id": 34,
+      "question": "What is Bandura's concept of self-efficacy?",
+      "choices": [
+        "The belief in one's ability to succeed in specific situations or accomplish tasks",
+        "The efficiency of a teacher's instructional delivery",
+        "A student's actual academic performance level",
+        "The degree of a student's dependence on the teacher"
+      ],
+      "answer": "The belief in one's ability to succeed in specific situations or accomplish tasks",
+      "explanation": "Self-efficacy (Bandura) is the belief in one's own capability to execute behaviors necessary to achieve outcomes. High self-efficacy students persist more and achieve higher. Teachers build self-efficacy through mastery experiences, vicarious learning, verbal encouragement, and managing stress."
+    },
+    {
+      "id": 35,
+      "question": "What is the purpose of the Individual Education Plan (IEP) in special education?",
+      "choices": [
+        "A plan for all students to guide personalized achievement goals",
+        "A customized educational program for students with disabilities specifying goals, services, and accommodations",
+        "A financial plan for school special education expenses",
+        "A schedule for specialist teachers visiting general education classes"
+      ],
+      "answer": "A customized educational program for students with disabilities specifying goals, services, and accommodations",
+      "explanation": "An IEP is a legal document developed collaboratively by teachers, parents, and specialists for each student with a disability. It specifies current performance levels, annual goals, services to be provided, accommodations, and methods for measuring progress."
+    },
+    {
+      "id": 36,
+      "question": "Which teaching strategy best develops higher-order thinking skills according to Bloom's Taxonomy?",
+      "choices": [
+        "Drilling students with factual recall questions",
+        "Asking students to compare, analyze, create, and evaluate using real-world contexts",
+        "Lecturing on subject matter with clear explanation",
+        "Providing detailed notes that students copy and memorize"
+      ],
+      "answer": "Asking students to compare, analyze, create, and evaluate using real-world contexts",
+      "explanation": "Higher-order thinking (HOTS) in Bloom's Taxonomy involves Analyze, Evaluate, and Create — tasks that require students to go beyond recall and apply knowledge in complex, novel ways. Questions like 'How would you solve...?' 'What if...?' and 'Design a...' stimulate HOTS."
+    },
+    {
+      "id": 37,
+      "question": "What is the curriculum integration approach in education?",
+      "choices": [
+        "Teaching all subjects simultaneously within a single class period",
+        "Connecting knowledge and skills from different subject areas around themes, issues, or student questions",
+        "Aligning curriculum with international standards from other countries",
+        "Integrating digital technology into all subject areas"
+      ],
+      "answer": "Connecting knowledge and skills from different subject areas around themes, issues, or student questions",
+      "explanation": "Curriculum integration breaks subject-area boundaries by organizing learning around themes or problems, making learning more meaningful and relevant. Research shows it improves motivation, retention, and the ability to transfer learning across contexts."
+    },
+    {
+      "id": 38,
+      "question": "What is the primary difference between summative and formative evaluation?",
+      "choices": [
+        "Summative evaluation uses rubrics; formative evaluation uses letter grades",
+        "Summative evaluation judges overall achievement at the end; formative evaluation monitors progress during instruction",
+        "Summative evaluation is for students; formative evaluation is for teachers",
+        "Summative evaluation is informal; formative evaluation is standardized"
+      ],
+      "answer": "Summative evaluation judges overall achievement at the end; formative evaluation monitors progress during instruction",
+      "explanation": "Summative assessment (e.g., final exams, board exams) evaluates overall learning achievement at the end of an instructional period. Formative assessment (e.g., quizzes, exit tickets, observations) provides ongoing feedback to guide learning and instruction."
+    },
+    {
+      "id": 39,
+      "question": "What is the 'Affective Filter Hypothesis' by Stephen Krashen?",
+      "choices": [
+        "A filter that selectively allows only emotional language into long-term memory",
+        "The idea that negative emotions (anxiety, low motivation) create a 'filter' that blocks language acquisition",
+        "A method of filtering out L1 interference in language learning",
+        "The hypothesis that affect (emotional language) is acquired before cognitive language"
+      ],
+      "answer": "The idea that negative emotions (anxiety, low motivation) create a 'filter' that blocks language acquisition",
+      "explanation": "Krashen's Affective Filter Hypothesis states that emotional variables (anxiety, low self-confidence, low motivation) raise an affective filter that blocks comprehensible input from being processed. Teachers lower this filter by creating a low-anxiety, encouraging learning environment."
+    },
+    {
+      "id": 40,
+      "question": "What is the role of questioning in effective teaching?",
+      "choices": [
+        "Questioning is primarily for testing whether students have memorized content",
+        "Strategic questioning stimulates thinking, promotes deeper understanding, checks comprehension, and guides inquiry",
+        "Effective teachers minimize questioning to maximize lecture time",
+        "Questions should only be asked at the end of the lesson as review"
+      ],
+      "answer": "Strategic questioning stimulates thinking, promotes deeper understanding, checks comprehension, and guides inquiry",
+      "explanation": "Skilled questioning (Bloom, Socrates) is one of the most powerful teaching tools. Higher-order questions promote analysis, synthesis, and evaluation. Wait time (allowing students to think before responding) dramatically increases the quality of student responses."
+    },
+    {
+      "id": 41,
+      "question": "What is the 'Cone of Experience' by Edgar Dale?",
+      "choices": [
+        "A model ranking teaching methods from most abstract to most concrete",
+        "A model showing that learning retention increases as instruction moves from abstract symbols to concrete direct experience",
+        "A ranking of educational media by cost-effectiveness",
+        "A framework for sequencing lesson activities"
+      ],
+      "answer": "A model showing that learning retention increases as instruction moves from abstract symbols to concrete direct experience",
+      "explanation": "Dale's Cone of Experience (1946) arranges learning experiences from most abstract (verbal symbols) at the top to most concrete (direct purposeful experience) at the base. More concrete experiences provide richer learning. Note: the '10-20-30%' retention statistics often attributed to Dale are a myth not from his work."
+    },
+    {
+      "id": 42,
+      "question": "Under RA 7836 (Philippine Teachers Professionalization Act), what is the primary purpose of the Licensure Examination for Teachers (LET)?",
+      "choices": [
+        "To rank teachers for salary promotion purposes",
+        "To ensure that only professionally qualified individuals practice teaching",
+        "To assess teacher performance on the job",
+        "To certify mastery of specific subject-matter specializations only"
+      ],
+      "answer": "To ensure that only professionally qualified individuals practice teaching",
+      "explanation": "RA 7836 (1994) established the LET as the mechanism for professionalization of the teaching force. It requires all prospective teachers to pass the board examination administered by the PRC to ensure minimum professional competence."
+    },
+    {
+      "id": 43,
+      "question": "What is the principle of 'readiness' in learning?",
+      "choices": [
+        "Students must physically organize their materials before any lesson",
+        "A learner must have the necessary prerequisite knowledge, physical maturity, and motivation before learning can occur",
+        "Teachers must prepare detailed lesson plans before teaching",
+        "Students are ready to learn when the school year begins"
+      ],
+      "answer": "A learner must have the necessary prerequisite knowledge, physical maturity, and motivation before learning can occur",
+      "explanation": "Thorndike's Law of Readiness states that learning proceeds better when the learner is ready — physically, cognitively, and motivationally prepared for the new learning. Teaching content before a student is developmentally ready leads to frustration rather than learning."
+    },
+    {
+      "id": 44,
+      "question": "What is the difference between process and product approaches to writing instruction?",
+      "choices": [
+        "Process instruction teaches grammar; product instruction teaches vocabulary",
+        "Process focuses on the stages of writing (brainstorming, drafting, revising, editing); product focuses on the final written output",
+        "Process instruction is for elementary; product instruction is for secondary",
+        "Process uses handwriting; product uses digital tools"
+      ],
+      "answer": "Process focuses on the stages of writing (brainstorming, drafting, revising, editing); product focuses on the final written output",
+      "explanation": "The product approach evaluates the final piece against standards. The process approach (Graves, Murray) treats writing as a recursive cycle of prewriting, drafting, revising, editing, and publishing — developing writers rather than just producing written products."
+    },
+    {
+      "id": 45,
+      "question": "What is Universal Design for Learning (UDL)?",
+      "choices": [
+        "Designing school buildings to be accessible to all students",
+        "A framework for designing flexible instruction with multiple means of engagement, representation, and expression",
+        "A universal curriculum adopted globally for all subjects",
+        "Using universal symbols in classroom signage for diverse learners"
+      ],
+      "answer": "A framework for designing flexible instruction with multiple means of engagement, representation, and expression",
+      "explanation": "UDL (CAST) is an educational framework based on cognitive neuroscience that guides instructional design to be accessible from the start. Its three principles address the 'why' (engagement), 'what' (representation), and 'how' (action/expression) of learning."
+    },
+    {
+      "id": 46,
+      "question": "What is the purpose of the DepEd School Improvement Plan (SIP)?",
+      "choices": [
+        "An individual teacher's self-improvement plan for professional development",
+        "A 3-year plan developed by the school community to identify priorities and guide school development",
+        "A plan for constructing or renovating school infrastructure",
+        "A government document defining national curriculum standards"
+      ],
+      "answer": "A 3-year plan developed by the school community to identify priorities and guide school development",
+      "explanation": "The SIP is a 3-year roadmap developed collaboratively by teachers, parents, and community stakeholders. It diagnoses the school's current state, sets goals, and identifies strategies and resources to improve student outcomes."
+    },
+    {
+      "id": 47,
+      "question": "What is the difference between an instructional objective and a learning outcome?",
+      "choices": [
+        "Instructional objectives are written by curriculum designers; learning outcomes are written by students",
+        "Instructional objectives describe teacher behaviors; learning outcomes describe what students will be able to do after instruction",
+        "They are identical terms with no meaningful distinction",
+        "Instructional objectives apply to formal school; learning outcomes apply to informal learning"
+      ],
+      "answer": "Instructional objectives describe teacher behaviors; learning outcomes describe what students will be able to do after instruction",
+      "explanation": "Traditional instructional objectives sometimes described teacher activities (e.g., 'To present....'). Modern outcome-based education focuses on what learners can DO after instruction — observable, measurable student competencies expressed with action verbs."
+    },
+    {
+      "id": 48,
+      "question": "What is the concept of 'growth mindset' (Carol Dweck) and its implications for teachers?",
+      "choices": [
+        "The belief that all students will eventually reach the same level of achievement",
+        "The belief that intelligence and ability can be developed through effort and effective strategies",
+        "A teacher's positive attitude toward professional growth",
+        "A curriculum approach that promotes student growth in all subject areas equally"
+      ],
+      "answer": "The belief that intelligence and ability can be developed through effort and effective strategies",
+      "explanation": "Dweck's growth mindset is the belief that abilities are malleable — that dedication and hard work develop intelligence. Fixed mindset believes abilities are innate. Teachers with growth mindset praise effort and process ('You worked hard'), not innate ability ('You're so smart')."
+    },
+    {
+      "id": 49,
+      "question": "What is values education in the Philippine curriculum?",
+      "choices": [
+        "A subject teaching only religious morality",
+        "An approach integrating the development of values, attitudes, and character across all subjects",
+        "A specialized subject for students with behavioral problems",
+        "Values clarification exercises conducted during flag ceremony"
+      ],
+      "answer": "An approach integrating the development of values, attitudes, and character across all subjects",
+      "explanation": "Values education in Philippine schools (EsP — Edukasyon sa Pagpapakatao) aims to develop Filipino core values: nationalism, honesty, integrity, patriotism, civic consciousness, and environmental responsibility. It is both a subject and an integrated strand across the curriculum."
+    },
+    {
+      "id": 50,
+      "question": "What is the 'whole child' approach in education?",
+      "choices": [
+        "Teaching the whole class as one unit without differentiation",
+        "An approach that addresses students' cognitive, social, emotional, physical, and ethical development holistically",
+        "Completing entire textbooks from cover to cover in each school year",
+        "Using full school hours for academic instruction only"
+      ],
+      "answer": "An approach that addresses students' cognitive, social, emotional, physical, and ethical development holistically",
+      "explanation": "The whole child approach (ASCD) recognizes that academic achievement alone is insufficient. It emphasizes that students should be healthy, safe, engaged, supported, and challenged. Effective teachers attend to cognitive, social-emotional, and physical dimensions of development."
     }
   ]
 }

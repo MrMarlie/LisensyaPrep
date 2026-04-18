@@ -121,6 +121,481 @@
       ],
       "answer": "8,000",
       "explanation": "Using exponential growth: N(t) = N₀ × 2^(t/d), where N₀ = 500, t = 12 hours, d = 3 hours. N(12) = 500 × 2^(12/3) = 500 × 2^4 = 500 × 16 = 8,000 bacteria. After each 3-hour period, the population doubles: 500 → 1,000 → 2,000 → 4,000 → 8,000."
+    },
+    {
+      "id": 11,
+      "question": "What is the difference between a permutation and a combination?",
+      "choices": [
+        "Permutations involve only letters; combinations involve only numbers",
+        "Permutations consider order of arrangement; combinations do not consider order",
+        "Permutations are used in probability; combinations are used in statistics",
+        "Permutations select all items; combinations select a subset"
+      ],
+      "answer": "Permutations consider order of arrangement; combinations do not consider order",
+      "explanation": "A permutation counts ordered arrangements: P(n,r) = n!/(n-r)!. A combination counts unordered selections: C(n,r) = n!/[r!(n-r)!]. Example: Choosing 2 from {A,B,C} — permutations (AB, BA, AC, CA, BC, CB) = 6; combinations (AB, AC, BC) = 3."
+    },
+    {
+      "id": 12,
+      "question": "If the sum of angles in a triangle is 180°, what is the sum of the interior angles of a pentagon?",
+      "choices": ["360°", "540°", "720°", "900°"],
+      "answer": "540°",
+      "explanation": "The sum of interior angles of a polygon with n sides = (n-2) × 180°. For a pentagon (n=5): (5-2) × 180° = 3 × 180° = 540°. A triangle (n=3): (3-2) × 180° = 180°. A quadrilateral: 360°."
+    },
+    {
+      "id": 13,
+      "question": "What is the Pythagorean theorem and when does it apply?",
+      "choices": [
+        "a² + b² = c², applicable to all triangles",
+        "a² + b² = c², applicable only to right triangles where c is the hypotenuse",
+        "a² − b² = c², applicable to obtuse triangles",
+        "a + b = c, applicable to isosceles triangles"
+      ],
+      "answer": "a² + b² = c², applicable only to right triangles where c is the hypotenuse",
+      "explanation": "The Pythagorean theorem states that in a right triangle, the square of the hypotenuse (c) equals the sum of the squares of the other two sides (legs): a² + b² = c². It applies only to right triangles (containing a 90° angle)."
+    },
+    {
+      "id": 14,
+      "question": "What is the derivative of f(x) = x⁴ - 3x² + 2x - 5?",
+      "choices": [
+        "4x³ - 6x + 2",
+        "4x³ - 3x + 2",
+        "x⁵/5 - x³ + x² - 5x",
+        "4x⁴ - 6x + 2"
+      ],
+      "answer": "4x³ - 6x + 2",
+      "explanation": "Using the Power Rule d/dx[xⁿ] = nxⁿ⁻¹: d/dx[x⁴] = 4x³; d/dx[-3x²] = -6x; d/dx[2x] = 2; d/dx[-5] = 0. Therefore f'(x) = 4x³ - 6x + 2."
+    },
+    {
+      "id": 15,
+      "question": "What is the standard form of a quadratic equation and the quadratic formula?",
+      "choices": [
+        "ax + b = 0; x = -b/a",
+        "ax² + bx + c = 0; x = (-b ± √(b²-4ac)) / 2a",
+        "ax³ + bx² + cx + d = 0; x = (-b ± √(b²-4ac)) / 2a",
+        "a(x-h)² + k = 0; x = h ± √(-k/a)"
+      ],
+      "answer": "ax² + bx + c = 0; x = (-b ± √(b²-4ac)) / 2a",
+      "explanation": "A quadratic equation has the standard form ax² + bx + c = 0 (a ≠ 0). The quadratic formula gives the solutions (roots): x = (-b ± √(b²-4ac)) / 2a. The discriminant b²-4ac determines the nature of roots: positive = two real roots, zero = one repeated root, negative = two complex roots."
+    },
+    {
+      "id": 16,
+      "question": "What is a geometric sequence and what is the formula for its nth term?",
+      "choices": [
+        "A sequence with a constant difference; aₙ = a₁ + (n-1)d",
+        "A sequence where each term is multiplied by a constant ratio r; aₙ = a₁ × r^(n-1)",
+        "A sequence following the Fibonacci pattern; aₙ = aₙ₋₁ + aₙ₋₂",
+        "A sequence related to geometric shapes; aₙ = n²"
+      ],
+      "answer": "A sequence where each term is multiplied by a constant ratio r; aₙ = a₁ × r^(n-1)",
+      "explanation": "In a geometric sequence, each term is obtained by multiplying the previous term by a constant ratio r. The nth term formula is aₙ = a₁ × r^(n-1). Example: 2, 6, 18, 54... has a₁=2 and r=3. The 5th term = 2 × 3⁴ = 2 × 81 = 162."
+    },
+    {
+      "id": 17,
+      "question": "What is the mean, median, and mode of the data set: 3, 5, 5, 7, 10?",
+      "choices": [
+        "Mean = 6, Median = 5, Mode = 5",
+        "Mean = 5, Median = 6, Mode = 7",
+        "Mean = 6, Median = 7, Mode = 5",
+        "Mean = 5, Median = 5, Mode = 6"
+      ],
+      "answer": "Mean = 6, Median = 5, Mode = 5",
+      "explanation": "Mean = (3+5+5+7+10)/5 = 30/5 = 6. Median (middle value of ordered set of 5) = 5 (the third value). Mode (most frequent) = 5 (appears twice). For the LET, understanding all three measures of central tendency and when to use each is essential."
+    },
+    {
+      "id": 18,
+      "question": "What is mathematical proof by contradiction (reductio ad absurdum)?",
+      "choices": [
+        "Proving a statement by showing it holds for n=1 and then for n+1",
+        "Assuming the negation of the statement to be true and deriving a logical contradiction",
+        "Disproving a statement by finding a single counterexample",
+        "Proving a statement by showing it follows from axioms alone"
+      ],
+      "answer": "Assuming the negation of the statement to be true and deriving a logical contradiction",
+      "explanation": "Proof by contradiction assumes the opposite (negation) of what you want to prove is true, then logically derives a statement that contradicts a known truth or an axiom. Since the assumption led to contradiction, the original statement must be true. Classic example: proof that √2 is irrational."
+    },
+    {
+      "id": 19,
+      "question": "In statistics, what is the standard deviation?",
+      "choices": [
+        "The difference between the maximum and minimum values",
+        "The square root of the variance — measuring the average spread of data around the mean",
+        "The sum of all deviations from the mean",
+        "The average of all data values in a set"
+      ],
+      "answer": "The square root of the variance — measuring the average spread of data around the mean",
+      "explanation": "Standard deviation (σ or s) = √[Σ(xᵢ - x̄)²/n] — it measures how spread out values are around the mean. A small standard deviation indicates data clustered near the mean; large indicates wide spread. It is in the same units as the original data, making it more interpretable than variance."
+    },
+    {
+      "id": 20,
+      "question": "What is the probability complement rule and how is it used?",
+      "choices": [
+        "P(A and B) = P(A) × P(B) for independent events",
+        "P(A') = 1 - P(A); used to find the probability that event A does NOT occur",
+        "P(A or B) = P(A) + P(B) - P(A and B)",
+        "P(A|B) = P(A and B) / P(B) for conditional probability"
+      ],
+      "answer": "P(A') = 1 - P(A); used to find the probability that event A does NOT occur",
+      "explanation": "The complement rule states: P(A') = 1 - P(A), where A' is the complement of A (event A does not occur). It is useful when calculating P(A) directly is complex but P(A') is simpler. Example: P(at least one head in 3 flips) = 1 - P(no heads) = 1 - (1/2)³ = 7/8."
+    },
+    {
+      "id": 21,
+      "question": "What is the slope-intercept form of a linear equation?",
+      "choices": [
+        "ax + by + c = 0",
+        "y = mx + b, where m is the slope and b is the y-intercept",
+        "y - y₁ = m(x - x₁)",
+        "(y₂-y₁)/(x₂-x₁) = m"
+      ],
+      "answer": "y = mx + b, where m is the slope and b is the y-intercept",
+      "explanation": "The slope-intercept form y = mx + b clearly shows the slope m (rise/run) and the y-intercept b (where the line crosses the y-axis). Example: y = 2x + 3 has slope 2 (rising 2 units for every 1 unit right) and y-intercept (0, 3)."
+    },
+    {
+      "id": 22,
+      "question": "What is the law of sines used for in trigonometry?",
+      "choices": [
+        "Finding the area of any triangle given two sides and the included angle",
+        "Relating sides and angles in any triangle: a/sin A = b/sin B = c/sin C",
+        "Solving right triangles using the Pythagorean theorem",
+        "Finding the cosine of angles in oblique triangles"
+      ],
+      "answer": "Relating sides and angles in any triangle: a/sin A = b/sin B = c/sin C",
+      "explanation": "The Law of Sines states that in any triangle, the ratio of each side to the sine of its opposite angle is constant: a/sin A = b/sin B = c/sin C = 2R (where R is the circumradius). It is used to solve triangles when you know two angles and one side (AAS or ASA) or two sides and a non-included angle (SSA)."
+    },
+    {
+      "id": 23,
+      "question": "What is a normal distribution and its key properties?",
+      "choices": [
+        "A skewed distribution where most data falls at the extremes",
+        "A symmetric bell-shaped distribution where mean = median = mode and 68-95-99.7% of data falls within 1-2-3 standard deviations of the mean",
+        "A distribution where all values have equal probability",
+        "A bimodal distribution with two peaks at equal distances from the mean"
+      ],
+      "answer": "A symmetric bell-shaped distribution where mean = median = mode and 68-95-99.7% of data falls within 1-2-3 standard deviations of the mean",
+      "explanation": "The normal distribution (Gaussian) is symmetric and bell-shaped. Key properties: mean = median = mode; the empirical rule (68-95-99.7 rule) — 68% of data within ±1σ, 95% within ±2σ, 99.7% within ±3σ. It is fundamental to statistics and standardized testing."
+    },
+    {
+      "id": 24,
+      "question": "What is the difference between a rational and an irrational number?",
+      "choices": [
+        "Rational numbers are positive; irrational numbers are negative",
+        "Rational numbers can be expressed as a ratio p/q (integers, q≠0); irrational numbers cannot be expressed as such fractions",
+        "Rational numbers are finite decimals; irrational numbers are infinite decimals",
+        "Rational numbers are whole numbers; irrational numbers include fractions"
+      ],
+      "answer": "Rational numbers can be expressed as a ratio p/q (integers, q≠0); irrational numbers cannot be expressed as such fractions",
+      "explanation": "Rational numbers (p/q where p,q are integers and q≠0) include integers, fractions, and terminating or repeating decimals. Irrational numbers like √2, π, and e cannot be written as fractions and have non-repeating, non-terminating decimal expansions."
+    },
+    {
+      "id": 25,
+      "question": "What is the formula for the sum of a finite geometric series?",
+      "choices": [
+        "Sₙ = n/2 × (a₁ + aₙ)",
+        "Sₙ = a₁(1 - rⁿ)/(1 - r), where r ≠ 1",
+        "Sₙ = a₁ + (n-1)d",
+        "Sₙ = a₁/(1-r), for |r| < 1"
+      ],
+      "answer": "Sₙ = a₁(1 - rⁿ)/(1 - r), where r ≠ 1",
+      "explanation": "The sum of the first n terms of a geometric series is Sₙ = a₁(1 - rⁿ)/(1 - r) when r ≠ 1. If r = 1, all terms are equal and Sₙ = n × a₁. For an infinite geometric series where |r| < 1, the sum converges to S∞ = a₁/(1-r)."
+    },
+    {
+      "id": 26,
+      "question": "What is the concept of mathematical modeling and its importance in teaching?",
+      "choices": [
+        "Creating physical 3D models to represent geometric shapes",
+        "Using mathematical structures to represent, analyze, and make predictions about real-world situations",
+        "Drawing diagrams and graphs to illustrate mathematical concepts",
+        "Modeling correct mathematical procedures for students to imitate"
+      ],
+      "answer": "Using mathematical structures to represent, analyze, and make predictions about real-world situations",
+      "explanation": "Mathematical modeling is the process of formulating real-world problems in mathematical language, solving them mathematically, and interpreting results in context. It is a key 21st-century skill — the K-12 math curriculum in the Philippines emphasizes mathematical modeling as a tool for problem-solving."
+    },
+    {
+      "id": 27,
+      "question": "What is Euler's number (e) and what is it used for?",
+      "choices": [
+        "e = 3.14159..., used in circle calculations",
+        "e ≈ 2.71828..., the base of the natural logarithm, used in exponential growth and continuous compounding",
+        "e = 1.41421..., the square root of 2, used in geometry",
+        "e = 1.61803..., the golden ratio, used in art and architecture"
+      ],
+      "answer": "e ≈ 2.71828..., the base of the natural logarithm, used in exponential growth and continuous compounding",
+      "explanation": "Euler's number e ≈ 2.71828 is the base of the natural logarithm (ln). It appears naturally in exponential growth/decay, compound interest with continuous compounding (A = Pe^(rt)), calculus (d/dx[eˣ] = eˣ), and probability theory."
+    },
+    {
+      "id": 28,
+      "question": "What is the Concrete-Pictorial-Abstract (CPA) approach in mathematics education?",
+      "choices": [
+        "A method of teaching only abstract mathematics using symbols",
+        "Bruner's progression from physical objects (concrete), to diagrams (pictorial), to symbols (abstract) in learning math",
+        "A grading system categorizing students as concrete or abstract thinkers",
+        "An approach using concrete real-world problems followed by abstract theory"
+      ],
+      "answer": "Bruner's progression from physical objects (concrete), to diagrams (pictorial), to symbols (abstract) in learning math",
+      "explanation": "CPA (also called CPA or EIS — Enactive, Iconic, Symbolic — from Bruner) guides math instruction from hands-on manipulation of physical objects, to pictorial representations, to abstract symbols. Research shows this progression builds deeper conceptual understanding than moving directly to symbols."
+    },
+    {
+      "id": 29,
+      "question": "If a data set has a mean of 50, a median of 45, and a mode of 40, what type of skewness does the distribution have?",
+      "choices": [
+        "Symmetric (no skew)",
+        "Positively skewed (right-skewed)",
+        "Negatively skewed (left-skewed)",
+        "Bimodal"
+      ],
+      "answer": "Positively skewed (right-skewed)",
+      "explanation": "When mean > median > mode, the distribution is positively skewed (right-skewed) — the tail extends to the right. When mean < median < mode, it is negatively skewed. When mean = median = mode, the distribution is symmetric (approximately normal)."
+    },
+    {
+      "id": 30,
+      "question": "What is the zero product property and how is it used to solve quadratic equations?",
+      "choices": [
+        "If ab = 0, then a = 0 or b = 0 (or both) — used to solve equations by factoring",
+        "Multiplying any number by zero gives zero — used to simplify expressions",
+        "A product of zeros equals zero — used in polynomial division",
+        "Zero is neither positive nor negative — used in absolute value equations"
+      ],
+      "answer": "If ab = 0, then a = 0 or b = 0 (or both) — used to solve equations by factoring",
+      "explanation": "The Zero Product Property states that if ab = 0, then a = 0 or b = 0. To apply it: factor the quadratic equation, set each factor equal to zero, and solve. Example: x² - 5x + 6 = 0 → (x-2)(x-3) = 0 → x = 2 or x = 3."
+    },
+    {
+      "id": 31,
+      "question": "What is an asymptote?",
+      "choices": [
+        "A line that a function's graph approaches but never reaches",
+        "The maximum value of a function's graph",
+        "The x-intercept of a rational function",
+        "A tangent line to a curve at a specific point"
+      ],
+      "answer": "A line that a function's graph approaches but never reaches",
+      "explanation": "An asymptote is a line (vertical, horizontal, or oblique) that a curve approaches arbitrarily closely but never intersects (or may cross for some non-vertical asymptotes). For y = 1/x: x = 0 is a vertical asymptote and y = 0 is a horizontal asymptote."
+    },
+    {
+      "id": 32,
+      "question": "What is the difference between inductive and deductive reasoning in mathematics?",
+      "choices": [
+        "Inductive reasoning is always correct; deductive reasoning may have errors",
+        "Inductive reasoning generalizes from specific examples (not always valid); deductive reasoning draws certain conclusions from given premises using logic",
+        "Inductive reasoning is used only in algebra; deductive reasoning is used only in geometry",
+        "They are identical reasoning processes in mathematics"
+      ],
+      "answer": "Inductive reasoning generalizes from specific examples (not always valid); deductive reasoning draws certain conclusions from given premises using logic",
+      "explanation": "Inductive reasoning: observing patterns in specific cases and conjecturing a general rule (may be wrong). Deductive reasoning: using axioms, definitions, and theorems to prove statements with certainty. Mathematical proofs are deductive. Problem-solving often starts with inductive pattern recognition."
+    },
+    {
+      "id": 33,
+      "question": "What is the absolute value of a number and how is |x| defined mathematically?",
+      "choices": [
+        "The square of x",
+        "The distance from x to 0 on the number line; |x| = x if x ≥ 0, and |x| = -x if x < 0",
+        "The positive square root of x",
+        "The opposite of x"
+      ],
+      "answer": "The distance from x to 0 on the number line; |x| = x if x ≥ 0, and |x| = -x if x < 0",
+      "explanation": "|x| is the distance from x to 0 on the number line — always non-negative. Formally: |x| = x when x ≥ 0, and |x| = -x (which is positive) when x < 0. Example: |-5| = -(-5) = 5. Absolute value equations and inequalities are important topics in algebra."
+    },
+    {
+      "id": 34,
+      "question": "What is the Law of Cosines and when is it used?",
+      "choices": [
+        "c = a + b - 2ab cos C; used for all triangles with three known angles",
+        "c² = a² + b² - 2ab cos C; used when you know two sides and the included angle (SAS) or all three sides (SSS)",
+        "cos C = (a² + b²)/2ab; used to find angles when all sides are known",
+        "a/sin A = c/sin C; used for any triangle with two sides and an opposite angle"
+      ],
+      "answer": "c² = a² + b² - 2ab cos C; used when you know two sides and the included angle (SAS) or all three sides (SSS)",
+      "explanation": "The Law of Cosines generalizes the Pythagorean theorem: c² = a² + b² - 2ab cos C. When C = 90°, cos C = 0 and it reduces to the Pythagorean theorem. Used for SAS (find the unknown side) or SSS (find angles). The Law of Sines is used for AAS, ASA, and SSA cases."
+    },
+    {
+      "id": 35,
+      "question": "In the K-12 mathematics curriculum, what is the spiral approach to content sequencing?",
+      "choices": [
+        "Teaching mathematics in a circular sequence with no clear progression",
+        "Revisiting mathematical topics at increasing levels of depth and complexity across grade levels",
+        "Teaching all topics in a single grade level before moving to the next",
+        "Organizing topics from abstract to concrete as students advance"
+      ],
+      "answer": "Revisiting mathematical topics at increasing levels of depth and complexity across grade levels",
+      "explanation": "The spiral approach (Bruner) in the K-12 math curriculum means that key concepts (numbers, algebra, geometry, data) are introduced simply in early grades and revisited with increasing sophistication in higher grades. This builds cumulative understanding rather than treating topics as isolated units."
+    },
+    {
+      "id": 36,
+      "question": "What is a function and how is it different from a general relation?",
+      "choices": [
+        "A function is any relationship between two sets; a relation is a special kind of function",
+        "A function is a relation where each input (domain value) is paired with exactly one output (range value)",
+        "A function requires all inputs to map to different outputs",
+        "A function requires all outputs to map to different inputs"
+      ],
+      "answer": "A function is a relation where each input (domain value) is paired with exactly one output (range value)",
+      "explanation": "A function assigns exactly one output (f(x)) to each input (x) from the domain. A relation may pair one input with multiple outputs. The Vertical Line Test checks if a graph represents a function — if a vertical line crosses the graph more than once, it is not a function."
+    },
+    {
+      "id": 37,
+      "question": "What is the sum of the interior angles of a polygon with n sides, and what is each interior angle of a regular hexagon?",
+      "choices": [
+        "(n-2) × 90°; each angle in a regular hexagon = 90°",
+        "(n-2) × 180°; each angle in a regular hexagon = 120°",
+        "n × 180°; each angle in a regular hexagon = 180°",
+        "(n-1) × 180°; each angle in a regular hexagon = 150°"
+      ],
+      "answer": "(n-2) × 180°; each angle in a regular hexagon = 120°",
+      "explanation": "Sum of interior angles = (n-2) × 180°. For a hexagon (n=6): (6-2) × 180° = 720°. Each interior angle of a REGULAR hexagon = 720°/6 = 120°. This formula is important for geometry problems involving regular and irregular polygons."
+    },
+    {
+      "id": 38,
+      "question": "What is the Fibonacci sequence and where does it appear in nature?",
+      "choices": [
+        "1, 1, 2, 3, 5, 8, 13, 21... where each term is the sum of the two preceding; it appears in flower petals, spiral shells, and branching patterns",
+        "2, 4, 8, 16, 32... where each term doubles; it appears in cell division",
+        "1, 4, 9, 16, 25... the sequence of perfect squares; appears in geometric growth",
+        "1, 2, 3, 5, 7, 11... the prime numbers; appear in cryptography"
+      ],
+      "answer": "1, 1, 2, 3, 5, 8, 13, 21... where each term is the sum of the two preceding; it appears in flower petals, spiral shells, and branching patterns",
+      "explanation": "The Fibonacci sequence (F₁=1, F₂=1, Fₙ=Fₙ₋₁+Fₙ₋₂) appears throughout nature: sunflower seed spirals, pinecone bracts, nautilus shells, and flower petals often follow Fibonacci numbers. The ratio of consecutive Fibonacci numbers approaches the Golden Ratio (φ ≈ 1.618)."
+    },
+    {
+      "id": 39,
+      "question": "What are manipulatives in mathematics education and what is their purpose?",
+      "choices": [
+        "Digital applications used to manipulate graphs and equations",
+        "Physical objects (blocks, counters, tiles) that students handle to represent and explore mathematical concepts concretely",
+        "Teaching strategies that manipulate student groupings for differentiation",
+        "Tools for manipulating test scores to improve student outcomes"
+      ],
+      "answer": "Physical objects (blocks, counters, tiles) that students handle to represent and explore mathematical concepts concretely",
+      "explanation": "Manipulatives (base-ten blocks, fraction tiles, pattern blocks, algebra tiles) are physical learning tools. Research strongly supports their use in building conceptual understanding — they provide the concrete stage in the CPA progression and help students develop mental models before abstract symbol manipulation."
+    },
+    {
+      "id": 40,
+      "question": "What is the difference between a type I error and a type II error in hypothesis testing?",
+      "choices": [
+        "Type I: failing to reject a true null hypothesis; Type II: rejecting a false null hypothesis",
+        "Type I: rejecting a true null hypothesis (false positive); Type II: failing to reject a false null hypothesis (false negative)",
+        "Type I is an experimental error; Type II is a statistical error",
+        "Type I involves the p-value; Type II involves the confidence interval"
+      ],
+      "answer": "Type I: rejecting a true null hypothesis (false positive); Type II: failing to reject a false null hypothesis (false negative)",
+      "explanation": "Type I error (α) = concluding there IS an effect when there is none (false positive) — the probability is the significance level (typically 0.05). Type II error (β) = missing a real effect (false negative). Power = 1-β = probability of correctly detecting a real effect. Both errors have serious implications in research and decision-making."
+    },
+    {
+      "id": 41,
+      "question": "What is the associative property and how does it apply to addition and multiplication?",
+      "choices": [
+        "a + b = b + a and ab = ba (order of operations)",
+        "(a + b) + c = a + (b + c) and (ab)c = a(bc) — grouping does not affect the result",
+        "a(b + c) = ab + ac (distributive over addition)",
+        "a + 0 = a and a × 1 = a (identity elements)"
+      ],
+      "answer": "(a + b) + c = a + (b + c) and (ab)c = a(bc) — grouping does not affect the result",
+      "explanation": "The associative property states that the way numbers are grouped in addition or multiplication does not change the result: (2+3)+4 = 2+(3+4) = 9; (2×3)×4 = 2×(3×4) = 24. Note: subtraction and division are NOT associative: (8-5)-2 ≠ 8-(5-2)."
+    },
+    {
+      "id": 42,
+      "question": "What is a linear programming problem and what is the corner point theorem?",
+      "choices": [
+        "A problem involving non-linear optimization; optimal values occur at inflection points",
+        "A problem of optimizing (maximizing/minimizing) a linear objective function subject to linear constraints; the optimal value occurs at a corner point of the feasible region",
+        "A problem involving straight-line graphs only, with solutions at intersections",
+        "A programming algorithm that generates linear sequences of numbers"
+      ],
+      "answer": "A problem of optimizing (maximizing/minimizing) a linear objective function subject to linear constraints; the optimal value occurs at a corner point of the feasible region",
+      "explanation": "Linear programming optimizes a linear objective function (e.g., maximize profit) subject to linear constraints (e.g., resource limits). The feasible region is a polygon; the Corner Point Theorem guarantees the optimal value occurs at one of the vertices (corners) of this region."
+    },
+    {
+      "id": 43,
+      "question": "What is the difference between permutation with repetition and without repetition?",
+      "choices": [
+        "With repetition allows the same item to be selected multiple times; without repetition does not",
+        "With repetition uses combinations; without repetition uses permutations",
+        "With repetition is always larger; without repetition is always smaller",
+        "With repetition applies to letters; without repetition applies to numbers"
+      ],
+      "answer": "With repetition allows the same item to be selected multiple times; without repetition does not",
+      "explanation": "Permutation without repetition: P(n,r) = n!/(n-r)! — each item can appear only once. Permutation with repetition: nʳ — each position can be filled by any of the n items. Example: 3-digit codes from {0-9} without repetition = 10×9×8 = 720; with repetition = 10³ = 1000."
+    },
+    {
+      "id": 44,
+      "question": "What is the concept of limits in calculus?",
+      "choices": [
+        "The maximum value a function can reach",
+        "The value that f(x) approaches as x approaches a specific value (lim[x→a] f(x))",
+        "The boundary of a function's domain",
+        "The integral of a function over a given interval"
+      ],
+      "answer": "The value that f(x) approaches as x approaches a specific value (lim[x→a] f(x))",
+      "explanation": "A limit describes the behavior of a function as the input approaches a value. lim[x→a] f(x) = L means f(x) gets arbitrarily close to L as x approaches a (from either side). Limits are foundational to calculus — derivatives and integrals are both defined using limits."
+    },
+    {
+      "id": 45,
+      "question": "What is a prime number and how does the Sieve of Eratosthenes find them?",
+      "choices": [
+        "A number with exactly two factors (1 and itself); the Sieve eliminates multiples of each prime starting from 2",
+        "A number divisible by 1 only; the Sieve lists all numbers then removes odd ones",
+        "Any odd number greater than 2; the Sieve tests divisibility by all smaller numbers",
+        "A number with no factors; the Sieve finds numbers whose digits sum to a prime"
+      ],
+      "answer": "A number with exactly two factors (1 and itself); the Sieve eliminates multiples of each prime starting from 2",
+      "explanation": "A prime number has exactly two distinct positive factors: 1 and itself (2, 3, 5, 7, 11...). The Sieve of Eratosthenes finds primes up to n by: starting with 2, crossing out all its multiples; moving to the next uncrossed number (3) and crossing out its multiples; repeating until √n."
+    },
+    {
+      "id": 46,
+      "question": "What is the chi-square (χ²) test used for in statistics?",
+      "choices": [
+        "Testing whether two sample means are significantly different",
+        "Testing whether there is a significant relationship between categorical variables or whether observed frequencies differ from expected frequencies",
+        "Measuring the correlation between two continuous variables",
+        "Testing whether a sample comes from a normally distributed population"
+      ],
+      "answer": "Testing whether there is a significant relationship between categorical variables or whether observed frequencies differ from expected frequencies",
+      "explanation": "The chi-square test has two main uses: (1) Goodness-of-fit test — comparing observed vs. expected frequencies; (2) Test of independence — testing whether two categorical variables are related. It uses the formula χ² = Σ[(O-E)²/E] where O=observed and E=expected frequencies."
+    },
+    {
+      "id": 47,
+      "question": "What is the difference between a theorem and a postulate (axiom) in mathematics?",
+      "choices": [
+        "Theorems apply only in algebra; postulates apply only in geometry",
+        "A postulate is accepted without proof; a theorem is a statement that has been proved from postulates and previous theorems",
+        "Theorems are more important than postulates in mathematics",
+        "A postulate can be disproved; a theorem cannot be disproved"
+      ],
+      "answer": "A postulate is accepted without proof; a theorem is a statement that has been proved from postulates and previous theorems",
+      "explanation": "Postulates (axioms) are statements accepted as true without proof — they are the starting assumptions of a mathematical system (e.g., 'Through any two points there is exactly one line'). Theorems are statements proven to be true using logical deduction from postulates and previously proven theorems."
+    },
+    {
+      "id": 48,
+      "question": "What is the concept of vector in mathematics and physics?",
+      "choices": [
+        "A quantity that has only magnitude, like temperature",
+        "A quantity that has both magnitude and direction, represented by an arrow",
+        "A list of numbers arranged in rows and columns",
+        "A single point in a coordinate system"
+      ],
+      "answer": "A quantity that has both magnitude and direction, represented by an arrow",
+      "explanation": "A vector has both magnitude (size) and direction, represented as an arrow (e.g., velocity = 60 km/h north). Scalars have only magnitude (e.g., speed = 60 km/h). Vectors can be added using the parallelogram law or tip-to-tail method. Vector mathematics is fundamental in physics, engineering, and computer graphics."
+    },
+    {
+      "id": 49,
+      "question": "What is the fundamental principle of counting (multiplication principle)?",
+      "choices": [
+        "The total number of outcomes is the sum of outcomes of each event",
+        "If one event can occur in m ways and another independent event can occur in n ways, then together they can occur in m × n ways",
+        "The number of combinations of n objects taken r at a time",
+        "Each outcome in a sample space is equally likely"
+      ],
+      "answer": "If one event can occur in m ways and another independent event can occur in n ways, then together they can occur in m × n ways",
+      "explanation": "The Multiplication Principle (Fundamental Counting Principle) states: if a task has m ways and an independent second task has n ways, the tasks together can be done in m × n ways. Example: 3 shirts × 4 pants = 12 outfits. This is the foundation of combinatorics."
+    },
+    {
+      "id": 50,
+      "question": "What is mathematical induction and what are its two required steps?",
+      "choices": [
+        "Drawing conclusions from specific examples; requires finding 3 examples and one counterexample",
+        "A proof technique for statements about all natural numbers requiring: (1) base case (n=1 is true) and (2) inductive step (if true for n=k, prove true for n=k+1)",
+        "Solving problems by trying all possible cases; requires complete enumeration",
+        "A statistical method for drawing conclusions about populations from samples"
+      ],
+      "answer": "A proof technique for statements about all natural numbers requiring: (1) base case (n=1 is true) and (2) inductive step (if true for n=k, prove true for n=k+1)",
+      "explanation": "Mathematical induction proves a statement P(n) holds for all natural numbers n. Step 1 (Base case): Prove P(1) is true. Step 2 (Inductive step): Assume P(k) is true, then prove P(k+1) is true. By this, P(n) is true for all n. Classic example: proving 1+2+3+...+n = n(n+1)/2."
     }
   ]
 }

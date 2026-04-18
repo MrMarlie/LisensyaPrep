@@ -336,6 +336,146 @@
       ],
       "answer": "Meets current food needs without compromising the ability of future generations to meet their needs",
       "explanation": "Sustainable agriculture is based on the Brundtland Commission's definition of sustainable development — meeting present needs without compromising future generations. It balances productivity, environmental health, and social equity."
+    },
+    {
+      "id": 31,
+      "question": "What are the five stages of Rogers' Adoption-Diffusion Model?",
+      "choices": ["Plan, Act, Monitor, Evaluate, Adopt", "Awareness, Interest, Evaluation, Trial, Adoption", "Observe, Learn, Practice, Accept, Spread", "Introduce, Demonstrate, Convince, Train, Implement"],
+      "answer": "Awareness, Interest, Evaluation, Trial, Adoption",
+      "explanation": "Rogers' adoption process stages are: (1) Knowledge/Awareness, (2) Persuasion/Interest, (3) Decision/Evaluation, (4) Implementation/Trial, (5) Confirmation/Adoption. Understanding these stages helps extension workers design appropriate intervention strategies."
+    },
+    {
+      "id": 32,
+      "question": "Who are considered 'innovators' in Rogers' diffusion of innovations theory?",
+      "choices": ["The last group to adopt a new technology", "The first ~2.5% of a population to adopt an innovation, who are willing to take risks", "Extension workers who develop new technologies", "Researchers who create innovative crop varieties"],
+      "answer": "The first ~2.5% of a population to adopt an innovation, who are willing to take risks",
+      "explanation": "Innovators (2.5%) are the first to adopt, characterized by venturousness, higher education, financial resources, and risk tolerance. They are followed by Early Adopters (13.5%), Early Majority, Late Majority, and Laggards."
+    },
+    {
+      "id": 33,
+      "question": "What is Participatory Rural Appraisal (PRA)?",
+      "choices": ["A government assessment of rural farm productivity", "A set of methods that enable local communities to analyze their own situation and plan", "A financial audit of rural extension programs", "A research method for measuring farmer income"],
+      "answer": "A set of methods that enable local communities to analyze their own situation and plan",
+      "explanation": "PRA is a family of approaches and methods enabling local people to share, analyze, and enhance their knowledge of life and conditions, and to plan and act. Tools include seasonal calendars, resource maps, and problem ranking."
+    },
+    {
+      "id": 34,
+      "question": "What is a Farmer Field School (FFS)?",
+      "choices": ["A formal agricultural college for farmers", "A group-based learning approach where farmers learn through hands-on field observation and experimentation", "A government-run demonstration farm open to the public", "A distance learning program for rural farmers"],
+      "answer": "A group-based learning approach where farmers learn through hands-on field observation and experimentation",
+      "explanation": "Farmer Field Schools (FFS) are group learning programs where 25–30 farmers meet regularly in a field to study crop/ecosystem management through observation and experimentation, making their own decisions based on what they discover."
+    },
+    {
+      "id": 35,
+      "question": "What is the Training and Visit (T&V) extension system?",
+      "choices": ["A program for training farmers to become extension agents", "An extension approach using regular, scheduled training of extension agents and systematic farm visits", "A university-based training program for graduate extension workers", "A government inspection system for farm compliance"],
+      "answer": "An extension approach using regular, scheduled training of extension agents and systematic farm visits",
+      "explanation": "The T&V system (World Bank, 1970s-90s) involves regular fortnightly training of extension agents at subject matter specialist sessions, followed by scheduled farm visits to contact farmers, creating a regular channel for technology transfer."
+    },
+    {
+      "id": 36,
+      "question": "What is the meaning of 'felt need' in agricultural extension?",
+      "choices": ["A need identified by researchers and imposed on farmers", "A need that farmers themselves recognize, acknowledge, and want addressed", "A basic survival need such as food and shelter", "A need identified through government surveys"],
+      "answer": "A need that farmers themselves recognize, acknowledge, and want addressed",
+      "explanation": "In extension education, a felt need is a need perceived and expressed by the farmers themselves, as opposed to needs identified externally. Technologies addressing felt needs have a higher probability of adoption."
+    },
+    {
+      "id": 37,
+      "question": "What is SWOT analysis in agricultural extension planning?",
+      "choices": ["Soil, Water, Organic matter, and Temperature analysis", "Analysis of Strengths, Weaknesses, Opportunities, and Threats facing an extension program", "A method to evaluate extension worker performance", "A framework for analyzing crop production systems"],
+      "answer": "Analysis of Strengths, Weaknesses, Opportunities, and Threats facing an extension program",
+      "explanation": "SWOT analysis is a strategic planning tool that identifies internal Strengths and Weaknesses of an organization or program, and external Opportunities and Threats, used to guide extension program design and evaluation."
+    },
+    {
+      "id": 38,
+      "question": "What is the communication model of Berlo (SMCR)?",
+      "choices": ["A model describing only verbal communication in group settings", "A model with four components: Source, Message, Channel, and Receiver", "A two-way feedback model of agricultural extension", "A model for mass media communication only"],
+      "answer": "A model with four components: Source, Message, Channel, and Receiver",
+      "explanation": "Berlo's SMCR model describes communication as involving a Source (communicator), Message (content), Channel (medium), and Receiver (audience), each influenced by factors like skills, attitudes, knowledge, and culture."
+    },
+    {
+      "id": 39,
+      "question": "What is the role of radio in agricultural extension?",
+      "choices": ["Providing direct farm inputs to rural farmers", "Reaching large numbers of farmers with agricultural information at low cost in remote areas", "Training extension workers on technical subjects", "Monitoring crop prices in local markets"],
+      "answer": "Reaching large numbers of farmers with agricultural information at low cost in remote areas",
+      "explanation": "Radio is a powerful extension tool in developing countries, reaching large audiences including remote and illiterate farmers at low cost. Farm radio programs can deliver timely advisories on weather, pests, market prices, and new technologies."
+    },
+    {
+      "id": 40,
+      "question": "What is a result demonstration in extension work?",
+      "choices": ["Showing farmers how to perform a specific agricultural task step by step", "Showing farmers the completed results of applying a recommended practice vs. traditional practice", "Demonstrating the economic returns of a new crop variety through calculations", "Distributing results of research trials to farmers"],
+      "answer": "Showing farmers the completed results of applying a recommended practice vs. traditional practice",
+      "explanation": "A result demonstration shows farmers the end result (outcome) of using a recommended practice — typically comparing the improved method's plot with a farmer's traditional practice plot, providing visual proof of the technology's benefits."
+    },
+    {
+      "id": 41,
+      "question": "What is the difference between a method demonstration and a result demonstration?",
+      "choices": ["Method demonstrations use experiments; result demonstrations use surveys", "Method demonstrations show HOW to perform a practice; result demonstrations show the OUTCOME of using a practice", "Method demonstrations are for groups; result demonstrations are individual", "Method demonstrations are done by researchers; result demonstrations by extension workers"],
+      "answer": "Method demonstrations show HOW to perform a practice; result demonstrations show the OUTCOME of using a practice",
+      "explanation": "A method demonstration teaches the 'how-to' of a skill (e.g., how to prepare compost). A result demonstration shows the final outcome of applying a complete technology (e.g., comparing yield from compost-treated vs. untreated plots)."
+    },
+    {
+      "id": 42,
+      "question": "What is an 'opinion leader' in the context of diffusion of innovations?",
+      "choices": ["The chairperson of a farmers' organization", "An individual who informally influences others' attitudes and adoption decisions regarding innovations", "A government official who promotes new agricultural policies", "An extension agent who leads farmer groups"],
+      "answer": "An individual who informally influences others' attitudes and adoption decisions regarding innovations",
+      "explanation": "Opinion leaders are influential community members who shape others' views on innovations through informal social networks. They are typically early adopters with high credibility. Extension programs often target them as change agents."
+    },
+    {
+      "id": 43,
+      "question": "What is group dynamics in agricultural extension?",
+      "choices": ["The physical dynamics of crop growth in a group planting", "How group members interact, communicate, and influence each other's behavior and decisions", "The dynamics of pricing within farmer groups and cooperatives", "The speed at which knowledge spreads within a farming community"],
+      "answer": "How group members interact, communicate, and influence each other's behavior and decisions",
+      "explanation": "Group dynamics refers to the patterns of interaction, roles, norms, cohesion, and leadership within groups. Understanding group dynamics helps extension workers facilitate effective farmer groups and learning communities."
+    },
+    {
+      "id": 44,
+      "question": "What is participatory technology development (PTD)?",
+      "choices": ["Technology developed exclusively by research scientists", "A process involving farmers in identifying, testing, and adapting agricultural technologies", "Government funding for agricultural technology commercialization", "Training farmers to use new digital technologies"],
+      "answer": "A process involving farmers in identifying, testing, and adapting agricultural technologies",
+      "explanation": "PTD is an approach where farmers are active partners in agricultural research — identifying problems, designing trials, conducting experiments, and evaluating results alongside researchers, leading to more relevant and adoptable technologies."
+    },
+    {
+      "id": 45,
+      "question": "What is the role of ICT (Information and Communications Technology) in modern agricultural extension?",
+      "choices": ["Replacing extension workers entirely with automated systems", "Enhancing delivery of extension services through mobile phones, internet, and digital platforms", "Providing only weather forecast services to farmers", "Monitoring crop growth using satellite imagery only"],
+      "answer": "Enhancing delivery of extension services through mobile phones, internet, and digital platforms",
+      "explanation": "ICT tools (mobile apps, SMS alerts, radio, internet, social media) enable faster, wider, and more cost-effective delivery of agricultural information, market prices, weather data, and advisory services to farmers."
+    },
+    {
+      "id": 46,
+      "question": "What is Maslow's hierarchy of needs and its relevance to agricultural extension?",
+      "choices": ["A legal framework for extension workers' employment benefits", "A motivational theory suggesting that basic needs must be met before higher needs can motivate behavior", "A crop production hierarchy from basic to advanced farming practices", "A model for prioritizing extension program budgets"],
+      "answer": "A motivational theory suggesting that basic needs must be met before higher needs can motivate behavior",
+      "explanation": "Maslow's hierarchy (physiological → safety → social → esteem → self-actualization) implies that farmers primarily focused on survival will not be motivated to adopt technologies for higher goals. Extension must address farmers' immediate needs first."
+    },
+    {
+      "id": 47,
+      "question": "What is the purpose of an agricultural fair or exhibit?",
+      "choices": ["Selling agricultural products at premium prices", "Demonstrating new technologies, creating awareness, and providing farmers an opportunity to exchange knowledge", "Distributing government subsidies to farmers", "Testing new crop varieties under controlled conditions"],
+      "answer": "Demonstrating new technologies, creating awareness, and providing farmers an opportunity to exchange knowledge",
+      "explanation": "Agricultural fairs and exhibits bring together farmers, researchers, extension workers, and agribusiness, showcasing improved varieties, inputs, and equipment. They stimulate interest in new technologies and facilitate information exchange."
+    },
+    {
+      "id": 48,
+      "question": "What is change agency in agricultural extension?",
+      "choices": ["A government agency responsible for agricultural policy", "The role of extension workers in facilitating the adoption of innovations in farming communities", "A commercial firm that introduces new farm inputs", "An NGO providing financial support to farmers"],
+      "answer": "The role of extension workers in facilitating the adoption of innovations in farming communities",
+      "explanation": "A change agent is a professional who influences innovation-adoption decisions in a direction deemed desirable by a change agency. Extension workers act as change agents by linking research institutions to farming communities."
+    },
+    {
+      "id": 49,
+      "question": "What is the Leagans model of the extension teaching-learning process?",
+      "choices": ["A market linkage model for agricultural products", "A six-step model: Situation Analysis → Objectives → Content → Methods → Evaluation → Revision", "A communication model focusing on mass media use", "A model for training extension supervisors"],
+      "answer": "A six-step model: Situation Analysis → Objectives → Content → Methods → Evaluation → Revision",
+      "explanation": "Leagans' extension teaching model provides a systematic framework: (1) Analyze the situation, (2) Set objectives, (3) Select content, (4) Choose methods, (5) Evaluate outcomes, and (6) Reconsider and revise the program based on evaluation."
+    },
+    {
+      "id": 50,
+      "question": "What is the difference between formal, non-formal, and informal education in the context of agricultural extension?",
+      "choices": ["Formal is free, non-formal costs money, informal is government-funded", "Formal is structured schooling with credentials; non-formal is organized but flexible; informal is incidental learning from daily experience", "Formal uses lectures; non-formal uses field visits; informal uses radio", "Formal is for adults; non-formal for youth; informal for children"],
+      "answer": "Formal is structured schooling with credentials; non-formal is organized but flexible; informal is incidental learning from daily experience",
+      "explanation": "Most agricultural extension falls under non-formal education — organized, purposeful learning outside the formal school system, without compulsory attendance or formal credentials. Informal learning happens through everyday farming experience and social interaction."
     }
   ]
 }
