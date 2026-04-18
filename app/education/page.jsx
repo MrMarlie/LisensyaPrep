@@ -148,7 +148,7 @@ export default function EducationPage() {
                     ))}
                   </div>
                   <div className="flex items-center justify-between pt-4 border-t border-white/10">
-                    <span className="text-gray-500 text-xs">{mod.dataFile.includes('gened') ? '10' : '10'} Questions</span>
+                    <span className="text-gray-500 text-xs">{mod.questionCount} Questions</span>
                     <span className="text-yellow-400 font-bold text-sm group-hover:translate-x-1 transition-transform">
                       Start →
                     </span>
@@ -190,7 +190,7 @@ export default function EducationPage() {
                     ))}
                   </div>
                   <div className="flex items-center justify-between pt-4 border-t border-white/10">
-                    <span className="text-gray-500 text-xs">10 Questions</span>
+                    <span className="text-gray-500 text-xs">{mod.questionCount} Questions</span>
                     <span className="text-yellow-400 font-bold text-sm group-hover:translate-x-1 transition-transform">
                       Start →
                     </span>
