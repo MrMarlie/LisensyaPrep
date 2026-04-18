@@ -71,7 +71,7 @@ export default function EducationModulePage({ params }) {
                   {mod.difficulty}
                 </span>
                 <span className="text-xs font-semibold text-gray-400 bg-white/10 px-3 py-1 rounded-full">
-                  10 Questions
+                  50 Questions
                 </span>
                 <span className="text-xs font-semibold text-gray-400 bg-white/10 px-3 py-1 rounded-full">
                   🏅 1 License Piece

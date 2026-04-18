@@ -69,7 +69,7 @@ export default function AgriculturePage() {
       {/* Modules */}
       <section className="py-14 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-2">Choose a Module</h2>
-        <p className="text-gray-400 mb-8">Each module contains 30 board exam-style questions. Clear them all to complete your license!</p>
+        <p className="text-gray-400 mb-8">Each module contains 50 board exam-style questions. Clear them all to complete your license!</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {modules.map((mod) => (
@@ -99,7 +99,7 @@ export default function AgriculturePage() {
                   </div>
 
                   <div className="flex items-center justify-between pt-4 border-t border-white/10">
-                    <span className="text-gray-500 text-xs">30 Questions</span>
+                    <span className="text-gray-500 text-xs">50 Questions</span>
                     <span className="text-yellow-400 font-bold text-sm group-hover:translate-x-1 transition-transform">
                       Start →
                     </span>

@@ -56,7 +56,7 @@ export default function ModulePage({ params }) {
                   {mod.difficulty}
                 </span>
                 <span className="text-xs font-semibold text-gray-400 bg-white/10 px-3 py-1 rounded-full">
-                  30 Questions
+                  50 Questions
                 </span>
                 <span className="text-xs font-semibold text-gray-400 bg-white/10 px-3 py-1 rounded-full">
                   🏅 1 License Piece
@@ -88,7 +88,7 @@ export default function ModulePage({ params }) {
             <h2 className="text-white font-bold text-lg mb-4">⚔️ Battle Rules</h2>
             <ul className="space-y-3 text-sm text-gray-300">
               {[
-                '30 questions per stage — boss has 100 HP',
+                '50 questions per stage — boss has 100 HP',
                 'Correct answer: boss takes 10 damage (bonus damage on streaks!)',
                 'Wrong answer: you lose 10 HP from your 100 HP pool',
                 'If player HP hits 0 → stage failed',

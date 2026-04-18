@@ -102,7 +102,7 @@ export default function HomePage() {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg mx-auto">
             {[
-              { value: '180+', label: 'Questions' },
+              { value: '650+', label: 'Questions' },
               { value: '6', label: 'Modules' },
               { value: '100%', label: 'Free' },
             ].map(({ value, label }) => (
@@ -138,7 +138,7 @@ export default function HomePage() {
               <div className="text-5xl mb-4">🌾</div>
               <h3 className="text-xl font-bold text-white mb-2">Agriculture</h3>
               <p className="text-gray-400 text-sm mb-4">
-                Crop Science, Soil Science, Crop Protection, Animal Science, and more. 6 modules, 180 questions.
+                Crop Science, Soil Science, Crop Protection, Animal Science, and more. 6 modules, 300 questions.
               </p>
               <div className="flex items-center justify-center gap-2">
                 <span className="bg-green-500/20 text-green-400 text-xs font-semibold px-3 py-1 rounded-full">

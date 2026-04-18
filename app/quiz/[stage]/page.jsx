@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
   if (!mod) return {};
   return buildMetadata({
     title: `Quiz: ${mod.title}`,
-    description: `Battle the Agriculture PRC board exam boss in ${mod.title}. 30 questions, boss HP system, earn your license piece.`,
+    description: `Battle the Agriculture PRC board exam boss in ${mod.title}. 50 questions, boss HP system, earn your license piece.`,
     path: `/quiz/${mod.id}`,
     noIndex: true, // Don't index active quiz pages
   });
