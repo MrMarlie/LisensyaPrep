@@ -1,0 +1,126 @@
+{
+  "module": "Filipino Specialization",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Ang minimal pairs sa ponolohiya ay ginagamit upang:",
+      "choices": [
+        "Matukoy ang mga salitang magkasingkahulugan sa isang wika",
+        "Mapatunayan na ang dalawang tunog ay magkaibang ponema sa pamamagitan ng pagbabago ng kahulugan",
+        "Mapag-aralan ang mga palatunugan ng banyagang wika kumpara sa Filipino",
+        "Maihambing ang mga diyalekto ng iba't ibang rehiyon ng Pilipinas"
+      ],
+      "answer": "Mapatunayan na ang dalawang tunog ay magkaibang ponema sa pamamagitan ng pagbabago ng kahulugan",
+      "explanation": "Ang minimal pairs (hal. 'pala' at 'bala') ay dalawang salitang nagkakaiba lamang sa iisang tunog. Kung ang pagbabago ng tunog ay nagbabago ng kahulugan, mapapatunayan na ang dalawang tunog ay magkaibang ponema sa wikang iyon. Ito ang pangunahing pamamaraan ng pag-iisa ng mga ponema sa ponolohiya."
+    },
+    {
+      "id": 2,
+      "question": "Alin sa mga sumusunod na pangungusap ang nagpapakita ng 'katatapos' (completed/perfective) na aspeto ng pandiwa?",
+      "choices": [
+        "Magluluto si Lola ng adobo.",
+        "Nagluluto si Lola ng adobo.",
+        "Nakapagluto na si Lola ng adobo.",
+        "Magluto na si Lola ng adobo."
+      ],
+      "answer": "Nakapagluto na si Lola ng adobo.",
+      "explanation": "Ang katatapos o completed aspect ng pandiwa ay nagpapahiwatig na ang kilos ay natapos na. Ang 'Nakapagluto na' ay nagpapakita nito. Ang 'Magluluto' ay panghinaharap; ang 'Nagluluto' ay kasalukuyang progresibo (imperfective); at ang 'Magluto na' ay isang utos o kahilingan."
+    },
+    {
+      "id": 3,
+      "question": "Ang 'Florante at Laura' ni Francisco Balagtas (Baltazar) ay isang halimbawa ng anong uri ng katutubong panitikan?",
+      "choices": [
+        "Epiko — mahabang tula tungkol sa bayaning katutubong",
+        "Awit — tulang may 12 pantig sa bawat taludtod",
+        "Korido — tulang may 8 pantig sa bawat taludtod",
+        "Salawikain — maikling kasabihang naglalaman ng karunungan"
+      ],
+      "answer": "Awit — tulang may 12 pantig sa bawat taludtod",
+      "explanation": "Ang 'Florante at Laura' ay isang awit — ang uri ng tulang may 12 pantig (dodecasyllabic) sa bawat taludtod at inaawit sa isang partikular na melodiya. Ang korido naman ay may 8 pantig (octosyllabic). Ang pagkakakilanlan ng uri ng tula batay sa bilang ng pantig ay isang pangunahing kasanayan sa pag-aaral ng panitikang Filipino."
+    },
+    {
+      "id": 4,
+      "question": "Sa pangungusap na 'Ang salita mo'y tabak na tumataga,' ang tayutay na ginamit ay:",
+      "choices": [
+        "Simile — paghahambing gamit ang 'tulad ng' o 'parang'",
+        "Metapora — direktang paghahambing nang walang 'tulad ng' o 'parang'",
+        "Personipikasyon — pagbibigay ng katangiang pantao sa bagay",
+        "Eufemismo — paggamit ng malambot na salita para sa mabigat na kahulugan"
+      ],
+      "answer": "Metapora — direktang paghahambing nang walang 'tulad ng' o 'parang'",
+      "explanation": "Sa metapora, ang isang bagay ay direktang tinawag na isa pang bagay nang hindi gumagamit ng 'tulad ng' o 'parang.' Dito, ang salita ay direktang tinawag na 'tabak.' Ang simile naman ay gumagamit ng mga salitang 'tulad ng,' 'parang,' o 'katulad ng' sa paghahambing."
+    },
+    {
+      "id": 5,
+      "question": "Alin sa mga sumusunod ang TAMA tungkol sa 1987 Konstitusyon at ang wikang Filipino?",
+      "choices": [
+        "Ang Filipino ay idineklara bilang tanging opisyal na wika ng Pilipinas, pinalitan ang Ingles",
+        "Ang Filipino ay inilarawan bilang wikang pambansa na may batayan sa umiiral na Filipino at nagbubukas sa karagdagang imbensyon mula sa ibang wika ng Pilipinas",
+        "Ang Konstitusyon ng 1987 ay gumamit ng 'Pilipino' bilang pangalan ng wikang pambansa",
+        "Ang Ingles ang tanging opisyal na wika ng gobyerno ayon sa Konstitusyon ng 1987"
+      ],
+      "answer": "Ang Filipino ay inilarawan bilang wikang pambansa na may batayan sa umiiral na Filipino at nagbubukas sa karagdagang imbensyon mula sa ibang wika ng Pilipinas",
+      "explanation": "Artikulo XIV, Seksyon 6 ng 1987 Konstitusyon: ang Filipino ay wikang pambansa na bukas sa mga kontribusyon ng lahat ng wika ng bansa, hindi lamang purong Tagalog. Ang Ingles at Filipino ay parehong opisyal na wika ng Pilipinas."
+    },
+    {
+      "id": 6,
+      "question": "Ang 'code-switching' sa pagitan ng Filipino at Ingles ('Taglish') ay, ayon sa sosyolinggwistika, isang pagpapakita ng:",
+      "choices": [
+        "Pagkabigo ng bilingwal na edukasyon at kakulangan ng kakayahan sa Filipino",
+        "Natural at malikhaing kakayahan ng mga bilingwal na mananalita na gamitin ang dalawang wika nang may layunin at kahusayan",
+        "Pormal na pagbabago ng patakaran sa wika na pinahintulutan ng gobyerno",
+        "Unti-unting pagkawala ng purong wikang Filipino sa modern na lipunan"
+      ],
+      "answer": "Natural at malikhaing kakayahan ng mga bilingwal na mananalita na gamitin ang dalawang wika nang may layunin at kahusayan",
+      "explanation": "Ayon sa modernong sosyolinggwistika, ang code-switching ay hindi palatandaan ng kakulangan sa wika kundi ng kahusayan — ang kakayahang gamitin ang dalawang wika nang magkasabay at may layunin. Ginagamit ito ng mga bilingwal para sa epekto, paglilinaw, at pagpapahayag ng pagkakakilanlan."
+    },
+    {
+      "id": 7,
+      "question": "Ang konsepto ng 'subaltern' ni Gayatri Spivak, kapag inilapat sa pag-aaral ng Filipino na panitikan, ay tumutukoy sa:",
+      "choices": [
+        "Ang mga ilustradong Pilipino na nakapagsulat ng mga akda sa wikang Espanyol",
+        "Ang mga grupong, dahil sa istruktura ng kapangyarihan at kasaysayan ng kolonyalismo, ay walang boses sa pangunahing diskurso",
+        "Ang mga manunulat na tumangging gamitin ang wikang kolonyal sa kanilang mga akda",
+        "Ang mga akdang naisulat sa panahon ng Amerikanong pananakop sa Pilipinas"
+      ],
+      "answer": "Ang mga grupong, dahil sa istruktura ng kapangyarihan at kasaysayan ng kolonyalismo, ay walang boses sa pangunahing diskurso",
+      "explanation": "Para kay Spivak, ang 'subaltern' ay ang mga nasa gilid ng kapangyarihan — ang mga magsasaka, kababaihan, katutubo — na ang karanasan ay hindi nalalaman sa loob ng dominanteng diskurso. Sa kontekstong Filipino, ito ang mga indio at babaeng Pilipina na dating hindi ikinukuwento sa opisyal na kasaysayan."
+    },
+    {
+      "id": 8,
+      "question": "Sa akademikong pagsulat sa Filipino, ang 'hedging' o pag-iingat sa pahayag ay ginagawa sa pamamagitan ng:",
+      "choices": [
+        "Paggamit ng makulay at matalinghaga na wika upang maakit ang mambabasa",
+        "Paggamit ng mga modal na pantulong tulad ng 'maaaring,' 'tila,' o 'ayon sa datos' upang ipahiwatig na ang pahayag ay posibilidad lamang",
+        "Pagsisipi ng mga awtoridad at eksperto upang suportahan ang bawat pahayag",
+        "Pagsulat ng mahaba at kumplikadong pangungusap upang ipakita ang kahusayan sa wika"
+      ],
+      "answer": "Paggamit ng mga modal na pantulong tulad ng 'maaaring,' 'tila,' o 'ayon sa datos' upang ipahiwatig na ang pahayag ay posibilidad lamang",
+      "explanation": "Ang hedging sa akademikong retorika ay ang paggamit ng mga salita o parirala na nagpapahiwatig ng pag-iingat — na ang konklusyon ay batay sa kasalukuyang ebidensya at maaaring magbago. Kritikal ito sa siyentipikong pagsulat dahil pinoprotektahan nito ang mananaliksik mula sa absolutong pag-aangkin sa mga di-tiyak na resulta."
+    },
+    {
+      "id": 9,
+      "question": "Alin sa mga sumusunod na estratehiya sa pagtuturo ang pinakaangkop para sa paglinang ng kritikal na pag-iisip sa aralin sa panitikan?",
+      "choices": [
+        "Pagpapaulo-ulit ng mga tauhan, tagpuan, at mahahalagang pangyayari sa akda",
+        "Pagsasaulo ng buod ng akda at pagbibigay ng maikli nitong presentasyon sa klase",
+        "Pag-aanalisa ng mga simbolo, tema, at ideolohiyang nakapaloob sa akda gamit ang iba't ibang kritikal na pananaw",
+        "Pagkopya ng mga makabuluhang sipi mula sa akda at pagpapaliwanag ng kanilang literal na kahulugan"
+      ],
+      "answer": "Pag-aanalisa ng mga simbolo, tema, at ideolohiyang nakapaloob sa akda gamit ang iba't ibang kritikal na pananaw",
+      "explanation": "Ang kritikal na pag-iisip sa panitikan ay nangangailangan ng mataas na antas ng kognitibong pagpoproseso — pagsusuri, pagsuri, at paglikha ng bagong kahulugan. Ang paggamit ng iba't ibang kritikal na balangkas ay nagpapahusay ng kakayahang tumingin sa isang teksto mula sa maraming perspektibo."
+    },
+    {
+      "id": 10,
+      "question": "Sa teorya ng komunikasyon ni Roman Jakobson, ang 'poetic function' ng wika ay pangunahing nakatuon sa:",
+      "choices": [
+        "Pagpapadala ng mensahe mula sa nagpadala patungo sa tatanggap nang may tamang denotasyon",
+        "Mensahe mismo — sa paraan ng pagkakabuo at organisasyon ng mga salita at tunog",
+        "Pakikiugnayan sa pagitan ng nagpadala at tatanggap upang matiyak ang komunikasyon",
+        "Reperens o paksa na pinag-uusapan ng mensahe"
+      ],
+      "answer": "Mensahe mismo — sa paraan ng pagkakabuo at organisasyon ng mga salita at tunog",
+      "explanation": "Sa modelo ni Jakobson, ang bawat komunikatibong gawain ay may anim na elemento: nagpadala, tatanggap, mensahe, konteksto, code, at channel. Ang 'poetic function' ay nakatuon sa mensahe — sa istilo, ritmo, at estetikong organisasyon ng wika — na siyang pinakamahalagang katangian ng malikhaing panitikan."
+    }
+  ]
+}

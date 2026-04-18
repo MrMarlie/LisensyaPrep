@@ -1,0 +1,126 @@
+{
+  "module": "General Education",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which sentence demonstrates correct use of the subjunctive mood?",
+      "choices": [
+        "If I was the principal, I would change the policy.",
+        "If I were the principal, I would change the policy.",
+        "If I am the principal, I will change the policy.",
+        "If I been the principal, I had changed the policy."
+      ],
+      "answer": "If I were the principal, I would change the policy.",
+      "explanation": "The subjunctive mood is used for hypothetical or contrary-to-fact conditions. 'If I were' (not 'was') is the correct subjunctive form for all persons in counterfactual conditionals. The simple past form 'was' is indicative mood; the subjunctive requires 'were' regardless of the subject."
+    },
+    {
+      "id": 2,
+      "question": "A train travels from City A to City B at 80 kph. It returns at 60 kph. What is the average speed for the entire round trip?",
+      "choices": [
+        "70.00 kph",
+        "68.57 kph",
+        "72.00 kph",
+        "66.67 kph"
+      ],
+      "answer": "68.57 kph",
+      "explanation": "Average speed for a round trip at different rates uses the harmonic mean: 2 × (r₁ × r₂) / (r₁ + r₂) = 2 × (80 × 60) / (80 + 60) = 9600 / 140 ≈ 68.57 kph. The arithmetic average (70 kph) is incorrect because the train spends more time at the slower speed."
+    },
+    {
+      "id": 3,
+      "question": "The legs of a right triangle are in the ratio 3:4. If the hypotenuse is 25 cm, what is the area of the triangle?",
+      "choices": [
+        "150 sq cm",
+        "175 sq cm",
+        "200 sq cm",
+        "125 sq cm"
+      ],
+      "answer": "150 sq cm",
+      "explanation": "If legs are 3k and 4k, hypotenuse = 5k (Pythagorean triple 3-4-5). Setting 5k = 25 gives k = 5. Legs are 15 cm and 20 cm. Area = ½ × 15 × 20 = 150 sq cm."
+    },
+    {
+      "id": 4,
+      "question": "Alin sa mga sumusunod na akda ang itinuturing na unang naitala na epiko sa Pilipinas?",
+      "choices": [
+        "Darangen ng mga Maranao",
+        "Biag ni Lam-ang ng mga Ilokano",
+        "Hudhud ni Aliguyon ng mga Ifugao",
+        "Hinilawod ng mga Sulod-Bukidnon"
+      ],
+      "answer": "Biag ni Lam-ang ng mga Ilokano",
+      "explanation": "Ang 'Biag ni Lam-ang' ay itinuturing na unang naitala at naisulat na epiko sa Pilipinas noong ika-17 siglo ng isang paring Augustino. Natatangi ito dahil may halong elementong Kristiyano sa dati nang katutubong salaysay, na nagpapakita ng impluwensya ng Espanyol sa tradisyonal na panitikang Ilokano."
+    },
+    {
+      "id": 5,
+      "question": "Ang 'Balarila ng Wikang Pambansa' (1940) na nagsilbing pundasyon ng modernong gramatika ng Filipino ay isinulat ni:",
+      "choices": [
+        "Jose Rizal",
+        "Claro M. Recto",
+        "Lope K. Santos",
+        "Francisco Balagtas"
+      ],
+      "answer": "Lope K. Santos",
+      "explanation": "Si Lope K. Santos, kilala bilang 'Ama ng Wikang Pambansa,' ang sumulat ng Balarila ng Wikang Pambansa noong 1940. Ito ang opisyal na gramatika na ginamit bilang batayan ng Tagalog/Filipino bilang wikang pambansa."
+    },
+    {
+      "id": 6,
+      "question": "Under the 1987 Philippine Constitution, which body has the exclusive power to initiate all appropriation, revenue, and tariff bills?",
+      "choices": [
+        "The Senate",
+        "The House of Representatives",
+        "The Commission on Audit",
+        "The Department of Finance"
+      ],
+      "answer": "The House of Representatives",
+      "explanation": "Article VI, Section 24 of the 1987 Constitution states that all appropriation, revenue or tariff bills shall originate exclusively in the House of Representatives, though the Senate may propose or concur with amendments. This reflects the principle that the body directly elected by the people should control public finances."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following best explains why sodium (Na) is more chemically reactive than magnesium (Mg)?",
+      "choices": [
+        "Sodium has a higher atomic mass than magnesium",
+        "Sodium has one valence electron with a lower ionization energy than magnesium's two valence electrons",
+        "Sodium has more protons, making it more electropositive overall",
+        "Sodium's atomic radius is smaller, making electron release easier"
+      ],
+      "answer": "Sodium has one valence electron with a lower ionization energy than magnesium's two valence electrons",
+      "explanation": "Reactivity of metals correlates with ease of losing valence electrons. Sodium (Group 1) has one valence electron and very low first ionization energy. Magnesium (Group 2) has two valence electrons with progressively higher ionization energies. Na more readily achieves a noble gas configuration by losing its single electron."
+    },
+    {
+      "id": 8,
+      "question": "In the light-dependent reactions of photosynthesis, which products are generated and passed on to the Calvin Cycle?",
+      "choices": [
+        "Glucose and oxygen",
+        "Carbon dioxide and water",
+        "ATP, NADPH, and oxygen",
+        "ADP, NADP+, and carbon dioxide"
+      ],
+      "answer": "ATP, NADPH, and oxygen",
+      "explanation": "The light-dependent reactions capture solar energy to split water molecules (photolysis), releasing O₂ as a byproduct. Energy is stored as ATP (via photophosphorylation) and NADPH (via electron transport). These two energy carriers then drive the Calvin Cycle to fix CO₂ into glucose."
+    },
+    {
+      "id": 9,
+      "question": "The Cry of Pugadlawin in August 1896 is historically significant because it marked:",
+      "choices": [
+        "The signing of the Pact of Biak-na-Bato between Aguinaldo and Spain",
+        "The beginning of the Philippine Revolution against Spain led by the Katipunan",
+        "The proclamation of Philippine independence at Kawit, Cavite",
+        "The first national assembly of the Katipunan's Supreme Council"
+      ],
+      "answer": "The beginning of the Philippine Revolution against Spain led by the Katipunan",
+      "explanation": "On August 23, 1896, Andres Bonifacio led Katipuneros in tearing their cedulas in Pugadlawin, Caloocan — a symbolic act of defiance that signaled the start of the armed Philippine Revolution against Spain."
+    },
+    {
+      "id": 10,
+      "question": "A principal of P50,000 is invested at 8% annual interest compounded quarterly. What is the amount after 3 years?",
+      "choices": [
+        "P62,000.00",
+        "P63,412.09",
+        "P65,000.00",
+        "P61,500.00"
+      ],
+      "answer": "P63,412.09",
+      "explanation": "Using compound interest: A = P(1 + r/n)^(nt). Here P = 50,000; r = 0.08; n = 4 (quarterly); t = 3. A = 50,000(1.02)^12 = 50,000 × 1.26824 ≈ P63,412.09. The quarterly compounding (not annual) is the key to this calculation."
+    }
+  ]
+}

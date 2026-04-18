@@ -1,0 +1,308 @@
+import Link from 'next/link';
+import AdPlaceholder from '@/components/ui/AdPlaceholder';
+import { PAGE_SEO } from '@/lib/seo';
+
+export const metadata = PAGE_SEO.home;
+
+const HOW_IT_WORKS = [
+  {
+    step: '01',
+    icon: '🎯',
+    title: 'Choose Your Exam',
+    desc: 'Select your PRC licensure exam. Start with Agriculture and more coming soon.',
+  },
+  {
+    step: '02',
+    icon: '⚔️',
+    title: 'Battle the Boss',
+    desc: 'Answer questions to damage the boss. Wrong answers cost you HP. Stay alive and win!',
+  },
+  {
+    step: '03',
+    icon: '🏅',
+    title: 'Collect License Pieces',
+    desc: 'Complete each stage to earn a PRZ piece.',
+  },
+  {
+    step: '04',
+    icon: '🎓',
+    title: 'Complete Your PRZ',
+    desc: 'Finish all modules to assemble your full PRZ — proof you are exam-ready!',
+  },
+];
+
+const BLOG_PREVIEWS = [
+  {
+    title: '10 Must-Know Crop Science Topics for the Agriculture Board Exam',
+    excerpt: 'Master plant physiology, crop management, and production systems. We break down the top topics that consistently appear on the PRC Agriculture exam.',
+    slug: 'crop-science-board-exam-tips',
+    date: 'April 10, 2025',
+    readTime: '5 min read',
+    tag: 'Study Tips',
+  },
+  {
+    title: 'Soil Science Cheat Sheet: pH, CEC, and Nutrient Availability',
+    excerpt: 'Quick-reference guide covering soil texture, pH effects on nutrients, CEC, and fertilizer calculations. Perfect for last-minute review.',
+    slug: 'soil-science-cheat-sheet',
+    date: 'April 5, 2025',
+    readTime: '4 min read',
+    tag: 'Soil Science',
+  },
+  {
+    title: 'Agricultural Economics: Key Formulas and Concepts Explained',
+    excerpt: 'Farm budgeting, break-even analysis, ROI, and extension methods — all the economics concepts you need to pass the board exam.',
+    slug: 'agricultural-economics-key-concepts',
+    date: 'March 28, 2025',
+    readTime: '6 min read',
+    tag: 'Economics',
+  },
+];
+
+export default function HomePage() {
+  return (
+    <>
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-gradient-to-b from-[#0a1029] via-[#080d1b] to-[#080d1b] py-20 sm:py-28">
+        {/* Background glow effects */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-10 right-20 w-64 h-64 bg-yellow-400/5 rounded-full blur-2xl pointer-events-none" />
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
+          <div className="inline-flex items-center gap-2 bg-yellow-400/10 border border-yellow-400/30 text-yellow-400 text-sm font-semibold px-4 py-2 rounded-full mb-6">
+            <span>⚔️</span> Gamified PRC Licensure Review
+          </div>
+
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6 text-balance">
+            Review Smarter.
+            <br />
+            <span className="text-yellow-400">Fight Harder.</span>
+            <br />
+            Pass the Board.
+          </h1>
+
+          <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 text-balance">
+            LisensyaPrep turns PRC licensure exam review into a boss-battle game. Answer questions, defeat enemies, collect PRZ pieces, and prove you are exam-ready.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/agriculture"
+              className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-extrabold px-8 py-4 rounded-xl text-lg transition-all shadow-lg shadow-yellow-400/25 hover:shadow-yellow-400/40"
+            >
+              🌾 Start Agriculture Review
+            </Link>
+            <Link
+              href="#how-it-works"
+              className="bg-white/10 hover:bg-white/15 text-white font-semibold px-8 py-4 rounded-xl text-lg border border-white/20 transition-all"
+            >
+              How It Works
+            </Link>
+          </div>
+
+          {/* Stats */}
+          <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg mx-auto">
+            {[
+              { value: '180+', label: 'Questions' },
+              { value: '6', label: 'Modules' },
+              { value: '100%', label: 'Free' },
+            ].map(({ value, label }) => (
+              <div key={label} className="text-center">
+                <p className="text-3xl font-extrabold text-yellow-400">{value}</p>
+                <p className="text-gray-500 text-sm">{label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Ad Banner */}
+      <div className="max-w-5xl mx-auto px-4 py-6">
+        <AdPlaceholder slot="banner" />
+      </div>
+
+      {/* Exam Categories */}
+      <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-3">
+            Choose Your Exam
+          </h2>
+          <p className="text-gray-400 text-lg max-w-xl mx-auto">
+            Select your PRC licensure exam and start battling your way to your license.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center sm:justify-items-stretch">
+          {/* Agriculture — Active */}
+          <Link href="/agriculture" className="group w-full">
+            <div className="bg-gradient-to-br from-green-900/40 to-green-800/20 border-2 border-green-600/40 hover:border-green-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-green-500/10 text-center">
+              <div className="text-5xl mb-4">🌾</div>
+              <h3 className="text-xl font-bold text-white mb-2">Agriculture</h3>
+              <p className="text-gray-400 text-sm mb-4">
+                Crop Science, Soil Science, Crop Protection, Animal Science, and more. 6 modules, 180 questions.
+              </p>
+              <div className="flex items-center justify-center gap-2">
+                <span className="bg-green-500/20 text-green-400 text-xs font-semibold px-3 py-1 rounded-full">
+                  ✓ Available Now
+                </span>
+              </div>
+            </div>
+          </Link>
+
+          {/* Education — Active */}
+          <Link href="/education" className="group w-full">
+            <div className="bg-gradient-to-br from-sky-900/40 to-sky-800/20 border-2 border-sky-600/40 hover:border-sky-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-sky-500/10 text-center">
+              <div className="text-5xl mb-4">🎓</div>
+              <h3 className="text-xl font-bold text-white mb-2">Education</h3>
+              <p className="text-gray-400 text-sm mb-4">
+                LET Review — General Education, Professional Education, and Specialization (English, Filipino, Math, Biology).
+              </p>
+              <div className="flex items-center justify-center gap-2">
+                <span className="bg-sky-500/20 text-sky-400 text-xs font-semibold px-3 py-1 rounded-full">
+                  ✓ Available Now
+                </span>
+              </div>
+            </div>
+          </Link>
+
+          {/* Coming soon placeholders */}
+          {['Criminology', 'Nursing', 'Pharmacy', 'Medical Technology'].map((exam) => (
+            <div key={exam} className="w-full bg-white/5 border border-white/10 rounded-2xl p-6 opacity-50 cursor-not-allowed text-center">
+              <div className="text-5xl mb-4 grayscale">📋</div>
+              <h3 className="text-xl font-bold text-white mb-2">{exam}</h3>
+              <p className="text-gray-500 text-sm mb-4">Coming soon — be the first to know when we launch!</p>
+              <span className="bg-white/10 text-gray-500 text-xs font-semibold px-3 py-1 rounded-full">
+                🔒 Coming Soon
+              </span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section id="how-it-works" className="py-16 bg-[#0a1029]/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-3">
+              How LisensyaPrep Works
+            </h2>
+            <p className="text-gray-400 text-lg max-w-xl mx-auto">
+              Four simple steps from zero to board-exam ready.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {HOW_IT_WORKS.map(({ step, icon, title, desc }) => (
+              <div key={step} className="text-center">
+                <div className="relative inline-block mb-5">
+                  <div className="w-20 h-20 rounded-2xl bg-yellow-400/10 border border-yellow-400/20 flex items-center justify-center text-4xl mx-auto">
+                    {icon}
+                  </div>
+                  <span className="absolute -top-2 -right-2 bg-yellow-400 text-gray-900 text-xs font-extrabold w-6 h-6 rounded-full flex items-center justify-center">
+                    {step.slice(-1)}
+                  </span>
+                </div>
+                <h3 className="text-white font-bold text-lg mb-2">{title}</h3>
+                <p className="text-gray-400 text-sm leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Modules */}
+      <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-3">
+            Agriculture Modules
+          </h2>
+          <p className="text-gray-400 text-lg max-w-xl mx-auto">
+            Six comprehensive modules covering the full Agriculture PRC exam syllabus.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {[
+            { icon: '🌾', num: 1, title: 'Crop Science and Production', topics: 'Photosynthesis, crop cycles, varieties, harvest practices', difficulty: 'Easy', color: 'from-green-600/30 to-green-900/20', border: 'border-green-600/30', href: '/agriculture/module-1' },
+            { icon: '🌱', num: 2, title: 'Soil Science and Fertilization', topics: 'Soil texture, pH, nutrients, fertilizers, conservation', difficulty: 'Medium', color: 'from-amber-600/30 to-amber-900/20', border: 'border-amber-600/30', href: '/agriculture/module-2' },
+            { icon: '📊', num: 3, title: 'Agricultural Economics', topics: 'Farm management, marketing, agribusiness, policy', difficulty: 'Hard', color: 'from-blue-600/30 to-blue-900/20', border: 'border-blue-600/30', href: '/agriculture/module-3' },
+            { icon: '🛡️', num: 4, title: 'Crop Protection', topics: 'Entomology, plant pathology, weed science, IPM', difficulty: 'Medium', color: 'from-red-600/30 to-red-900/20', border: 'border-red-600/30', href: '/agriculture/module-4' },
+            { icon: '🐄', num: 5, title: 'Animal Science', topics: 'Livestock production, nutrition, health, breeding', difficulty: 'Medium', color: 'from-yellow-600/30 to-yellow-900/20', border: 'border-yellow-600/30', href: '/agriculture/module-5' },
+            { icon: '📡', num: 6, title: 'Agricultural Extension', topics: 'Extension methods, communication, rural development', difficulty: 'Hard', color: 'from-purple-600/30 to-purple-900/20', border: 'border-purple-600/30', href: '/agriculture/module-6' },
+          ].map(({ icon, num, title, topics, difficulty, color, border, href }) => (
+            <Link key={num} href={href} className="group">
+              <div className={`bg-gradient-to-br ${color} border ${border} rounded-2xl p-6 transition-all h-full hover:scale-[1.02] hover:shadow-xl`}>
+                <div className="text-4xl mb-3">{icon}</div>
+                <p className="text-gray-400 text-xs font-semibold uppercase tracking-widest mb-1">Module {num}</p>
+                <h3 className="text-white font-bold text-lg mb-2">{title}</h3>
+                <p className="text-gray-400 text-sm mb-4">{topics}</p>
+                <div className="flex items-center justify-between">
+                  <span className="text-xs text-gray-500">30 Questions</span>
+                  <span className="text-xs font-semibold px-2 py-1 rounded-full bg-white/10 text-gray-300">
+                    {difficulty}
+                  </span>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Blog Preview */}
+      <section className="py-16 bg-[#0a1029]/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between mb-10">
+            <h2 className="text-3xl font-extrabold text-white">Latest Study Tips</h2>
+            <Link href="/blog" className="text-yellow-400 hover:text-yellow-300 text-sm font-semibold transition-colors">
+              View All →
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {BLOG_PREVIEWS.map((post) => (
+              <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
+                <article className="bg-[#0f1629] border border-white/10 rounded-2xl p-6 h-full hover:border-yellow-400/30 transition-all">
+                  <span className="text-xs font-semibold text-yellow-400 bg-yellow-400/10 px-3 py-1 rounded-full">
+                    {post.tag}
+                  </span>
+                  <h3 className="text-white font-bold text-base mt-3 mb-2 group-hover:text-yellow-400 transition-colors leading-snug">
+                    {post.title}
+                  </h3>
+                  <p className="text-gray-400 text-sm mb-4 line-clamp-2">{post.excerpt}</p>
+                  <div className="flex items-center gap-2 text-xs text-gray-600">
+                    <span>{post.date}</span>
+                    <span>•</span>
+                    <span>{post.readTime}</span>
+                  </div>
+                </article>
+              </Link>
+            ))}
+          </div>
+
+          {/* Ad below blog */}
+          <div className="mt-8">
+            <AdPlaceholder slot="banner" />
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-20 text-center">
+        <div className="max-w-2xl mx-auto px-4">
+          <p className="text-5xl mb-4">🏆</p>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">
+            Ready to Battle?
+          </h2>
+          <p className="text-gray-400 text-lg mb-8">
+            Start your Agriculture PRC review now. No registration required — just pick a module and fight.
+          </p>
+          <Link
+            href="/agriculture"
+            className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-extrabold px-10 py-4 rounded-xl text-xl transition-all shadow-lg shadow-yellow-400/25"
+          >
+            Start For Free →
+          </Link>
+        </div>
+      </section>
+    </>
+  );
+}

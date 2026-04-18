@@ -1,0 +1,341 @@
+{
+  "module": "Module 6 - Agricultural Extension and Communication",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Agricultural extension is best defined as:",
+      "choices": [
+        "The production of agricultural goods for export",
+        "A system of delivering education and information to help farmers improve their practices",
+        "The expansion of agricultural land area",
+        "A government program for distributing free seeds"
+      ],
+      "answer": "A system of delivering education and information to help farmers improve their practices",
+      "explanation": "Agricultural extension is an educational process that helps farmers access information, knowledge, and technologies to improve their agricultural practices and livelihoods."
+    },
+    {
+      "id": 2,
+      "question": "The 'diffusion of innovations' theory was developed by:",
+      "choices": ["Leagans", "Everett Rogers", "Paulo Freire", "Slamet"],
+      "answer": "Everett Rogers",
+      "explanation": "Everett Rogers developed the Diffusion of Innovations theory (1962), which describes how new ideas, practices, and technologies spread through a social system over time."
+    },
+    {
+      "id": 3,
+      "question": "According to Rogers' adopter categories, 'innovators' represent approximately what percentage of the population?",
+      "choices": ["2.5%", "13.5%", "34%", "16%"],
+      "answer": "2.5%",
+      "explanation": "Rogers identified five adopter categories: Innovators (2.5%), Early Adopters (13.5%), Early Majority (34%), Late Majority (34%), and Laggards (16%)."
+    },
+    {
+      "id": 4,
+      "question": "A demonstration farm or demonstration plot in extension work is an example of which type of teaching method?",
+      "choices": ["Individual contact method", "Mass media method", "Group method", "Result demonstration method"],
+      "answer": "Result demonstration method",
+      "explanation": "A result demonstration shows farmers actual results achieved on a real farm using improved practices. It is one of the most effective extension methods as it provides tangible proof of the benefits."
+    },
+    {
+      "id": 5,
+      "question": "The Farmers Field School (FFS) approach is primarily based on:",
+      "choices": [
+        "Lecture-based classroom teaching",
+        "Learning by doing through field observations and group analysis",
+        "Radio and television broadcasting",
+        "Individual farm visits by extension workers"
+      ],
+      "answer": "Learning by doing through field observations and group analysis",
+      "explanation": "FFS is a group-based, participatory adult education approach where farmers learn by observing, experimenting, and analyzing agro-ecosystems together, building their decision-making skills."
+    },
+    {
+      "id": 6,
+      "question": "Which Philippine law established the Agricultural Training Institute (ATI) as the extension arm of the Department of Agriculture?",
+      "choices": [
+        "Republic Act 8435 (Agriculture and Fisheries Modernization Act)",
+        "Republic Act 7160 (Local Government Code)",
+        "Republic Act 3844 (Agricultural Land Reform Code)",
+        "Executive Order 116"
+      ],
+      "answer": "Republic Act 8435 (Agriculture and Fisheries Modernization Act)",
+      "explanation": "RA 8435 (AFMA) of 1997 modernized Philippine agriculture and designated the Agricultural Training Institute (ATI) as the extension arm of the Department of Agriculture."
+    },
+    {
+      "id": 7,
+      "question": "The T&V (Training and Visit) extension system emphasizes:",
+      "choices": [
+        "Farmer-led research and development",
+        "Regular, scheduled visits by extension agents with technical training support",
+        "Use of mass media for technology dissemination",
+        "Participatory rural appraisal"
+      ],
+      "answer": "Regular, scheduled visits by extension agents with technical training support",
+      "explanation": "The Training and Visit (T&V) system, developed by Daniel Benor, involves regular fortnightly visits by extension agents to contact farmers, supported by continuous technical training of the extension workers."
+    },
+    {
+      "id": 8,
+      "question": "Participatory Rural Appraisal (PRA) is a method that:",
+      "choices": [
+        "Allows outside experts to assess rural conditions for farmers",
+        "Enables local people to analyze their own situation and plan for change",
+        "Involves government officials in determining farm inputs",
+        "Uses statistical surveys to measure farm productivity"
+      ],
+      "answer": "Enables local people to analyze their own situation and plan for change",
+      "explanation": "PRA is a set of approaches and methods that enable local people to share, enhance, and analyze their knowledge of life and conditions, and to plan, act, monitor, and evaluate."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is a mass contact method in agricultural extension?",
+      "choices": [
+        "Farm and home visit",
+        "Method demonstration",
+        "Radio broadcast",
+        "Result demonstration"
+      ],
+      "answer": "Radio broadcast",
+      "explanation": "Mass contact methods reach large numbers of people simultaneously through media like radio, television, newspapers, and social media. Radio is especially effective in rural areas of the Philippines."
+    },
+    {
+      "id": 10,
+      "question": "The 'adoption process' of a new technology follows which sequence?",
+      "choices": [
+        "Awareness → Interest → Evaluation → Trial → Adoption",
+        "Trial → Awareness → Interest → Evaluation → Adoption",
+        "Interest → Awareness → Trial → Evaluation → Adoption",
+        "Evaluation → Interest → Awareness → Trial → Adoption"
+      ],
+      "answer": "Awareness → Interest → Evaluation → Trial → Adoption",
+      "explanation": "The adoption process (Rogers' Innovation-Decision Process) follows: Awareness (Knowledge) → Persuasion (Interest/Evaluation) → Decision (Trial) → Implementation → Confirmation (Adoption)."
+    },
+    {
+      "id": 11,
+      "question": "An agricultural extension worker is also referred to as a:",
+      "choices": ["Farm supervisor", "Change agent", "Community organizer", "Technical expert"],
+      "answer": "Change agent",
+      "explanation": "In extension, the extension worker is called a 'change agent' because their role is to facilitate change by introducing innovations and helping farmers adopt improved agricultural practices."
+    },
+    {
+      "id": 12,
+      "question": "The Local Government Code (RA 7160) transferred the responsibility of agricultural extension to:",
+      "choices": [
+        "The Department of Agriculture",
+        "Local Government Units (LGUs)",
+        "State Universities and Colleges (SUCs)",
+        "Non-governmental organizations (NGOs)"
+      ],
+      "answer": "Local Government Units (LGUs)",
+      "explanation": "RA 7160 (1991) devolved agricultural extension services to LGUs (provincial, city, and municipal governments), which now employ Municipal Agricultural Officers (MAOs) and Agricultural Technologists (ATs)."
+    },
+    {
+      "id": 13,
+      "question": "SWOT Analysis in agricultural extension planning stands for:",
+      "choices": [
+        "Strengths, Weaknesses, Opportunities, Threats",
+        "Skills, Work, Operations, Targets",
+        "Strategies, Weaknesses, Objectives, Training",
+        "Strengths, Work, Outcomes, Technology"
+      ],
+      "answer": "Strengths, Weaknesses, Opportunities, Threats",
+      "explanation": "SWOT Analysis is a strategic planning tool that assesses internal Strengths and Weaknesses and external Opportunities and Threats relevant to an organization or farming community."
+    },
+    {
+      "id": 14,
+      "question": "Which communication model describes communication as a two-way process with feedback?",
+      "choices": [
+        "Shannon-Weaver model (linear model)",
+        "Aristotle's model",
+        "Berlo's SMCR model",
+        "Schramm's model"
+      ],
+      "answer": "Schramm's model",
+      "explanation": "Wilbur Schramm's communication model introduced the concept of feedback, making communication a circular, two-way process. This is more realistic than linear models for extension communication."
+    },
+    {
+      "id": 15,
+      "question": "A 'contact farmer' or 'lead farmer' in an extension program is:",
+      "choices": [
+        "A government employee who manages farmers",
+        "A progressive farmer who receives training and shares knowledge with other farmers",
+        "A farmer who contacts the extension office for assistance",
+        "The richest farmer in the community"
+      ],
+      "answer": "A progressive farmer who receives training and shares knowledge with other farmers",
+      "explanation": "Contact farmers are progressive farmers trained by extension workers who then serve as local resource persons and demonstrate new technologies to neighboring farmers, multiplying the extension reach."
+    },
+    {
+      "id": 16,
+      "question": "The purpose of a Rapid Rural Appraisal (RRA) is to:",
+      "choices": [
+        "Implement new agricultural technologies",
+        "Quickly gather information about rural conditions from local communities",
+        "Train farmers in new farming techniques",
+        "Distribute agricultural inputs to farmers"
+      ],
+      "answer": "Quickly gather information about rural conditions from local communities",
+      "explanation": "RRA is a systematic but semi-structured activity carried out by a multidisciplinary team designed to acquire quickly new information about rural conditions and livelihoods, informing extension program planning."
+    },
+    {
+      "id": 17,
+      "question": "Which type of extension program evaluation measures immediate results after a training or activity?",
+      "choices": ["Impact evaluation", "Process evaluation", "Output evaluation", "Outcome evaluation"],
+      "answer": "Output evaluation",
+      "explanation": "Output evaluation measures the immediate, direct products of extension activities (number of farmers trained, number of demonstrations conducted). Outcome evaluates changes in knowledge/behavior; Impact evaluates long-term effects."
+    },
+    {
+      "id": 18,
+      "question": "The concept of 'appropriate technology' in agricultural extension means:",
+      "choices": [
+        "The most modern and expensive technology available",
+        "Technology that is suitable for local conditions, affordable, and can be managed by farmers",
+        "Technology imported from developed countries",
+        "Technology approved by international organizations"
+      ],
+      "answer": "Technology that is suitable for local conditions, affordable, and can be managed by farmers",
+      "explanation": "Appropriate technology refers to tools, techniques, or knowledge that fit the local environmental, economic, social, and cultural context. It can be operated and maintained by local people with local resources."
+    },
+    {
+      "id": 19,
+      "question": "What does the acronym BSWM stand for in Philippine agriculture?",
+      "choices": [
+        "Bureau of Soils and Water Management",
+        "Bureau of Seeds and Weed Management",
+        "Board of Sustainable Water Management",
+        "Bureau of Soil and Watershed Management"
+      ],
+      "answer": "Bureau of Soils and Water Management",
+      "explanation": "BSWM (Bureau of Soils and Water Management) is an attached agency of the Department of Agriculture responsible for soil and water conservation, land use planning, and soil fertility management."
+    },
+    {
+      "id": 20,
+      "question": "Non-formal education in agricultural extension is characterized by:",
+      "choices": [
+        "Structured classroom learning with formal degrees",
+        "Flexible, practical learning outside formal school settings targeted at specific needs",
+        "Online university courses for farmers",
+        "Compulsory government training programs"
+      ],
+      "answer": "Flexible, practical learning outside formal school settings targeted at specific needs",
+      "explanation": "Non-formal education encompasses organized educational activities outside the established formal school system, designed to meet the learning needs of specific groups such as farmers and rural women."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following best describes the 'farming systems approach' in extension?",
+      "choices": [
+        "Focus on a single crop to maximize production",
+        "Considering the farm as an integrated whole including crops, animals, resources, and the farm household",
+        "Applying uniform technology packages to all farmers",
+        "Prioritizing commercial crops over subsistence farming"
+      ],
+      "answer": "Considering the farm as an integrated whole including crops, animals, resources, and the farm household",
+      "explanation": "The farming systems approach views the farm holistically, recognizing interactions between crops, animals, resources, household, and the broader environment, leading to more appropriate and sustainable recommendations."
+    },
+    {
+      "id": 22,
+      "question": "In developing extension teaching materials, readability refers to:",
+      "choices": [
+        "The cost of printing the material",
+        "The ease with which the target audience can read and understand the content",
+        "The number of pages in the material",
+        "The use of colorful illustrations"
+      ],
+      "answer": "The ease with which the target audience can read and understand the content",
+      "explanation": "Readability refers to how easy a piece of writing is to read and understand, considering vocabulary level, sentence length, and organization. Extension materials should match the literacy level of the target audience."
+    },
+    {
+      "id": 23,
+      "question": "The 'Green Revolution' in Philippine agriculture is associated with:",
+      "choices": [
+        "Organic farming movement",
+        "Introduction of high-yielding variety (HYV) rice and use of chemical inputs",
+        "Reforestation programs",
+        "Promotion of vegetable farming"
+      ],
+      "answer": "Introduction of high-yielding variety (HYV) rice and use of chemical inputs",
+      "explanation": "The Green Revolution (1960s-70s) involved the introduction of high-yielding semi-dwarf rice varieties (like IR8 from IRRI), combined with increased use of irrigation, fertilizers, and pesticides to boost food production."
+    },
+    {
+      "id": 24,
+      "question": "The primary purpose of a farm record keeping system is to:",
+      "choices": [
+        "Comply with government tax requirements only",
+        "Provide data for better farm management decisions and measure profitability",
+        "Track the number of farm workers",
+        "Monitor weather patterns"
+      ],
+      "answer": "Provide data for better farm management decisions and measure profitability",
+      "explanation": "Farm records serve as a basis for evaluating farm performance, computing income and expenses, making informed management decisions, securing loans, and planning for the next production cycle."
+    },
+    {
+      "id": 25,
+      "question": "Indigenous Knowledge Systems and Practices (IKSP) in agricultural extension are important because:",
+      "choices": [
+        "They replace modern agricultural science",
+        "They provide locally-adapted, time-tested knowledge that can complement modern technologies",
+        "They are required by law to be followed",
+        "They are more profitable than modern techniques"
+      ],
+      "answer": "They provide locally-adapted, time-tested knowledge that can complement modern technologies",
+      "explanation": "IKSP are locally developed knowledge systems that have evolved over generations. Integrating them with modern technologies leads to more culturally acceptable, cost-effective, and sustainable agricultural solutions."
+    },
+    {
+      "id": 26,
+      "question": "Which Philippine government agency is primarily responsible for agricultural research and development?",
+      "choices": [
+        "Department of Agriculture (DA)",
+        "Philippine Council for Agriculture, Aquatic and Natural Resources Research and Development (PCAARRD)",
+        "Bureau of Plant Industry (BPI)",
+        "National Food Authority (NFA)"
+      ],
+      "answer": "Philippine Council for Agriculture, Aquatic and Natural Resources Research and Development (PCAARRD)",
+      "explanation": "PCAARRD under the Department of Science and Technology (DOST) is the primary agency that plans, funds, coordinates, monitors, and evaluates agriculture, aquatic, and natural resources R&D in the Philippines."
+    },
+    {
+      "id": 27,
+      "question": "Gender and Development (GAD) in agricultural extension promotes:",
+      "choices": [
+        "Exclusive programs for women farmers only",
+        "Equal participation and benefits of both men and women in agricultural development",
+        "Traditional gender roles in farming",
+        "Separate extension programs for men and women"
+      ],
+      "answer": "Equal participation and benefits of both men and women in agricultural development",
+      "explanation": "GAD mainstreaming in extension ensures that both men and women farmers have equal access to agricultural information, technologies, resources, and decision-making opportunities."
+    },
+    {
+      "id": 28,
+      "question": "The term 'food security' means that all people at all times have:",
+      "choices": [
+        "Access to free food from the government",
+        "Physical and economic access to sufficient, safe, and nutritious food to meet dietary needs",
+        "Enough land to grow their own food",
+        "Government subsidies for agricultural inputs"
+      ],
+      "answer": "Physical and economic access to sufficient, safe, and nutritious food to meet dietary needs",
+      "explanation": "The FAO definition of food security has four pillars: Availability, Access, Utilization, and Stability. All four must be present for a person or household to be food secure."
+    },
+    {
+      "id": 29,
+      "question": "The 'Farmer-to-Farmer' extension approach is effective because:",
+      "choices": [
+        "It is cheaper than formal extension programs",
+        "Farmers trust and relate to fellow farmers who have tried and proven a technology",
+        "It does not require government involvement",
+        "It follows a strict curriculum set by extension agencies"
+      ],
+      "answer": "Farmers trust and relate to fellow farmers who have tried and proven a technology",
+      "explanation": "Farmer-to-farmer extension leverages the credibility and social trust between peers. When a successful farmer shares a technology with neighbors, it is often more convincing and relevant than advice from outside experts."
+    },
+    {
+      "id": 30,
+      "question": "Sustainable agriculture is best described as farming that:",
+      "choices": [
+        "Maximizes yield at any environmental cost",
+        "Meets current food needs without compromising the ability of future generations to meet their needs",
+        "Uses only organic methods exclusively",
+        "Avoids all use of modern technology"
+      ],
+      "answer": "Meets current food needs without compromising the ability of future generations to meet their needs",
+      "explanation": "Sustainable agriculture is based on the Brundtland Commission's definition of sustainable development — meeting present needs without compromising future generations. It balances productivity, environmental health, and social equity."
+    }
+  ]
+}

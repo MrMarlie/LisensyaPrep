@@ -1,0 +1,216 @@
+{
+  "module": "Module 2 - Soil Science and Fertilization",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What are the three primary soil textural components?",
+      "choices": ["Clay, Silt, Loam", "Sand, Silt, Clay", "Gravel, Sand, Humus", "Sand, Clay, Organic matter"],
+      "answer": "Sand, Silt, Clay",
+      "explanation": "Soil texture is determined by the relative proportions of sand (coarsest), silt (medium), and clay (finest) particles. Loam is a balanced mixture, not a primary component."
+    },
+    {
+      "id": 2,
+      "question": "Which soil horizon contains the most organic matter and is most important for crop production?",
+      "choices": ["O horizon", "A horizon", "B horizon", "C horizon"],
+      "answer": "A horizon",
+      "explanation": "The A horizon (topsoil) is the uppermost mineral soil layer, richest in organic matter and biological activity, making it most important for crop root development and nutrient uptake."
+    },
+    {
+      "id": 3,
+      "question": "What is the process by which rainwater dissolves and carries nutrients downward through soil layers called?",
+      "choices": ["Percolation", "Leaching", "Infiltration", "Weathering"],
+      "answer": "Leaching",
+      "explanation": "Leaching is the downward movement of water-soluble nutrients through the soil profile, often resulting in loss of nutrients from the root zone, especially in sandy soils."
+    },
+    {
+      "id": 4,
+      "question": "The Cation Exchange Capacity (CEC) of soil is a measure of:",
+      "choices": ["Amount of water soil can hold", "Soil's ability to hold and exchange positively charged nutrient ions", "Rate of organic matter decomposition", "Soil resistance to erosion"],
+      "answer": "Soil's ability to hold and exchange positively charged nutrient ions",
+      "explanation": "CEC measures the soil's ability to hold positively charged ions (cations) like Ca2+, Mg2+, K+, and NH4+. Higher CEC means better nutrient retention capacity."
+    },
+    {
+      "id": 5,
+      "question": "Which soil type is characterized by the highest water-holding capacity?",
+      "choices": ["Sandy soil", "Loamy soil", "Clay soil", "Gravelly soil"],
+      "answer": "Clay soil",
+      "explanation": "Clay soils have the highest water-holding capacity due to their very fine particles and large surface area, but they can also become waterlogged and have poor drainage."
+    },
+    {
+      "id": 6,
+      "question": "What is 'green manure' in soil management?",
+      "choices": ["Decomposed animal waste applied to soil", "Crops grown and incorporated into soil while still green", "Commercially produced organic compost", "Liquid fertilizer from plant extracts"],
+      "answer": "Crops grown and incorporated into soil while still green",
+      "explanation": "Green manure refers to crops (often legumes) grown specifically to be turned into the soil while still green or just before flowering, adding organic matter and nutrients."
+    },
+    {
+      "id": 7,
+      "question": "Which nutrient deficiency causes yellowing (chlorosis) of older leaves first?",
+      "choices": ["Nitrogen", "Iron", "Calcium", "Manganese"],
+      "answer": "Nitrogen",
+      "explanation": "Nitrogen is a mobile nutrient in plants. When deficient, nitrogen is remobilized from older (lower) leaves to newer growth, causing yellowing of older leaves first."
+    },
+    {
+      "id": 8,
+      "question": "The process of converting atmospheric nitrogen into plant-available forms is called:",
+      "choices": ["Nitrification", "Nitrogen fixation", "Denitrification", "Ammonification"],
+      "answer": "Nitrogen fixation",
+      "explanation": "Nitrogen fixation is the biological or industrial process of converting atmospheric N2 into ammonia (NH3) or related compounds, making nitrogen available for plant uptake."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following fertilizers has the highest nitrogen content?",
+      "choices": ["Urea (46-0-0)", "Ammonium sulfate (21-0-0)", "Ammonium nitrate (34-0-0)", "Calcium nitrate (15.5-0-0)"],
+      "answer": "Urea (46-0-0)",
+      "explanation": "Urea contains 46% nitrogen, making it the most concentrated solid nitrogen fertilizer available, widely used in rice and corn production."
+    },
+    {
+      "id": 10,
+      "question": "Soil pH below 7.0 is classified as:",
+      "choices": ["Alkaline", "Neutral", "Acidic", "Saline"],
+      "answer": "Acidic",
+      "explanation": "Soil with pH below 7.0 is acidic, while pH above 7.0 is alkaline (basic), and pH of exactly 7.0 is neutral. Most crops prefer slightly acidic to neutral soil (pH 6.0-7.0)."
+    },
+    {
+      "id": 11,
+      "question": "What agricultural practice is used to raise the pH of acidic soils?",
+      "choices": ["Adding sulfur", "Applying lime (calcium carbonate)", "Adding iron sulfate", "Applying gypsum"],
+      "answer": "Applying lime (calcium carbonate)",
+      "explanation": "Agricultural lime (calcium carbonate or dolomite) is applied to raise soil pH in acidic soils, making nutrients more available and improving soil structure."
+    },
+    {
+      "id": 12,
+      "question": "Which type of soil structure is most favorable for root growth and water movement?",
+      "choices": ["Platy", "Massive", "Granular/Crumb", "Columnar"],
+      "answer": "Granular/Crumb",
+      "explanation": "Granular or crumb soil structure provides good porosity, aeration, and drainage while retaining adequate moisture, creating ideal conditions for root development."
+    },
+    {
+      "id": 13,
+      "question": "Phosphorus in soil is MOST available to plants at a pH of:",
+      "choices": ["4.0 - 5.0", "6.0 - 7.0", "7.5 - 8.5", "8.5 - 9.0"],
+      "answer": "6.0 - 7.0",
+      "explanation": "Phosphorus availability is highest at pH 6.0-7.0. In very acidic soils, phosphorus forms insoluble iron and aluminum phosphates; in alkaline soils, it forms insoluble calcium phosphates."
+    },
+    {
+      "id": 14,
+      "question": "What is the term for the decomposed organic material that improves soil structure and fertility?",
+      "choices": ["Mulch", "Humus", "Compost", "Peat"],
+      "answer": "Humus",
+      "explanation": "Humus is the stable end product of organic matter decomposition by soil microorganisms. It improves soil structure, water-holding capacity, and provides nutrients."
+    },
+    {
+      "id": 15,
+      "question": "Which microorganism is responsible for decomposing organic matter in soil?",
+      "choices": ["Only bacteria", "Only fungi", "Bacteria, fungi, and actinomycetes", "Only earthworms"],
+      "answer": "Bacteria, fungi, and actinomycetes",
+      "explanation": "Organic matter decomposition is a team effort involving bacteria (fastest), fungi (important for lignocellulose), actinomycetes, and soil fauna working together."
+    },
+    {
+      "id": 16,
+      "question": "What does the term 'soil permeability' refer to?",
+      "choices": ["Amount of nutrients in soil", "Rate at which water moves through soil", "Soil's resistance to compaction", "Amount of air spaces in soil"],
+      "answer": "Rate at which water moves through soil",
+      "explanation": "Soil permeability is the ability of soil to allow water and air to pass through it. Sandy soils have high permeability; clay soils have low permeability."
+    },
+    {
+      "id": 17,
+      "question": "Fertigation is the practice of:",
+      "choices": ["Applying fertilizer by broadcasting on soil surface", "Injecting fertilizers through the irrigation system", "Deep placement of slow-release fertilizers", "Foliar application of fertilizers"],
+      "answer": "Injecting fertilizers through the irrigation system",
+      "explanation": "Fertigation combines fertilization and irrigation by dissolving fertilizers into irrigation water, allowing precise nutrient delivery directly to the root zone."
+    },
+    {
+      "id": 18,
+      "question": "Which element is responsible for blossom-end rot in tomatoes?",
+      "choices": ["Nitrogen deficiency", "Calcium deficiency", "Phosphorus deficiency", "Magnesium deficiency"],
+      "answer": "Calcium deficiency",
+      "explanation": "Blossom-end rot in tomatoes is caused by calcium deficiency (often due to irregular watering affecting calcium uptake), appearing as dark, sunken areas at the bottom of the fruit."
+    },
+    {
+      "id": 19,
+      "question": "What is the function of potassium (K) in plant nutrition?",
+      "choices": ["Chlorophyll production", "Cell division and growth", "Regulation of water use and enzyme activation", "Root hair development"],
+      "answer": "Regulation of water use and enzyme activation",
+      "explanation": "Potassium regulates stomatal opening and closing (water use efficiency), activates numerous enzymes, improves drought resistance, and enhances crop quality."
+    },
+    {
+      "id": 20,
+      "question": "The practice of applying organic materials on the soil surface to conserve moisture and reduce weeds is called:",
+      "choices": ["Green manuring", "Mulching", "Composting", "Cover cropping"],
+      "answer": "Mulching",
+      "explanation": "Mulching involves covering the soil surface with organic (straw, leaves) or inorganic materials to conserve soil moisture, suppress weeds, and regulate soil temperature."
+    },
+    {
+      "id": 21,
+      "question": "What is 'soil erosion'?",
+      "choices": ["Compaction of soil by heavy machinery", "Wearing away and transport of soil particles by wind or water", "Acidification of soil over time", "Loss of soil organic matter through oxidation"],
+      "answer": "Wearing away and transport of soil particles by wind or water",
+      "explanation": "Soil erosion is the detachment and movement of soil particles by erosive agents like water (rain splash, runoff) and wind, leading to loss of topsoil and reduced productivity."
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is a slow-release fertilizer that is more environment-friendly?",
+      "choices": ["Urea", "Ammonium sulfate", "Controlled-release fertilizer (coated urea)", "Potassium chloride"],
+      "answer": "Controlled-release fertilizer (coated urea)",
+      "explanation": "Controlled-release fertilizers have coatings that regulate nutrient release over time, reducing leaching losses, improving nutrient use efficiency, and minimizing environmental impact."
+    },
+    {
+      "id": 23,
+      "question": "In soil classification, what is a 'pedon'?",
+      "choices": ["The smallest unit of soil that can be studied", "A layer of soil with distinct properties", "A type of soil organism", "A tool for measuring soil compaction"],
+      "answer": "The smallest unit of soil that can be studied",
+      "explanation": "A pedon is the smallest volume of soil that displays all the horizons and properties of a particular soil type, typically about 1-10 m² in surface area."
+    },
+    {
+      "id": 24,
+      "question": "What is the recommended organic matter content for productive agricultural soils?",
+      "choices": ["Less than 1%", "1-2%", "3-5%", "More than 10%"],
+      "answer": "3-5%",
+      "explanation": "Agricultural soils ideally should contain 3-5% organic matter for optimal nutrient cycling, soil structure, microbial activity, and water-holding capacity."
+    },
+    {
+      "id": 25,
+      "question": "Saline soils are problematic for crops primarily because they:",
+      "choices": ["Have too much organic matter", "Create osmotic stress that reduces plant water uptake", "Lack microorganisms", "Are too permeable for water retention"],
+      "answer": "Create osmotic stress that reduces plant water uptake",
+      "explanation": "High salt concentration in saline soils creates osmotic potential that makes it difficult for plant roots to absorb water, leading to wilting and reduced growth even when water is available."
+    },
+    {
+      "id": 26,
+      "question": "Which nutrient is the primary component of chlorophyll?",
+      "choices": ["Nitrogen", "Magnesium", "Iron", "Manganese"],
+      "answer": "Magnesium",
+      "explanation": "Magnesium (Mg) is the central atom of the chlorophyll molecule and is essential for photosynthesis. Magnesium deficiency causes interveinal chlorosis in leaves."
+    },
+    {
+      "id": 27,
+      "question": "What is the function of phosphorus in plant growth?",
+      "choices": ["Leaf growth and green color", "Root development, energy transfer (ATP), and reproductive growth", "Stem strength and disease resistance", "Opening and closing of stomata"],
+      "answer": "Root development, energy transfer (ATP), and reproductive growth",
+      "explanation": "Phosphorus is crucial for energy transfer (ATP/ADP), root development, flowering, seed formation, and cell membrane integrity (phospholipids)."
+    },
+    {
+      "id": 28,
+      "question": "The application of fertilizers directly into the soil near plant roots is called:",
+      "choices": ["Broadcasting", "Top dressing", "Band placement", "Foliar application"],
+      "answer": "Band placement",
+      "explanation": "Band placement involves applying fertilizer in narrow bands near or below seeds/roots, improving fertilizer use efficiency compared to broadcast application."
+    },
+    {
+      "id": 29,
+      "question": "Which soil test result indicates EXCESSIVE acidity requiring lime application?",
+      "choices": ["pH 6.5", "pH 7.0", "pH 4.5", "pH 7.5"],
+      "answer": "pH 4.5",
+      "explanation": "A pH of 4.5 indicates excessive acidity, which causes aluminum and manganese toxicity, reduces nutrient availability, and harms soil microorganisms. Lime application is needed."
+    },
+    {
+      "id": 30,
+      "question": "What is the primary benefit of contour farming in soil conservation?",
+      "choices": ["Increases soil temperature", "Reduces water runoff and soil erosion on slopes", "Improves pest control", "Increases fertilizer efficiency"],
+      "answer": "Reduces water runoff and soil erosion on slopes",
+      "explanation": "Contour farming involves plowing and planting across the slope (perpendicular to water flow), which slows runoff, increases water infiltration, and significantly reduces soil erosion."
+    }
+  ]
+}

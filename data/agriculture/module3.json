@@ -1,0 +1,216 @@
+{
+  "module": "Module 3 - Agricultural Economics and Extension",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which concept in agricultural economics refers to the additional output produced by adding one more unit of input?",
+      "choices": ["Total product", "Average product", "Marginal product", "Fixed cost"],
+      "answer": "Marginal product",
+      "explanation": "Marginal product (MP) is the change in total output resulting from adding one more unit of a variable input while holding other inputs constant. It's central to production optimization decisions."
+    },
+    {
+      "id": 2,
+      "question": "The 'Law of Diminishing Returns' states that:",
+      "choices": ["Profits decrease as farm size increases", "Adding more of a variable input to fixed inputs will eventually decrease marginal product", "Agricultural prices always decline over time", "Small farms are always less efficient than large farms"],
+      "answer": "Adding more of a variable input to fixed inputs will eventually decrease marginal product",
+      "explanation": "The Law of Diminishing Marginal Returns states that as more units of a variable input are added to fixed inputs, at some point the marginal product of the variable input begins to decline."
+    },
+    {
+      "id": 3,
+      "question": "What does 'break-even analysis' in farm management determine?",
+      "choices": ["Maximum profit level", "The production level where total revenue equals total costs", "Optimal fertilizer application rate", "Minimum labor requirements"],
+      "answer": "The production level where total revenue equals total costs",
+      "explanation": "Break-even analysis identifies the production or sales level at which total revenue equals total costs, meaning the farmer neither makes a profit nor incurs a loss."
+    },
+    {
+      "id": 4,
+      "question": "Agricultural extension services primarily aim to:",
+      "choices": ["Provide loans to farmers", "Transfer agricultural technology and knowledge to farmers", "Control agricultural prices", "Monitor crop insurance claims"],
+      "answer": "Transfer agricultural technology and knowledge to farmers",
+      "explanation": "Agricultural extension services bridge the gap between research institutions and farmers by disseminating improved technologies, practices, and information to enhance farm productivity and rural livelihoods."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following best defines 'farm management'?",
+      "choices": ["Hiring workers for farm operations", "Science and art of organizing and operating a farm profitably", "Government regulation of farming practices", "Mechanical operation of farm equipment"],
+      "answer": "Science and art of organizing and operating a farm profitably",
+      "explanation": "Farm management is the science and art of making decisions about organizing and operating a farm enterprise with the goal of maximizing profit or achieving other farm objectives."
+    },
+    {
+      "id": 6,
+      "question": "Price elasticity of demand measures:",
+      "choices": ["How supply responds to price changes", "How quantity demanded responds to price changes", "Quality changes due to price differences", "Seasonal price fluctuations in agriculture"],
+      "answer": "How quantity demanded responds to price changes",
+      "explanation": "Price elasticity of demand (PED) measures the percentage change in quantity demanded in response to a 1% change in price. Agricultural staples tend to be price inelastic."
+    },
+    {
+      "id": 7,
+      "question": "In the Philippines, which government agency is primarily responsible for agricultural extension services?",
+      "choices": ["Department of Agriculture (DA)", "National Food Authority (NFA)", "PhilRice", "Bureau of Plant Industry (BPI)"],
+      "answer": "Department of Agriculture (DA)",
+      "explanation": "The Department of Agriculture (DA) through its attached agencies and local government units is primarily responsible for providing agricultural extension services to Filipino farmers."
+    },
+    {
+      "id": 8,
+      "question": "What is 'agribusiness'?",
+      "choices": ["Only the farming component of agriculture", "The sum of all agricultural production, processing, and distribution activities", "Government agricultural subsidies", "International agricultural trade only"],
+      "answer": "The sum of all agricultural production, processing, and distribution activities",
+      "explanation": "Agribusiness encompasses all activities involved in the agricultural supply chain: input supply, farm production, processing, marketing, and distribution of agricultural products."
+    },
+    {
+      "id": 9,
+      "question": "Fixed costs in farming are costs that:",
+      "choices": ["Change with the level of production", "Remain constant regardless of output level", "Are variable between seasons", "Depend on crop prices"],
+      "answer": "Remain constant regardless of output level",
+      "explanation": "Fixed costs (land rent, equipment depreciation, insurance) remain constant regardless of the level of production, unlike variable costs that change with output."
+    },
+    {
+      "id": 10,
+      "question": "The 'Technology Adoption' process in agricultural extension typically follows which order?",
+      "choices": ["Awareness → Interest → Evaluation → Trial → Adoption", "Trial → Awareness → Interest → Adoption → Evaluation", "Adoption → Trial → Awareness → Evaluation → Interest", "Interest → Adoption → Trial → Awareness → Evaluation"],
+      "answer": "Awareness → Interest → Evaluation → Trial → Adoption",
+      "explanation": "The classic Rogers' adoption process (from Diffusion of Innovations) follows: Awareness → Interest → Evaluation → Trial → Adoption. This describes how farmers progress from learning about a technology to regularly using it."
+    },
+    {
+      "id": 11,
+      "question": "Which market structure best describes most agricultural commodity markets?",
+      "choices": ["Monopoly", "Oligopoly", "Perfect competition", "Monopolistic competition"],
+      "answer": "Perfect competition",
+      "explanation": "Agricultural commodity markets closely approximate perfect competition: many sellers, standardized products, free entry/exit, and price-taking behavior by individual farmers."
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of a 'farm budget'?",
+      "choices": ["To record past farm expenses only", "To plan and evaluate the financial performance of farm activities", "To apply for bank loans only", "To report to government agencies"],
+      "answer": "To plan and evaluate the financial performance of farm activities",
+      "explanation": "A farm budget is a financial plan that estimates costs, revenues, and profitability of farm activities, helping farmers make informed decisions about production and resource allocation."
+    },
+    {
+      "id": 13,
+      "question": "What does ROI (Return on Investment) measure in farm management?",
+      "choices": ["Total farm income", "Efficiency of an investment relative to its cost", "Annual crop yield increase", "Labor productivity ratio"],
+      "answer": "Efficiency of an investment relative to its cost",
+      "explanation": "ROI measures the profitability of an investment by expressing net profit as a percentage of the total investment cost, helping compare the efficiency of different investments."
+    },
+    {
+      "id": 14,
+      "question": "The 'value chain' in agriculture refers to:",
+      "choices": ["Market price of agricultural products", "Full range of activities to bring a product from production to consumers", "Nutritional value of food products", "Chain of ownership of farm land"],
+      "answer": "Full range of activities to bring a product from production to consumers",
+      "explanation": "The agricultural value chain includes all activities from input supply, farm production, processing, packaging, logistics, marketing to final consumption, adding value at each stage."
+    },
+    {
+      "id": 15,
+      "question": "Which extension teaching method reaches the LARGEST number of farmers at once?",
+      "choices": ["Farm and home visits", "Method demonstrations", "Mass media (radio, TV, print)", "Study tours"],
+      "answer": "Mass media (radio, TV, print)",
+      "explanation": "Mass media methods (radio broadcasts, television programs, newspapers, social media) can reach large numbers of farmers simultaneously, though they allow less personalized interaction."
+    },
+    {
+      "id": 16,
+      "question": "What is 'contract farming'?",
+      "choices": ["Government-mandated crop quotas", "Pre-production agreement between farmers and buyers for specific products at set prices", "Seasonal labor contracts for farm workers", "Land lease agreements between farmers"],
+      "answer": "Pre-production agreement between farmers and buyers for specific products at set prices",
+      "explanation": "Contract farming is an arrangement where farmers agree with buyers/processors to produce specific crops or livestock under agreed specifications and prices, reducing market risk for farmers."
+    },
+    {
+      "id": 17,
+      "question": "Opportunity cost in farming refers to:",
+      "choices": ["Cost of missed planting opportunities", "Value of the next best alternative foregone when making a decision", "Cost of market opportunities lost due to low prices", "Extra cost of farming during off-season"],
+      "answer": "Value of the next best alternative foregone when making a decision",
+      "explanation": "Opportunity cost is the value of the best alternative sacrificed when choosing one option. For example, land used for corn has an opportunity cost equal to the best alternative crop's profit."
+    },
+    {
+      "id": 18,
+      "question": "The 'Farmers' Field School (FFS)' approach is characterized by:",
+      "choices": ["Classroom-based lecture method", "Experiential, field-based learning where farmers learn by doing", "Distance learning via correspondence", "Expert-driven top-down information delivery"],
+      "answer": "Experiential, field-based learning where farmers learn by doing",
+      "explanation": "FFS is a participatory adult education approach where farmers learn through hands-on experimentation in the field, conducting agroecosystem analysis and discovering solutions themselves."
+    },
+    {
+      "id": 19,
+      "question": "Agricultural subsidies are government payments to farmers intended to:",
+      "choices": ["Increase farm taxes", "Stabilize farm income and encourage domestic production", "Reduce agricultural exports", "Increase food imports"],
+      "answer": "Stabilize farm income and encourage domestic production",
+      "explanation": "Agricultural subsidies (price supports, input subsidies, income payments) are designed to stabilize farm incomes, ensure food security, and encourage domestic agricultural production."
+    },
+    {
+      "id": 20,
+      "question": "What is 'food security'?",
+      "choices": ["Security measures to prevent food theft", "State where all people always have access to sufficient, safe, nutritious food", "Food export surplus of a country", "Quality standards for food products"],
+      "answer": "State where all people always have access to sufficient, safe, nutritious food",
+      "explanation": "Food security exists when all people, at all times, have physical, social, and economic access to sufficient, safe, and nutritious food that meets their dietary needs and food preferences."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following is an example of vertical integration in agribusiness?",
+      "choices": ["Two competing farms merging", "A farm company acquiring a food processing plant and retail outlets", "Several small farms forming a cooperative", "A farmer renting additional land"],
+      "answer": "A farm company acquiring a food processing plant and retail outlets",
+      "explanation": "Vertical integration involves a company controlling multiple stages of the supply chain. A farm company owning production, processing, and retail is a classic example of forward vertical integration."
+    },
+    {
+      "id": 22,
+      "question": "What does 'comparative advantage' mean in agricultural trade?",
+      "choices": ["Having the most advanced agricultural technology", "Ability to produce a good at lower opportunity cost than trading partners", "Growing the most diverse range of crops", "Having the largest farm area"],
+      "answer": "Ability to produce a good at lower opportunity cost than trading partners",
+      "explanation": "Comparative advantage means a country can produce a good at a lower relative opportunity cost than others, forming the basis for beneficial international agricultural trade specialization."
+    },
+    {
+      "id": 23,
+      "question": "The primary goal of agricultural marketing is to:",
+      "choices": ["Reduce farm production costs", "Move agricultural products from producers to consumers efficiently and profitably", "Control government food policies", "Improve seed varieties"],
+      "answer": "Move agricultural products from producers to consumers efficiently and profitably",
+      "explanation": "Agricultural marketing encompasses all activities involved in the flow of goods from farm to consumer, including pricing, packaging, transportation, storage, processing, and promotion."
+    },
+    {
+      "id": 24,
+      "question": "In extension education, 'diffusion of innovation' theory was developed by:",
+      "choices": ["Everett Rogers", "Paulo Freire", "Kurt Lewin", "Malcolm Knowles"],
+      "answer": "Everett Rogers",
+      "explanation": "Everett Rogers developed the Diffusion of Innovations theory (1962), explaining how new ideas and technologies spread through social systems, classifying adopters as innovators, early adopters, early majority, late majority, and laggards."
+    },
+    {
+      "id": 25,
+      "question": "What is 'sustainable agriculture'?",
+      "choices": ["Farming that uses maximum chemical inputs", "Farming practices that meet current needs without compromising future generations' ability to meet theirs", "Agriculture that relies solely on organic methods", "Farming that maximizes short-term profits"],
+      "answer": "Farming practices that meet current needs without compromising future generations' ability to meet theirs",
+      "explanation": "Sustainable agriculture balances economic viability, environmental health, and social equity to produce food that meets current needs while preserving natural resources for future generations."
+    },
+    {
+      "id": 26,
+      "question": "The Philippine Crop Insurance Corporation (PCIC) primarily provides:",
+      "choices": ["Crop price guarantees to farmers", "Insurance coverage for agricultural losses due to natural disasters and pests", "Loans for farm equipment purchase", "Market access for agricultural products"],
+      "answer": "Insurance coverage for agricultural losses due to natural disasters and pests",
+      "explanation": "PCIC provides insurance protection to farmers against losses from natural disasters (typhoons, floods, drought), pests, and diseases, helping stabilize farm incomes and encourage investment."
+    },
+    {
+      "id": 27,
+      "question": "Which agricultural policy tool involves setting a minimum price for farm products?",
+      "choices": ["Production quota", "Price floor (support price)", "Import tariff", "Export subsidy"],
+      "answer": "Price floor (support price)",
+      "explanation": "A price floor (or support price) is a government-imposed minimum price above the market equilibrium, ensuring farmers receive at least a certain minimum price for their products."
+    },
+    {
+      "id": 28,
+      "question": "What is 'agroforestry'?",
+      "choices": ["Forest management for timber only", "Integration of trees with crops or livestock in the same land area", "Clearing forests for agricultural use", "Growing crops under artificial shade"],
+      "answer": "Integration of trees with crops or livestock in the same land area",
+      "explanation": "Agroforestry is a land use system that combines trees with crops and/or animals on the same land, creating ecological and economic interactions that are beneficial to all components."
+    },
+    {
+      "id": 29,
+      "question": "In farm record keeping, what does a 'balance sheet' show?",
+      "choices": ["Monthly income and expenses", "Farm's assets, liabilities, and net worth at a specific point in time", "Annual crop production records", "Labor and equipment usage records"],
+      "answer": "Farm's assets, liabilities, and net worth at a specific point in time",
+      "explanation": "A farm balance sheet (or net worth statement) lists all farm assets (what is owned) and liabilities (what is owed) at a specific date, with the difference being net worth or equity."
+    },
+    {
+      "id": 30,
+      "question": "The concept of 'economies of scale' in agriculture means that:",
+      "choices": ["Small farms are more profitable per unit", "As farm size increases, average cost per unit decreases up to an optimal size", "Prices scale proportionally with farm size", "Large farms always have lower quality products"],
+      "answer": "As farm size increases, average cost per unit decreases up to an optimal size",
+      "explanation": "Economies of scale occur when increasing production size reduces the average cost per unit, often due to better use of machinery, bulk purchasing of inputs, and more efficient labor organization."
+    }
+  ]
+}

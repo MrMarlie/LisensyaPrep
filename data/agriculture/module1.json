@@ -1,0 +1,216 @@
+{
+  "module": "Module 1 - Crop Science and Production",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary process by which green plants manufacture their own food using sunlight?",
+      "choices": ["Respiration", "Photosynthesis", "Transpiration", "Germination"],
+      "answer": "Photosynthesis",
+      "explanation": "Photosynthesis is the process where plants use sunlight, water, and carbon dioxide to produce glucose and oxygen. It is the foundation of crop production."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT a macronutrient required by plants?",
+      "choices": ["Nitrogen", "Phosphorus", "Zinc", "Potassium"],
+      "answer": "Zinc",
+      "explanation": "Nitrogen (N), Phosphorus (P), and Potassium (K) are the three primary macronutrients. Zinc is a micronutrient needed only in trace amounts."
+    },
+    {
+      "id": 3,
+      "question": "What is the term for the period from seed germination to harvest of a crop?",
+      "choices": ["Growing season", "Crop cycle", "Phenological period", "Vegetative phase"],
+      "answer": "Crop cycle",
+      "explanation": "The crop cycle refers to the complete period of crop growth from planting/germination through to harvest, encompassing all growth stages."
+    },
+    {
+      "id": 4,
+      "question": "Rice belongs to which plant family?",
+      "choices": ["Fabaceae", "Solanaceae", "Poaceae", "Cucurbitaceae"],
+      "answer": "Poaceae",
+      "explanation": "Rice (Oryza sativa) belongs to the Poaceae (grass family), along with other cereal crops like wheat, corn, and barley."
+    },
+    {
+      "id": 5,
+      "question": "Which type of pollination occurs when pollen is transferred from the anther of one flower to the stigma of a flower on a different plant?",
+      "choices": ["Self-pollination", "Cross-pollination", "Wind pollination", "Artificial pollination"],
+      "answer": "Cross-pollination",
+      "explanation": "Cross-pollination (allogamy) involves transfer of pollen between different plants of the same species, promoting genetic diversity."
+    },
+    {
+      "id": 6,
+      "question": "What is the ideal soil pH range for most agricultural crops?",
+      "choices": ["4.0 - 5.0", "5.5 - 7.0", "7.5 - 8.5", "8.5 - 9.5"],
+      "answer": "5.5 - 7.0",
+      "explanation": "Most crops thrive in a slightly acidic to neutral pH range of 5.5 to 7.0, where nutrient availability is optimal."
+    },
+    {
+      "id": 7,
+      "question": "Which crop management practice involves growing two or more crops simultaneously on the same piece of land?",
+      "choices": ["Crop rotation", "Intercropping", "Monocropping", "Cover cropping"],
+      "answer": "Intercropping",
+      "explanation": "Intercropping is the agricultural practice of cultivating two or more crops in proximity to maximize land use and improve yield stability."
+    },
+    {
+      "id": 8,
+      "question": "The scientific name of corn (maize) is:",
+      "choices": ["Triticum aestivum", "Zea mays", "Oryza sativa", "Glycine max"],
+      "answer": "Zea mays",
+      "explanation": "Corn or maize has the scientific name Zea mays and is one of the world's most important cereal crops."
+    },
+    {
+      "id": 9,
+      "question": "What is the term for the removal of side shoots to promote better fruit development in crops like tomato?",
+      "choices": ["Pruning", "Thinning", "Suckering", "Topping"],
+      "answer": "Suckering",
+      "explanation": "Suckering involves removing the axillary shoots (suckers) that grow between the stem and branches in tomato plants to improve air circulation and fruit quality."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is a C4 plant that efficiently fixes carbon dioxide?",
+      "choices": ["Rice", "Wheat", "Corn (Maize)", "Potato"],
+      "answer": "Corn (Maize)",
+      "explanation": "Corn is a C4 plant with a special photosynthetic pathway that is more efficient in hot, sunny conditions compared to C3 plants like rice and wheat."
+    },
+    {
+      "id": 11,
+      "question": "What is the process of treating seeds with fungicides or pesticides before planting called?",
+      "choices": ["Seed inoculation", "Seed priming", "Seed treatment", "Seed scarification"],
+      "answer": "Seed treatment",
+      "explanation": "Seed treatment involves applying fungicides, insecticides, or other protective agents to seeds before planting to protect them from soil-borne pathogens and pests."
+    },
+    {
+      "id": 12,
+      "question": "In the Philippines, the major rice-producing island is:",
+      "choices": ["Visayas", "Mindanao", "Luzon", "Palawan"],
+      "answer": "Luzon",
+      "explanation": "Luzon is the largest island in the Philippines and contributes the most to national rice production, with major rice-producing provinces like Nueva Ecija."
+    },
+    {
+      "id": 13,
+      "question": "Which growth stage of rice is most critical for water supply?",
+      "choices": ["Germination", "Tillering", "Flowering (anthesis)", "Ripening"],
+      "answer": "Flowering (anthesis)",
+      "explanation": "The flowering stage is the most critical period for water supply in rice. Water stress during anthesis can cause spikelet sterility and significantly reduce yield."
+    },
+    {
+      "id": 14,
+      "question": "What is vernalization in crops?",
+      "choices": ["Exposure to cold temperature to induce flowering", "Watering crops in early morning", "Applying green manure to soil", "Grafting technique for fruit trees"],
+      "answer": "Exposure to cold temperature to induce flowering",
+      "explanation": "Vernalization is the process where plants are exposed to prolonged cold temperatures to trigger or accelerate subsequent flowering, common in wheat and other cereals."
+    },
+    {
+      "id": 15,
+      "question": "Which vegetable crop belongs to the Solanaceae family?",
+      "choices": ["Cabbage", "Carrot", "Eggplant", "Onion"],
+      "answer": "Eggplant",
+      "explanation": "Eggplant (Solanum melongena) belongs to the Solanaceae (nightshade) family, along with tomato, pepper, and potato."
+    },
+    {
+      "id": 16,
+      "question": "What is the primary purpose of crop rotation in farming?",
+      "choices": ["Increase farm income", "Break pest and disease cycles and maintain soil health", "Reduce water usage", "Increase mechanical harvest efficiency"],
+      "answer": "Break pest and disease cycles and maintain soil health",
+      "explanation": "Crop rotation helps break pest and disease cycles, improves soil structure and fertility, and reduces the buildup of crop-specific pathogens."
+    },
+    {
+      "id": 17,
+      "question": "Legumes are important in crop systems because they:",
+      "choices": ["Grow very fast", "Fix atmospheric nitrogen through root nodules", "Require very little water", "Produce large amounts of starch"],
+      "answer": "Fix atmospheric nitrogen through root nodules",
+      "explanation": "Legumes host Rhizobium bacteria in root nodules that can fix atmospheric nitrogen into ammonia, enriching the soil with nitrogen available to subsequent crops."
+    },
+    {
+      "id": 18,
+      "question": "What is the term for the young plant that emerges from a germinating seed?",
+      "choices": ["Radicle", "Seedling", "Sprout", "Epicotyl"],
+      "answer": "Seedling",
+      "explanation": "A seedling is the young plant that develops from a germinated seed, consisting of the hypocotyl, cotyledons, and the developing shoot and root systems."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following correctly describes photoperiodism?",
+      "choices": ["Response of plants to light intensity", "Response of plants to relative day length for flowering", "Measurement of solar radiation for crops", "Amount of light absorbed during photosynthesis"],
+      "answer": "Response of plants to relative day length for flowering",
+      "explanation": "Photoperiodism refers to a plant's developmental response to the relative length of light and dark periods, which controls flowering in many crops."
+    },
+    {
+      "id": 20,
+      "question": "The process by which water moves from the roots to leaves and is released into the atmosphere is called:",
+      "choices": ["Osmosis", "Transpiration", "Evaporation", "Imbibition"],
+      "answer": "Transpiration",
+      "explanation": "Transpiration is the process through which water absorbed by plant roots moves up through the plant and evaporates through stomata in the leaves."
+    },
+    {
+      "id": 21,
+      "question": "What is the grain yield advantage of hybrid rice over conventional varieties?",
+      "choices": ["5-10%", "15-20%", "25-30% or more", "50-60%"],
+      "answer": "25-30% or more",
+      "explanation": "Hybrid rice varieties typically yield 25-30% or more compared to inbred or conventional varieties, due to the phenomenon of heterosis or hybrid vigor."
+    },
+    {
+      "id": 22,
+      "question": "Mango belongs to which plant family?",
+      "choices": ["Rutaceae", "Anacardiaceae", "Rosaceae", "Moraceae"],
+      "answer": "Anacardiaceae",
+      "explanation": "Mango (Mangifera indica) belongs to the Anacardiaceae (cashew family), which also includes cashew and pistachio."
+    },
+    {
+      "id": 23,
+      "question": "What is the most common method of propagating banana commercially?",
+      "choices": ["Seed germination", "Grafting", "Suckers/ratoons", "Air layering"],
+      "answer": "Suckers/ratoons",
+      "explanation": "Banana is most commonly propagated through suckers (side shoots that emerge from the base of the mother plant), as commercial varieties rarely produce viable seeds."
+    },
+    {
+      "id": 24,
+      "question": "Which hormone is primarily responsible for promoting fruit ripening in crops?",
+      "choices": ["Auxin", "Gibberellin", "Cytokinin", "Ethylene"],
+      "answer": "Ethylene",
+      "explanation": "Ethylene is a gaseous plant hormone that plays a central role in promoting fruit ripening, senescence, and other developmental processes."
+    },
+    {
+      "id": 25,
+      "question": "What does 'NPK' stand for in fertilizer labeling?",
+      "choices": ["Nitrogen, Potassium, Krypton", "Nitrogen, Phosphorus, Potassium", "Nitrate, Phosphate, Kalium", "Natural, Processed, Known"],
+      "answer": "Nitrogen, Phosphorus, Potassium",
+      "explanation": "NPK represents the three primary macronutrients in fertilizers: Nitrogen (N), Phosphorus (P), and Potassium (K), expressed as percentages on fertilizer labels."
+    },
+    {
+      "id": 26,
+      "question": "Which pest is considered the most destructive to rice crops in the Philippines?",
+      "choices": ["Rice tungro virus (RTV)", "Rice blast disease", "Brown planthopper (BPH)", "Stem borer"],
+      "answer": "Brown planthopper (BPH)",
+      "explanation": "The brown planthopper (Nilaparvata lugens) is one of the most destructive pests of rice in Asia, causing hopperburn through direct feeding and transmitting grassy stunt and ragged stunt viruses."
+    },
+    {
+      "id": 27,
+      "question": "What is the purpose of 'roguing' in crop production?",
+      "choices": ["Removing weeds from fields", "Removing off-type or diseased plants from a crop field", "Applying rooting hormone to cuttings", "Pruning overcrowded branches"],
+      "answer": "Removing off-type or diseased plants from a crop field",
+      "explanation": "Roguing is the practice of removing diseased, weak, or off-type plants from a crop field to maintain genetic purity and reduce disease spread."
+    },
+    {
+      "id": 28,
+      "question": "What is the recommended plant spacing for transplanted rice in the Philippines?",
+      "choices": ["10 cm x 10 cm", "20 cm x 20 cm", "30 cm x 30 cm", "40 cm x 40 cm"],
+      "answer": "20 cm x 20 cm",
+      "explanation": "The recommended plant spacing for transplanted rice is typically 20 cm x 20 cm, which optimizes tillering, light interception, and grain yield."
+    },
+    {
+      "id": 29,
+      "question": "The process of removing excess seedlings from a hill to leave only 1-2 plants is called:",
+      "choices": ["Thinning", "Transplanting", "Roguing", "Pricking out"],
+      "answer": "Thinning",
+      "explanation": "Thinning involves removing extra seedlings per hill or spot to reduce competition and allow the remaining plants to develop optimally."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is the correct definition of 'yield'?",
+      "choices": ["Total biomass produced per unit area", "Amount of marketable product produced per unit area", "Number of plants per hectare", "Quality of the harvested product"],
+      "answer": "Amount of marketable product produced per unit area",
+      "explanation": "Yield refers to the amount of marketable or economic product (grain, fruit, etc.) produced per unit area, usually expressed as tons per hectare or kilograms per hectare."
+    }
+  ]
+}

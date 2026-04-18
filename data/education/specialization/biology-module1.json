@@ -1,0 +1,126 @@
+{
+  "module": "Biological Science Specialization",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "During which phase of the cell cycle does DNA replication occur?",
+      "choices": [
+        "G1 phase of Interphase",
+        "S phase (Synthesis phase) of Interphase",
+        "G2 phase of Interphase",
+        "Prophase of Mitosis"
+      ],
+      "answer": "S phase (Synthesis phase) of Interphase",
+      "explanation": "DNA replication occurs exclusively during the S (Synthesis) phase of interphase, between G1 (cell growth and preparation) and G2 (continued growth). During S phase, each chromosome is duplicated into two identical sister chromatids joined at the centromere, ensuring each daughter cell receives a complete genome."
+    },
+    {
+      "id": 2,
+      "question": "In a dihybrid cross AaBb × AaBb (with independent assortment), what fraction of offspring will show BOTH recessive phenotypes?",
+      "choices": [
+        "1/4",
+        "1/9",
+        "1/16",
+        "3/16"
+      ],
+      "answer": "1/16",
+      "explanation": "For independently assorting genes: P(aa) = 1/4 and P(bb) = 1/4. By the product rule, P(aabb) = 1/4 × 1/4 = 1/16. The classic dihybrid ratio is 9:3:3:1, where 1 out of 16 shows both recessive traits. This follows from Mendel's Law of Independent Assortment."
+    },
+    {
+      "id": 3,
+      "question": "During an action potential, the rapid depolarization phase (rising phase) is caused by:",
+      "choices": [
+        "Rapid efflux of K⁺ ions through voltage-gated potassium channels",
+        "Rapid influx of Na⁺ ions through voltage-gated sodium channels",
+        "Influx of Ca²⁺ ions through ligand-gated calcium channels",
+        "Active pumping of Na⁺ out of the cell by the Na⁺/K⁺ ATPase"
+      ],
+      "answer": "Rapid influx of Na⁺ ions through voltage-gated sodium channels",
+      "explanation": "When a neuron is depolarized to threshold (~−55 mV), voltage-gated Na⁺ channels open rapidly, allowing Na⁺ to rush INTO the cell down its electrochemical gradient. This influx of positive charge drives the membrane potential from ~−70 mV to approximately +30–40 mV. K⁺ efflux drives repolarization, not depolarization."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following correctly describes a competitive inhibitor of an enzyme?",
+      "choices": [
+        "It binds the allosteric site, decreasing Vmax without changing Km",
+        "It binds the active site, increasing Km without changing Vmax",
+        "It covalently modifies the active site, permanently abolishing enzyme activity",
+        "It binds the enzyme-substrate complex, decreasing both Km and Vmax"
+      ],
+      "answer": "It binds the active site, increasing Km without changing Vmax",
+      "explanation": "A competitive inhibitor competes with the substrate for the active site. At high enough substrate concentrations, it can be outcompeted — so Vmax is unchanged. However, it takes more substrate to reach half-maximal velocity, so apparent Km increases. This inhibition is reversible, unlike covalent (irreversible) inhibition."
+    },
+    {
+      "id": 5,
+      "question": "According to the Ten Percent Rule (Lindeman's efficiency) in ecology, what percentage of energy is typically transferred from one trophic level to the next?",
+      "choices": [
+        "1%",
+        "10%",
+        "25%",
+        "50%"
+      ],
+      "answer": "10%",
+      "explanation": "Approximately 10% of the energy at one trophic level is available to the next. The remaining ~90% is lost as heat (cellular respiration), used for metabolism, or remains in indigestible matter. This explains why food chains are typically limited to 4–5 trophic levels and why plant-based diets are more energy-efficient."
+    },
+    {
+      "id": 6,
+      "question": "The Hardy-Weinberg Equilibrium requires five conditions. Which of the following is NOT one of them?",
+      "choices": [
+        "No mutation",
+        "Random mating",
+        "Large population size",
+        "High genetic recombination rate"
+      ],
+      "answer": "High genetic recombination rate",
+      "explanation": "Hardy-Weinberg equilibrium requires: (1) no mutation, (2) random mating, (3) large population size (no genetic drift), (4) no gene flow (no migration), and (5) no natural selection. A high recombination rate is NOT a requirement — recombination reshuffles alleles but does not change their frequencies."
+    },
+    {
+      "id": 7,
+      "question": "A gene is transcribed into mRNA, but no protein product is detected in the cell. Which post-transcriptional mechanism BEST explains this?",
+      "choices": [
+        "Promoter methylation silencing transcription initiation at the DNA level",
+        "MicroRNA (miRNA)-mediated translational repression or mRNA degradation",
+        "Histone acetylation increasing chromatin accessibility for transcription",
+        "Codon bias reducing the rate of DNA replication in that genomic region"
+      ],
+      "answer": "MicroRNA (miRNA)-mediated translational repression or mRNA degradation",
+      "explanation": "miRNAs are ~22-nucleotide non-coding RNAs that bind complementary sequences in the 3' UTR of target mRNAs, causing translational repression or mRNA cleavage. Since the gene IS transcribed (mRNA present) but protein is absent, this is a post-transcriptional phenomenon — ruling out epigenetic silencing at the DNA level."
+    },
+    {
+      "id": 8,
+      "question": "Which plant hormone is primarily responsible for phototropism — the bending of plant shoots toward light?",
+      "choices": [
+        "Cytokinin",
+        "Gibberellin",
+        "Auxin (Indole-3-acetic acid, IAA)",
+        "Abscisic acid (ABA)"
+      ],
+      "answer": "Auxin (Indole-3-acetic acid, IAA)",
+      "explanation": "Phototropism is driven by lateral redistribution of auxin (IAA). When light strikes one side of a shoot, auxin moves to the shaded side, causing those cells to elongate more — bending the shoot toward the light. This is the Cholodny-Went theory of phototropism."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following correctly distinguishes gram-positive from gram-negative bacteria?",
+      "choices": [
+        "Gram-positive bacteria have an outer membrane; gram-negative bacteria do not",
+        "Gram-positive bacteria have a thick peptidoglycan wall and no outer membrane; gram-negative bacteria have a thin peptidoglycan layer and an outer membrane",
+        "Gram-positive bacteria stain pink; gram-negative bacteria stain purple after Gram staining",
+        "Gram-negative bacteria are more susceptible to penicillin than gram-positive bacteria"
+      ],
+      "answer": "Gram-positive bacteria have a thick peptidoglycan wall and no outer membrane; gram-negative bacteria have a thin peptidoglycan layer and an outer membrane",
+      "explanation": "Gram-positive bacteria retain the crystal violet stain (appear purple) because their thick peptidoglycan layer traps the dye. Gram-negative bacteria lose it during decolorization (thin peptidoglycan + outer membrane with lipopolysaccharide) and stain pink with safranin counterstain. The outer membrane also makes gram-negative bacteria more resistant to many antibiotics."
+    },
+    {
+      "id": 10,
+      "question": "According to Carl Woese's Three-Domain System, which of the following is NOT one of the three domains of life?",
+      "choices": [
+        "Bacteria",
+        "Archaea",
+        "Eukarya",
+        "Protista"
+      ],
+      "answer": "Protista",
+      "explanation": "Woese proposed the Three-Domain System (1990) based on ribosomal RNA sequences: Bacteria (prokaryotes), Archaea (prokaryotes with archaeal biochemistry), and Eukarya (all eukaryotes — protists, fungi, plants, animals). Protista is a Kingdom within the domain Eukarya, not a domain itself."
+    }
+  ]
+}

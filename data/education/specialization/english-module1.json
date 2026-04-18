@@ -1,0 +1,126 @@
+{
+  "module": "English Specialization",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The word 'undeniably' consists of: un- + deny + -able + -ly. Which correctly classifies each morpheme as free (F) or bound (B)?",
+      "choices": [
+        "F, F, B, B",
+        "B, F, B, B",
+        "B, B, F, B",
+        "F, B, F, F"
+      ],
+      "answer": "B, F, B, B",
+      "explanation": "A free morpheme can stand alone as a word; a bound morpheme cannot. 'un-' = bound (prefix); 'deny' = free (complete word); '-able' = bound (derivational suffix); '-ly' = bound (derivational suffix). Morphological analysis of complex words is foundational to linguistic and grammar instruction."
+    },
+    {
+      "id": 2,
+      "question": "In Chomsky's Transformational-Generative Grammar, 'deep structure' refers to:",
+      "choices": [
+        "The phonological rules governing sound patterns in a language",
+        "The abstract underlying syntactic representation from which surface sentences are generated",
+        "The semantic relationships between lexical items in a sentence",
+        "The pragmatic context that determines meaning in a conversation"
+      ],
+      "answer": "The abstract underlying syntactic representation from which surface sentences are generated",
+      "explanation": "Chomsky distinguishes deep structure (the abstract underlying representation of meaning and syntax) from surface structure (the actual spoken or written form). This explains why active and passive sentences share the same deep structure but differ on the surface."
+    },
+    {
+      "id": 3,
+      "question": "Nick Joaquin's 'The Summer Solstice' (Tadtarin) explores which central theme through the ritual festival?",
+      "choices": [
+        "The conflict between Spanish colonial taxation and peasant resistance in 19th-century Manila",
+        "The inversion of gender roles and tension between pre-colonial matriarchal culture and patriarchal colonial order",
+        "The romantic tragedy between lovers from rival social classes in colonial Manila",
+        "The economic exploitation of the ilustrado class under Spanish mercantile policies"
+      ],
+      "answer": "The inversion of gender roles and tension between pre-colonial matriarchal culture and patriarchal colonial order",
+      "explanation": "In Joaquin's story, the Tadtarin festival — where women historically held social dominance for three days — becomes a vehicle for exploring the clash between pre-colonial Filipino matriarchal traditions and male-dominated Spanish colonial order. Don Paeng and Doña Lupeng embody this power struggle."
+    },
+    {
+      "id": 4,
+      "question": "Albert Camus' concept of 'the absurd' in 'The Myth of Sisyphus' argues that:",
+      "choices": [
+        "Human life is meaningless and physical suicide is its most logical conclusion",
+        "The conflict between human yearning for meaning and the universe's silence creates the absurd, which must be embraced through revolt, not escaped",
+        "Religious faith is the only authentic resolution to existential meaninglessness",
+        "Political revolution can overcome existential anxiety and restore human dignity"
+      ],
+      "answer": "The conflict between human yearning for meaning and the universe's silence creates the absurd, which must be embraced through revolt, not escaped",
+      "explanation": "Camus defines the absurd as the confrontation between human beings' need for clarity and the universe's irrational silence. He rejects physical suicide and 'philosophical suicide' (leaping to religion or ideology). Instead, he advocates revolt — living fully in conscious defiance of the absurd. Sisyphus, imagined happy, embodies this rebellion."
+    },
+    {
+      "id": 5,
+      "question": "According to Schema Theory (Rumelhart, 1980), reading comprehension is best described as:",
+      "choices": [
+        "The accurate decoding of phonemes into their corresponding graphemes from left to right",
+        "An interactive process where readers use prior knowledge structures (schemata) together with textual cues to construct meaning",
+        "A purely bottom-up process of decoding from letters to words to sentences to meaning",
+        "A top-down process where readers predict all content before engaging with the actual text"
+      ],
+      "answer": "An interactive process where readers use prior knowledge structures (schemata) together with textual cues to construct meaning",
+      "explanation": "Schema theory holds that comprehension is interactive — readers simultaneously use textual cues (bottom-up) and existing knowledge frameworks (top-down schemata) to construct meaning. This explains why background knowledge profoundly affects how well readers understand a given text."
+    },
+    {
+      "id": 6,
+      "question": "In Communicative Language Teaching (CLT), which activity is MOST aligned with the principle of authentic communication?",
+      "choices": [
+        "Students repeat sentence patterns in a choral drill led by the teacher",
+        "Students complete fill-in-the-blank grammar exercises from a textbook",
+        "Students negotiate meaning through a role-play involving a real misunderstanding or information gap",
+        "Students memorize and perform a dialogue scripted in the textbook"
+      ],
+      "answer": "Students negotiate meaning through a role-play involving a real misunderstanding or information gap",
+      "explanation": "CLT prioritizes authentic, purposeful communication over form-focused practice. Role-plays requiring negotiation of meaning reflect real communicative acts. Drills, fill-in-the-blank exercises, and memorized dialogues are associated with the Audio-Lingual Method, which CLT largely replaced."
+    },
+    {
+      "id": 7,
+      "question": "In iambic pentameter, each line contains five iambs. An iamb consists of:",
+      "choices": [
+        "One stressed syllable followed by one unstressed syllable (/ u)",
+        "One unstressed syllable followed by one stressed syllable (u /)",
+        "Two equally stressed syllables (/ /)",
+        "Two equally unstressed syllables (u u)"
+      ],
+      "answer": "One unstressed syllable followed by one stressed syllable (u /)",
+      "explanation": "An iamb is an unstressed-stressed (u /) metrical foot. Iambic pentameter — five iambs per line — is the dominant meter of English poetry and drama. Example: 'Shall I | com-PARE | thee TO | a SUM | mer's DAY?' Each stressed syllable follows an unstressed syllable."
+    },
+    {
+      "id": 8,
+      "question": "Homi Bhabha's postcolonial concept of 'hybridity' refers to:",
+      "choices": [
+        "The linguistic mixing of two national languages to create a creole or pidgin",
+        "A third cultural space emerging from the colonial encounter that destabilizes fixed identities of both colonizer and colonized",
+        "The biological intermingling of races that occurred during colonial periods",
+        "The translation of colonial administrative texts into indigenous languages"
+      ],
+      "answer": "A third cultural space emerging from the colonial encounter that destabilizes fixed identities of both colonizer and colonized",
+      "explanation": "Bhabha's 'hybridity' describes the ambivalence in colonial discourse — the colonial encounter produces a 'third space' that is neither purely colonizer nor colonized culture. This space subverts binary colonial categories and undermines the colonizer's claim to cultural purity and authority."
+    },
+    {
+      "id": 9,
+      "question": "In 'Maria studied hard. She passed the board exam.' — the cohesive device linking the sentences is:",
+      "choices": [
+        "Lexical cohesion through reiteration",
+        "Grammatical cohesion through anaphoric reference (pronominal substitution)",
+        "Additive conjunction",
+        "Ellipsis"
+      ],
+      "answer": "Grammatical cohesion through anaphoric reference (pronominal substitution)",
+      "explanation": "Following Halliday and Hasan's cohesion framework, 'She' is a personal pronoun that refers back anaphorically to 'Maria' in the preceding sentence. This grammatical reference creates cohesion between the two sentences. The five cohesion types are: reference, substitution, ellipsis, conjunction, and lexical cohesion."
+    },
+    {
+      "id": 10,
+      "question": "A teacher identifies a classroom problem, designs a 6-week intervention, and collects pre- and post-test data to measure improvement. This is BEST described as:",
+      "choices": [
+        "Experimental Research — because it involves pre- and post-testing",
+        "Descriptive Research — because it describes student performance levels",
+        "Action Research — because it is practitioner-led inquiry aimed at improving a specific classroom practice",
+        "Ethnographic Research — because it involves observing students over time"
+      ],
+      "answer": "Action Research — because it is practitioner-led inquiry aimed at improving a specific classroom practice",
+      "explanation": "Action research is conducted by practitioners (teachers) within their own classrooms to solve an identified problem and immediately improve practice. Key features: the teacher is the researcher, the context is the teacher's own setting, and the primary goal is practical improvement — not generalizable theory."
+    }
+  ]
+}

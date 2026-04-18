@@ -1,0 +1,281 @@
+{
+  "module": "Module 5 - Animal Science",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The digestive system of ruminants is characterized by:",
+      "choices": [
+        "A single-chambered stomach",
+        "A four-chambered stomach (rumen, reticulum, omasum, abomasum)",
+        "A two-chambered stomach",
+        "No stomach, only intestines"
+      ],
+      "answer": "A four-chambered stomach (rumen, reticulum, omasum, abomasum)",
+      "explanation": "Ruminants (cattle, carabao, sheep, goats) have a four-compartment stomach. The rumen is the largest and harbors microbes that ferment fibrous feed through a process called rumination."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is the national animal of the Philippines that is also used as a draft animal?",
+      "choices": ["Cow", "Horse", "Carabao", "Goat"],
+      "answer": "Carabao",
+      "explanation": "The carabao (Bubalus bubalis carabanensis) is the national animal of the Philippines and has been used as a draft animal for centuries in Philippine agriculture."
+    },
+    {
+      "id": 3,
+      "question": "The process of egg production in poultry is called:",
+      "choices": ["Ovulation", "Oviposition", "Incubation", "Fertilization"],
+      "answer": "Oviposition",
+      "explanation": "Oviposition refers to the act of laying eggs. In poultry, a hen typically takes about 25-26 hours to form and lay one egg."
+    },
+    {
+      "id": 4,
+      "question": "Which nutrient provides the most energy per gram in animal feeds?",
+      "choices": ["Carbohydrates", "Protein", "Fats", "Vitamins"],
+      "answer": "Fats",
+      "explanation": "Fats provide approximately 9 kcal/g of energy, which is about 2.25 times more than carbohydrates and proteins, which each provide approximately 4 kcal/g."
+    },
+    {
+      "id": 5,
+      "question": "The gestation period of a sow (female pig) is approximately:",
+      "choices": ["3 months", "3 months, 3 weeks, and 3 days (114 days)", "6 months", "9 months"],
+      "answer": "3 months, 3 weeks, and 3 days (114 days)",
+      "explanation": "The gestation period of pigs is approximately 114 days, commonly remembered as '3 months, 3 weeks, and 3 days.' This is important for farm management and scheduling."
+    },
+    {
+      "id": 6,
+      "question": "What is the term for the science and practice of improving genetic qualities of animals through selective breeding?",
+      "choices": ["Animal husbandry", "Animal genetics", "Animal breeding", "Animal nutrition"],
+      "answer": "Animal breeding",
+      "explanation": "Animal breeding is the application of genetic principles to improve the productivity and performance of livestock through selective mating of animals with desirable traits."
+    },
+    {
+      "id": 7,
+      "question": "Colostrum is important for newborn animals because it contains:",
+      "choices": [
+        "High fat content for energy",
+        "Maternal antibodies (immunoglobulins) that provide passive immunity",
+        "Essential vitamins only",
+        "High sugar content for quick energy"
+      ],
+      "answer": "Maternal antibodies (immunoglobulins) that provide passive immunity",
+      "explanation": "Colostrum is the first milk produced after birth and is rich in antibodies (immunoglobulins), which provide passive immunity to the newborn animal against diseases during early life."
+    },
+    {
+      "id": 8,
+      "question": "Which vitamin is synthesized in the skin of animals upon exposure to sunlight?",
+      "choices": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+      "answer": "Vitamin D",
+      "explanation": "Vitamin D (specifically D3/cholecalciferol) is synthesized in the skin when exposed to ultraviolet light from sunlight. It is essential for calcium and phosphorus absorption and bone formation."
+    },
+    {
+      "id": 9,
+      "question": "The Filipino native chicken breed known for its high egg production is called:",
+      "choices": ["Darag", "Paraoakan", "Joloanon", "Banaba"],
+      "answer": "Darag",
+      "explanation": "The Darag chicken is a Filipino native breed from Panay Island known for its relatively good egg production and adaptability to local conditions."
+    },
+    {
+      "id": 10,
+      "question": "Foot-and-Mouth Disease (FMD) affects:",
+      "choices": [
+        "Poultry only",
+        "All mammals",
+        "Cloven-hoofed animals (cattle, pigs, sheep, goats)",
+        "Fish and aquatic animals"
+      ],
+      "answer": "Cloven-hoofed animals (cattle, pigs, sheep, goats)",
+      "explanation": "FMD is a highly contagious viral disease that affects cloven-hoofed animals. It causes fever and blisters on the feet, mouth, and teats, leading to significant economic losses."
+    },
+    {
+      "id": 11,
+      "question": "The primary purpose of castration in male livestock is:",
+      "choices": [
+        "To improve milk production",
+        "To control behavior and improve meat quality",
+        "To prevent diseases",
+        "To increase growth rate"
+      ],
+      "answer": "To control behavior and improve meat quality",
+      "explanation": "Castration removes the testes of male animals, reducing aggressive behavior and testosterone-related off-flavors in meat, resulting in more docile animals and better-quality carcasses."
+    },
+    {
+      "id": 12,
+      "question": "Which system of poultry production involves raising birds in floor pens with litter?",
+      "choices": ["Battery cage system", "Free-range system", "Deep litter system", "Aviary system"],
+      "answer": "Deep litter system",
+      "explanation": "The deep litter system houses birds on the floor covered with litter material (rice hull, sawdust). Litter is managed to maintain dryness and sanitation throughout the production cycle."
+    },
+    {
+      "id": 13,
+      "question": "Total Digestible Nutrients (TDN) is a measure of:",
+      "choices": [
+        "The protein content of feed",
+        "The overall energy value of a feedstuff",
+        "The mineral content of feed",
+        "The water content of feed"
+      ],
+      "answer": "The overall energy value of a feedstuff",
+      "explanation": "TDN is a system used to express the energy value of feeds for ruminants. It includes digestible crude protein, digestible crude fiber, digestible NFE, and digestible ether extract × 2.25."
+    },
+    {
+      "id": 14,
+      "question": "Which Philippine livestock program promotes carabao conservation and upgrading through artificial insemination?",
+      "choices": [
+        "National Hog Program",
+        "National Carabao Development Program",
+        "Philippine Livestock Program",
+        "National Dairy Authority Program"
+      ],
+      "answer": "National Carabao Development Program",
+      "explanation": "The National Carabao Development Program (NCDP) is a government program that promotes the conservation, propagation, and upgrading of the carabao through artificial insemination and other interventions."
+    },
+    {
+      "id": 15,
+      "question": "Mastitis in dairy cattle is an inflammation of the:",
+      "choices": ["Liver", "Lungs", "Mammary gland (udder)", "Rumen"],
+      "answer": "Mammary gland (udder)",
+      "explanation": "Mastitis is an inflammation of the mammary gland (udder) caused by bacterial infection. It reduces milk production and quality, making it one of the most costly diseases in dairy cattle."
+    },
+    {
+      "id": 16,
+      "question": "The process of introducing semen into the female reproductive tract without natural mating is called:",
+      "choices": ["In vitro fertilization", "Embryo transfer", "Artificial insemination", "Crossbreeding"],
+      "answer": "Artificial insemination",
+      "explanation": "Artificial insemination (AI) is the deliberate introduction of sperm into the female's reproductive tract to achieve pregnancy without natural mating. It allows the use of genetically superior sires."
+    },
+    {
+      "id": 17,
+      "question": "Which disease in poultry is characterized by respiratory distress, twisting of the neck, and high mortality?",
+      "choices": ["Fowl pox", "Newcastle Disease", "Infectious Bronchitis", "Marek's Disease"],
+      "answer": "Newcastle Disease",
+      "explanation": "Newcastle Disease (ND) is a highly contagious viral disease of poultry causing respiratory, nervous, and digestive signs including twisted neck (torticollis). It can cause 100% mortality in unvaccinated flocks."
+    },
+    {
+      "id": 18,
+      "question": "The conversion of feed into body weight gain is measured by:",
+      "choices": [
+        "Dressing percentage",
+        "Feed Conversion Ratio (FCR)",
+        "Average Daily Gain (ADG)",
+        "Body Mass Index"
+      ],
+      "answer": "Feed Conversion Ratio (FCR)",
+      "explanation": "FCR measures the efficiency of feed utilization: FCR = Feed consumed ÷ Body weight gain. A lower FCR means more efficient conversion of feed to meat."
+    },
+    {
+      "id": 19,
+      "question": "Scours (diarrhea) in young calves is most commonly caused by:",
+      "choices": [
+        "Vitamin A deficiency",
+        "Enterotoxigenic E. coli, rotavirus, and other pathogens",
+        "Iron deficiency",
+        "Overeating grass"
+      ],
+      "answer": "Enterotoxigenic E. coli, rotavirus, and other pathogens",
+      "explanation": "Neonatal calf scours is primarily caused by enterotoxigenic E. coli, rotavirus, coronavirus, and Cryptosporidium. It is a leading cause of death in young calves and causes severe dehydration."
+    },
+    {
+      "id": 20,
+      "question": "The Landrace and Large White are popular breeds of which animal?",
+      "choices": ["Cattle", "Goat", "Sheep", "Pig"],
+      "answer": "Pig",
+      "explanation": "Landrace and Large White (Yorkshire) are popular commercial pig breeds known for high prolificacy, lean meat, and good feed efficiency. They are commonly used in crossbreeding programs."
+    },
+    {
+      "id": 21,
+      "question": "Roughage in animal nutrition refers to:",
+      "choices": [
+        "High-energy concentrated feeds",
+        "Feeds high in fiber such as hay, silage, and pasture",
+        "Mineral and vitamin supplements",
+        "Protein-rich feed ingredients"
+      ],
+      "answer": "Feeds high in fiber such as hay, silage, and pasture",
+      "explanation": "Roughages are bulky, fibrous feeds with high cell wall content and low digestibility (hay, pasture, silage, crop residues). They are the primary feed source for ruminants."
+    },
+    {
+      "id": 22,
+      "question": "Hog cholera (Classical Swine Fever) is caused by:",
+      "choices": ["Bacteria", "Virus", "Fungus", "Parasite"],
+      "answer": "Virus",
+      "explanation": "Classical Swine Fever (hog cholera) is caused by a pestivirus. It is a notifiable disease in the Philippines causing high fever, skin hemorrhages, and high mortality in swine."
+    },
+    {
+      "id": 23,
+      "question": "Which mineral is most important for bone formation and is often deficient in high-producing dairy cattle?",
+      "choices": ["Iron", "Zinc", "Calcium", "Copper"],
+      "answer": "Calcium",
+      "explanation": "Calcium is the most abundant mineral in the body and is critical for bone formation, milk production, muscle function, and nerve transmission. Dairy cows are prone to milk fever (hypocalcemia) during peak lactation."
+    },
+    {
+      "id": 24,
+      "question": "The average incubation period of chicken eggs is:",
+      "choices": ["14 days", "18 days", "21 days", "28 days"],
+      "answer": "21 days",
+      "explanation": "Chicken (Gallus domesticus) eggs take 21 days to hatch under proper incubation conditions (37.5-38°C temperature, 55-65% humidity). Duck eggs take 28 days; quail eggs take 17-18 days."
+    },
+    {
+      "id": 25,
+      "question": "Aflatoxin contamination in animal feed is produced by:",
+      "choices": ["Bacteria", "Virus", "Aspergillus molds", "Insects"],
+      "answer": "Aspergillus molds",
+      "explanation": "Aflatoxins are toxic secondary metabolites produced by Aspergillus flavus and A. parasiticus molds that grow on improperly stored grain and feeds. They cause liver damage and immune suppression in animals."
+    },
+    {
+      "id": 26,
+      "question": "A gilt is defined as a:",
+      "choices": [
+        "Female pig that has given birth",
+        "Young female pig that has not yet given birth",
+        "Castrated male pig",
+        "Male pig used for breeding"
+      ],
+      "answer": "Young female pig that has not yet given birth",
+      "explanation": "A gilt is a young female pig that has not yet farrowed (given birth). Once she has her first litter, she is called a sow. A castrated male pig is a barrow; an intact male is a boar."
+    },
+    {
+      "id": 27,
+      "question": "The Philippine Carabao Center (PCC) is located in:",
+      "choices": ["Los Baños, Laguna", "Muñoz, Nueva Ecija", "Lipa, Batangas", "Cagayan de Oro"],
+      "answer": "Muñoz, Nueva Ecija",
+      "explanation": "The Philippine Carabao Center (PCC) is the national center for carabao research, development, and extension, located at the Central Luzon State University (CLSU) campus in Muñoz, Nueva Ecija."
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is a major symptom of Avian Influenza (Bird Flu)?",
+      "choices": [
+        "Increased egg production",
+        "Sudden high mortality with respiratory distress and cyanosis",
+        "Improved feed efficiency",
+        "Increased weight gain"
+      ],
+      "answer": "Sudden high mortality with respiratory distress and cyanosis",
+      "explanation": "Highly pathogenic avian influenza (HPAI) causes sudden high mortality in poultry, with signs including respiratory distress, cyanosis (bluish discoloration of combs/wattles), and nervous symptoms."
+    },
+    {
+      "id": 29,
+      "question": "Silage is best described as:",
+      "choices": [
+        "Dried hay stored in bales",
+        "Fermented green forage preserved under anaerobic conditions",
+        "Grain mixed with minerals",
+        "Fresh grass fed directly to animals"
+      ],
+      "answer": "Fermented green forage preserved under anaerobic conditions",
+      "explanation": "Silage is fermented, high-moisture forage preserved through lactic acid fermentation under anaerobic conditions. It is an important method of preserving green feed for use during dry seasons."
+    },
+    {
+      "id": 30,
+      "question": "The body condition scoring (BCS) system in livestock is used to assess:",
+      "choices": [
+        "The animal's age",
+        "The amount of body fat reserves relative to frame size",
+        "The parasite load of the animal",
+        "The genetic potential of the animal"
+      ],
+      "answer": "The amount of body fat reserves relative to frame size",
+      "explanation": "Body condition scoring is a visual and tactile assessment of an animal's fatness/thinness. It helps farmers make management decisions about feeding, breeding, and health interventions."
+    }
+  ]
+}

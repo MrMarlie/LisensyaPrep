@@ -1,0 +1,126 @@
+{
+  "module": "Professional Education",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "According to the Revised Bloom's Taxonomy (Anderson & Krathwohl, 2001), which student task represents the HIGHEST cognitive level?",
+      "choices": [
+        "A student summarizes the key arguments of a research article.",
+        "A student compares two teaching methods based on a given rubric.",
+        "A student designs an original lesson plan integrating technology, justifying each choice using learning theory.",
+        "A student evaluates a peer's essay using criteria provided by the teacher."
+      ],
+      "answer": "A student designs an original lesson plan integrating technology, justifying each choice using learning theory.",
+      "explanation": "The Revised Bloom's Taxonomy places 'Creating' at the highest level — above Evaluating, Analyzing, and Understanding. Designing an original lesson plan with theoretical justification requires students to generate, plan, and produce new work — the hallmarks of the Creating level."
+    },
+    {
+      "id": 2,
+      "question": "A student refuses to cheat because 'cheating violates a universal principle of honesty that transcends rules and consequences.' According to Kohlberg's Moral Development Theory, this is which stage?",
+      "choices": [
+        "Stage 1: Punishment-Obedience Orientation",
+        "Stage 3: Good Boy / Good Girl Orientation",
+        "Stage 5: Social Contract Orientation",
+        "Stage 6: Universal Ethical Principles"
+      ],
+      "answer": "Stage 6: Universal Ethical Principles",
+      "explanation": "Kohlberg's Stage 6 (Post-conventional Level) involves reasoning based on self-chosen universal moral principles — like honesty and justice — that override specific rules or social expectations. The student acts from principle, not fear of punishment (Stage 1) or social approval (Stage 3)."
+    },
+    {
+      "id": 3,
+      "question": "Vygotsky's Zone of Proximal Development (ZPD) is BEST applied when a teacher:",
+      "choices": [
+        "Groups students homogeneously so advanced learners are not slowed down by peers",
+        "Allows students to work independently without teacher interference to build full autonomy",
+        "Provides scaffolded support on tasks just beyond a student's current independent ability, gradually withdrawing help",
+        "Focuses instruction only on skills students have already mastered to build confidence"
+      ],
+      "answer": "Provides scaffolded support on tasks just beyond a student's current independent ability, gradually withdrawing help",
+      "explanation": "The ZPD is the distance between what a learner can do alone and what they can achieve with expert guidance. Scaffolding — targeted, temporary support that is gradually removed — is the instructional operationalization of ZPD. Teaching only mastered content operates below the ZPD."
+    },
+    {
+      "id": 4,
+      "question": "A science teacher has students design their own experiments instead of following a prescribed procedure. This approach is MOST aligned with which learning theory?",
+      "choices": [
+        "Behaviorism (B.F. Skinner) — reinforcement of correct responses",
+        "Social Learning Theory (Albert Bandura) — learning through observation",
+        "Constructivism (Piaget/Vygotsky) — learners build knowledge through active inquiry",
+        "Connectionism (Edward Thorndike) — learning through trial and error"
+      ],
+      "answer": "Constructivism (Piaget/Vygotsky) — learners build knowledge through active inquiry",
+      "explanation": "Constructivism holds that learners actively construct knowledge through experience. Inquiry-based learning — where students pose questions, design investigations, and interpret results — is the direct classroom application of constructivist principles."
+    },
+    {
+      "id": 5,
+      "question": "In Hilda Taba's curriculum development model, which is the CORRECT sequence of steps?",
+      "choices": [
+        "State objectives → Select content → Select learning experiences → Organize → Evaluate",
+        "Diagnose needs → Formulate objectives → Select content → Organize content → Select experiences → Organize experiences → Evaluate",
+        "Identify philosophy → Select objectives → Choose strategies → Assess outcomes",
+        "Evaluate → Diagnose → Plan → Implement → Reflect"
+      ],
+      "answer": "Diagnose needs → Formulate objectives → Select content → Organize content → Select experiences → Organize experiences → Evaluate",
+      "explanation": "Taba's model is a teacher-driven, inductive approach that begins with diagnosing learner needs before setting objectives — the opposite of Tyler's deductive rationale. Taba believed teachers closest to students should drive curriculum design."
+    },
+    {
+      "id": 6,
+      "question": "A teacher administers a test BEFORE instruction begins to identify what students already know and find misconceptions. This is called:",
+      "choices": [
+        "Summative Assessment",
+        "Formative Assessment",
+        "Diagnostic Assessment",
+        "Norm-Referenced Assessment"
+      ],
+      "answer": "Diagnostic Assessment",
+      "explanation": "Diagnostic assessment is conducted BEFORE instruction to identify prior knowledge, strengths, gaps, and misconceptions. It informs planning and differentiation. Formative assessment occurs DURING instruction; summative assessment occurs AFTER instruction."
+    },
+    {
+      "id": 7,
+      "question": "A Table of Specifications (TOS) in test construction is primarily used to ensure:",
+      "choices": [
+        "That the test can be completed within the allotted time",
+        "Content validity by aligning test items with instructional objectives and content coverage proportionally",
+        "That all students achieve passing scores through adjusted difficulty",
+        "Test reliability by using identical items across multiple administrations"
+      ],
+      "answer": "Content validity by aligning test items with instructional objectives and content coverage proportionally",
+      "explanation": "A TOS (test blueprint) maps test items to learning objectives and content areas, ensuring that item distribution reflects the weight given to each topic during instruction. This establishes content validity — evidence that the test measures what was actually taught."
+    },
+    {
+      "id": 8,
+      "question": "Under Republic Act 4670 (Magna Carta for Public School Teachers), the maximum class size prescribed for elementary schools is:",
+      "choices": [
+        "30 pupils per class",
+        "40 pupils per class",
+        "45 pupils per class",
+        "50 pupils per class"
+      ],
+      "answer": "45 pupils per class",
+      "explanation": "RA 4670 (1966) prescribes a maximum of 45 pupils per class for elementary schools. This is a perennial LET item because it directly defines teacher workload standards and is part of the teacher's rights under the Magna Carta."
+    },
+    {
+      "id": 9,
+      "question": "The principle of 'Least Restrictive Environment' (LRE) in special and inclusive education means that students with disabilities should:",
+      "choices": [
+        "Always be placed in self-contained special education classrooms to receive focused support",
+        "Be educated in settings as close to the general education environment as appropriate to their individual needs",
+        "Receive instruction exclusively through individualized home-based tutoring programs",
+        "Be assessed using identical standardized tests as their typically developing peers without accommodation"
+      ],
+      "answer": "Be educated in settings as close to the general education environment as appropriate to their individual needs",
+      "explanation": "The LRE principle requires students with disabilities to be placed in general education settings to the maximum extent appropriate, with supports. More restrictive placements are used only when the nature of the disability prevents satisfactory education in a general setting."
+    },
+    {
+      "id": 10,
+      "question": "James Banks' 'Transformation Approach' to multicultural curriculum is distinguished from the 'Contributions Approach' in that it:",
+      "choices": [
+        "Adds ethnic heroes and cultural holidays to the existing curriculum without changing its basic structure",
+        "Invites guest speakers from minority communities to share cultural practices during special months",
+        "Restructures the curriculum so students examine concepts and issues from the perspectives of diverse cultural and ethnic groups",
+        "Translates all instructional materials into the learners' mother tongue"
+      ],
+      "answer": "Restructures the curriculum so students examine concepts and issues from the perspectives of diverse cultural and ethnic groups",
+      "explanation": "Banks' four levels are: (1) Contributions — heroes and holidays; (2) Additive — content added without structural change; (3) Transformation — curriculum restructured for multiple cultural perspectives; (4) Social Action — students act on social justice issues. Transformation is a deeper structural reform than surface-level addition."
+    }
+  ]
+}

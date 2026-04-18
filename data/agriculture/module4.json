@@ -1,0 +1,281 @@
+{
+  "module": "Module 4 - Crop Protection",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the scientific study of insects called?",
+      "choices": ["Entomology", "Pathology", "Nematology", "Mycology"],
+      "answer": "Entomology",
+      "explanation": "Entomology is the branch of zoology concerned with the study of insects, including their biology, ecology, and management."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a chewing insect pest?",
+      "choices": ["Aphid", "Whitefly", "Armyworm", "Mealybug"],
+      "answer": "Armyworm",
+      "explanation": "Armyworms are caterpillars (Lepidoptera) with chewing mouthparts that consume plant tissue. Aphids, whiteflies, and mealybugs are sucking insects."
+    },
+    {
+      "id": 3,
+      "question": "Integrated Pest Management (IPM) is best described as:",
+      "choices": [
+        "Using only chemical pesticides for pest control",
+        "Combining multiple pest control methods to minimize economic and environmental harm",
+        "Eliminating all pests from a field completely",
+        "Using only biological agents for pest control"
+      ],
+      "answer": "Combining multiple pest control methods to minimize economic and environmental harm",
+      "explanation": "IPM integrates biological, cultural, mechanical, and chemical methods to manage pests in an economically and environmentally sound way."
+    },
+    {
+      "id": 4,
+      "question": "The Economic Threshold Level (ETL) in pest management refers to:",
+      "choices": [
+        "The cost of pesticide application",
+        "The pest population level at which control action must be taken to prevent economic loss",
+        "The maximum pesticide residue allowed in crops",
+        "The number of pests that cause complete crop failure"
+      ],
+      "answer": "The pest population level at which control action must be taken to prevent economic loss",
+      "explanation": "ETL is the pest density at which control measures should be applied to prevent the population from reaching the Economic Injury Level (EIL)."
+    },
+    {
+      "id": 5,
+      "question": "Which fungal disease causes the 'blast' disease in rice?",
+      "choices": ["Rhizoctonia solani", "Pyricularia oryzae", "Fusarium oxysporum", "Sclerotium rolfsii"],
+      "answer": "Pyricularia oryzae",
+      "explanation": "Rice blast, caused by Pyricularia oryzae (also known as Magnaporthe oryzae), is one of the most destructive fungal diseases of rice worldwide."
+    },
+    {
+      "id": 6,
+      "question": "Biological control involves:",
+      "choices": [
+        "Using synthetic chemicals to kill pests",
+        "Using natural enemies such as predators, parasitoids, and pathogens to suppress pest populations",
+        "Burning infested plant material",
+        "Rotating crops to disrupt pest cycles"
+      ],
+      "answer": "Using natural enemies such as predators, parasitoids, and pathogens to suppress pest populations",
+      "explanation": "Biological control uses living organisms — predators, parasitoids, or pathogens — to reduce pest populations to below economically damaging levels."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is an example of a parasitoid used in biological control?",
+      "choices": ["Ladybird beetle", "Trichogramma wasp", "Green lacewing", "Ground beetle"],
+      "answer": "Trichogramma wasp",
+      "explanation": "Trichogramma spp. are egg parasitoids that lay their eggs inside pest insect eggs, killing them. They are widely used in biocontrol programs against lepidopteran pests."
+    },
+    {
+      "id": 8,
+      "question": "What type of weed is Echinochloa crus-galli (barnyard grass)?",
+      "choices": ["Broadleaf weed", "Sedge", "Grassy weed", "Aquatic weed"],
+      "answer": "Grassy weed",
+      "explanation": "Barnyard grass (Echinochloa crus-galli) is a grassy weed belonging to the family Poaceae, making it one of the most problematic weeds in rice paddies."
+    },
+    {
+      "id": 9,
+      "question": "The critical period of weed competition in crops refers to:",
+      "choices": [
+        "The period after harvest",
+        "The period during which weeds must be controlled to prevent significant yield loss",
+        "The period when weeds produce seeds",
+        "The period when herbicides are most toxic"
+      ],
+      "answer": "The period during which weeds must be controlled to prevent significant yield loss",
+      "explanation": "The critical period of weed competition is the crop growth stage during which weeds cause the most yield loss if not controlled."
+    },
+    {
+      "id": 10,
+      "question": "Which pesticide group is specifically designed to kill fungi?",
+      "choices": ["Herbicide", "Insecticide", "Fungicide", "Nematicide"],
+      "answer": "Fungicide",
+      "explanation": "Fungicides are chemical compounds used to kill or inhibit fungi and their spores. They are used to control fungal diseases in crops."
+    },
+    {
+      "id": 11,
+      "question": "What is the primary mode of transmission of most plant viruses in the field?",
+      "choices": ["Wind", "Soil", "Insects (vectors)", "Irrigation water"],
+      "answer": "Insects (vectors)",
+      "explanation": "Most plant viruses are transmitted by insect vectors, particularly aphids, whiteflies, thrips, and leafhoppers through their feeding activity on infected plants."
+    },
+    {
+      "id": 12,
+      "question": "Tungro disease in rice is caused by:",
+      "choices": [
+        "A fungus",
+        "A bacterium",
+        "A combination of two viruses transmitted by green leafhopper",
+        "A nematode"
+      ],
+      "answer": "A combination of two viruses transmitted by green leafhopper",
+      "explanation": "Rice tungro disease is caused by two viruses — Rice Tungro Bacilliform Virus (RTBV) and Rice Tungro Spherical Virus (RTSV) — transmitted by the green leafhopper (Nephotettix virescens)."
+    },
+    {
+      "id": 13,
+      "question": "Cultural control methods for pest management include:",
+      "choices": [
+        "Applying insecticides at recommended rates",
+        "Releasing predatory insects",
+        "Crop rotation, proper spacing, and sanitation",
+        "Using resistant varieties"
+      ],
+      "answer": "Crop rotation, proper spacing, and sanitation",
+      "explanation": "Cultural control involves modifying the growing environment through practices like crop rotation, sanitation, proper spacing, and tillage to reduce pest buildup."
+    },
+    {
+      "id": 14,
+      "question": "The term 'phytopathology' refers to the study of:",
+      "choices": ["Plant insects", "Plant diseases", "Plant weeds", "Plant nutrition"],
+      "answer": "Plant diseases",
+      "explanation": "Phytopathology (plant pathology) is the scientific study of plant diseases caused by pathogens such as fungi, bacteria, viruses, nematodes, and abiotic factors."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is a pre-emergent herbicide?",
+      "choices": ["Paraquat", "Glyphosate", "Pendimethalin", "2,4-D"],
+      "answer": "Pendimethalin",
+      "explanation": "Pre-emergent herbicides like pendimethalin are applied before weed seeds germinate, forming a chemical barrier in the soil. Paraquat, glyphosate, and 2,4-D are post-emergent."
+    },
+    {
+      "id": 16,
+      "question": "Disease triangle in plant pathology refers to the interaction of:",
+      "choices": [
+        "Host, pathogen, and environment",
+        "Soil, water, and air",
+        "Insect, weed, and fungus",
+        "Chemical, biological, and cultural control"
+      ],
+      "answer": "Host, pathogen, and environment",
+      "explanation": "The disease triangle concept states that plant disease occurs only when a susceptible host, a virulent pathogen, and a favorable environment occur simultaneously."
+    },
+    {
+      "id": 17,
+      "question": "The brown planthopper (Nilaparvata lugens) is primarily a pest of which crop?",
+      "choices": ["Corn", "Rice", "Sugarcane", "Vegetables"],
+      "answer": "Rice",
+      "explanation": "The brown planthopper is one of the most destructive insect pests of rice in Asia, causing direct feeding damage (hopperburn) and transmitting grassy stunt and ragged stunt viruses."
+    },
+    {
+      "id": 18,
+      "question": "Crop rotation helps in pest management primarily by:",
+      "choices": [
+        "Improving soil fertility",
+        "Breaking the pest life cycle by removing the host plant",
+        "Increasing pesticide effectiveness",
+        "Reducing irrigation needs"
+      ],
+      "answer": "Breaking the pest life cycle by removing the host plant",
+      "explanation": "Crop rotation disrupts pest cycles by removing the preferred host plant, preventing population buildup of host-specific pests and soilborne pathogens."
+    },
+    {
+      "id": 19,
+      "question": "Which class of pesticides is derived from the chrysanthemum flower?",
+      "choices": ["Organophosphates", "Carbamates", "Pyrethroids", "Neonicotinoids"],
+      "answer": "Pyrethroids",
+      "explanation": "Pyrethroids are synthetic versions of pyrethrins, natural insecticides derived from chrysanthemum flowers. They act on the nervous system of insects."
+    },
+    {
+      "id": 20,
+      "question": "The Koch's Postulates are used to:",
+      "choices": [
+        "Determine pesticide dosage",
+        "Prove that a specific microorganism causes a specific disease",
+        "Identify weed species",
+        "Calculate economic injury levels"
+      ],
+      "answer": "Prove that a specific microorganism causes a specific disease",
+      "explanation": "Koch's Postulates are a set of criteria established by Robert Koch to prove the causal relationship between a specific microorganism and a disease."
+    },
+    {
+      "id": 21,
+      "question": "What is the most common symptom of nitrogen deficiency that can be confused with plant disease?",
+      "choices": ["Leaf curl", "Yellowing of older leaves (chlorosis)", "Brown spots on leaves", "Wilting"],
+      "answer": "Yellowing of older leaves (chlorosis)",
+      "explanation": "Nitrogen deficiency causes yellowing (chlorosis) that starts from older/lower leaves because nitrogen is mobile and moves to younger tissues. This must be distinguished from disease-caused chlorosis."
+    },
+    {
+      "id": 22,
+      "question": "Nematodes that parasitize plants are called:",
+      "choices": ["Entomopathogenic nematodes", "Plant-parasitic nematodes", "Free-living nematodes", "Beneficial nematodes"],
+      "answer": "Plant-parasitic nematodes",
+      "explanation": "Plant-parasitic nematodes feed on plant cells and roots, causing damage symptoms like root galls, stunted growth, and reduced yields. Root-knot nematodes (Meloidogyne spp.) are the most economically important."
+    },
+    {
+      "id": 23,
+      "question": "The pesticide label statement 'Caution' indicates:",
+      "choices": [
+        "Extremely hazardous — avoid all contact",
+        "Highly toxic — wear full protective gear",
+        "Slightly toxic — relatively safe when used as directed",
+        "Non-toxic to all organisms"
+      ],
+      "answer": "Slightly toxic — relatively safe when used as directed",
+      "explanation": "Pesticide toxicity is indicated by signal words: DANGER (highly toxic), WARNING (moderately toxic), and CAUTION (slightly toxic). CAUTION indicates the lowest toxicity class."
+    },
+    {
+      "id": 24,
+      "question": "Which method of weed control involves flooding the field to suppress weed growth?",
+      "choices": ["Mechanical control", "Chemical control", "Cultural control — water management", "Biological control"],
+      "answer": "Cultural control — water management",
+      "explanation": "Flooding or water management is a cultural control method used in rice paddies to suppress terrestrial weeds by creating anaerobic conditions unfavorable for most weed species."
+    },
+    {
+      "id": 25,
+      "question": "The term 'vector' in plant disease refers to:",
+      "choices": [
+        "The diseased plant",
+        "An organism that transmits a pathogen from one plant to another",
+        "The chemical used to treat disease",
+        "The resistant variety used in the field"
+      ],
+      "answer": "An organism that transmits a pathogen from one plant to another",
+      "explanation": "A vector is an organism (usually an insect) that carries and transmits a pathogen from infected to healthy plants without necessarily being harmed itself."
+    },
+    {
+      "id": 26,
+      "question": "Which of the following is NOT a method of biological control?",
+      "choices": ["Using Bacillus thuringiensis (Bt)", "Releasing Trichogramma wasps", "Spraying malathion insecticide", "Introducing predatory beetles"],
+      "answer": "Spraying malathion insecticide",
+      "explanation": "Malathion is a chemical (organophosphate) insecticide — this is chemical control, not biological control. Bt, Trichogramma, and predatory beetles are all biological control agents."
+    },
+    {
+      "id": 27,
+      "question": "Late blight of potato is caused by:",
+      "choices": ["Phytophthora infestans", "Alternaria solani", "Fusarium solani", "Rhizoctonia solani"],
+      "answer": "Phytophthora infestans",
+      "explanation": "Late blight of potato and tomato is caused by Phytophthora infestans, a water mold (oomycete). It was responsible for the Irish Potato Famine of the 1840s."
+    },
+    {
+      "id": 28,
+      "question": "Herbicide resistance in weeds is best managed by:",
+      "choices": [
+        "Increasing herbicide dosage each season",
+        "Rotating herbicides with different modes of action",
+        "Applying herbicides more frequently",
+        "Using only one effective herbicide throughout the season"
+      ],
+      "answer": "Rotating herbicides with different modes of action",
+      "explanation": "Rotating herbicides with different modes of action prevents the selection pressure that leads to resistance. Using the same herbicide repeatedly accelerates resistance development."
+    },
+    {
+      "id": 29,
+      "question": "The coconut scale insect (Aspidiotus destructor) attacks which part of the coconut?",
+      "choices": ["Roots", "Trunk", "Leaves and fruits", "Flower buds only"],
+      "answer": "Leaves and fruits",
+      "explanation": "The coconut scale insect feeds on the underside of leaves and on the surface of fruits, causing yellowing, premature nut fall, and reduction in copra yield."
+    },
+    {
+      "id": 30,
+      "question": "A quarantine pest is defined as:",
+      "choices": [
+        "A pest that has been completely eradicated",
+        "A pest of potential economic importance not yet present or not widely distributed in an area",
+        "A pest that only affects quarantined crops",
+        "A pest that requires quarantine of the farmer"
+      ],
+      "answer": "A pest of potential economic importance not yet present or not widely distributed in an area",
+      "explanation": "According to ISPM No. 5 (FAO), a quarantine pest is a pest of potential economic importance to the area endangered thereby and not yet present there, or present but not widely distributed and being officially controlled."
+    }
+  ]
+}
