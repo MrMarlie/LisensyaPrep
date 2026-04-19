@@ -54,7 +54,7 @@ export default function Header() {
               className="object-contain h-10 w-auto"
               priority
             />
-            <span className="font-extrabold text-xl hidden sm:inline">
+            <span className="font-extrabold text-xl">
               <span className="text-white">Lisensya</span>
               <span className="text-yellow-400">Prep</span>
             </span>
