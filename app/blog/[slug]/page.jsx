@@ -18,17 +18,6 @@ export async function generateMetadata({ params }) {
   });
 }
 
-// Auto-link bare URLs (e.g. prc.gov.ph, online.prc.gov.ph) to actual <a> tags
-function linkifyUrls(html) {
-  return html.replace(
-    /\b((?:https?:\/\/)?(?:www\.)?[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*\.(?:gov\.ph|com\.ph|edu\.ph|org\.ph|com|net|org|ph)(?:\/[^\s<>"']*)?)\b/g,
-    (url) => {
-      const href = /^https?:\/\//.test(url) ? url : `https://${url}`;
-      return `<a href="${href}" target="_blank" rel="noopener noreferrer" class="text-yellow-400 hover:text-yellow-300 underline underline-offset-2">${url}</a>`;
-    }
-  );
-}
-
 // Apply markdown links, bold, italic, code, and URL formatting
 function formatInline(text) {
   let result = text
