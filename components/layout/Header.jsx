@@ -10,6 +10,7 @@ import AuthModal from '@/components/auth/AuthModal';
 const COURSES = [
   { href: '/agriculture', label: '🌾 Agriculture' },
   { href: '/education', label: '🎓 Education (LET)' },
+  { href: '/criminology', label: '⚖️ Criminology' },
 ];
 
 const NAV_LINKS = [

@@ -7,6 +7,7 @@ import { MODULE_INFO } from '@/lib/quizEngine';
 
 const AGR_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'agriculture');
 const EDU_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'education');
+const CRI_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'criminology');
 
 const COURSES = [
   {
@@ -30,6 +31,17 @@ const COURSES = [
     completeBorder: 'border-sky-400',
     href: '/education',
     modules: EDU_MODS,
+  },
+  {
+    examId: 'criminology',
+    label: 'Criminology',
+    icon: '⚖️',
+    color: 'from-purple-900/30 to-purple-800/10',
+    border: 'border-purple-500/40',
+    accent: 'text-purple-400',
+    completeBorder: 'border-purple-400',
+    href: '/criminology',
+    modules: CRI_MODS,
   },
 ];
 
@@ -159,22 +171,25 @@ function CourseCollection({ course, collectibles, stats }) {
 }
 
 export default function CollectionPage() {
-  const [collectiblesMap, setCollectiblesMap] = useState({ agriculture: {}, education: {} });
+  const [collectiblesMap, setCollectiblesMap] = useState({ agriculture: {}, education: {}, criminology: {} });
   const [statsMap, setStatsMap] = useState({
     agriculture: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
     education: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
+    criminology: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
   });
 
   useEffect(() => {
     async function load() {
-      const [agrC, eduC, agrS, eduS] = await Promise.all([
+      const [agrC, eduC, criC, agrS, eduS, criS] = await Promise.all([
         getExamCollectibles('agriculture'),
         getExamCollectibles('education'),
+        getExamCollectibles('criminology'),
         getOverallStats('agriculture'),
         getOverallStats('education'),
+        getOverallStats('criminology'),
       ]);
-      setCollectiblesMap({ agriculture: agrC, education: eduC });
-      setStatsMap({ agriculture: agrS, education: eduS });
+      setCollectiblesMap({ agriculture: agrC, education: eduC, criminology: criC });
+      setStatsMap({ agriculture: agrS, education: eduS, criminology: criS });
     }
     load();
   }, []);
