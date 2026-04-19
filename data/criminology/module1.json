@@ -1,0 +1,356 @@
+{
+  "module": "Module 1 - Criminal Jurisprudence and Procedure",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which law is known as the Revised Penal Code of the Philippines?",
+      "choices": ["Act No. 3815", "Republic Act 6975", "Presidential Decree 968", "Act No. 4103"],
+      "answer": "Act No. 3815",
+      "explanation": "Act No. 3815, enacted on December 8, 1930, is the Revised Penal Code of the Philippines. It defines crimes and their corresponding penalties."
+    },
+    {
+      "id": 2,
+      "question": "A crime is considered consummated when:",
+      "choices": ["All elements necessary for its execution and accomplishment are present", "The offender begins the commission of the act", "The offender performs all acts of execution but does not produce the crime", "The offender merely prepares the means for committing the crime"],
+      "answer": "All elements necessary for its execution and accomplishment are present",
+      "explanation": "A felony is consummated when all the elements necessary for its execution and accomplishment are present. This is the final stage of the commission of a crime."
+    },
+    {
+      "id": 3,
+      "question": "Which stage of a felony occurs when the offender performs all the acts of execution but the crime does not result due to causes independent of the offender's will?",
+      "choices": ["Frustrated", "Attempted", "Consummated", "Impossible crime"],
+      "answer": "Frustrated",
+      "explanation": "A felony is frustrated when the offender performs all the acts of execution which would produce the felony as a consequence but which, nevertheless, do not produce it by reason of causes independent of the will of the perpetrator (Article 6, RPC)."
+    },
+    {
+      "id": 4,
+      "question": "Under the Revised Penal Code, which of the following is NOT an element of voluntariness?",
+      "choices": ["Dolo or culpa", "Freedom of action", "Intelligence", "Physical strength"],
+      "answer": "Physical strength",
+      "explanation": "The elements of voluntariness are: (1) freedom of action, (2) intelligence, and (3) intent (dolo) or negligence (culpa). Physical strength is not a required element."
+    },
+    {
+      "id": 5,
+      "question": "What is the term for crimes committed by means of deceit (dolo)?",
+      "choices": ["Intentional felonies", "Culpable felonies", "Impossible crimes", "Complex crimes"],
+      "answer": "Intentional felonies",
+      "explanation": "Intentional felonies (doloso) are committed by means of deceit (dolo). The offender acts with deliberate intent to commit the crime, with freedom, intelligence, and malice."
+    },
+    {
+      "id": 6,
+      "question": "Justifying circumstances in criminal law are those where:",
+      "choices": ["The act is considered not a crime and the offender incurs no criminal liability", "Criminal liability is mitigated but not entirely removed", "The offender is exempt from criminal liability but not civil liability", "The crime is reduced to a lesser offense"],
+      "answer": "The act is considered not a crime and the offender incurs no criminal liability",
+      "explanation": "In justifying circumstances under Article 11 of the RPC, the act is considered lawful. The offender incurs no criminal liability and generally no civil liability as well."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is a justifying circumstance?",
+      "choices": ["Self-defense", "Minority (below 15 years old)", "Insanity", "Entrapment"],
+      "answer": "Self-defense",
+      "explanation": "Self-defense is a justifying circumstance under Article 11(1) of the RPC. The act is lawful and the offender incurs no criminal or civil liability when all elements are present."
+    },
+    {
+      "id": 8,
+      "question": "For self-defense to be a valid justifying circumstance, which of the following elements is NOT required?",
+      "choices": ["Prior provocation on the part of the offender", "Unlawful aggression on the part of the victim", "Reasonable necessity of the means employed to repel the attack", "Lack of sufficient provocation on the part of the person defending himself"],
+      "answer": "Prior provocation on the part of the offender",
+      "explanation": "The three elements of self-defense are: (1) unlawful aggression by the victim, (2) reasonable necessity of the means employed, and (3) lack of sufficient provocation on the part of the person defending himself. Prior provocation by the offender would actually negate self-defense."
+    },
+    {
+      "id": 9,
+      "question": "An exempting circumstance under Article 12 of the RPC:",
+      "choices": ["Relieves the offender of criminal liability but may still result in civil liability", "Makes the act completely lawful with no liability at all", "Only reduces the penalty imposed", "Removes the criminal nature of the act"],
+      "answer": "Relieves the offender of criminal liability but may still result in civil liability",
+      "explanation": "Exempting circumstances exempt the offender from criminal liability because of the absence of dolo or culpa. However, civil liability may still exist and is borne by the persons responsible for the offender."
+    },
+    {
+      "id": 10,
+      "question": "Under the Revised Penal Code, which age bracket is absolutely exempt from criminal liability?",
+      "choices": ["Below 15 years old", "Below 18 years old", "Below 12 years old", "Below 16 years old"],
+      "answer": "Below 15 years old",
+      "explanation": "Under RA 9344 (Juvenile Justice and Welfare Act), as amended by RA 10630, a child 15 years old and below is exempt from criminal liability. The RPC originally set this at 9 years old, but RA 9344 raised the minimum age of criminal responsibility to 15."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is a mitigating circumstance under the Revised Penal Code?",
+      "choices": ["Acting in the immediate vindication of a grave offense", "Nighttime", "Use of a motor vehicle", "By a band"],
+      "answer": "Acting in the immediate vindication of a grave offense",
+      "explanation": "Acting in the immediate vindication of a grave offense to the one committing the felony, his spouse, ascendants, descendants, siblings, or relatives by affinity within the same degrees is an ordinary mitigating circumstance under Article 13 RPC."
+    },
+    {
+      "id": 12,
+      "question": "Treachery (alevosia) as an aggravating circumstance means:",
+      "choices": ["The offender employs means, methods, or forms ensuring execution without risk to himself from the offended party's defense", "The crime is committed with the aid of armed persons", "The offense is committed in the nighttime", "The offender acted with premeditation"],
+      "answer": "The offender employs means, methods, or forms ensuring execution without risk to himself from the offended party's defense",
+      "explanation": "Treachery (alevosia) is when the offender commits any of the crimes against persons employing means, methods, or forms to directly ensure execution without risk to himself arising from the defense the offended party might take (Article 14(16), RPC)."
+    },
+    {
+      "id": 13,
+      "question": "What type of crime results when a single act constitutes two or more grave or less grave felonies?",
+      "choices": ["Compound crime (delito compuesto)", "Complex crime proper (delito complejo)", "Continued crime", "Habitual delinquency"],
+      "answer": "Compound crime (delito compuesto)",
+      "explanation": "Under Article 48 of the RPC, when a single act constitutes two or more grave or less grave felonies, it is a compound crime (delito compuesto). The penalty for the most serious crime shall be imposed in its maximum period."
+    },
+    {
+      "id": 14,
+      "question": "The doctrine of pro reo in criminal law means:",
+      "choices": ["Penal laws shall be interpreted in favor of the accused when in doubt", "The accused is presumed innocent until proven guilty", "All crimes must be proven beyond reasonable doubt", "The state bears the burden of proof in criminal cases"],
+      "answer": "Penal laws shall be interpreted in favor of the accused when in doubt",
+      "explanation": "The pro reo doctrine states that when in doubt, criminal statutes must be interpreted in favor of the accused. This is based on the constitutional presumption of innocence."
+    },
+    {
+      "id": 15,
+      "question": "Which crime is committed when a person appropriates or converts money or property received by him in trust?",
+      "choices": ["Estafa with abuse of confidence", "Theft", "Robbery", "Malversation"],
+      "answer": "Estafa with abuse of confidence",
+      "explanation": "Estafa with abuse of confidence under Article 315(1) RPC is committed by a person who misappropriates or converts money, goods, or any other personal property received by the offender in trust or on commission or for administration."
+    },
+    {
+      "id": 16,
+      "question": "What is the crime when a person takes the property of another with intent to gain, using force upon things?",
+      "choices": ["Robbery", "Theft", "Carnapping", "Malicious mischief"],
+      "answer": "Robbery",
+      "explanation": "Robbery under Article 293 RPC is committed by a person who, with intent to gain, takes the personal property belonging to another by means of violence or intimidation against persons or by using force upon things."
+    },
+    {
+      "id": 17,
+      "question": "The crime of parricide is committed when one kills:",
+      "choices": ["His father, mother, child, ascendant, descendant, or legitimate spouse", "Any person related by consanguinity", "A public officer in the performance of duty", "Any person with treachery"],
+      "answer": "His father, mother, child, ascendant, descendant, or legitimate spouse",
+      "explanation": "Parricide under Article 246 RPC is committed by any person who shall kill his father, mother, or child (whether legitimate or illegitimate), or any of his ascendants, descendants, or his spouse."
+    },
+    {
+      "id": 18,
+      "question": "Under the Revised Penal Code, murder is homicide qualified by any of the following EXCEPT:",
+      "choices": ["Passion and obfuscation", "Treachery", "In consideration of a price, reward, or promise", "By means of fire, poison, explosion"],
+      "answer": "Passion and obfuscation",
+      "explanation": "Passion and obfuscation is a mitigating circumstance, not a qualifying circumstance for murder. Murder is qualified by treachery, evident premeditation, price/reward, and other circumstances listed in Article 248 RPC."
+    },
+    {
+      "id": 19,
+      "question": "Reclusion perpetua as a penalty under the RPC has a duration of:",
+      "choices": ["20 years and 1 day to 40 years", "30 years", "12 years and 1 day to 20 years", "Life imprisonment"],
+      "answer": "20 years and 1 day to 40 years",
+      "explanation": "Reclusion perpetua under Article 27 of the RPC has a duration of 20 years and 1 day to 40 years. It carries accessory penalties of civil interdiction, perpetual absolute disqualification, and the offender shall be pardoned after serving 40 years unless by reason of his conduct or some other serious cause he is not worthy of pardon."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is a principal by induction under the Revised Penal Code?",
+      "choices": ["One who directly forces or induces others to commit a crime", "One who cooperates in the execution of the crime by prior or simultaneous acts", "One who takes direct part in the execution of the act", "One who profits from the commission of the crime"],
+      "answer": "One who directly forces or induces others to commit a crime",
+      "explanation": "Under Article 17 RPC, principals include: (1) those who take direct part, (2) those who directly force or induce others (principals by induction), and (3) those who cooperate by indispensable acts (principals by indispensable cooperation)."
+    },
+    {
+      "id": 21,
+      "question": "The prescription of crimes refers to:",
+      "choices": ["The loss of the right of the state to prosecute a criminal after the lapse of a certain time", "The serving of sentence by the convict", "The pardon of the offender by the Chief Executive", "The civil liability arising from the crime"],
+      "answer": "The loss of the right of the state to prosecute a criminal after the lapse of a certain time",
+      "explanation": "Prescription of crimes (Article 90-91, RPC) refers to the forfeiture or loss of the right of the State to prosecute the offender after the lapse of the period fixed by law. It is a cause of extinction of criminal liability."
+    },
+    {
+      "id": 22,
+      "question": "Under the Rules of Court, a preliminary investigation is required for offenses with penalties of:",
+      "choices": ["At least 4 years, 2 months, and 1 day", "More than 6 years", "At least 6 months and 1 day", "More than 1 year"],
+      "answer": "At least 4 years, 2 months, and 1 day",
+      "explanation": "Under Section 1, Rule 112 of the Revised Rules of Criminal Procedure, preliminary investigation is required for offenses where the penalty prescribed by law is at least 4 years, 2 months, and 1 day (prision correccional in its medium period)."
+    },
+    {
+      "id": 23,
+      "question": "The Miranda rights require a person under custodial investigation to be informed of the following EXCEPT:",
+      "choices": ["The right to a speedy trial", "The right to remain silent", "The right to have competent and independent counsel", "The right to be informed that any statement may be used against him"],
+      "answer": "The right to a speedy trial",
+      "explanation": "The Miranda rights (RA 7438) require informing the suspect of: right to remain silent, right to competent and independent counsel (preferably of own choice), and that any statement may be used against him. The right to a speedy trial is a separate constitutional right applicable during judicial proceedings."
+    },
+    {
+      "id": 24,
+      "question": "Warrant of arrest may be issued by a judge after:",
+      "choices": ["Personal determination that probable cause exists based on the complaint and its supporting documents", "Filing of a complaint alone", "Request by the Chief of Police", "Preliminary conference between the parties"],
+      "answer": "Personal determination that probable cause exists based on the complaint and its supporting documents",
+      "explanation": "Under Section 6, Rule 112 of the Rules of Court and Article III, Section 2 of the Constitution, a judge must personally determine the existence of probable cause before issuing a warrant of arrest by examining the complaint and supporting documents."
+    },
+    {
+      "id": 25,
+      "question": "What is the rule on double jeopardy?",
+      "choices": ["No person shall be twice put in jeopardy of punishment for the same offense", "A person may be tried twice for the same crime if new evidence is discovered", "An acquitted person may be retried if the prosecution appeals", "Double jeopardy applies only to capital offenses"],
+      "answer": "No person shall be twice put in jeopardy of punishment for the same offense",
+      "explanation": "Double jeopardy under Article III, Section 21 of the 1987 Constitution provides that no person shall be twice put in jeopardy of punishment for the same offense. If acquitted, convicted, or the case is dismissed without his consent, the accused may plead former acquittal, former conviction, or former jeopardy."
+    },
+    {
+      "id": 26,
+      "question": "Which court has original exclusive jurisdiction over all criminal cases where the penalty is imprisonment exceeding 6 years?",
+      "choices": ["Regional Trial Court", "Metropolitan Trial Court", "Municipal Trial Court", "Court of Appeals"],
+      "answer": "Regional Trial Court",
+      "explanation": "The Regional Trial Court has exclusive original jurisdiction in all criminal cases where the penalty is imprisonment exceeding 6 years, regardless of fine, and in cases not within the exclusive jurisdiction of any court (BP 129 as amended by RA 7691)."
+    },
+    {
+      "id": 27,
+      "question": "What is the meaning of 'actus non facit reum nisi mens sit rea'?",
+      "choices": ["An act does not make a person guilty unless the mind is also guilty", "The act, not the intent, is the basis of criminal liability", "Ignorance of the law excuses no one", "A crime is complete when the act is performed"],
+      "answer": "An act does not make a person guilty unless the mind is also guilty",
+      "explanation": "This Latin maxim means that an act alone does not constitute a crime unless accompanied by a guilty mind (criminal intent). Both the actus reus (guilty act) and mens rea (guilty mind) must be present for most crimes."
+    },
+    {
+      "id": 28,
+      "question": "Obstruction of justice is penalized under:",
+      "choices": ["Presidential Decree 1829", "Republic Act 3019", "Act No. 3815", "Republic Act 6713"],
+      "answer": "Presidential Decree 1829",
+      "explanation": "PD 1829 (Penalizing Obstruction of Apprehension and Prosecution of Criminal Offenders) penalizes acts such as harboring or concealing criminals, destroying evidence, threatening witnesses, and other acts that obstruct justice."
+    },
+    {
+      "id": 29,
+      "question": "The crime of plunder requires that the accused acquired ill-gotten wealth of at least:",
+      "choices": ["50 million pesos", "10 million pesos", "100 million pesos", "1 million pesos"],
+      "answer": "50 million pesos",
+      "explanation": "Under RA 7080 (Anti-Plunder Act) as amended by RA 7659, plunder is committed when a public officer, through a combination or series of overt criminal acts, amasses, accumulates, or acquires ill-gotten wealth with an aggregate amount of at least 50 million pesos."
+    },
+    {
+      "id": 30,
+      "question": "What type of evidence is directly obtained from the senses of the witness?",
+      "choices": ["Direct evidence", "Circumstantial evidence", "Corroborative evidence", "Hearsay evidence"],
+      "answer": "Direct evidence",
+      "explanation": "Direct evidence proves the fact in dispute without an inference or presumption. It is evidence that directly proves a fact, without needing any inference or presumption to connect it to the conclusion."
+    },
+    {
+      "id": 31,
+      "question": "Circumstantial evidence is sufficient for conviction if:",
+      "choices": ["There is more than one circumstance, the facts from which inferences are derived are proven, and the combination produces conviction beyond reasonable doubt", "There is at least one strong circumstance pointing to guilt", "The circumstantial evidence is corroborated by the testimony of two witnesses", "The accused cannot explain the circumstances"],
+      "answer": "There is more than one circumstance, the facts from which inferences are derived are proven, and the combination produces conviction beyond reasonable doubt",
+      "explanation": "Under Section 4, Rule 133 of the Rules of Court, circumstantial evidence is sufficient for conviction if: (a) there is more than one circumstance; (b) the facts from which inferences are derived are proven; and (c) the combination of all circumstances is such as to produce conviction beyond reasonable doubt."
+    },
+    {
+      "id": 32,
+      "question": "The Anti-Wire Tapping Act of the Philippines is:",
+      "choices": ["Republic Act 4200", "Republic Act 9372", "Republic Act 6235", "Presidential Decree 1602"],
+      "answer": "Republic Act 4200",
+      "explanation": "RA 4200 (Anti-Wire Tapping Act) prohibits the overhearing, intercepting, or recording of private communications or spoken word of any person using devices. Violations are penalized with imprisonment."
+    },
+    {
+      "id": 33,
+      "question": "Under the Anti-Graft and Corrupt Practices Act (RA 3019), public officers are prohibited from:",
+      "choices": ["Persuading, inducing, or influencing another public officer to perform an act constituting a violation of the rules", "Rendering decisions based on law", "Implementing government projects", "Following orders of superior officers"],
+      "answer": "Persuading, inducing, or influencing another public officer to perform an act constituting a violation of the rules",
+      "explanation": "Section 3 of RA 3019 enumerates corrupt practices including persuading, inducing, or influencing another public officer to perform an act constituting a violation of rules and regulations."
+    },
+    {
+      "id": 34,
+      "question": "What is the crime of rebellion?",
+      "choices": ["Rising publicly to remove allegiance from the government or to deprive the Chief Executive of his powers", "Armed attack against a police officer", "Mere refusal to follow lawful orders", "Organizing a political party"],
+      "answer": "Rising publicly to remove allegiance from the government or to deprive the Chief Executive of his powers",
+      "explanation": "Rebellion under Article 134 RPC is committed by rising publicly and taking arms against the Government for the purpose of removing allegiance to said Government or its laws or to deprive the Chief Executive or Congress of any of their powers."
+    },
+    {
+      "id": 35,
+      "question": "The crime of illegal detention is committed by:",
+      "choices": ["A private individual who locks up or detains another without legal grounds", "A public officer who detains a person without a valid warrant", "Any person who prevents another from leaving a place", "A jailer who refuses to release a prisoner after serving sentence"],
+      "answer": "A private individual who locks up or detains another without legal grounds",
+      "explanation": "Illegal detention (Article 267-268 RPC) is committed by a private individual who detains or locks up another person. When committed by a public officer, the crime is arbitrary detention (Article 124 RPC)."
+    },
+    {
+      "id": 36,
+      "question": "The Anti-Child Abuse Law in the Philippines is:",
+      "choices": ["Republic Act 7610", "Republic Act 9262", "Republic Act 8353", "Republic Act 9775"],
+      "answer": "Republic Act 7610",
+      "explanation": "RA 7610 (Special Protection of Children Against Abuse, Exploitation and Discrimination Act) is the primary law protecting children from various forms of abuse, exploitation, and discrimination in the Philippines."
+    },
+    {
+      "id": 37,
+      "question": "What is the standard of proof required for conviction in criminal cases?",
+      "choices": ["Proof beyond reasonable doubt", "Preponderance of evidence", "Substantial evidence", "Clear and convincing evidence"],
+      "answer": "Proof beyond reasonable doubt",
+      "explanation": "In criminal cases, the accused is presumed innocent and may only be convicted upon proof beyond reasonable doubt. This is the highest standard of proof required in any proceeding."
+    },
+    {
+      "id": 38,
+      "question": "The Dangerous Drugs Act of 2002 is:",
+      "choices": ["Republic Act 9165", "Republic Act 6425", "Republic Act 7659", "Presidential Decree 1619"],
+      "answer": "Republic Act 9165",
+      "explanation": "RA 9165 (Comprehensive Dangerous Drugs Act of 2002) is the current law governing illegal drugs in the Philippines. It repealed RA 6425 (Dangerous Drugs Act of 1972)."
+    },
+    {
+      "id": 39,
+      "question": "Under RA 9165, the mandatory drug test for students applies to those in:",
+      "choices": ["Secondary and tertiary level", "All levels from Grade 1", "College level only", "Post-graduate level only"],
+      "answer": "Secondary and tertiary level",
+      "explanation": "Under Section 36 of RA 9165, students of secondary and tertiary schools shall be subjected to random drug testing. Officers and employees of public and private offices are also subject to drug testing."
+    },
+    {
+      "id": 40,
+      "question": "The Indeterminate Sentence Law (Act 4103) does NOT apply to persons convicted of:",
+      "choices": ["Offenses punishable by death or life imprisonment", "Estafa", "Physical injuries", "Theft"],
+      "answer": "Offenses punishable by death or life imprisonment",
+      "explanation": "The Indeterminate Sentence Law does not apply to: persons convicted of offenses punished with death or life imprisonment; those convicted of treason, conspiracy or proposal to commit treason; misprision of treason; rebellion; sedition; espionage; piracy; or those who are habitual delinquents."
+    },
+    {
+      "id": 41,
+      "question": "A person is considered a habitual delinquent if, within a period of 10 years from his last conviction, he is found guilty of:",
+      "choices": ["Robo, hurto, estafa, falsification, or physical injuries for the third time or oftener", "Any felony for the second time", "Crimes involving moral turpitude twice", "Any violent crime three times"],
+      "answer": "Robo, hurto, estafa, falsification, or physical injuries for the third time or oftener",
+      "explanation": "Under Article 62(5) of the RPC, a habitual delinquent is one who, within 10 years from the date of his last release or last conviction of the crimes of serious or less serious physical injuries, robo, hurto, estafa, or falsification, is found guilty of any of said crimes a third time or oftener."
+    },
+    {
+      "id": 42,
+      "question": "The doctrine of res ipsa loquitur in criminal law means:",
+      "choices": ["The thing speaks for itself — negligence may be inferred from the facts", "The accused must prove his innocence", "The crime is self-evident from the circumstances", "The court may take judicial notice of the crime"],
+      "answer": "The thing speaks for itself — negligence may be inferred from the facts",
+      "explanation": "Res ipsa loquitur ('the thing speaks for itself') is a doctrine applied in negligence cases where the circumstances of the injury are such that negligence may be inferred without direct evidence of the act."
+    },
+    {
+      "id": 43,
+      "question": "Rape is classified under which title of the Revised Penal Code as amended?",
+      "choices": ["Crimes against persons", "Crimes against chastity", "Crimes against liberty", "Crimes against security"],
+      "answer": "Crimes against persons",
+      "explanation": "RA 8353 (Anti-Rape Law of 1997) reclassified rape from a crime against chastity (Article 335) to a crime against persons and inserted it as Article 266-A of the RPC under Title VIII."
+    },
+    {
+      "id": 44,
+      "question": "The rule of exclusionary evidence or the 'fruit of the poisonous tree' doctrine means:",
+      "choices": ["Evidence obtained through illegal searches and seizures is inadmissible in court", "All hearsay evidence is excluded", "Evidence from unreliable witnesses is excluded", "Illegally obtained confessions bar prosecution"],
+      "answer": "Evidence obtained through illegal searches and seizures is inadmissible in court",
+      "explanation": "The exclusionary rule (Article III, Section 3(2), 1987 Constitution) states that any evidence obtained in violation of constitutional rights against unreasonable searches and seizures shall be inadmissible for any purpose in any proceeding."
+    },
+    {
+      "id": 45,
+      "question": "The Anti-Trafficking in Persons Act of the Philippines is:",
+      "choices": ["Republic Act 9208", "Republic Act 9262", "Republic Act 8042", "Republic Act 10364"],
+      "answer": "Republic Act 9208",
+      "explanation": "RA 9208 (Anti-Trafficking in Persons Act of 2003), as amended by RA 10364 (Expanded Anti-Trafficking in Persons Act of 2012), penalizes trafficking in persons for exploitation."
+    },
+    {
+      "id": 46,
+      "question": "Under the Comprehensive Dangerous Drugs Act, the chain of custody requirement ensures that:",
+      "choices": ["Seized drugs are preserved in their original state and can be properly identified in court", "Drug offenders are prosecuted promptly", "Drug evidence is secured in the evidence room", "Police officers are accountable for drug seizures"],
+      "answer": "Seized drugs are preserved in their original state and can be properly identified in court",
+      "explanation": "Chain of custody under RA 9165 and its implementing rules ensures that seized dangerous drugs are properly marked, sealed, and documented from seizure to court presentation, preserving their integrity and evidentiary value."
+    },
+    {
+      "id": 47,
+      "question": "What is the crime when a public officer fails to render an account of public funds in his custody?",
+      "choices": ["Malversation", "Estafa", "Qualified theft", "Illegal use of public funds"],
+      "answer": "Malversation",
+      "explanation": "Malversation of public funds or property under Article 217 RPC is committed by a public officer who, by reason of his duties, is accountable for public funds or property and misappropriates, takes, or allows any other person to take such funds."
+    },
+    {
+      "id": 48,
+      "question": "The Writ of Habeas Corpus is a remedy for:",
+      "choices": ["Illegal detention or restraint of liberty", "Unlawful search and seizure", "Violation of due process in criminal trials", "Denial of the right to counsel"],
+      "answer": "Illegal detention or restraint of liberty",
+      "explanation": "The Writ of Habeas Corpus is a court order requiring the immediate release of a person from unlawful detention. It challenges the legality of a person's detention and is the appropriate remedy for illegal restraint of liberty."
+    },
+    {
+      "id": 49,
+      "question": "Entrapment as a defense in criminal law:",
+      "choices": ["Is not a valid defense — the law already fixes the trap to catch the violator", "Completely exonerates the accused", "Reduces the penalty by one degree", "Is applicable when the police initiated the crime"],
+      "answer": "Is not a valid defense — the law already fixes the trap to catch the violator",
+      "explanation": "Entrapment is NOT a valid defense in Philippine criminal law. It occurs when police merely afford the opportunity for the commission of the crime. Distinguished from instigation where police induced the crime, entrapment does not exonerate the accused."
+    },
+    {
+      "id": 50,
+      "question": "The Anti-Hazing Law in the Philippines is Republic Act:",
+      "choices": ["11053", "8049", "9745", "10591"],
+      "answer": "11053",
+      "explanation": "RA 11053 (Anti-Hazing Act of 2018) repealed RA 8049. It provides for stricter penalties for hazing and regulates initiations in fraternities, sororities, and organizations. School officials and officers of the organization who knowingly permit hazing are also held liable."
+    }
+  ]
+}

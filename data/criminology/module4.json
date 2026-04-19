@@ -1,0 +1,356 @@
+{
+  "module": "Module 4 - Crime Detection and Investigation",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Criminal investigation is best defined as:",
+      "choices": ["The lawful search for people and things useful in reconstructing the circumstances of a crime and the mental state of the perpetrator", "The arrest and prosecution of criminal suspects", "The surveillance of known criminals", "The collection of evidence at crime scenes"],
+      "answer": "The lawful search for people and things useful in reconstructing the circumstances of a crime and the mental state of the perpetrator",
+      "explanation": "Criminal investigation is the lawful search for people and things to reconstruct the circumstances of a crime. It involves collecting facts (evidence) to identify the guilty party, locate the suspect, and provide evidence of guilt through court proceedings."
+    },
+    {
+      "id": 2,
+      "question": "The 'five W's and one H' guide in criminal investigation refers to:",
+      "choices": ["Who, What, When, Where, Why, and How the crime was committed", "Who, Where, What, Witness, Weapon, and Harm", "Who, When, Which, Where, Why, and Help", "What, Where, When, Who, Weapon, and Harm"],
+      "answer": "Who, What, When, Where, Why, and How the crime was committed",
+      "explanation": "The investigative guide (5W's + 1H) helps investigators systematically document and analyze crimes: Who committed it? What happened? When? Where? Why? How? Answering these questions leads to identification, apprehension, and prosecution of offenders."
+    },
+    {
+      "id": 3,
+      "question": "The first officer's responsibilities at a crime scene include all of the following EXCEPT:",
+      "choices": ["Conducting a complete investigation of the crime", "Rendering first aid to injured persons", "Detaining witnesses and suspects", "Protecting and preserving the crime scene"],
+      "answer": "Conducting a complete investigation of the crime",
+      "explanation": "The first officer's primary responsibilities are: (1) render first aid, (2) protect life, (3) arrest suspects if still present, (4) protect the crime scene, (5) identify and detain witnesses. The complete investigation is conducted by the investigation team, not the first officer."
+    },
+    {
+      "id": 4,
+      "question": "The crime scene search method that involves moving in a series of concentric rings from the center outward is called:",
+      "choices": ["Spiral search", "Grid search", "Zone search", "Strip/line search"],
+      "answer": "Spiral search",
+      "explanation": "The spiral search method involves searching in a spiral pattern either from the center outward or from the perimeter inward. It is best for outdoor scenes without fixed boundaries. The grid search (double-strip) provides the most thorough coverage."
+    },
+    {
+      "id": 5,
+      "question": "The purpose of crime scene reconstruction is to:",
+      "choices": ["Determine what happened, who was involved, and the sequence of events during the crime", "Create a physical model of the crime scene for court use", "Photograph and document the crime scene for records", "Identify potential suspects based on physical evidence"],
+      "answer": "Determine what happened, who was involved, and the sequence of events during the crime",
+      "explanation": "Crime scene reconstruction uses physical evidence, scientific examination, and logical reasoning to determine what happened, when, how, and who was involved during a criminal event. It supports or refutes theories about the crime."
+    },
+    {
+      "id": 6,
+      "question": "The term 'interview' in criminal investigation differs from 'interrogation' in that:",
+      "choices": ["An interview is conducted with cooperative witnesses; interrogation is conducted with suspects who may be hostile or uncooperative", "An interview is formal and interrogation is informal", "Interrogation requires a lawyer present; interview does not", "An interview is recorded; interrogation is not"],
+      "answer": "An interview is conducted with cooperative witnesses; interrogation is conducted with suspects who may be hostile or uncooperative",
+      "explanation": "An interview is a non-accusatory questioning of a cooperative witness, victim, or person with information. An interrogation is an accusatory questioning of a suspect who is believed to have committed a crime. Interrogations typically occur in a controlled environment and follow specific legal requirements."
+    },
+    {
+      "id": 7,
+      "question": "The Reid Technique in interrogation is characterized by:",
+      "choices": ["A nine-step behavioral analysis approach used to elicit confessions from suspects", "Non-coercive questioning techniques for witnesses", "Polygraph-based questioning", "A court-mandated interrogation process"],
+      "answer": "A nine-step behavioral analysis approach used to elicit confessions from suspects",
+      "explanation": "The Reid Technique is a widely used interrogation method involving behavioral analysis interview (BAI) to detect deception, followed by a nine-step interrogation process that includes theme development and overcoming objections. It has been criticized for potentially eliciting false confessions."
+    },
+    {
+      "id": 8,
+      "question": "In conducting surveillance, 'fixed surveillance' (plant) means:",
+      "choices": ["Observing a subject from a stationary position", "Following a moving subject", "Electronic monitoring of communications", "Using cameras to monitor a location"],
+      "answer": "Observing a subject from a stationary position",
+      "explanation": "Fixed surveillance (plant or stakeout) involves stationary observation of a subject, location, or object. Mobile surveillance involves following a moving subject. Both types must be conducted within legal boundaries to avoid violations of privacy rights."
+    },
+    {
+      "id": 9,
+      "question": "An informant (or informer) in criminal investigation is different from an undercover agent in that:",
+      "choices": ["An informant provides information to police but is not a police officer; an undercover agent is a police officer working in disguise", "An informant is paid while an undercover agent is not", "An informant testifies in court; an undercover agent does not", "An informant is only used in drug cases"],
+      "answer": "An informant provides information to police but is not a police officer; an undercover agent is a police officer working in disguise",
+      "explanation": "An informant (informer or asset) is a civilian who provides information to police. An undercover agent is a sworn police officer who assumes a false identity to infiltrate criminal organizations. Both have important roles in intelligence gathering."
+    },
+    {
+      "id": 10,
+      "question": "The 'plain view doctrine' allows police to seize evidence without a warrant when:",
+      "choices": ["The officer is lawfully in a position, the evidence is in plain view, and its incriminating nature is immediately apparent", "The officer sees any suspicious item from a public area", "The evidence is in a visible location accessible to the public", "The officer has consent to search and discovers evidence"],
+      "answer": "The officer is lawfully in a position, the evidence is in plain view, and its incriminating nature is immediately apparent",
+      "explanation": "The plain view doctrine allows warrantless seizure when: (1) the officer is lawfully present at the location, (2) the evidence is in plain view, and (3) the incriminating nature of the item is immediately apparent. All three elements must be present."
+    },
+    {
+      "id": 11,
+      "question": "Criminal profiling (offender profiling) is used to:",
+      "choices": ["Predict characteristics of an unknown offender based on evidence from crime scenes and behavior analysis", "Identify known criminals from police databases", "Create physical descriptions of suspects based on witness accounts", "Match DNA profiles to criminal databases"],
+      "answer": "Predict characteristics of an unknown offender based on evidence from crime scenes and behavior analysis",
+      "explanation": "Criminal profiling involves analyzing crime scene evidence and behavioral patterns to infer characteristics of an unknown offender (personality, demographics, likely residence area). It helps narrow the suspect pool but is not definitive evidence of identity."
+    },
+    {
+      "id": 12,
+      "question": "The 'dying declaration' as evidence in criminal cases is admissible when:",
+      "choices": ["The declarant was aware of impending death, the statement concerns the circumstances of the cause of death, and the declarant died", "The declarant is unable to testify due to injury", "A witness reports the last known words of the victim", "The statement was made to a police officer"],
+      "answer": "The declarant was aware of impending death, the statement concerns the circumstances of the cause of death, and the declarant died",
+      "explanation": "Under the Rules of Court, a dying declaration is admissible as an exception to the hearsay rule when: (1) the declarant was under a fixed belief of impending death; (2) the statement concerns the cause and circumstances of the declarant's death; (3) the declarant subsequently died."
+    },
+    {
+      "id": 13,
+      "question": "Entrapment in criminal investigation differs from instigation in that:",
+      "choices": ["In entrapment, the criminal intent originates in the suspect; in instigation, the police plant the criminal idea in the suspect's mind", "Entrapment is legal; instigation is illegal under Philippine law", "Entrapment always uses undercover agents; instigation does not", "Both are valid police techniques with different requirements"],
+      "answer": "In entrapment, the criminal intent originates in the suspect; in instigation, the police plant the criminal idea in the suspect's mind",
+      "explanation": "Entrapment: the criminal intent originates with the suspect; police merely provide the opportunity. Instigation: police induce a previously innocent person to commit a crime. Instigation absolves the accused because the crime was incited by police. Entrapment does not excuse the offender."
+    },
+    {
+      "id": 14,
+      "question": "A 'buy-bust operation' in drug enforcement is classified as:",
+      "choices": ["A form of entrapment that is lawful and commonly used to apprehend drug pushers", "An instigation operation requiring judicial approval", "An illegal method of arrest prohibited by the Constitution", "A controlled buy operation requiring prior court authority"],
+      "answer": "A form of entrapment that is lawful and commonly used to apprehend drug pushers",
+      "explanation": "A buy-bust operation is a form of entrapment where police act as buyers of illegal drugs. The Supreme Court has consistently upheld its validity because the criminal intent to sell drugs originates with the suspect, not the police. It is a recognized method under RA 9165."
+    },
+    {
+      "id": 15,
+      "question": "The 'sketching' of a crime scene involves creating:",
+      "choices": ["A scale drawing showing the layout, measurements, and positions of evidence at the crime scene", "An artistic rendering of the crime scene for court display", "A written description of the crime scene", "A three-dimensional model of the crime scene"],
+      "answer": "A scale drawing showing the layout, measurements, and positions of evidence at the crime scene",
+      "explanation": "Crime scene sketches provide accurate, to-scale representations of the crime scene showing measurements, dimensions, and the location of evidence. They complement photographs by providing precise spatial relationships not easily conveyed in photos."
+    },
+    {
+      "id": 16,
+      "question": "The Investigation Report (also called Case Report) should contain:",
+      "choices": ["All relevant facts gathered during the investigation, including evidence, witnesses, suspects, and investigative actions taken", "Only the arrest report of the suspect", "The investigator's personal opinions about the crime", "A summary of the victim's statements only"],
+      "answer": "All relevant facts gathered during the investigation, including evidence, witnesses, suspects, and investigative actions taken",
+      "explanation": "The investigation report is a comprehensive document containing all relevant facts about the crime and the investigation. It typically includes: the offense, victim information, suspect information, witness accounts, physical evidence, modus operandi, and follow-up investigation actions."
+    },
+    {
+      "id": 17,
+      "question": "The term 'motive' in criminal investigation refers to:",
+      "choices": ["The reason or inducement that leads a person to commit a crime", "The opportunity to commit the crime", "The method used to commit the crime", "The mental state of the offender during the crime"],
+      "answer": "The reason or inducement that leads a person to commit a crime",
+      "explanation": "Motive is the reason behind the criminal act — the inner drive or impulse that leads a person to commit the crime. While motive is not an element of most crimes, establishing motive helps investigators identify suspects and understand criminal behavior."
+    },
+    {
+      "id": 18,
+      "question": "The three elements an investigator must establish to identify a suspect are:",
+      "choices": ["Opportunity, means (capability), and motive", "Physical description, motive, and weapon used", "Motive, intent, and criminal history", "Alibi, motive, and physical evidence"],
+      "answer": "Opportunity, means (capability), and motive",
+      "explanation": "To identify a criminal suspect, investigators must establish: (1) Motive - reason to commit the crime, (2) Opportunity - the suspect was at the right place and time, and (3) Means/Capability - the suspect had the ability (knowledge, skills, tools) to commit the crime."
+    },
+    {
+      "id": 19,
+      "question": "In witness interview technique, 'cognitive interview' is designed to:",
+      "choices": ["Enhance memory retrieval by using mental context reinstatement and specific recall techniques", "Detect deception in witness statements", "Interview witnesses in groups to corroborate accounts", "Conduct post-hypnotic interview of witnesses"],
+      "answer": "Enhance memory retrieval by using mental context reinstatement and specific recall techniques",
+      "explanation": "The cognitive interview technique (developed by Fisher and Geiselman) uses memory retrieval mnemonics: mentally reinstating the context, reporting everything (no censoring), recalling in different orders, and changing perspectives. It significantly improves the amount and accuracy of information retrieved from cooperative witnesses."
+    },
+    {
+      "id": 20,
+      "question": "Forensic hypnosis in criminal investigation:",
+      "choices": ["May be used to enhance witness memory but hypnotically-obtained evidence is generally inadmissible in Philippine courts", "Is inadmissible as evidence but may lead to other leads", "Is fully admissible as evidence in Philippine criminal courts", "Is only used for suspect interrogation"],
+      "answer": "May be used to enhance witness memory but hypnotically-obtained evidence is generally inadmissible in Philippine courts",
+      "explanation": "Forensic hypnosis may help witnesses retrieve additional memories but the reliability of hypnotically-elicited information is questioned. Philippine courts generally do not admit statements obtained through hypnosis. It may, however, lead investigators to other evidence."
+    },
+    {
+      "id": 21,
+      "question": "The 'alibi' as a defense in criminal investigation requires the accused to prove that:",
+      "choices": ["He was in a different place at the time the crime was committed, making it physically impossible for him to be present", "He has no motive to commit the crime", "Other people were also capable of committing the crime", "He was not identified by any witness"],
+      "answer": "He was in a different place at the time the crime was committed, making it physically impossible for him to be present",
+      "explanation": "An alibi is a defense claiming the accused was elsewhere when the crime occurred, making it physically impossible to be the perpetrator. Philippine courts require proof that it was physically impossible for the accused to have been at the crime scene at the time."
+    },
+    {
+      "id": 22,
+      "question": "Intelligence gathering in criminal investigation follows the 'intelligence cycle,' which consists of:",
+      "choices": ["Planning, collection, processing, analysis, dissemination, and feedback", "Surveillance, interview, analysis, and reporting", "Collection, evaluation, analysis, and use", "Targeting, collection, exploitation, and production"],
+      "answer": "Planning, collection, processing, analysis, dissemination, and feedback",
+      "explanation": "The intelligence cycle is the process of converting raw data into finished intelligence: (1) Planning/Direction, (2) Collection, (3) Processing, (4) Analysis/Production, (5) Dissemination, and (6) Feedback/Evaluation. This cycle ensures intelligence meets operational needs."
+    },
+    {
+      "id": 23,
+      "question": "A 'photographic lineup' (photo array) is used in criminal investigation to:",
+      "choices": ["Have a witness identify a suspect from a group of photographs", "Document the crime scene with photographs", "Present photographic evidence in court", "Compare crime scene photos with suspect photos"],
+      "answer": "Have a witness identify a suspect from a group of photographs",
+      "explanation": "A photographic lineup (or photo array/rogues gallery) presents a witness with photographs of the suspect mixed with photographs of non-suspects to see if the witness can identify the perpetrator. Proper procedures must be followed to prevent suggestive identification."
+    },
+    {
+      "id": 24,
+      "question": "The 'super sleuth method' (deductive criminal profiling) was pioneered by the FBI in:",
+      "choices": ["The Behavioral Science Unit at Quantico, Virginia in the 1970s", "The Scotland Yard in London in the 1950s", "The Philippine National Bureau of Investigation in the 1980s", "Interpol in the 1960s"],
+      "answer": "The Behavioral Science Unit at Quantico, Virginia in the 1970s",
+      "explanation": "Criminal profiling was developed and formalized by the FBI's Behavioral Science Unit (BSU) at the FBI Academy in Quantico, Virginia, in the 1970s. Agents like John Douglas and Robert Ressler pioneered criminal profiling through interviews with convicted serial killers."
+    },
+    {
+      "id": 25,
+      "question": "The search of a person incident to a lawful arrest allows police to search:",
+      "choices": ["The person and the area within the immediate reach and control of the arrested person", "The entire premises where the arrest is made", "Only the person arrested, not the surroundings", "Any area the police have probable cause to search"],
+      "answer": "The person and the area within the immediate reach and control of the arrested person",
+      "explanation": "Under the 'search incident to arrest' exception, police may search the arrested person and the area within his immediate control (wingspan) without a warrant. This is justified by the need to prevent the arrestee from destroying evidence or accessing weapons."
+    },
+    {
+      "id": 26,
+      "question": "The term 'cold case' in criminal investigation refers to:",
+      "choices": ["A criminal investigation that has stalled due to lack of leads or evidence and remains unsolved", "A case involving a victim who was not known to the offender", "An investigation conducted in extreme weather conditions", "A case where the suspect has died before prosecution"],
+      "answer": "A criminal investigation that has stalled due to lack of leads or evidence and remains unsolved",
+      "explanation": "A cold case is a crime or criminal investigation that has not been solved and active investigation has been suspended pending new information or evidence. Cold case units review old cases with fresh eyes or new forensic techniques (like DNA analysis)."
+    },
+    {
+      "id": 27,
+      "question": "The 'geographic profiling' technique in serial crime investigation is used to:",
+      "choices": ["Predict the probable location of a serial offender's base (home or work) based on crime locations", "Map the racial demographics of crime areas", "Identify crime hotspots for patrol deployment", "Determine the geographic origin of criminal suspects"],
+      "answer": "Predict the probable location of a serial offender's base (home or work) based on crime locations",
+      "explanation": "Geographic profiling (developed by D. Kim Rossmo) analyzes the spatial pattern of a serial offender's crimes to estimate where the offender lives, works, or has a comfort zone. It generates probability maps to prioritize suspect searches in serial crime cases."
+    },
+    {
+      "id": 28,
+      "question": "An 'exculpatory evidence' in criminal law is evidence that:",
+      "choices": ["Tends to establish the innocence of the accused or negates guilt", "Establishes the guilt of the accused", "Circumstantially links the accused to the crime", "Proves the accused had the motive to commit the crime"],
+      "answer": "Tends to establish the innocence of the accused or negates guilt",
+      "explanation": "Exculpatory evidence is any evidence that tends to exonerate the accused — showing innocence or reducing guilt/liability. Under the Brady Rule (Brady v. Maryland), prosecutors must disclose exculpatory evidence to the defense. Withholding such evidence is a due process violation."
+    },
+    {
+      "id": 29,
+      "question": "The NBI (National Bureau of Investigation) was established under:",
+      "choices": ["Commonwealth Act 181", "Republic Act 157", "Executive Order 94", "Republic Act 10867"],
+      "answer": "Commonwealth Act 181",
+      "explanation": "The NBI was established by Commonwealth Act 181 in 1936 as the Division of Investigation (DI). It was reorganized as the NBI by RA 157 in 1947. RA 10867 is the NBI Reorganization and Modernization Act of 2016 which further reorganized the agency."
+    },
+    {
+      "id": 30,
+      "question": "A 'John Doe warrant' is:",
+      "choices": ["An arrest warrant for an unidentified person described with sufficient particularity to identify the subject", "A warrant issued without probable cause", "A search warrant for an unknown location", "An invalid warrant that lacks specificity"],
+      "answer": "An arrest warrant for an unidentified person described with sufficient particularity to identify the subject",
+      "explanation": "A John Doe warrant is issued for an unknown person whose identity is yet to be established but who is described with sufficient particularity (physical description, MO, etc.) to identify the subject when found. The Supreme Court has upheld such warrants when the description is specific enough."
+    },
+    {
+      "id": 31,
+      "question": "The doctrine of 'fruit of the poisonous tree' in Philippine criminal procedure means:",
+      "choices": ["Evidence derived from an illegal search or arrest is inadmissible, just like the primary illegally-obtained evidence", "All physical evidence collected at a crime scene is presumed tainted", "Witness testimony about illegally obtained evidence is also excluded", "Secondary evidence obtained through legal means is admissible even if the original search was illegal"],
+      "answer": "Evidence derived from an illegal search or arrest is inadmissible, just like the primary illegally-obtained evidence",
+      "explanation": "The 'fruit of the poisonous tree' doctrine excludes not only evidence obtained in direct violation of constitutional rights but also secondary evidence derived from or discovered as a result of the illegal primary evidence."
+    },
+    {
+      "id": 32,
+      "question": "In crime investigation, 'reconstruction of a crime' is based on:",
+      "choices": ["Physical evidence interpretation, victim/witness statements, and logic/deductive reasoning", "Criminal profiling and psychological analysis only", "Witness testimony alone", "Physical evidence alone without testimonial evidence"],
+      "answer": "Physical evidence interpretation, victim/witness statements, and logic/deductive reasoning",
+      "explanation": "Crime reconstruction combines: (1) physical evidence analysis (what the evidence tells us), (2) witness and victim statements, and (3) logical deductive and inductive reasoning to determine what happened during a criminal event."
+    },
+    {
+      "id": 33,
+      "question": "The 'Katz test' (reasonable expectation of privacy) holds that the Fourth Amendment (or its Philippine equivalent) protects:",
+      "choices": ["People, not places — the protection applies wherever a person has a reasonable expectation of privacy", "Only private residences from unreasonable search", "Public areas where citizens have no privacy rights", "Only sealed packages and locked containers"],
+      "answer": "People, not places — the protection applies wherever a person has a reasonable expectation of privacy",
+      "explanation": "Katz v. United States established that the Fourth Amendment protects people's reasonable expectations of privacy, not just physical locations. A person has a reasonable expectation of privacy when: (1) they personally have an expectation of privacy, and (2) society recognizes that expectation as reasonable."
+    },
+    {
+      "id": 34,
+      "question": "The 'Exclusionary Rule' in the Philippines is enshrined in:",
+      "choices": ["Article III, Section 3(2) of the 1987 Constitution", "Rule 113 of the Rules of Court", "Republic Act 7438", "The Revised Penal Code"],
+      "answer": "Article III, Section 3(2) of the 1987 Constitution",
+      "explanation": "The Philippine Constitutional exclusionary rule is found in Article III, Section 3(2) which states: 'Any evidence obtained in violation of this or the preceding section shall be inadmissible for any purpose in any proceeding.'"
+    },
+    {
+      "id": 35,
+      "question": "Criminal intelligence analysis involves:",
+      "choices": ["Processing raw information into actionable intelligence about criminal networks, patterns, and threats", "Analyzing crime statistics for policy purposes", "Evaluating police performance metrics", "Determining criminal penalties through data analysis"],
+      "answer": "Processing raw information into actionable intelligence about criminal networks, patterns, and threats",
+      "explanation": "Criminal intelligence analysis applies analytical methods to raw information to produce intelligence products that support law enforcement decision-making. Analysts identify patterns, associations, and trends in criminal activity to support investigations and prevention."
+    },
+    {
+      "id": 36,
+      "question": "The 'consensual encounter' in law enforcement is a police-citizen contact where:",
+      "choices": ["No detention occurs and the citizen is free to leave at any time", "The citizen agrees to be searched", "The citizen voluntarily provides a confession", "Both parties consent to the encounter's terms"],
+      "answer": "No detention occurs and the citizen is free to leave at any time",
+      "explanation": "A consensual encounter is the least intrusive type of police-citizen contact. No detention or seizure occurs, and the citizen is free to walk away. Police may approach anyone and ask questions, but cannot compel a response or prevent the person from leaving."
+    },
+    {
+      "id": 37,
+      "question": "The 'Terry stop' (stop and frisk) is justified when a police officer has:",
+      "choices": ["Reasonable articulable suspicion that a person is engaged in criminal activity", "Probable cause to believe the person committed a felony", "Witnessed the person commit a crime", "Received a complaint about the person from a citizen"],
+      "answer": "Reasonable articulable suspicion that a person is engaged in criminal activity",
+      "explanation": "A Terry stop (based on Terry v. Ohio) allows a brief investigatory stop based on reasonable articulable suspicion — specific, objective facts suggesting criminal activity. It is a lower standard than probable cause and allows a pat-down for weapons if the officer believes the person is armed and dangerous."
+    },
+    {
+      "id": 38,
+      "question": "In the investigation of financial crimes, 'money laundering' refers to:",
+      "choices": ["The process of making illegally obtained money appear to have been obtained from legal sources", "Large cash transactions above reporting thresholds", "Tax evasion through illegal business transactions", "Counterfeiting of currency"],
+      "answer": "The process of making illegally obtained money appear to have been obtained from legal sources",
+      "explanation": "Money laundering (Republic Act 9160, Anti-Money Laundering Act) is the process of making illegally obtained funds appear legitimate. It typically involves three stages: placement (introducing illegal funds into the financial system), layering (obscuring the trail), and integration (using the funds)."
+    },
+    {
+      "id": 39,
+      "question": "The National Crime Information Center (NCIC) in the Philippines is maintained by:",
+      "choices": ["The PNP Directorate for Investigation and Detective Management (DIDM)", "The National Bureau of Investigation", "The Department of Justice", "The Supreme Court"],
+      "answer": "The PNP Directorate for Investigation and Detective Management (DIDM)",
+      "explanation": "The PNP-DIDM maintains criminal information systems including databases of wanted persons, stolen vehicles, and crime statistics. The DIDM provides investigative support, intelligence, and information services to PNP units nationwide."
+    },
+    {
+      "id": 40,
+      "question": "The 'show-up' identification procedure in criminal investigation involves:",
+      "choices": ["Presenting a single suspect to a witness for identification shortly after the crime", "Having witnesses view a lineup of five to six individuals", "Showing photographs to a witness for identification", "Having the suspect walk past the witness in a controlled setting"],
+      "answer": "Presenting a single suspect to a witness for identification shortly after the crime",
+      "explanation": "A show-up is an identification procedure where a single suspect is shown to a witness, usually immediately after a crime occurs. While legally permitted in limited circumstances (due to urgency), it is considered more suggestive than a lineup and may be challenged for reliability."
+    },
+    {
+      "id": 41,
+      "question": "The Anti-Cybercrime Law of the Philippines is:",
+      "choices": ["Republic Act 10175", "Republic Act 9995", "Republic Act 8792", "Republic Act 10173"],
+      "answer": "Republic Act 10175",
+      "explanation": "RA 10175 (Cybercrime Prevention Act of 2012) penalizes cybercrimes including cybersex, child pornography, identity theft, cybersquatting, hacking, and other offenses committed through ICT. It also penalizes crimes in the RPC committed through ICT at a higher penalty."
+    },
+    {
+      "id": 42,
+      "question": "The law on interception of communications relevant to criminal investigation in the Philippines is:",
+      "choices": ["RA 4200 (Anti-Wire Tapping Act) requiring a court order for interception", "The 1987 Constitution's right to privacy", "RA 10175 (Cybercrime Law)", "PD 1829 (Obstruction of Justice)"],
+      "answer": "RA 4200 (Anti-Wire Tapping Act) requiring a court order for interception",
+      "explanation": "RA 4200 prohibits unauthorized interception of private communications. RA 9372 (Human Security Act) and RA 11479 (Anti-Terrorism Act) provide for court-authorized interception in terrorism cases. Without court authority, wiretapping is illegal regardless of who conducts it."
+    },
+    {
+      "id": 43,
+      "question": "The concept of 'scene of the crime operations' (SOCO) in the PNP refers to:",
+      "choices": ["Specialized forensic teams that process crime scenes, collect evidence, and conduct initial forensic analysis", "The patrol operations in high-crime areas", "The initial response by first patrol officers to a crime scene", "The investigation of organized crime activities"],
+      "answer": "Specialized forensic teams that process crime scenes, collect evidence, and conduct initial forensic analysis",
+      "explanation": "The PNP-SOCO teams are specially trained forensic investigators who respond to crime scenes to conduct systematic documentation, evidence collection, and processing. SOCO teams are under the PNP Crime Laboratory Group."
+    },
+    {
+      "id": 44,
+      "question": "The Anti-Fencing Law (Presidential Decree 1612) penalizes persons who:",
+      "choices": ["Buy, receive, possess, or deal in stolen property knowing it to be stolen", "Steal property from private residences", "Participate in robbery or theft as accessories", "Receive stolen government property"],
+      "answer": "Buy, receive, possess, or deal in stolen property knowing it to be stolen",
+      "explanation": "PD 1612 penalizes 'fencing' — the act of buying, selling, receiving, possessing, keeping, or dealing in stolen property. A fence is presumed to have knowledge that the property is stolen if the price paid was below its fair value."
+    },
+    {
+      "id": 45,
+      "question": "The 'most important person at a crime scene' who must be identified first by the investigator is:",
+      "choices": ["The victim", "The first responding officer", "The witness closest to the scene", "The property owner"],
+      "answer": "The victim",
+      "explanation": "The victim is the most important person at a crime scene because they can provide direct information about the crime, the perpetrator, and what happened. Even in homicide cases, the victim's identity and circumstances can provide crucial investigative leads."
+    },
+    {
+      "id": 46,
+      "question": "Under the Anti-Violence Against Women and Their Children Act (RA 9262), protective orders may be issued by:",
+      "choices": ["Barangay officials, family courts, and regular courts", "Only the Regional Trial Court", "Only the barangay captain", "Only the Family Court"],
+      "answer": "Barangay officials, family courts, and regular courts",
+      "explanation": "RA 9262 provides for three types of protection orders: (1) Barangay Protection Order (BPO) issued by barangay officials, (2) Temporary Protection Order (TPO) by the court, and (3) Permanent Protection Order (PPO) after hearing. BPOs can be issued immediately without a court order."
+    },
+    {
+      "id": 47,
+      "question": "The primary purpose of conducting a 'post-mortem examination' (autopsy) in a homicide investigation is to:",
+      "choices": ["Determine the cause, manner, and mechanism of death and collect physical evidence from the body", "Identify the victim", "Gather witness testimony about the death", "Document injuries for insurance purposes"],
+      "answer": "Determine the cause, manner, and mechanism of death and collect physical evidence from the body",
+      "explanation": "In homicide investigations, the autopsy determines: (1) cause of death (disease, injury type), (2) manner of death (natural, accident, suicide, homicide), (3) mechanism of death (how the cause led to death), and collects trace evidence, projectiles, and other physical evidence."
+    },
+    {
+      "id": 48,
+      "question": "The Inter-Agency Council Against Trafficking (IACAT) was established under:",
+      "choices": ["Republic Act 9208 (Anti-Trafficking in Persons Act)", "Republic Act 9262 (VAWC Act)", "Republic Act 7610 (Anti-Child Abuse Law)", "Republic Act 9775 (Anti-Child Pornography Act)"],
+      "answer": "Republic Act 9208 (Anti-Trafficking in Persons Act)",
+      "explanation": "IACAT was established under Section 20 of RA 9208. It is chaired by the Secretary of Justice and co-chaired by the Secretary of Social Welfare and Development, with various government agencies as members to coordinate anti-trafficking efforts."
+    },
+    {
+      "id": 49,
+      "question": "The 'investigative triangle' in criminal investigation consists of:",
+      "choices": ["Victim, suspect, and scene", "Evidence, motive, and opportunity", "Crime, suspect, and prosecution", "Police, investigator, and court"],
+      "answer": "Victim, suspect, and scene",
+      "explanation": "The investigative triangle consists of the victim, suspect, and crime scene — the three primary sources of information and evidence in any criminal investigation. Understanding the relationships and interactions among these three elements is fundamental to solving crimes."
+    },
+    {
+      "id": 50,
+      "question": "The Philippine Statistics Authority (PSA) and the PNP's statistics function is related to which crime investigation concept?",
+      "choices": ["Crime mapping and spatial analysis", "Criminal profiling", "Forensic evidence analysis", "Victim identification"],
+      "answer": "Crime mapping and spatial analysis",
+      "explanation": "Crime mapping uses geographic information systems (GIS) to visualize and analyze the spatial distribution of crimes. The PNP uses crime mapping with data from the PSA and other sources to identify crime hotspots, allocate resources, and develop targeted prevention strategies."
+    }
+  ]
+}

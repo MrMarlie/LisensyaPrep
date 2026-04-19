@@ -1,0 +1,356 @@
+{
+  "module": "Module 2 - Criminalistics",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Criminalistics is best defined as:",
+      "choices": ["The application of scientific disciplines to law enforcement and criminal justice", "The study of criminal behavior and its causes", "The administration of the correctional system", "The study of crime statistics and trends"],
+      "answer": "The application of scientific disciplines to law enforcement and criminal justice",
+      "explanation": "Criminalistics is the application of various scientific disciplines to law enforcement and criminal justice. It involves the collection, preservation, and analysis of physical evidence in criminal cases."
+    },
+    {
+      "id": 2,
+      "question": "Dactyloscopy is the science that deals with:",
+      "choices": ["The study and classification of fingerprints for identification", "The examination of questioned documents", "The analysis of firearms and ballistics", "The study of handwriting"],
+      "answer": "The study and classification of fingerprints for identification",
+      "explanation": "Dactyloscopy (from Greek: daktylos = finger, skopein = to examine) is the science of fingerprint identification. It involves the study, classification, and comparison of fingerprint patterns for personal identification purposes."
+    },
+    {
+      "id": 3,
+      "question": "The three basic fingerprint patterns are:",
+      "choices": ["Loop, whorl, and arch", "Spiral, oval, and arch", "Radial, ulnar, and composite", "Tented arch, plain arch, and loop"],
+      "answer": "Loop, whorl, and arch",
+      "explanation": "The three basic fingerprint patterns are loop (most common, about 60-65%), whorl (about 30-35%), and arch (about 5%). Each has distinctive characteristics used in fingerprint classification systems like the Henry System."
+    },
+    {
+      "id": 4,
+      "question": "A latent fingerprint is one that is:",
+      "choices": ["Not visible to the naked eye and requires development techniques to be seen", "Visible and left on a hard surface", "Lifted from a crime scene using tape", "Left on a dusty surface"],
+      "answer": "Not visible to the naked eye and requires development techniques to be seen",
+      "explanation": "Latent fingerprints are impressions left by friction ridge skin that are not readily visible to the naked eye. They are formed by sweat and body oils and require development techniques such as dusting with fingerprint powder, ninhydrin, or cyanoacrylate fuming."
+    },
+    {
+      "id": 5,
+      "question": "The Henry Classification System for fingerprints was developed by:",
+      "choices": ["Sir Edward Richard Henry", "Francis Galton", "Juan Vucetich", "Alphonse Bertillon"],
+      "answer": "Sir Edward Richard Henry",
+      "explanation": "The Henry Classification System was developed by Sir Edward Richard Henry, who served as Inspector-General of Police in Bengal, India. It was adopted by Scotland Yard in 1901 and became the standard fingerprint classification system used by many law enforcement agencies."
+    },
+    {
+      "id": 6,
+      "question": "In fingerprint classification, a loop that opens toward the little finger (ulnar bone side) is called:",
+      "choices": ["Ulnar loop", "Radial loop", "Plain loop", "Double loop"],
+      "answer": "Ulnar loop",
+      "explanation": "An ulnar loop opens or flows toward the ulnar bone (little finger side) of the hand. A radial loop opens toward the radial bone (thumb side). Both require the presence of a delta and a core."
+    },
+    {
+      "id": 7,
+      "question": "The questioned documents examiner primarily analyzes:",
+      "choices": ["Handwriting, typewriting, inks, paper, and alterations in documents", "Photographs and digital images", "Blood spatter patterns", "Chemical residues on documents"],
+      "answer": "Handwriting, typewriting, inks, paper, and alterations in documents",
+      "explanation": "A questioned document examiner (QDE) analyzes documents where authenticity or origin is in doubt. This includes handwriting comparison, typewriting analysis, ink and paper analysis, detection of alterations (erasures, additions), and forgery detection."
+    },
+    {
+      "id": 8,
+      "question": "Which characteristic of handwriting refers to the pressure applied while writing?",
+      "choices": ["Pen pressure", "Pen lift", "Line quality", "Pen position"],
+      "answer": "Pen pressure",
+      "explanation": "Pen pressure refers to the force applied by the writer on the writing instrument during writing. It is one of the characteristics used by document examiners to compare handwriting samples. Heavy pen pressure creates grooves visible on the back of the paper."
+    },
+    {
+      "id": 9,
+      "question": "Forensic ballistics deals with:",
+      "choices": ["The study of the motion of projectiles and the identification of firearms", "The study of explosives and their effects", "The analysis of blood spatter", "The investigation of arson cases"],
+      "answer": "The study of the motion of projectiles and the identification of firearms",
+      "explanation": "Forensic ballistics (or firearms examination) deals with the study of projectile motion and the identification of firearms through markings left on bullets and cartridge cases. It includes terminal ballistics, wound ballistics, and firearm toolmark examination."
+    },
+    {
+      "id": 10,
+      "question": "The term 'striations' in firearms identification refers to:",
+      "choices": ["Microscopic grooves and scratches on a bullet caused by the rifling of the barrel", "The number of lands and grooves in a barrel", "The caliber measurement of the firearm", "The serial number of the firearm"],
+      "answer": "Microscopic grooves and scratches on a bullet caused by the rifling of the barrel",
+      "explanation": "Striations are microscopic linear marks (scratches) left on a bullet as it passes through the rifled barrel of a firearm. These unique marks can be compared to test-fired bullets to determine if a specific firearm fired a specific bullet."
+    },
+    {
+      "id": 11,
+      "question": "The distance between opposite lands in a rifled firearm barrel determines the:",
+      "choices": ["Caliber of the firearm", "Muzzle velocity", "Effective range", "Twist rate"],
+      "answer": "Caliber of the firearm",
+      "explanation": "The caliber of a firearm is determined by the internal diameter of the barrel measured between opposite lands (the raised ridges of the rifling). It is typically expressed in inches (e.g., .45 caliber) or millimeters (e.g., 9mm)."
+    },
+    {
+      "id": 12,
+      "question": "Paraffin test (dermal nitrate test) in forensic science is used to detect:",
+      "choices": ["Nitrates on the hands of a person who may have fired a gun", "Blood traces on the hands", "Explosives residue", "Ink composition on documents"],
+      "answer": "Nitrates on the hands of a person who may have fired a gun",
+      "explanation": "The paraffin (dermal nitrate) test was historically used to detect nitrate residues on the hands of a suspected gunshot residue (GSR) depositor. However, it is now considered unreliable as many common substances contain nitrates. GSR analysis by SEM-EDX is the modern standard."
+    },
+    {
+      "id": 13,
+      "question": "The Locard Exchange Principle states that:",
+      "choices": ["Every contact leaves a trace — the perpetrator takes something from and leaves something at the crime scene", "Physical evidence is more reliable than testimonial evidence", "A crime cannot be solved without physical evidence", "The first officer at the crime scene must preserve all evidence"],
+      "answer": "Every contact leaves a trace — the perpetrator takes something from and leaves something at the crime scene",
+      "explanation": "Dr. Edmond Locard's Exchange Principle (1928) states that whenever two objects come into contact, there is an exchange of material. A criminal always brings something to and takes something from a crime scene, leaving traces that can be used as physical evidence."
+    },
+    {
+      "id": 14,
+      "question": "Luminol test at a crime scene is used to detect:",
+      "choices": ["Blood that has been washed away or diluted", "Fingerprints on dark surfaces", "Gunshot residue", "Chemical explosives"],
+      "answer": "Blood that has been washed away or diluted",
+      "explanation": "Luminol is a chemiluminescent compound that reacts with hemoglobin in blood to produce a blue glow visible in darkness. It is used to detect trace amounts of blood that have been cleaned or washed away from surfaces at crime scenes."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following best describes a 'chain of custody' in evidence handling?",
+      "choices": ["A documented record of all persons who handled the evidence from collection to court presentation", "The physical container used to store evidence", "The number of witnesses who can attest to the evidence", "The court order authorizing evidence collection"],
+      "answer": "A documented record of all persons who handled the evidence from collection to court presentation",
+      "explanation": "Chain of custody is the chronological documentation showing the seizure, custody, control, transfer, analysis, and disposition of evidence. It ensures evidence integrity and admissibility by tracking everyone who handled the evidence."
+    },
+    {
+      "id": 16,
+      "question": "What type of evidence is a bloody knife found at a crime scene?",
+      "choices": ["Physical evidence", "Documentary evidence", "Testimonial evidence", "Demonstrative evidence"],
+      "answer": "Physical evidence",
+      "explanation": "Physical evidence (also called real or object evidence) consists of tangible items that can be seen, touched, or otherwise observed. A bloody knife is physical evidence. Documentary evidence is written documents; testimonial evidence is witness testimony."
+    },
+    {
+      "id": 17,
+      "question": "Forensic photography at a crime scene should follow the sequence of:",
+      "choices": ["Long range, medium range, then close-up shots", "Close-up first, then wider shots", "Only take photos of evidence items", "Photos should only be taken after evidence is marked"],
+      "answer": "Long range, medium range, then close-up shots",
+      "explanation": "Crime scene photography follows a systematic approach: (1) long-range/overview shots showing the overall scene, (2) mid-range shots showing evidence in relation to surroundings, and (3) close-up shots with and without scale markers documenting specific items of evidence."
+    },
+    {
+      "id": 18,
+      "question": "The primary purpose of rigor mortis examination in forensic science is to:",
+      "choices": ["Help estimate the time of death", "Determine the cause of death", "Identify the body of the victim", "Determine the manner of death"],
+      "answer": "Help estimate the time of death",
+      "explanation": "Rigor mortis (stiffening of muscles after death) begins 2-6 hours after death, reaches maximum stiffness at 12 hours, and dissipates at about 24-48 hours. It is one of several postmortem changes used to estimate the time of death (PMI - post-mortem interval)."
+    },
+    {
+      "id": 19,
+      "question": "Lividity (livor mortis) in forensic pathology refers to:",
+      "choices": ["The purplish discoloration of the skin after death due to settling of blood", "The greenish discoloration caused by decomposition", "The pale appearance of a body after blood loss", "Swelling of the body after death"],
+      "answer": "The purplish discoloration of the skin after death due to settling of blood",
+      "explanation": "Livor mortis (lividity) is the discoloration of skin due to the settling of blood by gravity after death. It appears as reddish-purple or bluish-purple discolorations, typically on the lowest portions of the body. It begins 1-2 hours post-death and becomes fixed at about 8-12 hours."
+    },
+    {
+      "id": 20,
+      "question": "The ninhydrin test in questioned document examination is used to detect:",
+      "choices": ["Latent fingerprints on paper by reacting with amino acids in perspiration", "Alterations made with different inks", "Signatures made under duress", "Photocopied documents"],
+      "answer": "Latent fingerprints on paper by reacting with amino acids in perspiration",
+      "explanation": "Ninhydrin (triketohydrindane hydrate) reacts with amino acids found in perspiration to produce a purple-blue colored compound called Ruhemann's purple. It is primarily used to develop latent fingerprints on porous surfaces like paper."
+    },
+    {
+      "id": 21,
+      "question": "In forensic science, the term 'corpus delicti' literally means:",
+      "choices": ["Body of the crime", "Body of the victim", "Physical evidence of the crime", "The criminal himself"],
+      "answer": "Body of the crime",
+      "explanation": "Corpus delicti (Latin: 'body of the crime') refers to the principle that a crime must be proven to have occurred before a person can be convicted of committing that crime. It literally means the 'body' or 'substance' of the crime — the facts constituting the offense."
+    },
+    {
+      "id": 22,
+      "question": "Forensic toxicology is the study of:",
+      "choices": ["The effects of drugs, poisons, and other substances in relation to legal investigations", "The analysis of trace evidence", "The study of blood spatter patterns", "The examination of questioned documents"],
+      "answer": "The effects of drugs, poisons, and other substances in relation to legal investigations",
+      "explanation": "Forensic toxicology involves the application of toxicology to legal investigations. It includes postmortem toxicology (determining cause of death from drugs or poisons), human performance toxicology (driving under the influence cases), and forensic drug testing."
+    },
+    {
+      "id": 23,
+      "question": "The branch of forensic science dealing with the study of insects in relation to criminal investigations is called:",
+      "choices": ["Forensic entomology", "Forensic botany", "Forensic anthropology", "Forensic biology"],
+      "answer": "Forensic entomology",
+      "explanation": "Forensic entomology is the application of the study of insects (and other arthropods) to criminal and legal investigations. It is primarily used to estimate the post-mortem interval (time of death) based on insect succession patterns on a decomposing body."
+    },
+    {
+      "id": 24,
+      "question": "The Federal Bureau of Investigation (FBI) classification system for fingerprints uses:",
+      "choices": ["A numerical system based on whorl values assigned to specific fingers", "A letter-based classification system", "A color-coded system based on pattern types", "A binary classification using whorls and non-whorls only"],
+      "answer": "A numerical system based on whorl values assigned to specific fingers",
+      "explanation": "The FBI/Henry Classification System uses a numerical fraction derived by assigning values (1, 2, 4, 8, 16) to even-numbered fingers where whorls appear. The sum of whorl values plus 1 forms a fraction used to classify and file fingerprints."
+    },
+    {
+      "id": 25,
+      "question": "Bloodstain pattern analysis (BPA) helps investigators determine:",
+      "choices": ["The origin, direction, and nature of bloodshed events at a crime scene", "The blood type of the victim", "The DNA profile of the perpetrator", "The exact time the victim was killed"],
+      "answer": "The origin, direction, and nature of bloodshed events at a crime scene",
+      "explanation": "Bloodstain Pattern Analysis (BPA) is the examination and interpretation of bloodstains at a crime scene to reconstruct events. It can determine the origin of blood, the movement of persons, the type of injuries sustained, and the sequence of events."
+    },
+    {
+      "id": 26,
+      "question": "The science of forensic anthropology primarily deals with:",
+      "choices": ["The analysis of skeletal remains for identification and determination of cause of death", "The study of criminal behavior across cultures", "The analysis of bite marks", "The study of ethnicity in crime"],
+      "answer": "The analysis of skeletal remains for identification and determination of cause of death",
+      "explanation": "Forensic anthropology applies skeletal analysis to legal investigations. Forensic anthropologists can determine sex, age, ancestry, stature, and trauma from skeletal remains, and help identify unknown victims or determine manner of death."
+    },
+    {
+      "id": 27,
+      "question": "The primary use of DNA analysis in forensic science is:",
+      "choices": ["Positive identification of individuals from biological samples", "Determining the time of death", "Identifying the type of weapon used", "Locating missing persons"],
+      "answer": "Positive identification of individuals from biological samples",
+      "explanation": "DNA analysis is used for positive identification because DNA is unique to each individual (except identical twins). In forensics, DNA from crime scene samples (blood, saliva, hair, semen) can be compared to reference samples to include or exclude suspects."
+    },
+    {
+      "id": 28,
+      "question": "What is the term for the complete set of fingerprints of all ten fingers taken for identification purposes?",
+      "choices": ["Dactylogram set", "Ten-card print", "Dactyloscopogram", "Fingerprint chart"],
+      "answer": "Ten-card print",
+      "explanation": "A ten-card (or fingerprint card/dactylogram card) contains the complete set of fingerprint impressions of all ten fingers. It is the standard form used for recording fingerprints for law enforcement identification purposes."
+    },
+    {
+      "id": 29,
+      "question": "In fingerprint identification, 'minutiae' refers to:",
+      "choices": ["The small ridge characteristics such as ridge endings and bifurcations used to compare prints", "The overall pattern type of the fingerprint", "The density of ridges per unit area", "The core and delta of the fingerprint"],
+      "answer": "The small ridge characteristics such as ridge endings and bifurcations used to compare prints",
+      "explanation": "Minutiae are the specific ridge details or characteristics used in fingerprint comparison and identification. Common minutiae include ridge endings (where a ridge stops) and bifurcations (where a ridge splits into two). Courts typically require 8-12 matching minutiae points for identification."
+    },
+    {
+      "id": 30,
+      "question": "Forensic chemistry in the context of criminalistics involves:",
+      "choices": ["Chemical analysis of unknown substances such as drugs, explosives, and poisons as evidence", "The chemistry of fingerprint development", "Chemical analysis of ink and paper in documents", "The study of body chemistry after death"],
+      "answer": "Chemical analysis of unknown substances such as drugs, explosives, and poisons as evidence",
+      "explanation": "Forensic chemistry involves the analysis of physical evidence for use in legal proceedings. Forensic chemists analyze substances such as controlled drugs, explosives, accelerants in arson cases, poisons, and unknown chemical samples."
+    },
+    {
+      "id": 31,
+      "question": "The Marquis test is a presumptive chemical test used to detect the presence of:",
+      "choices": ["Opiates and some other alkaloids", "Blood", "Nitrates from gunshot residue", "Semen"],
+      "answer": "Opiates and some other alkaloids",
+      "explanation": "The Marquis reagent (a mixture of sulfuric acid and formaldehyde) is a presumptive color test for opiates and other substances. Different drugs produce characteristic color reactions: purple-black for opiates, orange for amphetamines."
+    },
+    {
+      "id": 32,
+      "question": "The first person to apply fingerprinting as a means of criminal identification systematically in Argentina was:",
+      "choices": ["Juan Vucetich", "Sir Francis Galton", "Sir Edward Henry", "Alphonse Bertillon"],
+      "answer": "Juan Vucetich",
+      "explanation": "Juan Vucetich, an Argentine police official, was the first to use fingerprinting systematically for criminal identification (1892). He developed his own classification system (Vucetich System/Dactiloscopy) and made the first criminal fingerprint identification in the Francisca Rojas murder case."
+    },
+    {
+      "id": 33,
+      "question": "The Bertillon system of criminal identification, developed before fingerprinting, was based on:",
+      "choices": ["Anthropometric measurements of the human body", "Photograph comparison", "Eye color and hair color", "Dental records"],
+      "answer": "Anthropometric measurements of the human body",
+      "explanation": "The Bertillon system (bertillonage) was developed by Alphonse Bertillon in 1879. It used a series of body measurements (including height, arm span, head dimensions) along with photographs to create a unique identification record. It was replaced by fingerprinting in the early 1900s."
+    },
+    {
+      "id": 34,
+      "question": "What does the acronym AFIS stand for in forensic science?",
+      "choices": ["Automated Fingerprint Identification System", "Advanced Forensic Investigation Service", "Automated Forensic Imaging System", "Applied Fingerprint Identification Science"],
+      "answer": "Automated Fingerprint Identification System",
+      "explanation": "AFIS (Automated Fingerprint Identification System) is a computerized system that uses digital imaging technology to store and analyze fingerprint data. It allows law enforcement to search latent crime scene prints against a database of known prints rapidly."
+    },
+    {
+      "id": 35,
+      "question": "In forensic document examination, 'indented writing' refers to:",
+      "choices": ["Impressions on paper beneath a written document caused by the pressure of writing", "Text that has been written with indent formatting", "Raised lettering on official documents", "Handwriting that slopes to the left"],
+      "answer": "Impressions on paper beneath a written document caused by the pressure of writing",
+      "explanation": "Indented writing consists of impressions left on paper underneath the sheet being written on. These invisible impressions can be visualized using techniques like ESDA (Electrostatic Detection Apparatus) to recover potentially important evidence."
+    },
+    {
+      "id": 36,
+      "question": "The Scott test (Simon-Frommer test) is a color test used for the presumptive identification of:",
+      "choices": ["Cocaine", "Marijuana", "Heroin", "Methamphetamine"],
+      "answer": "Cocaine",
+      "explanation": "The Scott test uses cobalt thiocyanate reagent and produces a blue precipitate in the presence of cocaine. It is a commonly used presumptive chemical test in forensic drug analysis."
+    },
+    {
+      "id": 37,
+      "question": "Forensic odontology (forensic dentistry) is particularly valuable for:",
+      "choices": ["Identification of unknown bodies through dental records and bite mark analysis", "Determining cause of death", "Analysis of dietary habits of the victim", "Estimating the age of skeletal remains only"],
+      "answer": "Identification of unknown bodies through dental records and bite mark analysis",
+      "explanation": "Forensic odontology applies dental science to legal proceedings. It is used for victim identification (comparing dental records with remains), bite mark analysis (comparing bite marks in skin or food to suspect's dentition), and mass disaster identification."
+    },
+    {
+      "id": 38,
+      "question": "The Duquenois-Levine test is a presumptive test used to detect:",
+      "choices": ["Marijuana (cannabis)", "Cocaine", "Opiates", "Amphetamines"],
+      "answer": "Marijuana (cannabis)",
+      "explanation": "The Duquenois-Levine test (followed by chloroform and hydrochloric acid) produces a purple color in the presence of cannabinoids, making it a presumptive test for marijuana. Confirmatory testing (GC-MS) is still required for court proceedings."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is NOT a type of fingerprint impression?",
+      "choices": ["Composite", "Latent", "Patent", "Plastic"],
+      "answer": "Composite",
+      "explanation": "The three types of fingerprint impressions are: (1) latent (invisible, requires development), (2) patent/visible (left in blood, paint, or other colored substances), and (3) plastic (3D impression in soft material like wax or putty). Composite refers to a fingerprint pattern type, not impression type."
+    },
+    {
+      "id": 40,
+      "question": "The term 'autopsy' in forensic pathology refers to:",
+      "choices": ["Post-mortem examination of a body to determine cause, manner, and mechanism of death", "Medical examination of a living person for evidence of crime", "Examination of the crime scene", "Review of medical records of the deceased"],
+      "answer": "Post-mortem examination of a body to determine cause, manner, and mechanism of death",
+      "explanation": "An autopsy (necropsy or post-mortem examination) is a systematic medical examination of a dead body to determine the cause of death, manner of death (natural, accident, suicide, homicide, undetermined), and mechanism of death."
+    },
+    {
+      "id": 41,
+      "question": "In criminalistics, 'toolmark evidence' refers to:",
+      "choices": ["Impressions, cuts, or scratches left by tools on surfaces during the commission of a crime", "The tools used by forensic examiners", "Evidence obtained using specialized forensic tools", "The toolkit of the forensic examiner"],
+      "answer": "Impressions, cuts, or scratches left by tools on surfaces during the commission of a crime",
+      "explanation": "Toolmark evidence consists of marks left by a tool on a surface during the commission of a crime (e.g., pry marks on a door, cut marks on wire). Forensic examiners compare toolmark characteristics to determine if a specific tool made a specific mark."
+    },
+    {
+      "id": 42,
+      "question": "The branch of criminalistics that deals with the examination and comparison of shoe and tire impressions is:",
+      "choices": ["Impression evidence examination", "Trace evidence analysis", "Forensic podiatry", "Contact trace analysis"],
+      "answer": "Impression evidence examination",
+      "explanation": "Impression evidence examination involves the analysis of three-dimensional impressions (shoes, tires, tool marks) and two-dimensional impressions (footwear patterns in blood or ink). These impressions can be cast and compared to known samples from suspects."
+    },
+    {
+      "id": 43,
+      "question": "Which of the following is the MOST reliable method for confirming the presence of blood at a crime scene?",
+      "choices": ["Confirmatory genetic (DNA) testing", "Luminol test", "Phenolphthalein (Kastle-Meyer) test", "TMB (tetramethylbenzidine) test"],
+      "answer": "Confirmatory genetic (DNA) testing",
+      "explanation": "While presumptive tests like luminol, phenolphthalein, and TMB indicate the possible presence of blood (these tests react with peroxidase-like activity of hemoglobin), the most reliable confirmatory method is genetic testing (DNA analysis) which identifies human blood and its source."
+    },
+    {
+      "id": 44,
+      "question": "The 'distance determination' in firearms examination involves:",
+      "choices": ["Estimating the distance between shooter and victim based on gunshot residue patterns", "Measuring the effective range of a firearm", "Calculating the bullet trajectory", "Determining the height of the shooter"],
+      "answer": "Estimating the distance between shooter and victim based on gunshot residue patterns",
+      "explanation": "Distance determination (or range of fire determination) involves estimating the muzzle-to-target distance using patterns of gunshot residue, soot, stippling (tattooing), and powder burns on clothing or skin around the entry wound."
+    },
+    {
+      "id": 45,
+      "question": "Forensic serology in criminal investigations primarily involves:",
+      "choices": ["The identification and comparison of body fluids such as blood, semen, and saliva", "The study of blood-related diseases", "Blood pressure analysis of crime victims", "The preparation of bloodstain patterns"],
+      "answer": "The identification and comparison of body fluids such as blood, semen, and saliva",
+      "explanation": "Forensic serology involves the identification and characterization of biological fluids (blood, semen, saliva, vaginal secretions, urine) for use in legal proceedings. It is routinely used in rape, assault, and homicide investigations."
+    },
+    {
+      "id": 46,
+      "question": "The 'touch DNA' technique in forensics allows analysts to:",
+      "choices": ["Obtain DNA profiles from skin cells left when someone touches an object", "Test for DNA without any sample processing", "Obtain DNA from fingernail scratches only", "Identify fingerprint DNA by touching the latent print"],
+      "answer": "Obtain DNA profiles from skin cells left when someone touches an object",
+      "explanation": "Touch DNA (or contact DNA) refers to the detection and analysis of low-copy number DNA left behind on objects that a person has touched or handled. Epidermal cells shed from the skin when touching surfaces can be collected and processed for DNA profiling."
+    },
+    {
+      "id": 47,
+      "question": "The Philippines' national fingerprint repository is maintained by:",
+      "choices": ["Philippine National Police - Crime Laboratory", "National Bureau of Investigation", "Department of Justice", "Bureau of Immigration"],
+      "answer": "Philippine National Police - Crime Laboratory",
+      "explanation": "The PNP Crime Laboratory (now PNP Forensic Group) maintains the national fingerprint database and provides forensic services to law enforcement agencies nationwide. The NBI also maintains its own fingerprint database."
+    },
+    {
+      "id": 48,
+      "question": "What is 'polygraphy' in forensic science?",
+      "choices": ["The use of a polygraph instrument to measure physiological responses associated with deception", "The analysis of multiple handwriting samples", "The duplication of questioned documents", "The study of multiple fingerprint patterns"],
+      "answer": "The use of a polygraph instrument to measure physiological responses associated with deception",
+      "explanation": "Polygraphy involves using a polygraph (lie detector) instrument to simultaneously record physiological parameters (blood pressure, respiration, galvanic skin response) while a subject answers questions. In the Philippines, polygraph results are generally not admissible as evidence in court."
+    },
+    {
+      "id": 49,
+      "question": "In forensic document examination, a 'standard' or 'exemplar' refers to:",
+      "choices": ["A known writing sample of a person used for comparison with questioned writing", "The original document that is being questioned", "The court's certified copy of a document", "A standard format document"],
+      "answer": "A known writing sample of a person used for comparison with questioned writing",
+      "explanation": "Standards (also called exemplars or known writings) are handwriting samples of known authorship used as comparison material. They should be collected under controlled conditions (request writings) and may include course of business writings (bank checks, letters) for comparison with questioned documents."
+    },
+    {
+      "id": 50,
+      "question": "The science of forensic geology involves the use of:",
+      "choices": ["Soil, minerals, and rock samples as physical evidence in criminal investigations", "Geographical profiling of criminal activity", "Mapping of crime scenes using GPS", "Analysis of underground crime evidence"],
+      "answer": "Soil, minerals, and rock samples as physical evidence in criminal investigations",
+      "explanation": "Forensic geology is the application of geological sciences (soil, mineral, rock analysis) to legal investigations. Soil samples from crime scenes can be compared to soil from a suspect's shoes, vehicle, or clothing to establish a link between a person and a location."
+    }
+  ]
+}

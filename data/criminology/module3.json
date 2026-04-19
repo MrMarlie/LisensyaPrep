@@ -1,0 +1,356 @@
+{
+  "module": "Module 3 - Law Enforcement Administration",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The law that established the Philippine National Police (PNP) is:",
+      "choices": ["Republic Act 6975", "Republic Act 8551", "Republic Act 9708", "Presidential Decree 765"],
+      "answer": "Republic Act 6975",
+      "explanation": "RA 6975 (Department of the Interior and Local Government Act of 1990) established the PNP as the national police organization. It reorganized the PC/INP into the PNP and placed it under the DILG."
+    },
+    {
+      "id": 2,
+      "question": "Republic Act 8551 is known as the:",
+      "choices": ["Philippine National Police Reform and Reorganization Act of 1998", "Department of the Interior and Local Government Act", "PNP Modernization Act", "National Police Commission Act"],
+      "answer": "Philippine National Police Reform and Reorganization Act of 1998",
+      "explanation": "RA 8551 (PNP Reform and Reorganization Act of 1998) amended RA 6975. It provided for reforms in the PNP structure, professionalization of the police service, and enhanced civilian oversight mechanisms."
+    },
+    {
+      "id": 3,
+      "question": "The head of the Philippine National Police is the:",
+      "choices": ["Chief of the Philippine National Police (CPNP)", "Secretary of the Department of the Interior and Local Government", "National Police Commission Chairman", "Director General"],
+      "answer": "Chief of the Philippine National Police (CPNP)",
+      "explanation": "The PNP is headed by the Chief of the Philippine National Police (CPNP) with the rank of General (four-star). The CPNP is appointed by the President upon the recommendation of the NAPOLCOM and endorsed by the Commission on Appointments."
+    },
+    {
+      "id": 4,
+      "question": "The National Police Commission (NAPOLCOM) exercises:",
+      "choices": ["Administrative control and operational supervision over the PNP", "Operational command over PNP units", "Judicial authority over police disciplinary cases", "Legislative power to enact police laws"],
+      "answer": "Administrative control and operational supervision over the PNP",
+      "explanation": "NAPOLCOM is the civilian body created to exercise administrative control and operational supervision over the PNP. It handles policies, standards, and oversees police operations to ensure civilian supremacy over the police."
+    },
+    {
+      "id": 5,
+      "question": "The primary mission of the PNP under RA 6975 is to:",
+      "choices": ["Enforce the law, prevent and control crimes, maintain peace and order, and ensure public safety", "Conduct military operations against internal threats", "Investigate and prosecute criminal offenders", "Implement government socioeconomic programs"],
+      "answer": "Enforce the law, prevent and control crimes, maintain peace and order, and ensure public safety",
+      "explanation": "Under Section 24 of RA 6975, the PNP shall enforce the law, prevent and control crimes, maintain peace and order, and ensure public safety and internal security with the active support of the community."
+    },
+    {
+      "id": 6,
+      "question": "The concept of police power of the state means:",
+      "choices": ["The inherent authority of the state to enact laws to promote public health, safety, morals, and general welfare", "The authority of police officers to use force", "The power to arrest without warrant", "The authority to conduct surveillance"],
+      "answer": "The inherent authority of the state to enact laws to promote public health, safety, morals, and general welfare",
+      "explanation": "Police power is the inherent power of the sovereign state to enact and enforce laws that promote public health, safety, morals, and general welfare, even at the expense of private rights. It is the broadest and most pervasive of government powers."
+    },
+    {
+      "id": 7,
+      "question": "Community policing is an approach that emphasizes:",
+      "choices": ["Partnership between police and the community to solve problems and prevent crime", "Increasing the number of police officers on patrol", "Centralized command and control of police operations", "Military-style law enforcement"],
+      "answer": "Partnership between police and the community to solve problems and prevent crime",
+      "explanation": "Community policing is a philosophy and organizational strategy that promotes partnerships between police agencies and their communities to collaboratively identify and solve problems of crime, disorder, and other quality-of-life issues."
+    },
+    {
+      "id": 8,
+      "question": "The 'Broken Windows Theory' in law enforcement was developed by:",
+      "choices": ["James Q. Wilson and George Kelling", "Robert Peel", "August Vollmer", "O.W. Wilson"],
+      "answer": "James Q. Wilson and George Kelling",
+      "explanation": "The Broken Windows Theory (1982) by James Q. Wilson and George Kelling suggests that signs of disorder (broken windows, graffiti, littering) signal neglect and invite further crime. Maintaining order and addressing minor offenses prevents escalation to serious crime."
+    },
+    {
+      "id": 9,
+      "question": "The minimum height requirement for male applicants to join the PNP is:",
+      "choices": ["1.62 meters", "1.65 meters", "1.60 meters", "1.70 meters"],
+      "answer": "1.62 meters",
+      "explanation": "Under NAPOLCOM Resolution, male applicants for the PNP must have a minimum height of 1.62 meters, while female applicants must have a minimum height of 1.57 meters. These physical standards are prescribed for entry-level positions."
+    },
+    {
+      "id": 10,
+      "question": "The Integrated Transformation Program (ITP) of the PNP aims to:",
+      "choices": ["Transform the PNP into a more capable, effective, and credible police organization", "Integrate the military and police functions", "Reorganize PNP regional commands", "Establish new police training centers"],
+      "answer": "Transform the PNP into a more capable, effective, and credible police organization",
+      "explanation": "The PNP's Integrated Transformation Program (ITP) is a comprehensive reform program aimed at transforming the PNP into a more capable, effective, credible, and community-oriented police organization through reforms in personnel, operations, and logistics."
+    },
+    {
+      "id": 11,
+      "question": "What is the lowest rank in the PNP?",
+      "choices": ["Patrolman/Patrolwoman", "Police Officer 1 (PO1)", "Inspector", "Corporal"],
+      "answer": "Police Officer 1 (PO1)",
+      "explanation": "Under the revised PNP rank structure (RA 9708 and subsequent amendments), the lowest rank is Police Officer 1 (PO1). The rank structure from lowest to highest is: PO1, PO2, PO3, SPO1, SPO2, SPO3, SPO4 (non-commissioned officers), then commissioned officer ranks."
+    },
+    {
+      "id": 12,
+      "question": "Patrol is considered the backbone of police work because:",
+      "choices": ["It provides the most direct contact between police and the community and serves as the primary deterrent to crime", "It is the most dangerous police function", "It accounts for the majority of police personnel", "It generates the most arrests"],
+      "answer": "It provides the most direct contact between police and the community and serves as the primary deterrent to crime",
+      "explanation": "Patrol is called the backbone of police work because patrol officers are the most visible police presence, provide first response to emergencies, deter crime through visibility, and serve as the primary interface between the police and the community."
+    },
+    {
+      "id": 13,
+      "question": "The SARA model in problem-oriented policing stands for:",
+      "choices": ["Scanning, Analysis, Response, Assessment", "Search, Apprehend, Recover, Arrest", "Survey, Analyze, React, Assess", "Suspect, Analyze, Respond, Act"],
+      "answer": "Scanning, Analysis, Response, Assessment",
+      "explanation": "The SARA model (developed by Herman Goldstein's problem-oriented policing approach) is a problem-solving process: (1) Scanning - identify problems, (2) Analysis - understand the problem, (3) Response - develop and implement solutions, (4) Assessment - evaluate the effectiveness of responses."
+    },
+    {
+      "id": 14,
+      "question": "The principle of 'span of control' in police administration refers to:",
+      "choices": ["The number of subordinates a supervisor can effectively manage", "The geographic area assigned to a police unit", "The authority of a police commander over operations", "The range of a police officer's duties"],
+      "answer": "The number of subordinates a supervisor can effectively manage",
+      "explanation": "Span of control refers to the number of subordinates that a supervisor can directly and effectively manage. In police organizations, the ideal span of control is generally 5-8 subordinates, varying with the complexity of tasks and level of supervision."
+    },
+    {
+      "id": 15,
+      "question": "Robert Peel, known as the 'Father of Modern Policing,' established the first modern police force in:",
+      "choices": ["London, England (Metropolitan Police, 1829)", "New York City, USA (1845)", "Paris, France (1667)", "Manila, Philippines (1901)"],
+      "answer": "London, England (Metropolitan Police, 1829)",
+      "explanation": "Sir Robert Peel established the London Metropolitan Police in 1829, considered the first modern police force. Peel's 'Nine Principles of Policing' established the foundations of modern community-oriented policing, including the principle that 'the police are the public and the public are the police.'"
+    },
+    {
+      "id": 16,
+      "question": "The Philippine National Police follows the principle of 'unity of command,' which means:",
+      "choices": ["Each subordinate should receive orders from only one superior", "All police units must coordinate their operations", "The PNP Chief has supreme command over all units", "Police officers must follow orders without question"],
+      "answer": "Each subordinate should receive orders from only one superior",
+      "explanation": "Unity of command is a management principle stating that each member of an organization should receive orders from only one supervisor. This prevents confusion, conflicting orders, and undermining of authority."
+    },
+    {
+      "id": 17,
+      "question": "Intelligence in law enforcement refers to:",
+      "choices": ["Processed information that has been evaluated and analyzed to meet operational needs", "Raw data collected during surveillance", "Information from informants and undercover agents", "Crime statistics compiled by the PNP"],
+      "answer": "Processed information that has been evaluated and analyzed to meet operational needs",
+      "explanation": "Intelligence is information that has been collected, processed, analyzed, and evaluated to meet operational needs. It is distinguished from raw data or information which has not been processed. Intelligence informs decision-making in law enforcement operations."
+    },
+    {
+      "id": 18,
+      "question": "The 'use of force continuum' in law enforcement describes:",
+      "choices": ["A framework for officers to select the appropriate level of force in response to different levels of resistance", "The maximum force allowed in all situations", "A ranking system for police officers based on use of force incidents", "Physical training requirements for police officers"],
+      "answer": "A framework for officers to select the appropriate level of force in response to different levels of resistance",
+      "explanation": "The use of force continuum guides officers in selecting a proportional and reasonable level of force based on the subject's behavior. It generally ranges from officer presence, verbal commands, soft empty-hand techniques, hard techniques, less-lethal weapons, to lethal force."
+    },
+    {
+      "id": 19,
+      "question": "The citizen's arrest (warrantless arrest by a private person) is valid when:",
+      "choices": ["The offense is committed in the presence of the private person, or when the offender has escaped from prison", "The private person reasonably suspects a crime was committed", "Any felony has been committed regardless of circumstances", "The private person is a barangay official"],
+      "answer": "The offense is committed in the presence of the private person, or when the offender has escaped from prison",
+      "explanation": "Under Section 5, Rule 113 of the Rules of Court, a private person may arrest another when: (1) in his presence the person to be arrested has committed, is actually committing, or is attempting to commit an offense; or (2) an offense has just been committed and he has probable cause to believe based on personal knowledge of facts that the person committed it."
+    },
+    {
+      "id": 20,
+      "question": "The concept of 'hot pursuit' in law enforcement allows police to:",
+      "choices": ["Arrest a fleeing suspect without a warrant when there is probable cause based on fresh pursuit", "Enter premises without a warrant at any time when chasing a suspect", "Use any necessary force to apprehend a fleeing felon", "Cross jurisdictional lines when chasing a suspect"],
+      "answer": "Arrest a fleeing suspect without a warrant when there is probable cause based on fresh pursuit",
+      "explanation": "Hot pursuit allows police to make a warrantless arrest of a person who has just committed a crime and is fleeing. The pursuit must be continuous and immediate. It may also justify entry into private premises to effect the arrest."
+    },
+    {
+      "id": 21,
+      "question": "A police blotter is:",
+      "choices": ["The official record book maintained at each police station recording all incidents and complaints reported", "A list of wanted criminals", "A logbook of police patrol routes", "A record of police disciplinary cases"],
+      "answer": "The official record book maintained at each police station recording all incidents and complaints reported",
+      "explanation": "The police blotter is the official logbook of each police station recording all types of operational and administrative undertakings and incidents reported. It is a permanent record and serves as the basis for official reports, statistics, and legal documentation."
+    },
+    {
+      "id": 22,
+      "question": "Modus operandi (MO) in criminal investigation refers to:",
+      "choices": ["The habitual method used by a criminal in committing crimes", "The legal procedure followed in investigating crimes", "The method of disposing of criminal evidence", "The operating procedure of the police"],
+      "answer": "The habitual method used by a criminal in committing crimes",
+      "explanation": "Modus operandi (Latin: 'method of operation') refers to the characteristic pattern of behavior used by a criminal in committing crimes. Criminals tend to repeat their MO, making it useful for identifying suspects and linking crimes committed by the same person."
+    },
+    {
+      "id": 23,
+      "question": "The Internal Affairs Service (IAS) of the PNP is responsible for:",
+      "choices": ["Proactively conducting inspections to ensure adherence to law and PNP rules by all members", "External auditing of PNP finances", "Coordinating PNP operations with other agencies", "Training new police recruits"],
+      "answer": "Proactively conducting inspections to ensure adherence to law and PNP rules by all members",
+      "explanation": "The IAS (formerly Office of Professional Responsibility) conducts inspections and audits of PNP units and members to ensure compliance with law and PNP rules. It investigates complaints against PNP personnel and recommends appropriate disciplinary action."
+    },
+    {
+      "id": 24,
+      "question": "The Anti-Carnapping Act is Republic Act:",
+      "choices": ["10883", "6539", "8294", "7610"],
+      "answer": "10883",
+      "explanation": "RA 10883 (New Anti-Carnapping Act of 2016) repealed RA 6539. It defines carnapping as the taking of a motor vehicle belonging to another without his consent or by means of violence, intimidation, or force upon things."
+    },
+    {
+      "id": 25,
+      "question": "The Barangay Justice System (Katarungang Pambarangay) handles disputes at the barangay level under:",
+      "choices": ["Presidential Decree 1508 as incorporated in the Local Government Code (RA 7160)", "Republic Act 6975", "Republic Act 7438", "Presidential Decree 1829"],
+      "answer": "Presidential Decree 1508 as incorporated in the Local Government Code (RA 7160)",
+      "explanation": "The Katarungang Pambarangay (originally PD 1508, now Chapter 7 of RA 7160) establishes a system for amicably settling disputes at the barangay level. Before filing a case in court, many disputes must first be referred to the Lupong Tagapamayapa for conciliation."
+    },
+    {
+      "id": 26,
+      "question": "Under the PNP's command responsibility doctrine, a commander may be held liable for:",
+      "choices": ["Crimes committed by subordinates if the commander knew or should have known and failed to prevent or punish them", "All acts of subordinates regardless of knowledge", "Operational failures only", "Acts committed by subordinates on duty only"],
+      "answer": "Crimes committed by subordinates if the commander knew or should have known and failed to prevent or punish them",
+      "explanation": "Command responsibility holds superior officers accountable for serious crimes committed by their subordinates if the superior knew or had reason to know that subordinates were about to commit or had committed crimes, and the superior failed to take necessary measures to prevent or punish such acts."
+    },
+    {
+      "id": 27,
+      "question": "The PNP Modernization Act is Republic Act:",
+      "choices": ["9708", "6975", "8551", "10591"],
+      "answer": "9708",
+      "explanation": "RA 9708 (PNP Modernization Act) amended provisions of RA 6975 and RA 8551. It provides for the development and modernization of the PNP in terms of equipment, training, and capabilities."
+    },
+    {
+      "id": 28,
+      "question": "The 'beat' or 'post' in police patrol refers to:",
+      "choices": ["The specific geographic area assigned to a patrol officer for regular coverage", "The tactical assignment during special operations", "The headquarters of the patrol officer", "The time period of the patrol officer's shift"],
+      "answer": "The specific geographic area assigned to a patrol officer for regular coverage",
+      "explanation": "A beat (or post) is the geographic area assigned to and regularly patrolled by a specific officer or unit. Regular coverage of a beat allows officers to familiarize themselves with the community, businesses, and potential crime problems in the area."
+    },
+    {
+      "id": 29,
+      "question": "The Commission on Human Rights (CHR) was established under:",
+      "choices": ["Article XIII of the 1987 Philippine Constitution", "Republic Act 7438", "Executive Order 163", "Presidential Proclamation 100"],
+      "answer": "Article XIII of the 1987 Philippine Constitution",
+      "explanation": "The Commission on Human Rights (CHR) was established under Article XIII, Section 17 of the 1987 Philippine Constitution. It investigates human rights violations and monitors compliance with international human rights standards."
+    },
+    {
+      "id": 30,
+      "question": "Police visibility is primarily intended to achieve:",
+      "choices": ["Crime deterrence by creating the perception that police are omnipresent", "Faster response to emergencies", "Community relations improvement", "Officer safety"],
+      "answer": "Crime deterrence by creating the perception that police are omnipresent",
+      "explanation": "Police visibility (having officers seen in public) is a primary crime deterrence strategy. The presence of uniformed officers deters potential criminals by increasing the perceived risk of detection and apprehension."
+    },
+    {
+      "id": 31,
+      "question": "The OPLAN Bakal refers to:",
+      "choices": ["A PNP operation targeting illegal firearms and wanted persons", "A program for police modernization", "An anti-drug operation", "A police community relations program"],
+      "answer": "A PNP operation targeting illegal firearms and wanted persons",
+      "explanation": "OPLAN Bakal is a PNP operational plan targeting persons with illegal firearms, wanted persons, and other criminal elements. It involves intensified patrol, checkpoints, and law enforcement operations to reduce crime and improve public safety."
+    },
+    {
+      "id": 32,
+      "question": "The 'hierarchy of needs' theory by Abraham Maslow, applied to police management, suggests that:",
+      "choices": ["Officers' motivation and performance are influenced by their level of need fulfillment", "Police should prioritize safety needs above community service", "Rank-based authority fulfills all organizational needs", "Physical needs take priority over self-actualization for police officers"],
+      "answer": "Officers' motivation and performance are influenced by their level of need fulfillment",
+      "explanation": "Maslow's Hierarchy of Needs (physiological, safety, social, esteem, self-actualization) is applied in police management to understand officer motivation. Meeting lower-order needs (adequate compensation, job security) enables officers to focus on higher-order needs (professional growth, community service)."
+    },
+    {
+      "id": 33,
+      "question": "The Philippine National Police Academy (PNPA) trains:",
+      "choices": ["Cadets who will become commissioned officers of the PNP upon graduation", "Police officers for specialized skills", "Barangay tanod and community watch volunteers", "Criminal justice practitioners"],
+      "answer": "Cadets who will become commissioned officers of the PNP upon graduation",
+      "explanation": "The Philippine National Police Academy (PNPA) is the premier educational institution for the PNP. Graduates receive a Bachelor of Science degree and are commissioned as Inspectors in the PNP or officers in the Bureau of Fire Protection and Bureau of Jail Management and Penology."
+    },
+    {
+      "id": 34,
+      "question": "The concept of 'due process' in law enforcement requires that:",
+      "choices": ["Police procedures must be fair, reasonable, and follow established legal standards", "Suspects must be proven guilty before arrest", "Police must obtain court approval before any law enforcement action", "All investigations must be completed within a specified time"],
+      "answer": "Police procedures must be fair, reasonable, and follow established legal standards",
+      "explanation": "Due process (procedural and substantive) requires that law enforcement actions be conducted according to established legal procedures and that such procedures be fair and reasonable. This protects individuals from arbitrary or capricious police conduct."
+    },
+    {
+      "id": 35,
+      "question": "The Anti-Illegal Gambling Law (PD 1602) penalizes:",
+      "choices": ["All forms of illegal gambling including jueteng, masiao, and numbers games", "Casino gambling operations only", "Betting on horse races", "Online gambling activities"],
+      "answer": "All forms of illegal gambling including jueteng, masiao, and numbers games",
+      "explanation": "PD 1602 (Prescribing Stiffer Penalties on Illegal Gambling) penalizes all forms of gambling not authorized by law, including jueteng, masiao, last two, and other numbers games. It was later amended by RA 9287 which increased the penalties."
+    },
+    {
+      "id": 36,
+      "question": "A police officer may lawfully arrest a person without a warrant when:",
+      "choices": ["The person has committed, is committing, or is about to commit a crime in the officer's presence", "The officer has received an anonymous tip about the person's illegal activities", "The officer suspects the person based on appearance", "The person is in a high-crime area"],
+      "answer": "The person has committed, is committing, or is about to commit a crime in the officer's presence",
+      "explanation": "Under Section 5, Rule 113 of the Rules of Court, a peace officer may arrest without a warrant when: (1) the person commits, is committing, or is about to commit an offense in the officer's presence; (2) an offense has just been committed and the officer has probable cause; or (3) the prisoner has escaped."
+    },
+    {
+      "id": 37,
+      "question": "Tactical command refers to:",
+      "choices": ["The authority to direct the use of force and operational movements of police units during a specific operation", "The overall administrative control of the PNP", "The power to formulate police policies", "The authority to conduct disciplinary proceedings"],
+      "answer": "The authority to direct the use of force and operational movements of police units during a specific operation",
+      "explanation": "Tactical command involves the authority to direct the use of force, deployment, and operational movements of police units during a specific mission or incident. It is distinct from administrative command which involves day-to-day management functions."
+    },
+    {
+      "id": 38,
+      "question": "The 'recidivism' in corrections and law enforcement refers to:",
+      "choices": ["The tendency of a convicted criminal to reoffend after release", "The repeat filing of criminal charges for the same offense", "Multiple convictions for the same crime", "Criminal behavior that escalates in severity"],
+      "answer": "The tendency of a convicted criminal to reoffend after release",
+      "explanation": "Recidivism is the tendency of a person convicted of a crime to reoffend after release from incarceration or after receiving other criminal justice sanctions. High recidivism rates indicate failures in rehabilitation and reintegration programs."
+    },
+    {
+      "id": 39,
+      "question": "The principle of 'proportionality' in use of force means:",
+      "choices": ["Force used must be appropriate and not excessive relative to the threat presented", "Deadly force is appropriate for any felony", "Force should be equal to that used by the suspect", "Maximum force deters future resistance"],
+      "answer": "Force used must be appropriate and not excessive relative to the threat presented",
+      "explanation": "Proportionality requires that the level of force used by law enforcement must be proportional to the seriousness of the threat and the level of resistance encountered. Excessive force violates constitutional rights and exposes officers to civil and criminal liability."
+    },
+    {
+      "id": 40,
+      "question": "The People's Law Enforcement Board (PLEB) adjudicates:",
+      "choices": ["Citizen complaints against PNP members involving minor offenses and administrative cases", "Criminal cases against police officers", "Cases involving gross misconduct of senior PNP officials", "Internal PNP administrative appeals"],
+      "answer": "Citizen complaints against PNP members involving minor offenses and administrative cases",
+      "explanation": "The PLEB (created under RA 6975) is a civilian oversight body at the city/municipality level that adjudicates complaints by civilians against PNP members for acts or omissions constituting minor offenses or administrative cases."
+    },
+    {
+      "id": 41,
+      "question": "The 'Duty Detail Order' (DDO) in the PNP refers to:",
+      "choices": ["An official written order specifying the assignment and duties of a police officer", "A warrant for the arrest of a police officer", "An order to conduct a special police operation", "A transfer order for a police officer"],
+      "answer": "An official written order specifying the assignment and duties of a police officer",
+      "explanation": "A Duty Detail Order is an official document that specifies a police officer's assignment, post, shift, and responsibilities. It serves as written authority for the officer's specific duty and is part of the official records of the unit."
+    },
+    {
+      "id": 42,
+      "question": "The Anti-Hazing provision requires hazing initiations to be:",
+      "choices": ["Supervised by the proper school authorities with prior written notice", "Conducted only by fraternities recognized by CHED", "Performed without any physical contact", "Conducted only during school hours"],
+      "answer": "Supervised by the proper school authorities with prior written notice",
+      "explanation": "Under RA 11053, initiations must have prior written notice to school authorities, a school representative present, and a physician at the venue. However, any physical harm during initiation constitutes hazing regardless of consent."
+    },
+    {
+      "id": 43,
+      "question": "The concept of 'zero-tolerance policing' was prominently applied in:",
+      "choices": ["New York City under Mayor Giuliani in the 1990s", "London under the Metropolitan Police in the 1980s", "Tokyo, Japan in the 1970s", "Chicago, USA in the 1960s"],
+      "answer": "New York City under Mayor Giuliani in the 1990s",
+      "explanation": "Zero-tolerance policing was prominently implemented in New York City under Mayor Rudy Giuliani and Police Commissioner William Bratton in the 1990s. It involved strict enforcement of minor violations based on the Broken Windows Theory and led to significant crime reduction."
+    },
+    {
+      "id": 44,
+      "question": "The Barangay Anti-Drug Abuse Council (BADAC) was established under:",
+      "choices": ["DILG Memorandum Circular implementing RA 9165", "Republic Act 9165 directly", "Executive Order 12", "PNP Circular 2015"],
+      "answer": "DILG Memorandum Circular implementing RA 9165",
+      "explanation": "BADAC was established through DILG Memorandum Circulars as the implementing mechanism at the barangay level for the Comprehensive Dangerous Drugs Act. It coordinates barangay-level anti-drug efforts with the PNP and other agencies."
+    },
+    {
+      "id": 45,
+      "question": "The term 'probable cause' in law enforcement means:",
+      "choices": ["A reasonable ground to believe that a crime has been committed and that the person arrested committed it", "Absolute certainty that a crime was committed", "Suspicion based on anonymous tips", "Any reason an officer believes a crime occurred"],
+      "answer": "A reasonable ground to believe that a crime has been committed and that the person arrested committed it",
+      "explanation": "Probable cause is a reasonable belief, based on articulable facts, that a crime has been or is being committed and that the person to be arrested committed it. It is more than mere suspicion but less than proof beyond reasonable doubt."
+    },
+    {
+      "id": 46,
+      "question": "The 'booking' procedure after arrest involves:",
+      "choices": ["Recording the arrested person's information, charges, fingerprinting, and photographing at the police station", "The initial appearance of the accused before a judge", "The formal reading of charges to the accused", "The transfer of the accused to jail"],
+      "answer": "Recording the arrested person's information, charges, fingerprinting, and photographing at the police station",
+      "explanation": "Booking is the administrative procedure following arrest where the subject's biographical data, physical description, charges, and circumstances of arrest are recorded. It includes fingerprinting, photographing (mugshot), and inventory of personal property."
+    },
+    {
+      "id": 47,
+      "question": "Republic Act 10591, the Comprehensive Firearms and Ammunition Regulation Act, requires firearms owners to:",
+      "choices": ["Register firearms and obtain a license to own and possess firearms", "Register only newly purchased firearms", "Obtain police clearance only", "Report firearms only when involved in crime"],
+      "answer": "Register firearms and obtain a license to own and possess firearms",
+      "explanation": "RA 10591 (Comprehensive Firearms and Ammunition Regulation Act) requires all firearm owners to: obtain a License to Own and Possess Firearms (LTOPF) and register each firearm. It regulates the manufacture, importation, distribution, and possession of firearms."
+    },
+    {
+      "id": 48,
+      "question": "The PNP Oath of Office requires police officers to:",
+      "choices": ["Support and defend the Constitution and faithfully and impartially discharge their duties", "Obey all orders of superior officers without question", "Prioritize national security above individual rights", "Enforce all laws including those they personally disagree with"],
+      "answer": "Support and defend the Constitution and faithfully and impartially discharge their duties",
+      "explanation": "The PNP Oath of Office includes a commitment to uphold and defend the Constitution, faithfully and impartially discharge duties, and serve with professionalism and integrity. Constitutional supremacy is the foundation of the police oath."
+    },
+    {
+      "id": 49,
+      "question": "Preventive suspension of a PNP member pending investigation may last up to:",
+      "choices": ["90 days", "30 days", "60 days", "180 days"],
+      "answer": "90 days",
+      "explanation": "Under the PNP disciplinary system, a member may be placed on preventive suspension pending investigation for a maximum of 90 days. This is without prejudice to the outcome of the investigation and is separate from any penalty that may be imposed."
+    },
+    {
+      "id": 50,
+      "question": "The Philippine Constabulary (PC), the forerunner of the PNP, was established in:",
+      "choices": ["1901 under Act No. 175 during American colonial rule", "1935 during the Commonwealth period", "1972 under Martial Law", "1987 after the Edsa Revolution"],
+      "answer": "1901 under Act No. 175 during American colonial rule",
+      "explanation": "The Philippine Constabulary was established on July 18, 1901 under Act No. 175 by the Philippine Commission during the American colonial period. It served as the national police force until it was reorganized and eventually replaced by the PNP in 1991."
+    }
+  ]
+}

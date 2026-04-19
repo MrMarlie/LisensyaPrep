@@ -1,0 +1,356 @@
+{
+  "module": "Module 5 - Correctional Administration",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Penology is the branch of criminology that deals with:",
+      "choices": ["The study of punishment, prison management, and the rehabilitation of offenders", "The study of criminal behavior and its causes", "The administration of police organizations", "The investigation of criminal cases"],
+      "answer": "The study of punishment, prison management, and the rehabilitation of offenders",
+      "explanation": "Penology (from Latin: poena = punishment) is the branch of criminology concerned with the philosophy and practice of various societies in their attempts to repress criminal activities and satisfy public opinion through punishing law breakers, including prison management and rehabilitation."
+    },
+    {
+      "id": 2,
+      "question": "The Bureau of Corrections (BuCor) is under the supervision of the:",
+      "choices": ["Department of Justice", "Department of the Interior and Local Government", "Department of Social Welfare and Development", "Supreme Court"],
+      "answer": "Department of Justice",
+      "explanation": "BuCor is an agency under the Department of Justice (DOJ) responsible for the confinement, rehabilitation, and reintegration of national offenders (those sentenced to more than three years of imprisonment) in national penitentiaries."
+    },
+    {
+      "id": 3,
+      "question": "The New Bilibid Prison (NBP) is located in:",
+      "choices": ["Muntinlupa City, Metro Manila", "Quezon City, Metro Manila", "San Pedro, Laguna", "Pasay City, Metro Manila"],
+      "answer": "Muntinlupa City, Metro Manila",
+      "explanation": "The New Bilibid Prison (NBP), the national penitentiary of the Philippines, is located in Muntinlupa City, Metro Manila. It is the country's largest prison facility under the Bureau of Corrections."
+    },
+    {
+      "id": 4,
+      "question": "Probation in the Philippines is governed by:",
+      "choices": ["Presidential Decree 968 (Probation Law of 1976)", "Republic Act 10592", "Presidential Decree 603", "Act No. 4103"],
+      "answer": "Presidential Decree 968 (Probation Law of 1976)",
+      "explanation": "PD 968 (Probation Law of 1976), as amended by PD 1257 and BP 76, governs probation in the Philippines. Probation allows a convicted person to be placed under supervision in the community rather than serving time in prison, subject to conditions set by the court."
+    },
+    {
+      "id": 5,
+      "question": "The maximum period of imprisonment that makes a person eligible for probation under PD 968 is:",
+      "choices": ["Six years", "Three years", "Twelve years", "One year"],
+      "answer": "Six years",
+      "explanation": "Under PD 968 as amended, a person convicted of an offense where the sentence imposed (not the penalty prescribed by law) does not exceed six years is eligible for probation, provided the accused was not previously convicted of an offense punishable by imprisonment of more than one month and one day."
+    },
+    {
+      "id": 6,
+      "question": "Parole in the Philippines is governed by:",
+      "choices": ["Act No. 4103 (Indeterminate Sentence Law)", "Presidential Decree 968", "Republic Act 10592", "Presidential Decree 603"],
+      "answer": "Act No. 4103 (Indeterminate Sentence Law)",
+      "explanation": "Act No. 4103 (Indeterminate Sentence Law) governs the parole system in the Philippines. The Board of Pardons and Parole (BPP) under the DOJ releases qualified prisoners on parole after serving the minimum term of their indeterminate sentence."
+    },
+    {
+      "id": 7,
+      "question": "The Board of Pardons and Parole (BPP) exercises authority over:",
+      "choices": ["National prisoners sentenced by RTC who have served the minimum of their indeterminate sentence", "All convicted persons regardless of the court that sentenced them", "Only prisoners convicted of non-violent offenses", "Prisoners in city and municipal jails"],
+      "answer": "National prisoners sentenced by RTC who have served the minimum of their indeterminate sentence",
+      "explanation": "The BPP (created under Act 4103) exercises authority over national prisoners (convicted by RTCs and sentenced to more than 3 years) who have served the minimum of their indeterminate sentence. It also recommends executive clemency to the President."
+    },
+    {
+      "id": 8,
+      "question": "Executive clemency refers to:",
+      "choices": ["The power of the President to grant pardon, amnesty, commutation of sentence, and reprieve", "The authority of the Supreme Court to reduce penalties", "The power of Congress to enact more lenient criminal laws", "The power of the BPP to release prisoners on parole"],
+      "answer": "The power of the President to grant pardon, amnesty, commutation of sentence, and reprieve",
+      "explanation": "Under Article VII, Section 19 of the 1987 Constitution, the President may grant reprieves, commutations, pardons, and remit fines and forfeitures after final conviction. The President may also grant amnesty with the concurrence of a majority of Congress."
+    },
+    {
+      "id": 9,
+      "question": "Absolute pardon vs. conditional pardon: absolute pardon:",
+      "choices": ["Fully restores all civil and political rights of the offender without any conditions", "Releases the offender from prison only but does not restore civil rights", "Reduces the penalty to a lesser offense", "Is subject to specific conditions that must be fulfilled"],
+      "answer": "Fully restores all civil and political rights of the offender without any conditions",
+      "explanation": "An absolute pardon fully restores the civil and political rights of the convict without imposing any conditions. A conditional pardon is granted subject to certain conditions; violation of which may result in recommitment to prison."
+    },
+    {
+      "id": 10,
+      "question": "The Bureau of Jail Management and Penology (BJMP) is under the:",
+      "choices": ["Department of the Interior and Local Government (DILG)", "Department of Justice (DOJ)", "Supreme Court", "Department of Social Welfare and Development"],
+      "answer": "Department of the Interior and Local Government (DILG)",
+      "explanation": "The BJMP (created by RA 6975) is an agency under the DILG responsible for the safekeeping and development of detainees and prisoners in district, city, and municipal jails — those with sentences of three years or less."
+    },
+    {
+      "id": 11,
+      "question": "The difference between a 'jail' and a 'prison' in the Philippine correctional system is:",
+      "choices": ["A jail holds detainees and those with short sentences (3 years or less); a prison holds those sentenced to more than 3 years", "A jail is for women; a prison is for men", "A jail is temporary; a prison is permanent", "A jail is run by LGUs; a prison is run by the national government"],
+      "answer": "A jail holds detainees and those with short sentences (3 years or less); a prison holds those sentenced to more than 3 years",
+      "explanation": "In the Philippines: Jails (under BJMP) hold detainees awaiting trial and convicted persons with sentences of 3 years or less. Prisons (under BuCor) hold national offenders with sentences exceeding 3 years. The distinction is based on sentence length."
+    },
+    {
+      "id": 12,
+      "question": "Republic Act 10575 is known as the:",
+      "choices": ["BuCor Act of 2013 — an act strengthening the Bureau of Corrections", "BJMP Modernization Act", "Probation Law Amendment", "Juvenile Justice and Welfare Act"],
+      "answer": "BuCor Act of 2013 — an act strengthening the Bureau of Corrections",
+      "explanation": "RA 10575 (BuCor Act of 2013) strengthened and upgraded the Bureau of Corrections. It modernized BuCor's mandate, increased personnel complement, and established the Correctional Institution for Women (CIW) as a separate entity."
+    },
+    {
+      "id": 13,
+      "question": "The Correctional Institution for Women (CIW) is located in:",
+      "choices": ["Mandaluyong City", "Muntinlupa City", "Pasig City", "Quezon City"],
+      "answer": "Mandaluyong City",
+      "explanation": "The Correctional Institution for Women (CIW) is a women's prison located in Mandaluyong City. It is one of the seven national penal institutions under BuCor, specifically housing female national prisoners."
+    },
+    {
+      "id": 14,
+      "question": "The 'reception and diagnostic center' in the correctional system is used to:",
+      "choices": ["Classify and evaluate new prisoners to determine appropriate housing and rehabilitation programs", "Process new prisoners for administrative admission only", "Conduct criminal investigations on newly convicted prisoners", "Provide immediate medical care to newly sentenced prisoners"],
+      "answer": "Classify and evaluate new prisoners to determine appropriate housing and rehabilitation programs",
+      "explanation": "The Reception and Diagnostic Center (RDC) evaluates and classifies newly committed prisoners based on their physical, mental, educational, and vocational status to determine the appropriate security level, housing, and rehabilitation program assignments."
+    },
+    {
+      "id": 15,
+      "question": "The primary goal of rehabilitation in corrections is:",
+      "choices": ["To reform the offender into a productive, law-abiding member of society", "To punish the offender for crimes committed", "To protect society from dangerous criminals", "To deter potential offenders from committing crimes"],
+      "answer": "To reform the offender into a productive, law-abiding member of society",
+      "explanation": "Rehabilitation aims to reform convicted offenders by addressing the underlying causes of criminal behavior through education, vocational training, psychological counseling, and other programs, with the goal of reducing recidivism and successfully reintegrating them into society."
+    },
+    {
+      "id": 16,
+      "question": "The 'Good Conduct Time Allowance (GCTA)' under RA 10592 allows convicted prisoners to:",
+      "choices": ["Earn time deductions from their sentence based on good behavior and participation in rehabilitation activities", "Be released on probation after serving half their sentence", "Reduce their sentence through payment of fines", "Be transferred to lower security facilities"],
+      "answer": "Earn time deductions from their sentence based on good behavior and participation in rehabilitation activities",
+      "explanation": "RA 10592 (amended Revised Penal Code provisions) provides that prisoners who have not incurred any infraction and who are performing assigned tasks diligently shall be entitled to deductions from their sentence periods."
+    },
+    {
+      "id": 17,
+      "question": "The 'Sablayan Prison and Penal Farm' is located in:",
+      "choices": ["Occidental Mindoro", "Palawan", "Mindanao", "Leyte"],
+      "answer": "Occidental Mindoro",
+      "explanation": "The Sablayan Prison and Penal Farm (SPPF) is a national penal institution under BuCor located in Occidental Mindoro. Like other penal farms, it engages prisoners in agricultural activities as part of their rehabilitation."
+    },
+    {
+      "id": 18,
+      "question": "The 'Iwahig Prison and Penal Farm' is located in:",
+      "choices": ["Puerto Princesa City, Palawan", "Zamboanga City", "Davao City", "General Santos City"],
+      "answer": "Puerto Princesa City, Palawan",
+      "explanation": "The Iwahig Prison and Penal Farm (IPPF) is located in Puerto Princesa City, Palawan. It is one of BuCor's penal colonies and is known for its open penal colony concept where minimum security prisoners are allowed more freedom of movement."
+    },
+    {
+      "id": 19,
+      "question": "Solitary confinement in correctional facilities is used:",
+      "choices": ["As a disciplinary measure for serious infractions, not as a routine punishment", "For all newly admitted prisoners for orientation", "For prisoners with terminal illnesses", "As the primary method of behavior modification"],
+      "answer": "As a disciplinary measure for serious infractions, not as a routine punishment",
+      "explanation": "Solitary confinement (segregation) is a disciplinary measure reserved for serious rule violations that threaten institutional security. International human rights standards limit its use because of the severe psychological effects of prolonged isolation."
+    },
+    {
+      "id": 20,
+      "question": "The theory of punishment that aims to prevent the specific offender from reoffending through incapacitation is called:",
+      "choices": ["Special deterrence", "General deterrence", "Rehabilitation", "Retribution"],
+      "answer": "Special deterrence",
+      "explanation": "Special (specific/individual) deterrence aims to prevent the individual offender from committing future crimes by using punishment as a personal deterrent. This contrasts with general deterrence, which aims to deter others in society from committing similar crimes."
+    },
+    {
+      "id": 21,
+      "question": "The theory of punishment called 'retribution' holds that:",
+      "choices": ["Offenders deserve punishment proportional to the harm caused — punishment is justified as 'just deserts'", "Punishment should deter future crimes", "Punishment should rehabilitate the offender", "Society must be protected from dangerous offenders"],
+      "answer": "Offenders deserve punishment proportional to the harm caused — punishment is justified as 'just deserts'",
+      "explanation": "Retributive theory holds that punishment is morally justified because offenders deserve to suffer in proportion to the harm they caused. It is backward-looking (focuses on the past crime) and views punishment as an end in itself, not a means to reduce future crime."
+    },
+    {
+      "id": 22,
+      "question": "Under the Philippine correctional system, a 'recidivist' is eligible for:",
+      "choices": ["Stiffer penalties but may still qualify for parole after serving the minimum sentence", "No parole or probation whatsoever", "Indefinite imprisonment without possibility of release", "Reduced penalties under the Indeterminate Sentence Law"],
+      "answer": "Stiffer penalties but may still qualify for parole after serving the minimum sentence",
+      "explanation": "Under the RPC, recidivists (those convicted of the same crime previously) are subject to aggravated penalties. However, the BPP may still grant parole to recidivists after serving the minimum of their sentence, though their status is considered in parole evaluation."
+    },
+    {
+      "id": 23,
+      "question": "The Juvenile Justice and Welfare Act (RA 9344) provides that children in conflict with the law aged 15-18 who acted without discernment shall be:",
+      "choices": ["Exempt from criminal liability and referred to DSWD for intervention programs", "Subject to reduced criminal penalties", "Treated as adults for serious offenses", "Detained in youth detention centers"],
+      "answer": "Exempt from criminal liability and referred to DSWD for intervention programs",
+      "explanation": "Under RA 9344, a child above 15 but below 18 years of age who acted without discernment is exempt from criminal liability but shall undergo an intervention program administered by the DSWD. A child who acted with discernment shall be subjected to diversion programs."
+    },
+    {
+      "id": 24,
+      "question": "The 'diversion program' under RA 9344 for children in conflict with the law applies to offenses with penalties of:",
+      "choices": ["Not more than 12 years imprisonment", "Not more than 6 years imprisonment", "Any offense regardless of penalty", "Only offenses punishable by fine"],
+      "answer": "Not more than 12 years imprisonment",
+      "explanation": "Under RA 9344, diversion at the barangay level is available for offenses not punishable by imprisonment exceeding 6 years; diversion at the law enforcement/prosecutor level is available for offenses not punishable by imprisonment exceeding 12 years."
+    },
+    {
+      "id": 25,
+      "question": "The minimum age of criminal responsibility (MACR) in the Philippines under current law is:",
+      "choices": ["15 years old", "12 years old", "18 years old", "9 years old"],
+      "answer": "15 years old",
+      "explanation": "Under RA 9344 as amended by RA 10630, the minimum age of criminal responsibility is 15 years old. A child 15 years old or below is exempt from criminal liability. Previous laws (RPC) set it at 9 years old."
+    },
+    {
+      "id": 26,
+      "question": "The 'Bahay Pag-asa' (House of Hope) under RA 9344 is a:",
+      "choices": ["24-hour child-caring institution established by LGUs for youth offenders awaiting disposition of their cases", "Rehabilitation center for drug-dependent youth", "Halfway house for released juvenile offenders", "Court-mandated school for juvenile delinquents"],
+      "answer": "24-hour child-caring institution established by LGUs for youth offenders awaiting disposition of their cases",
+      "explanation": "Bahay Pag-asa is a 24-hour child-caring institution established and managed by LGUs for children in conflict with the law who are above 15 but below 18 years old who acted with discernment and are awaiting court disposition of their cases."
+    },
+    {
+      "id": 27,
+      "question": "The classical theory of criminology holds that:",
+      "choices": ["Criminal behavior is a matter of free will and rational choice, and punishment should deter crime", "Crime is caused by biological factors", "Criminals are inherently different from law-abiding citizens", "Society creates criminals through poverty and inequality"],
+      "answer": "Criminal behavior is a matter of free will and rational choice, and punishment should deter crime",
+      "explanation": "The Classical School of Criminology (Beccaria, Bentham) holds that individuals have free will, make rational choices, and can be deterred by punishment. Punishment must be certain, swift, and proportional to the crime. This forms the basis of deterrence theory."
+    },
+    {
+      "id": 28,
+      "question": "Cesare Beccaria's contribution to penology includes:",
+      "choices": ["Arguing that punishment should be proportional, certain, and swift rather than severe, and the abolition of torture and capital punishment", "Developing the concept of criminal profiling", "Establishing the first modern prison", "Developing the classification system for criminals"],
+      "answer": "Arguing that punishment should be proportional, certain, and swift rather than severe, and the abolition of torture and capital punishment",
+      "explanation": "Cesare Beccaria (1738-1794), in 'On Crimes and Punishments' (1764), argued that: punishment should be proportional to the offense, certainty and swiftness of punishment deter crime better than severity, torture should be abolished, and capital punishment should be abolished."
+    },
+    {
+      "id": 29,
+      "question": "Jeremy Bentham's 'Panopticon' concept in penology refers to:",
+      "choices": ["A prison design where a single watchman can observe all prisoners without them knowing if they are being watched", "A system of classification for prisoners", "A theory of deterrence based on pain and pleasure", "A method of solitary confinement"],
+      "answer": "A prison design where a single watchman can observe all prisoners without them knowing if they are being watched",
+      "explanation": "Jeremy Bentham's Panopticon (1791) was a prison design with a central guard tower surrounded by cells, where one guard could observe all prisoners without prisoners knowing when they were being watched. The design institutionalized the power of surveillance in corrections."
+    },
+    {
+      "id": 30,
+      "question": "The 'Auburn system' (congregate system) of imprisonment was characterized by:",
+      "choices": ["Prisoners working together in silence during the day but confined separately at night", "Prisoners held in complete isolation at all times", "Prisoners working in community settings with supervision", "Prisoners being held in large dormitories"],
+      "answer": "Prisoners working together in silence during the day but confined separately at night",
+      "explanation": "The Auburn system (developed at Auburn Prison, New York, 1820s) had prisoners working together in silence during the day but confined to individual cells at night. It contrasted with the Pennsylvania system (solitary confinement at all times) and became the dominant American prison model."
+    },
+    {
+      "id": 31,
+      "question": "The Philippines' maximum security facility for the most dangerous criminals is:",
+      "choices": ["The Maximum Security Compound of the New Bilibid Prison", "Camp Crame Detention Facility", "Fort Magsaysay Military Stockade", "The National Penitentiary in Muntinlupa"],
+      "answer": "The Maximum Security Compound of the New Bilibid Prison",
+      "explanation": "The Maximum Security Compound of the New Bilibid Prison houses the most dangerous and high-risk national prisoners. BuCor classifies prisoners into three security levels: maximum, medium, and minimum, based on risk assessment."
+    },
+    {
+      "id": 32,
+      "question": "The concept of 'restorative justice' in corrections focuses on:",
+      "choices": ["Repairing harm through cooperative processes involving the victim, offender, and community", "Punishing offenders according to the severity of their crimes", "Rehabilitating offenders through incarceration programs", "Deterring crime through strict sentencing"],
+      "answer": "Repairing harm through cooperative processes involving the victim, offender, and community",
+      "explanation": "Restorative justice (associated with Howard Zehr) focuses on repairing harm caused by crime through bringing together victims, offenders, and community members in cooperative processes. It emphasizes accountability, making amends, and reintegration over punishment."
+    },
+    {
+      "id": 33,
+      "question": "The 'Elmira Reformatory System,' pioneered by Zebulon Brockway in the United States, introduced:",
+      "choices": ["Indeterminate sentences, parole, and education and vocational training for prisoners", "Solitary confinement as rehabilitation", "Corporal punishment as a primary disciplinary tool", "The congregate work system in silence"],
+      "answer": "Indeterminate sentences, parole, and education and vocational training for prisoners",
+      "explanation": "The Elmira Reformatory (New York, 1876) under Zebulon Brockway pioneered: indeterminate sentences (flexibility in release dates), a mark/grade system tied to good conduct, education and vocational training, and parole for good behavior. It focused on rehabilitation rather than punishment."
+    },
+    {
+      "id": 34,
+      "question": "The 'mark system' in penology, developed by Captain Alexander Maconochie at Norfolk Island, allowed prisoners to:",
+      "choices": ["Earn marks for good behavior and work that could reduce their sentence", "Mark their progress through rehabilitation stages", "Mark cell walls to record the passage of time", "Earn privileges for physical fitness achievements"],
+      "answer": "Earn marks for good behavior and work that could reduce their sentence",
+      "explanation": "Alexander Maconochie (Governor of Norfolk Island, 1840) developed the mark system: prisoners earned marks for good conduct and work which could be used to purchase goods or reduce sentences. This was an early precursor to the indeterminate sentence and parole system."
+    },
+    {
+      "id": 35,
+      "question": "The Parole and Probation Administration (PPA) is an agency under:",
+      "choices": ["Department of Justice (DOJ)", "Department of the Interior and Local Government (DILG)", "Department of Social Welfare and Development (DSWD)", "Office of the President"],
+      "answer": "Department of Justice (DOJ)",
+      "explanation": "The Parole and Probation Administration (PPA) is attached to the DOJ and administers the parole and probation system in the Philippines. It supervises parolees and probationers, conducts post-sentence investigation, and provides rehabilitation services."
+    },
+    {
+      "id": 36,
+      "question": "The 'three strikes law' concept in corrections refers to:",
+      "choices": ["Mandatory long sentences for repeat offenders convicted of serious crimes for the third time", "Three warnings given to prisoners before disciplinary action", "Three chances given to juvenile offenders before adult prosecution", "The three disciplinary measures used before solitary confinement"],
+      "answer": "Mandatory long sentences for repeat offenders convicted of serious crimes for the third time",
+      "explanation": "Three strikes laws (adopted in several US states) mandate long prison sentences (sometimes life imprisonment) for persons convicted of serious crimes for the third time. The concept reflects an incapacitation approach to repeat violent offenders."
+    },
+    {
+      "id": 37,
+      "question": "Under RA 10592, the Good Conduct Time Allowance accrues for prisoners who:",
+      "choices": ["Have not incurred any infraction and are performing assigned tasks diligently", "Apply for GCTA through their case manager", "Have been in prison for more than five years", "Are participating in religious activities only"],
+      "answer": "Have not incurred any infraction and are performing assigned tasks diligently",
+      "explanation": "RA 10592 (amending Articles 29, 94, 97, 98, and 99 of the RPC) provides for GCTA deductions for: (1) preventive detention — those who are not recidivists, have no pending criminal case, and have not been previously convicted; and (2) convicted prisoners who have not incurred infractions."
+    },
+    {
+      "id": 38,
+      "question": "The UN Standard Minimum Rules for Treatment of Prisoners (Nelson Mandela Rules) are:",
+      "choices": ["International guidelines establishing minimum standards for prison management and prisoner treatment", "Binding treaties requiring all UN member states to follow specific prison standards", "Rules applicable only to political prisoners", "Guidelines for maximum security prison operations"],
+      "answer": "International guidelines establishing minimum standards for prison management and prisoner treatment",
+      "explanation": "The Nelson Mandela Rules (adopted by the UN General Assembly in 2015, updating the original 1955 Standard Minimum Rules) establish minimum standards for the treatment of prisoners. While not legally binding as international law, they serve as important guidelines for prison administration."
+    },
+    {
+      "id": 39,
+      "question": "The concept of 'prisonization' (coined by Donald Clemmer) refers to:",
+      "choices": ["The process by which prisoners absorb the subculture, norms, and values of prison life", "The formal admission process into prison", "The use of imprisonment as the primary criminal sanction", "The management of prison populations"],
+      "answer": "The process by which prisoners absorb the subculture, norms, and values of prison life",
+      "explanation": "Prisonization (Donald Clemmer, 1940) describes how newly admitted prisoners gradually assimilate the prison subculture — its norms, values, code, and anti-authority stance. High prisonization makes reintegration into society more difficult and increases recidivism risk."
+    },
+    {
+      "id": 40,
+      "question": "The national prisons and penal farms under the Bureau of Corrections include all EXCEPT:",
+      "choices": ["Camp Bagong Diwa", "New Bilibid Prison (NBP)", "Correctional Institution for Women (CIW)", "Iwahig Prison and Penal Farm"],
+      "answer": "Camp Bagong Diwa",
+      "explanation": "Camp Bagong Diwa in Bicutan, Taguig is a jail facility under the BJMP. The seven BuCor facilities are: New Bilibid Prison, Correctional Institution for Women, Iwahig Prison and Penal Farm, Davao Prison and Penal Farm, Sablayan Prison and Penal Farm, San Ramon Prison and Penal Farm, and Leyte Regional Prison."
+    },
+    {
+      "id": 41,
+      "question": "The prison industrial complex and its reform in the Philippines are addressed by which law?",
+      "choices": ["RA 10575 (BuCor Act of 2013)", "RA 6975 (DILG Act)", "PD 968 (Probation Law)", "RA 9344 (JJWA)"],
+      "answer": "RA 10575 (BuCor Act of 2013)",
+      "explanation": "RA 10575 (BuCor Act of 2013) strengthened and upgraded the Bureau of Corrections, reorganizing its structure, increasing its personnel complement, and providing for the modernization and reform of the national prison system."
+    },
+    {
+      "id": 42,
+      "question": "The 'Special Intensive Care Area' (SICA) in the prison system is designed for:",
+      "choices": ["High-risk prisoners who require intensive supervision and security", "Prisoners with serious medical conditions", "Newly admitted prisoners for orientation", "Death row prisoners"],
+      "answer": "High-risk prisoners who require intensive supervision and security",
+      "explanation": "SICA (Special Intensive Care Area) is a specially designated area within the New Bilibid Prison for prisoners who pose extraordinary security risks, including gang leaders, prisoners who have escaped or attempted to escape, and those involved in serious disciplinary violations."
+    },
+    {
+      "id": 43,
+      "question": "Halfway houses in the correctional system serve as:",
+      "choices": ["Transitional facilities for offenders being reintegrated into the community after release from prison", "Minimum security detention facilities", "Alternative to imprisonment for first-time offenders", "Facilities for detainees awaiting trial"],
+      "answer": "Transitional facilities for offenders being reintegrated into the community after release from prison",
+      "explanation": "Halfway houses (transitional centers or community residential facilities) provide a structured living environment for persons transitioning from prison to full community release. They provide supervision, support services, and gradual reintegration into society."
+    },
+    {
+      "id": 44,
+      "question": "Under the Indeterminate Sentence Law (Act 4103), the court must impose:",
+      "choices": ["A maximum and minimum term of imprisonment, with the actual release date determined by the Board of Pardons and Parole", "A fixed sentence determined by the offense", "Only the minimum sentence prescribed by law", "The penalty imposed by the sentencing guidelines"],
+      "answer": "A maximum and minimum term of imprisonment, with the actual release date determined by the Board of Pardons and Parole",
+      "explanation": "The Indeterminate Sentence Law requires courts to impose a sentence with both a minimum and maximum term. The BPP may release the prisoner on parole after serving the minimum sentence if the prisoner has complied with ISL conditions."
+    },
+    {
+      "id": 45,
+      "question": "The Davao Prison and Penal Farm (Davao Penal Colony) is located in:",
+      "choices": ["Panabo City, Davao del Norte", "Davao City", "General Santos City", "Cotabato City"],
+      "answer": "Panabo City, Davao del Norte",
+      "explanation": "The Davao Prison and Penal Farm (DPPF), also known as Davao Penal Colony or 'Davao Penal,' is located in Panabo City, Davao del Norte. It is one of BuCor's largest penal institutions and engages prisoners in agricultural production."
+    },
+    {
+      "id": 46,
+      "question": "The 'community service' as an alternative to imprisonment was formally introduced in the Philippines through:",
+      "choices": ["Republic Act 11362 (Community Service Act)", "Republic Act 10592", "Presidential Decree 968", "Republic Act 9344"],
+      "answer": "Republic Act 11362 (Community Service Act)",
+      "explanation": "RA 11362 (Community Service Act of 2019) amended the Probation Law to allow courts to impose community service as an alternative to imprisonment for violations penalized by imprisonment of not more than one year or a fine, or both."
+    },
+    {
+      "id": 47,
+      "question": "The primary distinction between pardon and amnesty is:",
+      "choices": ["Pardon is granted to individuals for specific offenses; amnesty is granted to a class of persons usually for political offenses", "Pardon requires Congressional concurrence; amnesty does not", "Pardon is for minor offenses; amnesty is for capital offenses", "Pardon removes criminal liability; amnesty does not"],
+      "answer": "Pardon is granted to individuals for specific offenses; amnesty is granted to a class of persons usually for political offenses",
+      "explanation": "Pardon is an individual act of executive clemency for a specific convicted person. Amnesty is a blanket act of grace extended to a class of persons, usually those who committed political offenses. Amnesty requires concurrence of a majority of all members of Congress; pardon does not."
+    },
+    {
+      "id": 48,
+      "question": "The 'Classification of Prisoners' in the Philippine correctional system categorizes them as:",
+      "choices": ["Maximum security, medium security, and minimum security", "High risk, moderate risk, and low risk", "First offenders, second offenders, and habitual offenders", "Violent, non-violent, and white-collar criminals"],
+      "answer": "Maximum security, medium security, and minimum security",
+      "explanation": "BuCor classifies prisoners into three security levels: (1) Maximum security - most dangerous and high escape risk; (2) Medium security - less dangerous, some escape risk; (3) Minimum security - low danger and escape risk, suitable for trustee status and open colony placement."
+    },
+    {
+      "id": 49,
+      "question": "The 'Therapeutic Community (TC) approach' in corrections is used for:",
+      "choices": ["Drug rehabilitation of drug-dependent prisoners through a structured self-help program", "Treating prisoners with mental illnesses", "Vocational rehabilitation of prisoners", "Treatment of juvenile offenders"],
+      "answer": "Drug rehabilitation of drug-dependent prisoners through a structured self-help program",
+      "explanation": "The Therapeutic Community (TC) approach is a social-learning approach to drug rehabilitation that uses a highly structured program in which residents model appropriate behavior for each other. It is used in prisons and drug rehabilitation centers to address substance use disorders."
+    },
+    {
+      "id": 50,
+      "question": "The legal basis for the Philippine Death Penalty's abolition is:",
+      "choices": ["Republic Act 9346 which prohibited the imposition of the death penalty", "The 1987 Constitution which abolished it outright", "Supreme Court ruling in People v. Echegaray", "Executive Order by the President"],
+      "answer": "Republic Act 9346 which prohibited the imposition of the death penalty",
+      "explanation": "RA 9346 (An Act Prohibiting the Imposition of the Death Penalty in the Philippines, 2006) prohibited the imposition of the death penalty for all crimes. It commuted all death sentences to reclusion perpetua. The 1987 Constitution did not abolish it outright — it authorized Congress to reimpose it for heinous crimes."
+    }
+  ]
+}

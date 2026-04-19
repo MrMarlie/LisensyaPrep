@@ -18,6 +18,38 @@ export async function generateMetadata({ params }) {
   });
 }
 
+// Auto-link bare URLs (e.g. prc.gov.ph, online.prc.gov.ph) to actual <a> tags
+function linkifyUrls(html) {
+  return html.replace(
+    /\b((?:https?:\/\/)?(?:www\.)?[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*\.(?:gov\.ph|com\.ph|edu\.ph|org\.ph|com|net|org|ph)(?:\/[^\s<>"']*)?)\b/g,
+    (url) => {
+      const href = /^https?:\/\//.test(url) ? url : `https://${url}`;
+      return `<a href="${href}" target="_blank" rel="noopener noreferrer" class="text-yellow-400 hover:text-yellow-300 underline underline-offset-2">${url}</a>`;
+    }
+  );
+}
+
+// Apply markdown links, bold, italic, code, and URL formatting
+function formatInline(text) {
+  let result = text
+    // markdown links [text](url) → <a> — must run BEFORE linkifyUrls
+    .replace(
+      /\[([^\]]+)\]\((https?:\/\/[^)]+|\/[^)]*)\)/g,
+      (_, t, url) => `<a href="${url}"${url.startsWith('http') ? ' target="_blank" rel="noopener noreferrer"' : ''} class="text-yellow-400 hover:text-yellow-300 underline underline-offset-2">${t}</a>`
+    )
+    .replace(/\*\*(.+?)\*\*/g, '<strong class="text-white font-semibold">$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em class="text-gray-400 italic">$1</em>')
+    .replace(/`(.+?)`/g, '<code class="bg-white/10 px-1 rounded text-yellow-300 text-xs">$1</code>');
+  // Auto-link bare URLs not already inside an HTML attribute (negative lookbehind on " or >)
+  return result.replace(
+    /(?<![">])\b((?:https?:\/\/)?(?:www\.)?[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*\.(?:gov\.ph|com\.ph|edu\.ph|org\.ph|com|net|org|ph)(?:\/[^\s<>"']*)?)\b/g,
+    (url) => {
+      const href = /^https?:\/\//.test(url) ? url : `https://${url}`;
+      return `<a href="${href}" target="_blank" rel="noopener noreferrer" class="text-yellow-400 hover:text-yellow-300 underline underline-offset-2">${url}</a>`;
+    }
+  );
+}
+
 // Simple markdown-like content renderer (no external deps)
 function renderContent(content) {
   const lines = content.trim().split('\n');
@@ -39,6 +71,10 @@ function renderContent(content) {
           {line.slice(4)}
         </h3>
       );
+    } else if (line.trim() === '---') {
+      elements.push(
+        <hr key={key++} className="border-white/10 my-6" />
+      );
     } else if (line.startsWith('**') && line.endsWith('**')) {
       elements.push(
         <p key={key++} className="font-bold text-white my-2">
@@ -49,7 +85,7 @@ function renderContent(content) {
       elements.push(
         <li key={key++} className="text-gray-300 text-sm ml-4 mb-1 flex items-start gap-2">
           <span className="text-yellow-400 mt-1 flex-shrink-0">•</span>
-          <span dangerouslySetInnerHTML={{ __html: line.slice(2).replace(/\*\*(.+?)\*\*/g, '<strong class="text-white">$1</strong>') }} />
+          <span dangerouslySetInnerHTML={{ __html: formatInline(line.slice(2)) }} />
         </li>
       );
     } else if (line.startsWith('- [ ] ')) {
@@ -60,7 +96,6 @@ function renderContent(content) {
         </li>
       );
     } else if (line.startsWith('| ') && line.endsWith(' |')) {
-      // Table row — simplified rendering
       const cells = line.split('|').filter((c) => c.trim() && !c.match(/^[-\s]+$/));
       const isHeader = i > 0 && lines[i + 1]?.includes('---');
       if (isHeader) {
@@ -77,9 +112,11 @@ function renderContent(content) {
         elements.push(
           <tr key={key++} className="border-b border-white/5">
             {cells.map((cell, ci) => (
-              <td key={ci} className="px-4 py-2 text-gray-300 text-sm">
-                {cell.trim()}
-              </td>
+              <td
+                key={ci}
+                className="px-4 py-2 text-gray-300 text-sm"
+                dangerouslySetInnerHTML={{ __html: formatInline(cell.trim()) }}
+              />
             ))}
           </tr>
         );
@@ -102,7 +139,7 @@ function renderContent(content) {
     } else if (line.trim().startsWith('**') && line.includes('**')) {
       elements.push(
         <p key={key++} className="text-gray-300 text-sm my-2 leading-relaxed"
-          dangerouslySetInnerHTML={{ __html: line.replace(/\*\*(.+?)\*\*/g, '<strong class="text-white font-semibold">$1</strong>') }}
+          dangerouslySetInnerHTML={{ __html: formatInline(line) }}
         />
       );
     } else if (line.trim() === '') {
@@ -110,7 +147,7 @@ function renderContent(content) {
     } else {
       elements.push(
         <p key={key++} className="text-gray-300 text-sm my-2 leading-relaxed"
-          dangerouslySetInnerHTML={{ __html: line.replace(/\*\*(.+?)\*\*/g, '<strong class="text-white font-semibold">$1</strong>').replace(/`(.+?)`/g, '<code class="bg-white/10 px-1 rounded text-yellow-300 text-xs">$1</code>') }}
+          dangerouslySetInnerHTML={{ __html: formatInline(line) }}
         />
       );
     }
@@ -155,17 +192,31 @@ function renderContent(content) {
 }
 
 const TAG_COLORS = {
-  'Study Tips': 'bg-yellow-400/10 text-yellow-400',
-  'Soil Science': 'bg-amber-500/10 text-amber-400',
-  'Economics': 'bg-blue-500/10 text-blue-400',
-  'Crop Science': 'bg-green-500/10 text-green-400',
+  'Board Exam Guide': 'bg-blue-500/10 text-blue-400',
+  'Study Tips':       'bg-yellow-400/10 text-yellow-400',
+  'Soil Science':     'bg-amber-500/10 text-amber-400',
+  'Economics':        'bg-emerald-500/10 text-emerald-400',
+  'Crop Science':     'bg-green-500/10 text-green-400',
+  'Nursing':          'bg-sky-500/10 text-sky-400',
+  'Criminology':      'bg-red-500/10 text-red-400',
+  'Education':        'bg-violet-500/10 text-violet-400',
+  'Agriculture':      'bg-lime-500/10 text-lime-400',
 };
+
+// Determine the best quiz CTA destination based on article tag
+function getCtaHref(tag) {
+  if (tag === 'Criminology') return '/criminology';
+  if (tag === 'Education') return '/education';
+  if (tag === 'Agriculture' || tag === 'Soil Science' || tag === 'Crop Science' || tag === 'Economics') return '/agriculture';
+  return '/';
+}
 
 export default function BlogPostPage({ params }) {
   const post = BLOG_POSTS.find((p) => p.slug === params.slug);
   if (!post) return notFound();
 
   const otherPosts = BLOG_POSTS.filter((p) => p.slug !== params.slug);
+  const ctaHref = getCtaHref(post.tag);
 
   return (
     <div className="min-h-screen py-10">
@@ -210,7 +261,7 @@ export default function BlogPostPage({ params }) {
                 Put what you learned into practice with our gamified quiz. Battle the boss and earn your license piece.
               </p>
               <Link
-                href="/agriculture"
+                href={ctaHref}
                 className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-6 py-3 rounded-xl transition-colors"
               >
                 ⚔️ Start Quiz →

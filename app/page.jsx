@@ -86,10 +86,10 @@ export default function HomePage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/agriculture"
+              href="#choose-exam"
               className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-extrabold px-8 py-4 rounded-xl text-lg transition-all shadow-lg shadow-yellow-400/25 hover:shadow-yellow-400/40"
             >
-              🌾 Start Agriculture Review
+              Start Your Review
             </Link>
             <Link
               href="#how-it-works"
@@ -121,7 +121,7 @@ export default function HomePage() {
       </div>
 
       {/* Exam Categories */}
-      <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="choose-exam" className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-3">
             Choose Your Exam
@@ -164,8 +164,24 @@ export default function HomePage() {
             </div>
           </Link>
 
+          {/* Criminology — Active */}
+          <Link href="/criminology" className="group w-full">
+            <div className="bg-gradient-to-br from-red-900/40 to-red-800/20 border-2 border-red-600/40 hover:border-red-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-red-500/10 text-center">
+              <div className="text-5xl mb-4">⚖️</div>
+              <h3 className="text-xl font-bold text-white mb-2">Criminology</h3>
+              <p className="text-gray-400 text-sm mb-4">
+                Criminal Jurisprudence, Criminalistics, Law Enforcement, Crime Investigation, Corrections, and Sociology of Crimes. 6 modules, 300 questions.
+              </p>
+              <div className="flex items-center justify-center gap-2">
+                <span className="bg-red-500/20 text-red-400 text-xs font-semibold px-3 py-1 rounded-full">
+                  ✓ Available Now
+                </span>
+              </div>
+            </div>
+          </Link>
+
           {/* Coming soon placeholders */}
-          {['Criminology', 'Nursing', 'Pharmacy', 'Medical Technology'].map((exam) => (
+          {['Nursing', 'Pharmacy', 'Medical Technology'].map((exam) => (
             <div key={exam} className="w-full bg-white/5 border border-white/10 rounded-2xl p-6 opacity-50 cursor-not-allowed text-center">
               <div className="text-5xl mb-4 grayscale">📋</div>
               <h3 className="text-xl font-bold text-white mb-2">{exam}</h3>
@@ -209,65 +225,28 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Featured Modules */}
-      <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-3">
-            Agriculture Modules
-          </h2>
-          <p className="text-gray-400 text-lg max-w-xl mx-auto">
-            Six comprehensive modules covering the full Agriculture PRC exam syllabus.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {[
-            { icon: '🌾', num: 1, title: 'Crop Science and Production', topics: 'Photosynthesis, crop cycles, varieties, harvest practices', difficulty: 'Easy', color: 'from-green-600/30 to-green-900/20', border: 'border-green-600/30', href: '/agriculture/module-1' },
-            { icon: '🌱', num: 2, title: 'Soil Science and Fertilization', topics: 'Soil texture, pH, nutrients, fertilizers, conservation', difficulty: 'Medium', color: 'from-amber-600/30 to-amber-900/20', border: 'border-amber-600/30', href: '/agriculture/module-2' },
-            { icon: '📊', num: 3, title: 'Agricultural Economics', topics: 'Farm management, marketing, agribusiness, policy', difficulty: 'Hard', color: 'from-blue-600/30 to-blue-900/20', border: 'border-blue-600/30', href: '/agriculture/module-3' },
-            { icon: '🛡️', num: 4, title: 'Crop Protection', topics: 'Entomology, plant pathology, weed science, IPM', difficulty: 'Medium', color: 'from-red-600/30 to-red-900/20', border: 'border-red-600/30', href: '/agriculture/module-4' },
-            { icon: '🐄', num: 5, title: 'Animal Science', topics: 'Livestock production, nutrition, health, breeding', difficulty: 'Medium', color: 'from-yellow-600/30 to-yellow-900/20', border: 'border-yellow-600/30', href: '/agriculture/module-5' },
-            { icon: '📡', num: 6, title: 'Agricultural Extension', topics: 'Extension methods, communication, rural development', difficulty: 'Hard', color: 'from-purple-600/30 to-purple-900/20', border: 'border-purple-600/30', href: '/agriculture/module-6' },
-          ].map(({ icon, num, title, topics, difficulty, color, border, href }) => (
-            <Link key={num} href={href} className="group">
-              <div className={`bg-gradient-to-br ${color} border ${border} rounded-2xl p-6 transition-all h-full hover:scale-[1.02] hover:shadow-xl`}>
-                <div className="text-4xl mb-3">{icon}</div>
-                <p className="text-gray-400 text-xs font-semibold uppercase tracking-widest mb-1">Module {num}</p>
-                <h3 className="text-white font-bold text-lg mb-2">{title}</h3>
-                <p className="text-gray-400 text-sm mb-4">{topics}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-xs text-gray-500">30 Questions</span>
-                  <span className="text-xs font-semibold px-2 py-1 rounded-full bg-white/10 text-gray-300">
-                    {difficulty}
-                  </span>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
-
       {/* Blog Preview */}
       <section className="py-16 bg-[#0a1029]/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between mb-10">
-            <h2 className="text-3xl font-extrabold text-white">Latest Study Tips</h2>
-            <Link href="/blog" className="text-yellow-400 hover:text-yellow-300 text-sm font-semibold transition-colors">
-              View All →
+          <div className="text-center mb-12">
+            <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-3">Latest Study Tips</h2>
+            <p className="text-gray-400 text-lg max-w-xl mx-auto mb-6">Tips, strategies, and insights to help you pass your board exam.</p>
+            <Link href="/blog" className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-6 py-2 rounded-full text-sm transition-all">
+              View All Articles →
             </Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {BLOG_PREVIEWS.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
-                <article className="bg-[#0f1629] border border-white/10 rounded-2xl p-6 h-full hover:border-yellow-400/30 transition-all">
+                <article className="bg-[#0f1629] border border-white/10 rounded-2xl p-8 h-full hover:border-yellow-400/30 hover:scale-[1.02] transition-all">
                   <span className="text-xs font-semibold text-yellow-400 bg-yellow-400/10 px-3 py-1 rounded-full">
                     {post.tag}
                   </span>
-                  <h3 className="text-white font-bold text-base mt-3 mb-2 group-hover:text-yellow-400 transition-colors leading-snug">
+                  <h3 className="text-white font-bold text-lg mt-3 mb-2 group-hover:text-yellow-400 transition-colors leading-snug">
                     {post.title}
                   </h3>
-                  <p className="text-gray-400 text-sm mb-4 line-clamp-2">{post.excerpt}</p>
+                  <p className="text-gray-400 text-sm mb-4 line-clamp-3">{post.excerpt}</p>
                   <div className="flex items-center gap-2 text-xs text-gray-600">
                     <span>{post.date}</span>
                     <span>•</span>

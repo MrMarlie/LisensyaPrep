@@ -1,0 +1,356 @@
+{
+  "module": "Module 6 - Sociology of Crimes and Ethics",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Criminology as a science is defined as:",
+      "choices": ["The scientific study of crime as a social phenomenon, including its causes, correction, and prevention", "The study of criminal law and its enforcement", "The application of forensic science in criminal investigations", "The administration of the criminal justice system"],
+      "answer": "The scientific study of crime as a social phenomenon, including its causes, correction, and prevention",
+      "explanation": "Criminology (a term coined by Raffaele Garofalo in 1885) is an interdisciplinary field that examines the nature, causes, extent, and control of criminal behavior. It draws from sociology, psychology, biology, law, and other disciplines."
+    },
+    {
+      "id": 2,
+      "question": "The 'Classical School of Criminology' was founded by:",
+      "choices": ["Cesare Beccaria and Jeremy Bentham", "Cesare Lombroso and Enrico Ferri", "Emile Durkheim and Robert Merton", "Edwin Sutherland and Donald Cressey"],
+      "answer": "Cesare Beccaria and Jeremy Bentham",
+      "explanation": "The Classical School (18th century) was founded by Cesare Beccaria ('On Crimes and Punishments,' 1764) and Jeremy Bentham. It emphasizes free will, rational choice, deterrence through proportional punishment, and the social contract theory."
+    },
+    {
+      "id": 3,
+      "question": "Cesare Lombroso, the 'Father of Modern Criminology,' is associated with which school of thought?",
+      "choices": ["Positivist School (Italian School)", "Classical School", "Chicago School", "Conflict Theory"],
+      "answer": "Positivist School (Italian School)",
+      "explanation": "Cesare Lombroso (1835-1909) founded the Positivist (Italian) School of Criminology. He proposed that criminals are born, not made ('atavism') and can be identified by physical characteristics ('stigmata'). His theory has been largely discredited but was influential in shifting criminology toward scientific methods."
+    },
+    {
+      "id": 4,
+      "question": "Lombroso's theory of the 'born criminal' (atavism) proposed that criminals:",
+      "choices": ["Are evolutionary throwbacks to primitive humans with distinct physical characteristics", "Are products of poor social environment", "Choose crime due to inadequate deterrence", "Are mentally ill individuals who cannot control their behavior"],
+      "answer": "Are evolutionary throwbacks to primitive humans with distinct physical characteristics",
+      "explanation": "Lombroso's atavism theory (1876) proposed that 'born criminals' are evolutionary throwbacks exhibiting primitive physical characteristics (stigmata) such as low foreheads, large jaws, and other features. While scientifically discredited, it represented the first systematic, empirical approach to studying criminals."
+    },
+    {
+      "id": 5,
+      "question": "Emile Durkheim's concept of 'anomie' in criminology refers to:",
+      "choices": ["A state of normlessness or breakdown of social norms that leads to deviant behavior", "The absence of effective law enforcement", "The moral degradation of society", "Individual psychological alienation from society"],
+      "answer": "A state of normlessness or breakdown of social norms that leads to deviant behavior",
+      "explanation": "Durkheim's anomie (from Greek: without norms) describes a condition of normlessness that arises during periods of rapid social change when existing social norms are disrupted. When social norms fail to regulate behavior adequately, deviance increases."
+    },
+    {
+      "id": 6,
+      "question": "Robert Merton's Strain Theory explains crime as a result of:",
+      "choices": ["The gap between culturally approved goals (such as wealth) and the legitimate means available to achieve them", "Biological predispositions to criminal behavior", "Poor socialization in deviant subcultures", "Rational cost-benefit calculation by potential offenders"],
+      "answer": "The gap between culturally approved goals (such as wealth) and the legitimate means available to achieve them",
+      "explanation": "Merton's Strain Theory (1938) adapts Durkheim's anomie concept, arguing that crime results from the gap between culturally defined goals (e.g., material success) and the institutionally available means to achieve those goals. Those blocked from legitimate means may innovate (use crime) to achieve goals."
+    },
+    {
+      "id": 7,
+      "question": "Edwin Sutherland's Differential Association Theory states that criminal behavior is:",
+      "choices": ["Learned through interaction with others in intimate personal groups", "Biologically inherited", "Caused by economic inequality", "The result of mental illness"],
+      "answer": "Learned through interaction with others in intimate personal groups",
+      "explanation": "Sutherland's Differential Association Theory (1939) proposes that criminal behavior is learned through communication in intimate groups. The learning includes techniques of committing crime and the specific direction of motives, drives, and attitudes that favor criminal behavior over law-abiding behavior."
+    },
+    {
+      "id": 8,
+      "question": "Sutherland also coined the term 'white-collar crime,' which refers to:",
+      "choices": ["Crime committed by a person of respectability and high social status in the course of their occupation", "Crimes committed in office buildings", "Crimes committed by government officials only", "Financial crimes committed by corporations"],
+      "answer": "Crime committed by a person of respectability and high social status in the course of their occupation",
+      "explanation": "Sutherland (1939) defined white-collar crime as crime committed by a person of respectability and high social status in the course of his occupation. It includes corporate fraud, insider trading, bribery, and other occupational crimes."
+    },
+    {
+      "id": 9,
+      "question": "The 'Social Bond Theory' (Social Control Theory) was developed by:",
+      "choices": ["Travis Hirschi", "Edwin Sutherland", "Walter Miller", "Clifford Shaw"],
+      "answer": "Travis Hirschi",
+      "explanation": "Travis Hirschi's Social Bond Theory (1969) asks not why people commit crime but why they conform. He identified four elements of the social bond: attachment (caring about others' opinions), commitment (investment in conventional activities), involvement (time spent in conventional activities), and belief (acceptance of conventional values)."
+    },
+    {
+      "id": 10,
+      "question": "The 'Labeling Theory' in criminology argues that:",
+      "choices": ["The process of being labeled as a criminal by society leads individuals to adopt a criminal identity and continue offending", "Criminal behavior is learned from criminal associates", "Biological factors determine criminal propensity", "Economic deprivation causes criminal behavior"],
+      "answer": "The process of being labeled as a criminal by society leads individuals to adopt a criminal identity and continue offending",
+      "explanation": "Labeling Theory (associated with Howard Becker, Edwin Lemert, and Frank Tannenbaum) argues that deviance is not inherent in an act but is a label applied by society. Being labeled as criminal becomes a self-fulfilling prophecy, leading to secondary deviance and a criminal career."
+    },
+    {
+      "id": 11,
+      "question": "The 'Conflict Theory' in criminology (associated with Karl Marx) explains crime as:",
+      "choices": ["A product of class conflict where criminal law serves the interests of the powerful ruling class", "The result of individual pathology", "The natural tendency of humans toward self-interest", "The breakdown of community values"],
+      "answer": "A product of class conflict where criminal law serves the interests of the powerful ruling class",
+      "explanation": "Conflict Theory (Marxist criminology) views crime as a product of economic and class conflicts. Criminal law is seen as a tool of the powerful ruling class to control the working class. Behaviors that threaten property and wealth are criminalized while corporate crimes go underprosecuted."
+    },
+    {
+      "id": 12,
+      "question": "The 'Routine Activity Theory' developed by Cohen and Felson states that crime occurs when:",
+      "choices": ["A motivated offender, a suitable target, and the absence of a capable guardian converge in time and space", "Economic inequality creates criminal motivation", "Criminal associations provide opportunities for crime", "Social norms break down in disorganized neighborhoods"],
+      "answer": "A motivated offender, a suitable target, and the absence of a capable guardian converge in time and space",
+      "explanation": "Routine Activity Theory (Marcus Felson and Lawrence Cohen, 1979) holds that crime requires three elements converging: (1) a motivated offender, (2) a suitable target (valuable, visible, accessible), and (3) the absence of a capable guardian. Changes in routine activities (work, leisure) affect crime rates."
+    },
+    {
+      "id": 13,
+      "question": "The 'Chicago School of Criminology' is associated with:",
+      "choices": ["Social disorganization theory — crime results from breakdown of community social institutions in urban areas", "Biological theories of criminal behavior", "Psychological theories of deviance", "Economic theories of crime causation"],
+      "answer": "Social disorganization theory — crime results from breakdown of community social institutions in urban areas",
+      "explanation": "The Chicago School (Shaw and McKay, 1940s) developed Social Disorganization Theory, which holds that crime is concentrated in zones of transition (near city centers) characterized by poverty, heterogeneity, and residential instability, leading to breakdown of informal social control."
+    },
+    {
+      "id": 14,
+      "question": "Albert Cohen's 'Delinquent Boy' theory argues that juvenile delinquency arises from:",
+      "choices": ["Subcultural reaction where working-class youth reject middle-class values they cannot achieve", "Differential association with criminal peers", "Inadequate parental supervision", "Biological predispositions to aggression"],
+      "answer": "Subcultural reaction where working-class youth reject middle-class values they cannot achieve",
+      "explanation": "Albert Cohen (1955) argued that working-class youth form delinquent subcultures as a reaction against the middle-class measuring rod. Unable to succeed in mainstream society, they reject middle-class values and create their own subcultural norms that value defiance, toughness, and maliciousness."
+    },
+    {
+      "id": 15,
+      "question": "The concept of 'recidivism' in criminological research refers to:",
+      "choices": ["The tendency of previously convicted individuals to reoffend", "The repeat victimization of the same individual", "Repeating the same criminal offense multiple times", "The chronic nature of certain types of crime"],
+      "answer": "The tendency of previously convicted individuals to reoffend",
+      "explanation": "Recidivism measures the propensity of offenders to reoffend after receiving a criminal sanction. High recidivism rates suggest the failure of correctional interventions. It is a key measure of the effectiveness of criminal justice and rehabilitation programs."
+    },
+    {
+      "id": 16,
+      "question": "The 'dark figure of crime' refers to:",
+      "choices": ["Crimes that are committed but not reported to or recorded by police", "The unknown identity of perpetrators in unsolved crimes", "Crimes committed in darkness or at night", "The hidden motives behind criminal acts"],
+      "answer": "Crimes that are committed but not reported to or recorded by police",
+      "explanation": "The dark figure of crime represents the gap between crime actually committed and crime officially recorded. Most crimes go unreported due to victim distrust of police, fear of retaliation, shame, or belief that reporting won't help. Victimization surveys help estimate the dark figure."
+    },
+    {
+      "id": 17,
+      "question": "The study of victimology focuses on:",
+      "choices": ["The victim's role in crime, including factors that contribute to victimization and the impact of crime on victims", "The investigation of crimes from the victim's perspective", "The legal rights of crime victims in court proceedings", "The psychological treatment of crime victims"],
+      "answer": "The victim's role in crime, including factors that contribute to victimization and the impact of crime on victims",
+      "explanation": "Victimology (founded by Benjamin Mendelsohn and Hans von Hentig in the 1940s) is the scientific study of crime victims — examining who becomes a victim, the dynamics of victimization, victim-offender relationships, and the physical, psychological, and social impacts of crime on victims."
+    },
+    {
+      "id": 18,
+      "question": "Hans von Hentig's typology of victims classifies victims based on:",
+      "choices": ["Personal characteristics (age, mental state, social status) that make individuals vulnerable to victimization", "The type of crime committed against them", "The location where victimization occurred", "The relationship between victim and offender"],
+      "answer": "Personal characteristics (age, mental state, social status) that make individuals vulnerable to victimization",
+      "explanation": "Von Hentig's victim typology (1948) identified characteristics that increase victimization risk: the young (lack of experience), the female (social vulnerability), the old (physical weakness), mental defectives, immigrants, minorities, and depressed/wanton/tormented individuals."
+    },
+    {
+      "id": 19,
+      "question": "The professional ethics of a criminologist requires:",
+      "choices": ["Objectivity, integrity, confidentiality, and adherence to the highest standards of professional conduct", "Absolute loyalty to the employing agency above all else", "Enforcement of the law by any means necessary", "Prioritizing crime clearance rates over individual rights"],
+      "answer": "Objectivity, integrity, confidentiality, and adherence to the highest standards of professional conduct",
+      "explanation": "Professional ethics for criminologists includes: objectivity in analysis and reporting, integrity in handling evidence and information, confidentiality of sensitive information, respect for human rights and dignity, and adherence to professional and legal standards."
+    },
+    {
+      "id": 20,
+      "question": "The Philippine Association of Criminology Educators (PACE) and the Philippine Criminologist Association (PCA) are organizations that:",
+      "choices": ["Promote the development of criminology as a profession and discipline in the Philippines", "Regulate the practice of criminology under PRC", "Conduct criminal investigations", "Train law enforcement officers"],
+      "answer": "Promote the development of criminology as a profession and discipline in the Philippines",
+      "explanation": "Professional associations like PACE and PCA promote the development, recognition, and regulation of criminology as a discipline and profession in the Philippines, establish ethical standards, and advocate for the welfare of criminology practitioners."
+    },
+    {
+      "id": 21,
+      "question": "The Criminologist Licensure Examination (CLE) in the Philippines is administered by:",
+      "choices": ["Professional Regulation Commission (PRC)", "Philippine Criminologist Association", "Commission on Higher Education (CHED)", "Department of Justice (DOJ)"],
+      "answer": "Professional Regulation Commission (PRC)",
+      "explanation": "The PRC administers the Criminologist Licensure Examination under the Board of Criminology. Passing the CLE is required to practice as a licensed criminologist in the Philippines under RA 11490 (Criminology Profession Act of 2020)."
+    },
+    {
+      "id": 22,
+      "question": "Republic Act 11490 (Criminology Profession Act of 2020) regulates:",
+      "choices": ["The professional practice of criminology, including licensing requirements and ethical standards", "The administration of criminal justice agencies", "The academic curriculum for criminology programs", "The employment of criminologists in government"],
+      "answer": "The professional practice of criminology, including licensing requirements and ethical standards",
+      "explanation": "RA 11490 regulates the practice of criminology in the Philippines. It established the Board of Criminology under the PRC, defined the practice of criminology, set licensure requirements, and penalizes unauthorized practice."
+    },
+    {
+      "id": 23,
+      "question": "The 'social learning theory' of criminal behavior (Albert Bandura) proposes that aggression and criminal behavior are:",
+      "choices": ["Learned through observation, imitation, and reinforcement from role models", "Genetically inherited predispositions", "Reactions to social deprivation", "Products of environmental toxins affecting brain development"],
+      "answer": "Learned through observation, imitation, and reinforcement from role models",
+      "explanation": "Bandura's Social Learning Theory holds that behavior (including aggression and delinquency) is learned through observation of others (modeling), direct experience, and reinforcement. The media, family, and peer groups serve as important models for both pro-social and anti-social behavior."
+    },
+    {
+      "id": 24,
+      "question": "The 'Broken Homes Theory' in criminology suggests that:",
+      "choices": ["Children from disrupted families (divorce, separation, single-parent households) have higher delinquency rates", "Physical deterioration of residential areas causes crime", "Family dysfunction is the primary cause of adult crime", "All criminals come from dysfunctional families"],
+      "answer": "Children from disrupted families (divorce, separation, single-parent households) have higher delinquency rates",
+      "explanation": "The broken homes theory posits that family dissolution (through death, divorce, or separation) weakens parental supervision and attachment, increasing juvenile delinquency risk. While correlational evidence exists, other factors like family conflict may be more directly related to delinquency."
+    },
+    {
+      "id": 25,
+      "question": "Sigmund Freud's psychoanalytic theory explains criminal behavior as arising from:",
+      "choices": ["Unconscious conflicts, an uncontrolled id, or a weak or absent superego", "Learned criminal behaviors from peer groups", "Economic deprivation and class conflict", "Biological predispositions to aggression"],
+      "answer": "Unconscious conflicts, an uncontrolled id, or a weak or absent superego",
+      "explanation": "Freudian psychoanalytic theory explains crime as the result of unconscious conflicts, an overactive id (primitive drives) unconstrained by the ego or superego, or a defective superego (moral conscience) that fails to prevent antisocial impulses from being acted upon."
+    },
+    {
+      "id": 26,
+      "question": "The concept of 'general deterrence' in criminology holds that:",
+      "choices": ["Public punishment of offenders will deter others in society from committing similar crimes", "Punishment deters the specific individual offender from reoffending", "Certainty of punishment is more important than its severity", "Punishment must be severe to be effective"],
+      "answer": "Public punishment of offenders will deter others in society from committing similar crimes",
+      "explanation": "General deterrence aims to prevent crime by making potential offenders aware of the consequences through publicizing punishments. The threat of punishment is directed at the general public rather than the individual offender. It is one of the classical school's primary justifications for punishment."
+    },
+    {
+      "id": 27,
+      "question": "The 'code of ethics' in criminology practice prohibits practitioners from:",
+      "choices": ["Using their position for personal gain, violating the rights of suspects, and engaging in discriminatory practices", "Cooperating with other agencies in joint investigations", "Testifying as expert witnesses in court", "Publishing research findings about criminal behavior"],
+      "answer": "Using their position for personal gain, violating the rights of suspects, and engaging in discriminatory practices",
+      "explanation": "Professional ethics in criminology prohibits: using position for personal gain or advantage, violating the constitutional rights of individuals, discriminating based on race, gender, religion, or status, falsifying evidence or reports, and breach of confidentiality obligations."
+    },
+    {
+      "id": 28,
+      "question": "The 'feminist theory of crime' highlights that:",
+      "choices": ["Gender differences in crime rates and experiences reflect patriarchal social structures and unequal power relations", "Women are biologically predisposed to be victims rather than offenders", "Female crime is caused by hormonal imbalances", "Traditional criminology adequately explains female criminality"],
+      "answer": "Gender differences in crime rates and experiences reflect patriarchal social structures and unequal power relations",
+      "explanation": "Feminist criminology (associated with Carol Smart, Meda Chesney-Lind) argues that traditional criminology is gender-blind, primarily studying male offenders. It examines how patriarchal social structures affect women as both offenders and victims, and how the criminal justice system treats women differently."
+    },
+    {
+      "id": 29,
+      "question": "The 'left realism' perspective in criminology argues that:",
+      "choices": ["Crime is a real problem that seriously affects working-class communities and requires practical solutions", "Criminal law serves ruling class interests", "Crime is primarily a product of biological factors", "Only conservatives overstate the crime problem"],
+      "answer": "Crime is a real problem that seriously affects working-class communities and requires practical solutions",
+      "explanation": "Left Realism (Jock Young, John Lea) emerged in the 1980s as a critique of left idealism. It argues that crime is a real problem for working-class and marginalized communities, uses the 'square of crime' (offender, victim, police, public), and calls for realistic, practical crime prevention strategies."
+    },
+    {
+      "id": 30,
+      "question": "The Penal Code provision on 'impossible crime' (Art. 4, RPC) refers to:",
+      "choices": ["An act which would be an offense but for the inherent impossibility of its accomplishment or the employment of inadequate or ineffectual means", "A crime that has no possible defense under law", "An attempt that cannot succeed because the victim escaped", "A crime that cannot be prosecuted due to prescription"],
+      "answer": "An act which would be an offense but for the inherent impossibility of its accomplishment or the employment of inadequate or ineffectual means",
+      "explanation": "An impossible crime under Article 4(2) of the RPC is committed when a person performs an act which would be an offense but for the inherent impossibility of its accomplishment or on account of the employment of inadequate or ineffectual means. The penalty is arresto mayor (1 month and 1 day to 6 months)."
+    },
+    {
+      "id": 31,
+      "question": "The 'Biological/Biosocial Theory' of crime causation (modern version) focuses on:",
+      "choices": ["The interaction between genetic, neurological, and biochemical factors with environmental influences", "Purely genetic determinism of criminal behavior", "Physical appearance as a predictor of criminality", "Brain damage as the sole cause of violent crime"],
+      "answer": "The interaction between genetic, neurological, and biochemical factors with environmental influences",
+      "explanation": "Modern biosocial criminology (James Q. Wilson, Richard Herrnstein, Adrian Raine) examines how biological factors (genetics, neurochemistry, brain structure) interact with social and environmental factors to influence criminal behavior. It rejects both pure biological determinism and pure environmental explanations."
+    },
+    {
+      "id": 32,
+      "question": "The 'Neutralization Theory' (Sykes and Matza) argues that delinquents:",
+      "choices": ["Justify or neutralize their deviant behavior through techniques that allow them to drift between conventional and criminal behavior", "Are committed to delinquent values and reject conventional norms", "Learn criminal techniques from experienced offenders", "Are deterred from crime only by fear of punishment"],
+      "answer": "Justify or neutralize their deviant behavior through techniques that allow them to drift between conventional and criminal behavior",
+      "explanation": "Sykes and Matza's Neutralization Theory (1957) identifies five techniques delinquents use to rationalize wrongdoing: denial of responsibility, denial of injury, denial of victim, condemnation of the condemners, and appeal to higher loyalties. These allow 'drift' between conventional and criminal behavior."
+    },
+    {
+      "id": 33,
+      "question": "The 'transnational crime' in criminology refers to:",
+      "choices": ["Criminal activity that transcends national borders and involves actors, victims, or proceeds in multiple countries", "Crime committed by foreign nationals in the Philippines", "International terrorism only", "Crime facilitated by the internet across national boundaries"],
+      "answer": "Criminal activity that transcends national borders and involves actors, victims, or proceeds in multiple countries",
+      "explanation": "Transnational crime involves criminal activities that transcend national borders. Examples include drug trafficking, human trafficking, money laundering, cybercrime, smuggling, and terrorism. It is addressed through international law enforcement cooperation (Interpol, bilateral agreements)."
+    },
+    {
+      "id": 34,
+      "question": "The 'organized crime' is characterized by:",
+      "choices": ["A continuing criminal enterprise that rationally works to profit from illegal activities using force, corruption, and monopoly", "Spontaneous group criminal activity", "Crime committed by political organizations", "Any crime involving more than three persons"],
+      "answer": "A continuing criminal enterprise that rationally works to profit from illegal activities using force, corruption, and monopoly",
+      "explanation": "Organized crime (Joseph Albini) is characterized by: continuity (ongoing enterprise), profit motive (economic goals), illegal activities, use of force or threats, corruption of public officials, and monopolistic tendencies in criminal markets. Examples include drug cartels, the mafia, and criminal syndicates."
+    },
+    {
+      "id": 35,
+      "question": "The 'Interpol' (International Criminal Police Organization) was established with the primary purpose of:",
+      "choices": ["Facilitating international police cooperation in the prevention and detection of transnational crime", "Prosecuting international criminals", "Enforcing international criminal law", "Providing intelligence to member nations for military operations"],
+      "answer": "Facilitating international police cooperation in the prevention and detection of transnational crime",
+      "explanation": "Interpol (headquarters in Lyon, France) facilitates police cooperation among its 194 member countries. It provides communications, databases (fingerprints, DNA, stolen vehicles, missing persons), and coordinates international operations against transnational crime."
+    },
+    {
+      "id": 36,
+      "question": "The criminological concept of 'desistance' from crime refers to:",
+      "choices": ["The process by which individuals cease their involvement in criminal activity as they age", "The forced removal of individuals from criminal networks", "Legal rehabilitation of offenders", "Deterrence of first-time offenders from continuing to offend"],
+      "answer": "The process by which individuals cease their involvement in criminal activity as they age",
+      "explanation": "Desistance is the process by which offenders cease criminal activity and maintain non-offending. Research shows most offenders 'age out' of crime. Key factors associated with desistance include marriage, stable employment, identity change, and maturation (Maruna's redemption scripts)."
+    },
+    {
+      "id": 37,
+      "question": "The 'Life Course Theory' in criminology (Sampson and Laub) emphasizes:",
+      "choices": ["How social bonds and transitions over the life course affect criminal involvement and desistance", "How early childhood experiences permanently determine criminal careers", "The biological changes that reduce criminal propensity with age", "Economic factors at different life stages affect criminality"],
+      "answer": "How social bonds and transitions over the life course affect criminal involvement and desistance",
+      "explanation": "Sampson and Laub's Life Course Theory (1993) argues that social bonds (attachment to parents, school, work, marriage) formed at different life stages affect criminal involvement. Turning points (marriage, employment) can redirect criminal trajectories toward conformity even for those with early conduct problems."
+    },
+    {
+      "id": 38,
+      "question": "The concept of 'crime prevention through environmental design' (CPTED) involves:",
+      "choices": ["Designing physical environments to reduce crime opportunities by increasing visibility, access control, and territorial behavior", "Using police presence in high-crime areas", "Installing surveillance cameras in public places", "Environmental crime prevention programs in schools"],
+      "answer": "Designing physical environments to reduce crime opportunities by increasing visibility, access control, and territorial behavior",
+      "explanation": "CPTED (developed by C. Ray Jeffery and Oscar Newman) uses environmental design to deter crime. Key principles: natural surveillance (visibility), natural access control (limiting entry points), territorial reinforcement (clear boundaries), and maintenance (upkeep signals community care)."
+    },
+    {
+      "id": 39,
+      "question": "The 'Code of Silence' (Omertà) phenomenon in law enforcement ethics refers to:",
+      "choices": ["The informal rule among police officers not to report fellow officers' misconduct", "The legal privilege of police officers not to testify against themselves", "Confidentiality rules regarding informant identities", "The prohibition against revealing ongoing investigation details"],
+      "answer": "The informal rule among police officers not to report fellow officers' misconduct",
+      "explanation": "The Code of Silence (or Blue Wall of Silence) is an informal unwritten rule in law enforcement culture where officers protect fellow officers from accountability by not reporting misconduct. It undermines police integrity, enables corruption, and erodes public trust."
+    },
+    {
+      "id": 40,
+      "question": "The sociological concept of 'social control' in relation to crime prevention refers to:",
+      "choices": ["The mechanisms by which society regulates individual behavior to ensure conformity to norms", "The use of force by police to maintain order", "The criminal justice system's ability to deter crime", "Government surveillance and monitoring of citizens"],
+      "answer": "The mechanisms by which society regulates individual behavior to ensure conformity to norms",
+      "explanation": "Social control encompasses both formal mechanisms (laws, police, courts, prisons) and informal mechanisms (family, peers, schools, religion, community) that regulate individual behavior and encourage conformity to societal norms and rules."
+    },
+    {
+      "id": 41,
+      "question": "The 'rational choice theory' in criminology (Cornish and Clarke) proposes that offenders:",
+      "choices": ["Make deliberate, rational decisions to commit crimes by weighing potential benefits against costs and risks", "Are compelled by biological drives to commit crime", "Are socialized into criminal subcultures", "Commit crime due to psychological disorders"],
+      "answer": "Make deliberate, rational decisions to commit crimes by weighing potential benefits against costs and risks",
+      "explanation": "Rational Choice Theory (Cornish and Clarke, 1986) proposes that offenders make conscious, rational decisions to commit crimes after weighing the potential rewards (money, status, excitement) against the risks (being caught, punishment severity) and costs. It informs situational crime prevention approaches."
+    },
+    {
+      "id": 42,
+      "question": "The 'subculture of violence' theory (Wolfgang and Ferracuti) explains violent crime as:",
+      "choices": ["A product of subcultural norms and values that legitimate violence as an appropriate response in certain situations", "The result of individual psychological pathology", "Caused by poverty and economic deprivation", "A learned behavior from violent media"],
+      "answer": "A product of subcultural norms and values that legitimate violence as an appropriate response in certain situations",
+      "explanation": "Wolfgang and Ferracuti's Subculture of Violence Theory (1967) argues that in certain communities (especially urban lower-class communities), a subculture exists where violence is a normative and expected response to perceived slights, challenges to honor, and status disputes."
+    },
+    {
+      "id": 43,
+      "question": "The 'Peacemaking Criminology' perspective advocates for:",
+      "choices": ["Replacing punitive responses to crime with reconciliation, rehabilitation, and social justice approaches", "Increased use of imprisonment to maintain social order", "Military-style law enforcement operations", "Zero tolerance policing in high-crime areas"],
+      "answer": "Replacing punitive responses to crime with reconciliation, rehabilitation, and social justice approaches",
+      "explanation": "Peacemaking Criminology (Pepinsky and Quinney) draws on humanist, religious, and feminist perspectives to argue that crime and criminal justice can be understood through the lens of suffering and that crime control should focus on making peace, reducing harm, and promoting social justice."
+    },
+    {
+      "id": 44,
+      "question": "The concept of 'strain' in General Strain Theory (Robert Agnew) includes all EXCEPT:",
+      "choices": ["The failure to achieve positively valued goals, removal of positive stimuli, and presentation of negative stimuli", "The failure to achieve positively valued goals only", "Loss of valued possessions or relationships", "Experience of negative events and noxious stimuli"],
+      "answer": "The failure to achieve positively valued goals only",
+      "explanation": "Robert Agnew's General Strain Theory (1992) expands Merton's strain concept to include three sources of strain: (1) failure to achieve positively valued goals, (2) removal of positively valued stimuli (e.g., loss of a loved one), and (3) presentation of negative stimuli (victimization, abuse). All three can lead to negative emotions and crime."
+    },
+    {
+      "id": 45,
+      "question": "The 'Victimless crime' concept refers to:",
+      "choices": ["Offenses involving only the offender where no direct victim is identified, such as drug use, prostitution, and gambling", "Crimes with no identifiable perpetrator", "Crimes that cause no physical harm", "Property crimes where the owner is insured"],
+      "answer": "Offenses involving only the offender where no direct victim is identified, such as drug use, prostitution, and gambling",
+      "explanation": "'Victimless crimes' (a contested term) are illegal acts between consenting parties where no direct victim is identified — primarily activities that harm only the participants. Critics argue that all crimes have indirect victims (family, society) and question whether these should remain criminalized."
+    },
+    {
+      "id": 46,
+      "question": "The International Association of Chiefs of Police (IACP) Code of Ethics requires law enforcement officers to:",
+      "choices": ["Serve the community with honesty, integrity, fairness, and impartiality, respecting constitutional rights", "Follow orders of superior officers without question", "Prioritize crime control over individual liberties", "Maintain absolute secrecy in all investigations"],
+      "answer": "Serve the community with honesty, integrity, fairness, and impartiality, respecting constitutional rights",
+      "explanation": "The IACP Law Enforcement Code of Ethics (1957, revised) commits officers to: service to the community, respect for constitutional rights, honest and impartial enforcement of the law, maintaining personal integrity, never using excessive force, and keeping personal life unsullied."
+    },
+    {
+      "id": 47,
+      "question": "The sociological study of 'crime mapping' is primarily associated with:",
+      "choices": ["Geographic distribution and clustering of crimes in specific urban areas — spatial criminology", "DNA mapping of crime suspects", "Psychological profiling of serial criminals", "Mapping the social networks of criminal organizations"],
+      "answer": "Geographic distribution and clustering of crimes in specific urban areas — spatial criminology",
+      "explanation": "Crime mapping (environmental criminology, spatial analysis) studies the geographic distribution of crime events to identify crime hot spots, understand environmental factors that influence crime, and guide targeted law enforcement interventions."
+    },
+    {
+      "id": 48,
+      "question": "Moral panic in criminology (Stanley Cohen) refers to:",
+      "choices": ["An exaggerated public concern about a perceived social threat that leads to disproportionate responses by social control agencies", "The public's legitimate fear of rising crime rates", "Government propaganda about the crime problem", "Media sensationalism in crime reporting"],
+      "answer": "An exaggerated public concern about a perceived social threat that leads to disproportionate responses by social control agencies",
+      "explanation": "Stanley Cohen's Moral Panic (1972) describes episodes where a condition, episode, person, or group of persons is defined as a threat to societal values and interests, amplified by moral entrepreneurs and media, leading to disproportionate institutional responses."
+    },
+    {
+      "id": 49,
+      "question": "The Philippine Criminal Justice System consists of the following pillars EXCEPT:",
+      "choices": ["The Media", "Law Enforcement", "Prosecution", "Courts"],
+      "answer": "The Media",
+      "explanation": "The Five Pillars of the Philippine Criminal Justice System are: (1) Law Enforcement (Police), (2) Prosecution, (3) Courts (Judiciary), (4) Corrections, and (5) Community. The media is not a formal pillar of the criminal justice system."
+    },
+    {
+      "id": 50,
+      "question": "The concept of 'due process of law' in the criminal justice system ensures that:",
+      "choices": ["All persons receive fair treatment through the normal judicial system, with protection of their legal rights", "Criminals receive appropriate punishment", "Police follow standard operating procedures", "Cases are resolved within reasonable time"],
+      "answer": "All persons receive fair treatment through the normal judicial system, with protection of their legal rights",
+      "explanation": "Due process (constitutional guarantee) ensures that: all persons receive equal protection under the law, legal proceedings are fair and conducted according to established rules, individuals are informed of charges against them, and guaranteed the right to be heard before being deprived of life, liberty, or property."
+    }
+  ]
+}
