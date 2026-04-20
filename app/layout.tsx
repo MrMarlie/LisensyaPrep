@@ -67,15 +67,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
+      <body className={`${inter.className} bg-[#080d1b] text-white antialiased`}>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4592431148309561"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-      </head>
-      <body className={`${inter.className} bg-[#080d1b] text-white antialiased`}>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
