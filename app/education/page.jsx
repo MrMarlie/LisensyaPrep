@@ -216,6 +216,22 @@ export default function EducationPage() {
           </div>
         </div>
       </section>
+
+      {/* Study Guides */}
+      <section className="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-extrabold text-white mb-2">LET Study Guides</h2>
+        <p className="text-gray-400 text-sm mb-6">Free LET review articles and self-study tips from LisensyaPrep.</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <Link href="/education/how-to-pass-let-first-take" className="group block bg-[#0f1629] border border-white/10 hover:border-sky-500/40 rounded-2xl p-5 transition-all">
+            <span className="text-xs font-semibold px-2 py-1 rounded-full bg-sky-500/10 text-sky-400">LET Guide</span>
+            <h3 className="text-white font-bold mt-3 mb-2 group-hover:text-sky-400 transition-colors leading-snug">
+              How to Pass the LET Board Exam on Your First Take (2026 Self-Review Guide)
+            </h3>
+            <p className="text-gray-500 text-xs">12-week study plan, LET coverage breakdown, and 7 proven tips from LET passers.</p>
+            <span className="text-sky-400 text-sm font-semibold mt-3 inline-block group-hover:translate-x-1 transition-transform">Read →</span>
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }
