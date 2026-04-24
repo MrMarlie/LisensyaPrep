@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useAuth } from '@/context/AuthContext';
 import AuthModal from '@/components/auth/AuthModal';
+import { getUserProfile } from '@/lib/storage';
 
 const COURSES = [
   { href: '/agriculture', label: '🌾 Agriculture' },
@@ -25,6 +26,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [coursesOpen, setCoursesOpen] = useState(false);
   const [showAuth, setShowAuth] = useState(false);
+  const [localProfile, setLocalProfile] = useState(null);
   const pathname = usePathname();
   const { user, profile, signOut } = useAuth();
   const dropdownRef = useRef(null);
@@ -40,8 +42,42 @@ export default function Header() {
     return () => document.removeEventListener('mousedown', handleClick);
   }, []);
 
+  // Load localStorage profile for users who signed in via PlayerSetupModal
+  // (not Supabase auth). This makes "Hi [name]!" work for everyone.
+  useEffect(() => {
+    if (!user) {
+      getUserProfile().then(p => setLocalProfile(p || null));
+    } else {
+      setLocalProfile(null);
+    }
+  }, [user]);
+
+  // First name from whichever source is available
+  const firstName = user
+    ? (profile?.display_name?.split(' ')[0] || user.email.split('@')[0])
+    : localProfile?.name?.split(' ')[0] || null;
+
   const isCourseActive = COURSES.some((c) => pathname.startsWith(c.href));
 
+  // ── Locked minimal header during quiz — no navigation, no exit ─────────────
+  if (pathname.startsWith('/quiz/')) {
+    return (
+      <header className="bg-[#0a0f1e]/95 border-b border-white/10 sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center h-16 gap-3">
+            <span className="text-xl">⚔️</span>
+            <span className="font-extrabold text-lg">
+              <span className="text-white">Lisensya</span>
+              <span className="text-yellow-400">Prep</span>
+            </span>
+            <span className="text-gray-600 text-sm">— Quiz in Progress</span>
+          </div>
+        </div>
+      </header>
+    );
+  }
+
+  // ── Normal header ──────────────────────────────────────────────────────────
   return (
   <>
     <header className="bg-navy-950 border-b border-gold-500/20 sticky top-0 z-50 backdrop-blur-sm bg-[#0a0f1e]/95">
@@ -65,7 +101,6 @@ export default function Header() {
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-1">
-            {/* Home */}
             <Link
               href="/"
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
@@ -118,7 +153,7 @@ export default function Header() {
               )}
             </div>
 
-            {/* Remaining links */}
+            {/* Remaining nav links */}
             {NAV_LINKS.filter((l) => l.href !== '/').map(({ href, label }) => (
               <Link
                 key={href}
@@ -134,19 +169,21 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* CTA */}
+          {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-3">
-            {user ? (
+            {firstName ? (
               <>
                 <span className="text-yellow-400 text-sm font-semibold">
-                  Hi {profile?.display_name ? profile.display_name.split(' ')[0] : user.email.split('@')[0]}!
+                  Hi {firstName}!
                 </span>
-                <button
-                  onClick={signOut}
-                  className="text-gray-500 hover:text-white text-sm transition-colors"
-                >
-                  Sign out
-                </button>
+                {user && (
+                  <button
+                    onClick={signOut}
+                    className="text-gray-500 hover:text-white text-sm transition-colors"
+                  >
+                    Sign out
+                  </button>
+                )}
               </>
             ) : (
               <button
@@ -187,6 +224,28 @@ export default function Header() {
       {menuOpen && (
         <div className="md:hidden border-t border-white/10 bg-[#0a0f1e]">
           <nav className="flex flex-col px-4 py-3 gap-1">
+            {/* User greeting row in mobile */}
+            {firstName ? (
+              <div className="flex items-center justify-between px-4 py-2 mb-1 border-b border-white/10">
+                <span className="text-yellow-400 text-sm font-semibold">Hi {firstName}!</span>
+                {user && (
+                  <button
+                    onClick={() => { setMenuOpen(false); signOut(); }}
+                    className="text-gray-500 hover:text-white text-xs transition-colors"
+                  >
+                    Sign out
+                  </button>
+                )}
+              </div>
+            ) : (
+              <button
+                onClick={() => { setMenuOpen(false); setShowAuth(true); }}
+                className="text-left px-4 py-3 text-gray-300 hover:text-white text-sm font-medium transition-colors border-b border-white/10 mb-1"
+              >
+                Sign in
+              </button>
+            )}
+
             <Link
               href="/"
               onClick={() => setMenuOpen(false)}

@@ -30,11 +30,25 @@ export default function QuizEngine({ initialState, moduleInfo }) {
     }
     async function loadProfile() {
       const p = await getUserProfile();
-      if (p?.name) setPlayerName(p.name);
-      else setShowSetupModal(true);
+      if (p?.name) {
+        setPlayerName(p.name);
+        setShowSetupModal(false); // returning user — already gave their details
+      }
+      // else: showSetupModal stays true, gate remains
     }
     loadProfile();
   }, [user, authProfile]);
+
+  // Prevent leaving the page while a quiz is active
+  useEffect(() => {
+    if (state.status !== 'active') return;
+    const handleBeforeUnload = (e) => {
+      e.preventDefault();
+      e.returnValue = '';
+    };
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload);
+  }, [state.status]);
 
   const currentQuestion = state.questions[state.currentQuestionIndex];
   const isGameOver = state.status !== 'active';
