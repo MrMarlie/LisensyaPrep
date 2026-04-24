@@ -266,7 +266,7 @@ export default function BlogPostPage({ params }) {
               <h3 className="text-white font-bold mb-4">More Articles</h3>
               <div className="space-y-4">
                 {otherPosts.map((p) => (
-                  <Link key={p.slug} href={`/blog/${p.slug}`} className="group block">
+                  <Link key={p.slug} href={p.url || `/blog/${p.slug}`} className="group block">
                     <p className="text-gray-300 text-sm group-hover:text-yellow-400 transition-colors leading-snug mb-1">
                       {p.title}
                     </p>

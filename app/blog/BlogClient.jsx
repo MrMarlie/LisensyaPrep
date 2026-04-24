@@ -13,6 +13,7 @@ const TAG_COLORS = {
   'Board Exam Guide': 'bg-purple-500/10 text-purple-400',
   'Nursing': 'bg-pink-500/10 text-pink-400',
   'Criminology': 'bg-red-500/10 text-red-400',
+  'Education': 'bg-violet-500/10 text-violet-400',
 };
 
 const CATEGORIES = [
@@ -120,7 +121,7 @@ export default function BlogClient() {
           <div className="lg:col-span-2 space-y-6">
             {paginatedPosts.length > 0 ? (
               paginatedPosts.map((post) => (
-                <Link key={post.slug} href={`/blog/${post.slug}`} className="group block">
+                <Link key={post.slug} href={post.url || `/blog/${post.slug}`} className="group block">
                   <article className="bg-[#0f1629] border border-white/10 hover:border-yellow-400/30 rounded-2xl p-6 transition-all">
                     <div className="flex items-center justify-between mb-3">
                       <span className={`text-xs font-semibold px-3 py-1 rounded-full ${TAG_COLORS[post.tag] || 'bg-white/10 text-gray-300'}`}>
