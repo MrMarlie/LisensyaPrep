@@ -8,6 +8,7 @@ import { MODULE_INFO } from '@/lib/quizEngine';
 const AGR_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'agriculture');
 const EDU_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'education');
 const CRI_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'criminology');
+const MED_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'medical-technology');
 
 const COURSES = [
   {
@@ -42,6 +43,17 @@ const COURSES = [
     completeBorder: 'border-purple-400',
     href: '/criminology',
     modules: CRI_MODS,
+  },
+  {
+    examId: 'medical-technology',
+    label: 'Medical Technology',
+    icon: '🧪',
+    color: 'from-cyan-900/30 to-cyan-800/10',
+    border: 'border-cyan-500/40',
+    accent: 'text-cyan-400',
+    completeBorder: 'border-cyan-400',
+    href: '/medical-technology',
+    modules: MED_MODS,
   },
 ];
 
@@ -171,25 +183,28 @@ function CourseCollection({ course, collectibles, stats }) {
 }
 
 export default function CollectionPage() {
-  const [collectiblesMap, setCollectiblesMap] = useState({ agriculture: {}, education: {}, criminology: {} });
+  const [collectiblesMap, setCollectiblesMap] = useState({ agriculture: {}, education: {}, criminology: {}, 'medical-technology': {} });
   const [statsMap, setStatsMap] = useState({
     agriculture: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
     education: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
     criminology: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
+    'medical-technology': { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
   });
 
   useEffect(() => {
     async function load() {
-      const [agrC, eduC, criC, agrS, eduS, criS] = await Promise.all([
+      const [agrC, eduC, criC, medC, agrS, eduS, criS, medS] = await Promise.all([
         getExamCollectibles('agriculture'),
         getExamCollectibles('education'),
         getExamCollectibles('criminology'),
+        getExamCollectibles('medical-technology'),
         getOverallStats('agriculture'),
         getOverallStats('education'),
         getOverallStats('criminology'),
+        getOverallStats('medical-technology'),
       ]);
-      setCollectiblesMap({ agriculture: agrC, education: eduC, criminology: criC });
-      setStatsMap({ agriculture: agrS, education: eduS, criminology: criS });
+      setCollectiblesMap({ agriculture: agrC, education: eduC, criminology: criC, 'medical-technology': medC });
+      setStatsMap({ agriculture: agrS, education: eduS, criminology: criS, 'medical-technology': medS });
     }
     load();
   }, []);

@@ -1,0 +1,356 @@
+{
+  "module": "Module 2 - Hematology",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The normal range for adult male hemoglobin is:",
+      "choices": ["10–12 g/dL", "12–14 g/dL", "13.5–17.5 g/dL", "18–22 g/dL"],
+      "answer": "13.5–17.5 g/dL",
+      "explanation": "Normal hemoglobin for adult males is 13.5–17.5 g/dL. For adult females it is 12–16 g/dL. Values below these thresholds define anemia in the respective sex."
+    },
+    {
+      "id": 2,
+      "question": "Which index indicates the average volume of a red blood cell?",
+      "choices": ["MCH", "MCHC", "MCV", "RDW"],
+      "answer": "MCV",
+      "explanation": "MCV (Mean Corpuscular Volume) measures the average size of red blood cells in femtoliters (fL). Normal MCV is 80–100 fL. Low MCV = microcytic; high MCV = macrocytic."
+    },
+    {
+      "id": 3,
+      "question": "Iron deficiency anemia is characterized by which CBC pattern?",
+      "choices": ["Macrocytic, hyperchromic", "Normocytic, normochromic", "Microcytic, hypochromic", "Macrocytic, normochromic"],
+      "answer": "Microcytic, hypochromic",
+      "explanation": "Iron deficiency anemia produces small (microcytic, low MCV) and pale (hypochromic, low MCHC) red cells due to insufficient hemoglobin synthesis from iron deficiency."
+    },
+    {
+      "id": 4,
+      "question": "Which peripheral blood cell is the largest and is a precursor to macrophages?",
+      "choices": ["Neutrophil", "Lymphocyte", "Monocyte", "Basophil"],
+      "answer": "Monocyte",
+      "explanation": "Monocytes are the largest circulating leukocytes (15–20 μm). They differentiate into tissue macrophages (e.g., Kupffer cells in the liver, alveolar macrophages in the lung) after migrating into tissues."
+    },
+    {
+      "id": 5,
+      "question": "Sickle cell anemia is caused by a point mutation resulting in substitution of which amino acid in the beta-globin chain?",
+      "choices": ["Valine replaces glutamic acid at position 6", "Glutamic acid replaces valine at position 6", "Lysine replaces glutamic acid at position 26", "Phenylalanine replaces valine at position 1"],
+      "answer": "Valine replaces glutamic acid at position 6",
+      "explanation": "Sickle cell disease (HbS) is caused by a single nucleotide substitution (GAG→GTG), replacing glutamic acid with valine at position 6 of the beta-globin chain. HbS polymerizes under hypoxia, deforming RBCs into sickle shapes."
+    },
+    {
+      "id": 6,
+      "question": "Vitamin B12 and folate deficiency both cause which type of anemia?",
+      "choices": ["Microcytic hypochromic", "Macrocytic megaloblastic", "Normocytic normochromic", "Hemolytic"],
+      "answer": "Macrocytic megaloblastic",
+      "explanation": "Both B12 and folate are required for DNA synthesis. Deficiency impairs nuclear maturation, producing large immature cells (megaloblasts in the marrow, macrocytes in blood) with hypersegmented neutrophils."
+    },
+    {
+      "id": 7,
+      "question": "The Coombs test (Direct Antiglobulin Test/DAT) is positive in which condition?",
+      "choices": ["Iron deficiency anemia", "Autoimmune hemolytic anemia (AIHA)", "G6PD deficiency", "Beta-thalassemia major"],
+      "answer": "Autoimmune hemolytic anemia (AIHA)",
+      "explanation": "The DAT detects antibodies or complement bound to red cell surfaces. A positive DAT indicates immune-mediated hemolysis as in AIHA, hemolytic transfusion reactions, or hemolytic disease of the newborn."
+    },
+    {
+      "id": 8,
+      "question": "In chronic myelogenous leukemia (CML), the Philadelphia chromosome results from translocation between chromosomes:",
+      "choices": ["9 and 22", "8 and 14", "15 and 17", "14 and 18"],
+      "answer": "9 and 22",
+      "explanation": "CML is characterized by the Philadelphia chromosome t(9;22), creating the BCR-ABL fusion gene. BCR-ABL encodes a constitutively active tyrosine kinase, driving uncontrolled granulocyte proliferation."
+    },
+    {
+      "id": 9,
+      "question": "Auer rods are pathognomonic of:",
+      "choices": ["Chronic lymphocytic leukemia (CLL)", "Acute myeloid leukemia (AML)", "Hairy cell leukemia", "Multiple myeloma"],
+      "answer": "Acute myeloid leukemia (AML)",
+      "explanation": "Auer rods are pink/red needle-like cytoplasmic inclusions in blast cells, composed of fused azurophilic granules. They are pathognomonic of AML. They are especially prominent in M3 (APL) and M2 subtypes."
+    },
+    {
+      "id": 10,
+      "question": "Which coagulation factor is the most abundant and is converted to fibrin during clot formation?",
+      "choices": ["Factor I (Fibrinogen)", "Factor II (Prothrombin)", "Factor VIII", "Factor XIII"],
+      "answer": "Factor I (Fibrinogen)",
+      "explanation": "Fibrinogen (Factor I) is the most abundant coagulation factor (~200–400 mg/dL). Thrombin converts fibrinogen to fibrin monomers, which then polymerize to form the fibrin clot. Factor XIII cross-links fibrin for stability."
+    },
+    {
+      "id": 11,
+      "question": "The prothrombin time (PT) measures the integrity of the:",
+      "choices": ["Intrinsic pathway only", "Extrinsic and common pathways", "Intrinsic pathway and common pathway", "Platelet function"],
+      "answer": "Extrinsic and common pathways",
+      "explanation": "PT (extrinsic pathway test) measures Factors VII, X, V, II, and fibrinogen (Factors VII initiates via tissue factor). It is prolonged in warfarin therapy, vitamin K deficiency, and liver disease."
+    },
+    {
+      "id": 12,
+      "question": "The activated partial thromboplastin time (aPTT) evaluates:",
+      "choices": ["Extrinsic pathway only", "Common pathway only", "Intrinsic and common pathways", "Platelet function"],
+      "answer": "Intrinsic and common pathways",
+      "explanation": "aPTT measures Factors XII, XI, IX, VIII, X, V, II, and fibrinogen (intrinsic and common pathways). It is prolonged in hemophilia A (Factor VIII deficiency), hemophilia B (Factor IX deficiency), and heparin therapy."
+    },
+    {
+      "id": 13,
+      "question": "Hemophilia A is caused by deficiency of which coagulation factor?",
+      "choices": ["Factor V", "Factor VII", "Factor VIII", "Factor IX"],
+      "answer": "Factor VIII",
+      "explanation": "Hemophilia A is an X-linked recessive disorder caused by Factor VIII deficiency. It is characterized by prolonged aPTT with normal PT and bleeding time. Treatment is Factor VIII concentrate."
+    },
+    {
+      "id": 14,
+      "question": "Disseminated Intravascular Coagulation (DIC) is characterized by all of the following EXCEPT:",
+      "choices": ["Elevated D-dimer", "Decreased fibrinogen", "Prolonged PT and aPTT", "Elevated platelet count"],
+      "answer": "Elevated platelet count",
+      "explanation": "DIC involves simultaneous widespread clotting and bleeding. Labs show: elevated D-dimer (fibrinolysis), decreased fibrinogen and platelets (consumed), prolonged PT/aPTT. Thrombocytopenia, not elevated platelets, is characteristic."
+    },
+    {
+      "id": 15,
+      "question": "Reed-Sternberg cells are characteristic of:",
+      "choices": ["Non-Hodgkin lymphoma", "Hodgkin lymphoma", "Chronic lymphocytic leukemia", "Burkitt lymphoma"],
+      "answer": "Hodgkin lymphoma",
+      "explanation": "Reed-Sternberg cells are large binucleated or multinucleated cells with prominent 'owl-eye' nucleoli, pathognomonic of Hodgkin lymphoma. They are CD15+ and CD30+ by immunohistochemistry."
+    },
+    {
+      "id": 16,
+      "question": "G6PD deficiency causes hemolytic anemia triggered by oxidative stress. Which peripheral blood finding is characteristic?",
+      "choices": ["Spherocytes", "Heinz bodies and bite cells", "Schistocytes", "Target cells"],
+      "answer": "Heinz bodies and bite cells",
+      "explanation": "G6PD deficiency leads to denatured hemoglobin (Heinz bodies) when exposed to oxidants. Splenic macrophages remove Heinz bodies, creating 'bite cells' (degmacytes). G6PD is the most common enzymopathy worldwide."
+    },
+    {
+      "id": 17,
+      "question": "Which platelet disorder is characterized by thrombocytopenia due to autoimmune destruction of platelets coated with IgG?",
+      "choices": ["Thrombotic thrombocytopenic purpura (TTP)", "Immune thrombocytopenic purpura (ITP)", "Heparin-induced thrombocytopenia (HIT)", "Bernard-Soulier syndrome"],
+      "answer": "Immune thrombocytopenic purpura (ITP)",
+      "explanation": "ITP is caused by IgG autoantibodies against platelet surface antigens (mainly GPIIb/IIIa). Antibody-coated platelets are destroyed by splenic macrophages. Characterized by isolated thrombocytopenia with normal bone marrow."
+    },
+    {
+      "id": 18,
+      "question": "The stain used to identify reticulocytes (RNA-containing immature RBCs) is:",
+      "choices": ["Wright-Giemsa stain", "New methylene blue (supravital stain)", "Prussian blue stain", "Periodic acid-Schiff (PAS) stain"],
+      "answer": "New methylene blue (supravital stain)",
+      "explanation": "Reticulocytes contain residual ribosomal RNA that precipitates into reticulum when stained with supravital stains like new methylene blue or brilliant cresyl blue. Wright-Giemsa is used for routine blood films."
+    },
+    {
+      "id": 19,
+      "question": "Target cells (codocytes) are associated with which conditions?",
+      "choices": ["Spherocytosis and elliptocytosis", "Thalassemia, liver disease, and iron deficiency", "DIC and TTP", "B12 deficiency and folate deficiency"],
+      "answer": "Thalassemia, liver disease, and iron deficiency",
+      "explanation": "Target cells result from excess membrane relative to intracellular contents (increased surface-to-volume ratio). They appear in thalassemia, hemoglobin C disease, liver disease (excess cholesterol in membrane), iron deficiency, and post-splenectomy states."
+    },
+    {
+      "id": 20,
+      "question": "The absolute neutrophil count (ANC) below which a patient is considered neutropenic is:",
+      "choices": ["<5,000/μL", "<2,000/μL", "<500/μL", "<100/μL"],
+      "answer": "<500/μL",
+      "explanation": "Neutropenia is defined as ANC <1,500/μL (mild), <1,000/μL (moderate), and <500/μL (severe neutropenia), which carries the highest risk of serious bacterial infection."
+    },
+    {
+      "id": 21,
+      "question": "The erythrocyte sedimentation rate (ESR) is elevated in:",
+      "choices": ["Polycythemia vera", "Sickle cell anemia", "Inflammatory conditions and infections", "Spherocytosis"],
+      "answer": "Inflammatory conditions and infections",
+      "explanation": "ESR measures the rate at which RBCs settle in plasma. It is elevated in inflammation, infection, malignancy, and pregnancy due to elevated fibrinogen and acute phase proteins causing RBC rouleaux formation. It is a nonspecific marker."
+    },
+    {
+      "id": 22,
+      "question": "Polycythemia vera is a myeloproliferative neoplasm characterized by the JAK2 V617F mutation and is distinguished from secondary polycythemia by:",
+      "choices": ["Elevated EPO levels", "Low or normal EPO levels", "Hypoxia-driven erythropoiesis", "Iron deficiency"],
+      "answer": "Low or normal EPO levels",
+      "explanation": "In polycythemia vera, the JAK2 mutation causes EPO-independent proliferation of erythroid precursors, resulting in low/normal EPO. Secondary polycythemia (e.g., high altitude, COPD) has elevated EPO."
+    },
+    {
+      "id": 23,
+      "question": "Thalassemia trait (beta-thalassemia minor) is confirmed by elevation of which hemoglobin fraction on HPLC?",
+      "choices": ["HbF", "HbA2 (>3.5%)", "HbS", "HbC"],
+      "answer": "HbA2 (>3.5%)",
+      "explanation": "Beta-thalassemia trait is characterized by elevated HbA2 (>3.5%) and sometimes mildly elevated HbF. This is due to compensatory overproduction of delta- and gamma-globin chains when beta-chain synthesis is reduced."
+    },
+    {
+      "id": 24,
+      "question": "Smudge cells (basket cells) on peripheral blood smear are most characteristic of:",
+      "choices": ["Acute myeloid leukemia", "Chronic lymphocytic leukemia (CLL)", "Multiple myeloma", "Infectious mononucleosis"],
+      "answer": "Chronic lymphocytic leukemia (CLL)",
+      "explanation": "Smudge cells are fragile lymphocytes that are crushed during smear preparation. They are characteristically abundant in CLL (>50% of differential may be lymphocytes, including smudge cells)."
+    },
+    {
+      "id": 25,
+      "question": "Which coagulation factor is vitamin K-dependent and is NOT part of the intrinsic pathway?",
+      "choices": ["Factor VIII", "Factor IX", "Factor VII", "Factor XI"],
+      "answer": "Factor VII",
+      "explanation": "Vitamin K-dependent factors: II, VII, IX, X, Protein C, Protein S. Factor VII initiates the extrinsic pathway (with tissue factor). Factor VIII is NOT vitamin K-dependent — it is a cofactor in the intrinsic pathway."
+    },
+    {
+      "id": 26,
+      "question": "Hereditary spherocytosis is caused by a defect in which red cell membrane protein?",
+      "choices": ["Spectrin or ankyrin", "Glycophorin A", "Band 3 protein function in oxygen transport", "Hemoglobin beta-chain"],
+      "answer": "Spectrin or ankyrin",
+      "explanation": "Hereditary spherocytosis is most commonly caused by mutations in spectrin or ankyrin (less commonly band 3 or protein 4.2). The defect disrupts the RBC cytoskeleton, causing membrane loss, spherocyte formation, and extravascular hemolysis."
+    },
+    {
+      "id": 27,
+      "question": "The osmotic fragility test is used to diagnose:",
+      "choices": ["Thalassemia", "Hereditary spherocytosis", "Iron deficiency anemia", "G6PD deficiency"],
+      "answer": "Hereditary spherocytosis",
+      "explanation": "In hereditary spherocytosis, spherocytes have reduced surface-to-volume ratio and lyse at higher (less hypotonic) salt concentrations than normal. The osmotic fragility test shows increased fragility of RBCs."
+    },
+    {
+      "id": 28,
+      "question": "Microangiopathic hemolytic anemia with thrombocytopenia and neurologic symptoms describes which condition?",
+      "choices": ["Immune thrombocytopenic purpura (ITP)", "Thrombotic thrombocytopenic purpura (TTP)", "Hemophilia A", "DIC"],
+      "answer": "Thrombotic thrombocytopenic purpura (TTP)",
+      "explanation": "TTP classic pentad: microangiopathic hemolytic anemia (schistocytes), thrombocytopenia, neurological symptoms, renal failure, and fever. Caused by deficiency of ADAMTS13 (von Willebrand factor cleaving protease)."
+    },
+    {
+      "id": 29,
+      "question": "Which Wright-Giemsa stained cell has a bilobed nucleus connected by a thin filament and large orange-red granules?",
+      "choices": ["Basophil", "Neutrophil", "Eosinophil", "Monocyte"],
+      "answer": "Eosinophil",
+      "explanation": "Eosinophils have a bilobed nucleus connected by a thin strand and distinctive large, uniform bright orange-red (eosinophilic) granules. Eosinophilia is associated with allergies, parasitic infections, and malignancies."
+    },
+    {
+      "id": 30,
+      "question": "The LAP (Leukocyte Alkaline Phosphatase) score is LOW in CML and HIGH in:",
+      "choices": ["Aplastic anemia", "Leukemoid reaction and polycythemia vera", "Iron deficiency anemia", "G6PD deficiency"],
+      "answer": "Leukemoid reaction and polycythemia vera",
+      "explanation": "LAP staining measures alkaline phosphatase in neutrophils. A low LAP score is characteristic of CML (vs. leukemoid reaction which has high LAP). Also elevated in polycythemia vera, infections, and pregnancy."
+    },
+    {
+      "id": 31,
+      "question": "The Kleihauer-Betke test is used to detect:",
+      "choices": ["G6PD activity", "Fetal hemoglobin (HbF) in maternal circulation", "Sickle hemoglobin (HbS)", "Paroxysmal nocturnal hemoglobinuria (PNH)"],
+      "answer": "Fetal hemoglobin (HbF) in maternal circulation",
+      "explanation": "The Kleihauer-Betke test uses acid elution; HbA elutes from adult RBCs (ghost cells) while HbF resists elution (bright pink cells). It quantifies feto-maternal hemorrhage to determine Rh immune globulin dosage."
+    },
+    {
+      "id": 32,
+      "question": "In multiple myeloma, the bone marrow contains >10% abnormal plasma cells. The malignant cells are positive for which surface markers?",
+      "choices": ["CD3 and CD4", "CD19 and CD20", "CD38 and CD138", "CD34 and CD117"],
+      "answer": "CD38 and CD138",
+      "explanation": "Multiple myeloma plasma cells are characteristically CD38+, CD138+ (syndecan-1), and usually CD19-/CD20-. CD138 (syndecan-1) is the most specific plasma cell marker used in immunohistochemistry."
+    },
+    {
+      "id": 33,
+      "question": "The WBC differential count reference range for neutrophils in adults is approximately:",
+      "choices": ["20–40%", "50–70%", "70–85%", "1–5%"],
+      "answer": "50–70%",
+      "explanation": "Normal adult differential: neutrophils 50–70%, lymphocytes 20–40%, monocytes 2–8%, eosinophils 1–4%, basophils 0–1%."
+    },
+    {
+      "id": 34,
+      "question": "Aplastic anemia is characterized by pancytopenia and a hypocellular bone marrow. It is most commonly caused by:",
+      "choices": ["Iron deficiency", "Autoimmune destruction of hematopoietic stem cells", "B12 deficiency", "Chronic hemolysis"],
+      "answer": "Autoimmune destruction of hematopoietic stem cells",
+      "explanation": "Most cases (~80%) of acquired aplastic anemia are caused by T-cell-mediated autoimmune destruction of hematopoietic stem cells. Treatment includes immunosuppression or allogeneic stem cell transplantation."
+    },
+    {
+      "id": 35,
+      "question": "The staining method that identifies iron stores in bone marrow is:",
+      "choices": ["Periodic acid-Schiff (PAS)", "Prussian blue (Perls) stain", "Sudan black B", "Wright-Giemsa"],
+      "answer": "Prussian blue (Perls) stain",
+      "explanation": "Prussian blue (Perls) stain detects ferric iron in storage form (hemosiderin and ferritin) in bone marrow macrophages. Absence of stainable iron confirms iron deficiency anemia. Ringed sideroblasts are seen in sideroblastic anemia."
+    },
+    {
+      "id": 36,
+      "question": "D-dimer is elevated in all of the following EXCEPT:",
+      "choices": ["Deep vein thrombosis (DVT)", "Pulmonary embolism", "DIC", "Hemophilia A"],
+      "answer": "Hemophilia A",
+      "explanation": "D-dimer is a fibrin degradation product elevated whenever there is active clot formation and fibrinolysis (DVT, PE, DIC, surgery, malignancy). Hemophilia A is a bleeding disorder with deficient coagulation — no excess clot formation."
+    },
+    {
+      "id": 37,
+      "question": "Paroxysmal nocturnal hemoglobinuria (PNH) results from a deficiency of GPI-anchored proteins. Which test is now standard for its diagnosis?",
+      "choices": ["Ham's test (acidified serum lysis test)", "Flow cytometry (CD55/CD59 deficiency)", "Osmotic fragility test", "Kleihauer-Betke test"],
+      "answer": "Flow cytometry (CD55/CD59 deficiency)",
+      "explanation": "PNH results from PIGA gene mutation causing absence of GPI-anchored complement regulatory proteins (CD55, CD59). Flow cytometry demonstrating absence of CD55 and CD59 on RBCs and WBCs is now the diagnostic standard."
+    },
+    {
+      "id": 38,
+      "question": "Howell-Jolly bodies are nuclear remnants seen in RBCs after:",
+      "choices": ["Iron deficiency", "Splenectomy or functional asplenia", "Vitamin B12 deficiency", "G6PD deficiency"],
+      "answer": "Splenectomy or functional asplenia",
+      "explanation": "Howell-Jolly bodies are DNA remnants normally removed by the spleen. They appear in peripheral blood after splenectomy, in functional asplenia (e.g., sickle cell disease), and in megaloblastic anemia."
+    },
+    {
+      "id": 39,
+      "question": "The normal platelet count range is:",
+      "choices": ["50,000–100,000/μL", "150,000–400,000/μL", "500,000–800,000/μL", "10,000–50,000/μL"],
+      "answer": "150,000–400,000/μL",
+      "explanation": "Normal platelet count is 150,000–400,000/μL (or 150–400 × 10^9/L). Thrombocytopenia (<150,000/μL) increases bleeding risk. Thrombocytosis (>400,000/μL) can be reactive or due to myeloproliferative disorders."
+    },
+    {
+      "id": 40,
+      "question": "Von Willebrand disease (vWD) is characterized by deficiency or dysfunction of vWF. Which coagulation test is typically abnormal?",
+      "choices": ["Prolonged PT only", "Prolonged aPTT and prolonged bleeding time/PFA-100", "Prolonged thrombin time only", "Decreased fibrinogen"],
+      "answer": "Prolonged aPTT and prolonged bleeding time/PFA-100",
+      "explanation": "vWF acts as a carrier for Factor VIII (affecting aPTT) and mediates platelet adhesion (affecting bleeding time/PFA-100). In Type 1 vWD, both aPTT and bleeding time are prolonged; PT is normal."
+    },
+    {
+      "id": 41,
+      "question": "The FAB classification of acute leukemias divides AML into M0–M7 subtypes. Which subtype is associated with the t(15;17) translocation and responds to ATRA therapy?",
+      "choices": ["AML-M1 (minimally differentiated)", "AML-M3 (Acute Promyelocytic Leukemia/APL)", "AML-M5 (Monocytic)", "AML-M7 (Megakaryoblastic)"],
+      "answer": "AML-M3 (Acute Promyelocytic Leukemia/APL)",
+      "explanation": "APL (AML-M3) is characterized by t(15;17) creating PML-RARα fusion gene. It responds dramatically to all-trans retinoic acid (ATRA) and arsenic trioxide. DIC is a common complication due to procoagulant granules in leukemic promyelocytes."
+    },
+    {
+      "id": 42,
+      "question": "The indirect Coombs test (IAT) is used for:",
+      "choices": ["Detecting antibodies bound to RBCs in vivo", "Detecting unexpected antibodies in patient serum (crossmatch and antibody screen)", "Measuring complement levels", "Diagnosing hemophilia"],
+      "answer": "Detecting unexpected antibodies in patient serum (crossmatch and antibody screen)",
+      "explanation": "The IAT (indirect antiglobulin test) detects free antibodies in the patient's serum capable of binding to test RBCs. Used in pre-transfusion testing (antibody screen, crossmatch) and antenatal antibody screening."
+    },
+    {
+      "id": 43,
+      "question": "Spherocytes, a negative DAT, and increased osmotic fragility in a young patient with anemia and splenomegaly suggests:",
+      "choices": ["Autoimmune hemolytic anemia", "Hereditary spherocytosis", "Malaria", "TTP"],
+      "answer": "Hereditary spherocytosis",
+      "explanation": "Hereditary spherocytosis: autosomal dominant membrane protein defect (spectrin/ankyrin), negative DAT (not immune-mediated), spherocytes on smear, increased osmotic fragility, and splenomegaly (compensatory). AIHA would have a positive DAT."
+    },
+    {
+      "id": 44,
+      "question": "The terminal pathway of complement (C5b-9, membrane attack complex) causes cell lysis. Which condition results from defective regulation of the complement system, leading to intravascular hemolysis?",
+      "choices": ["ITP", "G6PD deficiency", "PNH", "Hereditary spherocytosis"],
+      "answer": "PNH",
+      "explanation": "In PNH, the absence of CD59 (protectin) allows the membrane attack complex (C5b-9) to lyse RBCs unopposed, causing intravascular hemolysis. Classic presentation: hemoglobinuria worse in the morning, venous thrombosis."
+    },
+    {
+      "id": 45,
+      "question": "A left shift in the WBC differential refers to:",
+      "choices": ["Increased proportion of mature segmented neutrophils", "Increased proportion of immature neutrophils (bands, metamyelocytes)", "Shift of WBCs to the left side of the blood vessel", "Increased lymphocytes"],
+      "answer": "Increased proportion of immature neutrophils (bands, metamyelocytes)",
+      "explanation": "A 'left shift' means increased immature neutrophil precursors (bands >6%, metamyelocytes, myelocytes) in peripheral blood, indicating bone marrow response to severe infection, stress, or leukemic infiltration."
+    },
+    {
+      "id": 46,
+      "question": "Heparin therapy prolongs the aPTT because heparin:",
+      "choices": ["Inhibits vitamin K-dependent factor synthesis", "Activates antithrombin III (AT-III), inhibiting thrombin and Factors Xa, IXa", "Directly inhibits fibrinogen", "Promotes fibrinolysis"],
+      "answer": "Activates antithrombin III (AT-III), inhibiting thrombin and Factors Xa, IXa",
+      "explanation": "Unfractionated heparin binds and activates antithrombin III, which then rapidly inhibits thrombin (IIa) and Factor Xa (primarily). This prolongs the aPTT but not the PT (since Factor VII is unaffected)."
+    },
+    {
+      "id": 47,
+      "question": "Rouleaux formation of RBCs on a peripheral smear is characteristic of:",
+      "choices": ["Thalassemia", "Multiple myeloma and hypergammaglobulinemia", "Iron deficiency", "G6PD deficiency"],
+      "answer": "Multiple myeloma and hypergammaglobulinemia",
+      "explanation": "Rouleaux formation (RBCs stacking like coins) occurs due to elevated protein (especially fibrinogen or immunoglobulins) reducing the zeta potential. Common in multiple myeloma, Waldenström's, and inflammatory states."
+    },
+    {
+      "id": 48,
+      "question": "A 'dry tap' (failure to aspirate bone marrow) is associated with which condition?",
+      "choices": ["Aplastic anemia", "Iron deficiency", "Myelofibrosis", "AML"],
+      "answer": "Myelofibrosis",
+      "explanation": "In primary myelofibrosis, the marrow is replaced by fibrotic tissue, preventing aspiration ('dry tap'). Trephine biopsy is essential. A leukoerythroblastic blood picture with tear-drop cells (dacrocytes) is characteristic."
+    },
+    {
+      "id": 49,
+      "question": "Schistocytes (fragmented RBCs) are seen in which condition?",
+      "choices": ["Hereditary spherocytosis", "Microangiopathic hemolytic anemia (TTP, HUS, DIC)", "G6PD deficiency", "Thalassemia trait"],
+      "answer": "Microangiopathic hemolytic anemia (TTP, HUS, DIC)",
+      "explanation": "Schistocytes form when RBCs are sheared by fibrin strands in microvascular thrombi. They indicate microangiopathic hemolytic anemia (MAHA) as in TTP, HUS, DIC, or mechanical heart valves."
+    },
+    {
+      "id": 50,
+      "question": "The standard anticoagulant used for CBC samples is:",
+      "choices": ["Sodium citrate", "Heparin", "EDTA (ethylenediaminetetraacetic acid)", "Sodium fluoride"],
+      "answer": "EDTA (ethylenediaminetetraacetic acid)",
+      "explanation": "EDTA (lavender-top tube) chelates calcium ions, preventing clotting while preserving cell morphology. It is the standard anticoagulant for CBC. Sodium citrate is used for coagulation tests (PT, aPTT)."
+    }
+  ]
+}

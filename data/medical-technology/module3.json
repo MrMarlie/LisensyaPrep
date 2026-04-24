@@ -1,0 +1,356 @@
+{
+  "module": "Module 3 - Microbiology and Parasitology",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The gram stain procedure uses crystal violet as the primary stain. Gram-positive organisms appear purple because:",
+      "choices": ["They have a thin peptidoglycan layer", "Their thick peptidoglycan layer retains the crystal violet-iodine complex after decolorization", "Their outer membrane prevents decolorization", "They absorb safranin more strongly"],
+      "answer": "Their thick peptidoglycan layer retains the crystal violet-iodine complex after decolorization",
+      "explanation": "Gram-positive bacteria have a thick peptidoglycan layer (20–80 nm) that traps the crystal violet-iodine complex after alcohol/acetone decolorization, appearing purple. Gram-negative bacteria have a thin peptidoglycan but outer membrane that washes away."
+    },
+    {
+      "id": 2,
+      "question": "Which organism causes tuberculosis and is identified by acid-fast (Ziehl-Neelsen) staining?",
+      "choices": ["Streptococcus pneumoniae", "Mycobacterium tuberculosis", "Klebsiella pneumoniae", "Legionella pneumophila"],
+      "answer": "Mycobacterium tuberculosis",
+      "explanation": "M. tuberculosis has a waxy mycolic acid cell wall that retains carbol-fuchsin after acid-alcohol decolorization (acid-fast). It appears as red rods against a blue background on Ziehl-Neelsen stain. Lowenstein-Jensen medium supports its slow growth."
+    },
+    {
+      "id": 3,
+      "question": "Staphylococcus aureus is differentiated from Staphylococcus epidermidis by the:",
+      "choices": ["Gram stain result", "Catalase test", "Coagulase test", "Oxidase test"],
+      "answer": "Coagulase test",
+      "explanation": "The coagulase test differentiates S. aureus (coagulase-positive) from coagulase-negative staphylococci (e.g., S. epidermidis, S. saprophyticus). Coagulase converts fibrinogen to fibrin, helping the organism evade phagocytosis."
+    },
+    {
+      "id": 4,
+      "question": "The CAMP test is used to identify:",
+      "choices": ["Streptococcus pyogenes (Group A)", "Streptococcus agalactiae (Group B)", "Enterococcus faecalis", "Streptococcus pneumoniae"],
+      "answer": "Streptococcus agalactiae (Group B)",
+      "explanation": "The CAMP test detects the CAMP factor of S. agalactiae (GBS), which enhances the hemolysis of S. aureus on blood agar. An arrowhead-shaped zone of enhanced hemolysis is a positive result."
+    },
+    {
+      "id": 5,
+      "question": "Which bacteria causes 'rice-water stools' (profuse watery diarrhea) during cholera outbreaks?",
+      "choices": ["Salmonella typhi", "Shigella dysenteriae", "Vibrio cholerae", "Campylobacter jejuni"],
+      "answer": "Vibrio cholerae",
+      "explanation": "V. cholerae produces cholera toxin (CT), activating adenylyl cyclase and increasing cAMP in intestinal epithelium, causing massive secretory diarrhea ('rice-water stools'). Transmitted via contaminated water, common in the Philippines."
+    },
+    {
+      "id": 6,
+      "question": "Which selective medium is used to isolate Salmonella and Shigella from stool specimens?",
+      "choices": ["Mannitol salt agar", "MacConkey agar", "Salmonella-Shigella (SS) agar", "Thiosulfate-Citrate-Bile salts-Sucrose (TCBS) agar"],
+      "answer": "Salmonella-Shigella (SS) agar",
+      "explanation": "SS agar inhibits gram-positive organisms and coliforms while allowing Salmonella (black colonies from H2S) and Shigella (colorless colonies) to grow. TCBS is selective for Vibrio species."
+    },
+    {
+      "id": 7,
+      "question": "The Mycobacterium tuberculosis culture medium of choice that contains glycerol, asparagine, and mineral salts is:",
+      "choices": ["Blood agar", "Lowenstein-Jensen (LJ) medium", "Chocolate agar", "Thayer-Martin agar"],
+      "answer": "Lowenstein-Jensen (LJ) medium",
+      "explanation": "Lowenstein-Jensen medium is the classic egg-based medium for mycobacterial culture. M. tuberculosis produces rough, cream/buff-colored colonies after 3–6 weeks. BACTEC liquid media is now used for faster detection."
+    },
+    {
+      "id": 8,
+      "question": "The oxidase test is positive for which organism, aiding in identification of gram-negative organisms?",
+      "choices": ["Escherichia coli", "Klebsiella pneumoniae", "Pseudomonas aeruginosa", "Enterobacter cloacae"],
+      "answer": "Pseudomonas aeruginosa",
+      "explanation": "The oxidase test detects cytochrome c oxidase. Pseudomonas aeruginosa is oxidase-positive and produces a blue-green pyocyanin pigment. Enterobacteriaceae (E. coli, Klebsiella, Salmonella) are oxidase-negative."
+    },
+    {
+      "id": 9,
+      "question": "Candida albicans is identified by its ability to form germ tubes when incubated in serum at 37°C for 2–3 hours. This is called the:",
+      "choices": ["Urease test", "Germ tube test (Reynolds-Braude test)", "India ink preparation", "KOH preparation"],
+      "answer": "Germ tube test (Reynolds-Braude test)",
+      "explanation": "The germ tube test identifies C. albicans (and C. dubliniensis) which form elongated hyphal extensions without constriction at the origin (true germ tubes). ~75% of clinical Candida isolates are C. albicans."
+    },
+    {
+      "id": 10,
+      "question": "The definitive host of Plasmodium species (malaria parasites) where sexual reproduction occurs is:",
+      "choices": ["Humans", "Female Anopheles mosquito", "Male Culex mosquito", "Rodents"],
+      "answer": "Female Anopheles mosquito",
+      "explanation": "Sexual reproduction (sporogony) of Plasmodium occurs in the female Anopheles mosquito (definitive host). Asexual reproduction (schizogony) occurs in the human liver and RBCs (intermediate host)."
+    },
+    {
+      "id": 11,
+      "question": "Plasmodium falciparum, the most dangerous malaria species, is distinguished by which peripheral blood finding?",
+      "choices": ["Schüffner's dots and enlarged RBCs", "Multiple rings per RBC and banana-shaped gametocytes", "Ziemann's dots and band forms", "Maurer's clefts only in ring stages"],
+      "answer": "Multiple rings per RBC and banana-shaped gametocytes",
+      "explanation": "P. falciparum: accole (appliqué) forms, multiple ring stages per RBC, banana/crescent-shaped gametocytes, Maurer's clefts. It causes the most severe malaria (cerebral, splenic sequestration) and only early ring stages appear in peripheral blood."
+    },
+    {
+      "id": 12,
+      "question": "Which parasite is transmitted by ingestion of undercooked pork and causes cysticercosis?",
+      "choices": ["Taenia saginata", "Taenia solium", "Diphyllobothrium latum", "Echinococcus granulosus"],
+      "answer": "Taenia solium",
+      "explanation": "T. solium (pork tapeworm) causes taeniasis when undercooked pork containing cysticerci is eaten. Neurocysticercosis (brain infection with cysticerci) occurs when humans accidentally ingest T. solium eggs — a major cause of epilepsy in endemic areas like the Philippines."
+    },
+    {
+      "id": 13,
+      "question": "Ascaris lumbricoides (giant roundworm) is the most prevalent intestinal helminth in the Philippines. Its eggs are identified by their:",
+      "choices": ["Barrel-shaped body with polar plugs", "Mammillated (bumpy) albuminous coat, fertilized oval shape", "Thin shell with larva visible inside", "Operculated eggs with a knob at the opposite end"],
+      "answer": "Mammillated (bumpy) albuminous coat, fertilized oval shape",
+      "explanation": "Fertilized Ascaris eggs are oval, brown, with a thick outer mammillated (bumpy) albuminous coat and inner thick shell. Unfertilized eggs are longer and have a disorganized albuminous coat. Both are bile-stained."
+    },
+    {
+      "id": 14,
+      "question": "The cellophane tape perianal swab test is the standard method to diagnose infection with:",
+      "choices": ["Ascaris lumbricoides", "Trichuris trichiura", "Enterobius vermicularis (pinworm)", "Strongyloides stercoralis"],
+      "answer": "Enterobius vermicularis (pinworm)",
+      "explanation": "Female pinworms migrate to the perianal area at night to deposit eggs. The Scotch tape (Graham) test applied to the perianal area in the morning before bathing is the standard diagnostic method for pinworm infection."
+    },
+    {
+      "id": 15,
+      "question": "Cryptococcus neoformans is identified by its thick polysaccharide capsule, visible with:",
+      "choices": ["Gram stain", "India ink preparation", "KOH preparation", "Ziehl-Neelsen stain"],
+      "answer": "India ink preparation",
+      "explanation": "India ink (negative stain) demonstrates the thick capsule of C. neoformans as a clear halo around the yeast cell against a dark background. Urease test is also positive. Mainly infects immunocompromised patients (HIV/AIDS), causing meningitis."
+    },
+    {
+      "id": 16,
+      "question": "Entamoeba histolytica is differentiated from non-pathogenic Entamoeba coli by all of the following EXCEPT:",
+      "choices": ["E. histolytica trophozoites contain ingested RBCs", "E. histolytica cysts have ≤4 nuclei with central karyosome", "E. histolytica is larger than E. coli", "E. coli cysts have up to 8 nuclei with eccentric karyosome"],
+      "answer": "E. histolytica is larger than E. coli",
+      "explanation": "E. coli trophozoites are actually larger (15–50 μm) than E. histolytica (10–60 μm, typically 15–30 μm). Key differentiators: E. histolytica cysts have ≤4 nuclei with central karyosome; E. coli cysts have up to 8 nuclei with eccentric karyosome. Only E. histolytica ingests RBCs."
+    },
+    {
+      "id": 17,
+      "question": "Haemophilus influenzae requires which growth factors for culture (X and V factors)?",
+      "choices": ["X factor: hematin; V factor: NAD (nicotinamide adenine dinucleotide)", "X factor: NAD; V factor: hematin", "X factor: hemin; V factor: thiamine pyrophosphate", "X factor: calcium; V factor: magnesium"],
+      "answer": "X factor: hematin; V factor: NAD (nicotinamide adenine dinucleotide)",
+      "explanation": "H. influenzae requires both X factor (hematin/hemin — for cytochromes) and V factor (NAD — for electron transport). Growth between S. aureus streak on blood agar shows satellitism because S. aureus lyses RBCs (releasing X) and produces V factor."
+    },
+    {
+      "id": 18,
+      "question": "Neisseria gonorrhoeae is a causative agent of gonorrhea. Which selective medium is used to culture it?",
+      "choices": ["MacConkey agar", "Blood agar", "Thayer-Martin (modified) agar", "TCBS agar"],
+      "answer": "Thayer-Martin (modified) agar",
+      "explanation": "Thayer-Martin agar (chocolate agar with VCN antibiotics: vancomycin, colistin, nystatin) selectively grows pathogenic Neisseria (N. gonorrhoeae and N. meningitidis) by inhibiting normal flora. Requires 5–10% CO2 for growth."
+    },
+    {
+      "id": 19,
+      "question": "The Weil-Felix test uses cross-reacting antigens from Proteus species to detect antibodies in patients infected with:",
+      "choices": ["Salmonella species", "Rickettsia species", "Bordetella pertussis", "Leptospira species"],
+      "answer": "Rickettsia species",
+      "explanation": "The Weil-Felix test detects Rickettsia antibodies using cross-reacting Proteus OX antigens. Rickettsia rickettsii (Rocky Mountain spotted fever) agglutinates OX-19 and OX-2. Though largely replaced by more specific tests, it is still included in Philippine board exams."
+    },
+    {
+      "id": 20,
+      "question": "Schistosoma japonicum, endemic in the Philippines (particularly in Mindanao and Leyte), causes schistosomiasis. Its eggs are characterized by:",
+      "choices": ["Large, oval with a prominent terminal spine", "Small, oval with a small lateral spine or rudimentary spine", "Round, with no spine, and miracidium visible", "Large, has a large operculum"],
+      "answer": "Small, oval with a small lateral spine or rudimentary spine",
+      "explanation": "S. japonicum eggs are small (70–100 μm), oval, with a small rudimentary (or absent) lateral spine — distinguishing it from S. mansoni (prominent lateral spine) and S. haematobium (terminal spine)."
+    },
+    {
+      "id": 21,
+      "question": "The Ziehl-Neelsen acid-fast stain uses which primary dye?",
+      "choices": ["Crystal violet", "Malachite green", "Carbol-fuchsin", "Methylene blue"],
+      "answer": "Carbol-fuchsin",
+      "explanation": "Ziehl-Neelsen stain: primary stain is hot carbol-fuchsin, decolorized with acid-alcohol, counterstained with methylene blue. Acid-fast organisms (mycobacteria) appear bright red; background/non-acid-fast organisms appear blue."
+    },
+    {
+      "id": 22,
+      "question": "Trichomonas vaginalis is a sexually transmitted flagellate protozoan. Its diagnostic finding in wet mount is:",
+      "choices": ["Cysts with 4 nuclei", "Motile trophozoites with jerky/tumbling motility", "Eggs with an operculum", "Banana-shaped gametocytes"],
+      "answer": "Motile trophozoites with jerky/tumbling motility",
+      "explanation": "T. vaginalis exists only as a trophozoite (no cyst stage). In vaginal/urethral wet mounts, the pear-shaped trophozoite with 4 anterior flagella and undulating membrane shows characteristic jerky/tumbling motility, allowing diagnosis."
+    },
+    {
+      "id": 23,
+      "question": "The most common fungal cause of tinea versicolor (pityriasis versicolor) is:",
+      "choices": ["Trichophyton rubrum", "Malassezia furfur (Pityrosporum orbiculare)", "Candida albicans", "Sporothrix schenckii"],
+      "answer": "Malassezia furfur (Pityrosporum orbiculare)",
+      "explanation": "Malassezia furfur causes tinea versicolor, a superficial skin infection with hypo- or hyperpigmented scaly patches. KOH preparation shows 'spaghetti and meatballs' pattern (short hyphae and budding yeast). Requires lipid-rich media for culture."
+    },
+    {
+      "id": 24,
+      "question": "Which Salmonella species causes typhoid fever and is characterized by a gradual rise in fever with rose spots?",
+      "choices": ["Salmonella enteritidis", "Salmonella typhimurium", "Salmonella typhi", "Salmonella paratyphi A"],
+      "answer": "Salmonella typhi",
+      "explanation": "S. typhi causes typhoid fever: stepwise fever for 3–4 weeks, rose spots on the trunk, bradycardia, hepatosplenomegaly. Blood culture is positive in week 1; stool culture in weeks 2–3; serology (Widal test) after week 2."
+    },
+    {
+      "id": 25,
+      "question": "Leptospirosis, endemic in the Philippines (especially post-typhoon flooding), is caused by Leptospira interrogans. The classic diagnostic presentation includes:",
+      "choices": ["Maculopapular rash and liver abscess", "Biphasic illness with jaundice, renal failure, and hemorrhage (Weil's disease)", "Bloody diarrhea and tenesmus", "Encephalitis with CSF pleocytosis"],
+      "answer": "Biphasic illness with jaundice, renal failure, and hemorrhage (Weil's disease)",
+      "explanation": "Severe leptospirosis (Weil's disease) presents with jaundice, acute kidney injury, and bleeding (thrombocytopenia). Diagnosis: dark-field microscopy of blood/urine in acute phase; MAT (microscopic agglutination test) serology is the gold standard."
+    },
+    {
+      "id": 26,
+      "question": "Which agar is used for the isolation of fungi and is supplemented with cycloheximide and chloramphenicol to inhibit bacteria and fast-growing molds?",
+      "choices": ["Sabouraud dextrose agar (SDA)", "Blood agar", "TCBS agar", "Chocolate agar"],
+      "answer": "Sabouraud dextrose agar (SDA)",
+      "explanation": "Sabouraud dextrose agar (low pH, high glucose) with cycloheximide (inhibits saprophytic fungi) and chloramphenicol (inhibits bacteria) is the standard medium for dermatophytes and yeasts. Inhibitory Mold Agar (IMA) is a variant."
+    },
+    {
+      "id": 27,
+      "question": "The Kirby-Bauer disk diffusion test is used to determine:",
+      "choices": ["Minimal inhibitory concentration (MIC) precisely", "Antimicrobial susceptibility (sensitive/intermediate/resistant)", "Bacterial growth rate", "Toxin production"],
+      "answer": "Antimicrobial susceptibility (sensitive/intermediate/resistant)",
+      "explanation": "The Kirby-Bauer method places antibiotic disks on a lawn of bacteria on Mueller-Hinton agar. Zones of inhibition are measured and compared to CLSI breakpoints to classify as sensitive (S), intermediate (I), or resistant (R)."
+    },
+    {
+      "id": 28,
+      "question": "Giardia lamblia (duodenalis) is a flagellate protozoan causing giardiasis. Its trophozoite has a characteristic appearance described as:",
+      "choices": ["Pear-shaped with two nuclei and median bodies ('old man with glasses' appearance)", "Round with a single nucleus and pseudopods", "Crescent-shaped with a single nucleus", "Oval with 4 nuclei"],
+      "answer": "Pear-shaped with two nuclei and median bodies ('old man with glasses' appearance)",
+      "explanation": "G. lamblia trophozoite is pear-shaped, bilaterally symmetrical with 2 nuclei and 2 curved median bodies — resembling a face with glasses ('old man's face'). It has 4 pairs of flagella and an adhesive disc for attachment to intestinal villi."
+    },
+    {
+      "id": 29,
+      "question": "The Mantoux test (tuberculin skin test/PPD) indicates:",
+      "choices": ["Active tuberculosis infection", "Prior TB exposure or BCG vaccination (delayed-type hypersensitivity reaction)", "Active fungal infection", "HIV infection"],
+      "answer": "Prior TB exposure or BCG vaccination (delayed-type hypersensitivity reaction)",
+      "explanation": "The Mantoux test detects Type IV hypersensitivity (cell-mediated) to tuberculin (PPD). A positive result (≥10 mm induration at 48–72 hrs) indicates prior M. tuberculosis exposure or BCG vaccination, not necessarily active disease."
+    },
+    {
+      "id": 30,
+      "question": "Which organism is associated with 'safety-pin' bipolar staining on blood smear and causes bubonic plague?",
+      "choices": ["Francisella tularensis", "Yersinia pestis", "Brucella melitensis", "Pasteurella multocida"],
+      "answer": "Yersinia pestis",
+      "explanation": "Y. pestis, the causative agent of plague, shows bipolar (safety-pin) staining with Wayson or methylene blue stain, appearing as dark-stained poles with a lighter center. Transmitted by flea bites from infected rodents."
+    },
+    {
+      "id": 31,
+      "question": "Clostridium perfringens type A causes gas gangrene and food poisoning. It is:",
+      "choices": ["Gram-positive, aerobic, spore-forming rod", "Gram-positive, anaerobic, spore-forming rod", "Gram-negative, aerobic, non-spore-forming rod", "Gram-positive, aerobic, non-spore-forming cocci"],
+      "answer": "Gram-positive, anaerobic, spore-forming rod",
+      "explanation": "Clostridium perfringens is a gram-positive, anaerobic, spore-forming rod. It produces multiple toxins; alpha toxin (lecithinase) is responsible for the myonecrosis of gas gangrene. Double zone of hemolysis on blood agar is characteristic."
+    },
+    {
+      "id": 32,
+      "question": "Which test distinguishes Streptococcus pneumoniae from other alpha-hemolytic streptococci (viridans group)?",
+      "choices": ["Catalase test", "Optochin sensitivity (P disk) and bile solubility", "Coagulase test", "CAMP test"],
+      "answer": "Optochin sensitivity (P disk) and bile solubility",
+      "explanation": "S. pneumoniae is sensitive to optochin (ethylhydrocupreine) — shows a zone of inhibition ≥14 mm — and is bile-soluble (lyses in bile salts). Viridans streptococci are optochin-resistant and bile-insoluble."
+    },
+    {
+      "id": 33,
+      "question": "The culture medium for Bordetella pertussis (whooping cough) is:",
+      "choices": ["MacConkey agar", "Bordet-Gengou (potato blood glycerol) agar", "Thiosulfate-Citrate-Bile-Sucrose agar", "Fletcher's medium"],
+      "answer": "Bordet-Gengou (potato blood glycerol) agar",
+      "explanation": "B. pertussis requires Bordet-Gengou agar (potato infusion, blood, glycerol) for isolation. Colonies appear as 'mercury droplets' after 3–5 days. Regan-Lowe charcoal agar is now more commonly used."
+    },
+    {
+      "id": 34,
+      "question": "The 'string of pearls' test (growth in chains in 0.5% NaHCO3/10% CO2) is used to identify:",
+      "choices": ["Mycobacterium tuberculosis", "Bacillus anthracis", "Clostridium tetani", "Staphylococcus aureus"],
+      "answer": "Bacillus anthracis",
+      "explanation": "B. anthracis (anthrax) shows a 'string of pearls' reaction when grown in presence of 10% CO2 with penicillin, demonstrating capsulated spherical bodies in chains. Also characterized by medusa head colonies and non-motile, non-hemolytic on blood agar."
+    },
+    {
+      "id": 35,
+      "question": "Dengue fever, endemic in the Philippines, is caused by a flavivirus transmitted by which vector?",
+      "choices": ["Anopheles mosquito", "Culex mosquito", "Aedes aegypti mosquito", "Sandfly"],
+      "answer": "Aedes aegypti mosquito",
+      "explanation": "Dengue virus (serotypes 1–4) is transmitted by Aedes aegypti and Aedes albopictus mosquitoes. Lab diagnosis: NS1 antigen (early, days 1–5), IgM/IgG serology (after day 5), and CBC showing thrombocytopenia and leukopenia."
+    },
+    {
+      "id": 36,
+      "question": "Trypanosoma brucei causes African sleeping sickness. The Philippine equivalent of this disease is caused by Trypanosoma evansi, but in humans in the Philippines, the most relevant trypanosome to know for board exams is:",
+      "choices": ["Trypanosoma cruzi (Chagas disease)", "Trypanosoma rangeli", "Trypanosoma gambiense and rhodesiense", "None — trypanosomiasis is not relevant to the Philippines"],
+      "answer": "Trypanosoma cruzi (Chagas disease)",
+      "explanation": "While T. brucei (sleeping sickness) is African, Trypanosoma cruzi causing Chagas disease (American trypanosomiasis) is included in Philippine board exams for comparative parasitology. Transmitted by triatomine (kissing) bugs."
+    },
+    {
+      "id": 37,
+      "question": "The principle of the API 20E strip is to identify Enterobacteriaceae using:",
+      "choices": ["Antibiotic sensitivity patterns", "A series of miniaturized biochemical tests", "Gram stain morphology", "Serological agglutination"],
+      "answer": "A series of miniaturized biochemical tests",
+      "explanation": "The API 20E system performs 21 standardized biochemical tests (citrate utilization, urease, indole, motility, etc.) in miniaturized cupules. A numerical profile is generated and compared to a database for identification."
+    },
+    {
+      "id": 38,
+      "question": "Hepatitis B virus (HBV) surface antigen (HBsAg) positivity for more than 6 months indicates:",
+      "choices": ["Acute HBV infection in the window period", "Chronic HBV carrier state", "Past resolved infection", "Immunity from vaccination"],
+      "answer": "Chronic HBV carrier state",
+      "explanation": "HBsAg detected for >6 months indicates chronic HBV infection. HBsAg appears first, before symptoms. Anti-HBs indicates immunity (post-infection or vaccination). The 'core window' period shows only anti-HBc IgM positivity."
+    },
+    {
+      "id": 39,
+      "question": "Dermatophytes (Trichophyton, Microsporum, Epidermophyton) are fungi that infect keratinized tissue. The urease-positive dermatophyte used to confirm Trichophyton mentagrophytes vs. T. rubrum is:",
+      "choices": ["T. rubrum (urease positive)", "T. mentagrophytes (urease positive, perforates hair in vitro)", "Both are urease positive", "Both are urease negative"],
+      "answer": "T. mentagrophytes (urease positive, perforates hair in vitro)",
+      "explanation": "T. mentagrophytes is urease-positive and can perforate hair in vitro (hair perforation test) within 2 weeks. T. rubrum is urease-negative. This differentiates the two most common tinea pedis dermatophytes."
+    },
+    {
+      "id": 40,
+      "question": "Which parasite has a rhabditiform (non-filariform) larva as its diagnostic stage in stool?",
+      "choices": ["Necator americanus (hookworm)", "Ascaris lumbricoides", "Strongyloides stercoralis", "Enterobius vermicularis"],
+      "answer": "Strongyloides stercoralis",
+      "explanation": "S. stercoralis is unique among intestinal nematodes because its diagnostic stage in fresh stool is the rhabditiform larva (short buccal cavity, large genital primordium). Hookworms shed eggs, not larvae, in normal stool."
+    },
+    {
+      "id": 41,
+      "question": "The MacConkey agar uses crystal violet and bile salts to select gram-negative bacteria. Lactose fermenters appear:",
+      "choices": ["Colorless/translucent", "Pink to red (with precipitation halo)", "Black with metallic sheen", "Blue-green"],
+      "answer": "Pink to red (with precipitation halo)",
+      "explanation": "MacConkey agar contains lactose and pH indicator (neutral red). Lactose fermenters produce acid, turning colonies pink-red (with a precipitation halo in strong fermenters like E. coli). Non-fermenters (Salmonella, Shigella) appear colorless."
+    },
+    {
+      "id": 42,
+      "question": "The Widal test is a serological test used to diagnose which infection?",
+      "choices": ["Malaria", "Typhoid fever (Salmonella typhi)", "Dengue fever", "Leptospirosis"],
+      "answer": "Typhoid fever (Salmonella typhi)",
+      "explanation": "The Widal test detects agglutinating antibodies against Salmonella O (somatic) and H (flagellar) antigens. A fourfold rise in titer between acute and convalescent sera is significant. It is still used in the Philippines despite low specificity."
+    },
+    {
+      "id": 43,
+      "question": "Which characteristic distinguishes Streptococcus pyogenes (Group A Strep) from other streptococci?",
+      "choices": ["Alpha hemolysis on blood agar", "Beta hemolysis and bacitracin sensitivity", "Gamma hemolysis and bile esculin positive", "Alpha hemolysis and optochin sensitivity"],
+      "answer": "Beta hemolysis and bacitracin sensitivity",
+      "explanation": "S. pyogenes (GAS) shows complete beta hemolysis and is sensitive to bacitracin (A disk), differentiating it from Group B (GBS) which is bacitracin-resistant. S. pyogenes causes pharyngitis, impetigo, rheumatic fever, and PSGN."
+    },
+    {
+      "id": 44,
+      "question": "The most common cause of bacterial meningitis in neonates is:",
+      "choices": ["Neisseria meningitidis", "Streptococcus pneumoniae", "Haemophilus influenzae type b", "Streptococcus agalactiae (Group B Strep) and E. coli"],
+      "answer": "Streptococcus agalactiae (Group B Strep) and E. coli",
+      "explanation": "GBS (S. agalactiae) and E. coli K1 are the leading causes of neonatal bacterial meningitis (0–3 months). Listeria monocytogenes is also important. Beyond 3 months, S. pneumoniae and N. meningitidis become more common."
+    },
+    {
+      "id": 45,
+      "question": "Escherichia coli O157:H7 causes hemorrhagic colitis and hemolytic uremic syndrome (HUS). It is identified on sorbitol-MacConkey agar by:",
+      "choices": ["Fermenting sorbitol (pink colonies)", "NOT fermenting sorbitol (colorless colonies)", "Producing H2S (black colonies)", "Fermenting lactose only"],
+      "answer": "NOT fermenting sorbitol (colorless colonies)",
+      "explanation": "E. coli O157:H7 does not ferment sorbitol, appearing as colorless colonies on sorbitol-MacConkey agar, unlike other E. coli strains (pink). Confirmed by serotyping with O157 and H7 antisera."
+    },
+    {
+      "id": 46,
+      "question": "The life cycle of Wuchereria bancrofti involves which intermediate host vector in the Philippines?",
+      "choices": ["Anopheles mosquito", "Aedes mosquito", "Culex mosquito (mainly Culex quinquefasciatus)", "Sandfly"],
+      "answer": "Culex mosquito (mainly Culex quinquefasciatus)",
+      "explanation": "W. bancrofti (lymphatic filariasis/elephantiasis) is transmitted by Culex mosquitoes, primarily C. quinquefasciatus. The microfilariae show nocturnal periodicity in the Philippines. It is endemic in parts of Leyte and other islands."
+    },
+    {
+      "id": 47,
+      "question": "The India ink stain of CSF showing encapsulated yeast budding from a narrow base is diagnostic of:",
+      "choices": ["Candida albicans meningitis", "Cryptococcus neoformans meningitis", "Aspergillus meningitis", "Histoplasma capsulatum meningitis"],
+      "answer": "Cryptococcus neoformans meningitis",
+      "explanation": "C. neoformans has a large polysaccharide capsule visible as a clear halo in India ink preparation of CSF. Narrow-based budding (vs. broad-based in Blastomyces). CrAg (cryptococcal antigen) test has higher sensitivity and is the preferred screening test."
+    },
+    {
+      "id": 48,
+      "question": "An obligate intracellular parasite that causes Chlamydia trachomatis infection is diagnosed in the laboratory by:",
+      "choices": ["Routine bacterial culture on blood agar", "Gram stain showing gram-negative diplococci", "NAAT (nucleic acid amplification test) or cell culture", "India ink preparation"],
+      "answer": "NAAT (nucleic acid amplification test) or cell culture",
+      "explanation": "C. trachomatis cannot grow on standard media as it is an obligate intracellular pathogen. NAAT (PCR) from urine or genital swabs is the most sensitive method. Cell culture (McCoy cells) is the gold standard but less practical."
+    },
+    {
+      "id": 49,
+      "question": "Paragonimus westermani (lung fluke) is endemic in the Philippines. Its eggs are identified by:",
+      "choices": ["Barrel-shaped with polar plugs", "Large, oval, operculated, with shoulders near the operculum", "Round with no operculum", "Small with a lateral spine"],
+      "answer": "Large, oval, operculated, with shoulders near the operculum",
+      "explanation": "P. westermani eggs are large, oval, golden-brown, with an operculum that has thickened 'shoulders' at the opercular rim. Found in sputum or stool. Infection is from eating raw/undercooked freshwater crabs or crayfish."
+    },
+    {
+      "id": 50,
+      "question": "The standard method for culturing anaerobic bacteria uses which specialized technique?",
+      "choices": ["Incubation in room air at 37°C", "Anaerobic jars (GasPak system) or anaerobic chamber with N2/CO2/H2 atmosphere", "TCBS agar in 10% CO2", "Capnophilic conditions only"],
+      "answer": "Anaerobic jars (GasPak system) or anaerobic chamber with N2/CO2/H2 atmosphere",
+      "explanation": "Anaerobes require environments with <1% oxygen. GasPak jars generate H2 and CO2 using chemical packets; palladium catalyst combines H2 with O2 to form water, creating anaerobic conditions. Anaerobic chambers provide direct manipulation in O2-free environment."
+    }
+  ]
+}

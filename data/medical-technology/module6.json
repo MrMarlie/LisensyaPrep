@@ -1,0 +1,356 @@
+{
+  "module": "Module 6 - Urinalysis and Body Fluids",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The normal urine specific gravity range is:",
+      "choices": ["1.000–1.005", "1.001–1.035", "1.040–1.060", "1.010 only"],
+      "answer": "1.001–1.035",
+      "explanation": "Normal urine specific gravity ranges from 1.001 (very dilute) to 1.035 (very concentrated), with random samples typically 1.015–1.025. Specific gravity measures total dissolved solutes. A fixed SG of ~1.010 (isosthenuria) suggests renal tubular damage."
+    },
+    {
+      "id": 2,
+      "question": "The first morning urine specimen is the preferred specimen for routine urinalysis because:",
+      "choices": ["It is the most dilute specimen", "It is the most concentrated, improving detection of abnormal elements (casts, formed elements)", "It is easier to collect", "It has the highest pH"],
+      "answer": "It is the most concentrated, improving detection of abnormal elements (casts, formed elements)",
+      "explanation": "First morning specimen is most concentrated (highest SG), preserving formed elements (casts, RBCs, WBCs) that may dissolve in dilute or alkaline urine. Random specimens are acceptable but may miss transient abnormalities."
+    },
+    {
+      "id": 3,
+      "question": "The reagent strip (dipstick) protein test primarily detects which protein?",
+      "choices": ["Bence Jones protein (immunoglobulin light chains)", "Albumin", "Globulins", "Fibrinogen"],
+      "answer": "Albumin",
+      "explanation": "The dipstick protein test uses the 'protein error of indicators' principle and is most sensitive to albumin. It does NOT detect Bence Jones proteins (light chains) reliably. SSA (sulfosalicylic acid) precipitates all proteins and should be used if myeloma is suspected."
+    },
+    {
+      "id": 4,
+      "question": "A urine pH of 8.5–9.0 (strongly alkaline) in a freshly voided specimen suggests:",
+      "choices": ["Diabetic ketoacidosis", "UTI with urease-producing organisms (e.g., Proteus mirabilis)", "Phenylketonuria", "Normal first morning specimen"],
+      "answer": "UTI with urease-producing organisms (e.g., Proteus mirabilis)",
+      "explanation": "Proteus, Klebsiella, and Pseudomonas produce urease, which splits urea into ammonia → raises urine pH. Strongly alkaline fresh urine suggests UTI with urease-producers. Alkaline urine also predisposes to struvite (triple phosphate) kidney stones."
+    },
+    {
+      "id": 5,
+      "question": "Hyaline casts are composed of Tamm-Horsfall protein (uromodulin). They are:",
+      "choices": ["Always pathological, indicating glomerulonephritis", "Can be normal in small numbers; increased in dehydration, strenuous exercise, or fever", "Formed from WBCs trapped in the tubule", "Found only in patients with nephrotic syndrome"],
+      "answer": "Can be normal in small numbers; increased in dehydration, strenuous exercise, or fever",
+      "explanation": "Hyaline casts are the most common cast type, formed from Tamm-Horsfall mucoprotein. Up to 2 per low-power field is normal. Increased numbers are seen in dehydration, intense exercise, fever, and after diuretic use — not necessarily pathological."
+    },
+    {
+      "id": 6,
+      "question": "RBC casts in urine are pathognomonic of:",
+      "choices": ["Urinary tract infection (UTI)", "Nephrolithiasis (kidney stones)", "Glomerulonephritis (glomerular bleeding)", "Renal tubular acidosis"],
+      "answer": "Glomerulonephritis (glomerular bleeding)",
+      "explanation": "RBC casts indicate glomerulonephritis — RBCs enter the tubule through damaged glomerular capillaries and become embedded in the Tamm-Horsfall protein matrix. They appear orange-red. Dysmorphic RBCs (acanthocytes) accompany glomerular bleeding."
+    },
+    {
+      "id": 7,
+      "question": "The reagent strip test for blood (heme) uses which principle?",
+      "choices": ["Glucose oxidase reaction", "Peroxidase-like activity of heme groups on the chromogen tetramethylbenzidine (TMB)", "Diazo reaction", "Biuret reaction"],
+      "answer": "Peroxidase-like activity of heme groups on the chromogen tetramethylbenzidine (TMB)",
+      "explanation": "The urine dipstick blood test detects hemoglobin and myoglobin via the pseudoperoxidase activity of their heme group, oxidizing TMB in the presence of a peroxide indicator. It detects intact RBCs (lysis on the pad), free Hgb, and myoglobin."
+    },
+    {
+      "id": 8,
+      "question": "Bilirubin is detected in urine (bilirubinuria) when:",
+      "choices": ["Serum unconjugated (indirect) bilirubin is elevated", "Serum conjugated (direct) bilirubin is elevated above renal threshold (~0.4 mg/dL)", "There is obstructive jaundice only", "Urobilinogen is absent"],
+      "answer": "Serum conjugated (direct) bilirubin is elevated above renal threshold (~0.4 mg/dL)",
+      "explanation": "Only water-soluble conjugated bilirubin (bilirubin diglucuronide) appears in urine. Unconjugated bilirubin is bound to albumin and cannot pass the glomerulus. Bilirubinuria indicates hepatocellular or obstructive liver disease."
+    },
+    {
+      "id": 9,
+      "question": "Urobilinogen is the product of bilirubin degradation by intestinal bacteria. A NEGATIVE urine urobilinogen (absent) in a jaundiced patient suggests:",
+      "choices": ["Hemolytic anemia (increased bilirubin production)", "Complete bile duct obstruction (no bilirubin reaching the intestine to form urobilinogen)", "Liver disease with hepatocellular damage", "Normal finding"],
+      "answer": "Complete bile duct obstruction (no bilirubin reaching the intestine to form urobilinogen)",
+      "explanation": "In complete biliary obstruction, no conjugated bilirubin reaches the intestine; therefore no urobilinogen is formed or reabsorbed. Urine urobilinogen = absent; stool = acholic (pale/clay-colored). Urine bilirubin is positive. In hemolytic anemia, urobilinogen is increased."
+    },
+    {
+      "id": 10,
+      "question": "Nitrite test on urine dipstick indicates:",
+      "choices": ["Presence of protein in urine", "Presence of bacteria that reduce urinary nitrate to nitrite (gram-negative organisms)", "Elevated urine glucose", "Presence of white blood cell casts"],
+      "answer": "Presence of bacteria that reduce urinary nitrate to nitrite (gram-negative organisms)",
+      "explanation": "Gram-negative Enterobacteriaceae (E. coli, Klebsiella) contain nitrate reductase that converts dietary nitrate to nitrite. The Griess reaction detects nitrite (turns pink/red). False negatives occur with gram-positive organisms (no nitrate reductase), low dietary nitrate, or dilute urine."
+    },
+    {
+      "id": 11,
+      "question": "Waxy casts are formed from degenerated granular casts and indicate:",
+      "choices": ["Early acute tubular necrosis", "Normal finding in concentrated urine", "Advanced renal failure with urinary stasis (tubular damage)", "Recent vigorous exercise"],
+      "answer": "Advanced renal failure with urinary stasis (tubular damage)",
+      "explanation": "Waxy casts are a sign of severe and chronic renal disease. They form from granular casts that have remained in tubules long enough to degenerate further, becoming homogeneous with a waxy appearance, sharp edges, and crack-like indentations."
+    },
+    {
+      "id": 12,
+      "question": "Glucosuria is present when blood glucose exceeds the renal threshold of approximately:",
+      "choices": ["70 mg/dL", "126 mg/dL", "180 mg/dL", "250 mg/dL"],
+      "answer": "180 mg/dL",
+      "explanation": "The renal threshold for glucose is approximately 180 mg/dL. Above this level, tubular reabsorption is saturated and glucose appears in urine (glucosuria). The dipstick glucose test uses glucose oxidase-peroxidase reaction. Ascorbic acid causes false negatives."
+    },
+    {
+      "id": 13,
+      "question": "The leukocyte esterase (LE) test on dipstick detects which urinary finding?",
+      "choices": ["Glucose in urine", "Esterase from lysed or intact neutrophils (pyuria)", "Bacteria directly", "Protein in urine"],
+      "answer": "Esterase from lysed or intact neutrophils (pyuria)",
+      "explanation": "Leukocyte esterase detects neutrophil esterase (from both intact and lysed WBCs). Positive LE indicates pyuria (≥5 WBCs/HPF), suggesting UTI or renal inflammation. Combined positive LE + nitrite has high predictive value for UTI."
+    },
+    {
+      "id": 14,
+      "question": "The Clinitest tablet (copper reduction method) detects:",
+      "choices": ["Glucose only (specific)", "All reducing substances in urine (glucose, galactose, fructose, lactose, pentoses)", "Ketones in urine", "Bilirubin in urine"],
+      "answer": "All reducing substances in urine (glucose, galactose, fructose, lactose, pentoses)",
+      "explanation": "Clinitest detects all reducing substances (copper reduction/Benedict-type reaction). Important in pediatrics for detecting inborn errors (galactosemia, fructosuria). A positive Clinitest with negative glucose dipstick suggests a non-glucose reducing substance."
+    },
+    {
+      "id": 15,
+      "question": "In normal CSF (cerebrospinal fluid), the protein concentration is:",
+      "choices": ["5–10 mg/dL", "15–45 mg/dL", "60–100 mg/dL", "100–200 mg/dL"],
+      "answer": "15–45 mg/dL",
+      "explanation": "Normal CSF protein: 15–45 mg/dL (lumbar). Elevated CSF protein occurs in bacterial meningitis, brain tumor, multiple sclerosis, and Guillain-Barré syndrome. Very high protein (>500 mg/dL) with clotting suggests spinal block (Froin's syndrome)."
+    },
+    {
+      "id": 16,
+      "question": "In bacterial meningitis, CSF findings typically include:",
+      "choices": ["High glucose, low protein, lymphocytic pleocytosis", "Low glucose (<40 mg/dL or CSF:serum ratio <0.4), high protein (>100 mg/dL), neutrophilic pleocytosis", "Normal glucose, normal protein, no cells", "Normal glucose, elevated protein, eosinophilic pleocytosis"],
+      "answer": "Low glucose (<40 mg/dL or CSF:serum ratio <0.4), high protein (>100 mg/dL), neutrophilic pleocytosis",
+      "explanation": "Bacterial meningitis CSF: cloudy, elevated pressure, many neutrophils (>1000/μL), high protein, LOW glucose (bacteria consume glucose). Viral meningitis: clear CSF, lymphocytic pleocytosis, normal glucose, mildly elevated protein."
+    },
+    {
+      "id": 17,
+      "question": "The normal CSF glucose is approximately what fraction of simultaneous serum glucose?",
+      "choices": ["20–30% of serum glucose", "60–70% of serum glucose", "100% (equal to serum glucose)", "Less than 50% always"],
+      "answer": "60–70% of serum glucose",
+      "explanation": "Normal CSF glucose is 60–70% of blood glucose (normal CSF glucose: 45–75 mg/dL). A CSF:serum glucose ratio <0.4 indicates decreased CSF glucose (hypoglycorrhachia), suggesting bacterial, fungal, or tuberculous meningitis."
+    },
+    {
+      "id": 18,
+      "question": "The test for amniotic fluid fetal lung maturity based on the lecithin-to-sphingomyelin (L/S) ratio indicates fetal lung maturity at L/S ≥:",
+      "choices": ["1.0", "2.0", "3.5", "0.5"],
+      "answer": "2.0",
+      "explanation": "L/S ratio ≥2.0 indicates fetal lung maturity — sufficient surfactant to prevent neonatal respiratory distress syndrome (NRDS/hyaline membrane disease). Lecithin (phosphatidylcholine) increases sharply after 35 weeks gestation; sphingomyelin remains constant."
+    },
+    {
+      "id": 19,
+      "question": "The normal WBC count in CSF is:",
+      "choices": ["0–5 cells/μL (lymphocytes predominant)", "0–50 cells/μL", "100–200 cells/μL", "No white cells are normal"],
+      "answer": "0–5 cells/μL (lymphocytes predominant)",
+      "explanation": "Normal CSF has 0–5 WBCs/μL, predominantly lymphocytes and monocytes. Neonates may have up to 30 cells/μL normally. Any neutrophils in CSF are abnormal after the neonatal period and suggest bacterial meningitis until proven otherwise."
+    },
+    {
+      "id": 20,
+      "question": "Synovial fluid from a joint with gout contains which characteristic crystals that are negatively birefringent under polarized light?",
+      "choices": ["Calcium pyrophosphate dihydrate (CPPD) crystals (rhomboid, positively birefringent)", "Monosodium urate (MSU) crystals (needle-shaped, negatively birefringent)", "Cholesterol crystals", "Calcium oxalate crystals"],
+      "answer": "Monosodium urate (MSU) crystals (needle-shaped, negatively birefringent)",
+      "explanation": "Gout: monosodium urate (MSU) crystals are needle-shaped and show strong negative birefringence (yellow when parallel to slow axis under compensated polarized light). CPPD (pseudogout) crystals are rhomboid-shaped with weak positive birefringence (blue when parallel to slow axis)."
+    },
+    {
+      "id": 21,
+      "question": "Microscopic examination of urine sediment is performed at which objective power to identify casts?",
+      "choices": ["High power (HPF, 40×) for all elements", "Low power (LPF, 10×) for casts; high power (HPF) for cells and organisms", "Oil immersion (100×) for all elements", "Scanning power (4×) only"],
+      "answer": "Low power (LPF, 10×) for casts; high power (HPF) for cells and organisms",
+      "explanation": "Standard urinalysis microscopy: low power (10×/LPF) to scan for casts (reported per LPF) and estimate cellularity; high power (40×/HPF) to identify cells (RBCs, WBCs, epithelial cells), bacteria, and crystals (reported per HPF)."
+    },
+    {
+      "id": 22,
+      "question": "Squamous epithelial cells in a urine specimen indicate:",
+      "choices": ["Renal tubular damage", "Glomerulonephritis", "Vaginal contamination (female) or foreskin contamination (male)", "Bladder transitional cell carcinoma"],
+      "answer": "Vaginal contamination (female) or foreskin contamination (male)",
+      "explanation": "Squamous epithelial cells originate from the urethra/vagina and indicate specimen contamination. Their presence suggests a midstream clean-catch technique was not properly followed. Transitional epithelial cells indicate bladder/renal pelvis origin."
+    },
+    {
+      "id": 23,
+      "question": "Which urine finding is associated with multiple myeloma and causes renal damage ('myeloma kidney')?",
+      "choices": ["Hematuria with RBC casts", "Bence Jones proteinuria (immunoglobulin light chains)", "Heavy bilirubinuria", "Glucosuria without hyperglycemia"],
+      "answer": "Bence Jones proteinuria (immunoglobulin light chains)",
+      "explanation": "In multiple myeloma, excess light chains (kappa or lambda) are filtered and appear in urine as Bence Jones proteins. They form tubular casts ('myeloma kidney'), causing renal tubular obstruction. Detected by heat (precipitates at 40–60°C, dissolves at 100°C) or immunofixation."
+    },
+    {
+      "id": 24,
+      "question": "The Rivalta test differentiates pleural/ascites exudates from transudates based on:",
+      "choices": ["Specific gravity only", "Acetic acid precipitation of high-protein exudate fluid", "Glucose content", "Cell count only"],
+      "answer": "Acetic acid precipitation of high-protein exudate fluid",
+      "explanation": "The Rivalta test: add a drop of body fluid to dilute acetic acid. Exudates (high protein/fibrinogen) form a white cloud or precipitate at the point of entry (positive). Transudates (low protein) do not precipitate (negative). Replaced by Light's criteria in modern practice."
+    },
+    {
+      "id": 25,
+      "question": "Light's criteria distinguish pleural exudates from transudates. An exudate is present if ANY ONE of the following criteria is met:",
+      "choices": ["Pleural protein/serum protein <0.5, or pleural LDH/serum LDH <0.6, or pleural LDH <2/3 UNL", "Pleural protein/serum protein >0.5, OR pleural LDH/serum LDH >0.6, OR pleural LDH >2/3 UNL", "Only total protein >3 g/dL", "Only specific gravity >1.015"],
+      "answer": "Pleural protein/serum protein >0.5, OR pleural LDH/serum LDH >0.6, OR pleural LDH >2/3 UNL",
+      "explanation": "Light's criteria (any one = exudate): (1) Pleural protein/serum protein >0.5; (2) Pleural LDH/serum LDH >0.6; (3) Pleural LDH >2/3 upper reference limit of serum LDH. High sensitivity (~98%) for exudates. Causes: infection, malignancy, PE, collagen vascular diseases."
+    },
+    {
+      "id": 26,
+      "question": "The color 'xanthochromia' (yellow-orange tinge) in CSF is caused by:",
+      "choices": ["Bacterial infection releasing yellow pigment", "Oxyhemoglobin and bilirubin from RBC breakdown after subarachnoid hemorrhage", "High CSF protein content only", "Jaundice-related bilirubin elevation in serum"],
+      "answer": "Oxyhemoglobin and bilirubin from RBC breakdown after subarachnoid hemorrhage",
+      "explanation": "Xanthochromia (yellow CSF) is the key finding distinguishing true subarachnoid hemorrhage (SAH) from a traumatic tap. After SAH, RBCs lyse within hours, releasing oxyhemoglobin (pink-orange), then bilirubin (yellow). Persists for 2–4 weeks. Absent in traumatic tap."
+    },
+    {
+      "id": 27,
+      "question": "Oval fat bodies in urine microscopy are renal tubular cells or macrophages loaded with lipid droplets, identified by:",
+      "choices": ["India ink stain", "Sudan III or Oil Red O stain, and Maltese-cross birefringence under polarized light", "PAS stain", "Prussian blue stain"],
+      "answer": "Sudan III or Oil Red O stain, and Maltese-cross birefringence under polarized light",
+      "explanation": "Oval fat bodies (OFBs) are renal tubular cells or macrophages with engulfed lipid droplets, appearing as Maltese crosses under polarized light (anisotropic cholesterol esters). Found in nephrotic syndrome. Confirmed by fat stains (Sudan III, Oil Red O)."
+    },
+    {
+      "id": 28,
+      "question": "The semen analysis parameter 'sperm motility' is graded. For fertility, WHO 2010 criteria require at least what percentage of progressively motile sperm?",
+      "choices": ["10% progressive motility", "32% progressive motility (WHO 5th edition reference limit)", "60% total motility", "75% progressive motility"],
+      "answer": "32% progressive motility (WHO 5th edition reference limit)",
+      "explanation": "WHO 2010 (5th edition) lower reference limits for semen analysis: volume ≥1.5 mL, total sperm number ≥39 million, sperm concentration ≥15 million/mL, total motility ≥40%, progressive motility ≥32%, morphology (Kruger strict) ≥4% normal forms."
+    },
+    {
+      "id": 29,
+      "question": "The diaper test for detection of phenylketonuria uses FeCl3 (ferric chloride). Phenylpyruvate in urine reacts to produce:",
+      "choices": ["Orange-red color", "Blue-green color", "Purple color", "No color change"],
+      "answer": "Blue-green color",
+      "explanation": "Ferric chloride reacts with phenylpyruvate (ketone metabolite of phenylalanine in PKU) to produce a blue-green (olive-green) color. Other amino acidopathies also give colors: AKU (alkaptonuria) gives dark brown/black; maple syrup urine disease gives gray-green."
+    },
+    {
+      "id": 30,
+      "question": "In normal semen, sperm morphology by Kruger (strict) criteria should have at least:",
+      "choices": [">30% normal forms", ">14% normal forms", ">4% normal forms (WHO 2010 reference limit)", ">50% normal forms"],
+      "answer": ">4% normal forms (WHO 2010 reference limit)",
+      "explanation": "WHO 2010 strict (Kruger) criteria: ≥4% normal morphology is the lower reference limit. The head, midpiece, and tail must all be normal. Values <4% indicate teratozoospermia. Kruger criteria are stricter than older WHO criteria (>30%, then >15%)."
+    },
+    {
+      "id": 31,
+      "question": "Triple phosphate (struvite) crystals in urine are associated with:",
+      "choices": ["Uric acid accumulation and acidic urine", "Alkaline urine and UTI with urease-producing organisms", "Cystinuria", "Oxalate accumulation"],
+      "answer": "Alkaline urine and UTI with urease-producing organisms",
+      "explanation": "Struvite (magnesium ammonium phosphate) crystals appear as 'coffin-lid' shaped crystals in alkaline pH urine. They form when urease-producing bacteria (Proteus, Klebsiella, Pseudomonas) split urea → ammonia → alkaline urine. Associated with staghorn calculi."
+    },
+    {
+      "id": 32,
+      "question": "Cystine crystals in urine appear as colorless hexagonal plates and indicate:",
+      "choices": ["Normal finding in all urine specimens", "Cystinuria (autosomal recessive defect in cystine/dibasic amino acid renal transport)", "Urinary tract infection", "Diabetes mellitus"],
+      "answer": "Cystinuria (autosomal recessive defect in cystine/dibasic amino acid renal transport)",
+      "explanation": "Cystine crystals (colorless, flat hexagonal plates) are always pathological, indicating cystinuria — an autosomal recessive disorder of renal tubular and intestinal transport of cystine and other dibasic amino acids. Leads to cystine kidney stones."
+    },
+    {
+      "id": 33,
+      "question": "The normal volume of CSF in an adult is:",
+      "choices": ["50–75 mL", "90–150 mL", "200–400 mL", "500 mL"],
+      "answer": "90–150 mL",
+      "explanation": "Total CSF volume in adults is 90–150 mL. CSF is produced by choroid plexus at ~500 mL/day (reabsorbed by arachnoid villi). Normal opening pressure (lumbar puncture): 70–200 mmH2O. Elevated pressure suggests meningitis, hydrocephalus, or pseudotumor cerebri."
+    },
+    {
+      "id": 34,
+      "question": "Acid phosphatase activity in body fluid (vaginal swab or other specimens) is used forensically to detect:",
+      "choices": ["Presence of amylase (saliva)", "Seminal fluid (elevated in semen from the prostate)", "Blood (hemoglobin)", "Urine contamination"],
+      "answer": "Seminal fluid (elevated in semen from the prostate)",
+      "explanation": "Prostatic acid phosphatase (PAP) is present at high levels in seminal fluid (100× higher than serum). Used in forensic science to detect seminal fluid in sexual assault cases. PSA (p30 protein) is now the preferred forensic marker for seminal fluid."
+    },
+    {
+      "id": 35,
+      "question": "The ascitic fluid albumin gradient (SAAG) is used to determine if ascites is portal hypertension-related. A SAAG ≥1.1 g/dL indicates:",
+      "choices": ["Malignant ascites", "Tuberculosis peritonitis", "Portal hypertension (cirrhosis, CHF, Budd-Chiari)", "Nephrotic syndrome"],
+      "answer": "Portal hypertension (cirrhosis, CHF, Budd-Chiari)",
+      "explanation": "SAAG = serum albumin − ascites albumin. SAAG ≥1.1 g/dL indicates portal hypertension (cirrhosis, CHF, portal vein thrombosis); responds to diuretics. SAAG <1.1 g/dL suggests non-portal hypertension causes (malignancy, TB, pancreatic ascites, nephrotic syndrome)."
+    },
+    {
+      "id": 36,
+      "question": "Peritoneal lavage or ascitic fluid with WBC >250 polymorphonuclear cells/μL is diagnostic of:",
+      "choices": ["Malignant ascites", "Spontaneous bacterial peritonitis (SBP)", "Hepatic hydrothorax", "Chylous ascites"],
+      "answer": "Spontaneous bacterial peritonitis (SBP)",
+      "explanation": "SBP diagnosis: ascitic fluid PMN count ≥250 cells/μL. The causative organisms are usually gram-negative enterics (E. coli, Klebsiella). Culture may be negative despite PMN count ≥250/μL (culture-negative SBP). Empiric antibiotics are started based on PMN count alone."
+    },
+    {
+      "id": 37,
+      "question": "Hemosiderin-laden macrophages ('siderophages') in bronchoalveolar lavage fluid are indicative of:",
+      "choices": ["Acute pulmonary infection", "Pulmonary hemorrhage (diffuse alveolar hemorrhage)", "Normal alveolar macrophage function", "Aspiration pneumonia"],
+      "answer": "Pulmonary hemorrhage (diffuse alveolar hemorrhage)",
+      "explanation": "Siderophages (hemosiderin-laden macrophages) appear in BAL fluid when alveolar hemorrhage has occurred. Confirmed by Prussian blue stain. The presence of ≥20% siderophages is the threshold for diffuse alveolar hemorrhage. Causes: vasculitis, Goodpasture syndrome, SLE, anti-GBM disease."
+    },
+    {
+      "id": 38,
+      "question": "The normal pericardial fluid volume is:",
+      "choices": ["50–100 mL", "15–50 mL", "100–200 mL", "5–10 mL"],
+      "answer": "15–50 mL",
+      "explanation": "The pericardial sac normally contains 15–50 mL of fluid acting as a lubricant. Pericardial effusion >250 mL can cause cardiac tamponade. Exudates suggest infection, malignancy, or inflammatory conditions; transudates suggest heart failure or hypoalbuminemia."
+    },
+    {
+      "id": 39,
+      "question": "Renal tubular epithelial (RTE) cell casts are most associated with:",
+      "choices": ["Normal finding", "Glomerulonephritis", "Acute tubular necrosis (ATN)", "UTI"],
+      "answer": "Acute tubular necrosis (ATN)",
+      "explanation": "Renal tubular cell casts form when sloughed RTE cells (from ischemic or nephrotoxic injury) are trapped in cast matrix. They are highly specific for ATN, the most common cause of acute intrinsic renal failure. Granular (muddy brown) casts also occur in ATN."
+    },
+    {
+      "id": 40,
+      "question": "Chylothorax is confirmed when pleural fluid analysis shows:",
+      "choices": ["Elevated protein and LDH (exudate pattern)", "Milky appearance with elevated triglycerides >110 mg/dL and chylomicrons on lipoprotein analysis", "Bloody appearance with elevated RBCs", "Elevated glucose and low protein"],
+      "answer": "Milky appearance with elevated triglycerides >110 mg/dL and chylomicrons on lipoprotein analysis",
+      "explanation": "Chylothorax (lymph leak from thoracic duct injury) produces milky pleural fluid. Triglycerides >110 mg/dL strongly suggest chylothorax; confirmed by presence of chylomicrons on lipoprotein electrophoresis. Causes: trauma, malignancy (lymphoma), thoracic surgery."
+    },
+    {
+      "id": 41,
+      "question": "The urine ketone dipstick test primarily detects which ketone body?",
+      "choices": ["Beta-hydroxybutyrate (the most abundant ketone in DKA)", "Acetoacetate and acetone", "All three ketone bodies equally", "Acetone only"],
+      "answer": "Acetoacetate and acetone",
+      "explanation": "The Rothera reaction (nitroprusside reaction) on the dipstick reacts with acetoacetate and acetone, NOT beta-hydroxybutyrate. In early DKA, beta-hydroxybutyrate predominates, which may cause a falsely low dipstick reading. Specific beta-hydroxybutyrate assays are more accurate."
+    },
+    {
+      "id": 42,
+      "question": "In pediatric urinalysis, the fern test (palm leaf pattern on dried amniotic fluid) is used to:",
+      "choices": ["Detect glucose in neonatal urine", "Confirm rupture of membranes by demonstrating amniotic fluid on vaginal swab", "Identify crystals in urine", "Test for protein in CSF"],
+      "answer": "Confirm rupture of membranes by demonstrating amniotic fluid on vaginal swab",
+      "explanation": "The fern (arborization) test: amniotic fluid on a slide, allowed to dry, shows a ferning pattern due to sodium chloride crystallization in the protein matrix. A positive fern test confirms premature rupture of membranes (PROM) when spread on a slide and air dried."
+    },
+    {
+      "id": 43,
+      "question": "Prostate-specific antigen (PSA) in seminal fluid and serum is produced by prostatic epithelial cells. Elevated serum PSA (>4 ng/mL) is associated with:",
+      "choices": ["Normal physiological finding", "Prostate cancer, benign prostatic hyperplasia (BPH), and prostatitis", "Bladder cancer specifically", "Testicular cancer only"],
+      "answer": "Prostate cancer, benign prostatic hyperplasia (BPH), and prostatitis",
+      "explanation": "PSA >4 ng/mL is elevated in prostate cancer, BPH, prostatitis, post-prostate manipulation, and ejaculation. PSA is not prostate cancer-specific. The free-to-total PSA ratio helps: low free PSA (<25%) is more associated with prostate cancer; high free PSA with BPH."
+    },
+    {
+      "id": 44,
+      "question": "The urine specimen for culture (urine C&S) should be processed within how long of collection to prevent bacterial overgrowth?",
+      "choices": ["Within 30 minutes", "Within 2 hours of collection (or refrigerate at 4°C for up to 24 hours)", "Within 24 hours at room temperature", "Within 72 hours"],
+      "answer": "Within 2 hours of collection (or refrigerate at 4°C for up to 24 hours)",
+      "explanation": "Urine for culture must be processed within 2 hours of collection at room temperature. If delayed, refrigerate at 4°C (up to 24 hours) or use boric acid preservative transport tube. Delay at room temperature allows bacterial growth, leading to false-positive cultures."
+    },
+    {
+      "id": 45,
+      "question": "Normal semen volume according to WHO 2010 criteria is:",
+      "choices": ["0.5–1.0 mL", "≥1.5 mL", "3.0–5.0 mL", "More than 7 mL"],
+      "answer": "≥1.5 mL",
+      "explanation": "WHO 2010 (5th edition) lower reference limit for semen volume is ≥1.5 mL. Hypospermia (<1.5 mL) may indicate retrograde ejaculation, ejaculatory duct obstruction, or incomplete collection. Hyperspermia (>6 mL) may dilute sperm."
+    },
+    {
+      "id": 46,
+      "question": "Fat embolism can be detected in BAL (bronchoalveolar lavage) using:",
+      "choices": ["Gram stain", "Oil Red O or Sudan IV stain for fat droplets in alveolar macrophages", "PAS stain", "Methylene blue"],
+      "answer": "Oil Red O or Sudan IV stain for fat droplets in alveolar macrophages",
+      "explanation": "Fat embolism syndrome after long bone fractures or liposuction can be diagnosed by BAL: Oil Red O or Sudan IV stains detect lipid-laden alveolar macrophages (>5% macrophages containing fat droplets). Frozen sections required (fat dissolves in alcohol processing)."
+    },
+    {
+      "id": 47,
+      "question": "Tyrosine crystals in urine (fine needles in sheaves/rosettes) are associated with:",
+      "choices": ["Gout", "Severe liver disease, tyrosinemia, or maple syrup urine disease", "Urinary tract infection", "Normal alkaline urine"],
+      "answer": "Severe liver disease, tyrosinemia, or maple syrup urine disease",
+      "explanation": "Tyrosine crystals (fine colorless-to-yellow needles in sheaves or rosettes) appear in severe hepatic disease (hepatic necrosis), tyrosinemia (metabolic error), and MSUD. Often accompanied by leucine crystals (yellow oily spheroids)."
+    },
+    {
+      "id": 48,
+      "question": "Broad casts (renal failure casts) are formed in:",
+      "choices": ["Narrow tubules of the loop of Henle", "Dilated tubules or collecting ducts in end-stage renal disease", "Glomeruli directly", "Proximal convoluted tubule only"],
+      "answer": "Dilated tubules or collecting ducts in end-stage renal disease",
+      "explanation": "Broad casts (width ≥3× normal casts) form in dilated, stagnant tubules of kidneys with severely reduced nephron mass. They indicate end-stage renal disease and are sometimes called 'renal failure casts.' Their presence is an ominous prognostic sign."
+    },
+    {
+      "id": 49,
+      "question": "A positive 'creatinine ratio' confirms that a body fluid is urine (rather than serum or other fluid). Urine creatinine is typically:",
+      "choices": ["Same as serum creatinine", "10–100× higher than serum creatinine (high urinary creatinine concentration)", "Lower than serum creatinine", "Equal to CSF creatinine"],
+      "answer": "10–100× higher than serum creatinine (high urinary creatinine concentration)",
+      "explanation": "Because creatinine is concentrated in urine (tubules reabsorb water, concentrating creatinine), urine creatinine is typically 50–100× serum creatinine. This creatinine ratio test is used in forensic and clinical settings to confirm a specimen is urine, not diluted with water."
+    },
+    {
+      "id": 50,
+      "question": "The normal seminal fluid pH is:",
+      "choices": ["6.0–6.5 (acidic)", "7.2–8.0 (slightly alkaline)", "8.5–9.5 (strongly alkaline)", "5.0–5.5 (strongly acidic)"],
+      "answer": "7.2–8.0 (slightly alkaline)",
+      "explanation": "Normal semen pH is 7.2–8.0 (WHO 2010 reference: ≥7.2). Acidic semen (pH <7.0) with low volume and absent fructose suggests ejaculatory duct obstruction or congenital bilateral absence of vas deferens (seminal vesicle contributions are absent). Fructose is produced by the seminal vesicles."
+    }
+  ]
+}

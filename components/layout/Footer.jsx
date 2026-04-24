@@ -31,7 +31,7 @@ export default function Footer() {
               <li><Link href="/education" className="hover:text-yellow-400 transition-colors">Education (LET)</Link></li>
               <li><span className="text-gray-600 cursor-not-allowed">Nursing (Soon)</span></li>
               <li><Link href="/criminology" className="hover:text-yellow-400 transition-colors">Criminology</Link></li>
-              <li><span className="text-gray-600 cursor-not-allowed">Medical Technology (Soon)</span></li>
+              <li><Link href="/medical-technology" className="hover:text-yellow-400 transition-colors">Medical Technology</Link></li>
               <li><span className="text-gray-600 cursor-not-allowed">Pharmacy (Soon)</span></li>
             </ul>
           </div>

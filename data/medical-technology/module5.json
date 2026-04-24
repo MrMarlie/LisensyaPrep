@@ -1,0 +1,356 @@
+{
+  "module": "Module 5 - Blood Banking and Transfusion Medicine",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "An individual with blood type O has which antigens on their red blood cells?",
+      "choices": ["A and B antigens", "A antigen only", "B antigen only", "Neither A nor B antigens (H antigen only)"],
+      "answer": "Neither A nor B antigens (H antigen only)",
+      "explanation": "Blood type O individuals lack A and B antigens on their RBCs (only H antigen is present). They have both anti-A and anti-B antibodies in their serum. Type O is the universal RBC donor because of the absence of A and B antigens."
+    },
+    {
+      "id": 2,
+      "question": "The universal plasma donor blood type is:",
+      "choices": ["O negative", "O positive", "AB positive", "AB negative"],
+      "answer": "AB positive",
+      "explanation": "AB individuals have no ABO antibodies in their plasma (neither anti-A nor anti-B), making AB plasma the universal donor plasma. O negative is the universal RBC donor."
+    },
+    {
+      "id": 3,
+      "question": "The Rh system's most clinically significant antigen (D antigen) is important because Rh-negative individuals who receive Rh-positive blood:",
+      "choices": ["Will immediately hemolyze the Rh-positive blood via naturally occurring antibodies", "Can develop anti-D (immune) antibodies with subsequent exposure causing hemolytic reaction", "Will have no clinical consequence", "Will develop ABO incompatibility"],
+      "answer": "Can develop anti-D (immune) antibodies with subsequent exposure causing hemolytic reaction",
+      "explanation": "Anti-D is an immune antibody (IgG) — formed only after exposure to D antigen via transfusion or pregnancy. First exposure causes sensitization; subsequent exposure with Rh+ blood causes hemolytic transfusion reaction. First exposure itself is usually uneventful."
+    },
+    {
+      "id": 4,
+      "question": "Hemolytic disease of the newborn (HDN) due to Rh incompatibility is prevented by administering:",
+      "choices": ["Anti-A and anti-B immunoglobulin", "Rh immune globulin (RhIG/RhoGAM) to Rh-negative mothers", "Platelet concentrate to the mother", "Intravenous immunoglobulin (IVIG) to the fetus"],
+      "answer": "Rh immune globulin (RhIG/RhoGAM) to Rh-negative mothers",
+      "explanation": "RhIG (anti-D) is given to Rh-negative women at 28 weeks gestation and within 72 hours postpartum if the baby is Rh-positive. It prevents sensitization by destroying fetal D-positive cells before the mother's immune system can form anti-D antibodies."
+    },
+    {
+      "id": 5,
+      "question": "The ABO antibodies (anti-A and anti-B) are primarily of which immunoglobulin class and how are they acquired?",
+      "choices": ["IgG; acquired through placental transfer", "IgM; naturally occurring, produced without prior RBC exposure (from environmental antigens)", "IgA; formed through mucosal exposure", "IgE; formed during allergic sensitization"],
+      "answer": "IgM; naturally occurring, produced without prior RBC exposure (from environmental antigens)",
+      "explanation": "ABO antibodies are 'naturally occurring' IgM antibodies formed by 3–6 months of age, stimulated by exposure to A and B-like antigens on environmental bacteria/food. They are cold-reactive and potent complement activators causing acute hemolysis."
+    },
+    {
+      "id": 6,
+      "question": "In forward (cell) grouping, patient RBCs are tested against commercial anti-A and anti-B antisera. In reverse (serum) grouping, patient serum is tested against known A1 and B cells. Discrepancy occurs when:",
+      "choices": ["Results agree completely", "The forward and reverse typing results are inconsistent with each other", "Only the forward typing is performed", "The patient is blood type AB"],
+      "answer": "The forward and reverse typing results are inconsistent with each other",
+      "explanation": "An ABO discrepancy means forward and reverse typing disagree. Causes include: patient age (<4 months or elderly), subgroups of A or B, disease (leukemia, hypogammaglobulinemia), polyagglutination, or technical errors. Must be resolved before transfusion."
+    },
+    {
+      "id": 7,
+      "question": "Which blood component is stored at 1–6°C for up to 35–42 days?",
+      "choices": ["Fresh frozen plasma (FFP)", "Platelet concentrate", "Packed red blood cells (pRBC)", "Cryoprecipitate"],
+      "answer": "Packed red blood cells (pRBC)",
+      "explanation": "pRBCs are stored at 1–6°C in AS-1 or CPDA-1 additive solution for 35–42 days. FFP is stored at ≤-18°C for 1 year. Platelets are stored at 20–24°C with continuous agitation for 5 days. Cryoprecipitate is stored at ≤-18°C for 1 year."
+    },
+    {
+      "id": 8,
+      "question": "Fresh frozen plasma (FFP) is indicated for:",
+      "choices": ["Iron deficiency anemia", "Thrombocytopenia", "Replacement of multiple coagulation factor deficiencies or reversal of warfarin", "Neonatal jaundice"],
+      "answer": "Replacement of multiple coagulation factor deficiencies or reversal of warfarin",
+      "explanation": "FFP contains all coagulation factors, fibrinogen, and plasma proteins. Indicated for: coagulopathy with active bleeding (liver disease, DIC), warfarin reversal when Vitamin K is too slow, TTP (as replacement in plasmapheresis)."
+    },
+    {
+      "id": 9,
+      "question": "Cryoprecipitate is the cold-precipitable fraction of FFP. It is rich in which coagulation factors?",
+      "choices": ["Factors II, VII, IX, X (vitamin K-dependent factors)", "Fibrinogen, Factor VIII, von Willebrand factor (vWF), Factor XIII, and fibronectin", "All plasma proteins in concentrated form", "Factor XI and Factor V"],
+      "answer": "Fibrinogen, Factor VIII, von Willebrand factor (vWF), Factor XIII, and fibronectin",
+      "explanation": "Cryoprecipitate is prepared by thawing FFP at 1–6°C and collecting the precipitate. It contains: Fibrinogen (~250 mg), Factor VIII (~80 IU), vWF, Factor XIII, fibronectin. Used for hypofibrinogenemia, DIC, hemophilia A (when concentrates unavailable)."
+    },
+    {
+      "id": 10,
+      "question": "The major crossmatch tests patient's SERUM against donor's CELLS. The minor crossmatch tests:",
+      "choices": ["Patient's cells against donor's serum", "Donor's cells against a third-party serum", "Patient's serum against patient's own cells (autologous control)", "Donor serum against donor cells"],
+      "answer": "Patient's cells against donor's serum",
+      "explanation": "Major crossmatch (most important): patient serum × donor RBCs — detects patient antibodies against donor antigens. Minor crossmatch: donor serum × patient RBCs — detects donor antibodies against patient antigens (less critical since donor plasma is diluted)."
+    },
+    {
+      "id": 11,
+      "question": "An acute hemolytic transfusion reaction (AHTR) is most commonly caused by:",
+      "choices": ["ABO incompatibility due to clerical/identification errors", "Bacterial contamination of the blood unit", "Febrile non-hemolytic transfusion reaction (FNHTR)", "Allergic reaction to plasma proteins"],
+      "answer": "ABO incompatibility due to clerical/identification errors",
+      "explanation": "AHTR is most commonly caused by ABO incompatibility from clerical errors (wrong patient labeled, wrong unit given). Anti-A or anti-B (IgM) activates complement → intravascular hemolysis → fever, chills, back/flank pain, hemoglobinuria, DIC. Fatal if uncorrected."
+    },
+    {
+      "id": 12,
+      "question": "The type and screen procedure:",
+      "choices": ["Performs a complete crossmatch for every unit of blood", "Determines ABO/Rh type and screens for unexpected antibodies; crossmatch is done only if transfusion is needed", "Tests for all possible alloantibodies by extended antigen typing", "Is equivalent to a type and crossmatch"],
+      "answer": "Determines ABO/Rh type and screens for unexpected antibodies; crossmatch is done only if transfusion is needed",
+      "explanation": "Type and screen: ABO/Rh typing + antibody screen using panel cells. If screen is negative, an electronic (computer) crossmatch or immediate spin crossmatch suffices when transfusion is ordered. Reduces time and cost compared to full crossmatch for every patient."
+    },
+    {
+      "id": 13,
+      "question": "The Bombay phenotype (Oh) is characterized by:",
+      "choices": ["Absence of H antigen and presence of anti-H, anti-A, anti-B in serum", "Presence of extra H antigen", "Absence of A antigen only", "Presence of weak D antigen"],
+      "answer": "Absence of H antigen and presence of anti-H, anti-A, anti-B in serum",
+      "explanation": "Bombay phenotype (hh): mutation in FUT1 gene → no H antigen synthesized → no A or B antigens (H is the precursor). Serum contains potent anti-H, anti-A, anti-B. Can only receive blood from other Bombay donors. Occurs in ~1:10,000 in India."
+    },
+    {
+      "id": 14,
+      "question": "Platelet concentrates are stored at 20–24°C with continuous gentle agitation. The risk of this storage condition compared to refrigeration is:",
+      "choices": ["Increased platelet aggregation", "Higher risk of bacterial contamination and growth (especially gram-positive organisms)", "Increased hemolysis", "Shortened shelf life to 1 day"],
+      "answer": "Higher risk of bacterial contamination and growth (especially gram-positive organisms)",
+      "explanation": "Room temperature storage optimizes platelet viability but allows bacterial proliferation. Staphylococcus epidermidis and other gram-positive organisms are most common. Bacterial sepsis is the most common transfusion-related infectious fatality. Bacterial testing by culture is mandatory for platelets."
+    },
+    {
+      "id": 15,
+      "question": "Febrile non-hemolytic transfusion reaction (FNHTR) is caused by:",
+      "choices": ["ABO incompatibility", "Cytokines accumulated during storage and recipient antibodies against donor leukocytes", "IgE-mediated allergy", "Bacterial contamination"],
+      "answer": "Cytokines accumulated during storage and recipient antibodies against donor leukocytes",
+      "explanation": "FNHTR: temperature rise ≥1°C during transfusion. Caused by recipient HLA or granulocyte-specific antibodies reacting with donor WBCs, or cytokines (IL-1, IL-6, TNF) released from WBCs during storage. Prevented by leukoreduction."
+    },
+    {
+      "id": 16,
+      "question": "Which test detects weak D (Du) antigen in individuals who test negative by routine D typing?",
+      "choices": ["Direct antiglobulin test (DAT)", "Indirect antiglobulin test with incubation at 37°C", "Complement fixation test", "Saline tube test at room temperature"],
+      "answer": "Indirect antiglobulin test with incubation at 37°C",
+      "explanation": "Weak D (formerly Du) antigen has fewer D antigen sites. Routine serological D typing may be negative. Weak D is detected by IAT (incubation with anti-D at 37°C + AHG). Weak D individuals are usually treated as Rh-positive donors and Rh-negative recipients."
+    },
+    {
+      "id": 17,
+      "question": "The Kidd blood group system is clinically important because Kidd antibodies (anti-Jka, anti-Jkb) are notorious for:",
+      "choices": ["Causing ABO incompatibility", "Being evanescent (dropping below detectable levels) and causing delayed hemolytic transfusion reactions", "Forming cold agglutinins", "Crossing the placenta causing HDN only"],
+      "answer": "Being evanescent (dropping below detectable levels) and causing delayed hemolytic transfusion reactions",
+      "explanation": "Kidd antibodies are notorious for being evanescent — they can drop below detectable levels between transfusions, causing a false-negative antibody screen. Upon re-exposure (anamnestic response), they rapidly rise and cause delayed hemolytic transfusion reactions (DHTR) 3–14 days post-transfusion."
+    },
+    {
+      "id": 18,
+      "question": "Transfusion-related acute lung injury (TRALI) is characterized by:",
+      "choices": ["Hemolysis and hemoglobinuria", "Fever, hypotension, and non-cardiogenic pulmonary edema within 6 hours of transfusion", "Urticaria only", "DIC and bleeding"],
+      "answer": "Fever, hypotension, and non-cardiogenic pulmonary edema within 6 hours of transfusion",
+      "explanation": "TRALI is a life-threatening complication presenting with acute respiratory distress, hypoxia (PaO2/FiO2 <300), and bilateral pulmonary infiltrates within 6 hours of transfusion. It is the leading cause of transfusion-related mortality. Caused by donor anti-HLA or anti-neutrophil antibodies."
+    },
+    {
+      "id": 19,
+      "question": "Which ABO blood type is the universal recipient for red blood cells?",
+      "choices": ["O negative", "A positive", "B positive", "AB positive"],
+      "answer": "AB positive",
+      "explanation": "AB positive individuals have both A and B antigens on their RBCs and are Rh-positive. They have no ABO antibodies (cannot reject A, B, or O blood) and have no anti-D (accept Rh+ blood). AB+ is the universal RBC recipient."
+    },
+    {
+      "id": 20,
+      "question": "Leukoreduction (leukocyte depletion) of blood components is performed to prevent all of the following EXCEPT:",
+      "choices": ["Febrile non-hemolytic transfusion reactions", "CMV transmission", "HLA alloimmunization", "Bacterial sepsis from platelet transfusion"],
+      "answer": "Bacterial sepsis from platelet transfusion",
+      "explanation": "Leukoreduction reduces FNHTR, CMV transmission (virus hides in WBCs), and HLA alloimmunization. It does NOT prevent bacterial sepsis from platelets (bacteria are not in WBCs). Bacterial sepsis prevention requires bacterial testing of platelets."
+    },
+    {
+      "id": 21,
+      "question": "The antibody screen (indirect antiglobulin test) uses 2–3 reagent red cells selected to express which antigens?",
+      "choices": ["All common clinically significant antigens (D, C, c, E, e, K, Jka, Jkb, Fya, Fyb, S, s)", "ABO antigens only", "HLA antigens", "Platelet antigens"],
+      "answer": "All common clinically significant antigens (D, C, c, E, e, K, Jka, Jkb, Fya, Fyb, S, s)",
+      "explanation": "Screening cells express clinically significant antigens (Rh, Kell, Duffy, Kidd, MNS, Lewis, P systems) in a homozygous or heterozygous pattern. A positive screen indicates an unexpected alloantibody that must be identified before transfusion."
+    },
+    {
+      "id": 22,
+      "question": "Autologous blood donation is the safest transfusion option because:",
+      "choices": ["It eliminates the risk of alloimmunization, infection transmission, and incompatibility reactions", "It is cheaper than allogenic blood", "It does not require crossmatching", "The blood is always fresh"],
+      "answer": "It eliminates the risk of alloimmunization, infection transmission, and incompatibility reactions",
+      "explanation": "Autologous (self-donated) blood eliminates risks of alloantibody formation, viral transmission (HIV, HBV, HCV), and transfusion reactions. However, it still carries risks of bacterial contamination and clerical errors. Volume may be insufficient for major surgery."
+    },
+    {
+      "id": 23,
+      "question": "The direct antiglobulin test (DAT) is positive in all of the following EXCEPT:",
+      "choices": ["Autoimmune hemolytic anemia", "Hemolytic disease of the newborn", "Drug-induced immune hemolysis", "Pre-transfusion testing of normal healthy donors"],
+      "answer": "Pre-transfusion testing of normal healthy donors",
+      "explanation": "A positive DAT indicates antibody or complement is coating the patient's RBCs in vivo (AIHA, HDN, drug-induced, delayed hemolytic transfusion reaction). Healthy blood donors have no in vivo RBC sensitization — their DAT is negative."
+    },
+    {
+      "id": 24,
+      "question": "The elution technique (acid elution, heat elution) in immunohematology is used to:",
+      "choices": ["Wash RBCs free of unbound proteins", "Remove and recover antibody from sensitized RBCs for further testing", "Prepare fresh frozen plasma", "Store blood components at cold temperatures"],
+      "answer": "Remove and recover antibody from sensitized RBCs for further testing",
+      "explanation": "Elution dissociates antibodies from sensitized RBCs (DAT-positive cells). The eluate is then tested against panel cells to identify the antibody specificity. Used in AIHA workup, HDN investigation, and transfusion reaction workup."
+    },
+    {
+      "id": 25,
+      "question": "The Kleihauer-Betke test is performed to determine the dose of RhIG after delivery. The test quantifies the volume of feto-maternal hemorrhage (FMH). The standard postpartum dose of RhIG protects against FMH of how much fetal blood?",
+      "choices": ["1 mL", "15 mL", "30 mL of fetal whole blood (or 15 mL fetal RBCs)", "100 mL"],
+      "answer": "30 mL of fetal whole blood (or 15 mL fetal RBCs)",
+      "explanation": "One vial of RhIG (300 μg) protects against 30 mL of fetal whole blood (or 15 mL of fetal RBCs). If KB test indicates >30 mL FMH, additional RhIG vials are needed. Calculation: volume of FMH (mL) ÷ 30, rounded up to nearest whole number = number of vials."
+    },
+    {
+      "id": 26,
+      "question": "Cold agglutinin disease is caused by IgM antibodies that react best at 4°C. The most common specificity of the cold agglutinin in Mycoplasma pneumoniae infection is:",
+      "choices": ["Anti-A", "Anti-B", "Anti-I", "Anti-H"],
+      "answer": "Anti-I",
+      "explanation": "Cold agglutinins in Mycoplasma pneumoniae infection are anti-I IgM antibodies. Anti-i is associated with infectious mononucleosis (EBV). Anti-I causes in vitro agglutination at cold temperatures and can cause hemolysis in cold extremities."
+    },
+    {
+      "id": 27,
+      "question": "Delayed hemolytic transfusion reaction (DHTR) typically occurs:",
+      "choices": ["During or immediately after transfusion (<1 hour)", "3–14 days after transfusion due to anamnestic antibody response", "Only in ABO incompatibility", "After multiple decades of transfusion"],
+      "answer": "3–14 days after transfusion due to anamnestic antibody response",
+      "explanation": "DHTR occurs when an antibody level is too low to detect pre-transfusion but rises after re-exposure (anamnestic response). Transfused RBCs are then slowly destroyed (extravascular hemolysis). Patients present with unexplained drop in Hb, jaundice, and positive DAT days after transfusion."
+    },
+    {
+      "id": 28,
+      "question": "The Kell blood group system contains the K (KEL1) antigen. Anti-K is clinically significant because it:",
+      "choices": ["Reacts at room temperature only", "Causes hemolytic transfusion reactions and HDN and suppresses erythropoiesis", "Is naturally occurring without prior exposure", "Reacts only with enzyme-treated cells"],
+      "answer": "Causes hemolytic transfusion reactions and HDN and suppresses erythropoiesis",
+      "explanation": "Anti-K is an immune IgG alloantibody formed after transfusion or pregnancy. It causes hemolytic transfusion reactions and severe HDN (suppresses fetal erythropoiesis in addition to hemolysis). K antigen is present in only ~9% of the population."
+    },
+    {
+      "id": 29,
+      "question": "In neonatal exchange transfusion for HDN due to anti-D, the blood used should be:",
+      "choices": ["AB positive", "O positive compatible with mother's ABO type", "O Rh-negative, crossmatched against the mother's serum", "AB negative"],
+      "answer": "O Rh-negative, crossmatched against the mother's serum",
+      "explanation": "For HDN exchange transfusion: use O Rh-negative pRBCs (lacks the offending D antigen and ABO antigens) crossmatched against the mother's serum (which contains the causative anti-D). Fresh blood (<7 days) in irradiated, CMV-negative units is preferred."
+    },
+    {
+      "id": 30,
+      "question": "The blood component used to treat TTP (thrombotic thrombocytopenic purpura) via therapeutic plasma exchange is:",
+      "choices": ["Cryoprecipitate", "Platelet concentrate", "Fresh frozen plasma (FFP) as replacement fluid", "Packed red blood cells"],
+      "answer": "Fresh frozen plasma (FFP) as replacement fluid",
+      "explanation": "TTP is treated by therapeutic plasma exchange (TPE) using FFP as the replacement fluid. TPE removes the inhibitory antibody against ADAMTS13 and replaces it with functional ADAMTS13 from donor FFP. Platelet transfusion is CONTRAINDICATED in TTP (worsens clotting)."
+    },
+    {
+      "id": 31,
+      "question": "An irradiated blood component is required for which patient population to prevent transfusion-associated graft-versus-host disease (TA-GvHD)?",
+      "choices": ["Patients with iron deficiency anemia", "Immunocompetent adults having elective surgery", "Immunocompromised patients (bone marrow transplant, severe combined immunodeficiency, congenital T cell defects)", "Patients receiving only plasma components"],
+      "answer": "Immunocompromised patients (bone marrow transplant, severe combined immunodeficiency, congenital T cell defects)",
+      "explanation": "TA-GvHD occurs when immunocompetent donor T lymphocytes engraft in an immunocompromised host and attack host tissues. Gamma irradiation (25 Gy) inactivates T lymphocytes. At-risk: BMT patients, SCID, intrauterine transfusions, patients receiving HLA-matched blood."
+    },
+    {
+      "id": 32,
+      "question": "Washed red blood cells are prepared by removing plasma proteins. They are indicated for:",
+      "choices": ["DIC treatment", "Patients with severe IgA deficiency with anti-IgA antibodies (anaphylaxis risk)", "Routine transfusion in adults", "Patients with cold agglutinin disease only"],
+      "answer": "Patients with severe IgA deficiency with anti-IgA antibodies (anaphylaxis risk)",
+      "explanation": "IgA-deficient patients with anti-IgA antibodies can develop severe anaphylactic reactions to plasma proteins (IgA in donor blood). Washed RBCs or IgA-deficient donors are used. Washed cells also remove allergenic proteins, antibodies, potassium, and microaggregates."
+    },
+    {
+      "id": 33,
+      "question": "The Duffy blood group antigens (Fya, Fyb) are important because Duffy-null individuals (Fy(a-b-)) are resistant to infection by:",
+      "choices": ["Plasmodium falciparum", "Plasmodium vivax", "Babesia microti", "Trypanosoma cruzi"],
+      "answer": "Plasmodium vivax",
+      "explanation": "Plasmodium vivax uses the Duffy antigen (DARC — Duffy Antigen Receptor for Chemokines) as its RBC receptor. Individuals with the Duffy-null phenotype Fy(a-b-) (common in West Africans) are resistant to P. vivax malaria, explaining its rarity in West Africa."
+    },
+    {
+      "id": 34,
+      "question": "Hemolytic disease of the newborn (HDN) due to ABO incompatibility is usually LESS severe than Rh HDN because:",
+      "choices": ["Anti-A and anti-B do not cross the placenta", "A and B antigens are found on many tissues (not just RBCs), diluting antibody effect, and fetal RBCs have fewer A/B sites", "ABO HDN only occurs with blood type A mothers", "Rh antibodies are IgM and cannot cause hemolysis"],
+      "answer": "A and B antigens are found on many tissues (not just RBCs), diluting antibody effect, and fetal RBCs have fewer A/B sites",
+      "explanation": "ABO HDN: anti-A/anti-B IgG crosses the placenta, but fetal RBCs express fewer A/B antigens than adult cells, and A/B antigens on other fetal tissues absorb antibody, reducing hemolysis. ABO HDN rarely requires exchange transfusion, unlike severe Rh HDN."
+    },
+    {
+      "id": 35,
+      "question": "Compatibility testing sequence from least to most stringent is:",
+      "choices": ["Electronic crossmatch → immediate spin → Coombs/IAT crossmatch", "Immediate spin → Coombs crossmatch → electronic crossmatch", "Coombs crossmatch → immediate spin → electronic crossmatch", "Electronic → Coombs → immediate spin"],
+      "answer": "Electronic crossmatch → immediate spin → Coombs/IAT crossmatch",
+      "explanation": "Electronic (computer) crossmatch: most efficient for patients with no alloantibodies, using electronic verification of ABO compatibility. Immediate spin crossmatch: detects ABO incompatibility at RT. Coombs (IAT) crossmatch: detects unexpected alloantibodies; most thorough."
+    },
+    {
+      "id": 36,
+      "question": "The indirect antiglobulin phase (Coombs phase) of the crossmatch is performed at which temperature?",
+      "choices": ["4°C (cold temperature)", "Room temperature (22°C)", "37°C", "56°C"],
+      "answer": "37°C",
+      "explanation": "The IAT (Coombs) crossmatch incubates patient serum + donor RBCs at 37°C (physiological temperature) to detect IgG alloantibodies that react at body temperature. After incubation, cells are washed and AHG (Coombs reagent) is added."
+    },
+    {
+      "id": 37,
+      "question": "Group O blood is the preferred blood for emergency transfusion when the patient's blood type is unknown. If a female of childbearing age, which type must be given?",
+      "choices": ["O positive", "O negative", "AB negative", "O positive is acceptable for all ages"],
+      "answer": "O negative",
+      "explanation": "O negative blood must be given to females of childbearing potential (regardless of age) to prevent Rh sensitization. If a woman receives Rh-positive blood and develops anti-D, future Rh-positive pregnancies could result in severe HDN."
+    },
+    {
+      "id": 38,
+      "question": "The ABO subgroup A1 has more A antigen sites per cell than A2. Clinically, the distinction is important because some A2 individuals:",
+      "choices": ["Cannot receive any type of blood", "Develop anti-A1 (a clinically significant antibody that can cause transfusion reactions)", "Always have the Bombay phenotype", "Cannot donate blood"],
+      "answer": "Develop anti-A1 (a clinically significant antibody that can cause transfusion reactions)",
+      "explanation": "~1–8% of A2 individuals and ~22–26% of A2B individuals produce anti-A1, which can react at 37°C and cause hemolytic transfusion reactions if A1 blood is given. A2 patients with clinically significant anti-A1 should receive A2 or O blood."
+    },
+    {
+      "id": 39,
+      "question": "Pathogen reduction technology (PRT/PRT) for blood products uses:",
+      "choices": ["Gamma irradiation", "Pasteurization at 60°C", "Psoralen + UVA light (amotosalen) or riboflavin + UV light to inactivate nucleic acids of pathogens", "Filter-based leukoreduction"],
+      "answer": "Psoralen + UVA light (amotosalen) or riboflavin + UV light to inactivate nucleic acids of pathogens",
+      "explanation": "Pathogen reduction technologies (e.g., INTERCEPT using amotosalen/UVA, Mirasol using riboflavin/UV) inactivate viruses, bacteria, and parasites in platelets and plasma by cross-linking nucleic acids. These reduce transfusion-transmitted infections and can replace bacterial testing of platelets."
+    },
+    {
+      "id": 40,
+      "question": "Massive transfusion is defined as transfusion of ≥10 units of pRBCs in 24 hours. The dilutional coagulopathy in massive transfusion is treated with:",
+      "choices": ["Additional pRBCs and albumin", "Balanced resuscitation with 1:1:1 ratio of pRBCs:FFP:platelets, plus cryoprecipitate for fibrinogen", "Normal saline only", "Factor VII concentrate alone"],
+      "answer": "Balanced resuscitation with 1:1:1 ratio of pRBCs:FFP:platelets, plus cryoprecipitate for fibrinogen",
+      "explanation": "In massive transfusion/hemorrhage (trauma, PPH), dilutional coagulopathy, thrombocytopenia, and hypofibrinogenemia develop. Balanced resuscitation (1:1:1 ratio) mimics whole blood. Cryoprecipitate provides fibrinogen when levels <100 mg/dL."
+    },
+    {
+      "id": 41,
+      "question": "The Lewis blood group antigens (Lea, Leb) are unique because they are:",
+      "choices": ["Synthesized directly on RBC membranes", "Soluble plasma antigens adsorbed onto RBC surfaces", "Found only on fetal RBCs", "Part of the Rh complex"],
+      "answer": "Soluble plasma antigens adsorbed onto RBC surfaces",
+      "explanation": "Lewis antigens are synthesized in epithelial cells and secreted as soluble glycolipids in body fluids and plasma. They are passively adsorbed onto RBC surfaces, not synthesized directly on RBCs. This explains why Lewis antigens can change with blood transfusion or pregnancy."
+    },
+    {
+      "id": 42,
+      "question": "The most common cause of transfusion-related death in the Philippines and globally is:",
+      "choices": ["Acute hemolytic reaction (ABO incompatibility)", "Bacterial sepsis from platelets", "TRALI", "TACO (transfusion-associated circulatory overload)"],
+      "answer": "TACO (transfusion-associated circulatory overload)",
+      "explanation": "TACO has become the leading cause of transfusion-related fatality in many countries. Risk factors: elderly, cardiac disease, renal failure, excessive transfusion rate. Presents with acute pulmonary edema, hypertension, and positive fluid balance. Prevention: slow transfusion rate, diuretics."
+    },
+    {
+      "id": 43,
+      "question": "Granulocyte transfusions are indicated for:",
+      "choices": ["Aplastic anemia", "Severe neutropenia (<0.5 × 10^9/L) with bacterial or fungal infection not responding to antimicrobials", "Platelet refractoriness", "Autoimmune hemolytic anemia"],
+      "answer": "Severe neutropenia (<0.5 × 10^9/L) with bacterial or fungal infection not responding to antimicrobials",
+      "explanation": "Granulocyte transfusions are reserved for patients with profound neutropenia with documented infection unresponsive to standard antimicrobials. Due to short shelf life (<24 hours at 20–24°C), concurrent GCSF stimulation of donor improves yield."
+    },
+    {
+      "id": 44,
+      "question": "The standard hemolytic disease of the newborn (HDN) workup on a cord blood sample includes:",
+      "choices": ["ABO/Rh typing and direct antiglobulin test (DAT)", "Complete CBC and full antibody panel only", "ABO typing and platelet count", "Crossmatch with maternal serum and Western blot"],
+      "answer": "ABO/Rh typing and direct antiglobulin test (DAT)",
+      "explanation": "Cord blood HDN workup: ABO and Rh typing + DAT. A positive DAT indicates maternal antibody coating the neonatal RBCs. The elution identifies the antibody specificity. CBC, bilirubin, reticulocyte count help assess severity."
+    },
+    {
+      "id": 45,
+      "question": "Which law governs blood banking practice and the regulation of blood service facilities in the Philippines?",
+      "choices": ["Republic Act 7170 (Organ Donation Act)", "Republic Act 7719 (National Blood Services Act of 1994)", "Republic Act 9165 (Dangerous Drugs Act)", "Republic Act 4226 (Hospital Licensure Act)"],
+      "answer": "Republic Act 7719 (National Blood Services Act of 1994)",
+      "explanation": "RA 7719 (National Blood Services Act of 1994) governs blood banking in the Philippines. It established the National Voluntary Blood Services Program, mandates voluntary non-remunerated blood donation, and regulates blood service facilities including blood banks."
+    },
+    {
+      "id": 46,
+      "question": "The Rh system has 5 major antigens: D, C, c, E, and e. An individual typed as DCcEe is:",
+      "choices": ["Rh negative", "Heterozygous for both C/c and E/e, and D-positive", "Homozygous for all antigens", "D negative with C and E antigens"],
+      "answer": "Heterozygous for both C/c and E/e, and D-positive",
+      "explanation": "An individual typed as DCcEe has: D antigen (Rh-positive), both C and c antigens (heterozygous C/c), and both E and e antigens (heterozygous E/e). This is the most common Rh phenotype in most populations."
+    },
+    {
+      "id": 47,
+      "question": "Hyperhemolysis syndrome is a severe delayed hemolytic reaction where patient's own RBCs are also destroyed. It is most common in:",
+      "choices": ["First-time blood donors", "Sickle cell disease patients receiving chronic transfusions", "ABO-incompatible transplant recipients", "Patients with hereditary spherocytosis"],
+      "answer": "Sickle cell disease patients receiving chronic transfusions",
+      "explanation": "Hyperhemolysis syndrome occurs primarily in sickle cell disease patients. The Hgb drops below pre-transfusion levels due to destruction of both donor and patient RBCs. Mechanism involves bystander hemolysis. Avoid further transfusion if possible; IVIG and steroids may help."
+    },
+    {
+      "id": 48,
+      "question": "In blood bank serology, a 'panreactive' antibody screen — where all panel cells react — most commonly indicates:",
+      "choices": ["ABO incompatibility", "High-frequency alloantibody, warm autoantibody (AIHA), or multiple alloantibodies", "Technical errors only", "Cold agglutinins at 37°C"],
+      "answer": "High-frequency alloantibody, warm autoantibody (AIHA), or multiple alloantibodies",
+      "explanation": "A panreactive antibody screen (all cells react) suggests: (1) antibody against a high-frequency antigen (present on virtually all donor cells), (2) warm autoantibody in AIHA, or (3) multiple alloantibodies. Adsorption techniques and antigen-negative rare donors may be required."
+    },
+    {
+      "id": 49,
+      "question": "The 2-mercaptoethanol (2-ME) or dithiothreitol (DTT) treatment disrupts IgM pentamers by cleaving disulfide bonds. This technique is used to:",
+      "choices": ["Enhance IgG antibody detection", "Distinguish IgM from IgG antibodies; IgM reactivity is abolished by 2-ME/DTT treatment", "Inactivate complement in serum", "Prepare eluates from sensitized RBCs"],
+      "answer": "Distinguish IgM from IgG antibodies; IgM reactivity is abolished by 2-ME/DTT treatment",
+      "explanation": "2-ME and DTT cleave the disulfide bonds holding IgM subunits together, inactivating IgM antibodies. If reactivity disappears after treatment, the antibody is IgM. If reactivity persists, it is IgG (no disulfide bonds between subunits). Used in syphilis serology and Rh antibody work."
+    },
+    {
+      "id": 50,
+      "question": "Philippine Blood Coordinating Council (PBCC) standards require that all blood collected from donors be tested for which infectious disease markers?",
+      "choices": ["HIV only", "HIV, HBsAg, anti-HCV, malaria, and syphilis", "HBsAg and HIV only", "HIV, HBsAg, anti-HCV, syphilis, and Chagas disease"],
+      "answer": "HIV, HBsAg, anti-HCV, malaria, and syphilis",
+      "explanation": "Philippine blood banking standards (DOH/PBCC) require testing all donated blood for: HBsAg (Hepatitis B), anti-HCV (Hepatitis C), HIV (anti-HIV 1/2), malaria (thick blood smear or RDT), and syphilis (RPR/VDRL). This reflects the endemic infectious diseases in the Philippines."
+    }
+  ]
+}

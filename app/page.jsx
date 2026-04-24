@@ -102,8 +102,8 @@ export default function HomePage() {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg mx-auto">
             {[
-              { value: '650+', label: 'Questions' },
-              { value: '6', label: 'Modules' },
+              { value: '950+', label: 'Questions' },
+              { value: '4', label: 'Courses' },
               { value: '100%', label: 'Free' },
             ].map(({ value, label }) => (
               <div key={label} className="text-center">
@@ -180,8 +180,24 @@ export default function HomePage() {
             </div>
           </Link>
 
+          {/* Medical Technology — Active */}
+          <Link href="/medical-technology" className="group w-full">
+            <div className="bg-gradient-to-br from-cyan-900/40 to-cyan-800/20 border-2 border-cyan-600/40 hover:border-cyan-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-cyan-500/10 text-center">
+              <div className="text-5xl mb-4">🧪</div>
+              <h3 className="text-xl font-bold text-white mb-2">Medical Technology</h3>
+              <p className="text-gray-400 text-sm mb-4">
+                Clinical Chemistry, Hematology, Microbiology, Immunology, Blood Banking, and Urinalysis. 6 modules, 300 questions.
+              </p>
+              <div className="flex items-center justify-center gap-2">
+                <span className="bg-cyan-500/20 text-cyan-400 text-xs font-semibold px-3 py-1 rounded-full">
+                  ✓ Available Now
+                </span>
+              </div>
+            </div>
+          </Link>
+
           {/* Coming soon placeholders */}
-          {['Nursing', 'Pharmacy', 'Medical Technology'].map((exam) => (
+          {['Nursing', 'Pharmacy'].map((exam) => (
             <div key={exam} className="w-full bg-white/5 border border-white/10 rounded-2xl p-6 opacity-50 cursor-not-allowed text-center">
               <div className="text-5xl mb-4 grayscale">📋</div>
               <h3 className="text-xl font-bold text-white mb-2">{exam}</h3>

@@ -1,0 +1,356 @@
+{
+  "module": "Module 4 - Immunology and Serology",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The primary immune response differs from the secondary immune response in that the primary response:",
+      "choices": ["Produces higher levels of IgG quickly", "Has a longer lag phase and produces predominantly IgM", "Is driven by memory B cells", "Produces more antibody than the secondary response"],
+      "answer": "Has a longer lag phase and produces predominantly IgM",
+      "explanation": "The primary immune response has a longer latent period (7–10 days) and predominantly produces IgM antibody. The secondary (anamnestic) response is faster, produces higher titers, and predominantly IgG, due to memory B and T cell activation."
+    },
+    {
+      "id": 2,
+      "question": "IgG is the most abundant immunoglobulin in serum and is the only immunoglobulin that:",
+      "choices": ["Activates complement via the alternate pathway", "Crosses the placenta to provide passive neonatal immunity", "Exists predominantly as a pentamer", "Is found predominantly in mucosal secretions"],
+      "answer": "Crosses the placenta to provide passive neonatal immunity",
+      "explanation": "IgG is the only Ig that crosses the placenta via FcRn receptors, providing passive immunity to the fetus and neonate for the first months of life. It also activates complement (classical pathway) and mediates ADCC."
+    },
+    {
+      "id": 3,
+      "question": "Secretory IgA (sIgA) is the predominant immunoglobulin in mucosal secretions (saliva, breast milk, colostrum, tears). It exists as a:",
+      "choices": ["Monomer", "Dimer with a J chain and secretory component", "Pentamer with a J chain", "Tetramer"],
+      "answer": "Dimer with a J chain and secretory component",
+      "explanation": "Secretory IgA is a dimer joined by a J chain, protected by a secretory component (poly-Ig receptor fragment) produced by mucosal epithelial cells. It neutralizes pathogens in mucosal surfaces before systemic invasion."
+    },
+    {
+      "id": 4,
+      "question": "The complement cascade can be activated by three pathways. The classical pathway is initiated by:",
+      "choices": ["Mannose-binding lectin (MBL) binding to microbial sugars", "Antibody-antigen complexes activating C1q", "Alternative pathway spontaneous C3 hydrolysis", "Direct LPS binding to C3"],
+      "answer": "Antibody-antigen complexes activating C1q",
+      "explanation": "Classical pathway: C1q binds two or more Fc regions of antigen-bound IgG or IgM → activates C1r and C1s → cleaves C4 and C2 → forms C3 convertase (C4b2a). Lectin pathway uses MBL. Alternative pathway uses spontaneous C3 hydrolysis."
+    },
+    {
+      "id": 5,
+      "question": "MHC class I molecules present antigens to which T cell subset?",
+      "choices": ["CD4+ helper T cells", "CD8+ cytotoxic T cells", "NK cells only", "B cells"],
+      "answer": "CD8+ cytotoxic T cells",
+      "explanation": "MHC class I (HLA-A, B, C) presents endogenous peptides (from intracellular pathogens, tumor antigens) to CD8+ cytotoxic T lymphocytes (CTLs). All nucleated cells express MHC class I. MHC class II presents to CD4+ helper T cells."
+    },
+    {
+      "id": 6,
+      "question": "The VDRL (Venereal Disease Research Laboratory) test is a nontreponemal test for syphilis that detects:",
+      "choices": ["Treponema pallidum-specific antibodies", "Reagin antibodies (IgG and IgM against cardiolipin-lecithin-cholesterol antigen)", "FTA-ABS antibodies", "IgM antitreponemal antibodies only"],
+      "answer": "Reagin antibodies (IgG and IgM against cardiolipin-lecithin-cholesterol antigen)",
+      "explanation": "VDRL and RPR detect non-specific 'reagin' antibodies (anti-cardiolipin/anti-lipoidal) produced during syphilis. They are sensitive but not specific — false positives occur in pregnancy, SLE, viral infections. Confirmed by treponemal tests (FTA-ABS, TPPA)."
+    },
+    {
+      "id": 7,
+      "question": "The FTA-ABS (Fluorescent Treponemal Antibody Absorption) test is used to confirm syphilis. It detects:",
+      "choices": ["Cardiolipin antibodies", "Treponemal-specific antibodies (remains positive for life)", "IgM only in early syphilis", "RPR antibodies with higher sensitivity"],
+      "answer": "Treponemal-specific antibodies (remains positive for life)",
+      "explanation": "FTA-ABS detects antibodies specific to T. pallidum antigens. It is highly specific and becomes positive early in primary syphilis. Unlike VDRL/RPR, it remains reactive for life even after treatment, used as a confirmatory test."
+    },
+    {
+      "id": 8,
+      "question": "The principle of ELISA (enzyme-linked immunosorbent assay) involves:",
+      "choices": ["Precipitation of antigen-antibody complexes in agar gel", "An enzyme-labeled antibody or antigen generating a measurable colorimetric signal", "Agglutination of latex particles coated with antigen", "Separation of proteins by charge using electric current"],
+      "answer": "An enzyme-labeled antibody or antigen generating a measurable colorimetric signal",
+      "explanation": "ELISA uses an enzyme (e.g., horseradish peroxidase or alkaline phosphatase) linked to an antibody or antigen. The enzyme reacts with a substrate to produce color, measured spectrophotometrically. Highly sensitive and widely used in serology."
+    },
+    {
+      "id": 9,
+      "question": "Rheumatoid factor (RF) is an autoantibody (usually IgM) directed against:",
+      "choices": ["Double-stranded DNA (dsDNA)", "The Fc portion of IgG", "Smith (Sm) antigen", "Cyclic citrullinated peptide (CCP)"],
+      "answer": "The Fc portion of IgG",
+      "explanation": "RF is an autoantibody (typically IgM but can be IgG or IgA) against the Fc region of IgG. It is found in ~80% of rheumatoid arthritis (RA) patients but also in other autoimmune diseases, chronic infections, and some normal elderly individuals."
+    },
+    {
+      "id": 10,
+      "question": "Anti-nuclear antibodies (ANA) detected by indirect immunofluorescence (IIF) show a 'homogeneous/diffuse' pattern most associated with:",
+      "choices": ["Sjögren's syndrome", "CREST syndrome (limited scleroderma)", "Systemic lupus erythematosus (SLE) — anti-dsDNA and anti-histone", "Mixed connective tissue disease (MCTD)"],
+      "answer": "Systemic lupus erythematosus (SLE) — anti-dsDNA and anti-histone",
+      "explanation": "Homogeneous ANA pattern (uniform nuclear fluorescence) is associated with antibodies to dsDNA and histones, most commonly in SLE and drug-induced lupus. Speckled pattern: anti-Sm, anti-RNP; centromere: CREST syndrome; nucleolar: scleroderma."
+    },
+    {
+      "id": 11,
+      "question": "IgE is the immunoglobulin involved in type I hypersensitivity (immediate hypersensitivity/anaphylaxis). It binds to high-affinity receptors (FcεRI) on:",
+      "choices": ["Cytotoxic T lymphocytes", "Mast cells and basophils", "Macrophages", "B lymphocytes"],
+      "answer": "Mast cells and basophils",
+      "explanation": "IgE binds FcεRI on mast cells and basophils. Cross-linking by antigen triggers degranulation, releasing histamine, prostaglandins, and leukotrienes — causing immediate allergic reactions (urticaria, anaphylaxis, bronchospasm)."
+    },
+    {
+      "id": 12,
+      "question": "The rapid plasma reagin (RPR) test is similar to VDRL but uses:",
+      "choices": ["A microscopic agglutination technique", "Charcoal-coated particles for macroscopic flocculation, read with the naked eye", "Fluorescent-labeled antibodies", "Enzyme-labeled treponemal antigens"],
+      "answer": "Charcoal-coated particles for macroscopic flocculation, read with the naked eye",
+      "explanation": "RPR uses cardiolipin antigen coated onto charcoal particles. Positive samples cause visible flocculation (clumping) read macroscopically, unlike VDRL which requires microscopy. RPR is used for syphilis screening; VDRL is used for CSF testing."
+    },
+    {
+      "id": 13,
+      "question": "The CD4:CD8 ratio in healthy adults is approximately 2:1. In advanced HIV infection, this ratio is reversed because:",
+      "choices": ["CD8 cells are destroyed by HIV", "HIV selectively destroys CD4+ T helper cells", "B cells replace CD4 cells", "Cytotoxic T cells proliferate excessively"],
+      "answer": "HIV selectively destroys CD4+ T helper cells",
+      "explanation": "HIV (via gp120-CD4 interaction) infects and destroys CD4+ T helper cells, reducing their count. AIDS is defined as CD4 count <200 cells/μL. As CD4 falls, CD4:CD8 ratio inverts (<1:1), correlating with immunodeficiency and opportunistic infections."
+    },
+    {
+      "id": 14,
+      "question": "The 4th generation HIV test combines p24 antigen detection with HIV antibody detection. p24 antigen is detectable:",
+      "choices": ["Only after antibody seroconversion", "Earlier than antibodies, in the 'window period'", "Only in late-stage AIDS", "In HIV-2 infections only"],
+      "answer": "Earlier than antibodies, in the 'window period'",
+      "explanation": "p24 antigen (HIV core antigen) is detectable 2–3 weeks post-infection, before antibody seroconversion (window period of ~3–4 weeks). 4th generation (combo) tests reduce the diagnostic window period by detecting p24 and antibodies simultaneously."
+    },
+    {
+      "id": 15,
+      "question": "Antigens that can activate B cells without T cell help are called T-independent antigens. These are typically:",
+      "choices": ["Protein antigens requiring MHC class II presentation", "Polysaccharides and lipopolysaccharides with repetitive epitopes", "Peptides presented in the context of MHC class I", "Haptens bound to carrier proteins"],
+      "answer": "Polysaccharides and lipopolysaccharides with repetitive epitopes",
+      "explanation": "T-independent (TI) antigens (polysaccharides, LPS) directly cross-link B cell receptors through repeated epitopes, generating primarily IgM without somatic hypermutation or memory. This is why polysaccharide vaccines are less effective in young children."
+    },
+    {
+      "id": 16,
+      "question": "In the Ouchterlony (double immunodiffusion) test, a reaction of identity between two antigen wells sharing the same antibody produces:",
+      "choices": ["A spur formation", "A precipitin line that fuses and is continuous (one smooth arc)", "Two separate precipitin lines that cross", "No precipitin line"],
+      "answer": "A precipitin line that fuses and is continuous (one smooth arc)",
+      "explanation": "Reaction of identity: the two antigens are the same, forming a single fused arc. Reaction of non-identity: different antigens form two separate lines that cross. Reaction of partial identity: spur formation where the shared antigen fuses but the unique antigen forms a spur."
+    },
+    {
+      "id": 17,
+      "question": "The Western blot (immunoblot) is used to confirm HIV infection after a positive ELISA because it:",
+      "choices": ["Is more sensitive than ELISA", "Identifies antibodies against specific HIV protein bands (gp120, gp41, p24)", "Is faster and cheaper than ELISA", "Detects HIV RNA viral load"],
+      "answer": "Identifies antibodies against specific HIV protein bands (gp120, gp41, p24)",
+      "explanation": "Western blot separates HIV proteins by SDS-PAGE, transfers them to nitrocellulose, and detects antibody binding to specific proteins. Positive criteria (WHO/CDC): at least 2 of: p24, gp41, gp120/gp160. High specificity makes it the traditional confirmatory test."
+    },
+    {
+      "id": 18,
+      "question": "C-reactive protein (CRP) is an acute phase reactant produced by the liver. It binds to:",
+      "choices": ["IgG Fc region", "Phosphocholine on bacteria and damaged cells, activating complement", "Complement C3b", "T cell receptors"],
+      "answer": "Phosphocholine on bacteria and damaged cells, activating complement",
+      "explanation": "CRP is an innate immune protein that binds phosphocholine on bacterial cell walls and apoptotic cells, activating the classical complement pathway and opsonizing pathogens. A highly sensitive marker of inflammation and infection, CRP rises within hours."
+    },
+    {
+      "id": 19,
+      "question": "Bruton's agammaglobulinemia (XLA) is a B cell deficiency causing absence of immunoglobulins due to a mutation in:",
+      "choices": ["RAG1/RAG2 genes", "Btk (Bruton's tyrosine kinase) gene", "IL-2 receptor gene (X-SCID)", "ADA (adenosine deaminase) gene"],
+      "answer": "Btk (Bruton's tyrosine kinase) gene",
+      "explanation": "XLA is caused by BTK gene mutations, blocking B cell maturation at the pre-B cell stage. Patients have absent mature B cells and serum immunoglobulins, presenting with recurrent bacterial infections after 6 months (when maternal IgG wanes)."
+    },
+    {
+      "id": 20,
+      "question": "Type II hypersensitivity (cytotoxic) involves IgG or IgM antibodies directed against cell surface antigens. An example is:",
+      "choices": ["Anaphylaxis to penicillin via IgE", "ABO hemolytic transfusion reaction", "Serum sickness (immune complex deposition)", "Contact dermatitis (poison ivy)"],
+      "answer": "ABO hemolytic transfusion reaction",
+      "explanation": "Type II hypersensitivity: antibody binds cell surface antigen → complement activation or ADCC → cell destruction. Examples: ABO transfusion reactions (anti-A or anti-B IgM lysing incompatible RBCs), autoimmune hemolytic anemia, Goodpasture syndrome."
+    },
+    {
+      "id": 21,
+      "question": "Serum sickness is an example of Type III hypersensitivity. It results from:",
+      "choices": ["Mast cell degranulation mediated by IgE", "Cytotoxic T cell killing of target cells", "Immune complex deposition in tissues activating complement and causing inflammation", "Delayed-type hypersensitivity by sensitized T cells"],
+      "answer": "Immune complex deposition in tissues activating complement and causing inflammation",
+      "explanation": "Type III hypersensitivity: immune complexes (Ag-Ab) deposit in vessel walls, kidneys, joints, and skin. Complement activation and neutrophil recruitment cause tissue damage. Examples: serum sickness, SLE nephritis, post-streptococcal glomerulonephritis."
+    },
+    {
+      "id": 22,
+      "question": "The Coombs antiglobulin reagent (anti-human globulin) is made from:",
+      "choices": ["Human anti-IgG antibodies", "Antibodies raised in animals against human immunoglobulin and complement", "Monoclonal anti-CD3 antibodies", "Recombinant complement proteins"],
+      "answer": "Antibodies raised in animals against human immunoglobulin and complement",
+      "explanation": "Coombs reagent is an anti-human globulin (AHG) produced in animals (rabbits, goats) by immunizing with human IgG and/or complement components. It agglutinates human RBCs coated with antibody or complement, enabling sensitization detection."
+    },
+    {
+      "id": 23,
+      "question": "Natural killer (NK) cells recognize and kill target cells (virus-infected, tumor cells) based on:",
+      "choices": ["Antigen presented by MHC class II", "Absence of MHC class I ('missing self')", "Specific TCR-antigen interaction", "IgE cross-linking on mast cells"],
+      "answer": "Absence of MHC class I ('missing self')",
+      "explanation": "NK cells kill cells that lack or downregulate MHC class I (which normally inhibits NK cell activation via inhibitory KIRs). Viruses and tumors that downregulate MHC I to evade CTLs become NK cell targets — 'missing self' hypothesis."
+    },
+    {
+      "id": 24,
+      "question": "The prozone effect in serological tests causes a falsely NEGATIVE result when:",
+      "choices": ["Antigen concentration is too low", "Antibody concentration is too high, preventing lattice formation", "The test is performed at wrong temperature", "Complement is absent in the serum"],
+      "answer": "Antibody concentration is too high, preventing lattice formation",
+      "explanation": "The prozone phenomenon occurs when antibody excess prevents the cross-linking needed for visible precipitation or agglutination. Each antigen is saturated with antibody without forming a lattice. Diluting the serum resolves this false negative."
+    },
+    {
+      "id": 25,
+      "question": "Anti-dsDNA antibodies are highly specific for which autoimmune disease?",
+      "choices": ["Rheumatoid arthritis", "Systemic lupus erythematosus (SLE)", "Sjögren's syndrome", "Dermatomyositis"],
+      "answer": "Systemic lupus erythematosus (SLE)",
+      "explanation": "Anti-dsDNA antibodies are ~70% sensitive and >95% specific for SLE. They correlate with disease activity (especially lupus nephritis). Anti-Sm antibodies are also SLE-specific (~25% sensitive but >99% specific)."
+    },
+    {
+      "id": 26,
+      "question": "In complement fixation tests (CFT), the test is positive if:",
+      "choices": ["Hemolysis of sensitized sheep RBCs occurs", "No hemolysis occurs (complement was fixed by patient Ag-Ab complex)", "Precipitation bands form in agar", "Cells agglutinate in presence of complement"],
+      "answer": "No hemolysis occurs (complement was fixed by patient Ag-Ab complex)",
+      "explanation": "CFT: If patient antibody + test antigen form complexes, they fix (consume) complement. When sensitized sheep RBCs + anti-sheep hemolysin (indicator system) are added, no complement remains → no hemolysis = POSITIVE test."
+    },
+    {
+      "id": 27,
+      "question": "The Mantoux (TST) is an example of which type of hypersensitivity reaction?",
+      "choices": ["Type I (immediate/IgE-mediated)", "Type II (cytotoxic)", "Type III (immune complex)", "Type IV (delayed-type/cell-mediated)"],
+      "answer": "Type IV (delayed-type/cell-mediated)",
+      "explanation": "The tuberculin skin test elicits a Type IV (DTH) response mediated by sensitized memory CD4+ Th1 cells. It peaks at 48–72 hours (not immediately), causing induration from T cell and macrophage infiltration. No antibody is involved."
+    },
+    {
+      "id": 28,
+      "question": "The ASO (antistreptolysin O) test detects antibodies against streptolysin O, confirming recent infection with:",
+      "choices": ["Staphylococcus aureus", "Streptococcus pyogenes (Group A Strep)", "Haemophilus influenzae", "Streptococcus pneumoniae"],
+      "answer": "Streptococcus pyogenes (Group A Strep)",
+      "explanation": "ASO titer >200 Todd units indicates recent GAS pharyngeal infection. Used to support diagnosis of acute rheumatic fever or post-streptococcal glomerulonephritis when cultures are negative. Anti-DNase B is more sensitive for skin infections."
+    },
+    {
+      "id": 29,
+      "question": "Passive immunization provides immediate but temporary protection. An example is:",
+      "choices": ["BCG vaccination for tuberculosis", "Administration of hepatitis B immunoglobulin (HBIG) after exposure", "MMR vaccine administration", "Oral polio vaccine"],
+      "answer": "Administration of hepatitis B immunoglobulin (HBIG) after exposure",
+      "explanation": "Passive immunization transfers pre-formed antibodies (not memory cells) providing immediate but short-lived protection (weeks to months). Examples: HBIG post-exposure, tetanus immunoglobulin, rabies immunoglobulin, IVIG for immunodeficiency."
+    },
+    {
+      "id": 30,
+      "question": "Which immunoglobulin class is produced first in response to infection (primary response)?",
+      "choices": ["IgA", "IgE", "IgM", "IgG"],
+      "answer": "IgM",
+      "explanation": "IgM is the first antibody produced in primary immune response (4–7 days after antigen exposure). Serum IgM >10 mg/dL with specific anti-microbial IgM indicates acute/recent infection. IgM is a pentamer with 10 antigen-binding sites."
+    },
+    {
+      "id": 31,
+      "question": "Flow cytometry identifies and counts specific cell populations by:",
+      "choices": ["Measuring enzyme activity of individual cells", "Detecting fluorescently labeled antibodies bound to specific cell surface markers", "Osmotic fragility measurements", "Observing cell morphology under light microscopy"],
+      "answer": "Detecting fluorescently labeled antibodies bound to specific cell surface markers",
+      "explanation": "Flow cytometry uses laser light to detect fluorescent signals from cells tagged with fluorochrome-labeled monoclonal antibodies against surface markers (e.g., CD4, CD8). Used for immunophenotyping leukemias, lymphomas, and immune deficiencies."
+    },
+    {
+      "id": 32,
+      "question": "Agglutination occurs when antibodies cross-link particulate antigens (cells or antigen-coated particles). The minimum number of antibody molecules required to bridge two particles is:",
+      "choices": ["One", "Two", "Three", "Five"],
+      "answer": "Two",
+      "explanation": "Each antibody has at least two Fab arms. One arm binds one antigen particle; the second arm binds another, creating the cross-link. IgM (pentamer with 10 binding sites) is a more efficient agglutinin than IgG (monomer with 2 binding sites)."
+    },
+    {
+      "id": 33,
+      "question": "Interferon-gamma (IFN-γ) is primarily produced by which cells and activates macrophages to kill intracellular pathogens?",
+      "choices": ["Mast cells and basophils", "Th1 CD4+ T cells and NK cells", "Th2 CD4+ T cells and eosinophils", "Regulatory T cells (Tregs)"],
+      "answer": "Th1 CD4+ T cells and NK cells",
+      "explanation": "IFN-γ is produced by activated Th1 cells and NK cells. It activates macrophages (increased microbicidal activity, increased MHC II expression), promotes Th1 differentiation, and enhances NK cell cytotoxicity. Critical for defense against mycobacteria and intracellular pathogens."
+    },
+    {
+      "id": 34,
+      "question": "The anti-HAV IgM antibody in serum indicates:",
+      "choices": ["Past resolved hepatitis A infection (immune)", "Acute hepatitis A infection", "Hepatitis A vaccination", "Chronic hepatitis A carrier state"],
+      "answer": "Acute hepatitis A infection",
+      "explanation": "Anti-HAV IgM rises during acute HAV infection and remains detectable for 3–6 months. Anti-HAV IgG (rises later) indicates past infection or vaccination and confers lifelong immunity. HAV has no chronic carrier state."
+    },
+    {
+      "id": 35,
+      "question": "The heterophile antibody test (Paul-Bunnell/Monospot) detects antibodies that agglutinate sheep or horse RBCs. A positive test occurs in:",
+      "choices": ["Cytomegalovirus (CMV) infection", "Infectious mononucleosis (EBV infection)", "HIV infection", "Rubella"],
+      "answer": "Infectious mononucleosis (EBV infection)",
+      "explanation": "EBV causes infectious mononucleosis; infected B cells produce heterophile antibodies (not specific to EBV) that agglutinate sheep/horse RBCs. The monospot test detects these. ~10–15% of EBV-IM cases are heterophile-negative, especially in young children."
+    },
+    {
+      "id": 36,
+      "question": "Protein electrophoresis in patients with multiple myeloma shows a monoclonal M-spike due to overproduction of one immunoglobulin class. The most common M-protein type is:",
+      "choices": ["IgM", "IgA", "IgG", "IgE"],
+      "answer": "IgG",
+      "explanation": "IgG is the most common M-protein in multiple myeloma (~50% of cases), followed by IgA (~20%). IgM monoclonal protein is characteristic of Waldenström's macroglobulinemia (lymphoplasmacytic lymphoma), not myeloma."
+    },
+    {
+      "id": 37,
+      "question": "C1 esterase inhibitor deficiency causes hereditary angioedema characterized by:",
+      "choices": ["Elevated C3 and C4", "Recurrent attacks of subcutaneous/submucosal edema with LOW C4", "Elevated IgE and eosinophilia", "Deficiency of membrane attack complex"],
+      "answer": "Recurrent attacks of subcutaneous/submucosal edema with LOW C4",
+      "explanation": "C1-INH deficiency leads to uncontrolled activation of the classical complement pathway and kallikrein-kinin system, causing bradykinin-mediated edema. C4 is chronically low (consumed). C3 is usually normal. Laryngeal edema can be fatal."
+    },
+    {
+      "id": 38,
+      "question": "HLA typing is important in organ transplantation to minimize rejection. The most important HLA loci matched for kidney transplantation are:",
+      "choices": ["HLA-A, B, and DQ", "HLA-A, B, and DR", "HLA-C and DP only", "HLA-DQ and DP only"],
+      "answer": "HLA-A, B, and DR",
+      "explanation": "For kidney transplantation, matching at HLA-A, B, and DR (6 antigens total) is most important for graft survival. The most critical is HLA-DR matching. A 0-antigen mismatch (full match) provides the best outcomes."
+    },
+    {
+      "id": 39,
+      "question": "The latex agglutination test (LAT) for cryptococcal antigen (CrAg) in CSF:",
+      "choices": ["Detects cryptococcal polysaccharide capsule antigen with high sensitivity (>90%)", "Measures antibody titers against C. neoformans", "Uses India ink for visualization", "Has low sensitivity in HIV-positive patients"],
+      "answer": "Detects cryptococcal polysaccharide capsule antigen with high sensitivity (>90%)",
+      "explanation": "CrAg LAT or lateral flow assay detects C. neoformans polysaccharide capsular antigen in CSF (or serum) with >90% sensitivity and >95% specificity. It is more sensitive than India ink and faster than culture, making it the preferred initial test."
+    },
+    {
+      "id": 40,
+      "question": "DiGeorge syndrome is a T cell deficiency caused by thymic aplasia. Patients are susceptible to:",
+      "choices": ["Recurrent bacterial infections with encapsulated organisms", "Opportunistic infections (viral, fungal, intracellular bacteria)", "Anaphylaxis", "Autoimmune destruction of platelets"],
+      "answer": "Opportunistic infections (viral, fungal, intracellular bacteria)",
+      "explanation": "DiGeorge syndrome (22q11 deletion): absent thymus → T cell aplasia → defective cell-mediated immunity. Susceptible to viral infections (CMV, EBV), fungal infections (Candida, Pneumocystis), and intracellular bacteria. Humoral immunity (B cells) is secondarily impaired."
+    },
+    {
+      "id": 41,
+      "question": "The Coombs crossmatch in blood banking detects:",
+      "choices": ["ABO blood group antigens only", "Antibodies in patient serum reactive with donor RBCs (IgG sensitization at antiglobulin phase)", "Rh factor typing", "Platelet antibodies"],
+      "answer": "Antibodies in patient serum reactive with donor RBCs (IgG sensitization at antiglobulin phase)",
+      "explanation": "The indirect antiglobulin test (IAT/Coombs phase) crossmatch detects IgG antibodies in patient serum against donor RBC antigens after incubation at 37°C + AHG addition. It prevents hemolytic transfusion reactions from unexpected alloantibodies."
+    },
+    {
+      "id": 42,
+      "question": "Which complement component, when cleaved, releases C3a and C5a (anaphylatoxins) that cause mast cell degranulation?",
+      "choices": ["C1q", "C4", "C3 and C5 (cleaved by C3/C5 convertase)", "C9"],
+      "answer": "C3 and C5 (cleaved by C3/C5 convertase)",
+      "explanation": "C3a and C5a are anaphylatoxins released when C3 convertase cleaves C3, and C5 convertase cleaves C5. They stimulate mast cell and basophil degranulation, increase vascular permeability, and recruit neutrophils (C5a is a potent chemokine)."
+    },
+    {
+      "id": 43,
+      "question": "Immunological tolerance is the state of unresponsiveness to self-antigens. Central tolerance for T cells occurs in the:",
+      "choices": ["Spleen", "Lymph nodes", "Thymus (negative selection of self-reactive T cells)", "Bone marrow"],
+      "answer": "Thymus (negative selection of self-reactive T cells)",
+      "explanation": "Central tolerance: in the thymic medulla, T cells that bind self-MHC/self-peptide with high affinity undergo apoptosis (negative selection/clonal deletion). AIRE protein expresses tissue antigens in the thymus for this purpose. Failure causes autoimmunity."
+    },
+    {
+      "id": 44,
+      "question": "The Rose-Waaler (sheep cell agglutination) test and latex agglutination test for rheumatoid factor detect which antibody?",
+      "choices": ["IgM RF against IgG Fc region", "IgG anti-dsDNA antibodies", "Anti-CCP antibodies", "ANA with speckled pattern"],
+      "answer": "IgM RF against IgG Fc region",
+      "explanation": "RF (typically IgM) agglutinates IgG-sensitized sheep RBCs (Rose-Waaler) or IgG-coated latex particles. RF is positive in ~80% RA patients, but also in other inflammatory conditions. Anti-CCP is more specific for RA."
+    },
+    {
+      "id": 45,
+      "question": "Nephelometry measures antigen-antibody reactions by:",
+      "choices": ["Color change of an enzyme substrate", "Light scattered by immune complexes (turbidity/light scatter measurement)", "Gel precipitation patterns", "Fluorescence of labeled antibodies"],
+      "answer": "Light scattered by immune complexes (turbidity/light scatter measurement)",
+      "explanation": "Nephelometry detects immune complex formation by measuring light scattered at an angle (90° for true nephelometry) by antigen-antibody precipitates. Used for quantifying immunoglobulins, complement proteins, and CRP with high sensitivity and precision."
+    },
+    {
+      "id": 46,
+      "question": "In passive hemagglutination (PHA), antigens are coated onto RBCs. Agglutination indicates:",
+      "choices": ["Complement activation", "Presence of antibodies against the coated antigen in patient serum", "Absence of antibodies", "Blood group incompatibility"],
+      "answer": "Presence of antibodies against the coated antigen in patient serum",
+      "explanation": "PHA uses RBCs coated with soluble antigen. Patient antibody cross-links the antigen-coated RBCs, causing visible agglutination. Used in TPHA (Treponema pallidum hemagglutination) for syphilis confirmation and many other serological tests."
+    },
+    {
+      "id": 47,
+      "question": "Anti-centromere antibodies are associated with which variant of systemic sclerosis?",
+      "choices": ["Diffuse scleroderma", "Limited scleroderma (CREST syndrome)", "SLE", "Polymyositis"],
+      "answer": "Limited scleroderma (CREST syndrome)",
+      "explanation": "Anti-centromere antibodies are highly associated with limited cutaneous systemic sclerosis (CREST syndrome: Calcinosis, Raynaud's, Esophageal dysmotility, Sclerodactyly, Telangiectasia). Anti-topoisomerase I (anti-Scl-70) is associated with diffuse scleroderma."
+    },
+    {
+      "id": 48,
+      "question": "Severe combined immunodeficiency (SCID) involves deficiency of both T and B cell immunity. The 'bubble boy disease' X-linked SCID is caused by mutations in:",
+      "choices": ["BTK gene", "IL-2 receptor gamma chain (γc, CD132) gene — common gamma chain", "ADA gene", "RAG1 gene"],
+      "answer": "IL-2 receptor gamma chain (γc, CD132) gene — common gamma chain",
+      "explanation": "X-linked SCID (most common SCID) is caused by mutations in the IL2RG gene encoding the common gamma chain (γc) shared by receptors for IL-2, IL-4, IL-7, IL-9, IL-15, IL-21. Without γc signaling, T and NK cell development fails; B cells present but non-functional."
+    },
+    {
+      "id": 49,
+      "question": "The counter-immunoelectrophoresis (CIE) technique is used for:",
+      "choices": ["Quantifying immunoglobulins precisely", "Rapid detection of bacterial antigens (pneumococcal, meningococcal) in body fluids", "Identifying blood group antigens", "Measuring complement levels"],
+      "answer": "Rapid detection of bacterial antigens (pneumococcal, meningococcal) in body fluids",
+      "explanation": "CIE (also called counter-current immunoelectrophoresis) uses electrical current to drive antigen and antibody toward each other in agar. It allows rapid detection of soluble bacterial antigens (e.g., pneumococcal, H. influenzae) in CSF, urine, or serum."
+    },
+    {
+      "id": 50,
+      "question": "The HBsAg positive / HBeAg positive / anti-HBc IgM positive serological pattern indicates:",
+      "choices": ["Chronic inactive carrier state", "Acute hepatitis B infection with high infectivity", "Past resolved hepatitis B", "Successfully vaccinated individual"],
+      "answer": "Acute hepatitis B infection with high infectivity",
+      "explanation": "HBsAg+ = virus present; HBeAg+ = active viral replication, high infectivity; anti-HBc IgM+ = acute infection (IgM within first 6 months). This pattern represents highly contagious acute HBV infection."
+    }
+  ]
+}

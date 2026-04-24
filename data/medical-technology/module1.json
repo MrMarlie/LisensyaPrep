@@ -1,0 +1,356 @@
+{
+  "module": "Module 1 - Clinical Chemistry",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which enzyme is most specific for myocardial infarction when elevated?",
+      "choices": ["AST", "CK-MB", "ALT", "ALP"],
+      "answer": "CK-MB",
+      "explanation": "CK-MB (Creatine Kinase-MB isoenzyme) is the most specific cardiac marker among traditional enzymes. It rises 4–6 hours post-MI and peaks at 18–24 hours."
+    },
+    {
+      "id": 2,
+      "question": "The reference method for blood glucose determination is:",
+      "choices": ["Glucose oxidase method", "Hexokinase method", "Ortho-toluidine method", "Nelson-Somogyi method"],
+      "answer": "Hexokinase method",
+      "explanation": "The hexokinase method is the reference (gold standard) method for glucose determination. It converts glucose to glucose-6-phosphate using hexokinase, then measures NADPH production spectrophotometrically."
+    },
+    {
+      "id": 3,
+      "question": "Which lipoprotein has the highest triglyceride content?",
+      "choices": ["HDL", "LDL", "VLDL", "IDL"],
+      "answer": "VLDL",
+      "explanation": "VLDL (Very Low Density Lipoprotein) carries the highest percentage of triglycerides (~60%), synthesized in the liver to transport endogenous triglycerides to peripheral tissues."
+    },
+    {
+      "id": 4,
+      "question": "The normal anion gap is approximately:",
+      "choices": ["2–6 mEq/L", "8–12 mEq/L", "14–18 mEq/L", "20–24 mEq/L"],
+      "answer": "8–12 mEq/L",
+      "explanation": "The anion gap = [Na+] − ([Cl−] + [HCO3−]) with a normal range of 8–12 mEq/L. Elevated anion gap metabolic acidosis includes conditions like DKA, lactic acidosis, and uremia."
+    },
+    {
+      "id": 5,
+      "question": "Which bilirubin fraction is water-soluble and directly measured by the van den Bergh reaction without the addition of alcohol?",
+      "choices": ["Unconjugated (indirect) bilirubin", "Conjugated (direct) bilirubin", "Delta bilirubin", "Urobilinogen"],
+      "answer": "Conjugated (direct) bilirubin",
+      "explanation": "Conjugated (direct) bilirubin is water-soluble because it has been glucuronidated in the liver. It reacts directly with Ehrlich's diazo reagent without the addition of methanol (accelerator)."
+    },
+    {
+      "id": 6,
+      "question": "Phenylketonuria (PKU) is caused by deficiency of which enzyme?",
+      "choices": ["Phenylalanine hydroxylase", "Tyrosinase", "Homogentisic acid oxidase", "Fumarylacetoacetase"],
+      "answer": "Phenylalanine hydroxylase",
+      "explanation": "PKU results from deficiency of phenylalanine hydroxylase, which converts phenylalanine to tyrosine. Accumulation of phenylalanine and its metabolites causes intellectual disability if untreated."
+    },
+    {
+      "id": 7,
+      "question": "Which electrolyte is the major intracellular cation?",
+      "choices": ["Sodium", "Chloride", "Potassium", "Bicarbonate"],
+      "answer": "Potassium",
+      "explanation": "Potassium (K+) is the primary intracellular cation, with ~98% of total body potassium inside cells. It is critical for maintaining resting membrane potential and cardiac function."
+    },
+    {
+      "id": 8,
+      "question": "Creatinine clearance is used to estimate:",
+      "choices": ["Liver function", "Glomerular filtration rate (GFR)", "Tubular secretion rate", "Renal blood flow"],
+      "answer": "Glomerular filtration rate (GFR)",
+      "explanation": "Creatinine clearance estimates GFR because creatinine is freely filtered by the glomerulus and minimally secreted/reabsorbed by the tubules, making it a reliable GFR marker."
+    },
+    {
+      "id": 9,
+      "question": "The enzyme alanine aminotransferase (ALT) is most specific for disease of which organ?",
+      "choices": ["Heart", "Kidney", "Liver", "Pancreas"],
+      "answer": "Liver",
+      "explanation": "ALT (formerly SGPT) is found in high concentrations in the liver cytoplasm. It is the most liver-specific aminotransferase; elevated ALT strongly suggests hepatocellular damage."
+    },
+    {
+      "id": 10,
+      "question": "In diabetic ketoacidosis (DKA), the primary acid-base disturbance is:",
+      "choices": ["Respiratory acidosis", "Respiratory alkalosis", "Metabolic acidosis with elevated anion gap", "Metabolic alkalosis"],
+      "answer": "Metabolic acidosis with elevated anion gap",
+      "explanation": "DKA produces a high anion gap metabolic acidosis due to accumulation of ketoacids (beta-hydroxybutyrate and acetoacetate) from uncontrolled fatty acid oxidation in the absence of insulin."
+    },
+    {
+      "id": 11,
+      "question": "Which protein is the primary binding protein for calcium in serum?",
+      "choices": ["Globulin", "Albumin", "Fibrinogen", "Ceruloplasmin"],
+      "answer": "Albumin",
+      "explanation": "Approximately 40% of serum calcium is protein-bound, primarily to albumin. Total calcium must be corrected for albumin levels; for every 1 g/dL drop in albumin below 4, add 0.8 mg/dL to measured calcium."
+    },
+    {
+      "id": 12,
+      "question": "The Jaffe reaction is used to measure which analyte?",
+      "choices": ["Urea", "Creatinine", "Uric acid", "Ammonia"],
+      "answer": "Creatinine",
+      "explanation": "The Jaffe reaction involves creatinine reacting with picric acid in alkaline solution to form an orange-red complex (Janovsky complex). It is the traditional colorimetric method for creatinine measurement."
+    },
+    {
+      "id": 13,
+      "question": "Which condition causes a falsely LOW sodium reading due to the displacement of plasma water by lipids or proteins?",
+      "choices": ["Hyperaldosteronism", "Pseudohyponatremia", "SIADH", "Diabetes insipidus"],
+      "answer": "Pseudohyponatremia",
+      "explanation": "Pseudohyponatremia occurs with severe hyperlipidemia or hyperproteinemia. Lipids and proteins displace plasma water, causing indirect (flame photometry) methods to underestimate sodium. Ion-selective electrodes are unaffected."
+    },
+    {
+      "id": 14,
+      "question": "Alkaline phosphatase (ALP) is elevated in all of the following EXCEPT:",
+      "choices": ["Paget's disease of bone", "Obstructive jaundice", "Pregnancy", "Acute hepatitis"],
+      "answer": "Acute hepatitis",
+      "explanation": "ALP is markedly elevated in bone disorders (Paget's), cholestatic liver disease (obstructive jaundice), and normal pregnancy (placental isoenzyme). In acute hepatitis, ALT and AST rise disproportionately; ALP is less prominently elevated."
+    },
+    {
+      "id": 15,
+      "question": "The osmol gap is the difference between measured and calculated osmolality. A significantly elevated osmol gap suggests:",
+      "choices": ["Hypernatremia", "Ingestion of osmotically active substances (e.g., methanol, ethanol)", "Hypokalemia", "Respiratory alkalosis"],
+      "answer": "Ingestion of osmotically active substances (e.g., methanol, ethanol)",
+      "explanation": "Calculated osmolality = 2[Na] + glucose/18 + BUN/2.8. An osmol gap >10 mOsm/kg suggests osmotically active substances not accounted for in the formula, such as ethanol, methanol, or ethylene glycol."
+    },
+    {
+      "id": 16,
+      "question": "Glycated hemoglobin (HbA1c) reflects average blood glucose over the preceding:",
+      "choices": ["1–2 weeks", "1 month", "2–3 months", "6 months"],
+      "answer": "2–3 months",
+      "explanation": "HbA1c reflects the average blood glucose over the lifespan of red blood cells (~120 days). It is used to monitor long-term glycemic control in diabetic patients, with a target of <7% for most patients."
+    },
+    {
+      "id": 17,
+      "question": "Which method is used to separate serum proteins by charge and size in clinical chemistry?",
+      "choices": ["HPLC", "Serum protein electrophoresis", "Immunodiffusion", "Turbidimetry"],
+      "answer": "Serum protein electrophoresis",
+      "explanation": "Serum protein electrophoresis (SPEP) separates proteins into bands: albumin, alpha-1, alpha-2, beta, and gamma globulins. It is used to identify monoclonal gammopathies (M-spike) and inflammatory states."
+    },
+    {
+      "id": 18,
+      "question": "In the diagnosis of acute pancreatitis, which serum enzyme rises earliest and is most commonly tested?",
+      "choices": ["Lipase", "Amylase", "Trypsin", "Elastase"],
+      "answer": "Amylase",
+      "explanation": "Serum amylase rises within 2–12 hours of the onset of acute pancreatitis, peaks at 24 hours, and returns to normal within 3–5 days. Lipase is more sensitive and specific but rises slightly later."
+    },
+    {
+      "id": 19,
+      "question": "The Henderson-Hasselbalch equation relates pH to the ratio of:",
+      "choices": ["HCO3- to CO2", "PO4 to HPO4", "Albumin to globulin", "Na+ to K+"],
+      "answer": "HCO3- to CO2",
+      "explanation": "pH = pKa + log([HCO3-]/[0.0307 × pCO2]). This equation shows that pH is determined by the ratio of bicarbonate (metabolic component) to dissolved CO2 (respiratory component)."
+    },
+    {
+      "id": 20,
+      "question": "Which lipoprotein is considered 'cardioprotective' because it transports cholesterol from peripheral tissues back to the liver?",
+      "choices": ["LDL", "VLDL", "Chylomicrons", "HDL"],
+      "answer": "HDL",
+      "explanation": "HDL mediates reverse cholesterol transport, removing cholesterol from arterial walls and returning it to the liver for excretion. High HDL (>60 mg/dL) is a negative risk factor for coronary artery disease."
+    },
+    {
+      "id": 21,
+      "question": "Which thyroid function test directly measures the output of thyroid-stimulating hormone from the pituitary?",
+      "choices": ["Free T4", "Free T3", "TSH", "Reverse T3"],
+      "answer": "TSH",
+      "explanation": "TSH (thyroid-stimulating hormone) is the most sensitive test for thyroid function. In primary hypothyroidism, TSH is elevated; in hyperthyroidism or secondary hypothyroidism, TSH is low. Measured by sensitive immunoassay."
+    },
+    {
+      "id": 22,
+      "question": "The primary buffer system of blood is the:",
+      "choices": ["Protein buffer system", "Phosphate buffer system", "Bicarbonate-carbonic acid buffer system", "Hemoglobin buffer system"],
+      "answer": "Bicarbonate-carbonic acid buffer system",
+      "explanation": "The bicarbonate-carbonic acid system (HCO3-/H2CO3) is the most important blood buffer because both components are regulated: CO2 by the lungs and HCO3- by the kidneys."
+    },
+    {
+      "id": 23,
+      "question": "Uric acid is the end product of the metabolism of:",
+      "choices": ["Pyrimidines", "Purines", "Amino acids", "Fatty acids"],
+      "answer": "Purines",
+      "explanation": "Uric acid is the final product of purine catabolism in humans via xanthine oxidase. Hyperuricemia leads to gout when urate crystals deposit in joints and soft tissues."
+    },
+    {
+      "id": 24,
+      "question": "Which test specifically differentiates obstructive jaundice from hepatocellular jaundice?",
+      "choices": ["Total bilirubin", "Direct/indirect bilirubin ratio", "GGT and ALP pattern", "ALT level"],
+      "answer": "GGT and ALP pattern",
+      "explanation": "In obstructive jaundice, both GGT and ALP are markedly elevated (cholestatic pattern). GGT elevation with ALP elevation points to biliary obstruction. GGT is also helpful because bone disease raises ALP but not GGT."
+    },
+    {
+      "id": 25,
+      "question": "Normal fasting blood glucose (plasma) according to the American Diabetes Association (ADA) is:",
+      "choices": ["<70 mg/dL", "<100 mg/dL", "<126 mg/dL", "<140 mg/dL"],
+      "answer": "<100 mg/dL",
+      "explanation": "ADA defines normal fasting plasma glucose as <100 mg/dL. Impaired fasting glucose (prediabetes) is 100–125 mg/dL, and diabetes mellitus is diagnosed at ≥126 mg/dL on two occasions."
+    },
+    {
+      "id": 26,
+      "question": "Troponin I and troponin T are preferred cardiac biomarkers over CK-MB because they:",
+      "choices": ["Rise faster than CK-MB", "Are specific only to cardiac muscle", "Are cheaper to measure", "Normalize within 24 hours"],
+      "answer": "Are specific only to cardiac muscle",
+      "explanation": "Cardiac troponins I and T have isoforms unique to myocardial tissue, making them highly specific for cardiac injury. They remain elevated for 7–14 days, allowing late diagnosis of MI unlike CK-MB (returns normal in 2–3 days)."
+    },
+    {
+      "id": 27,
+      "question": "In metabolic alkalosis, the expected respiratory compensation is:",
+      "choices": ["Hyperventilation (decreased pCO2)", "Hypoventilation (increased pCO2)", "Increased bicarbonate excretion", "No compensation"],
+      "answer": "Hypoventilation (increased pCO2)",
+      "explanation": "In metabolic alkalosis (high HCO3-), the respiratory system compensates by hypoventilation, retaining CO2 (increasing pCO2) to lower pH back toward normal."
+    },
+    {
+      "id": 28,
+      "question": "Galactosemia is associated with deficiency of which enzyme?",
+      "choices": ["Galactokinase or GALT (galactose-1-phosphate uridylyltransferase)", "Glucose-6-phosphatase", "Fructose-1-phosphate aldolase", "Glucokinase"],
+      "answer": "Galactokinase or GALT (galactose-1-phosphate uridylyltransferase)",
+      "explanation": "Classic galactosemia results from GALT deficiency, causing accumulation of galactose-1-phosphate which is toxic to the liver, brain, and kidneys. Galactokinase deficiency causes cataracts (milder form)."
+    },
+    {
+      "id": 29,
+      "question": "The Watson-Schwartz test is used to detect which substance in urine?",
+      "choices": ["Glucose", "Porphyrins and porphobilinogen", "Bilirubin", "Ketones"],
+      "answer": "Porphyrins and porphobilinogen",
+      "explanation": "The Watson-Schwartz test detects porphobilinogen (PBG) in urine using Ehrlich's aldehyde reagent. A positive result that does not extract into butanol or chloroform indicates PBG, used to diagnose acute porphyria."
+    },
+    {
+      "id": 30,
+      "question": "Which specimen is preferred for most clinical chemistry tests to avoid glycolysis?",
+      "choices": ["Whole blood in EDTA", "Serum", "Plasma with sodium fluoride/potassium oxalate", "Urine"],
+      "answer": "Serum",
+      "explanation": "Serum (from clotted blood without anticoagulants) is preferred for most chemistry tests. Sodium fluoride/potassium oxalate tubes are used specifically for glucose to prevent glycolysis by red blood cells."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is NOT a ketone body?",
+      "choices": ["Acetoacetate", "Beta-hydroxybutyrate", "Acetone", "Pyruvate"],
+      "answer": "Pyruvate",
+      "explanation": "The three ketone bodies are acetoacetate, beta-hydroxybutyrate (technically a hydroxy acid), and acetone. Pyruvate is an intermediate in glycolysis, not a ketone body."
+    },
+    {
+      "id": 32,
+      "question": "The Biuret reaction is used to measure:",
+      "choices": ["Glucose", "Total protein", "Cholesterol", "Triglycerides"],
+      "answer": "Total protein",
+      "explanation": "The Biuret reaction measures total protein. Peptide bonds react with cupric ions (Cu2+) in alkaline solution to produce a violet-colored complex, detected at 540 nm."
+    },
+    {
+      "id": 33,
+      "question": "An increase in which analyte is pathognomonic of Paget's disease of bone?",
+      "choices": ["ALP (bone isoform)", "ALT", "Amylase", "CK-MM"],
+      "answer": "ALP (bone isoform)",
+      "explanation": "In Paget's disease, osteoblastic activity is markedly increased, causing extremely high alkaline phosphatase levels (bone isoform). ALP can be elevated 10–25 times the upper reference limit."
+    },
+    {
+      "id": 34,
+      "question": "In the glucose tolerance test (OGTT), a 2-hour plasma glucose ≥200 mg/dL is diagnostic of:",
+      "choices": ["Normal glucose tolerance", "Impaired glucose tolerance", "Diabetes mellitus", "Reactive hypoglycemia"],
+      "answer": "Diabetes mellitus",
+      "explanation": "During a 75g OGTT, a 2-hour plasma glucose ≥200 mg/dL diagnoses diabetes mellitus. Values of 140–199 mg/dL indicate impaired glucose tolerance (prediabetes)."
+    },
+    {
+      "id": 35,
+      "question": "Which amino acid is the precursor of catecholamines (dopamine, epinephrine, norepinephrine)?",
+      "choices": ["Tryptophan", "Tyrosine", "Phenylalanine", "Methionine"],
+      "answer": "Tyrosine",
+      "explanation": "Tyrosine is the precursor for catecholamine biosynthesis: tyrosine → DOPA → dopamine → norepinephrine → epinephrine. Measurement of urinary catecholamines and metabolites (VMA, HVA) diagnoses pheochromocytoma."
+    },
+    {
+      "id": 36,
+      "question": "Hyperkalemia can cause life-threatening cardiac arrhythmias. Which ECG change is seen first in hyperkalemia?",
+      "choices": ["Widened QRS", "Prolonged PR interval", "Peaked T waves", "Sine wave pattern"],
+      "answer": "Peaked T waves",
+      "explanation": "Peaked (tall, narrow) T waves are the earliest ECG sign of hyperkalemia. As K+ rises further, PR prolongation, widened QRS, then a sine-wave pattern and ventricular fibrillation occur."
+    },
+    {
+      "id": 37,
+      "question": "LDL cholesterol is commonly calculated using the Friedewald equation. Which values are required?",
+      "choices": ["Total cholesterol, HDL, and triglycerides", "Total cholesterol, albumin, and glucose", "VLDL, glucose, and HDL", "Total protein, bilirubin, and ALP"],
+      "answer": "Total cholesterol, HDL, and triglycerides",
+      "explanation": "Friedewald equation: LDL = Total Cholesterol − HDL − (Triglycerides/5). It is valid only when triglycerides <400 mg/dL; otherwise direct LDL measurement is required."
+    },
+    {
+      "id": 38,
+      "question": "The reference method for serum cholesterol determination is:",
+      "choices": ["Liebermann-Burchard reaction", "Cholesterol oxidase method", "Abel-Kendall method (Abell-Kendall)", "Enzymatic colorimetric method"],
+      "answer": "Abel-Kendall method (Abell-Kendall)",
+      "explanation": "The Abell-Kendall method (using saponification, extraction, and the Liebermann-Burchard reaction) is the reference method for total cholesterol. Enzymatic (cholesterol oxidase-peroxidase) methods are used routinely."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is a catabolic product of heme degradation measured in liver function tests?",
+      "choices": ["Albumin", "Bilirubin", "Cholesterol", "Transferrin"],
+      "answer": "Bilirubin",
+      "explanation": "Bilirubin is produced from the degradation of heme (from hemoglobin and other heme proteins) by reticuloendothelial cells. It is conjugated in the liver and excreted in bile. Elevated levels cause jaundice."
+    },
+    {
+      "id": 40,
+      "question": "Hypernatremia most commonly results from:",
+      "choices": ["Excess sodium intake", "Free water deficit (dehydration)", "Excessive ADH secretion", "Mineralocorticoid deficiency"],
+      "answer": "Free water deficit (dehydration)",
+      "explanation": "Hypernatremia (Na+ >145 mEq/L) most often results from a free water deficit (e.g., inadequate intake, excessive insensible losses, diabetes insipidus) rather than sodium excess."
+    },
+    {
+      "id": 41,
+      "question": "Which hormone does the adrenal cortex secrete that promotes sodium retention and potassium excretion?",
+      "choices": ["Cortisol", "Aldosterone", "DHEA", "Epinephrine"],
+      "answer": "Aldosterone",
+      "explanation": "Aldosterone (mineralocorticoid) acts on the distal nephron to promote Na+ reabsorption and K+ secretion. Primary hyperaldosteronism (Conn's syndrome) causes hypertension, hypokalemia, and metabolic alkalosis."
+    },
+    {
+      "id": 42,
+      "question": "Increased serum ferritin is a marker of iron stores but can also be elevated as an acute phase reactant in:",
+      "choices": ["Iron deficiency anemia", "Inflammation and infection", "Chronic blood loss", "Malabsorption syndrome"],
+      "answer": "Inflammation and infection",
+      "explanation": "Ferritin is an acute phase reactant that increases during inflammation, infection, and malignancy. This limits its specificity for iron overload. Transferrin saturation and serum iron are needed for a complete iron profile."
+    },
+    {
+      "id": 43,
+      "question": "The enzyme used in the enzymatic method for glucose analysis (glucose oxidase method) produces which product that reacts with a chromogen?",
+      "choices": ["Glucuronate", "Hydrogen peroxide (H2O2)", "NADH", "Gluconate"],
+      "answer": "Hydrogen peroxide (H2O2)",
+      "explanation": "Glucose oxidase converts glucose + O2 → gluconolactone + H2O2. Peroxidase then reacts H2O2 with a chromogen (e.g., o-dianisidine or Trinder reagent) to produce a colored product measured colorimetrically."
+    },
+    {
+      "id": 44,
+      "question": "BUN (blood urea nitrogen) to creatinine ratio >20:1 suggests:",
+      "choices": ["Post-renal obstruction", "Intrinsic renal disease (ATN)", "Pre-renal azotemia", "Normal renal function"],
+      "answer": "Pre-renal azotemia",
+      "explanation": "A BUN:creatinine ratio >20:1 suggests pre-renal azotemia (decreased renal perfusion). In pre-renal states, urea reabsorption increases disproportionately to creatinine. A ratio of 10–20:1 is normal."
+    },
+    {
+      "id": 45,
+      "question": "Cortisol levels are highest at which time of day due to diurnal variation?",
+      "choices": ["Midnight", "Early morning (8 AM)", "Noon", "Early evening (6 PM)"],
+      "answer": "Early morning (8 AM)",
+      "explanation": "Cortisol follows a circadian rhythm with peak levels in early morning (~8 AM) and nadir at midnight. This diurnal pattern is lost in Cushing's syndrome; late-night salivary cortisol is used as a screening test."
+    },
+    {
+      "id": 46,
+      "question": "Which analyte is measured by the Diazo method (van den Bergh reaction)?",
+      "choices": ["Creatinine", "Bilirubin", "Albumin", "Uric acid"],
+      "answer": "Bilirubin",
+      "explanation": "The van den Bergh reaction measures bilirubin using diazonium salts. Direct bilirubin reacts immediately; indirect bilirubin requires addition of methanol (accelerator) to react. Total bilirubin is the sum of both."
+    },
+    {
+      "id": 47,
+      "question": "Which metabolic disorder is characterized by accumulation of phenylalanine, causing musty odor in urine and intellectual disability?",
+      "choices": ["Alkaptonuria", "Phenylketonuria (PKU)", "Maple syrup urine disease", "Homocystinuria"],
+      "answer": "Phenylketonuria (PKU)",
+      "explanation": "PKU causes phenylalanine accumulation which is converted to phenylketones (phenylpyruvate, phenylacetate) excreted in urine, causing a musty/mousy odor. Intellectual disability results from high phenylalanine in the CNS."
+    },
+    {
+      "id": 48,
+      "question": "The principle of atomic absorption spectrophotometry (AAS) is best used in the clinical laboratory for measuring:",
+      "choices": ["Hormones by immunoassay", "Trace metals (e.g., lead, zinc, copper)", "Blood gases", "Enzyme activity"],
+      "answer": "Trace metals (e.g., lead, zinc, copper)",
+      "explanation": "AAS measures trace elements by detecting light absorbed by ground-state atoms in an atomized sample. It is the reference method for measuring heavy metals such as lead, zinc, copper, and mercury in clinical specimens."
+    },
+    {
+      "id": 49,
+      "question": "Which disorder is associated with cherry-red discoloration of the skin and elevated carboxyhemoglobin?",
+      "choices": ["Methemoglobinemia", "Carbon monoxide poisoning", "Cyanide poisoning", "Sulfhemoglobinemia"],
+      "answer": "Carbon monoxide poisoning",
+      "explanation": "Carbon monoxide binds hemoglobin with 200× the affinity of oxygen, forming carboxyhemoglobin (COHb). This causes a cherry-red skin color. CO-oximetry is required; standard pulse oximetry cannot distinguish COHb from oxyhemoglobin."
+    },
+    {
+      "id": 50,
+      "question": "In protein electrophoresis, a monoclonal 'M-spike' in the gamma region is most associated with:",
+      "choices": ["Chronic inflammation", "Liver cirrhosis", "Multiple myeloma or Waldenström's macroglobulinemia", "Nephrotic syndrome"],
+      "answer": "Multiple myeloma or Waldenström's macroglobulinemia",
+      "explanation": "A discrete M-spike (paraprotein) in the gamma region indicates a monoclonal proliferation of plasma cells or B-cells, as in multiple myeloma (IgG or IgA) or Waldenström's macroglobulinemia (IgM). Further characterization uses immunofixation electrophoresis."
+    }
+  ]
+}
