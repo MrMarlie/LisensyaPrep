@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { saveUserProfile } from '@/lib/storage';
 import { containsProfanity } from '@/lib/profanityFilter';
-import AuthModal from '@/components/auth/AuthModal';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -12,7 +11,6 @@ export default function PlayerSetupModal({ onComplete }) {
   const [email, setEmail] = useState('');
   const [nameTouched, setNameTouched] = useState(false);
   const [emailTouched, setEmailTouched] = useState(false);
-  const [showAuth, setShowAuth] = useState(false);
 
   const nameError = (() => {
     if (!name.trim()) return 'Name is required.';
@@ -45,7 +43,7 @@ export default function PlayerSetupModal({ onComplete }) {
           <span className="text-4xl">⚔️</span>
           <h2 className="text-white font-extrabold text-2xl mt-2">Before you battle…</h2>
           <p className="text-gray-400 text-sm mt-1">
-            Enter your name to personalize your HP bar.
+            Enter your details to start. Both fields are required.
           </p>
         </div>
 
@@ -110,19 +108,7 @@ export default function PlayerSetupModal({ onComplete }) {
           </button>
         </form>
 
-        <p className="text-gray-600 text-xs text-center mt-4">
-          Your info is saved only on this device.{' '}
-          <button
-            type="button"
-            onClick={() => setShowAuth(true)}
-            className="text-yellow-400 underline"
-          >
-            Sign in
-          </button>{' '}
-          to sync across devices.
-        </p>
       </div>
-      {showAuth && <AuthModal onClose={() => setShowAuth(false)} />}
     </div>
   );
 }

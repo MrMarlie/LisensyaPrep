@@ -20,7 +20,7 @@ export default function QuizEngine({ initialState, moduleInfo }) {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showExplanation, setShowExplanation] = useState(false);
   const [playerName, setPlayerName] = useState('You');
-  const [showSetupModal, setShowSetupModal] = useState(false);
+  const [showSetupModal, setShowSetupModal] = useState(true);
 
   useEffect(() => {
     if (user && authProfile?.display_name) {
