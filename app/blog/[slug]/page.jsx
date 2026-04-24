@@ -1,11 +1,11 @@
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import Link from 'next/link';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { BLOG_POSTS } from '@/lib/blogData';
 import { buildMetadata } from '@/lib/seo';
 
 export async function generateStaticParams() {
-  return BLOG_POSTS.map((p) => ({ slug: p.slug }));
+  return BLOG_POSTS.filter((p) => !p.url).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }) {
@@ -203,6 +203,7 @@ function getCtaHref(tag) {
 export default function BlogPostPage({ params }) {
   const post = BLOG_POSTS.find((p) => p.slug === params.slug);
   if (!post) return notFound();
+  if (post.url) redirect(post.url);
 
   const otherPosts = BLOG_POSTS.filter((p) => p.slug !== params.slug);
   const ctaHref = getCtaHref(post.tag);
