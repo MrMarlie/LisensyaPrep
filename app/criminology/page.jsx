@@ -110,6 +110,41 @@ export default function CriminologyPage() {
         </div>
       </section>
 
+      {/* CLE Study Articles */}
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between mb-6">
+            <div>
+              <h2 className="text-2xl font-extrabold text-white">CLE Study Articles</h2>
+              <p className="text-gray-400 text-sm mt-1">Free reviewers and guides for every CLE subject area.</p>
+            </div>
+            <Link href="/criminology/cle-coverage-2026" className="text-yellow-400 hover:text-yellow-300 text-sm font-semibold transition-colors whitespace-nowrap">
+              View all →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { title: 'CLE Coverage 2026: Complete Subject Breakdown', href: '/criminology/cle-coverage-2026', tag: 'Study Map' },
+              { title: 'Criminal Jurisprudence and Procedure Reviewer', href: '/criminology/criminal-jurisprudence-procedure-reviewer', tag: 'Subject Reviewer' },
+              { title: 'Law Enforcement Administration Reviewer', href: '/criminology/law-enforcement-administration-reviewer', tag: 'Subject Reviewer' },
+              { title: 'Criminalistics and Dactyloscopy Reviewer', href: '/criminology/criminalistics-dactyloscopy-reviewer', tag: 'Subject Reviewer' },
+              { title: 'Correctional Administration Reviewer', href: '/criminology/correctional-administration-reviewer', tag: 'Subject Reviewer' },
+              { title: 'Juvenile Delinquency and Crime Prevention Reviewer', href: '/criminology/juvenile-delinquency-crime-prevention-reviewer', tag: 'Subject Reviewer' },
+              { title: 'Criminal Sociology and Ethics Reviewer', href: '/criminology/criminal-sociology-ethics-reviewer', tag: 'Subject Reviewer' },
+              { title: 'How to Apply for CLE via PRC LERIS 2026', href: '/criminology/cle-application-guide-2026', tag: 'Application Guide' },
+              { title: 'CLE Passing Rate and Results 2026', href: '/criminology/cle-passing-rate-results-2026', tag: 'Results & Stats' },
+            ].map(({ title, href, tag }) => (
+              <Link key={href} href={href} className="group">
+                <div className="bg-[#0f1629] border border-white/10 hover:border-red-500/30 rounded-xl p-4 h-full transition-all">
+                  <span className="text-xs font-semibold text-red-400 bg-red-500/10 px-2 py-0.5 rounded-full">{tag}</span>
+                  <p className="text-white text-sm font-semibold mt-2 group-hover:text-yellow-400 transition-colors leading-snug">{title}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Exam Info */}
       <section className="py-12 bg-[#0a1029]/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
