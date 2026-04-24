@@ -43,6 +43,7 @@ export default function Header() {
   const isCourseActive = COURSES.some((c) => pathname.startsWith(c.href));
 
   return (
+  <>
     <header className="bg-navy-950 border-b border-gold-500/20 sticky top-0 z-50 backdrop-blur-sm bg-[#0a0f1e]/95">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
@@ -137,8 +138,8 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-3">
             {user ? (
               <>
-                <span className="text-gray-400 text-sm truncate max-w-[140px]">
-                  {profile?.display_name || user.email}
+                <span className="text-yellow-400 text-sm font-semibold">
+                  Hi {profile?.display_name ? profile.display_name.split(' ')[0] : user.email.split('@')[0]}!
                 </span>
                 <button
                   onClick={signOut}
@@ -162,7 +163,6 @@ export default function Header() {
               Start Quiz
             </Link>
           </div>
-          {showAuth && <AuthModal onClose={() => setShowAuth(false)} />}
 
           {/* Mobile menu button */}
           <button
@@ -242,5 +242,7 @@ export default function Header() {
         </div>
       )}
     </header>
+    {showAuth && <AuthModal onClose={() => setShowAuth(false)} />}
+  </>
   );
 }

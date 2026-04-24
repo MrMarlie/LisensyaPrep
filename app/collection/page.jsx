@@ -86,9 +86,17 @@ function CourseCollection({ course, collectibles, stats }) {
           <div className="text-center">
             <p className="text-4xl mb-2">🎓</p>
             <h3 className={`text-xl font-extrabold mb-1 ${course.accent}`}>License Complete!</h3>
-            <p className="text-gray-300 text-sm">
+            <p className="text-gray-300 text-sm mb-4">
               Congratulations! You have all {course.label} PRZ pieces.
             </p>
+            <div className="bg-white/5 border border-yellow-400/30 rounded-xl p-4 text-left mt-2">
+              <p className="text-yellow-400 font-bold text-sm mb-2">🎉 Claim Your Reward!</p>
+              <ol className="text-gray-300 text-xs space-y-1.5 list-decimal list-inside leading-relaxed">
+                <li>Take a <strong className="text-white">screenshot</strong> of this completed collection page.</li>
+                <li>Send it to our Facebook page: <strong className="text-yellow-400">facebook.com/LisensyaPrep</strong></li>
+                <li>We will update your questions with a <strong className="text-white">fresh set</strong> just for you!</li>
+              </ol>
+            </div>
           </div>
         ) : (
           <div>
