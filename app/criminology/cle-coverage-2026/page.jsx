@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
@@ -212,12 +213,12 @@ export default function CleCoverage2026Page() {
               </div>
             </header>
 
-            <img
+            <Image
               src="/images/articles/hero-cle-coverage-2026.jpg"
               alt="Filipino criminology graduate in academic gown holding diploma for CLE coverage 2026 Philippines"
               width={1200} height={630}
               style={{ width: '100%', height: 'auto', borderRadius: '12px', marginBottom: '2rem' }}
-              loading="eager"
+              priority
             />
 
             <div className="prose-content">

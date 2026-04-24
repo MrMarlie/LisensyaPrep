@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
@@ -169,12 +170,12 @@ export default function CleApplicationGuidePage() {
               </div>
             </header>
 
-            <img
+            <Image
               src="/images/articles/hero-cle-application-results.jpg"
               alt="Person applying for CLE board exam online via PRC LERIS portal Philippines 2026"
               width={1200} height={630}
               style={{ width: '100%', height: 'auto', borderRadius: '12px', marginBottom: '2rem' }}
-              loading="eager"
+              priority
             />
 
             <div className="prose-content">
