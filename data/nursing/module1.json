@@ -1,0 +1,356 @@
+{
+  "module": "Module 1 - Fundamentals of Nursing",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The nursing process step in which the nurse collects subjective and objective data about the patient is:",
+      "choices": ["Planning", "Assessment", "Implementation", "Evaluation"],
+      "answer": "Assessment",
+      "explanation": "Assessment is the first step of the nursing process (ADPIE) and involves systematic collection of subjective data (patient reports) and objective data (measurable findings) to establish a database for care."
+    },
+    {
+      "id": 2,
+      "question": "A nursing diagnosis statement using the PES format consists of:",
+      "choices": ["Problem, Etiology, Signs/Symptoms", "Plan, Evaluation, Strategy", "Problem, Expected outcome, Safety", "Patient, Environment, Symptoms"],
+      "answer": "Problem, Etiology, Signs/Symptoms",
+      "explanation": "The PES format structures a nursing diagnosis as: Problem (NANDA label) related to Etiology (related factors) as evidenced by Signs/Symptoms (defining characteristics). This format clearly communicates the health problem, its cause, and supporting evidence."
+    },
+    {
+      "id": 3,
+      "question": "Which vital sign assessment finding in an adult requires IMMEDIATE nursing action?",
+      "choices": ["Temperature of 37.2°C", "Pulse rate of 58 bpm", "Respiratory rate of 8 breaths/min", "Blood pressure of 118/76 mmHg"],
+      "answer": "Respiratory rate of 8 breaths/min",
+      "explanation": "A respiratory rate of 8 breaths/min (bradypnea) in an adult is critically low — normal is 12–20/min. This indicates inadequate ventilation and requires immediate assessment and intervention. The other values are within or near normal limits."
+    },
+    {
+      "id": 4,
+      "question": "When taking an oral temperature on an adult, the nurse should place the thermometer under the tongue in the:",
+      "choices": ["Center of the tongue", "Posterior sublingual pocket", "Left side of the mouth", "Right side of the mouth"],
+      "answer": "Posterior sublingual pocket",
+      "explanation": "The posterior sublingual pocket (beside the frenulum) has the richest blood supply from the carotid artery, providing the most accurate reflection of core body temperature. Placement elsewhere yields less accurate readings."
+    },
+    {
+      "id": 5,
+      "question": "The nurse is assessing a patient's blood pressure and notes a systolic pressure of 148 mmHg and diastolic pressure of 94 mmHg. This finding is classified as:",
+      "choices": ["Normal", "Elevated", "Stage 1 Hypertension", "Stage 2 Hypertension"],
+      "answer": "Stage 2 Hypertension",
+      "explanation": "Per the 2017 ACC/AHA guidelines: Normal is <120/<80, Elevated is 120–129/<80, Stage 1 HTN is 130–139/80–89, and Stage 2 HTN is ≥140/≥90. A BP of 148/94 qualifies as Stage 2 Hypertension."
+    },
+    {
+      "id": 6,
+      "question": "Medical asepsis (clean technique) is BEST described as:",
+      "choices": ["Elimination of all microorganisms including spores", "Reduction of number and spread of pathogens", "Sterilization of all equipment used on the patient", "Use of sterile gloves during all patient care"],
+      "answer": "Reduction of number and spread of pathogens",
+      "explanation": "Medical asepsis (clean technique) aims to reduce the number and spread of pathogens but does not eliminate all microorganisms. Surgical asepsis (sterile technique) eliminates all microorganisms. Handwashing and standard precautions are examples of medical asepsis."
+    },
+    {
+      "id": 7,
+      "question": "A nurse is about to administer medication and notices the patient's ID band is missing. The BEST action is to:",
+      "choices": ["Proceed if the patient verbally states their name and birth date", "Ask the patient's roommate for identification", "Withhold the medication and notify the charge nurse", "Ask the patient to state their name and verify against the MAR"],
+      "answer": "Ask the patient to state their name and verify against the MAR",
+      "explanation": "Two patient identifiers are required before medication administration. The nurse should ask the patient to state their name (and one other identifier such as date of birth) and verify against the medication administration record (MAR). Missing ID band should also be replaced."
+    },
+    {
+      "id": 8,
+      "question": "Which route of medication administration has the FASTEST onset of action?",
+      "choices": ["Oral", "Intramuscular", "Subcutaneous", "Intravenous"],
+      "answer": "Intravenous",
+      "explanation": "Intravenous (IV) administration delivers medication directly into the bloodstream, producing the fastest onset of action (within seconds to minutes). Oral is slowest; IM and SC are intermediate. This is why IV is used in emergencies."
+    },
+    {
+      "id": 9,
+      "question": "Before administering a medication, the nurse should perform which of the following 'rights'? Select the COMPLETE set:",
+      "choices": ["Right patient, drug, dose, route, time", "Right patient, drug, dose, room, time", "Right patient, drug, dose, route, chart", "Right nurse, drug, dose, route, time"],
+      "answer": "Right patient, drug, dose, route, time",
+      "explanation": "The Five Rights of medication administration are: Right Patient, Right Drug, Right Dose, Right Route, Right Time. Some sources add Right Documentation and Right Reason. These rights are the foundation of safe medication practice."
+    },
+    {
+      "id": 10,
+      "question": "The nurse is caring for a patient in contact precautions. Which PPE is required upon entering the room?",
+      "choices": ["Gloves only", "Gloves and gown", "Mask and gloves", "Gloves, gown, and N95 mask"],
+      "answer": "Gloves and gown",
+      "explanation": "Contact precautions require gloves AND a gown upon entering the room. This combination prevents transmission of organisms spread by direct or indirect contact (e.g., MRSA, C. difficile, VRE). An N95 is required only for airborne precautions."
+    },
+    {
+      "id": 11,
+      "question": "The correct sequence for donning (putting on) PPE is:",
+      "choices": ["Gown, mask, goggles, gloves", "Gloves, gown, mask, goggles", "Mask, goggles, gown, gloves", "Goggles, mask, gloves, gown"],
+      "answer": "Gown, mask, goggles, gloves",
+      "explanation": "The CDC recommends donning PPE in this order: Gown → Mask/Respirator → Goggles/Face shield → Gloves. Doffing (removing) is in reverse: Gloves → Goggles → Gown → Mask. This sequence minimizes self-contamination."
+    },
+    {
+      "id": 12,
+      "question": "A patient is placed on droplet precautions. The nurse should wear which PPE when providing care within 3 feet of the patient?",
+      "choices": ["N95 respirator", "Surgical mask", "Gown only", "Gloves only"],
+      "answer": "Surgical mask",
+      "explanation": "Droplet precautions require a surgical mask when within 3 feet (1 meter) of the patient. Droplets (>5 microns) do not remain airborne long-distance. An N95 respirator is required for airborne precautions (tuberculosis, measles, chickenpox)."
+    },
+    {
+      "id": 13,
+      "question": "When performing hand hygiene, the WHO recommends rubbing hands with alcohol-based hand rub for a minimum of:",
+      "choices": ["10–15 seconds", "20–30 seconds", "40–60 seconds", "60–90 seconds"],
+      "answer": "20–30 seconds",
+      "explanation": "The WHO 6-step hand rub technique with alcohol-based hand rub should last 20–30 seconds. Handwashing with soap and water should last 40–60 seconds. Alcohol-based hand rub is preferred when hands are not visibly soiled."
+    },
+    {
+      "id": 14,
+      "question": "Which position is MOST appropriate for a patient who is unconscious and breathing spontaneously to prevent aspiration?",
+      "choices": ["Supine (flat on back)", "High Fowler's (90 degrees)", "Lateral/recovery position", "Trendelenburg position"],
+      "answer": "Lateral/recovery position",
+      "explanation": "The lateral (recovery) position allows secretions to drain from the mouth and maintains airway patency, reducing aspiration risk in unconscious patients who are breathing spontaneously. Supine increases aspiration risk."
+    },
+    {
+      "id": 15,
+      "question": "A patient with hypotension and poor peripheral perfusion would BEST benefit from which position?",
+      "choices": ["High Fowler's", "Prone", "Modified Trendelenburg (legs elevated)", "Lithotomy"],
+      "answer": "Modified Trendelenburg (legs elevated)",
+      "explanation": "Elevating the legs 15–30 degrees (modified Trendelenburg or passive leg raise) increases venous return to the heart, improving cardiac output and blood pressure. True Trendelenburg (head down) is no longer routinely recommended due to risks of increased intracranial pressure."
+    },
+    {
+      "id": 16,
+      "question": "The nurse is about to insert a nasogastric (NG) tube. Which action verifies correct placement MOST reliably?",
+      "choices": ["Aspirating gastric contents and checking pH", "Auscultating air injected into the stomach", "Observing for coughing and gagging", "Confirming with X-ray"],
+      "answer": "Confirming with X-ray",
+      "explanation": "Radiographic (X-ray) confirmation is the gold standard and MOST reliable method for verifying NG tube placement, especially before initial feeding or medication administration. pH testing of aspirate (pH ≤5.5) is reliable for confirmation when X-ray is unavailable. Auscultation alone is no longer considered reliable."
+    },
+    {
+      "id": 17,
+      "question": "A patient is NPO for surgery. The nurse understands that NPO means:",
+      "choices": ["Nothing by mouth except water", "No oral medications allowed", "Nothing by mouth including all oral intake", "No protein or oils allowed"],
+      "answer": "Nothing by mouth including all oral intake",
+      "explanation": "NPO (nil per os) means nothing by mouth, including food, water, and oral medications unless specifically ordered. The purpose is to prevent aspiration during anesthesia. The anesthesiologist or surgeon specifies any exceptions (e.g., medications with small sips of water)."
+    },
+    {
+      "id": 18,
+      "question": "When performing a bed bath, which area of the body should the nurse wash LAST?",
+      "choices": ["Face", "Chest and abdomen", "Arms", "Perineal area"],
+      "answer": "Perineal area",
+      "explanation": "The perineal area is washed last during a bed bath to prevent contamination of clean body areas. The sequence progresses from cleanest to dirtiest: Face → Neck → Arms → Chest → Abdomen → Legs → Back → Perineum."
+    },
+    {
+      "id": 19,
+      "question": "The nurse is preparing to administer an intramuscular injection. The preferred site for adults that provides the least risk of hitting a nerve or blood vessel is the:",
+      "choices": ["Dorsogluteal site", "Deltoid muscle", "Vastus lateralis", "Ventrogluteal site"],
+      "answer": "Ventrogluteal site",
+      "explanation": "The ventrogluteal site is now the PREFERRED IM injection site for adults because it has no major nerves or blood vessels nearby and has a thick muscle mass. The dorsogluteal site is associated with sciatic nerve injury risk and is no longer recommended."
+    },
+    {
+      "id": 20,
+      "question": "Which needle gauge and length is MOST appropriate for an intramuscular injection in an average adult?",
+      "choices": ["25-gauge, 5/8 inch", "18-gauge, 1.5 inch", "21–23 gauge, 1–1.5 inch", "27-gauge, 1/2 inch"],
+      "answer": "21–23 gauge, 1–1.5 inch",
+      "explanation": "IM injections in adults typically use a 21–23 gauge, 1–1.5 inch needle. Longer needles (up to 2 inches) may be needed for obese patients. The 25-gauge 5/8-inch is used for subcutaneous injections; the 27-gauge for intradermal."
+    },
+    {
+      "id": 21,
+      "question": "The Z-track method of IM injection is used primarily to:",
+      "choices": ["Reduce pain at the injection site", "Prevent medication from leaking back into subcutaneous tissue", "Increase absorption rate", "Prevent air embolism"],
+      "answer": "Prevent medication from leaking back into subcutaneous tissue",
+      "explanation": "The Z-track method displaces the skin laterally before injection and releases it after withdrawal of the needle, sealing the medication in the muscle and preventing leakage into subcutaneous tissue. It is used for irritating or staining medications (e.g., iron dextran)."
+    },
+    {
+      "id": 22,
+      "question": "A patient receiving IV fluids develops swelling, coolness, and pallor at the IV site. The nurse suspects:",
+      "choices": ["Phlebitis", "Infiltration", "Thrombosis", "Air embolism"],
+      "answer": "Infiltration",
+      "explanation": "Infiltration occurs when IV fluid leaks into surrounding tissue (non-vesicant). Signs include local swelling, coolness, pallor, and pain. Phlebitis presents with redness, warmth, and a cord along the vein. The nurse should discontinue the IV and restart at a new site."
+    },
+    {
+      "id": 23,
+      "question": "A patient's IV site shows redness, warmth, and a palpable cord along the vein. This is MOST consistent with:",
+      "choices": ["Infiltration", "Extravasation", "Phlebitis", "Cellulitis"],
+      "answer": "Phlebitis",
+      "explanation": "Phlebitis (inflammation of the vein) presents with redness, warmth, swelling, and a palpable cord along the vein track. It can be caused by mechanical irritation, chemical irritation from medications, or infection. The IV should be discontinued and restarted."
+    },
+    {
+      "id": 24,
+      "question": "When documenting patient care, the nurse should follow the principle of:",
+      "choices": ["Documenting what care was planned, not necessarily what was done", "Recording care as soon as possible after it is provided", "Using abbreviations freely to save time", "Writing in pencil to allow corrections"],
+      "answer": "Recording care as soon as possible after it is provided",
+      "explanation": "Accurate documentation requires recording care as soon as possible after implementation while memory is fresh. Use only approved abbreviations, write in ink, never use pencil, document only what was actually done, and never document in advance."
+    },
+    {
+      "id": 25,
+      "question": "The nurse makes a medication error and documents incorrect information in the chart. The CORRECT action is to:",
+      "choices": ["Use correction fluid (white-out) to cover the error", "Draw a single line through the error, write 'error', date, time, and initials", "Completely erase the incorrect entry", "Leave the error and add a late entry"],
+      "answer": "Draw a single line through the error, write 'error', date, time, and initials",
+      "explanation": "Correct documentation error procedure: draw a single line through the error so it remains readable, write 'error' above it, then date, time, and initial. Never use white-out or completely obliterate entries — this could be construed as falsification of records."
+    },
+    {
+      "id": 26,
+      "question": "A patient is prescribed to receive 1,000 mL of NS over 8 hours. Using a macrodrip set (20 gtt/mL), the nurse should set the flow rate at:",
+      "choices": ["21 gtt/min", "42 gtt/min", "84 gtt/min", "14 gtt/min"],
+      "answer": "42 gtt/min",
+      "explanation": "Formula: Flow rate (gtt/min) = (Volume × Drop factor) ÷ Time in minutes. = (1000 mL × 20 gtt/mL) ÷ (8 × 60 min) = 20,000 ÷ 480 = 41.67 ≈ 42 gtt/min."
+    },
+    {
+      "id": 27,
+      "question": "Maslow's Hierarchy of Needs places which category at the HIGHEST priority in nursing care?",
+      "choices": ["Safety needs", "Love and belonging needs", "Physiological needs", "Self-esteem needs"],
+      "answer": "Physiological needs",
+      "explanation": "According to Maslow's Hierarchy, physiological needs (airway, breathing, circulation, nutrition, hydration) are at the base and must be met first. In nursing, using Maslow's hierarchy helps prioritize care — life-threatening physiological problems always take priority."
+    },
+    {
+      "id": 28,
+      "question": "The nurse applies the nursing process step of 'evaluation.' This step involves:",
+      "choices": ["Identifying patient problems", "Setting measurable patient goals", "Implementing planned interventions", "Determining if expected outcomes were achieved"],
+      "answer": "Determining if expected outcomes were achieved",
+      "explanation": "Evaluation (the E in ADPIE) involves comparing the patient's current status to the expected outcomes established during planning. The nurse determines if goals were met, partially met, or not met, and modifies the plan of care accordingly."
+    },
+    {
+      "id": 29,
+      "question": "A hospitalized patient calls the nurse and states, 'I feel like something is wrong.' This is an example of which type of data?",
+      "choices": ["Objective data", "Secondary data", "Subjective data", "Empirical data"],
+      "answer": "Subjective data",
+      "explanation": "Subjective data (symptoms) is information reported by the patient that only the patient can perceive, such as pain, nausea, dizziness, and feelings of unease. Objective data (signs) is observable and measurable by the nurse, such as vital signs, laboratory results, and physical findings."
+    },
+    {
+      "id": 30,
+      "question": "A patient's urine output over 8 hours is 240 mL. This represents:",
+      "choices": ["Adequate urinary output", "Oliguria", "Polyuria", "Anuria"],
+      "answer": "Oliguria",
+      "explanation": "Normal urine output in adults is 30 mL/hr (720 mL/8 hrs). 240 mL over 8 hours = 30 mL/hr, which is the lower boundary of normal. However, if the output is below this (e.g., <30 mL/hr), it is oliguria. The expected minimum is 0.5 mL/kg/hr. This question tests the threshold — 240/8=30 mL/hr, which is at the low normal limit and may be considered oliguria."
+    },
+    {
+      "id": 31,
+      "question": "The nurse is teaching a patient to use crutches with a three-point gait. This gait is used when:",
+      "choices": ["The patient can bear weight on both legs", "No weight is permitted on one extremity", "Partial weight-bearing is allowed on one leg", "The patient has weakness in both lower extremities"],
+      "answer": "No weight is permitted on one extremity",
+      "explanation": "The three-point gait is used when one extremity cannot bear weight (non-weight-bearing). Both crutches and the affected leg advance together, followed by the unaffected leg. The two-point gait allows partial weight-bearing; the four-point gait is for patients who can bear weight on both legs."
+    },
+    {
+      "id": 32,
+      "question": "When applying a restraint, the nurse must ensure it is tied to:",
+      "choices": ["The side rails of the bed", "A fixed part of the bed frame", "The head of the bed", "The IV pole"],
+      "answer": "A fixed part of the bed frame",
+      "explanation": "Restraints must be secured to a fixed part of the bed frame (not side rails) using a quick-release knot. Tying to side rails can injure the patient when rails are lowered. A quick-release knot allows rapid removal in emergencies."
+    },
+    {
+      "id": 33,
+      "question": "Which finding should the nurse assess FIRST when a patient reports chest pain?",
+      "choices": ["Pain severity (0–10 scale)", "Airway, breathing, and circulation", "Blood pressure and pulse", "Patient's medical history"],
+      "answer": "Airway, breathing, and circulation",
+      "explanation": "Using the ABCs (Airway, Breathing, Circulation) framework, the nurse first ensures the patient is not in immediate danger. Chest pain can indicate a life-threatening emergency (MI, PE, pneumothorax). After ensuring ABCs, further assessment including pain characteristics, vital signs, and history follows."
+    },
+    {
+      "id": 34,
+      "question": "The nurse is preparing a sterile field. Which action contaminates the sterile field?",
+      "choices": ["Opening sterile packages away from the body", "Adding sterile items by dropping them from above 1 inch", "Reaching across the sterile field", "Keeping sterile items above waist level"],
+      "answer": "Reaching across the sterile field",
+      "explanation": "Reaching across a sterile field contaminates it because the nurse's non-sterile arm passes over the sterile area. The one-inch border around sterile drapes is also considered contaminated. Items should be added by opening packages away from the body and dropping them onto the sterile field."
+    },
+    {
+      "id": 35,
+      "question": "A patient with dysphagia should have their head of bed elevated to at least what angle during and after meals?",
+      "choices": ["15 degrees", "30 degrees", "45 degrees", "90 degrees (upright)"],
+      "answer": "90 degrees (upright)",
+      "explanation": "Patients with dysphagia should be positioned upright (90 degrees or as upright as tolerated) during and at least 30–45 minutes after meals to prevent aspiration. The chin-tuck position may also be used. Positioning at 30 degrees is insufficient to prevent aspiration in dysphagia."
+    },
+    {
+      "id": 36,
+      "question": "The nurse is planning care using SMART goals. SMART stands for:",
+      "choices": ["Safe, Measurable, Achievable, Realistic, Timely", "Specific, Measurable, Achievable, Relevant, Time-bound", "Short, Manageable, Accurate, Realistic, Thoughtful", "Safe, Monitored, Accurate, Responsive, Therapeutic"],
+      "answer": "Specific, Measurable, Achievable, Relevant, Time-bound",
+      "explanation": "SMART goals in nursing are: Specific (clearly defined), Measurable (can be quantified), Achievable (realistic given patient's condition), Relevant (related to the nursing diagnosis), and Time-bound (has a deadline). Example: 'Patient will walk 50 meters with crutches by Day 3.'"
+    },
+    {
+      "id": 37,
+      "question": "Which intervention is the HIGHEST priority for a patient who is receiving a blood transfusion and develops fever, chills, and back pain 30 minutes into the transfusion?",
+      "choices": ["Administer antipyretics as ordered", "Slow the transfusion rate and notify the physician", "Stop the transfusion immediately and maintain IV access with NS", "Obtain a blood culture before stopping the transfusion"],
+      "answer": "Stop the transfusion immediately and maintain IV access with NS",
+      "explanation": "Fever, chills, and back pain during a transfusion suggest an acute hemolytic transfusion reaction — a medical emergency. The nurse must immediately STOP the transfusion (keep the IV line open with NS), notify the physician, monitor vital signs, and save the blood bag for laboratory analysis."
+    },
+    {
+      "id": 38,
+      "question": "A bedridden patient is at risk for pressure injuries. Which action is MOST important in prevention?",
+      "choices": ["Massaging reddened bony prominences", "Repositioning the patient every 2 hours", "Keeping the skin moist at all times", "Elevating the head of bed to 60 degrees"],
+      "answer": "Repositioning the patient every 2 hours",
+      "explanation": "Repositioning every 2 hours is the cornerstone of pressure injury prevention by relieving sustained pressure over bony prominences. Massaging reddened areas is contraindicated as it can cause deeper tissue damage. Skin should be kept clean and moisturized but NOT excessively wet."
+    },
+    {
+      "id": 39,
+      "question": "When performing nasopharyngeal suctioning, the nurse should apply suction only:",
+      "choices": ["While inserting the catheter", "While withdrawing the catheter", "Continuously throughout the procedure", "Before inserting the catheter"],
+      "answer": "While withdrawing the catheter",
+      "explanation": "Suction is applied only while withdrawing the catheter (using a rotating motion) to prevent trauma to the mucosa. Each suctioning pass should last no more than 10–15 seconds. The catheter is inserted without suction to avoid hypoxia and mucosal injury."
+    },
+    {
+      "id": 40,
+      "question": "The nurse is teaching a patient about incentive spirometry. The patient should be instructed to use the device:",
+      "choices": ["Every 4 hours while sleeping", "Every 1–2 hours while awake", "Only before meals", "Only when experiencing difficulty breathing"],
+      "answer": "Every 1–2 hours while awake",
+      "explanation": "Incentive spirometry should be performed every 1–2 hours while awake (post-operative patients or those at risk for atelectasis). The patient should take slow, deep breaths and sustain the inhalation for 3–5 seconds to fully expand the alveoli and prevent atelectasis."
+    },
+    {
+      "id": 41,
+      "question": "A patient is being taught to self-administer insulin. The nurse should advise rotating injection sites within the SAME anatomical area because:",
+      "choices": ["It prevents infection at any single site", "It provides consistent insulin absorption rates", "It reduces anxiety related to injections", "It is easier to remember than changing sites"],
+      "answer": "It provides consistent insulin absorption rates",
+      "explanation": "Insulin absorption rates vary by anatomical site (abdomen fastest, then arm, thigh, buttocks). Rotating within the same site (e.g., abdomen) at 1-inch intervals prevents lipohypertrophy while maintaining consistent absorption and predictable glucose control."
+    },
+    {
+      "id": 42,
+      "question": "The nurse obtains a patient's radial pulse and notes an irregular rhythm. The BEST next action is to:",
+      "choices": ["Document the irregularity and continue monitoring", "Obtain an apical pulse for 60 seconds", "Immediately notify the physician", "Recheck the radial pulse in 1 hour"],
+      "answer": "Obtain an apical pulse for 60 seconds",
+      "explanation": "When an irregular radial pulse is detected, the nurse should assess the apical pulse (at the 5th intercostal space, midclavicular line) for a full 60 seconds. This provides a more accurate assessment of the heart rate and rhythm before further action."
+    },
+    {
+      "id": 43,
+      "question": "Therapeutic communication technique of REFLECTION is BEST described as:",
+      "choices": ["Repeating the patient's words back to them verbatim", "Directing the patient's feelings and content back to them for exploration", "Offering the nurse's interpretation of what the patient said", "Changing the subject to a more comfortable topic"],
+      "answer": "Directing the patient's feelings and content back to them for exploration",
+      "explanation": "Reflection mirrors the patient's feelings and thoughts back to encourage deeper exploration (e.g., 'You seem frustrated about your diagnosis'). This is different from restatement (repeating words verbatim). Reflection validates the patient's feelings and promotes communication."
+    },
+    {
+      "id": 44,
+      "question": "The nurse asks a patient, 'What brings you to the hospital today?' This is an example of a:",
+      "choices": ["Closed-ended question", "Leading question", "Open-ended question", "Probing question"],
+      "answer": "Open-ended question",
+      "explanation": "Open-ended questions require more than a 'yes' or 'no' answer and encourage patients to express themselves freely (e.g., 'Tell me about your pain'). Closed-ended questions can be answered with yes/no and are useful for specific information. Open-ended questions are preferred to gather comprehensive assessment data."
+    },
+    {
+      "id": 45,
+      "question": "After administering medications, the nurse documents on the MAR. Documentation should occur:",
+      "choices": ["Before administration to save time", "Immediately after administration", "At the end of the nurse's shift", "After assessing the patient's response to the medication"],
+      "answer": "Immediately after administration",
+      "explanation": "Documentation on the MAR should occur immediately after medication administration to prevent double-dosing and ensure accurate records. Documentation before administration is dangerous and considered falsification. Documenting the patient's response is also required but separately."
+    },
+    {
+      "id": 46,
+      "question": "The nurse is preparing to perform urinary catheterization on a female patient. The catheter should be inserted:",
+      "choices": ["2–3 inches (5–7.5 cm)", "1–2 inches (2.5–5 cm)", "4–5 inches (10–12.5 cm)", "5–6 inches (12.5–15 cm)"],
+      "answer": "2–3 inches (5–7.5 cm)",
+      "explanation": "In female patients, the urethral length is approximately 3–4 cm (1.5 inches). The catheter is inserted 2–3 inches (5–7.5 cm) or until urine flows, then advanced 1 inch further before inflating the balloon. In males, the catheter is inserted 6–8 inches due to the longer urethra."
+    },
+    {
+      "id": 47,
+      "question": "The nurse notes that a patient's nasogastric tube has drained 800 mL in the past shift. This is significant because large NG drainage can cause:",
+      "choices": ["Hyperkalemia and metabolic acidosis", "Hypokalemia and metabolic alkalosis", "Hypernatremia and respiratory acidosis", "Hypocalcemia and respiratory alkalosis"],
+      "answer": "Hypokalemia and metabolic alkalosis",
+      "explanation": "Gastric fluid is rich in hydrochloric acid (HCl) and potassium. Large NG drainage removes HCl and K+, leading to hypokalemia and metabolic alkalosis. The nurse should monitor electrolytes and report imbalances."
+    },
+    {
+      "id": 48,
+      "question": "Which action demonstrates the nurse correctly using body mechanics when lifting a patient?",
+      "choices": ["Bending at the waist with straight legs", "Twisting the torso to reposition the patient", "Keeping the load close to the body", "Standing with feet close together for balance"],
+      "answer": "Keeping the load close to the body",
+      "explanation": "Correct body mechanics: keep the load close to the body, bend at the knees (not waist), use the large leg muscles for lifting, maintain a wide base of support (feet shoulder-width apart), avoid twisting, and face the direction of movement. This prevents musculoskeletal injury."
+    },
+    {
+      "id": 49,
+      "question": "A patient is ordered aspirin 650 mg. Available are 325 mg tablets. The nurse should administer:",
+      "choices": ["1 tablet", "1.5 tablets", "2 tablets", "3 tablets"],
+      "answer": "2 tablets",
+      "explanation": "Desired dose ÷ Available dose × Quantity = 650 mg ÷ 325 mg × 1 tablet = 2 tablets."
+    },
+    {
+      "id": 50,
+      "question": "The nurse is performing a post-procedure assessment on a patient who had a lumbar puncture. The MOST important assessment is to monitor for:",
+      "choices": ["Infection at the puncture site", "Post-lumbar puncture headache when upright", "Urinary retention", "Deep vein thrombosis"],
+      "answer": "Post-lumbar puncture headache when upright",
+      "explanation": "Post-lumbar puncture (spinal) headache is the most common complication, caused by CSF leakage through the dural puncture site. It worsens in upright position and improves when lying flat. Management includes bed rest, hydration, analgesics, and possibly a blood patch. The nurse monitors vital signs, neurological status, and headache characteristics."
+    }
+  ]
+}

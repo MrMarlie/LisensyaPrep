@@ -1,0 +1,356 @@
+{
+  "module": "Module 2 - Medical-Surgical Nursing",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A patient admitted with an acute myocardial infarction (MI) reports crushing chest pain radiating to the left arm. The FIRST nursing intervention is to:",
+      "choices": ["Administer nitroglycerin sublingually", "Obtain a 12-lead ECG", "Administer aspirin 325 mg as ordered", "Administer oxygen and notify the physician"],
+      "answer": "Administer oxygen and notify the physician",
+      "explanation": "The priority in acute MI is to restore oxygenation and notify the physician immediately. While nitroglycerin and aspirin are important, oxygen supports myocardial oxygenation. A 12-lead ECG is critical for diagnosis but the overall priority is ABCs and rapid physician notification for reperfusion therapy."
+    },
+    {
+      "id": 2,
+      "question": "A patient with heart failure develops sudden dyspnea, pink frothy sputum, and crackles bilaterally. This presentation is MOST consistent with:",
+      "choices": ["Pulmonary embolism", "Acute pulmonary edema", "Pneumonia", "Pleural effusion"],
+      "answer": "Acute pulmonary edema",
+      "explanation": "Acute pulmonary edema presents with sudden severe dyspnea, orthopnea, pink frothy sputum, bilateral crackles, anxiety, and diaphoresis. It results from left ventricular failure causing fluid accumulation in the alveoli. Immediate interventions include high Fowler's position, oxygen, diuretics (furosemide), and morphine."
+    },
+    {
+      "id": 3,
+      "question": "The nurse is monitoring a patient post-coronary artery bypass graft (CABG). Which finding requires IMMEDIATE action?",
+      "choices": ["Heart rate of 88 bpm", "Urine output of 35 mL/hr", "Blood pressure of 90/60 mmHg", "Temperature of 37.8°C"],
+      "answer": "Blood pressure of 90/60 mmHg",
+      "explanation": "A BP of 90/60 mmHg post-CABG indicates hypotension — a potentially life-threatening complication suggesting hypovolemia, cardiac tamponade, or low cardiac output. The nurse must notify the physician immediately. The other values are near normal or expected post-operative findings."
+    },
+    {
+      "id": 4,
+      "question": "A patient on heparin infusion has an activated partial thromboplastin time (aPTT) of 180 seconds. The therapeutic range is 60–100 seconds. The nurse should:",
+      "choices": ["Increase the heparin infusion rate", "Continue current rate and recheck in 6 hours", "Stop the heparin infusion and notify the physician", "Administer protamine sulfate immediately"],
+      "answer": "Stop the heparin infusion and notify the physician",
+      "explanation": "An aPTT of 180 seconds (therapeutic range 60–100 sec) indicates supratherapeutic anticoagulation with high bleeding risk. The nurse should stop the heparin infusion and notify the physician. Protamine sulfate is the antidote for heparin but requires a physician order."
+    },
+    {
+      "id": 5,
+      "question": "A patient with deep vein thrombosis (DVT) suddenly develops sharp pleuritic chest pain, dyspnea, tachycardia, and hemoptysis. The nurse suspects:",
+      "choices": ["Myocardial infarction", "Pulmonary embolism", "Spontaneous pneumothorax", "Aortic dissection"],
+      "answer": "Pulmonary embolism",
+      "explanation": "Classic signs of pulmonary embolism include sudden pleuritic chest pain, dyspnea, tachycardia, and hemoptysis. DVT is the most common source of PE (thromboembolism from leg veins). Immediate interventions: oxygen, elevate HOB, notify physician, prepare for CT pulmonary angiography."
+    },
+    {
+      "id": 6,
+      "question": "The nurse is caring for a patient with chronic obstructive pulmonary disease (COPD). Which oxygen delivery method is MOST appropriate to avoid suppressing the hypoxic drive?",
+      "choices": ["Non-rebreather mask at 10–15 L/min", "Simple face mask at 6–10 L/min", "Venturi mask at 24–28% FiO2", "Nasal cannula at 5–6 L/min"],
+      "answer": "Venturi mask at 24–28% FiO2",
+      "explanation": "Patients with COPD may rely on hypoxic drive to breathe (low O2, not high CO2, triggers respiration). Controlled low-flow oxygen via Venturi mask (24–28% FiO2) maintains adequate SpO2 (88–92%) without suppressing the hypoxic drive. High-flow oxygen can cause CO2 retention and respiratory failure."
+    },
+    {
+      "id": 7,
+      "question": "A patient with asthma presents with severe dyspnea, use of accessory muscles, and absent breath sounds on auscultation. This is MOST consistent with:",
+      "choices": ["Mild asthma exacerbation", "Status asthmaticus with silent chest", "Pulmonary edema", "Tension pneumothorax"],
+      "answer": "Status asthmaticus with silent chest",
+      "explanation": "A 'silent chest' in a known asthma patient indicates severe bronchospasm with such poor airflow that no breath sounds can be heard — a life-threatening emergency (status asthmaticus). This requires immediate bronchodilators, IV corticosteroids, and possibly mechanical ventilation."
+    },
+    {
+      "id": 8,
+      "question": "A patient develops a tension pneumothorax. The trachea would deviate toward which side?",
+      "choices": ["Toward the affected (collapsed) side", "Away from the affected side (contralateral)", "No tracheal deviation occurs", "Toward the unaffected side only if bilateral"],
+      "answer": "Away from the affected side (contralateral)",
+      "explanation": "In tension pneumothorax, accumulating air under pressure shifts mediastinal structures (including the trachea) AWAY from the affected side toward the contralateral side. This compresses the contralateral lung and great vessels, reducing venous return and causing cardiovascular collapse — a medical emergency."
+    },
+    {
+      "id": 9,
+      "question": "A patient with a chest tube drainage system: when should the nurse clamp the chest tube?",
+      "choices": ["Whenever the patient ambulates", "When changing the drainage collection device", "When fluctuation (tidaling) is absent", "Routinely every 4 hours to assess lung re-expansion"],
+      "answer": "When changing the drainage collection device",
+      "explanation": "Chest tubes should NOT be routinely clamped. Clamping is only appropriate briefly when changing the drainage collection system. Prolonged clamping is dangerous as it can cause tension pneumothorax. Absence of tidaling usually indicates lung re-expansion or a blocked tube — both require assessment, not clamping."
+    },
+    {
+      "id": 10,
+      "question": "A patient with increased intracranial pressure (ICP) is positioned with the head of bed at:",
+      "choices": ["Flat (0 degrees)", "15–30 degrees elevation", "45 degrees (high Fowler's)", "Trendelenburg position"],
+      "answer": "15–30 degrees elevation",
+      "explanation": "HOB elevation at 15–30 degrees facilitates venous drainage from the brain and reduces ICP. The head and neck should be midline (avoid flexion/rotation) to maintain jugular venous drainage. Flat position increases ICP; Trendelenburg is absolutely contraindicated in ICP."
+    },
+    {
+      "id": 11,
+      "question": "A patient with a head injury develops Cushing's Triad. Which set of findings indicates this?",
+      "choices": ["Tachycardia, hypotension, tachypnea", "Bradycardia, hypertension, irregular respirations", "Fever, bradycardia, miosis", "Hypotension, bradypnea, pupillary dilation"],
+      "answer": "Bradycardia, hypertension, irregular respirations",
+      "explanation": "Cushing's Triad (late sign of critically elevated ICP): Hypertension (widened pulse pressure), Bradycardia, and Irregular respirations (Cheyne-Stokes). This indicates imminent brainstem herniation and is a medical emergency requiring immediate intervention."
+    },
+    {
+      "id": 12,
+      "question": "A patient taking phenytoin (Dilantin) has a serum level of 28 mcg/mL. The therapeutic range is 10–20 mcg/mL. The nurse should monitor for:",
+      "choices": ["Seizure activity", "Nystagmus, ataxia, and confusion (toxicity signs)", "Hypoglycemia", "Cardiac arrhythmias only at lower levels"],
+      "answer": "Nystagmus, ataxia, and confusion (toxicity signs)",
+      "explanation": "Phenytoin toxicity (level >20 mcg/mL) presents with nystagmus (first sign), ataxia, slurred speech, and confusion. Levels >30 mcg/mL can cause paradoxical seizures and cardiac toxicity. The physician must be notified, and the drug may need to be held."
+    },
+    {
+      "id": 13,
+      "question": "A patient with Type 1 Diabetes Mellitus becomes confused, diaphoretic, and pale. Glucose testing shows 48 mg/dL. The FIRST nursing action is:",
+      "choices": ["Administer glucagon IM", "Notify the physician", "Give 15–20 g of fast-acting carbohydrate orally (if conscious)", "Start an IV dextrose infusion"],
+      "answer": "Give 15–20 g of fast-acting carbohydrate orally (if conscious)",
+      "explanation": "The patient is hypoglycemic (glucose <70 mg/dL) but conscious. The '15-15 Rule': give 15g of fast-acting carbohydrate (e.g., 4 oz orange juice, glucose tablets), recheck glucose in 15 minutes. Glucagon is used when the patient cannot take oral intake. Physician is notified after initial treatment."
+    },
+    {
+      "id": 14,
+      "question": "A patient with diabetic ketoacidosis (DKA) presents with Kussmaul respirations. This breathing pattern occurs because:",
+      "choices": ["The body is trying to retain CO2 to compensate for alkalosis", "The body is attempting to blow off CO2 to compensate for metabolic acidosis", "Hyperglycemia directly stimulates the respiratory center", "Insulin deficiency causes hyperventilation"],
+      "answer": "The body is attempting to blow off CO2 to compensate for metabolic acidosis",
+      "explanation": "DKA causes metabolic acidosis (excess ketoacids lower blood pH). Kussmaul respirations (deep, rapid breathing) are a compensatory mechanism where the lungs eliminate CO2, reducing carbonic acid and partially correcting the acidosis. This is respiratory compensation for metabolic acidosis."
+    },
+    {
+      "id": 15,
+      "question": "A patient with hyperthyroidism (Graves' disease) is receiving propylthiouracil (PTU). The nurse should monitor for which serious adverse effect?",
+      "choices": ["Constipation", "Agranulocytosis", "Hyperglycemia", "Bradycardia"],
+      "answer": "Agranulocytosis",
+      "explanation": "Agranulocytosis (severe reduction in WBCs/granulocytes) is the most serious adverse effect of PTU and methimazole. Patients should be taught to report fever, sore throat, or mouth sores immediately as these may indicate agranulocytosis. A CBC should be monitored regularly."
+    },
+    {
+      "id": 16,
+      "question": "The nurse is caring for a patient 24 hours post-thyroidectomy. Which complication should the nurse MOST closely monitor for?",
+      "choices": ["Hypercalcemia", "Tetany and laryngospasm due to hypocalcemia", "Hyperkalemia", "Hypernatremia"],
+      "answer": "Tetany and laryngospasm due to hypocalcemia",
+      "explanation": "Accidental removal or damage to the parathyroid glands during thyroidectomy causes hypoparathyroidism → hypocalcemia. Signs: tetany, Trousseau's sign (carpal spasm with BP cuff inflation), Chvostek's sign (facial twitch with tapping CN VII). Laryngospasm can be life-threatening."
+    },
+    {
+      "id": 17,
+      "question": "A patient develops Trousseau's sign after thyroid surgery. The nurse should prepare to administer:",
+      "choices": ["Potassium chloride IV", "Calcium gluconate IV", "Magnesium sulfate IV", "Sodium bicarbonate IV"],
+      "answer": "Calcium gluconate IV",
+      "explanation": "Trousseau's sign (carpal spasm when BP cuff inflated) indicates hypocalcemia. IV calcium gluconate is the treatment for symptomatic hypocalcemia and is kept at the bedside after thyroid/parathyroid surgery. Oral calcium supplements and vitamin D are used for long-term management."
+    },
+    {
+      "id": 18,
+      "question": "A patient with chronic renal failure is at risk for which acid-base imbalance?",
+      "choices": ["Respiratory alkalosis", "Metabolic alkalosis", "Metabolic acidosis", "Respiratory acidosis"],
+      "answer": "Metabolic acidosis",
+      "explanation": "The kidneys regulate acid-base balance by excreting hydrogen ions and reabsorbing bicarbonate. In chronic renal failure, the kidneys cannot excrete H+ or regenerate HCO3−, leading to accumulation of acids and metabolic acidosis. Laboratory findings: decreased pH, decreased HCO3−, decreased pCO2 (compensatory)."
+    },
+    {
+      "id": 19,
+      "question": "A patient on dialysis has serum potassium of 6.8 mEq/L. Which finding on ECG would the nurse anticipate?",
+      "choices": ["Prolonged QT interval", "ST depression and U waves", "Peaked (tall) T waves", "Widened QRS and absent P waves"],
+      "answer": "Peaked (tall) T waves",
+      "explanation": "Hyperkalemia ECG changes progress as K+ rises: peaked T waves → widened QRS → flattened P waves → sine wave pattern → ventricular fibrillation. Peaked T waves are the earliest sign. At K+ >6.5, the risk of fatal arrhythmias is high and treatment is urgent."
+    },
+    {
+      "id": 20,
+      "question": "A patient post-kidney transplant is receiving cyclosporine. The priority nursing assessment is monitoring for:",
+      "choices": ["Hypothyroidism", "Signs of rejection and nephrotoxicity", "Hypoglycemia", "Anemia"],
+      "answer": "Signs of rejection and nephrotoxicity",
+      "explanation": "Cyclosporine is an immunosuppressant used to prevent organ rejection. Priority monitoring includes signs of acute rejection (fever, pain over graft site, decreased urine output, rising creatinine) and nephrotoxicity (rising BUN/creatinine, decreased urine output). Infection risk is also elevated due to immunosuppression."
+    },
+    {
+      "id": 21,
+      "question": "A patient with peptic ulcer disease is prescribed omeprazole. This medication works by:",
+      "choices": ["Neutralizing stomach acid", "Coating the gastric mucosa", "Inhibiting histamine H2 receptors", "Blocking the hydrogen-potassium ATPase pump (proton pump)"],
+      "answer": "Blocking the hydrogen-potassium ATPase pump (proton pump)",
+      "explanation": "Proton pump inhibitors (PPIs) like omeprazole block the H+/K+ ATPase enzyme (proton pump) in gastric parietal cells, irreversibly reducing acid secretion. This is the most potent class of acid suppressants. Antacids neutralize acid; sucralfate coats the mucosa; H2 blockers (ranitidine) block H2 receptors."
+    },
+    {
+      "id": 22,
+      "question": "A patient with liver cirrhosis develops confusion, asterixis (flapping tremor), and elevated serum ammonia. The nurse understands this is:",
+      "choices": ["Hepatic encephalopathy", "Wernicke's encephalopathy", "Cerebral edema from portal hypertension", "Delirium tremens"],
+      "answer": "Hepatic encephalopathy",
+      "explanation": "Hepatic encephalopathy results from the liver's inability to metabolize ammonia (from protein breakdown), which accumulates and crosses the blood-brain barrier causing neurological dysfunction. Management includes lactulose (reduces ammonia absorption), rifaximin, dietary protein restriction, and treating precipitating factors."
+    },
+    {
+      "id": 23,
+      "question": "The nurse is monitoring a patient with esophageal varices. Which finding should prompt IMMEDIATE action?",
+      "choices": ["Mild abdominal distension", "Vomiting of large amounts of bright red blood", "Serum albumin of 3.0 g/dL", "Prothrombin time of 16 seconds"],
+      "answer": "Vomiting of large amounts of bright red blood",
+      "explanation": "Esophageal variceal hemorrhage is a life-threatening emergency. Vomiting of bright red blood indicates active upper GI bleeding. The nurse must immediately: maintain airway, administer oxygen, establish large-bore IV access, notify physician for emergent endoscopy and vasoactive medications (octreotide)."
+    },
+    {
+      "id": 24,
+      "question": "A patient with pancreatitis reports severe epigastric pain that radiates to the back and is relieved somewhat by leaning forward. The nurse knows this pain position (leaning forward) helps because it:",
+      "choices": ["Reduces tension on the inflamed pancreas by decreasing abdominal pressure", "Promotes gastric emptying", "Reduces cardiac workload", "Allows better respiratory expansion"],
+      "answer": "Reduces tension on the inflamed pancreas by decreasing abdominal pressure",
+      "explanation": "In pancreatitis, the fetal position or leaning forward reduces the stretch on the inflamed retroperitoneal pancreas and decreases pain. Lying supine worsens pain. Nursing priorities include NPO, IV fluids, pain management (opioid analgesics), and monitoring for complications (hypocalcemia, ARDS)."
+    },
+    {
+      "id": 25,
+      "question": "The nurse is assessing a patient post-appendectomy. Which finding on Day 2 post-op suggests a complication?",
+      "choices": ["Mild incisional pain rated 3/10", "Temperature of 38.9°C and rigid abdomen", "Serosanguineous wound drainage", "Return of bowel sounds"],
+      "answer": "Temperature of 38.9°C and rigid abdomen",
+      "explanation": "Fever with a rigid (board-like) abdomen on Day 2 post-appendectomy suggests peritonitis — a surgical emergency. This may indicate appendiceal rupture (if pre-op) or anastomotic leak. Mild pain, normal wound drainage, and returning bowel sounds are expected post-operative findings."
+    },
+    {
+      "id": 26,
+      "question": "A patient with a fractured femur is at risk for fat embolism syndrome (FES). The nurse should monitor for the CLASSIC triad of:",
+      "choices": ["Fever, tachycardia, and hypotension", "Hypoxia, neurological changes, and petechiae", "Bradycardia, hypertension, and altered consciousness", "Cyanosis, bradypnea, and hypertension"],
+      "answer": "Hypoxia, neurological changes, and petechiae",
+      "explanation": "The classic triad of fat embolism syndrome: Hypoxia (respiratory: dyspnea, decreased SpO2), Neurological changes (confusion, agitation), and Petechiae (rash over upper chest, axillae, conjunctivae — pathognomonic sign). FES typically develops 24–72 hours after long bone fracture."
+    },
+    {
+      "id": 27,
+      "question": "A patient is placed in a hip abduction pillow after total hip replacement. The purpose of this device is to prevent:",
+      "choices": ["Deep vein thrombosis", "Hip prosthesis dislocation", "Wound infection", "Nerve damage"],
+      "answer": "Hip prosthesis dislocation",
+      "explanation": "After total hip replacement, dislocation of the prosthesis is a major complication. The abduction pillow keeps the hip in abduction and prevents adduction, internal rotation, and hip flexion beyond 90° — movements that can dislocate the prosthetic joint. Patients must follow hip precautions."
+    },
+    {
+      "id": 28,
+      "question": "A patient with rheumatoid arthritis is prescribed methotrexate. The nurse should instruct the patient to:",
+      "choices": ["Take with milk to prevent GI upset", "Avoid alcohol and report signs of liver toxicity", "Expect complete remission within 1 week", "Take extra vitamins without consulting the physician"],
+      "answer": "Avoid alcohol and report signs of liver toxicity",
+      "explanation": "Methotrexate is hepatotoxic, especially combined with alcohol. The patient must avoid alcohol, report signs of hepatotoxicity (jaundice, dark urine, nausea), and have regular liver function tests. Folic acid supplementation is often prescribed to reduce side effects. Effect may take 6–12 weeks."
+    },
+    {
+      "id": 29,
+      "question": "A patient has burns to the entire right arm, the front of the right leg, and the anterior trunk. Using the Rule of Nines, the total body surface area (TBSA) burned is:",
+      "choices": ["27%", "36%", "45%", "18%"],
+      "answer": "36%",
+      "explanation": "Rule of Nines: Head 9%, Each arm 9%, Each leg 18% (front 9%, back 9%), Anterior trunk 18%, Posterior trunk 18%, Perineum 1%. Right arm = 9%, Front of right leg = 9%, Anterior trunk = 18%. Total = 9 + 9 + 18 = 36% TBSA."
+    },
+    {
+      "id": 30,
+      "question": "A burn patient (70 kg) with 40% TBSA burns is receiving fluid resuscitation using the Parkland formula (4 mL × kg × %TBSA). What is the total fluid volume for the first 24 hours?",
+      "choices": ["11,200 mL", "5,600 mL", "2,800 mL", "8,400 mL"],
+      "answer": "11,200 mL",
+      "explanation": "Parkland formula: 4 mL × 70 kg × 40% TBSA = 11,200 mL Lactated Ringer's. Half (5,600 mL) is given in the first 8 hours from the TIME OF BURN (not from hospital arrival); the remaining half over the next 16 hours."
+    },
+    {
+      "id": 31,
+      "question": "A patient with cervical spinal cord injury (C4 level) is at risk for which life-threatening respiratory complication?",
+      "choices": ["Aspiration pneumonia only", "Respiratory failure requiring mechanical ventilation", "Pulmonary embolism", "Pleural effusion"],
+      "answer": "Respiratory failure requiring mechanical ventilation",
+      "explanation": "The phrenic nerve (C3–C5) controls the diaphragm. A C4 complete injury disrupts phrenic nerve function, causing diaphragmatic paralysis and respiratory failure. These patients typically require mechanical ventilation. 'C4 and above, needs the vent to survive.'"
+    },
+    {
+      "id": 32,
+      "question": "Autonomic dysreflexia (AD) is a complication in patients with spinal cord injuries at or above which level?",
+      "choices": ["L1", "T10", "T6", "C7"],
+      "answer": "T6",
+      "explanation": "Autonomic dysreflexia occurs in patients with SCI at T6 and above. A noxious stimulus below the injury level (e.g., full bladder, constipation, skin irritation) triggers a massive sympathetic response: severe hypertension, throbbing headache, bradycardia, diaphoresis above injury level, and flushing. It is a medical emergency."
+    },
+    {
+      "id": 33,
+      "question": "A patient experiencing autonomic dysreflexia has a blood pressure of 220/140 mmHg. The FIRST nursing action is to:",
+      "choices": ["Administer antihypertensive medication", "Sit the patient upright (elevate HOB to 90 degrees)", "Call the code team", "Catheterize the patient immediately"],
+      "answer": "Sit the patient upright (elevate HOB to 90 degrees)",
+      "explanation": "The first intervention for autonomic dysreflexia is to sit the patient upright (90 degrees) to induce orthostatic hypotension and reduce BP. Then identify and remove the triggering stimulus (check for full bladder first — most common cause, then impaction). Antihypertensives are given if BP remains critically high after stimulus removal."
+    },
+    {
+      "id": 34,
+      "question": "A patient post-prostatectomy returns from surgery with a three-way urinary catheter and continuous bladder irrigation (CBI). The nurse notes the drainage is bright red and has no clots. The nurse should:",
+      "choices": ["Increase the CBI irrigation rate", "Decrease the CBI rate to prevent blood loss", "Monitor the urine color and report to physician if worsening", "Clamp the catheter immediately"],
+      "answer": "Increase the CBI irrigation rate",
+      "explanation": "After TURP (transurethral resection of the prostate), some bleeding is expected. Bright red urine without clots suggests active bleeding. Increasing the CBI rate dilutes the blood and prevents clot formation that could obstruct the catheter. The physician is notified if bleeding is heavy and persists. Expected drainage gradually lightens to pink."
+    },
+    {
+      "id": 35,
+      "question": "A patient with benign prostatic hyperplasia (BPH) reports inability to void for 8 hours. The nurse palpates a distended bladder. The PRIORITY intervention is:",
+      "choices": ["Encourage fluid intake", "Insert a urinary catheter", "Administer tamsulosin (alpha-blocker) as ordered", "Apply warm compresses to the lower abdomen"],
+      "answer": "Insert a urinary catheter",
+      "explanation": "Acute urinary retention with a distended bladder requires IMMEDIATE catheterization to relieve obstruction and prevent renal damage and detrusor muscle damage. This is the priority intervention. Other measures (medications, fluids) are adjunctive but not immediate priorities in acute retention."
+    },
+    {
+      "id": 36,
+      "question": "A patient with a newly created colostomy asks when they should expect their first bowel movement through the stoma. The nurse responds:",
+      "choices": ["Within 2–4 hours of surgery", "Within 2–3 days post-operatively", "Only after a full liquid diet is tolerated", "When bowel sounds return to all four quadrants"],
+      "answer": "Within 2–3 days post-operatively",
+      "explanation": "Bowel function through a new colostomy usually returns within 2–3 days post-operatively as gastrointestinal motility resumes after surgical manipulation. Ascending and transverse colostomies produce liquid stool; descending and sigmoid colostomies produce more formed stool. Stoma should be pink/red and moist."
+    },
+    {
+      "id": 37,
+      "question": "A patient with hyperthyroidism is at risk for developing thyroid storm. Which set of signs would indicate this life-threatening complication?",
+      "choices": ["Bradycardia, hypotension, and hypothermia", "High fever (>40°C), extreme tachycardia, hypertension, and agitation", "Lethargy, weight gain, and cold intolerance", "Facial flushing, bradycardia, and normal temperature"],
+      "answer": "High fever (>40°C), extreme tachycardia, hypertension, and agitation",
+      "explanation": "Thyroid storm (thyrotoxic crisis) is characterized by: high fever (>40°C/104°F), extreme tachycardia (often >140 bpm), hypertension, agitation/delirium, diaphoresis, and vomiting. It can progress to cardiovascular collapse. Treatment: PTU, iodine solution (SSKI), beta-blockers, steroids, and cooling measures."
+    },
+    {
+      "id": 38,
+      "question": "A patient with Addison's disease is stressed by an acute illness. Which complication must the nurse MOST urgently anticipate?",
+      "choices": ["Cushing's syndrome", "Addisonian crisis (acute adrenal insufficiency)", "Syndrome of Inappropriate ADH (SIADH)", "Hypertensive crisis"],
+      "answer": "Addisonian crisis (acute adrenal insufficiency)",
+      "explanation": "Addison's disease (chronic adrenal insufficiency) requires increased corticosteroids during stress. Without adequate cortisol, physiological stress can precipitate Addisonian crisis: severe hypotension, hypoglycemia, hyperkalemia, hyponatremia, and shock. Immediate IV hydrocortisone and fluid resuscitation are required."
+    },
+    {
+      "id": 39,
+      "question": "A patient receiving chemotherapy develops a temperature of 38.3°C and absolute neutrophil count (ANC) of 450/mm³. The nurse understands this condition is called:",
+      "choices": ["Leukocytosis", "Febrile neutropenia", "Thrombocytopenia", "Aplastic anemia"],
+      "answer": "Febrile neutropenia",
+      "explanation": "Febrile neutropenia = fever ≥38.3°C (single reading) or ≥38°C sustained, with ANC <500/mm³ (or expected to drop below 500). This is an oncologic emergency requiring immediate broad-spectrum IV antibiotics (within 1 hour) even before culture results, as infection can progress rapidly to sepsis."
+    },
+    {
+      "id": 40,
+      "question": "A patient with leukemia is thrombocytopenic (platelets 18,000/mm³). The nurse should include which intervention in the care plan?",
+      "choices": ["Administer aspirin for pain", "Use a soft-bristle toothbrush and electric razor", "Encourage vigorous range-of-motion exercises", "Apply rectal suppositories as ordered for constipation"],
+      "answer": "Use a soft-bristle toothbrush and electric razor",
+      "explanation": "Thrombocytopenia (platelets <20,000/mm³) poses a severe bleeding risk. Nursing interventions: soft-bristle toothbrush, electric razor, avoid IM injections, no NSAIDs/aspirin, no rectal suppositories/enemas, gentle suctioning, fall precautions, and apply prolonged pressure after any puncture site."
+    },
+    {
+      "id": 41,
+      "question": "A patient with peripheral arterial disease (PAD) complains of intermittent claudication. The nurse should teach the patient that this symptom is:",
+      "choices": ["Leg pain at rest that indicates advanced disease", "Cramping pain during exercise that is relieved by rest", "Nighttime leg cramps unrelated to activity", "Constant burning pain in the feet"],
+      "answer": "Cramping pain during exercise that is relieved by rest",
+      "explanation": "Intermittent claudication is cramping pain in the legs during exercise/walking that is relieved by rest. It occurs because the narrowed arteries cannot meet increased oxygen demand during activity. It is a hallmark of PAD. Rest pain (pain at rest) indicates more advanced, critical limb ischemia."
+    },
+    {
+      "id": 42,
+      "question": "A patient with chronic venous insufficiency has leg ulcers. Which characteristic distinguishes venous ulcers from arterial ulcers?",
+      "choices": ["Located on the heel or toe, with a pale/necrotic base", "Located over the medial malleolus, with irregular edges and yellow slough", "Deep with exposed tendons, extremely painful", "Located on pressure points with a round punched-out appearance"],
+      "answer": "Located over the medial malleolus, with irregular edges and yellow slough",
+      "explanation": "Venous ulcers: Located near medial malleolus, irregular edges, shallow, yellow slough, moderate pain, surrounding skin is brownish (hemosiderin deposits), managed with compression bandaging. Arterial ulcers: Located on toes/heels, deep, pale/necrotic base, VERY painful, surrounding skin is pale/hairless, managed with revascularization."
+    },
+    {
+      "id": 43,
+      "question": "A patient on warfarin therapy has an INR of 5.8 and is bleeding from gums. The PRIORITY intervention is to notify the physician and prepare to administer:",
+      "choices": ["Protamine sulfate", "Vitamin K (phytonadione)", "Fresh frozen plasma", "Platelet transfusion"],
+      "answer": "Vitamin K (phytonadione)",
+      "explanation": "Vitamin K (phytonadione) is the antidote for warfarin toxicity. For minor bleeding, oral or IV vitamin K is given; for major bleeding, fresh frozen plasma (FFP) provides immediate clotting factors while vitamin K takes 6–12 hours to work. Protamine sulfate reverses heparin (not warfarin)."
+    },
+    {
+      "id": 44,
+      "question": "A patient with iron deficiency anemia is prescribed ferrous sulfate. The nurse should teach the patient to take the medication:",
+      "choices": ["With milk to improve absorption", "On an empty stomach with orange juice to enhance absorption", "With antacids to prevent GI upset", "At bedtime to reduce nausea"],
+      "answer": "On an empty stomach with orange juice to enhance absorption",
+      "explanation": "Iron is best absorbed on an empty stomach with vitamin C (ascorbic acid/orange juice), which enhances absorption by maintaining iron in its ferrous (2+) form. Milk, calcium, antacids, and tea inhibit iron absorption. Iron turns stools black — patients should be informed."
+    },
+    {
+      "id": 45,
+      "question": "A patient reports severe burning, tingling, and numbness in both feet that is worse at night. This presentation is MOST consistent with:",
+      "choices": ["Peripheral arterial disease", "Diabetic peripheral neuropathy", "Deep vein thrombosis", "Restless leg syndrome"],
+      "answer": "Diabetic peripheral neuropathy",
+      "explanation": "Diabetic peripheral neuropathy presents with symmetric burning, tingling, numbness, and pain in a 'stocking-glove' distribution (feet and hands), often worse at night. It results from chronic hyperglycemia-induced nerve damage. Management includes tight glucose control, neuropathic pain medications (gabapentin, amitriptyline, duloxetine)."
+    },
+    {
+      "id": 46,
+      "question": "A patient with multiple myeloma has a calcium level of 13.5 mg/dL (normal 8.5–10.5). The nurse should prioritize which intervention?",
+      "choices": ["Fluid restriction to concentrate the calcium", "Administration of IV normal saline to dilute calcium and promote renal excretion", "Administration of calcium supplements", "Positioning to minimize bone pain"],
+      "answer": "Administration of IV normal saline to dilute calcium and promote renal excretion",
+      "explanation": "Hypercalcemia (calcium >10.5 mg/dL) in multiple myeloma (bone destruction releases calcium). Treatment: aggressive IV NS hydration to dilute serum calcium and increase renal calcium excretion, followed by bisphosphonates (pamidronate/zoledronic acid) and furosemide. Fluid restriction would worsen hypercalcemia."
+    },
+    {
+      "id": 47,
+      "question": "A patient is in traction for a femur fracture. The nurse notes traction weights resting on the bed frame. The CORRECT action is to:",
+      "choices": ["Leave them as they are — weights on the bed reduce painful muscle spasm", "Ensure weights hang freely to provide continuous effective traction", "Remove weights during repositioning for comfort", "Increase the weight to overcome the resistance"],
+      "answer": "Ensure weights hang freely to provide continuous effective traction",
+      "explanation": "Traction weights must hang freely at all times and NOT rest on the bed, floor, or frame. Resting weights eliminates the traction force, which is needed for bone alignment. The nurse should also ensure the counter-traction (patient's own body weight) is maintained by keeping the correct bed position."
+    },
+    {
+      "id": 48,
+      "question": "A patient with a new cast on the right forearm complains of severe pain and notes tightness, paresthesia, and inability to flex fingers. These findings suggest:",
+      "choices": ["Normal post-casting discomfort", "Compartment syndrome", "Pressure ulcer under the cast", "Allergic reaction to casting material"],
+      "answer": "Compartment syndrome",
+      "explanation": "The 6 Ps of compartment syndrome: Pain (severe, unrelieved by analgesics), Pressure (tight compartment), Paralysis, Paresthesia (numbness/tingling), Pallor, and Pulselessness (late sign). This is an orthopedic emergency requiring immediate notification of physician and fasciotomy if confirmed. The nurse should never split or bivalve the cast without physician order."
+    },
+    {
+      "id": 49,
+      "question": "A patient with systemic lupus erythematosus (SLE) should be taught to MOST importantly avoid:",
+      "choices": ["Foods high in vitamin C", "Sunlight and UV exposure", "Exercise and physical activity", "Medications that contain acetaminophen"],
+      "answer": "Sunlight and UV exposure",
+      "explanation": "Ultraviolet (UV) light triggers or exacerbates SLE flares by inducing antinuclear antibody production. Patients must use SPF 30+ sunscreen, wear protective clothing, and avoid direct sun exposure, especially during peak hours. SLE is an autoimmune disease — avoid medications that can trigger drug-induced lupus (hydralazine, procainamide)."
+    },
+    {
+      "id": 50,
+      "question": "A patient is admitted with a serum sodium level of 118 mEq/L. The nurse should MOST closely monitor for:",
+      "choices": ["Muscle weakness and constipation", "Seizures and altered consciousness", "Polyuria and polydipsia", "Metabolic alkalosis"],
+      "answer": "Seizures and altered consciousness",
+      "explanation": "Severe hyponatremia (Na+ <120 mEq/L) causes brain cell swelling (cerebral edema) leading to neurological symptoms: confusion, seizures, coma, and brain herniation. The nurse must monitor neurological status closely. Correction should be gradual (not more than 8–12 mEq/L per 24 hours) to prevent osmotic demyelination syndrome."
+    }
+  ]
+}

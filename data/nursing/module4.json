@@ -1,0 +1,356 @@
+{
+  "module": "Module 4 - Community Health Nursing",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The PRIMARY goal of community health nursing is to:",
+      "choices": ["Provide curative care to sick individuals", "Promote health and prevent disease in populations and communities", "Administer medications to outpatients", "Train nursing students in hospital settings"],
+      "answer": "Promote health and prevent disease in populations and communities",
+      "explanation": "Community health nursing (CHN) focuses on health promotion, disease prevention, and health maintenance for populations and communities. Unlike hospital nursing which focuses on individual sick patients, CHN targets groups, families, and communities through education, epidemiological surveillance, and primary health care."
+    },
+    {
+      "id": 2,
+      "question": "The three levels of prevention in public health are primary, secondary, and tertiary. Immunization programs are an example of which level?",
+      "choices": ["Primary prevention", "Secondary prevention", "Tertiary prevention", "Quaternary prevention"],
+      "answer": "Primary prevention",
+      "explanation": "Primary prevention: Actions taken BEFORE the disease occurs to prevent it (e.g., immunization, health education, safe water, sanitation). Secondary prevention: Early detection and treatment (e.g., screening, Pap smear, mammography). Tertiary prevention: Reducing complications and disability from existing disease (e.g., rehabilitation, dialysis for CRF)."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following activities represents SECONDARY prevention?",
+      "choices": ["Immunization against measles", "Rehabilitation after stroke", "Pap smear screening for cervical cancer", "Health teaching about proper nutrition"],
+      "answer": "Pap smear screening for cervical cancer",
+      "explanation": "Secondary prevention involves early detection of disease before symptoms appear to allow prompt treatment. Screening programs (Pap smear, mammography, TST for TB, blood pressure screening) are secondary prevention. Immunization and health education are primary prevention. Rehabilitation is tertiary prevention."
+    },
+    {
+      "id": 4,
+      "question": "The epidemiological triad (host-agent-environment) is used to explain disease causation. In the causation of typhoid fever, which of the following is the AGENT?",
+      "choices": ["Contaminated water (vehicle)", "Salmonella typhi", "Immunocompromised individual", "Poor sanitation in the community"],
+      "answer": "Salmonella typhi",
+      "explanation": "Epidemiological triad: Agent = the causative organism (Salmonella typhi for typhoid fever); Host = the susceptible human (immunocompromised, unvaccinated); Environment = conditions favoring transmission (poor sanitation, contaminated water). Understanding the triad guides public health interventions targeting each component."
+    },
+    {
+      "id": 5,
+      "question": "Attack rate is defined as:",
+      "choices": ["Number of new cases divided by total population at risk", "Number of deaths from a disease divided by total population", "Number of people ill among those exposed to a risk factor", "Total disease burden in a community at one point in time"],
+      "answer": "Number of people ill among those exposed to a risk factor",
+      "explanation": "Attack rate = (Number of people who became ill / Number of people exposed) × 100. It is used in outbreak investigations to measure the proportion of exposed individuals who develop the disease. A high attack rate suggests high transmissibility or a common source exposure."
+    },
+    {
+      "id": 6,
+      "question": "The distinction between incidence rate and prevalence rate is that:",
+      "choices": ["Incidence measures all existing cases; prevalence measures new cases only", "Incidence measures new cases in a time period; prevalence measures all existing cases at a point in time", "They are the same measure expressed differently", "Incidence is measured annually; prevalence is measured monthly"],
+      "answer": "Incidence measures new cases in a time period; prevalence measures all existing cases at a point in time",
+      "explanation": "Incidence rate = new cases occurring in a specified time period / population at risk. Prevalence = all existing cases (new + old) at a specific point in time / total population. Prevalence is affected by incidence and disease duration. High incidence + long duration = high prevalence."
+    },
+    {
+      "id": 7,
+      "question": "The case fatality rate (CFR) is used to measure:",
+      "choices": ["The number of deaths from a disease per 100,000 population", "The proportion of people with the disease who die from it", "The risk of getting a disease in the community", "The effectiveness of treatment for a disease"],
+      "answer": "The proportion of people with the disease who die from it",
+      "explanation": "Case Fatality Rate (CFR) = (Deaths from disease / Cases of disease) × 100. It indicates the severity/lethality of a disease. A high CFR means the disease is deadly (e.g., rabies CFR = nearly 100% if untreated). It is different from crude mortality rate, which is deaths per total population."
+    },
+    {
+      "id": 8,
+      "question": "The Philippine National Immunization Program (EPI) schedule recommends BCG vaccine be given:",
+      "choices": ["At birth or as early as possible", "At 6 weeks of age", "At 12 months of age", "At 15 months with MMR"],
+      "answer": "At birth or as early as possible",
+      "explanation": "Under the Philippine EPI (Expanded Program on Immunization), BCG (Bacillus Calmette-Guérin) is given at birth or as early as possible to protect against severe forms of TB (TB meningitis, miliary TB). It is given intradermally in the right deltoid region. A scar at the injection site is expected and confirms successful vaccination."
+    },
+    {
+      "id": 9,
+      "question": "The Revised Philippine EPI schedule for pentavalent vaccine (DPT-HepB-Hib) is given at which ages?",
+      "choices": ["Birth, 2 months, 4 months", "6 weeks, 10 weeks, 14 weeks", "2 months, 4 months, 6 months", "At birth, 1 month, and 6 months"],
+      "answer": "6 weeks, 10 weeks, 14 weeks",
+      "explanation": "The Philippine EPI schedule for pentavalent vaccine (DPT-HepB-Hib): 6 weeks, 10 weeks, and 14 weeks. This protects against diphtheria, pertussis, tetanus, hepatitis B, and Haemophilus influenzae type b. Minimum interval between doses is 4 weeks. OPV is given at the same schedule."
+    },
+    {
+      "id": 10,
+      "question": "Which disease in the Philippines is reportable IMMEDIATELY to the local health authority?",
+      "choices": ["Influenza", "Cholera", "Common cold", "Urinary tract infection"],
+      "answer": "Cholera",
+      "explanation": "Immediately notifiable diseases in the Philippines (within 24 hours): cholera, plague, yellow fever, viral hemorrhagic fevers, SARS, novel influenza strains, and other epidemic-prone diseases. These trigger immediate public health response. Routine reportable diseases (within 1 week): typhoid, dengue, measles, tuberculosis."
+    },
+    {
+      "id": 11,
+      "question": "The chain of infection is interrupted MOST effectively at which link when healthcare workers perform proper hand hygiene?",
+      "choices": ["Susceptible host", "Reservoir", "Mode of transmission", "Portal of entry"],
+      "answer": "Mode of transmission",
+      "explanation": "Hand hygiene breaks the chain of infection at the MODE OF TRANSMISSION by preventing pathogens from being transferred from one surface/person to another. The chain of infection: Infectious agent → Reservoir → Portal of exit → Mode of transmission → Portal of entry → Susceptible host."
+    },
+    {
+      "id": 12,
+      "question": "A community health nurse is conducting a home visit for a family with pulmonary tuberculosis. According to DOTS (Directly Observed Treatment, Short-Course), the nurse should ensure:",
+      "choices": ["The patient stores all medications at home and self-administers", "A treatment partner directly observes every dose of medication intake", "Medications are given only when the patient has symptoms", "The patient takes medications every other day to reduce side effects"],
+      "answer": "A treatment partner directly observes every dose of medication intake",
+      "explanation": "DOTS is the WHO-recommended strategy for TB control. A trained treatment partner (health worker, family member) DIRECTLY OBSERVES every dose to ensure adherence. This prevents drug resistance and treatment failure. Treatment partners can be trained family members when the patient cannot go to a health facility."
+    },
+    {
+      "id": 13,
+      "question": "Under the Philippine Stop TB Program, the standard Category 1 DOTS regimen for new pulmonary TB cases (smear-positive) is:",
+      "choices": ["2 months HRZE / 4 months HR", "6 months of isoniazid only", "2 months HRZE / 6 months HRE", "3 months HR / 3 months HR"],
+      "answer": "2 months HRZE / 4 months HR",
+      "explanation": "Standard DOTS Category 1 (new cases, smear-positive): 2 months of HRZE (intensive phase: isoniazid, rifampicin, pyrazinamide, ethambutol) daily under direct observation, followed by 4 months of HR (continuation phase: isoniazid and rifampicin) — total 6 months. Sputum conversion at 2 months is monitored."
+    },
+    {
+      "id": 14,
+      "question": "A community health nurse is caring for a patient with dengue fever. At which stage of dengue does severe bleeding most commonly occur?",
+      "choices": ["Febrile phase (Days 1–3)", "Critical phase (Days 4–6)", "Recovery phase (Days 7–10)", "Incubation period (Days 4–7 post-bite)"],
+      "answer": "Critical phase (Days 4–6)",
+      "explanation": "Dengue fever has 3 phases: (1) Febrile (Days 1–3): high fever, flushing, body aches; (2) Critical (Days 4–6): fever defervesces, plasma leakage → hemoconcentration, thrombocytopenia, risk of hemorrhage and dengue shock syndrome; (3) Recovery (Days 7–10): reabsorption of fluids. The critical phase is the most dangerous."
+    },
+    {
+      "id": 15,
+      "question": "The Aedes aegypti mosquito, vector of dengue fever, breeds primarily in:",
+      "choices": ["Swamps and marshes", "Running streams and rivers", "Stagnant clean water in containers near the home", "Agricultural fields with irrigation water"],
+      "answer": "Stagnant clean water in containers near the home",
+      "explanation": "Aedes aegypti breeds in clean, stagnant water in artificial containers near human habitation: flower vases, tires, drums, cans, roof gutters. The '4S' strategy for dengue prevention: Search and destroy breeding sites, Self-protection measures, Seek early consultation, and Support fogging/spraying in epidemic areas."
+    },
+    {
+      "id": 16,
+      "question": "A community health nurse suspects a cholera outbreak in a barangay after several residents develop profuse watery ('rice-water') stools. The MOST important nursing intervention is:",
+      "choices": ["Administer antibiotics to all residents prophylactically", "Report to the local health authority and implement oral rehydration therapy", "Quarantine all affected individuals immediately", "Begin mass fumigation of the barangay"],
+      "answer": "Report to the local health authority and implement oral rehydration therapy",
+      "explanation": "Priority actions in a suspected cholera outbreak: (1) Report immediately to the local health authority (LHU) — cholera is an immediately notifiable disease; (2) Implement ORT (oral rehydration therapy) for dehydrated patients; (3) Identify and address the contaminated water/food source; (4) Promote hand hygiene and safe water practices."
+    },
+    {
+      "id": 17,
+      "question": "According to the World Health Organization, the primary health care approach is based on the principle of:",
+      "choices": ["High-technology hospital-based care for all communities", "Essential health care made universally accessible to all individuals and families", "Specialist physician care provided at the barangay level", "Government-funded free tertiary hospital care"],
+      "answer": "Essential health care made universally accessible to all individuals and families",
+      "explanation": "Primary Health Care (PHC) — Declaration of Alma-Ata (1978): essential health care made universally accessible to individuals and families in the community, at a cost the community can afford, with full participation of the community. PHC includes 8 essential elements: health education, local endemic disease control, MCH, immunization, essential drugs, nutrition, safe water/sanitation, treatment of common diseases."
+    },
+    {
+      "id": 18,
+      "question": "Under Republic Act 7160 (Local Government Code), which level of government is responsible for managing barangay health centers and rural health units?",
+      "choices": ["National Government / Department of Health", "Provincial Government", "Municipal/City Government", "Barangay Government"],
+      "answer": "Municipal/City Government",
+      "explanation": "Under RA 7160 (Local Government Code of 1991), health services were devolved: Municipal/City LGUs manage Rural Health Units (RHUs) and Barangay Health Centers; Provincial LGUs manage provincial hospitals; the Department of Health (DOH) manages tertiary/specialty hospitals and provides technical assistance and national health policy."
+    },
+    {
+      "id": 19,
+      "question": "In the COPAR (Community Organizing Participatory Action Research) process, the FIRST step after entering the community is:",
+      "choices": ["Integration into the community and building trust", "Launching health programs immediately", "Training barangay health workers", "Establishing a community health fund"],
+      "answer": "Integration into the community and building trust",
+      "explanation": "COPAR phases: (1) Community profiling/entry — integration, building relationships, and gaining trust; (2) Community organizing — identifying and training community leaders; (3) Community diagnosis — conducting health surveys; (4) Community action — implementing health programs; (5) Evaluation. Building trust with community leaders and members is the critical first step."
+    },
+    {
+      "id": 20,
+      "question": "A home visit is being conducted for a family with 5 members. The nurse uses the FDAR (Focus, Data, Action, Response) format for documentation. In this format, 'Action' refers to:",
+      "choices": ["The patient's complaint", "What the nurse observed (objective and subjective data)", "Nursing interventions performed", "Patient's response to nursing interventions"],
+      "answer": "Nursing interventions performed",
+      "explanation": "FDAR documentation: Focus = patient-centered problem or condition; Data = subjective (patient's statements) and objective (nurse's observations) data; Action = nursing interventions implemented; Response = patient's response to interventions. This format is commonly used in community health nursing documentation."
+    },
+    {
+      "id": 21,
+      "question": "A public health nurse is planning nutrition interventions for a community with high rates of malnutrition. Vitamin A supplementation is given to children 6–59 months at which frequency?",
+      "choices": ["Monthly", "Every 6 months", "Annually", "Quarterly"],
+      "answer": "Every 6 months",
+      "explanation": "Under the Philippine DOH National Vitamin A Supplementation Program, children 6–59 months receive vitamin A every 6 months (February and August during Garantisadong Pambata). Dose: 100,000 IU for 6–11 months; 200,000 IU for 12–59 months. This prevents vitamin A deficiency and reduces child mortality."
+    },
+    {
+      "id": 22,
+      "question": "The nurse is assessing a family using the Family Health Nursing Diagnosis. A family is classified as 'Type I — Family with a sick member that has no known health problem.' This means the nurse's PRIORITY is:",
+      "choices": ["Treating the identified sick member", "Health promotion and disease prevention", "Coordinating specialist referrals", "Providing emotional support for the family"],
+      "answer": "Health promotion and disease prevention",
+      "explanation": "Family Nursing Diagnoses (Type I, II, III): Type I = Family with no identified health problem but with risk factors — priority is health promotion and primary prevention. Type II = Family with a health problem but resources present — secondary prevention. Type III = Family in crisis with limited resources — tertiary level interventions."
+    },
+    {
+      "id": 23,
+      "question": "The nurse calculates the infant mortality rate (IMR) for a community. The formula for IMR is:",
+      "choices": ["Deaths under 1 year / live births × 1,000", "Deaths under 1 year / total population × 1,000", "Deaths under 5 years / live births × 1,000", "Neonatal deaths / total deaths × 100"],
+      "answer": "Deaths under 1 year / live births × 1,000",
+      "explanation": "Infant Mortality Rate (IMR) = (Deaths of infants under 1 year of age / Live births in the same period) × 1,000. IMR is a sensitive indicator of overall health status, quality of health care, and socioeconomic conditions of a community. The Philippines IMR target is below 10 per 1,000 live births."
+    },
+    {
+      "id": 24,
+      "question": "Maternal mortality ratio (MMRatio) is defined as:",
+      "choices": ["Deaths of women during or after pregnancy (per 100,000 live births)", "Deaths of women of reproductive age (per 1,000 women)", "Deaths during delivery only (per 10,000 deliveries)", "Ratio of maternal deaths to infant deaths"],
+      "answer": "Deaths of women during or after pregnancy (per 100,000 live births)",
+      "explanation": "Maternal Mortality Ratio = Maternal deaths (during pregnancy, childbirth, or within 42 days of termination of pregnancy from causes related to pregnancy) / Live births × 100,000. The Philippines' MMRatio is a key indicator of reproductive health care quality. Common causes: postpartum hemorrhage, hypertensive disorders, sepsis."
+    },
+    {
+      "id": 25,
+      "question": "Under the Philippine Responsible Parenthood and Reproductive Health Act (RA 10354), all health facilities receiving government support are required to provide:",
+      "choices": ["Only natural family planning methods", "Comprehensive family planning services including modern methods", "Sterilization services only to married women with 3+ children", "Family planning only with spousal consent"],
+      "answer": "Comprehensive family planning services including modern methods",
+      "explanation": "RA 10354 (Responsible Parenthood and Reproductive Health Act of 2012) mandates that all public health facilities provide a full range of family planning services, including both natural (Fertility Awareness Methods) and modern (pills, IUD, condoms, injectable) methods. It guarantees reproductive rights and access to information."
+    },
+    {
+      "id": 26,
+      "question": "A community health nurse conducts a survey and finds that a neighborhood's garbage is collected only once a week. Garbage is left uncollected for long periods, attracting flies and rodents. This is primarily a problem at which level of the web of causation?",
+      "choices": ["Host factor", "Agent factor", "Environmental factor", "Vector factor"],
+      "answer": "Environmental factor",
+      "explanation": "Poor solid waste management (infrequent collection, open dumping) is an environmental factor that creates breeding sites for flies, mosquitoes, and rodents — increasing risk of vector-borne and enteric diseases. Environmental interventions (proper waste disposal, clean water supply, sanitation) address the foundation of disease prevention."
+    },
+    {
+      "id": 27,
+      "question": "The nurse is assessing a community for lead poisoning among children living near a battery recycling plant. This is an example of:",
+      "choices": ["Occupational health nursing", "Environmental health nursing", "School health nursing", "Home health nursing"],
+      "answer": "Environmental health nursing",
+      "explanation": "Environmental health nursing addresses health effects of environmental hazards — chemical pollutants, toxic waste, air/water contamination, lead, pesticides. Investigating lead poisoning near an industrial facility is an environmental health concern. Occupational health nursing focuses on workplace health and safety for workers."
+    },
+    {
+      "id": 28,
+      "question": "A barangay health worker (BHW) is trained to provide which of the following services WITHIN their scope?",
+      "choices": ["Prescribing medications for common illnesses", "Conducting home visits, health education, and referring patients", "Performing minor surgical procedures", "Administering intravenous fluids"],
+      "answer": "Conducting home visits, health education, and referring patients",
+      "explanation": "BHWs (community health volunteers) are trained to: conduct home visits, provide health education, record vital statistics, assist in immunization and nutrition programs, distribute family planning supplies, and refer patients to the RHU. They do NOT prescribe drugs, perform procedures, or administer IV medications — these require licensed health professionals."
+    },
+    {
+      "id": 29,
+      "question": "A public health nurse is planning an oral rehydration therapy (ORT) program for a community with high rates of diarrheal disease. The standard home-based ORS solution contains:",
+      "choices": ["1 teaspoon salt in 1 cup water", "1 teaspoon salt and 8 teaspoons sugar in 1 liter water", "1 teaspoon salt in 1 liter water with lemon", "2 teaspoons sugar in 500 mL water"],
+      "answer": "1 teaspoon salt and 8 teaspoons sugar in 1 liter water",
+      "explanation": "Home-made ORS (if commercial ORS unavailable): 1 level teaspoon of salt + 8 level teaspoons of sugar dissolved in 1 liter of clean water. Commercial WHO ORS packets contain: sodium chloride, potassium chloride, sodium citrate, and glucose. ORT is the cornerstone of diarrheal disease management."
+    },
+    {
+      "id": 30,
+      "question": "The nurse is teaching a mother about dehydration assessment in her child with diarrhea. According to IMCI (Integrated Management of Childhood Illness), a child with 'some dehydration' shows:",
+      "choices": ["Normal eyes, moist mouth, drinks normally", "Sunken eyes, dry mouth, restless and drinks eagerly", "Very sunken eyes, very dry mouth, unable to drink", "No visible signs of dehydration"],
+      "answer": "Sunken eyes, dry mouth, restless and drinks eagerly",
+      "explanation": "IMCI dehydration classification: No dehydration (none of the signs below). Some dehydration (2+ of the following): restless/irritable, sunken eyes, decreased skin turgor, drinks eagerly. Severe dehydration (2+ of the following): lethargic/unconscious, very sunken eyes, very poor skin turgor, unable to drink. Treatment Plan B (ORT) is for some dehydration."
+    },
+    {
+      "id": 31,
+      "question": "The IMCI (Integrated Management of Childhood Illness) strategy classifies sick children aged 2 months to 5 years. A child with 'very severe disease' based on IMCI danger signs requires:",
+      "choices": ["Outpatient treatment with antibiotics", "Immediate referral to the hospital", "Home treatment with ORS only", "Follow-up visit in 5 days"],
+      "answer": "Immediate referral to the hospital",
+      "explanation": "IMCI general danger signs (very severe disease requiring URGENT referral): unable to drink or breastfeed, vomits everything, convulsions, lethargic or unconscious, stridor, severe malnutrition. Any child with a general danger sign must be referred IMMEDIATELY to a hospital for emergency care."
+    },
+    {
+      "id": 32,
+      "question": "A community health nurse is screening for hypertension. According to the Philippine Society of Hypertension, hypertension in adults is defined as blood pressure of:",
+      "choices": ["≥120/80 mmHg", "≥130/85 mmHg", "≥140/90 mmHg", "≥150/95 mmHg"],
+      "answer": "≥140/90 mmHg",
+      "explanation": "In the Philippines, hypertension is diagnosed when blood pressure is ≥140 mmHg systolic and/or ≥90 mmHg diastolic on two separate occasions. This follows WHO and Philippine Society of Hypertension guidelines. The AHA/ACC 2017 guidelines lowered the threshold to ≥130/80 mmHg, but the Philippine standard remains ≥140/90 mmHg."
+    },
+    {
+      "id": 33,
+      "question": "The Philippine National Blood Pressure Day is observed annually to promote hypertension awareness. A nurse conducting BP screening should use the correct technique, which includes having the patient rest for at least __ minutes before measurement:",
+      "choices": ["1 minute", "3 minutes", "5 minutes", "10 minutes"],
+      "answer": "5 minutes",
+      "explanation": "Correct blood pressure measurement technique: patient should rest quietly for at least 5 minutes before measurement; no caffeine, exercise, or smoking for 30 minutes prior; patient should be seated with back supported, feet flat on floor, arm at heart level; use appropriate cuff size; take 2–3 readings and average them."
+    },
+    {
+      "id": 34,
+      "question": "Under the Philippine DOTS Program, a patient who stopped treatment for 2 consecutive months and then returns is classified as:",
+      "choices": ["New case", "Treatment failure", "Treatment after default (loss to follow-up)", "Chronic case"],
+      "answer": "Treatment after default (loss to follow-up)",
+      "explanation": "TB treatment outcome classifications: Cured, Treatment completed, Treatment failed (smear-positive at 5+ months), Died, Loss to follow-up (interrupted treatment ≥2 consecutive months), and Not evaluated. A patient who was lost to follow-up and returns is classified as 'Treatment after loss to follow-up' and requires sputum smear before re-treatment."
+    },
+    {
+      "id": 35,
+      "question": "A nurse is performing a community assessment and notices high rates of intestinal parasitism in children. Which primary preventive intervention would MOST effectively address this?",
+      "choices": ["Mass deworming with albendazole twice yearly", "Provision of private water supply to all households", "Building more rural health units in the area", "Distributing anti-parasitic medications monthly"],
+      "answer": "Mass deworming with albendazole twice yearly",
+      "explanation": "The Philippine DOH Soil-Transmitted Helminthiasis Control Program recommends mass drug administration (deworming) with albendazole 400 mg twice yearly for preschool-aged children (1–4 years) and school-aged children. This is a cost-effective primary prevention strategy that complements hygiene education and improved sanitation."
+    },
+    {
+      "id": 36,
+      "question": "The nurse is conducting a health assessment of a community and calculating the crude birth rate. The formula is:",
+      "choices": ["Number of live births / Female population 15–44 × 1,000", "Number of live births / Total mid-year population × 1,000", "Number of births / Number of deaths × 1,000", "Number of pregnancies / Total population × 100"],
+      "answer": "Number of live births / Total mid-year population × 1,000",
+      "explanation": "Crude Birth Rate (CBR) = (Number of live births in a year / Total mid-year population) × 1,000. It measures the rate of live births in a population. A high CBR indicates rapid population growth. The general fertility rate uses the female population aged 15–49 as the denominator."
+    },
+    {
+      "id": 37,
+      "question": "A community health nurse is investigating a foodborne illness outbreak at a school canteen. The nurse conducts a case-control study. In this study design, 'controls' are:",
+      "choices": ["Students who became ill after eating at the canteen", "Students who did not become ill matched to cases", "Students who refused to eat at the canteen", "Students who were treated with antibiotics"],
+      "answer": "Students who did not become ill matched to cases",
+      "explanation": "In a case-control study: Cases = individuals who developed the disease; Controls = individuals WITHOUT the disease matched to cases by similar characteristics (age, gender, school section). The study compares exposure history between cases and controls to identify risk factors. Case-control is used for rare diseases or outbreak investigation."
+    },
+    {
+      "id": 38,
+      "question": "The nurse is evaluating the effectiveness of a community health program. Which indicator BEST measures program outcome (effectiveness)?",
+      "choices": ["Number of home visits conducted", "Budget utilized for the health program", "Reduction in the incidence of the target disease", "Number of BHWs trained"],
+      "answer": "Reduction in the incidence of the target disease",
+      "explanation": "Program evaluation levels: Input indicators (resources used — budget, staff, supplies), Process indicators (activities conducted — visits, trainings), Output indicators (immediate results — BHWs trained, immunizations given), Outcome indicators (health status changes — reduction in disease incidence). Outcome indicators are the highest level and measure actual effectiveness."
+    },
+    {
+      "id": 39,
+      "question": "A community health nurse is conducting the Nutritional Assessment of children in a barangay. Which measurement is MOST commonly used to assess undernutrition in children under 5 years?",
+      "choices": ["Mid-upper arm circumference (MUAC) alone", "Weight-for-age, height-for-age, and weight-for-height z-scores", "Body mass index (BMI) for age", "Skinfold thickness measurements"],
+      "answer": "Weight-for-age, height-for-age, and weight-for-height z-scores",
+      "explanation": "WHO nutrition assessment indices for children under 5: Weight-for-age (underweight — reflects acute and chronic malnutrition); Height/length-for-age (stunting — reflects chronic malnutrition); Weight-for-height (wasting — reflects acute malnutrition). MUAC <12.5 cm is used for rapid screening of severe acute malnutrition in children 6–59 months."
+    },
+    {
+      "id": 40,
+      "question": "Under the Philippine MNCHN (Maternal, Newborn, Child Health and Nutrition) Strategy, essential newborn care (ENC) practices include which of the following?",
+      "choices": ["Immediate bathing after birth", "Delayed cord clamping (1–3 minutes after birth)", "Routine suctioning of all newborns", "Immediate separation of newborn from mother for observation"],
+      "answer": "Delayed cord clamping (1–3 minutes after birth)",
+      "explanation": "DOH Essential Newborn Care (ENC) Protocol: (1) Immediate and thorough drying; (2) Early skin-to-skin contact; (3) Properly-timed cord clamping (at 1–3 minutes after birth or after cord stops pulsating); (4) Non-separation of newborn and mother; (5) Breastfeeding initiation within 1 hour of birth. Bathing is deferred for at least 6–24 hours."
+    },
+    {
+      "id": 41,
+      "question": "The nurse is using family nursing theory. According to Friedman's Family Assessment Model, family functions include economic function, socialization, reproductive function, affective function, and:",
+      "choices": ["Educational function", "Health care function", "Political function", "Religious function"],
+      "answer": "Health care function",
+      "explanation": "Friedman's Family Functions: Affective (love, support, identity), Socialization (teaching social roles, culture), Reproductive (continuity of family), Economic (financial stability), and Health care (providing resources and behaviors to maintain health). The health care function is particularly relevant to community health nursing as it guides how nurses assess and support family health behaviors."
+    },
+    {
+      "id": 42,
+      "question": "A nurse is screening workers at a manufacturing plant for occupational health hazards. Noise-induced hearing loss (NIHL) is a concern. The maximum safe exposure level for an 8-hour workday is:",
+      "choices": ["70 decibels (dB)", "85 decibels (dB)", "100 decibels (dB)", "60 decibels (dB)"],
+      "answer": "85 decibels (dB)",
+      "explanation": "Occupational Safety and Health Standards (OSHA, OSHC Philippines): Maximum permissible noise exposure for an 8-hour workday is 85 dB(A). Above 85 dB, workers must use hearing protection. Every 3 dB increase in noise doubles the dose. At 88 dB, exposure is limited to 4 hours; at 91 dB, 2 hours."
+    },
+    {
+      "id": 43,
+      "question": "The nurse is educating a community about malaria prevention in an endemic area. The MOST effective vector control measure for Anopheles mosquito is:",
+      "choices": ["Indoor residual spraying (IRS) and long-lasting insecticidal nets (LLINs)", "Eliminating all stagnant water in the community", "Installing screens on all windows", "Community-wide mass antimalarial drug administration"],
+      "answer": "Indoor residual spraying (IRS) and long-lasting insecticidal nets (LLINs)",
+      "explanation": "Malaria vector (Anopheles mosquito) control: Indoor Residual Spraying (IRS) with insecticide coats walls/ceilings where mosquitoes rest; Long-Lasting Insecticidal Nets (LLINs) protect people while sleeping (Anopheles bites at night). These are the most effective WHO-recommended vector control interventions for malaria."
+    },
+    {
+      "id": 44,
+      "question": "The nurse is conducting a home visit and observes that the water source for a family is a shallow well near a pit latrine. The nurse explains this is a public health risk because:",
+      "choices": ["Shallow wells have lower mineral content than deep wells", "Pit latrines leach fecal pathogens into groundwater contaminating the well", "Well water always contains dangerous chemicals", "The family should use bottled water instead of any well"],
+      "answer": "Pit latrines leach fecal pathogens into groundwater contaminating the well",
+      "explanation": "Minimum safe distance between a water source and a sanitation facility (pit latrine, septic tank) is at least 15 meters to prevent fecal contamination of groundwater. Fecal pathogens (Salmonella, E. coli, Vibrio cholerae, hepatitis A, hookworm eggs) can leach through soil and contaminate shallow wells, causing waterborne diseases."
+    },
+    {
+      "id": 45,
+      "question": "A nurse in a rural health unit is conducting antenatal care. According to the DOH, the minimum number of antenatal care (ANC) visits recommended for a normal pregnancy is:",
+      "choices": ["2 visits", "4 visits", "8 visits", "12 visits"],
+      "answer": "8 visits",
+      "explanation": "WHO 2016 and DOH Philippines recommend 8 or more antenatal care (ANC) contacts for a normal pregnancy: 2 contacts in the first trimester, 2 in the second trimester, and 4 in the third trimester. This increased from the previous recommendation of 4 visits. ANC includes blood pressure monitoring, urine testing, blood type, CBC, STI screening, tetanus toxoid, iron supplementation, and birth planning."
+    },
+    {
+      "id": 46,
+      "question": "The community health nurse is administering tetanus toxoid (TT) to a pregnant woman. For full protection, a woman who has never been immunized should receive how many TT doses?",
+      "choices": ["1 dose during each pregnancy", "2 doses during the current pregnancy (TT1 and TT2)", "5 doses total over her lifetime", "3 doses given 1 month apart"],
+      "answer": "5 doses total over her lifetime",
+      "explanation": "TT immunization schedule for women: TT1 (first contact or as early as possible in pregnancy), TT2 (at least 4 weeks after TT1), TT3 (at least 6 months after TT2), TT4 (at least 1 year after TT3), TT5 (at least 1 year after TT4). Lifetime immunity is conferred after TT5. Each dose provides increasing duration of protection."
+    },
+    {
+      "id": 47,
+      "question": "Under Philippine law, who is authorized to issue a death certificate in the absence of a physician?",
+      "choices": ["The senior nurse at the local hospital", "The local civil registrar", "The barangay captain", "The attending nurse who cared for the patient"],
+      "answer": "The local civil registrar",
+      "explanation": "Under Philippine law (Act 3753 / Civil Registration Law), a physician signs the death certificate. In areas without a physician or when death occurs outside a hospital, the local civil registrar may certify the cause of death based on available information. Nurses are not authorized to sign death certificates."
+    },
+    {
+      "id": 48,
+      "question": "A community nurse is planning a health education program using the PRECEDE-PROCEED model. The PRECEDE phase focuses on:",
+      "choices": ["Implementation of health programs", "Evaluation of program outcomes", "Diagnosis — identifying determinants of health behavior", "Process evaluation and quality improvement"],
+      "answer": "Diagnosis — identifying determinants of health behavior",
+      "explanation": "PRECEDE-PROCEED (Green & Kreuter): PRECEDE = Predisposing, Reinforcing, and Enabling Constructs in Educational/Ecological Diagnosis and Evaluation — focuses on DIAGNOSIS of health problems and their behavioral and environmental determinants BEFORE designing the intervention. PROCEED = the implementation and evaluation phase."
+    },
+    {
+      "id": 49,
+      "question": "The Expanded Program on Immunization (EPI) cold chain maintains vaccines at which temperature?",
+      "choices": ["0 to −4°C", "+2 to +8°C", "+10 to +15°C", "−10 to −20°C"],
+      "answer": "+2 to +8°C",
+      "explanation": "The cold chain must maintain vaccines between +2°C and +8°C from manufacturer to point of administration. Freezing can damage liquid vaccines (DPT, Hepatitis B, TT, IPV — freeze-sensitive). Refrigerators should be set at +2 to +8°C; the shake test is used to detect freeze-damaged vaccines. BCG, measles, and yellow fever vaccines may tolerate freezing but not heat."
+    },
+    {
+      "id": 50,
+      "question": "A nurse assesses a rural community and finds high incidence of goiter. The MOST likely cause and the recommended community-level intervention is:",
+      "choices": ["Excess iodine intake — restrict seafood consumption", "Iodine deficiency — universal salt iodization and iodized oil capsules", "Fluoride deficiency — add fluoride to water supply", "Selenium deficiency — supplement with selenium tablets"],
+      "answer": "Iodine deficiency — universal salt iodization and iodized oil capsules",
+      "explanation": "Iodine deficiency is the most common cause of goiter and preventable intellectual disability worldwide. In iodine-deficient areas (inland, mountainous regions), the Philippines implements: Universal Salt Iodization (all salt fortified with iodine), iodized oil capsules for women and children in severely deficient areas, and monitoring of urinary iodine levels."
+    }
+  ]
+}

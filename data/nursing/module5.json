@@ -1,0 +1,356 @@
+{
+  "module": "Module 5 - Psychiatric Nursing",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The therapeutic nurse-patient relationship is differentiated from a social relationship primarily because it is:",
+      "choices": ["Based on mutual sharing of personal experiences", "Patient-centered, purposeful, and goal-directed", "Equal in terms of disclosure between nurse and patient", "Focused on meeting both the nurse's and patient's needs"],
+      "answer": "Patient-centered, purposeful, and goal-directed",
+      "explanation": "The therapeutic relationship is unique: it is patient-centered (focused on the patient's needs, not the nurse's), purposeful (has a defined goal — patient's mental health recovery), time-limited, and professional. Self-disclosure by the nurse is used therapeutically and sparingly. Unlike social relationships, it is not mutual in terms of emotional sharing."
+    },
+    {
+      "id": 2,
+      "question": "A nurse maintains professional boundaries in the therapeutic relationship. Which of the following behaviors indicates a boundary VIOLATION?",
+      "choices": ["Addressing the patient by their preferred name", "Sharing personal phone number with a patient for 'emergencies'", "Sitting beside the patient during a difficult conversation", "Spending extra time with a distressed patient"],
+      "answer": "Sharing personal phone number with a patient for 'emergencies'",
+      "explanation": "Boundary violations occur when the nurse crosses the professional line for personal gain or inappropriately blurs roles. Examples: sharing personal contact information, accepting gifts, meeting patients outside clinical settings, self-disclosing extensively. Boundary crossings (e.g., sitting with the patient, extended time) may be appropriate if therapeutic."
+    },
+    {
+      "id": 3,
+      "question": "The phases of the therapeutic nurse-patient relationship (Peplau's model) in correct sequence are:",
+      "choices": ["Orientation, Working, Termination", "Introduction, Identification, Resolution", "Pre-interaction, Orientation, Working, Termination", "Assessment, Planning, Implementation, Evaluation"],
+      "answer": "Pre-interaction, Orientation, Working, Termination",
+      "explanation": "Hildegard Peplau's four phases of the therapeutic relationship: (1) Pre-interaction: nurse prepares before meeting patient (self-assessment, information review); (2) Orientation: introduction, establishing trust, defining roles; (3) Working: active problem-solving, therapeutic interventions; (4) Termination: reviewing progress, preparing for discharge. This is the foundation of psychiatric nursing."
+    },
+    {
+      "id": 4,
+      "question": "A patient with depression says, 'I feel like no one cares whether I live or die.' The MOST therapeutic nursing response is:",
+      "choices": ["'Don't think that way — many people care about you.'", "'It sounds like you're feeling very alone and hopeless. Can you tell me more about that?'", "'You should focus on the positive things in your life.'", "'I care about you. Let's talk about your goals.'"],
+      "answer": "'It sounds like you're feeling very alone and hopeless. Can you tell me more about that?'",
+      "explanation": "The best response uses reflection (mirroring the patient's feelings) and an open-ended statement that invites the patient to elaborate. It validates feelings without minimizing them. False reassurance ('Don't think that way'), giving advice, and focusing on positives are non-therapeutic and block communication. This response also allows assessment for suicidal ideation."
+    },
+    {
+      "id": 5,
+      "question": "A patient says, 'I'm so scared about my surgery tomorrow.' The nurse responds, 'You'll be fine — the doctor is excellent.' This is an example of which NON-therapeutic communication technique?",
+      "choices": ["Clarifying", "False reassurance", "Reflection", "Probing"],
+      "answer": "False reassurance",
+      "explanation": "False reassurance dismisses the patient's concern with an empty promise and blocks further communication. It invalidates the patient's feelings. Therapeutic alternatives: acknowledge the feeling ('I understand you're scared'), encourage expression ('Tell me what worries you most'), and provide accurate information about the procedure and team."
+    },
+    {
+      "id": 6,
+      "question": "A nurse is practicing active listening. Which behavior BEST demonstrates active listening?",
+      "choices": ["Writing notes while the patient speaks to ensure accuracy", "Maintaining eye contact, nodding, and using minimal verbal cues ('I see', 'Go on')", "Interrupting to ask clarifying questions frequently", "Preparing responses while the patient is speaking"],
+      "answer": "Maintaining eye contact, nodding, and using minimal verbal cues ('I see', 'Go on')",
+      "explanation": "Active listening requires full attention: maintain appropriate eye contact, face the patient, use minimal prompts ('uh-huh', 'go on', nodding), avoid interrupting, and observe non-verbal cues. Writing while the patient speaks, preparing responses before the patient finishes, or interrupting — all interfere with active listening."
+    },
+    {
+      "id": 7,
+      "question": "A patient with generalized anxiety disorder (GAD) is hyperventilating. The nurse should FIRST:",
+      "choices": ["Administer a benzodiazepine as ordered", "Instruct the patient to breathe into a paper bag", "Stay with the patient and use calm, simple instructions: 'Breathe slowly with me'", "Leave the patient alone to prevent worsening anxiety"],
+      "answer": "Stay with the patient and use calm, simple instructions: 'Breathe slowly with me'",
+      "explanation": "During acute anxiety/hyperventilation, the nurse should remain calm and present, reassure the patient they are safe, give simple breathing instructions (slow diaphragmatic breathing), minimize environmental stimuli, and speak in a quiet, low, even voice. Medication may be given as ordered after these initial measures. Never leave the acutely anxious patient alone."
+    },
+    {
+      "id": 8,
+      "question": "Levels of anxiety according to Hildegard Peplau range from mild to panic. A patient in the PANIC level of anxiety will exhibit:",
+      "choices": ["Increased alertness and learning ability", "Narrowed perceptual field with focus on one detail", "Severely reduced perceptual field — loss of rational thought, inability to communicate", "Moderate reduction in perceptual field but still functions"],
+      "answer": "Severely reduced perceptual field — loss of rational thought, inability to communicate",
+      "explanation": "Peplau's levels of anxiety: Mild (+) — heightened awareness, increased learning; Moderate (++) — perceptual field narrows, attention decreases, physiological symptoms; Severe (+++) — perceptual field markedly reduced, learning nearly impossible, requires direction; Panic (++++) — disorganization, loss of rational thought, inability to communicate, extreme danger."
+    },
+    {
+      "id": 9,
+      "question": "A patient with obsessive-compulsive disorder (OCD) must wash his hands exactly 30 times before leaving the bathroom, causing significant daily impairment. The nurse understands that this ritual (compulsion) functions to:",
+      "choices": ["Increase the patient's sense of control and reduce anxiety temporarily", "Provide pleasure and reward for the patient", "Simulate experiences from the patient's traumatic past", "Compensate for cognitive deficits caused by anxiety"],
+      "answer": "Increase the patient's sense of control and reduce anxiety temporarily",
+      "explanation": "In OCD, obsessions are intrusive, unwanted thoughts that cause anxiety. Compulsions are repetitive behaviors performed to neutralize the obsession and temporarily reduce anxiety. While the compulsion provides temporary relief, it reinforces the cycle. Treatment: Exposure and Response Prevention (ERP) therapy + SSRIs (first-line: fluoxetine, sertraline, fluvoxamine)."
+    },
+    {
+      "id": 10,
+      "question": "A patient with post-traumatic stress disorder (PTSD) describes vivid, distressing re-experiences of a traumatic event as if it were happening again. This symptom is called:",
+      "choices": ["Dissociation", "Flashback", "Delusion", "Confabulation"],
+      "answer": "Flashback",
+      "explanation": "PTSD symptoms: (1) Re-experiencing (flashbacks, nightmares, intrusive memories); (2) Avoidance (avoiding trauma reminders); (3) Negative alterations in cognition/mood (guilt, alienation); (4) Hyperarousal (hypervigilance, startle response, sleep disturbance). Flashbacks are intense, vivid re-experiences of the trauma that feel real. First-line treatments: Prolonged Exposure, EMDR, SSRIs."
+    },
+    {
+      "id": 11,
+      "question": "A patient is admitted with major depressive disorder (MDD). The nurse should PRIORITIZE which assessment?",
+      "choices": ["Sleep patterns and appetite", "Suicidal ideation and intent", "Social support systems", "Medication adherence history"],
+      "answer": "Suicidal ideation and intent",
+      "explanation": "In any patient with depression, the PRIORITY assessment is always suicidal ideation, plan, intent, and means because suicide is the most life-threatening complication of MDD. Ask directly: 'Are you thinking about harming yourself or ending your life?' Direct questioning does NOT increase suicide risk — it may provide relief and facilitate help-seeking."
+    },
+    {
+      "id": 12,
+      "question": "The nurse is providing care for a suicidal patient in the psychiatric unit. Which environment modification is MOST important?",
+      "choices": ["Placing the patient in a private room for privacy", "Removing or securing all potential means for self-harm (ligatures, sharp objects)", "Allowing the patient to keep personal belongings to reduce stress", "Reducing monitoring to build patient trust"],
+      "answer": "Removing or securing all potential means for self-harm (ligatures, sharp objects)",
+      "explanation": "Means restriction is the most effective suicide prevention strategy. The nurse must ensure a safe milieu: remove ligatures (belts, cords, IV tubing), sharp objects, medications in excess, and other potential means. Continuous monitoring (every 15 minutes or 1:1), therapeutic environment, and collaboration with the treatment team are also essential."
+    },
+    {
+      "id": 13,
+      "question": "A patient with bipolar disorder is in a manic episode. Which nursing intervention takes PRIORITY?",
+      "choices": ["Encouraging the patient to participate in group therapy", "Providing a calm, low-stimulation environment and ensuring rest and nutrition", "Educating the patient about bipolar disorder", "Encouraging the patient to verbalize feelings about their behavior"],
+      "answer": "Providing a calm, low-stimulation environment and ensuring rest and nutrition",
+      "explanation": "During acute mania, the patient is highly stimulated, may not sleep or eat, and is at risk for physical exhaustion, dehydration, and injury. Priority: reduce stimulation (quiet environment, limit activities), ensure rest, high-calorie finger foods (patient may be too active to sit for meals), close monitoring for safety. Medication (mood stabilizers) is concurrent."
+    },
+    {
+      "id": 14,
+      "question": "A patient on lithium therapy for bipolar disorder complains of coarse tremor, nausea, vomiting, and ataxia. Serum lithium level is 2.1 mEq/L. The nurse recognizes this as:",
+      "choices": ["Expected therapeutic side effects", "Lithium toxicity", "Bipolar breakthrough symptoms", "Medication non-adherence"],
+      "answer": "Lithium toxicity",
+      "explanation": "Lithium therapeutic range: 0.6–1.2 mEq/L. Level 1.5–2.0 = mild toxicity (nausea, fine tremor, diarrhea). Level 2.0–2.5 = moderate toxicity (coarse tremor, ataxia, confusion, vomiting). Level >2.5 = severe toxicity (seizures, coma, cardiac arrhythmias — potentially fatal). The nurse should hold lithium and notify the physician immediately."
+    },
+    {
+      "id": 15,
+      "question": "A patient taking lithium should be taught that lithium toxicity risk INCREASES with:",
+      "choices": ["High-sodium diet", "Increased fluid intake", "Sodium restriction, sweating, and NSAIDs", "High-protein diet"],
+      "answer": "Sodium restriction, sweating, and NSAIDs",
+      "explanation": "Lithium toxicity is increased by: sodium restriction (the kidney retains lithium when sodium is low), dehydration/sweating (diarrhea, vomiting, heat, exercise), NSAIDs (reduce renal lithium clearance), and diuretics (especially thiazides). Patients must maintain consistent sodium and fluid intake and avoid NSAIDs."
+    },
+    {
+      "id": 16,
+      "question": "A patient with schizophrenia believes that news broadcasts are sending him special coded messages. This symptom is classified as:",
+      "choices": ["Hallucination", "Delusion of reference", "Thought broadcasting", "Ideas of grandeur"],
+      "answer": "Delusion of reference",
+      "explanation": "Delusion of reference: belief that external events, objects, or people have special significance specifically directed at oneself (e.g., TV broadcasts sending personal messages). Other delusions: persecutory (being plotted against), grandiose (inflated sense of power), somatic (belief about body). Hallucinations are sensory perceptions without external stimuli."
+    },
+    {
+      "id": 17,
+      "question": "A patient with schizophrenia hears voices commanding him to harm himself. The nurse should respond by:",
+      "choices": ["Ignoring the hallucination and redirecting the patient to an activity", "Telling the patient the voices are not real and he should stop listening to them", "Acknowledging the patient's experience while maintaining safety: 'I know the voices feel very real. I'm concerned about your safety. Let's go somewhere quiet together.'", "Asking the patient to describe in detail what the voices say"],
+      "answer": "Acknowledging the patient's experience while maintaining safety: 'I know the voices feel very real. I'm concerned about your safety. Let's go somewhere quiet together.'",
+      "explanation": "Therapeutic approach to command hallucinations: Do NOT argue or deny the patient's experience (increases agitation). DO acknowledge their experience empathetically, express concern for safety, and redirect. Prioritize immediate safety assessment. Avoid prolonged focus on the content of the hallucinations as this may reinforce them."
+    },
+    {
+      "id": 18,
+      "question": "Extrapyramidal symptoms (EPS) are a side effect of typical (first-generation) antipsychotics. Which EPS symptom involves sustained, involuntary muscular contractions causing twisting postures?",
+      "choices": ["Tardive dyskinesia", "Akathisia", "Acute dystonia", "Pseudoparkinsonism"],
+      "answer": "Acute dystonia",
+      "explanation": "EPS types: Acute dystonia (sudden sustained muscle contractions — torticollis, oculogyric crisis, opisthotonus); Akathisia (subjective restlessness, inability to sit still); Pseudoparkinsonism (tremor, rigidity, bradykinesia, shuffling gait); Tardive dyskinesia (late-onset involuntary repetitive movements — lip smacking, tongue movements — often irreversible). Acute dystonia is most frightening and distressing."
+    },
+    {
+      "id": 19,
+      "question": "A patient on haloperidol develops acute dystonia (neck twisting, eyes deviated upward). The nurse should prepare to administer:",
+      "choices": ["Benztropine (Cogentin) or diphenhydramine (Benadryl) IM", "Additional dose of haloperidol", "Naloxone (Narcan) IM", "Flumazenil IV"],
+      "answer": "Benztropine (Cogentin) or diphenhydramine (Benadryl) IM",
+      "explanation": "Acute dystonia treatment: anticholinergic agents — benztropine (Cogentin) 1–2 mg IM or IV, or diphenhydramine (Benadryl) 25–50 mg IM or IV — typically provides rapid relief within minutes. These agents counteract the dopamine-blocking effect of antipsychotics in the extrapyramidal system. Prophylactic anticholinergics may be prescribed for high-risk patients."
+    },
+    {
+      "id": 20,
+      "question": "Neuroleptic Malignant Syndrome (NMS) is a rare but life-threatening complication of antipsychotic therapy. The classic tetrad of symptoms includes:",
+      "choices": ["Bradycardia, hypothermia, diaphoresis, and hypotension", "High fever, muscle rigidity, altered consciousness, and autonomic instability", "Tardive dyskinesia, akathisia, dystonia, and tremor", "Hallucinations, delusions, disorganized speech, and flat affect"],
+      "answer": "High fever, muscle rigidity, altered consciousness, and autonomic instability",
+      "explanation": "NMS tetrad: (1) Hyperthermia (high fever, >38–40°C); (2) Severe muscle rigidity ('lead-pipe' rigidity); (3) Altered level of consciousness (confusion to coma); (4) Autonomic instability (diaphoresis, tachycardia, labile BP, tachypnea). Labs: elevated CPK, leukocytosis, myoglobinuria. Treatment: STOP the antipsychotic, bromocriptine, dantrolene, supportive care."
+    },
+    {
+      "id": 21,
+      "question": "Serotonin syndrome is a potentially life-threatening reaction most commonly caused by:",
+      "choices": ["Abrupt discontinuation of SSRIs", "Combination of two or more serotonergic medications", "Overdose of antipsychotic medications", "Lithium toxicity"],
+      "answer": "Combination of two or more serotonergic medications",
+      "explanation": "Serotonin syndrome results from excess serotonergic activity, most commonly from combining: SSRIs/SNRIs + MAOIs, triptans, tramadol, linezolid, St. John's Wort, dextromethorphan. Symptoms: cognitive changes (agitation, confusion), autonomic instability (fever, diaphoresis, tachycardia), and neuromuscular abnormalities (tremor, clonus, hyperreflexia). Severe cases can be fatal."
+    },
+    {
+      "id": 22,
+      "question": "A patient with major depression has been started on sertraline (Zoloft). The nurse should teach the patient that therapeutic effects typically begin in:",
+      "choices": ["24–48 hours", "3–5 days", "2–4 weeks", "2–3 months"],
+      "answer": "2–4 weeks",
+      "explanation": "SSRIs (sertraline, fluoxetine, paroxetine) have a delayed onset of therapeutic effect — typically 2–4 weeks before significant mood improvement. However, side effects (nausea, insomnia, sexual dysfunction) may occur immediately. Patients must be counseled about this delay to prevent non-adherence and the importance of not stopping medication abruptly."
+    },
+    {
+      "id": 23,
+      "question": "An important safety concern in the first weeks of antidepressant therapy, particularly for adolescents, is:",
+      "choices": ["Increased risk of seizures", "Increased suicidal ideation and behavior (activation syndrome)", "Immediate development of dependence", "Risk of serotonin syndrome with first dose"],
+      "answer": "Increased suicidal ideation and behavior (activation syndrome)",
+      "explanation": "FDA Black Box Warning for antidepressants: increased risk of suicidal thinking and behavior in children, adolescents, and young adults (up to age 25) during the early weeks of therapy (first 1–4 weeks). This 'activation syndrome' (increased energy before mood improvement) can precipitate suicidal action. Close monitoring — weekly for first 4 weeks — is essential."
+    },
+    {
+      "id": 24,
+      "question": "A patient with borderline personality disorder (BPD) tells the nurse: 'You're the only nurse who truly understands me — the others are terrible and don't care.' This is an example of which defense mechanism/behavior?",
+      "choices": ["Projection", "Reaction formation", "Splitting (idealization and devaluation)", "Sublimation"],
+      "answer": "Splitting (idealization and devaluation)",
+      "explanation": "Splitting is characteristic of BPD: the patient views people as all good or all bad, with inability to integrate positive and negative qualities. They idealize some staff and devalue others. Therapeutic approach: maintain consistent, firm, neutral boundaries; avoid reinforcing splitting by coordinating communication among all team members."
+    },
+    {
+      "id": 25,
+      "question": "The psychiatric nurse applies the concept of limit-setting with a manipulative patient. Limit-setting means:",
+      "choices": ["Refusing to interact with the patient unless they comply", "Communicating clear, consistent, reasonable behavioral expectations and consequences", "Punishing the patient for inappropriate behavior", "Isolating the patient who tests boundaries"],
+      "answer": "Communicating clear, consistent, reasonable behavioral expectations and consequences",
+      "explanation": "Limit-setting is a therapeutic intervention: clearly communicating behavioral expectations ('You may not hit staff — if you become aggressive, you will be moved to a quiet room'), stating consequences consistently, and following through. It is done with a non-punitive, matter-of-fact tone. Consistency across ALL staff is critical — especially with BPD patients who split."
+    },
+    {
+      "id": 26,
+      "question": "A patient is experiencing alcohol withdrawal and is at high risk for delirium tremens (DTs). The MOST life-threatening symptom of DTs is:",
+      "choices": ["Mild tremors", "Seizures and cardiovascular collapse", "Nausea and vomiting", "Insomnia and irritability"],
+      "answer": "Seizures and cardiovascular collapse",
+      "explanation": "Delirium tremens (severe alcohol withdrawal, 48–72+ hours after last drink) includes: confusion/delirium, severe tremors, hallucinations (tactile, visual), fever, diaphoresis, tachycardia, hypertension, and SEIZURES which can lead to cardiovascular collapse and death. DTs mortality is 5–15% if untreated. Treatment: IV benzodiazepines (lorazepam, diazepam), thiamine, fluids."
+    },
+    {
+      "id": 27,
+      "question": "A patient with alcohol use disorder is prescribed disulfiram (Antabuse). The nurse should teach the patient that disulfiram works by:",
+      "choices": ["Reducing alcohol cravings through dopamine modulation", "Causing an extremely unpleasant reaction when alcohol is consumed", "Blocking the pleasurable effects of alcohol in the brain", "Preventing alcohol absorption in the GI tract"],
+      "answer": "Causing an extremely unpleasant reaction when alcohol is consumed",
+      "explanation": "Disulfiram inhibits aldehyde dehydrogenase, preventing metabolism of acetaldehyde (toxic alcohol byproduct). If alcohol is consumed, acetaldehyde accumulates causing: flushing, nausea, vomiting, palpitations, hypotension — the disulfiram-alcohol reaction. Patients must avoid ALL alcohol (including mouthwash, cologne, foods cooked with alcohol). Naltrexone blocks opioid receptors to reduce cravings."
+    },
+    {
+      "id": 28,
+      "question": "A patient in opioid withdrawal exhibits yawning, rhinorrhea, diaphoresis, myalgia, and intense drug craving. The nurse expects these symptoms to peak approximately:",
+      "choices": ["6–12 hours after last dose (for short-acting opioids)", "36–72 hours after last dose", "1–2 weeks after last dose", "Only when opioid antagonists are given"],
+      "answer": "36–72 hours after last dose",
+      "explanation": "Opioid withdrawal timeline (short-acting opioids like heroin/morphine): Onset 8–24 hours, Peak 36–72 hours, Duration 5–7 days. Symptoms are like severe influenza (gooseflesh 'cold turkey', myalgia, insomnia, GI distress, intense craving). NOT life-threatening but extremely uncomfortable. Treatment: methadone maintenance or buprenorphine/naloxone (Suboxone)."
+    },
+    {
+      "id": 29,
+      "question": "The nurse is assessing a patient using the CIWA-Ar scale. This scale is used to assess severity of:",
+      "choices": ["Cocaine intoxication", "Opioid withdrawal", "Alcohol withdrawal", "Benzodiazepine overdose"],
+      "answer": "Alcohol withdrawal",
+      "explanation": "The CIWA-Ar (Clinical Institute Withdrawal Assessment for Alcohol, Revised) is a 10-item validated scale assessing alcohol withdrawal severity: tremor, anxiety, diaphoresis, agitation, nausea/vomiting, headache, paresthesia, visual/auditory/tactile disturbances, and orientation. Score guides benzodiazepine dosing. Score >10 indicates moderate-severe withdrawal needing pharmacotherapy."
+    },
+    {
+      "id": 30,
+      "question": "A patient threatens to harm a specific, identifiable person during a therapy session. According to the Tarasoff ruling, the nurse's ethical and legal obligation is to:",
+      "choices": ["Maintain strict confidentiality — therapy is privileged communication", "Warn the potential victim and notify appropriate authorities", "Document the threat and discuss it in the next team meeting", "Immediately discharge the patient to remove liability"],
+      "answer": "Warn the potential victim and notify appropriate authorities",
+      "explanation": "The Tarasoff ruling (Duty to Protect/Warn): when a patient makes a credible threat against an identifiable third party, the mental health provider has a LEGAL DUTY to protect that potential victim by warning them and/or notifying law enforcement — overrides confidentiality. This is an exception to the patient confidentiality rule."
+    },
+    {
+      "id": 31,
+      "question": "A patient with anorexia nervosa has a BMI of 15 and denies having an eating disorder. The most life-threatening complication associated with extreme malnutrition in anorexia is:",
+      "choices": ["Osteoporosis", "Amenorrhea", "Cardiac arrhythmias from electrolyte imbalances", "Dental erosion"],
+      "answer": "Cardiac arrhythmias from electrolyte imbalances",
+      "explanation": "The most dangerous complication of anorexia nervosa is cardiac arrhythmia from electrolyte imbalances (hypokalemia, hypomagnesemia, hypophosphatemia), which can cause sudden cardiac death. Anorexia has the highest mortality rate of any psychiatric disorder. Close cardiac monitoring (ECG, electrolytes) and nutritional rehabilitation are priorities."
+    },
+    {
+      "id": 32,
+      "question": "The nurse is caring for a patient with bulimia nervosa who purges by vomiting. Which physical finding is characteristic of repeated self-induced vomiting?",
+      "choices": ["Parotid gland atrophy", "Russell's sign (calluses on knuckles) and dental erosion (lingual surface)", "Weight loss below normal BMI", "Edema of the face and neck"],
+      "answer": "Russell's sign (calluses on knuckles) and dental erosion (lingual surface)",
+      "explanation": "Russell's sign: calluses or scars on the dorsal surface of hand/knuckles from repeatedly inserting fingers into the mouth to induce vomiting. Dental erosion occurs on the lingual (inner) surfaces from gastric acid. Parotid gland hypertrophy (not atrophy), metabolic alkalosis with hypokalemia, and normal or near-normal BMI also occur. Weight is often normal in bulimia."
+    },
+    {
+      "id": 33,
+      "question": "A nurse is using de-escalation techniques with an agitated patient. Which approach is MOST appropriate?",
+      "choices": ["Standing close and maintaining a firm, authoritative stance", "Using calm voice, maintaining safe distance, offering choices, and validating feelings", "Calling security immediately when the patient raises their voice", "Confronting the patient about their behavior directly"],
+      "answer": "Using calm voice, maintaining safe distance, offering choices, and validating feelings",
+      "explanation": "De-escalation principles: Speak calmly (low, even tone), maintain a non-threatening posture (open body language, side-on stance, at eye level), maintain safe distance (arm's length), validate feelings ('I can see you're very upset'), offer choices to restore sense of control, avoid confrontation, minimize audience. Call for backup if safety is threatened."
+    },
+    {
+      "id": 34,
+      "question": "The nurse is documenting a psychiatric patient's mental status examination (MSE). 'Affect' refers to:",
+      "choices": ["The patient's reported subjective emotional experience", "The nurse's observable expression of the patient's emotional state", "The patient's mood over the past 2 weeks", "The patient's ability to understand consequences of their actions"],
+      "answer": "The nurse's observable expression of the patient's emotional state",
+      "explanation": "MSE distinction: Mood = patient's subjective emotional state as reported (e.g., 'I feel depressed'); Affect = observable external expression of emotion noted by the examiner (e.g., flat, blunted, labile, congruent, incongruent). Other MSE components: appearance, behavior, speech, thought process, thought content, perceptions, cognition, insight, judgment."
+    },
+    {
+      "id": 35,
+      "question": "A patient with dementia asks the nurse repeatedly what day it is. The nurse correctly explains to the family that the BEST response each time is to:",
+      "choices": ["Tell the patient it doesn't matter what day it is", "Ask the patient to try to remember the day on their own", "Calmly and consistently answer the question each time without showing frustration", "Redirect the patient with a different topic each time"],
+      "answer": "Calmly and consistently answer the question each time without showing frustration",
+      "explanation": "For patients with dementia and repetitive questioning: answer patiently each time without expressing frustration (the patient cannot remember asking). Validation therapy, environmental cues (calendar, clock), and a consistent routine also help. Telling a patient with dementia they 'just asked that' increases anxiety and agitation because they cannot process this information."
+    },
+    {
+      "id": 36,
+      "question": "A nurse finds an elderly patient with dementia wandering outside the unit at 2 AM. The FIRST nursing intervention is to:",
+      "choices": ["Apply physical restraints immediately", "Gently redirect the patient to a safe area and assess for the cause of wandering", "Document the incident and continue monitoring from the nurses' station", "Administer a sedative as ordered"],
+      "answer": "Gently redirect the patient to a safe area and assess for the cause of wandering",
+      "explanation": "Wandering management: approach calmly, use gentle touch and the patient's name, redirect to a safe area, assess for causes (hunger, pain, need to toilet, disorientation). Environmental measures: door alarms, secured exits, identification bracelets. Physical restraints are a last resort and can increase confusion and fall risk. Always ensure patient safety first."
+    },
+    {
+      "id": 37,
+      "question": "The nurse is assessing a patient who is brought to the ED by family members after ingesting an unknown substance. The patient has pinpoint pupils, respiratory depression, and is unconscious. The nurse suspects:",
+      "choices": ["Stimulant intoxication (cocaine, methamphetamine)", "Opioid intoxication", "Alcohol intoxication", "Sedative-hypnotic overdose"],
+      "answer": "Opioid intoxication",
+      "explanation": "Classic opioid toxidrome: Pinpoint pupils (miosis), CNS depression (unconsciousness, coma), Respiratory depression (bradypnea, apnea). This is the 'opioid triad.' Treatment: naloxone (Narcan) IV/IM/intranasal — reverses all three symptoms rapidly. Stimulant intoxication causes mydriasis (dilated pupils) and agitation. Alcohol and sedatives cause CNS depression but not miosis."
+    },
+    {
+      "id": 38,
+      "question": "A nurse provides milieu therapy for psychiatric patients. Milieu therapy involves:",
+      "choices": ["Individual psychoanalysis conducted three times weekly", "Administering psychotropic medications in a structured schedule", "Using the total therapeutic environment — ward structure, rules, relationships — as a treatment tool", "Applying behavioral modification techniques exclusively"],
+      "answer": "Using the total therapeutic environment — ward structure, rules, relationships — as a treatment tool",
+      "explanation": "Milieu therapy uses the entire therapeutic environment as a treatment modality: physical setting, daily schedule, community meetings, patient-staff relationships, and peer interactions all contribute to the patient's recovery. Key elements: safety, structure, norms, limit setting, balance of freedom and responsibility. Maxwell Jones developed the therapeutic community model."
+    },
+    {
+      "id": 39,
+      "question": "A patient with schizophrenia is being discharged on clozapine (Clozaril). The nurse teaches the patient that clozapine requires MANDATORY monitoring of:",
+      "choices": ["Liver function tests monthly", "Weekly CBC for the first 6 months due to risk of agranulocytosis", "Serum lithium levels every 3 months", "Monthly renal function tests"],
+      "answer": "Weekly CBC for the first 6 months due to risk of agranulocytosis",
+      "explanation": "Clozapine (atypical antipsychotic) carries the highest risk of agranulocytosis (1–2% of patients). This requires mandatory WBC/ANC monitoring: weekly for the first 6 months → biweekly for the next 6 months → monthly thereafter. Clozapine is dispensed only through a restricted distribution (REMS) program. Also monitor for seizures and metabolic syndrome."
+    },
+    {
+      "id": 40,
+      "question": "The nurse documents a patient's thought process as 'flight of ideas.' This term means:",
+      "choices": ["The patient stops mid-sentence and cannot continue (thought blocking)", "Rapid, loosely connected thoughts that jump from topic to topic", "Fixed, false beliefs that cannot be corrected by reasoning", "The patient believes their thoughts are being broadcast to others"],
+      "answer": "Rapid, loosely connected thoughts that jump from topic to topic",
+      "explanation": "Flight of ideas: rapid succession of thoughts with loose connections between topics, often triggered by environmental stimuli — characteristic of mania. Other thought process abnormalities: Thought blocking (sudden interruption in thought), Circumstantiality (excessive detail before reaching goal), Tangentiality (never reaching the point), Perseveration (repetition of a phrase/word), Loose associations (schizophrenia)."
+    },
+    {
+      "id": 41,
+      "question": "A nurse witnesses a colleague administer a medication and then falsify the medication record. The nurse's MOST appropriate action is to:",
+      "choices": ["Confront the colleague privately and warn them to stop", "Ignore the incident to avoid conflict", "Report the incident to the supervisor/nurse manager according to facility policy", "Write an anonymous note to administration"],
+      "answer": "Report the incident to the supervisor/nurse manager according to facility policy",
+      "explanation": "Reporting unsafe or unethical behavior is both a legal and professional obligation. Witnessing medication falsification (patient safety threat) requires reporting to the immediate supervisor/nurse manager. This protects the patient, upholds standards of practice, and is mandated by the nurse's Code of Ethics. Documentation of the observation is also important."
+    },
+    {
+      "id": 42,
+      "question": "The nurse applies the defense mechanism of 'reaction formation' in understanding a patient's behavior. Reaction formation means:",
+      "choices": ["Expressing unacceptable impulses in socially acceptable ways (sublimation)", "Unconsciously attributing one's own feelings to another person", "Unconsciously acting opposite to how one actually feels", "Reverting to behaviors of an earlier developmental stage"],
+      "answer": "Unconsciously acting opposite to how one actually feels",
+      "explanation": "Defense mechanisms: Reaction formation = acting opposite to unconscious feelings (e.g., a person who is unconsciously angry acts excessively kind). Projection = attributing own feelings to others. Sublimation = channeling unacceptable impulses into socially acceptable activities. Regression = returning to earlier behavior. Rationalization = making excuses for unacceptable behavior."
+    },
+    {
+      "id": 43,
+      "question": "A patient in the psychiatric unit refuses to take oral medication. The nurse's FIRST action should be to:",
+      "choices": ["Crush the medication and hide it in food", "Administer the medication by injection without consent", "Explore the patient's reasons for refusal and provide education", "Document the refusal and notify the physician"],
+      "answer": "Explore the patient's reasons for refusal and provide education",
+      "explanation": "Competent patients have the right to refuse medication. The nurse should first: explore the reasons for refusal (side effects, distrust, delusions about medication), provide education about the medication and its benefits, address concerns, and attempt therapeutic persuasion. If refusal continues, notify the physician and document thoroughly. Forced medication requires legal authorization."
+    },
+    {
+      "id": 44,
+      "question": "A patient is admitted involuntarily to a psychiatric facility. Which statement BEST describes involuntary commitment?",
+      "choices": ["The patient signs a voluntary admission form under pressure", "The patient can be held against their will only if they are dangerous to self or others or are gravely disabled", "Any family member can have a patient involuntarily committed", "Involuntary patients lose all legal rights during hospitalization"],
+      "answer": "The patient can be held against their will only if they are dangerous to self or others or are gravely disabled",
+      "explanation": "Involuntary commitment (civil commitment): a person can be legally held in a psychiatric facility WITHOUT consent only if they meet specific criteria: imminent danger to self or others OR gravely disabled (unable to provide for basic needs). Even involuntarily committed patients retain rights: least restrictive environment, right to refuse treatment in most cases, right to legal counsel."
+    },
+    {
+      "id": 45,
+      "question": "The nurse is teaching a patient with bipolar disorder about early warning signs of a manic relapse. Which of the following is a COMMON early warning sign?",
+      "choices": ["Increased appetite and weight gain", "Social withdrawal and excessive sleeping", "Decreased need for sleep, increased energy, and racing thoughts", "Flat affect and psychomotor retardation"],
+      "answer": "Decreased need for sleep, increased energy, and racing thoughts",
+      "explanation": "Early warning signs of mania: decreased need for sleep (feels rested with only 3–4 hours), increased energy, elevated/irritable mood, racing thoughts (flight of ideas), increased talkativeness (pressured speech), increased goal-directed activity, risk-taking behavior. Identifying prodromal signs early allows intervention before full manic episode develops."
+    },
+    {
+      "id": 46,
+      "question": "Which therapeutic communication technique is used when the nurse says: 'Let me see if I understood correctly — you said you've been having trouble sleeping for 3 weeks and feel like no one cares about you?'",
+      "choices": ["Clarification", "Reflection", "Paraphrasing (restating)", "Summarizing"],
+      "answer": "Summarizing",
+      "explanation": "Summarizing involves pulling together the main themes of a long message at the end of a conversation (or segment) to check understanding and highlight key points. Clarification asks for more information about something unclear. Paraphrasing (restating) reflects back the content in the nurse's own words briefly. Reflection focuses on the emotional content."
+    },
+    {
+      "id": 47,
+      "question": "A patient with depression engages in cognitive distorted thinking. An example of 'catastrophizing' is:",
+      "choices": ["'I always fail at everything.'", "'If I fail this exam, my life is completely ruined forever.'", "'My boss criticized me, so everyone must hate me.'", "'I got an A on my test but it was just luck.'"],
+      "answer": "'If I fail this exam, my life is completely ruined forever.'",
+      "explanation": "Cognitive distortions (Aaron Beck's Cognitive Therapy): Catastrophizing = expecting the worst possible outcome ('My life is ruined'); Overgeneralization = generalizing from one event ('I ALWAYS fail'); Personalization = taking excessive personal blame; Minimization/Maximization (discounting positives or magnifying negatives). Cognitive Behavioral Therapy (CBT) identifies and challenges these distortions."
+    },
+    {
+      "id": 48,
+      "question": "The nurse is conducting a suicide risk assessment using the SAD PERSONS scale. Which factors are assessed? (Select the elements represented by the acronym):",
+      "choices": ["Stress level, Anger, Depression, Psychosis, Experience, Recent loss, Social isolation, Other factors, Need for help, Suicide plan", "Sex (male), Age, Depression, Previous attempt, Ethanol use, Rational thinking loss, Social support lacking, Organized plan, No spouse, Sickness", "Suicidal ideation, Agitation, Delusions, Plan, Energy loss, Reason to live, Social isolation, Other psychiatric illness, No insight, Substance use", "Severity of intent, Attempts (prior), Duration of ideation, Physical pain, Escape themes, Rationality, Social withdrawal, Organized plan, Nihilism, Substance use"],
+      "answer": "Sex (male), Age, Depression, Previous attempt, Ethanol use, Rational thinking loss, Social support lacking, Organized plan, No spouse, Sickness",
+      "explanation": "SAD PERSONS: Sex (male risk higher), Age (<19 or >45), Depression, Previous attempt (strongest predictor), Ethanol/substance use, Rational thinking loss (psychosis), Social support lacking, Organized plan, No spouse, Sickness (chronic illness). Score 0–2 = low risk (outpatient); 3–4 = moderate; 5–6 = hospitalization recommended; 7–10 = mandatory hospitalization."
+    },
+    {
+      "id": 49,
+      "question": "A patient with ADHD (Attention-Deficit/Hyperactivity Disorder) is prescribed methylphenidate (Ritalin). The nurse should monitor for which important side effect in pediatric patients?",
+      "choices": ["Weight gain and hypersomnia", "Suppressed appetite, insomnia, and growth retardation with long-term use", "Increased appetite and sedation", "Euphoria and respiratory depression"],
+      "answer": "Suppressed appetite, insomnia, and growth retardation with long-term use",
+      "explanation": "Methylphenidate (Ritalin) — stimulant medication for ADHD — common side effects: decreased appetite (give after meals), insomnia (give in the morning), headaches, stomachaches. Long-term use in children may slow growth velocity (monitor height/weight regularly). Cardiovascular monitoring (BP, HR) is also required. Drug holidays on weekends may help."
+    },
+    {
+      "id": 50,
+      "question": "The nurse is teaching relaxation techniques to a patient with anxiety disorder. Diaphragmatic (deep) breathing exercises work by reducing anxiety through:",
+      "choices": ["Hyperventilating to blow off excess CO2", "Activating the parasympathetic nervous system and reducing sympathetic arousal", "Distracting the patient from anxiety-provoking thoughts", "Increasing epinephrine release to improve coping"],
+      "answer": "Activating the parasympathetic nervous system and reducing sympathetic arousal",
+      "explanation": "Slow, diaphragmatic breathing activates the parasympathetic nervous system (rest-and-digest), reducing heart rate, respiratory rate, and cortisol levels — counteracting the sympathetic 'fight-or-flight' anxiety response. Other relaxation techniques: progressive muscle relaxation, guided imagery, mindfulness meditation. These are evidence-based adjuncts to CBT for anxiety disorders."
+    }
+  ]
+}

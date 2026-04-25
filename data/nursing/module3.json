@@ -1,0 +1,356 @@
+{
+  "module": "Module 3 - Maternal and Child Nursing",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A primigravida at 10 weeks AOG visits the prenatal clinic. The nurse calculates her expected date of delivery (EDD) using Naegele's Rule. Her LMP was July 10. Her EDD is:",
+      "choices": ["April 17", "April 3", "May 10", "March 17"],
+      "answer": "April 17",
+      "explanation": "Naegele's Rule: EDD = LMP + 7 days − 3 months + 1 year. LMP July 10: July 10 + 7 days = July 17; July − 3 months = April 17. EDD is April 17 of the following year."
+    },
+    {
+      "id": 2,
+      "question": "During a prenatal visit, the nurse measures fundal height at the level of the umbilicus. This corresponds to approximately what weeks of gestation?",
+      "choices": ["16 weeks", "20 weeks", "24 weeks", "28 weeks"],
+      "answer": "20 weeks",
+      "explanation": "At 20 weeks of gestation, the fundus is at the level of the umbilicus. As a general guideline: fundal height in centimeters roughly equals weeks of gestation (±2 cm) after 20 weeks. At 12 weeks, the fundus is at the symphysis pubis; at 36 weeks, it is at the xiphoid process."
+    },
+    {
+      "id": 3,
+      "question": "A pregnant woman reports quickening at 20 weeks AOG. She asks the nurse what this means. The nurse responds that quickening refers to:",
+      "choices": ["The first fetal heartbeat detected by Doppler", "The first fetal movements felt by the mother", "The lightening of the uterus as it descends", "The softening of the cervix in preparation for labor"],
+      "answer": "The first fetal movements felt by the mother",
+      "explanation": "Quickening refers to the first fetal movements perceived by the mother. It typically occurs at 16–20 weeks in primigravidas and as early as 14–16 weeks in multigravidas. This is a presumptive sign of pregnancy. It indicates fetal life but is not diagnostic alone."
+    },
+    {
+      "id": 4,
+      "question": "A pregnant patient at 36 weeks is prescribed ferrous sulfate supplementation. The nurse should teach the patient that iron supplements cause which common side effect?",
+      "choices": ["Diarrhea", "Nausea and constipation", "Increased appetite", "Urinary frequency"],
+      "answer": "Nausea and constipation",
+      "explanation": "Common side effects of iron supplementation include nausea, constipation, and dark/black stools. The nurse should advise increasing fiber and fluid intake to prevent constipation, taking the medication with food if GI upset is severe (though this reduces absorption), and that dark stools are expected and harmless."
+    },
+    {
+      "id": 5,
+      "question": "A patient at 28 weeks gestation is diagnosed with gestational diabetes mellitus (GDM). The nurse should educate her that untreated GDM puts the fetus at risk for:",
+      "choices": ["Intrauterine growth restriction (IUGR)", "Macrosomia (large for gestational age)", "Placenta previa", "Oligohydramnios"],
+      "answer": "Macrosomia (large for gestational age)",
+      "explanation": "In GDM, maternal hyperglycemia passes glucose to the fetus. The fetal pancreas produces more insulin, leading to fetal macrosomia (birth weight >4,000 g). Macrosomia increases the risk of shoulder dystocia, birth trauma, and cesarean delivery. Neonatal hypoglycemia occurs at birth when the maternal glucose supply is cut."
+    },
+    {
+      "id": 6,
+      "question": "A pregnant patient at 32 weeks presents with painless bright red vaginal bleeding. The nurse suspects:",
+      "choices": ["Abruptio placentae", "Placenta previa", "Preterm labor", "Cervical polyp bleeding"],
+      "answer": "Placenta previa",
+      "explanation": "Placenta previa classically presents with painless, bright red vaginal bleeding in the third trimester (most commonly after 28 weeks). The placenta overlies the internal cervical os. Abruptio placentae presents with painful dark bleeding and uterine rigidity. NEVER perform a vaginal examination in placenta previa."
+    },
+    {
+      "id": 7,
+      "question": "A patient with abruptio placentae has a rigid, board-like abdomen and severe abdominal pain. The PRIORITY nursing intervention is to:",
+      "choices": ["Perform a vaginal examination to assess cervical dilation", "Monitor fetal heart rate and notify the physician immediately", "Administer oxytocin to augment contractions", "Position the patient in left lateral recumbent position and obtain IV access"],
+      "answer": "Position the patient in left lateral recumbent position and obtain IV access",
+      "explanation": "Abruptio placentae is an obstetric emergency. Priority interventions: position in left lateral recumbent (to relieve vena cava compression and improve uteroplacental circulation), establish large-bore IV access, administer O2, prepare for emergency cesarean, monitor maternal vital signs and fetal heart rate continuously. Vaginal exam is contraindicated."
+    },
+    {
+      "id": 8,
+      "question": "A woman in the first stage of labor has a cervical dilation of 4 cm and effacement of 80%. The nurse documents this as:",
+      "choices": ["Early (latent) labor", "Active phase of labor", "Transition phase", "Second stage of labor"],
+      "answer": "Active phase of labor",
+      "explanation": "The first stage of labor stages: Latent phase (0–3 cm dilation), Active phase (4–7 cm dilation, rapid progress), and Transition phase (8–10 cm). With 4 cm dilation, this patient is in the active phase. The second stage begins with complete dilation (10 cm) and ends with delivery."
+    },
+    {
+      "id": 9,
+      "question": "During the active phase of labor, the nurse notes fetal heart rate decelerations that begin and end with contractions, mirror the contraction pattern, and return to baseline promptly. This is classified as:",
+      "choices": ["Early decelerations — benign, caused by head compression", "Late decelerations — uteroplacental insufficiency", "Variable decelerations — cord compression", "Sinusoidal pattern — fetal anemia"],
+      "answer": "Early decelerations — benign, caused by head compression",
+      "explanation": "Early decelerations are uniform, mirror contractions in shape, begin and end with contractions, and are caused by fetal head compression activating the vagus nerve. They are benign and require no intervention. Late decelerations (begin after peak of contraction) indicate uteroplacental insufficiency and are the most ominous."
+    },
+    {
+      "id": 10,
+      "question": "The nurse notes late decelerations on the fetal monitor. The CORRECT immediate sequence of nursing interventions is:",
+      "choices": ["Notify physician → reposition → administer oxygen", "Reposition to left lateral → oxygen → stop oxytocin → notify physician", "Increase IV oxytocin → reposition → notify physician", "Prepare for cesarean → notify physician → administer oxygen"],
+      "answer": "Reposition to left lateral → oxygen → stop oxytocin → notify physician",
+      "explanation": "ACOG-recommended response to late decelerations (indicating uteroplacental insufficiency): (1) Reposition patient to left lateral, (2) Apply oxygen at 8–10 L/min via face mask, (3) Stop oxytocin infusion if running, (4) Increase IV fluids, (5) Notify physician. These interventions improve uteroplacental blood flow."
+    },
+    {
+      "id": 11,
+      "question": "A patient in labor has just had spontaneous rupture of membranes. The nurse's FIRST action should be to:",
+      "choices": ["Time contractions and notify the physician", "Assess the fetal heart rate", "Test the fluid with nitrazine paper", "Assist the patient to ambulate"],
+      "answer": "Assess the fetal heart rate",
+      "explanation": "After rupture of membranes (spontaneous or artificial), the FIRST priority is to assess the fetal heart rate to detect umbilical cord prolapse or cord compression (a life-threatening emergency). Amniotic fluid should also be assessed for color (clear vs. meconium-stained) and odor."
+    },
+    {
+      "id": 12,
+      "question": "A prolapsed umbilical cord is noted during labor. The PRIORITY nursing action is to:",
+      "choices": ["Push the cord back into the vagina", "Position the patient in knee-chest or Trendelenburg position and apply firm upward pressure on the presenting part", "Prepare the patient for immediate vaginal delivery", "Immediately clamp and cut the cord"],
+      "answer": "Position the patient in knee-chest or Trendelenburg position and apply firm upward pressure on the presenting part",
+      "explanation": "Cord prolapse is a life-threatening obstetric emergency. The nurse must: position mother in knee-chest or Trendelenburg (gravity relieves cord compression), manually push the presenting part upward off the cord with a gloved hand (and maintain pressure continuously until delivery), apply moist warm towels to the exposed cord, administer O2, and call for immediate emergency cesarean."
+    },
+    {
+      "id": 13,
+      "question": "A woman has just delivered a healthy infant. During the third stage of labor, which sign indicates placental separation?",
+      "choices": ["Return of strong uterine contractions", "A sudden gush of blood and cord lengthening", "Cessation of maternal pushing urge", "Delivery of the placenta"],
+      "answer": "A sudden gush of blood and cord lengthening",
+      "explanation": "Signs of placental separation (third stage of labor): (1) Sudden gush of dark blood, (2) Lengthening of the umbilical cord, (3) Uterus rises in the abdomen and becomes globular and firm. The third stage typically lasts 5–30 minutes. Active management (oxytocin, controlled cord traction) reduces hemorrhage risk."
+    },
+    {
+      "id": 14,
+      "question": "A postpartum patient (vaginal delivery, 2 hours ago) has a boggy, displaced uterus and saturated perineal pad every 15 minutes. The nurse's FIRST action is to:",
+      "choices": ["Administer oxytocin as ordered", "Notify the physician of hemorrhage", "Massage the uterine fundus and have the patient void", "Apply ice pack to the perineum"],
+      "answer": "Massage the uterine fundus and have the patient void",
+      "explanation": "A boggy, displaced uterus with heavy bleeding indicates uterine atony — the most common cause of postpartum hemorrhage. A full bladder displaces the uterus and prevents proper contraction. The nurse should first: massage the fundus and encourage voiding (or catheterize if needed). If uterus does not firm up, oxytocin is then administered."
+    },
+    {
+      "id": 15,
+      "question": "During the immediate postpartum period (first hour after delivery), how often should the nurse assess the patient's vital signs, fundus, lochia, and perineum?",
+      "choices": ["Every 30 minutes", "Every 15 minutes", "Every 1 hour", "Every 5 minutes"],
+      "answer": "Every 15 minutes",
+      "explanation": "During the fourth stage of labor (first hour postpartum), the nurse assesses vital signs, uterine firmness, lochia, bladder, and perineum every 15 minutes — the period of highest risk for postpartum hemorrhage. After 1 hour, assessment frequency decreases to every 30 minutes for the next 1–2 hours."
+    },
+    {
+      "id": 16,
+      "question": "A postpartum patient reports lochia that is bright red, heavy, and has large clots 5 days after delivery. Expected lochia on Day 5 should be:",
+      "choices": ["Lochia rubra (bright red) — this is normal on Day 5", "Lochia serosa (pinkish-brown) — this is abnormal", "Lochia alba (white/cream) — this is normal", "No lochia is expected after Day 3"],
+      "answer": "Lochia serosa (pinkish-brown) — this is abnormal",
+      "explanation": "Normal lochia progression: Lochia rubra (bright red): Days 1–3; Lochia serosa (pinkish-brown): Days 4–10; Lochia alba (white/cream): Days 10–21. Bright red, heavy lochia with clots on Day 5 is ABNORMAL and suggests subinvolution of the uterus or retained placental fragments — the physician must be notified."
+    },
+    {
+      "id": 17,
+      "question": "The nurse assesses a newborn at 1 minute after birth and assigns an Apgar score. Heart rate is 100 bpm, respiratory effort is slow and irregular, muscle tone is some flexion, reflex irritability shows a grimace, and color shows cyanosis of the extremities. The Apgar score is:",
+      "choices": ["5", "6", "7", "8"],
+      "answer": "6",
+      "explanation": "Apgar scoring (each component 0–2): Heart rate 100 bpm = 2; Respiratory effort (slow irregular) = 1; Muscle tone (some flexion) = 1; Reflex irritability (grimace) = 1; Color (acrocyanosis/cyanosis of extremities) = 1. Total = 2+1+1+1+1 = 6. Score 7–10 = good; 4–6 = moderate depression; 0–3 = severe depression."
+    },
+    {
+      "id": 18,
+      "question": "A newborn's temperature at birth is 36.2°C (97.2°F). The nurse understands that newborns are particularly prone to heat loss through which mechanism when placed on a wet surface?",
+      "choices": ["Radiation", "Convection", "Conduction", "Evaporation"],
+      "answer": "Conduction",
+      "explanation": "Conduction: heat loss through direct contact with a cooler surface (e.g., wet blanket, cold scale). Evaporation: heat loss through moisture on skin (wet newborn at delivery — prevent by drying immediately). Radiation: heat loss to surrounding cooler objects. Convection: heat loss to surrounding cooler air currents."
+    },
+    {
+      "id": 19,
+      "question": "The nurse is assessing a neonate and notes the absence of red reflex in the right eye. This finding is MOST suggestive of:",
+      "choices": ["Normal finding in newborns", "Retinoblastoma or congenital cataract", "Strabismus", "Dacryostenosis (blocked tear duct)"],
+      "answer": "Retinoblastoma or congenital cataract",
+      "explanation": "The red reflex (orange-red light reflected from the retina through the pupil) should be present in both eyes. Absent or white reflex (leukocoria) is an abnormal finding suggesting retinoblastoma (malignant tumor), congenital cataract, or glaucoma. This requires urgent ophthalmology referral."
+    },
+    {
+      "id": 20,
+      "question": "A newborn is born with a myelomeningocele. The nurse should position the infant:",
+      "choices": ["Supine with the defect protected by a sterile, moist saline dressing", "Prone with hips slightly flexed", "Side-lying to prevent pressure on the defect", "Seated in an infant seat"],
+      "answer": "Prone with hips slightly flexed",
+      "explanation": "A neonate with myelomeningocele (spinal defect with herniated spinal cord) should be positioned PRONE to prevent pressure on the defect and reduce the risk of rupture. The sac is covered with sterile, moist, non-adherent dressings and protected from trauma. This also prevents infection."
+    },
+    {
+      "id": 21,
+      "question": "A premature infant (32 weeks) is placed in a radiant warmer. The MOST important nursing intervention is to:",
+      "choices": ["Set the warmer to control (manual) mode only", "Continuously monitor skin temperature and maintain at 36.5–37.5°C", "Dress the infant in extra blankets over the warmer", "Restrict parental touch to minimize heat loss"],
+      "answer": "Continuously monitor skin temperature and maintain at 36.5–37.5°C",
+      "explanation": "Premature infants have poor temperature regulation. The radiant warmer should maintain skin temperature at 36.5–37.5°C (servo-controlled mode). Continuous temperature monitoring prevents hyperthermia (which increases O2 consumption) or hypothermia. Kangaroo care (skin-to-skin) is beneficial when stable."
+    },
+    {
+      "id": 22,
+      "question": "A newborn at 38 hours of life has a total serum bilirubin of 18 mg/dL. The physician orders phototherapy. The nurse's care DURING phototherapy includes:",
+      "choices": ["Covering the infant's entire body except the head", "Shielding the infant's eyes and turning every 2 hours", "Restricting feedings to reduce bilirubin production", "Placing a warm blanket over the phototherapy lights"],
+      "answer": "Shielding the infant's eyes and turning every 2 hours",
+      "explanation": "During phototherapy for hyperbilirubinemia: shield eyes with opaque patches (prevent retinal damage), expose maximum skin surface area, turn every 2 hours for even exposure, monitor temperature, maintain hydration (increased insensible water loss), check bilirubin levels as ordered, and remove patches during feedings for parent-infant bonding."
+    },
+    {
+      "id": 23,
+      "question": "A neonate is born to an HBsAg-positive mother. The nurse should ensure that within the first 12 hours of birth the newborn receives:",
+      "choices": ["Hepatitis B vaccine alone", "Hepatitis B Immune Globulin (HBIG) alone", "Both Hepatitis B vaccine AND HBIG at separate sites", "Neither — treatment begins at 1 month of age"],
+      "answer": "Both Hepatitis B vaccine AND HBIG at separate sites",
+      "explanation": "Infants born to HBsAg-positive mothers must receive BOTH HBIG (passive immunity) AND Hepatitis B vaccine (active immunity) within 12 hours of birth at separate injection sites. This combination is 95% effective in preventing perinatal HBV transmission. HBIG provides immediate protection while the vaccine builds long-term immunity."
+    },
+    {
+      "id": 24,
+      "question": "A mother with active tuberculosis wants to breastfeed her newborn. The nurse advises her that:",
+      "choices": ["Breastfeeding is absolutely contraindicated regardless of treatment", "She may breastfeed if she has been on effective TB treatment for at least 2 weeks and is non-infectious", "Breast milk transfers TB antibodies that protect the infant", "She should pump and discard breast milk for 3 months"],
+      "answer": "She may breastfeed if she has been on effective TB treatment for at least 2 weeks and is non-infectious",
+      "explanation": "TB bacteria are not transmitted through breast milk. The risk is respiratory transmission from close contact. Once the mother has been on effective anti-TB therapy for at least 2 weeks and is considered non-infectious (sputum smear negative), breastfeeding is generally permitted. The infant is given isoniazid prophylaxis."
+    },
+    {
+      "id": 25,
+      "question": "A 2-year-old child presents with a barking cough, stridor at rest, and moderate respiratory distress. The nurse suspects:",
+      "choices": ["Epiglottitis", "Croup (laryngotracheobronchitis)", "Bronchiolitis", "Pneumonia"],
+      "answer": "Croup (laryngotracheobronchitis)",
+      "explanation": "Croup presents with the classic 'seal bark' cough, stridor (at rest if moderate-severe), and hoarseness in children aged 6 months to 3 years, often preceded by URI. It is caused by parainfluenza virus. Management includes cool mist, racemic epinephrine (nebulized), and corticosteroids (dexamethasone). Epiglottitis presents with drooling, dysphagia, and a child sitting in the 'tripod' position."
+    },
+    {
+      "id": 26,
+      "question": "A child with epiglottitis is brought to the ED. The nurse should AVOID which action?",
+      "choices": ["Administering humidified oxygen by blow-by method", "Keeping the child calm and with parents", "Inserting a tongue depressor to visualize the throat", "Preparing for emergency intubation"],
+      "answer": "Inserting a tongue depressor to visualize the throat",
+      "explanation": "In epiglottitis (life-threatening bacterial infection — Haemophilus influenzae type b), ANY examination of the throat (tongue blade, throat swab) can precipitate complete airway obstruction. Do NOT: insert a tongue depressor, leave the child alone, or place IV (causes distress). Keep the child calm, upright, with parents, and prepare for intubation or tracheostomy."
+    },
+    {
+      "id": 27,
+      "question": "A 6-month-old infant is admitted with respiratory syncytial virus (RSV) bronchiolitis. The nurse should prioritize which intervention?",
+      "choices": ["Administering broad-spectrum antibiotics", "Maintaining airway patency and ensuring adequate oxygenation", "Starting antiviral ribavirin therapy", "Performing chest physiotherapy every hour"],
+      "answer": "Maintaining airway patency and ensuring adequate oxygenation",
+      "explanation": "RSV bronchiolitis management is primarily supportive: nasal suctioning (maintain airway), humidified oxygen (maintain SpO2 ≥92%), adequate hydration, and small frequent feedings. Antibiotics are not indicated (viral). Ribavirin is rarely used. Bronchodilators have limited evidence but may be tried. The priority is maintaining oxygenation."
+    },
+    {
+      "id": 28,
+      "question": "A child with nephrotic syndrome has massive proteinuria, hypoalbuminemia, edema, and hyperlipidemia. The nurse should MOST closely monitor for:",
+      "choices": ["Hyperkalemia", "Hypertension and seizures", "Infection due to loss of immunoglobulins in urine", "Dehydration from polyuria"],
+      "answer": "Infection due to loss of immunoglobulins in urine",
+      "explanation": "In nephrotic syndrome, massive urinary loss of proteins includes immunoglobulins, opsonins, and complement factors, making the child highly susceptible to infections (especially encapsulated bacteria — Streptococcus pneumoniae is the most common cause of peritonitis in nephrotic children). Vaccination and infection monitoring are priorities."
+    },
+    {
+      "id": 29,
+      "question": "A child with Kawasaki disease has completed treatment. The nurse teaches the parent that the MOST serious complication of untreated Kawasaki disease is:",
+      "choices": ["Arthritis", "Coronary artery aneurysms", "Renal failure", "Encephalitis"],
+      "answer": "Coronary artery aneurysms",
+      "explanation": "Kawasaki disease (mucocutaneous lymph node syndrome) is the leading cause of acquired heart disease in children in developed countries. Without treatment (high-dose aspirin + IVIG within 10 days), 15–25% develop coronary artery aneurysms. Echocardiography is performed at diagnosis, 2 weeks, and 6–8 weeks after onset."
+    },
+    {
+      "id": 30,
+      "question": "A 3-year-old child is admitted with suspected Intussusception. The CLASSIC clinical triad includes:",
+      "choices": ["Fever, vomiting, and diarrhea", "Sudden colicky abdominal pain, vomiting, and currant jelly stools", "Constipation, abdominal distension, and ribbon-like stools", "Abdominal rigidity, fever, and rebound tenderness"],
+      "answer": "Sudden colicky abdominal pain, vomiting, and currant jelly stools",
+      "explanation": "Intussusception (telescoping of bowel) classic triad: (1) Sudden severe colicky abdominal pain (child draws knees to chest and screams, then appears well between episodes), (2) Vomiting, (3) Currant jelly stools (blood + mucus). A sausage-shaped mass may be palpated in the RUQ. Treatment: air/barium enema reduction or surgery."
+    },
+    {
+      "id": 31,
+      "question": "A child with Hirschsprung disease (aganglionic megacolon) most commonly presents with:",
+      "choices": ["Severe watery diarrhea in the neonatal period", "Failure to pass meconium within 48 hours of birth", "Projectile vomiting after feeding", "Jaundice in the first week of life"],
+      "answer": "Failure to pass meconium within 48 hours of birth",
+      "explanation": "Hirschsprung disease (congenital absence of ganglion cells in the rectosigmoid colon) classically presents with failure to pass meconium within 48 hours of birth, and later with chronic constipation, abdominal distension, and ribbon-like stools. Diagnosis is by rectal suction biopsy; treatment is surgical (pull-through procedure)."
+    },
+    {
+      "id": 32,
+      "question": "A 5-year-old child with leukemia is receiving vincristine chemotherapy. The nurse should monitor for which specific neurotoxic side effect of vincristine?",
+      "choices": ["Peripheral neuropathy and constipation", "Hemorrhagic cystitis", "Cardiotoxicity", "Pulmonary fibrosis"],
+      "answer": "Peripheral neuropathy and constipation",
+      "explanation": "Vincristine causes peripheral neuropathy (numbness, tingling, footdrop, jaw pain) and autonomic neuropathy (ileus/constipation) as primary toxicities. It is NOT myelosuppressive. Cyclophosphamide causes hemorrhagic cystitis; doxorubicin causes cardiotoxicity; bleomycin causes pulmonary fibrosis."
+    },
+    {
+      "id": 33,
+      "question": "The nurse is caring for a child with sickle cell disease in vaso-occlusive (pain) crisis. The PRIORITY nursing intervention is:",
+      "choices": ["Restricting oral fluids to prevent hyperviscosity", "Administering opioid analgesics and IV hydration", "Preparing the patient for blood transfusion", "Applying ice packs to painful areas"],
+      "answer": "Administering opioid analgesics and IV hydration",
+      "explanation": "Vaso-occlusive crisis management: adequate hydration (IV and oral) to dilute sickling blood, opioid analgesics (morphine) for pain control, oxygen supplementation, and warmth (avoid cold/constriction which worsens sickling). Blood transfusion is reserved for severe complications (stroke, acute chest syndrome). Ice is contraindicated — cold promotes vasoconstriction and sickling."
+    },
+    {
+      "id": 34,
+      "question": "A child is brought to the clinic with suspected iron poisoning. The antidote used to treat iron toxicity is:",
+      "choices": ["N-acetylcysteine", "Deferoxamine", "Atropine", "Naloxone"],
+      "answer": "Deferoxamine",
+      "explanation": "Deferoxamine is an iron chelating agent — it binds free iron in the blood for urinary excretion. It is indicated for severe iron toxicity (serum iron >500 mcg/dL or symptomatic). A classic sign of deferoxamine treatment: urine turns vin rosé (orange-red) color. N-acetylcysteine treats acetaminophen overdose; naloxone reverses opioids."
+    },
+    {
+      "id": 35,
+      "question": "Erik Erikson's psychosocial developmental stage for a toddler (1–3 years) is:",
+      "choices": ["Trust vs. Mistrust", "Autonomy vs. Shame and Doubt", "Initiative vs. Guilt", "Industry vs. Inferiority"],
+      "answer": "Autonomy vs. Shame and Doubt",
+      "explanation": "Erikson's stages: Infancy (0–1 yr) = Trust vs. Mistrust; Toddler (1–3 yr) = Autonomy vs. Shame and Doubt (developing independence — 'No!' and toilet training); Preschool (3–6 yr) = Initiative vs. Guilt; School Age (6–12 yr) = Industry vs. Inferiority; Adolescence = Identity vs. Role Confusion."
+    },
+    {
+      "id": 36,
+      "question": "A 4-year-old child is about to undergo a painful procedure. The BEST therapeutic play approach to prepare this preschool-aged child is:",
+      "choices": ["Explaining the procedure using medical terminology", "Demonstrating the procedure on a doll or puppet beforehand", "Not explaining anything to avoid anxiety", "Asking the parents to leave the room during the procedure"],
+      "answer": "Demonstrating the procedure on a doll or puppet beforehand",
+      "explanation": "Preschoolers (3–6 years) think concretely and use magical thinking. Play-based preparation (demonstrating with a doll/puppet) is the most effective strategy. It reduces fear and helps the child understand what to expect in non-threatening terms. Age-appropriate explanation, allowing choices, and parental presence are also important."
+    },
+    {
+      "id": 37,
+      "question": "A pregnant woman at 36 weeks has severe preeclampsia and is receiving magnesium sulfate IV. The nurse notes loss of deep tendon reflexes. The PRIORITY nursing action is:",
+      "choices": ["Continue the infusion and document the finding", "Increase the infusion rate to prevent seizures", "Stop the infusion and notify the physician", "Administer calcium gluconate as ordered"],
+      "answer": "Stop the infusion and notify the physician",
+      "explanation": "Loss of deep tendon reflexes (DTRs) is a sign of magnesium toxicity. Magnesium serum levels monitoring: therapeutic = 4–7 mEq/L; loss of DTRs = 7–10 mEq/L; respiratory depression = >10 mEq/L; cardiac arrest = >15 mEq/L. STOP the infusion, notify the physician, and administer the antidote: calcium gluconate IV (10 mL of 10% solution)."
+    },
+    {
+      "id": 38,
+      "question": "The nurse is assessing a newborn and notes an umbilical hernia. The parents ask what will happen with this. The nurse should respond:",
+      "choices": ["Surgery is required immediately", "Most close spontaneously by age 4–5 years", "A tight abdominal binder should be applied continuously", "This is a sign of serious internal organ abnormality"],
+      "answer": "Most close spontaneously by age 4–5 years",
+      "explanation": "Umbilical hernias are common in newborns, especially African-American infants. Most (90%) close spontaneously by age 3–5 years as abdominal muscles strengthen. Surgical repair (herniorrhaphy) is considered if the hernia persists beyond age 4–5 years or becomes very large. Taping or binding is NOT recommended and may cause skin irritation."
+    },
+    {
+      "id": 39,
+      "question": "A 2-week-old infant is brought to the clinic with projectile vomiting after every feeding. The infant is hungry immediately after vomiting and has weight loss. The nurse suspects:",
+      "choices": ["Pyloric stenosis", "Gastroesophageal reflux", "Intussusception", "Hirschsprung disease"],
+      "answer": "Pyloric stenosis",
+      "explanation": "Pyloric stenosis presents in infants 2–6 weeks old with progressive, non-bilious projectile vomiting after feeding, persistent hunger, and weight loss. An olive-shaped mass may be palpated in the RUQ. Diagnosed by ultrasound. Treatment: surgical pyloromyotomy (Ramstedt procedure). Metabolic alkalosis with hypokalemia occurs due to vomiting HCl."
+    },
+    {
+      "id": 40,
+      "question": "A child is admitted for fever workup and is found to have a febrile seizure. The MOST important nursing intervention during the seizure is:",
+      "choices": ["Restraining the child to prevent injury", "Inserting an oral airway immediately", "Positioning on the side to protect the airway and timing the seizure", "Administering oral diazepam immediately"],
+      "answer": "Positioning on the side to protect the airway and timing the seizure",
+      "explanation": "During a seizure: do NOT restrain (increases injury risk), do NOT insert anything in the mouth, position in lateral/recovery position to protect the airway and prevent aspiration, time the seizure, clear the environment of hazards, and maintain airway patency. Diazepam (rectal or IV) is for prolonged seizures (>5 minutes)."
+    },
+    {
+      "id": 41,
+      "question": "The nurse is administering digoxin to a 6-month-old infant with heart failure. Before administration, the nurse checks the apical pulse. The nurse should WITHHOLD digoxin and notify the physician if the heart rate is:",
+      "choices": ["Below 120 bpm", "Below 100 bpm", "Below 60 bpm", "Below 80 bpm"],
+      "answer": "Below 100 bpm",
+      "explanation": "In infants, digoxin should be withheld and the physician notified if the apical pulse is <100 bpm (infants). In older children (1–5 years): hold if <90 bpm. In children >6 years and adults: hold if <60 bpm. Signs of digoxin toxicity in infants: bradycardia, vomiting, poor feeding."
+    },
+    {
+      "id": 42,
+      "question": "A child with tetralogy of Fallot (TOF) is having a hypercyanotic ('Tet') spell. The BEST nursing intervention is to:",
+      "choices": ["Place the child supine and apply oxygen", "Place the child in the knee-chest position and administer morphine and oxygen", "Prepare for immediate open-heart surgery", "Administer furosemide IV to reduce preload"],
+      "answer": "Place the child in the knee-chest position and administer morphine and oxygen",
+      "explanation": "During a Tet spell (infundibular spasm reducing pulmonary blood flow causing severe cyanosis): place in knee-chest position (increases SVR, decreasing right-to-left shunt), administer oxygen, morphine (decreases respiratory drive and anxiety, relieves spasm), propranolol (decreases RVOT spasm). The knee-chest position is the hallmark first response."
+    },
+    {
+      "id": 43,
+      "question": "A 10-year-old girl's weight-for-height is at the 85th percentile. The nurse would classify her as:",
+      "choices": ["Underweight", "Normal weight", "Overweight", "Obese"],
+      "answer": "Overweight",
+      "explanation": "CDC BMI-for-age classification for children: Underweight = <5th percentile; Healthy weight = 5th–84th percentile; Overweight = 85th–94th percentile; Obese = ≥95th percentile. At the 85th percentile, this child is classified as overweight. BMI is used for children ≥2 years."
+    },
+    {
+      "id": 44,
+      "question": "A 14-year-old girl asks the nurse about the HPV vaccine. The nurse explains that the vaccine is MOST effective when given:",
+      "choices": ["Before sexual debut (11–12 years, catch-up through age 26)", "After the first sexual encounter", "Only after a negative Pap smear", "As a single lifetime dose"],
+      "answer": "Before sexual debut (11–12 years, catch-up through age 26)",
+      "explanation": "The HPV vaccine (Gardasil 9) is most effective when given before exposure to HPV — ideally at 11–12 years old (can be given as early as 9). Catch-up vaccination is recommended through age 26 for those not previously vaccinated. It prevents HPV strains associated with cervical cancer and genital warts. 2 doses if series started before age 15; 3 doses if started at 15+."
+    },
+    {
+      "id": 45,
+      "question": "A newborn is assessed using the Ballard scoring system. This tool is used to determine:",
+      "choices": ["Gestational age and maturity", "Apgar score at 1 and 5 minutes", "Risk for respiratory distress syndrome", "Presence of congenital anomalies"],
+      "answer": "Gestational age and maturity",
+      "explanation": "The New Ballard Score assesses gestational age through two components: Neuromuscular maturity (posture, square window, arm recoil, popliteal angle, scarf sign, heel-to-ear) and Physical maturity (skin, lanugo, plantar surface, breast, eye/ear, genitalia). Scores are compared to a chart to estimate gestational age."
+    },
+    {
+      "id": 46,
+      "question": "The nurse is teaching a new mother about SIDS prevention. Which instruction is MOST important?",
+      "choices": ["Place the infant prone (tummy down) to sleep", "Use soft pillows and fluffy bumpers in the crib", "Place the infant supine (back to sleep) on a firm mattress", "Keep the infant's room warm (above 24°C) to prevent cold"],
+      "answer": "Place the infant supine (back to sleep) on a firm mattress",
+      "explanation": "The 'Safe to Sleep' (formerly 'Back to Sleep') campaign: infants should ALWAYS sleep supine (on their back) on a firm, flat sleep surface. Avoid soft bedding, pillows, bumpers, co-sleeping, loose blankets, and overheating — all are SIDS risk factors. The prone position has the highest SIDS risk."
+    },
+    {
+      "id": 47,
+      "question": "A woman at 18 weeks of gestation is scheduled for an amniocentesis. The nurse should instruct her that the MOST common reason amniocentesis is performed at this gestational age is to:",
+      "choices": ["Assess fetal lung maturity", "Detect chromosomal abnormalities and genetic disorders", "Determine fetal position", "Diagnose placenta previa"],
+      "answer": "Detect chromosomal abnormalities and genetic disorders",
+      "explanation": "Amniocentesis at 15–20 weeks is performed primarily to detect chromosomal abnormalities (Down syndrome/trisomy 21, trisomy 18/13, neural tube defects via AFP). Fetal lung maturity testing (lecithin-sphingomyelin ratio) is done at 32–35 weeks. Placenta previa is diagnosed by ultrasound."
+    },
+    {
+      "id": 48,
+      "question": "A patient at 34 weeks of gestation is experiencing preterm labor. The physician orders betamethasone IM. The nurse understands this medication is given to:",
+      "choices": ["Stop uterine contractions (tocolysis)", "Accelerate fetal lung maturity by stimulating surfactant production", "Prevent Group B Streptococcus infection in the newborn", "Reduce maternal blood pressure"],
+      "answer": "Accelerate fetal lung maturity by stimulating surfactant production",
+      "explanation": "Antenatal corticosteroids (betamethasone or dexamethasone) are given to mothers with threatened preterm delivery at 24–34 weeks to stimulate fetal lung maturation by accelerating surfactant production, reducing the incidence and severity of respiratory distress syndrome (RDS), intraventricular hemorrhage, and neonatal death."
+    },
+    {
+      "id": 49,
+      "question": "A newborn born at 38 weeks has a blood glucose of 38 mg/dL at 1 hour of life. The nurse should:",
+      "choices": ["Document and recheck at 2 hours — this is within normal range for newborns", "Initiate early breastfeeding or supplemental feeding and recheck in 30–60 minutes", "Immediately administer IV dextrose 10% bolus", "Obtain a stat HbA1c"],
+      "answer": "Initiate early breastfeeding or supplemental feeding and recheck in 30–60 minutes",
+      "explanation": "Neonatal hypoglycemia threshold varies by age and risk factors, but blood glucose <45 mg/dL in the first hours of life is concerning. The first intervention for an asymptomatic infant is early oral feeding (breast or formula) followed by glucose recheck in 30–60 minutes. IV dextrose is reserved for symptomatic hypoglycemia or failure of oral feeding."
+    },
+    {
+      "id": 50,
+      "question": "A mother states she wants to exclusively breastfeed her newborn. She asks how often the baby should feed. The nurse's BEST response is:",
+      "choices": ["Every 4 hours on a strict schedule", "Every 2–3 hours or 8–12 times in 24 hours, on demand", "Only when the baby cries loudly for food", "4–5 times per day, allowing long sleep intervals"],
+      "answer": "Every 2–3 hours or 8–12 times in 24 hours, on demand",
+      "explanation": "Exclusive breastfeeding for the first 6 months is recommended (WHO). Newborns should nurse 8–12 times in 24 hours (every 2–3 hours) on demand, including at night. Frequent feedings stimulate milk production, prevent jaundice, and meet nutritional needs. Adequacy is assessed by diaper output: 6+ wet diapers and 3+ stools per day by Day 4."
+    }
+  ]
+}

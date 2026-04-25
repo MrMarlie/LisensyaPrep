@@ -13,6 +13,7 @@ const COURSES = [
   { href: '/education', label: '🎓 Education (LET)' },
   { href: '/criminology', label: '⚖️ Criminology' },
   { href: '/medical-technology', label: '🧪 Medical Technology' },
+  { href: '/nursing', label: '🏥 Nursing' },
 ];
 
 const NAV_LINKS = [

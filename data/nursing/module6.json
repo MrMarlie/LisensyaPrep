@@ -1,0 +1,356 @@
+{
+  "module": "Module 6 - Nursing Jurisprudence and Ethics",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Republic Act 9173 (Philippine Nursing Act of 2002) was enacted to:",
+      "choices": ["Establish the Philippine Nursing Licensure Examination schedule", "Repeal all previous nursing laws and establish new standards for nursing practice", "Regulate nursing practice and integrate it with the evolving healthcare needs of the Filipino people", "Create the Professional Regulation Commission (PRC)"],
+      "answer": "Regulate nursing practice and integrate it with the evolving healthcare needs of the Filipino people",
+      "explanation": "RA 9173 (Philippine Nursing Act of 2002) amended RA 7164 (1991) and regulates the practice of nursing in the Philippines. Its purpose is to ensure quality nursing education and practice that serves the health needs of Filipinos. It established the Board of Nursing (BON), regulated nursing education, licensure, and professional standards."
+    },
+    {
+      "id": 2,
+      "question": "Under RA 9173, the Board of Nursing (BON) is composed of how many members?",
+      "choices": ["3 members (Chair + 2 regular members)", "5 members (Chair + 4 regular members)", "7 members (Chair + 6 regular members)", "9 members (Chair + 8 regular members)"],
+      "answer": "7 members (Chair + 6 regular members)",
+      "explanation": "Under RA 9173, the Board of Nursing is composed of 7 members: a Chairperson and 6 regular members. All must be Filipino citizens, bona fide members of the nursing profession in good standing, with at least 10 years of continuous practice, holders of at least a master's degree, and recommended by the accredited professional organization (PNA)."
+    },
+    {
+      "id": 3,
+      "question": "The term of office for Board of Nursing (BON) members under RA 9173 is:",
+      "choices": ["3 years, renewable twice (maximum 9 years)", "4 years, renewable once", "5 years without renewal", "2 years, renewable indefinitely"],
+      "answer": "3 years, renewable twice (maximum 9 years)",
+      "explanation": "Under RA 9173, BON members serve a term of 3 years and may be reappointed for a maximum of two consecutive terms (total maximum = 9 years). They are appointed by the President of the Philippines upon recommendation of the PRC, from among a list provided by the accredited professional organization (Philippine Nurses Association - PNA)."
+    },
+    {
+      "id": 4,
+      "question": "Under RA 9173, the minimum educational requirement to take the Nurse Licensure Examination (NLE) is:",
+      "choices": ["Associate Degree in Nursing", "Bachelor of Science in Nursing (BSN)", "Diploma in Nursing", "Any healthcare-related degree with clinical experience"],
+      "answer": "Bachelor of Science in Nursing (BSN)",
+      "explanation": "RA 9173 requires a Bachelor of Science in Nursing (BSN) degree from a Commission on Higher Education (CHED) accredited nursing program as the minimum requirement to sit for the Nurse Licensure Examination (NLE). This upgraded the previous Diploma in Nursing requirement under RA 7164."
+    },
+    {
+      "id": 5,
+      "question": "The accredited professional organization (APO) for nurses in the Philippines, recognized under RA 9173, is the:",
+      "choices": ["Philippine Medical Association (PMA)", "Philippine Nurses Association (PNA)", "Philippine League of Nurses (PLN)", "Association of Nursing Educators of the Philippines (ANEAP)"],
+      "answer": "Philippine Nurses Association (PNA)",
+      "explanation": "The Philippine Nurses Association (PNA), founded in 1922, is the duly accredited professional organization for nurses in the Philippines. Under RA 9173, the PNA recommends nominees to the BON and plays a role in continuing professional education. The PNA is also a member of the International Council of Nurses (ICN)."
+    },
+    {
+      "id": 6,
+      "question": "Under RA 9173, the Nurse Licensure Examination (NLE) is given at least how many times per year?",
+      "choices": ["Once a year", "Twice a year", "Three times a year", "Four times a year"],
+      "answer": "Twice a year",
+      "explanation": "RA 9173 mandates that the Board of Nursing shall give the Nurse Licensure Examination at least twice a year in such places and dates as the PRC may designate. The NLE is traditionally administered in June and December in the Philippines."
+    },
+    {
+      "id": 7,
+      "question": "To pass the Nurse Licensure Examination (NLE), a candidate must obtain:",
+      "choices": ["A general average of 70% with no subject below 60%", "A general average of 75% with no subject below 60%", "A general average of 75% with no subject below 50%", "A general average of 80% with no subject below 70%"],
+      "answer": "A general average of 75% with no subject below 60%",
+      "explanation": "Under RA 9173, to pass the NLE, a candidate must obtain: a general average of at least 75% AND no grade below 60% in any subject. If a candidate obtains a general average of 75% or above but has a grade below 60% in any subject, they fail the examination and must retake it."
+    },
+    {
+      "id": 8,
+      "question": "Under RA 9173, a nurse who is found guilty of immoral or dishonorable conduct may have their license revoked or suspended. Who has the power to revoke or suspend a nursing license?",
+      "choices": ["The Philippine Nurses Association (PNA)", "The Commission on Higher Education (CHED)", "The Board of Nursing (BON), subject to PRC approval", "The Regional Trial Court with jurisdiction over the nurse"],
+      "answer": "The Board of Nursing (BON), subject to PRC approval",
+      "explanation": "Under RA 9173, the Board of Nursing has the power to revoke or suspend a certificate of registration/professional license for grounds specified in the law (e.g., immoral conduct, unprofessional conduct, fraud in obtaining license, incompetence, drug dependence). Decisions are subject to PRC approval and may be appealed to the Court of Appeals."
+    },
+    {
+      "id": 9,
+      "question": "The scope of nursing practice in the Philippines, as defined in RA 9173, includes all EXCEPT:",
+      "choices": ["Administration of medications and treatments as prescribed by authorized practitioners", "Independent diagnosis and treatment of diseases without supervision", "Health education and health promotion activities", "Collaboration with inter-professional healthcare teams"],
+      "answer": "Independent diagnosis and treatment of diseases without supervision",
+      "explanation": "Nursing practice under RA 9173 includes: patient assessment, nursing diagnosis, planning, implementation, and evaluation; administration of prescribed treatments/medications; health education; collaboration with interdisciplinary teams; and supervision of nursing personnel. Independent medical diagnosis and prescribing medications are OUTSIDE the scope of nursing practice (these are medical functions)."
+    },
+    {
+      "id": 10,
+      "question": "Under RA 9173, mandatory continuing professional education (CPE) for nurse license renewal requires a minimum of how many CPE units?",
+      "choices": ["15 units every 3 years", "30 units per year", "45 units every 3 years", "60 units every 5 years"],
+      "answer": "45 units every 3 years",
+      "explanation": "Under RA 9173 and PRC Modernization Act, nurses must earn a minimum of 45 CPE credit units every 3 years as a requirement for license renewal. CPE activities include seminars, conferences, training programs, and scholarly work. This ensures nurses maintain competence through lifelong learning."
+    },
+    {
+      "id": 11,
+      "question": "The four major bioethical principles that guide nursing practice are:",
+      "choices": ["Justice, Veracity, Fidelity, Autonomy", "Autonomy, Beneficence, Non-maleficence, Justice", "Compassion, Integrity, Humility, Service", "Non-maleficence, Advocacy, Accountability, Collaboration"],
+      "answer": "Autonomy, Beneficence, Non-maleficence, Justice",
+      "explanation": "The four principles of biomedical ethics (Beauchamp & Childress): (1) Autonomy — respect for patient's right to make their own decisions; (2) Beneficence — doing good; (3) Non-maleficence — do no harm; (4) Justice — fair distribution of resources and equal treatment. These principles guide ethical decision-making in nursing and healthcare."
+    },
+    {
+      "id": 12,
+      "question": "A patient refuses surgery recommended by their physician. The nurse who supports and respects this decision is upholding the principle of:",
+      "choices": ["Beneficence", "Non-maleficence", "Justice", "Autonomy"],
+      "answer": "Autonomy",
+      "explanation": "Autonomy is the patient's right to make informed decisions about their own healthcare, including the right to refuse treatment. A competent adult patient's decision must be respected even if it appears unwise. Informed consent is the legal and ethical expression of patient autonomy. The nurse acts as patient advocate in supporting this right."
+    },
+    {
+      "id": 13,
+      "question": "The ethical principle of FIDELITY in nursing refers to:",
+      "choices": ["Telling the truth to patients at all times", "Keeping promises and honoring commitments made to patients", "Fair distribution of healthcare resources", "Acting in the patient's best interest even when they cannot decide"],
+      "answer": "Keeping promises and honoring commitments made to patients",
+      "explanation": "Fidelity: faithfulness — keeping promises and commitments (e.g., 'I'll be back in 10 minutes with your pain medication' — the nurse must follow through). Veracity = truth-telling. Confidentiality = keeping patient information private. Beneficence = doing good. Fidelity builds trust, the foundation of the nurse-patient relationship."
+    },
+    {
+      "id": 14,
+      "question": "The nursing ethical standard of VERACITY means:",
+      "choices": ["Protecting patient privacy and confidential information", "Telling the truth and providing honest information", "Acting in the patient's best interest", "Doing no harm to the patient"],
+      "answer": "Telling the truth and providing honest information",
+      "explanation": "Veracity is the obligation to be truthful with patients. This includes providing accurate health information, honest explanations of procedures and risks (as part of informed consent), and not deceiving patients. Tension arises when truth-telling might cause distress — the nurse must balance veracity with sensitivity and timing."
+    },
+    {
+      "id": 15,
+      "question": "A patient is about to undergo a major surgical procedure. Valid informed consent requires all of the following EXCEPT:",
+      "choices": ["Disclosure of diagnosis and nature of the procedure", "Explanation of risks and benefits", "Proof that the patient agreed because of family pressure", "Patient's voluntary agreement without coercion"],
+      "answer": "Proof that the patient agreed because of family pressure",
+      "explanation": "Valid informed consent requires: disclosure (nature of procedure, risks, benefits, alternatives), comprehension (patient understands — in language they understand), competency (patient is legally and mentally competent), and voluntariness (free from coercion, pressure, or manipulation). Consent obtained through family pressure or coercion is NOT valid."
+    },
+    {
+      "id": 16,
+      "question": "Who is legally authorized to sign an informed consent for a major surgical procedure for a conscious, competent adult patient?",
+      "choices": ["The patient's next of kin (spouse, parent)", "The patient themselves", "The patient or their next of kin, depending on hospital policy", "The physician who will perform the procedure"],
+      "answer": "The patient themselves",
+      "explanation": "A conscious, competent adult has the right to sign their own informed consent. Proxy or surrogate consent (by family/guardian) applies only when the patient is: unconscious, incompetent (psychiatric incapacity), a minor, or legally declared incapacitated. The nurse's role in informed consent is to WITNESS the signature and ensure the patient had the opportunity to ask questions — not to obtain consent themselves."
+    },
+    {
+      "id": 17,
+      "question": "A nurse witnesses a physician performing a procedure on a patient without obtaining informed consent. The nurse's MOST appropriate action is to:",
+      "choices": ["Assist with the procedure as instructed by the physician", "Interrupt the procedure and address the lack of consent", "Document the absence of consent in the chart and continue assisting", "Notify the risk management department after the procedure"],
+      "answer": "Interrupt the procedure and address the lack of consent",
+      "explanation": "Performing a procedure without informed consent is assault/battery under law and an ethical violation. The nurse has a professional and legal duty to act as patient advocate and interrupt the procedure until proper consent is obtained. This may require respectfully notifying the physician or the charge nurse/supervisor. Documenting alone is insufficient."
+    },
+    {
+      "id": 18,
+      "question": "Under Philippine law, nursing negligence can lead to legal liability. For negligence to be established, which elements must be proven?",
+      "choices": ["Duty, Intent, Harm, Causation", "Duty, Breach of duty, Causation, Damages", "Malice, Breach of duty, Intent, Damages", "Duty, Competence, Documentation, Outcome"],
+      "answer": "Duty, Breach of duty, Causation, Damages",
+      "explanation": "The four elements of negligence (tort law): (1) Duty — the nurse owed a duty of care to the patient; (2) Breach — the nurse failed to meet the standard of care; (3) Causation — the breach directly caused the harm (proximate cause); (4) Damages — the patient suffered actual harm (physical, emotional, financial). ALL four must be proven."
+    },
+    {
+      "id": 19,
+      "question": "A patient falls out of bed and is injured. The nurse had raised only two of four side rails and did not use a bed alarm for a confused patient. This is an example of:",
+      "choices": ["Intentional tort (assault and battery)", "Malpractice (professional negligence)", "Abandonment", "Defamation"],
+      "answer": "Malpractice (professional negligence)",
+      "explanation": "Malpractice is professional negligence — failure to meet the standard of care expected of a professional. A nurse failing to implement fall precautions (all 4 side rails raised, bed alarm, call light within reach) for a confused patient constitutes malpractice if the patient is harmed. Malpractice requires proof of the 4 elements of negligence."
+    },
+    {
+      "id": 20,
+      "question": "The legal doctrine of 'respondeat superior' means that:",
+      "choices": ["The nurse is personally responsible for all of their actions regardless of employer", "The employer (hospital) may be held liable for the negligent acts of its employees while acting within the scope of employment", "Supervisors must report all incidents to regulatory agencies", "Nurses cannot be held liable for following physician orders"],
+      "answer": "The employer (hospital) may be held liable for the negligent acts of its employees while acting within the scope of employment",
+      "explanation": "Respondeat superior ('let the master respond'): the employer is vicariously liable for the negligent acts of employees performed within the scope of their employment. This means a hospital can be sued for a nurse's negligent act. However, this does NOT shield the individual nurse from personal liability — both the nurse and employer may be liable."
+    },
+    {
+      "id": 21,
+      "question": "A nurse administers medication that was not prescribed by the physician and the patient suffers a reaction. The nurse argues that the charge nurse ordered the medication verbally. Under the law, who is primarily responsible?",
+      "choices": ["The charge nurse who gave the verbal order", "The physician who did not supervise the charge nurse", "The nurse who administered the medication without a valid order", "The hospital for inadequate supervision"],
+      "answer": "The nurse who administered the medication without a valid order",
+      "explanation": "Every nurse is personally accountable for their own actions. A nurse who administers medication without a valid physician's order (verbal orders from another nurse do not constitute valid medication orders) is personally liable. 'I was told to' is not a valid defense in court. The principle of personal accountability is fundamental to nursing practice."
+    },
+    {
+      "id": 22,
+      "question": "A nurse fails to monitor a patient's vital signs as required by the care plan and the patient deteriorates without the nurse noticing. This is an example of:",
+      "choices": ["Commission (act of omission)", "Negligence by omission (failure to act)", "Intentional tort", "Abandonment"],
+      "answer": "Negligence by omission (failure to act)",
+      "explanation": "Negligence can occur by commission (doing something wrong, e.g., giving the wrong medication) or omission (failing to do something required, e.g., not monitoring vital signs, not turning a patient, not documenting). Omission of required care is equally actionable as commission of wrong care."
+    },
+    {
+      "id": 23,
+      "question": "A nurse restrains a patient against their will without a physician's order, and the patient has not been assessed as dangerous. This constitutes which legal tort?",
+      "choices": ["Battery (unlawful touching)", "Assault (threat of harm)", "False imprisonment", "Defamation"],
+      "answer": "False imprisonment",
+      "explanation": "False imprisonment: unlawful restriction of a person's freedom of movement without legal authority. Restraining a patient without an order (or without meeting the legal criteria for restraint) is false imprisonment. Battery is unlawful touching without consent; assault is threatening to touch; defamation is injuring someone's reputation."
+    },
+    {
+      "id": 24,
+      "question": "The Data Privacy Act of 2012 (RA 10173) requires nurses to protect patient information. Sharing a patient's diagnosis with their employer without the patient's consent violates the patient's right to:",
+      "choices": ["Autonomy", "Privacy and confidentiality", "Equal treatment", "Free healthcare"],
+      "answer": "Privacy and confidentiality",
+      "explanation": "Confidentiality is the patient's right to have their health information protected from unauthorized disclosure. RA 10173 (Data Privacy Act) and HIPAA-equivalent standards require health information to be kept confidential. Disclosure to an employer (without consent or legal order) violates this right and may constitute a tort of invasion of privacy."
+    },
+    {
+      "id": 25,
+      "question": "A nurse overhears in the elevator that a public figure has been admitted with a psychiatric disorder and shares this information on social media. This violates:",
+      "choices": ["Autonomy only", "Confidentiality and the Data Privacy Act", "Beneficence and non-maleficence", "Professional standards only — no legal violation"],
+      "answer": "Confidentiality and the Data Privacy Act",
+      "explanation": "Sharing a patient's health information (including admission and diagnosis) on social media violates: the patient's right to confidentiality, RA 10173 (Data Privacy Act), and the nurse's professional Code of Ethics. This could result in license revocation, criminal charges, and civil liability. Public figure status does not eliminate privacy rights in healthcare."
+    },
+    {
+      "id": 26,
+      "question": "The Code of Ethics for Filipino Nurses is promulgated by the:",
+      "choices": ["Department of Health (DOH)", "Commission on Higher Education (CHED)", "Professional Regulation Commission (PRC) and Board of Nursing (BON)", "Philippine Nurses Association (PNA)"],
+      "answer": "Professional Regulation Commission (PRC) and Board of Nursing (BON)",
+      "explanation": "The Code of Ethics for Nurses in the Philippines is promulgated by the BON and approved by the PRC. It articulates the values, standards of conduct, and ethical obligations of Filipino nurses. Violations of the Code of Ethics may be grounds for disciplinary action, including revocation or suspension of the nursing license."
+    },
+    {
+      "id": 27,
+      "question": "The first article in the Code of Ethics for Filipino Nurses emphasizes the nurse's primary responsibility to:",
+      "choices": ["The employing institution", "The patient and their family", "The nursing profession and the BON", "The physician and the healthcare team"],
+      "answer": "The patient and their family",
+      "explanation": "The Code of Ethics for Filipino Nurses emphasizes that the nurse's primary responsibility is to the patient — the person who needs nursing care. The nurse must provide holistic care that respects the patient's dignity, rights, values, culture, and beliefs. All other responsibilities (to the community, profession, and colleagues) are secondary to patient care."
+    },
+    {
+      "id": 28,
+      "question": "A nurse is asked to float to the ICU from the medical-surgical unit but has never been trained in ICU care. The nurse's MOST appropriate action is to:",
+      "choices": ["Agree immediately to avoid conflict with management", "Refuse entirely and go home", "Accept the assignment but notify the supervisor of limited competence and request orientation/supervision", "Call a colleague to swap assignments without informing management"],
+      "answer": "Accept the assignment but notify the supervisor of limited competence and request orientation/supervision",
+      "explanation": "Nurses have a duty to practice within their scope of competence. If assigned beyond competence, the nurse must: accept the assignment (patient abandonment is worse), notify the supervisor in writing of their limited competence, request orientation/buddy assignment, and document the communication. Refusing entirely may constitute abandonment if a replacement is not available."
+    },
+    {
+      "id": 29,
+      "question": "A student nurse makes a medication error during clinical practice. Who bears primary legal responsibility?",
+      "choices": ["The student nurse alone", "The clinical instructor and institution — student nurses are not legally liable", "Both the student nurse and the supervising nurse/clinical instructor share liability", "The hospital pharmacist who dispensed the medication"],
+      "answer": "Both the student nurse and the supervising nurse/clinical instructor share liability",
+      "explanation": "Student nurses are held to the same standard of care as a licensed nurse for any procedure they perform. The student nurse is personally liable for their own acts of negligence. Additionally, the clinical instructor (supervisor) and the school/clinical facility may share liability under respondeat superior. This underscores the need for adequate supervision."
+    },
+    {
+      "id": 30,
+      "question": "Under RA 9173, practicing nursing in the Philippines without a valid license is a criminal offense punishable by:",
+      "choices": ["A fine of Php 500 only", "Imprisonment of not less than 1 year and not more than 6 years, and a fine of not less than Php 50,000 nor more than Php 100,000", "Administrative sanction only — suspension of application to take the NLE", "Community service and reprimand"],
+      "answer": "Imprisonment of not less than 1 year and not more than 6 years, and a fine of not less than Php 50,000 nor more than Php 100,000",
+      "explanation": "Under RA 9173, Section 28, practicing nursing without a valid license is punishable by: imprisonment of not less than 1 year nor more than 6 years AND a fine of not less than Php 50,000 nor more than Php 100,000. This applies to individuals who practice nursing, schools that produce graduates not meeting standards, and employers who knowingly employ unlicensed personnel."
+    },
+    {
+      "id": 31,
+      "question": "A nurse refuses to care for a patient with HIV/AIDS based on personal religious beliefs. This constitutes:",
+      "choices": ["Ethical behavior if based on deeply held religious beliefs", "Patient abandonment and discriminatory practice", "An appropriate use of the conscience clause", "An acceptable refusal under the Patient's Rights Act"],
+      "answer": "Patient abandonment and discriminatory practice",
+      "explanation": "Refusing to care for a patient based on their diagnosis, lifestyle, religion, race, or other discriminatory basis violates the nurse's Code of Ethics and constitutes patient abandonment. Nurses have a professional duty to care for all patients without discrimination. The conscience clause (right to refuse based on moral/religious grounds) has narrow exceptions (e.g., abortion) and must always ensure patient care continuity."
+    },
+    {
+      "id": 32,
+      "question": "The Patient's Bill of Rights in the Philippines entitles patients to which of the following?",
+      "choices": ["Free healthcare at all times regardless of insurance", "Right to receive information about diagnosis and treatment in a language they understand", "Right to demand any specific treatment or medication from the physician", "Right to be attended only by a nurse of the same religion"],
+      "answer": "Right to receive information about diagnosis and treatment in a language they understand",
+      "explanation": "The Philippine Patient's Bill of Rights (DOH A.O. 2008-0022) includes: right to receive appropriate medical care, right to be informed of diagnosis/treatment/prognosis in understandable language, right to informed consent, right to privacy and confidentiality, right to refuse treatment, right to a second opinion, and right to be treated with dignity."
+    },
+    {
+      "id": 33,
+      "question": "An advance directive (living will) allows a patient to:",
+      "choices": ["Designate a financial heir for their assets", "Specify preferences for medical care if they become unable to make decisions", "Give another person the right to decide ONLY financial matters", "Waive their right to informed consent while competent"],
+      "answer": "Specify preferences for medical care if they become unable to make decisions",
+      "explanation": "An advance directive (living will) is a legal document where a competent person specifies their healthcare wishes (e.g., DNR orders, treatment preferences, organ donation) in advance, to be followed if they become unable to make decisions. A healthcare proxy/durable power of attorney for healthcare designates a surrogate decision-maker."
+    },
+    {
+      "id": 34,
+      "question": "A nurse writes a nursing order without a physician's signature. This constitutes:",
+      "choices": ["Acceptable independent nursing practice", "Practicing medicine without a license (unauthorized prescription)", "An appropriate delegation of authority from the physician", "Standard protocol in community nursing"],
+      "answer": "Practicing medicine without a license (unauthorized prescription)",
+      "explanation": "Nurses may not write medical orders (diagnosis and treatment orders) independently unless operating under a specific legal framework (e.g., advanced practice nursing, nurse practitioners in countries where this is authorized). Writing nursing orders that constitute medical prescriptions (e.g., laboratory tests, medications, procedures) without physician authorization is practicing medicine without a license."
+    },
+    {
+      "id": 35,
+      "question": "The concept of 'standard of care' in nursing law means:",
+      "choices": ["The minimum level of care required by law to avoid criminal prosecution", "The level of care that a reasonably prudent nurse with similar education and experience would provide under similar circumstances", "The highest possible level of care regardless of available resources", "The care standards set exclusively by the hospital's nursing department"],
+      "answer": "The level of care that a reasonably prudent nurse with similar education and experience would provide under similar circumstances",
+      "explanation": "Standard of care is defined as what a 'reasonable, prudent nurse' with the same education, training, and experience would do in the same or similar circumstances. It is established by: professional nursing standards (CHED, BON, PNA), institutional policies and procedures, nursing textbooks, and expert nursing testimony. Deviation from the standard of care is the basis for negligence claims."
+    },
+    {
+      "id": 36,
+      "question": "Under the Anti-Violence Against Women and their Children Act (RA 9262), a nurse caring for a victim of intimate partner violence is MOST importantly obligated to:",
+      "choices": ["Convince the patient to leave the abuser immediately", "Maintain confidentiality about the abuse and not report to anyone", "Assess for safety, provide support and information about resources, and document findings objectively", "Report the suspected abuser directly to the police"],
+      "answer": "Assess for safety, provide support and information about resources, and document findings objectively",
+      "explanation": "When caring for victims of domestic violence: assess for immediate safety (is the patient in danger now?), provide emotional support, inform about available resources (DSWD, women's shelters, legal aid), document injuries and history objectively (using the patient's own words), and respect the patient's decision-making autonomy. Healthcare providers (not nurses specifically) are mandated reporters in some jurisdictions."
+    },
+    {
+      "id": 37,
+      "question": "Under Republic Act 7432 (Senior Citizens Act) and RA 9994 (Expanded Senior Citizens Act), nurses should know that Filipinos aged 60 years and above are entitled to a senior citizen discount of:",
+      "choices": ["10% discount on medical services and medicines only", "20% discount and VAT exemption on medicines, medical services, and other specified services", "30% discount on all goods and services", "15% discount on medicines only"],
+      "answer": "20% discount and VAT exemption on medicines, medical services, and other specified services",
+      "explanation": "RA 9994 (Expanded Senior Citizens Act of 2010): Filipino citizens 60 years and older are entitled to a 20% discount and VAT exemption on medicines, medical and dental services, hospitalization, and other specified establishments (restaurants, transportation). Nurses should facilitate these rights for senior citizen patients and families."
+    },
+    {
+      "id": 38,
+      "question": "The Magna Carta of Public Health Workers (RA 7305) provides which benefit to public health nurses?",
+      "choices": ["Free housing in government facilities", "Hazard pay, subsistence allowance, and longevity pay", "Unlimited sick leave with full pay", "Exemption from midnight shift assignments"],
+      "answer": "Hazard pay, subsistence allowance, and longevity pay",
+      "explanation": "RA 7305 (Magna Carta of Public Health Workers, 1992) provides public health workers (including nurses in government health facilities) with: hazard pay (for exposure to health hazards), subsistence allowance, laundry allowance, longevity pay (for years of service), free medicines, and other benefits. This law improves working conditions and recognizes the risks of public health work."
+    },
+    {
+      "id": 39,
+      "question": "A nurse is delegating tasks to a nursing aide. The nurse remains accountable for which of the following?",
+      "choices": ["Only the tasks that the nurse personally performed", "Nothing — accountability transfers to the nursing aide upon delegation", "The overall outcomes of delegated tasks and ensuring appropriate supervision", "Only if the nursing aide makes an error"],
+      "answer": "The overall outcomes of delegated tasks and ensuring appropriate supervision",
+      "explanation": "When delegating, nurses retain accountability for: assessing if the task is appropriate to delegate, selecting a qualified person, providing clear instructions, supervising the delegatee, and evaluating the outcomes. Accountability cannot be delegated — the nurse is always responsible for the safety and outcomes of delegated care. Nursing aides are responsible for their own performance."
+    },
+    {
+      "id": 40,
+      "question": "The rights of delegation in nursing (NCSBN's five rights) include all EXCEPT:",
+      "choices": ["Right task", "Right circumstances", "Right person", "Right documentation"],
+      "answer": "Right documentation",
+      "explanation": "NCSBN Five Rights of Delegation: (1) Right Task (appropriate to delegate), (2) Right Circumstances (appropriate setting and resources), (3) Right Person (delegate has the skills/competence), (4) Right Directions/Communication (clear, specific instructions), (5) Right Supervision and Evaluation (nurse monitors outcomes). Documentation is important but is not one of the five rights of delegation."
+    },
+    {
+      "id": 41,
+      "question": "A nurse administers the wrong medication to a patient. The patient was not harmed. The nurse should:",
+      "choices": ["Say nothing since no harm occurred", "Document the administration as correct to avoid disciplinary action", "Complete an incident report, document the event accurately, notify the physician, and monitor the patient", "Inform only the patient, not the physician"],
+      "answer": "Complete an incident report, document the event accurately, notify the physician, and monitor the patient",
+      "explanation": "All medication errors must be reported and documented regardless of whether harm occurred. Steps after a medication error: ensure patient safety first, notify the physician, monitor the patient for adverse effects, document the event accurately in the medical record (what was given, not what should have been given), and complete an incident/variance report. Incident reports are NOT placed in the medical record."
+    },
+    {
+      "id": 42,
+      "question": "The incident report after a medication error is primarily used for:",
+      "choices": ["Punishing the nurse involved in the error", "Evidence in a malpractice lawsuit against the nurse", "Quality improvement and error prevention system-wide", "Official documentation in the patient's medical chart"],
+      "answer": "Quality improvement and error prevention system-wide",
+      "explanation": "Incident/variance reports are internal quality improvement tools used to: identify patterns of errors, analyze system failures, and implement corrective actions to prevent future errors. They are NOT used to punish individuals and are NOT part of the medical record (they are privileged documents). Medication errors must still be documented in the medical chart (factually) separately."
+    },
+    {
+      "id": 43,
+      "question": "A nurse suspects that a colleague is diverting (stealing) controlled substances for personal use. The nurse's MOST appropriate action is to:",
+      "choices": ["Confront the colleague directly and give them a chance to stop", "Ignore the suspicion without evidence", "Report the suspicion to the nurse manager or appropriate authority", "Document personal observations and continue to watch before reporting"],
+      "answer": "Report the suspicion to the nurse manager or appropriate authority",
+      "explanation": "Drug diversion is a serious patient safety issue and a criminal offense. The nurse has a professional obligation to report suspected diversion to the nurse manager or appropriate authority (e.g., pharmacy, risk management). This protects patients (who may receive diluted medications), supports the impaired colleague in getting help, and is required by the nurse's Code of Ethics and professional standards."
+    },
+    {
+      "id": 44,
+      "question": "The Philippine Mental Health Act (RA 11036) mandates that all persons with mental disorders have the right to:",
+      "choices": ["Indefinite involuntary hospitalization at the discretion of family members", "Voluntary and involuntary admission with protections, informed consent, and access to mental health services", "Mental health services only in National Center for Mental Health (NCMH)", "Treatments prescribed by a physician without their consent"],
+      "answer": "Voluntary and involuntary admission with protections, informed consent, and access to mental health services",
+      "explanation": "RA 11036 (Philippine Mental Health Act of 2018) guarantees rights of persons with mental disorders: access to mental health services at all healthcare levels, informed consent for treatment, protection from stigma and discrimination, right to voluntary admission, and specific procedures and protections for involuntary admission. It also mainstreams mental health into primary care."
+    },
+    {
+      "id": 45,
+      "question": "Under the Anti-Hazing Act (RA 11053), a nurse called to treat a victim of hazing is required to:",
+      "choices": ["Not report the incident to protect the privacy of students involved", "Report the incident to the proper authorities without delay", "Obtain consent from the school administration before treating the victim", "Refer the victim only to a physician and not provide any care"],
+      "answer": "Report the incident to the proper authorities without delay",
+      "explanation": "RA 11053 (Anti-Hazing Act of 2018) mandates that healthcare providers who treat victims of hazing must REPORT the incident to the proper authorities (law enforcement, local government) without delay. Failure to report is punishable by law. Medical confidentiality does not protect hazing — it is a criminal act and victims have the right to justice."
+    },
+    {
+      "id": 46,
+      "question": "A nurse administers a medication prescribed by the physician to a patient who then has a fatal adverse reaction. Investigation reveals the nurse administered the medication correctly per the order. Under the law, the nurse's liability is:",
+      "choices": ["Full — the nurse is responsible for knowing all drug side effects", "Shared with the physician who prescribed the medication", "None — the nurse followed the physician's order correctly", "Determined solely by the hospital's internal policies"],
+      "answer": "Shared with the physician who prescribed the medication",
+      "explanation": "When a nurse follows a physician's order correctly and harm results, liability may be shared with the prescribing physician. However, the nurse is still expected to: verify the order is within safe parameters, know common drug actions and contraindications, assess for patient-specific contraindications, and question orders that appear unsafe. A nurse who follows a clearly unsafe order shares liability."
+    },
+    {
+      "id": 47,
+      "question": "The Philippine Organ Donation Act (RA 7170) allows nurses to understand that:",
+      "choices": ["Organ donation requires commercial compensation to donors", "Individuals can donate organs only after death with prior written consent or family authorization", "All deceased patients automatically donate organs unless they opted out", "Physicians alone decide who receives donated organs"],
+      "answer": "Individuals can donate organs only after death with prior written consent or family authorization",
+      "explanation": "RA 7170 (Organ Donation Act of 1991) allows: voluntary donation of organs after death through a Donor Card or advance directive, or donation authorized by the next of kin (legal priority order). No commercial sale of organs is permitted (RA 9208 prohibits trafficking). The Philippine National Transplant Center (PNTC) coordinates organ allocation."
+    },
+    {
+      "id": 48,
+      "question": "A nurse writes a nursing care plan and implements care independently without consulting the physician. The nursing diagnoses used were within the scope of nursing practice. This is:",
+      "choices": ["Illegal — all nursing actions require physician order", "Appropriate — nursing diagnoses and independent nursing interventions are within nursing scope", "A violation of RA 9173 requiring physician supervision of all care", "Malpractice unless the physician retrospectively approves the care"],
+      "answer": "Appropriate — nursing diagnoses and independent nursing interventions are within nursing scope",
+      "explanation": "Nursing diagnoses (NANDA taxonomy) address human responses to health conditions — these are within nursing's autonomous scope of practice. Independent nursing interventions (e.g., positioning, health teaching, comfort measures, communication, activity planning) do not require a physician's order. Dependent nursing interventions (medications, specific medical treatments) require physician orders."
+    },
+    {
+      "id": 49,
+      "question": "A nurse observes unethical behavior by a colleague that puts patient safety at risk. The nurse chooses to remain silent to avoid conflict. This behavior is called:",
+      "choices": ["Professional discretion", "Ethical relativism", "Moral distress or moral silence", "Non-interference — appropriate in team dynamics"],
+      "answer": "Moral distress or moral silence",
+      "explanation": "Moral distress occurs when a nurse knows the ethically right action but is prevented from taking it (institutional constraints, fear of consequences). Moral silence (choosing not to speak up despite knowing what is right) violates the Code of Ethics obligation to advocate for patient safety. Nurses must report unsafe practices through appropriate channels to protect patients."
+    },
+    {
+      "id": 50,
+      "question": "The International Council of Nurses (ICN) Code of Ethics for Nurses identifies four fundamental responsibilities of nurses. These are:",
+      "choices": ["Assess, Plan, Implement, Evaluate", "Promote health, prevent illness, restore health, and alleviate suffering", "Educate, Advocate, Collaborate, and Research", "Diagnose, Treat, Rehabilitate, and Prevent"],
+      "answer": "Promote health, prevent illness, restore health, and alleviate suffering",
+      "explanation": "The ICN Code of Ethics (2021) identifies four fundamental responsibilities of nurses: (1) Promote health, (2) Prevent illness, (3) Restore health, and (4) Alleviate suffering. These responsibilities span all settings of nursing practice and form the ethical foundation of the nursing profession globally. The ICN Code also addresses: nurses and people, nurses and practice, nurses and the profession, nurses and global health."
+    }
+  ]
+}
