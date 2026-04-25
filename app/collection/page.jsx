@@ -215,31 +215,34 @@ function CourseCollection({ course, collectibles, stats }) {
 }
 
 export default function CollectionPage() {
-  const [collectiblesMap, setCollectiblesMap] = useState({ agriculture: {}, education: {}, criminology: {}, 'medical-technology': {}, nursing: {} });
+  const [collectiblesMap, setCollectiblesMap] = useState({ agriculture: {}, education: {}, criminology: {}, 'medical-technology': {}, nursing: {}, pharmacy: {} });
   const [statsMap, setStatsMap] = useState({
     agriculture: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
     education: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
     criminology: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
     'medical-technology': { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
     nursing: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
+    pharmacy: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
   });
 
   useEffect(() => {
     async function load() {
-      const [agrC, eduC, criC, medC, nursC, agrS, eduS, criS, medS, nursS] = await Promise.all([
+      const [agrC, eduC, criC, medC, nursC, phaC, agrS, eduS, criS, medS, nursS, phaS] = await Promise.all([
         getExamCollectibles('agriculture'),
         getExamCollectibles('education'),
         getExamCollectibles('criminology'),
         getExamCollectibles('medical-technology'),
         getExamCollectibles('nursing'),
+        getExamCollectibles('pharmacy'),
         getOverallStats('agriculture'),
         getOverallStats('education'),
         getOverallStats('criminology'),
         getOverallStats('medical-technology'),
         getOverallStats('nursing'),
+        getOverallStats('pharmacy'),
       ]);
-      setCollectiblesMap({ agriculture: agrC, education: eduC, criminology: criC, 'medical-technology': medC, nursing: nursC });
-      setStatsMap({ agriculture: agrS, education: eduS, criminology: criS, 'medical-technology': medS, nursing: nursS });
+      setCollectiblesMap({ agriculture: agrC, education: eduC, criminology: criC, 'medical-technology': medC, nursing: nursC, pharmacy: phaC });
+      setStatsMap({ agriculture: agrS, education: eduS, criminology: criS, 'medical-technology': medS, nursing: nursS, pharmacy: phaS });
     }
     load();
   }, []);
