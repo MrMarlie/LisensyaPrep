@@ -351,7 +351,7 @@ export default function PharmacyLawEthicsReviewerPage() {
                   <text x="560" y="110" textAnchor="middle" fill="#93c5fd" fontSize="11" fontFamily="Arial,sans-serif">inappropriate drug therapy.</text>
                   <rect x="40" y="146" width="320" height="80" fill="#14532d" rx="8"/>
                   <text x="200" y="170" textAnchor="middle" fill="#86efac" fontSize="13" fontWeight="700" fontFamily="Arial,sans-serif">AUTONOMY</text>
-                  <text x="200" y="190" textAnchor="middle" fill="#d1fae5" fontSize="11" fontFamily="Arial,sans-serif">Respect the patient's right to make informed</text>
+                  <text x="200" y="190" textAnchor="middle" fill="#d1fae5" fontSize="11" fontFamily="Arial,sans-serif">Respect the patient&apos;s right to make informed</text>
                   <text x="200" y="206" textAnchor="middle" fill="#d1fae5" fontSize="11" fontFamily="Arial,sans-serif">decisions about their own drug therapy.</text>
                   <rect x="400" y="146" width="320" height="80" fill="#172033" rx="8"/>
                   <text x="560" y="170" textAnchor="middle" fill="#f59e0b" fontSize="13" fontWeight="700" fontFamily="Arial,sans-serif">JUSTICE</text>

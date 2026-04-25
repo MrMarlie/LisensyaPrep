@@ -246,7 +246,7 @@ export default function MicrobiologyParasitologyReviewerPage() {
                   <text x="440" y="73" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="Arial,sans-serif">Primary stain. All bacteria stain purple. Apply for 1 minute then rinse.</text>
                   <rect x="40" y="94" width="680" height="38" fill="#172033" rx="6"/>
                   <text x="120" y="110" textAnchor="middle" fill="#f59e0b" fontSize="12" fontWeight="700" fontFamily="Arial,sans-serif">STEP 2</text>
-                  <text x="120" y="124" textAnchor="middle" fill="#93c5fd" fontSize="11" fontFamily="Arial,sans-serif">Gram's Iodine</text>
+                  <text x="120" y="124" textAnchor="middle" fill="#93c5fd" fontSize="11" fontFamily="Arial,sans-serif">Gram&apos;s Iodine</text>
                   <text x="440" y="117" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="Arial,sans-serif">Mordant. Forms crystal violet-iodine complex. Fixes stain in cell wall. Apply 1 minute.</text>
                   <rect x="40" y="138" width="680" height="38" fill="#1e3a5f" rx="6"/>
                   <text x="120" y="154" textAnchor="middle" fill="#f59e0b" fontSize="12" fontWeight="700" fontFamily="Arial,sans-serif">STEP 3</text>
@@ -259,7 +259,7 @@ export default function MicrobiologyParasitologyReviewerPage() {
                   <text x="440" y="198" textAnchor="middle" fill="#d1fae5" fontSize="11" fontFamily="Arial,sans-serif">Gram-negative bacteria stain PINK or RED.</text>
                   <text x="440" y="214" textAnchor="middle" fill="#86efac" fontSize="11" fontFamily="Arial,sans-serif">Gram-positive bacteria remain PURPLE. Apply 1 minute then rinse and blot dry.</text>
                   <rect x="40" y="232" width="680" height="32" fill="#78350f" rx="6"/>
-                  <text x="380" y="248" textAnchor="middle" fill="#fcd34d" fontSize="12" fontWeight="700" fontFamily="Arial,sans-serif">MEMORY AID: "Gram-Positive Picks Purple" | "Gram-Negative Never misses Pink"</text>
+                  <text x="380" y="248" textAnchor="middle" fill="#fcd34d" fontSize="12" fontWeight="700" fontFamily="Arial,sans-serif">MEMORY AID: &quot;Gram-Positive Picks Purple&quot; | &quot;Gram-Negative Never misses Pink&quot;</text>
                   <text x="380" y="272" textAnchor="middle" fill="#475569" fontSize="10" fontFamily="Arial,sans-serif">LisensyaPrep.com | MTLE Microbiology Reviewer 2026</text>
                 </svg>
                 <figcaption style={{ textAlign: 'center', fontSize: '0.8rem', color: '#64748b', marginTop: '0.5rem' }}>Gram stain procedure step by step</figcaption>
