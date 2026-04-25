@@ -103,7 +103,7 @@ export default function HomePage() {
           <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg mx-auto">
             {[
               { value: '950+', label: 'Questions' },
-              { value: '4', label: 'Courses' },
+              { value: '5', label: 'Courses' },
               { value: '100%', label: 'Free' },
             ].map(({ value, label }) => (
               <div key={label} className="text-center">
@@ -196,8 +196,24 @@ export default function HomePage() {
             </div>
           </Link>
 
+          {/* Nursing — Active */}
+          <Link href="/nursing" className="group w-full">
+            <div className="bg-gradient-to-br from-pink-900/40 to-pink-800/20 border-2 border-pink-600/40 hover:border-pink-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-pink-500/10 text-center">
+              <div className="text-5xl mb-4">🏥</div>
+              <h3 className="text-xl font-bold text-white mb-2">Nursing</h3>
+              <p className="text-gray-400 text-sm mb-4">
+                Community Health Nursing, Medical-Surgical Nursing, and more. Full NLE coverage.
+              </p>
+              <div className="flex items-center justify-center gap-2">
+                <span className="bg-pink-500/20 text-pink-400 text-xs font-semibold px-3 py-1 rounded-full">
+                  ✓ Available Now
+                </span>
+              </div>
+            </div>
+          </Link>
+
           {/* Coming soon placeholders */}
-          {['Nursing', 'Pharmacy'].map((exam) => (
+          {['Pharmacy'].map((exam) => (
             <div key={exam} className="w-full bg-white/5 border border-white/10 rounded-2xl p-6 opacity-50 cursor-not-allowed text-center">
               <div className="text-5xl mb-4 grayscale">📋</div>
               <h3 className="text-xl font-bold text-white mb-2">{exam}</h3>
