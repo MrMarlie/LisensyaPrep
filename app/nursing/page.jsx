@@ -110,6 +110,24 @@ export default function NursingPage() {
         </div>
       </section>
 
+      {/* NLE Articles */}
+      <section className="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-extrabold text-white mb-2">NLE Study Guides</h2>
+        <p className="text-gray-400 mb-6">Deep-dive reviewers for every PNLE subject area.</p>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {[
+            { title: 'PNLE Coverage 2026', desc: 'Complete topic breakdown and exam structure', href: '/nursing/pnle-coverage-2026' },
+            { title: 'Community Health Nursing Reviewer', desc: 'DOH programs, EPI vaccines, epidemiology, family planning', href: '/nursing/community-health-nursing-reviewer' },
+            { title: 'Medical-Surgical Nursing Reviewer', desc: 'Cardiovascular, respiratory, neuro, GI, and renal nursing', href: '/nursing/medical-surgical-nursing-reviewer' },
+          ].map(({ title, desc, href }) => (
+            <a key={href} href={href} className="group bg-[#0f1629] border border-white/10 hover:border-pink-500/40 rounded-2xl p-5 transition-all">
+              <p className="text-white font-bold text-sm mb-1 group-hover:text-pink-400 transition-colors">{title}</p>
+              <p className="text-gray-500 text-xs leading-relaxed">{desc}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
       {/* Exam Info */}
       <section className="py-12 bg-[#0a1029]/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
