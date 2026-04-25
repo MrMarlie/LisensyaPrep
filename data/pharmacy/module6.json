@@ -1,0 +1,356 @@
+{
+  "module": "Module 6 - Hospital and Drug Store Pharmacy",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In hospital pharmacy, the Pharmacy and Therapeutics (P&T) Committee is responsible for:",
+      "choices": ["Setting pharmacist salaries", "Developing and maintaining the drug formulary and medication use policies", "Conducting drug manufacturing inspections", "Managing the hospital's outpatient clinic"],
+      "answer": "Developing and maintaining the drug formulary and medication use policies",
+      "explanation": "The Pharmacy and Therapeutics (P&T) Committee is a multidisciplinary committee (physicians, pharmacists, nurses, administrators) responsible for: developing and maintaining the drug formulary, approving drug use policies, evaluating new drugs, investigating medication errors, and ensuring rational drug use throughout the institution."
+    },
+    {
+      "id": 2,
+      "question": "Total Parenteral Nutrition (TPN) must be prepared in which type of environment to maintain sterility?",
+      "choices": ["Standard laboratory bench", "Clean room with laminar air flow (LAF) workbench under ISO 5 conditions", "Any air-conditioned pharmacy room", "Biologics safety cabinet (Class II)"],
+      "answer": "Clean room with laminar air flow (LAF) workbench under ISO 5 conditions",
+      "explanation": "TPN is a complex IV admixture directly infused into the bloodstream, making sterility critical. It must be prepared in a cleanroom (ISO 7 or better) using a laminar airflow workbench (ISO 5 / Class 100) or, for hazardous drugs, a biological safety cabinet. USP <797> governs sterile compounding standards."
+    },
+    {
+      "id": 3,
+      "question": "The drug distribution system known as 'floor stock' refers to:",
+      "choices": ["Individual patient-specific doses dispensed per order", "Bulk supplies of commonly used medications stored on nursing units for immediate use", "Medications dispensed via automated dispensing machines only", "Emergency crash cart medications exclusively"],
+      "answer": "Bulk supplies of commonly used medications stored on nursing units for immediate use",
+      "explanation": "Floor stock is a system where nursing units maintain a supply of commonly needed medications. Advantages: immediate availability for urgent needs. Disadvantages: increased risk of medication errors, drug diversion, waste, and poor pharmacist control. Modern hospitals combine floor stock (emergencies) with unit-dose or automated dispensing systems."
+    },
+    {
+      "id": 4,
+      "question": "An Automated Dispensing Cabinet (ADC) in a hospital pharmacy is used to:",
+      "choices": ["Prepare and sterilize IV medications automatically", "Control and document access to medications at the point of care, improving accuracy and tracking", "Compound sterile preparations", "Only store controlled substances"],
+      "answer": "Control and document access to medications at the point of care, improving accuracy and tracking",
+      "explanation": "ADCs (e.g., Pyxis, Omnicell) are computerized cabinets placed in nursing units. They require user authentication, provide medication access based on patient-specific orders, maintain a complete access log, reduce dispensing errors, improve controlled drug accountability, and integrate with pharmacy information systems."
+    },
+    {
+      "id": 5,
+      "question": "A 'stat' medication order in hospital pharmacy means:",
+      "choices": ["The medication is needed within 24 hours", "The medication is needed only when required (PRN)", "The medication is required immediately or urgently", "The medication is part of the regular daily order"],
+      "answer": "The medication is required immediately or urgently",
+      "explanation": "'STAT' (from Latin: statim = immediately) means the medication must be dispensed and administered immediately. Pharmacy standards typically require STAT medications to be dispensed within 15-30 minutes. Other order types: 'ASAP' (as soon as possible), 'routine' (within 2-4 hours), 'PRN' (as needed)."
+    },
+    {
+      "id": 6,
+      "question": "Drug incompatibility in IV admixtures can be detected by which observation?",
+      "choices": ["Change in pH of the solution", "Precipitation, color change, cloudiness, or gas formation in the IV bag or syringe", "Increased viscosity of the solution", "All of the above can indicate incompatibility"],
+      "answer": "All of the above can indicate incompatibility",
+      "explanation": "Physical incompatibilities are visible: precipitation (e.g., diazepam in normal saline), color change (oxidation of certain vitamins), cloudiness (amphotericin B mixing), or effervescence. Chemical incompatibilities may not be visible. pH change can catalyze degradation. IV compatibility references (King Guide, Trissel's) should always be consulted."
+    },
+    {
+      "id": 7,
+      "question": "The role of the clinical pharmacist in hospital practice includes all EXCEPT:",
+      "choices": ["Conducting medication reconciliation", "Performing drug use evaluations and audits", "Prescribing medications independently without physician oversight", "Providing drug information to healthcare teams"],
+      "answer": "Prescribing medications independently without physician oversight",
+      "explanation": "Clinical pharmacists in the Philippines are medication management experts who: perform medication reconciliation, monitor drug therapy, identify and resolve drug therapy problems, counsel patients, provide drug information, participate in rounds, and conduct medication reviews. Prescribing authority in the Philippines remains primarily with licensed physicians."
+    },
+    {
+      "id": 8,
+      "question": "In community pharmacy, the maximum number of refills for a Schedule IV (dangerous drug) prescription is generally:",
+      "choices": ["Unlimited refills for 1 year", "Maximum 3 refills", "Maximum 5 refills in 6 months", "No refills are permitted; a new prescription is required each time"],
+      "answer": "No refills are permitted; a new prescription is required each time",
+      "explanation": "Under Philippine dangerous drugs regulations, prescriptions for controlled substances (Schedule II/III drugs per RA 9165) typically cannot be refilled; a new prescription is required for each dispensing. This is to prevent misuse. For Schedule IV/V (maintenance medications), regulations may allow limited refills with restrictions."
+    },
+    {
+      "id": 9,
+      "question": "Pharmaceutical waste disposal must comply with regulations because:",
+      "choices": ["Expired drugs can be repackaged and resold", "Improper disposal causes environmental contamination and public health risks", "Unused drugs must be returned to manufacturers only", "All expired drugs are non-toxic"],
+      "answer": "Improper disposal causes environmental contamination and public health risks",
+      "explanation": "Pharmaceutical waste (expired drugs, unused medications, contaminated materials) must be disposed of according to RA 9275 (Philippine Clean Water Act), DENR regulations, and DOH guidelines. Methods: incineration (for hazardous), encapsulation, and licensed waste collectors. Improper disposal contaminates water supplies and soil."
+    },
+    {
+      "id": 10,
+      "question": "The 'first-in, first-out' (FIFO) principle in pharmacy inventory management means:",
+      "choices": ["The newest stock is dispensed first", "Stock with the earliest expiration date is dispensed first", "The most expensive drugs are dispensed first", "The drug with the highest demand is restocked first"],
+      "answer": "Stock with the earliest expiration date is dispensed first",
+      "explanation": "FIFO ensures that older inventory (with earlier expiry dates) is used before newer stock. When restocking, new products are placed behind existing stock. This minimizes expired drug waste and ensures patients receive medications with adequate shelf life. Critical for refrigerated items and short-shelf-life products."
+    },
+    {
+      "id": 11,
+      "question": "A 'crash cart' (emergency medicine cart) in a hospital typically contains which critical medication?",
+      "choices": ["Oral antibiotics and vitamins", "Epinephrine, atropine, amiodarone, and other cardiac emergency drugs", "Antihypertensive maintenance medications", "Nutritional supplements and IV fluids only"],
+      "answer": "Epinephrine, atropine, amiodarone, and other cardiac emergency drugs",
+      "explanation": "The crash cart (code cart) contains medications for cardiac arrest and other emergencies: epinephrine (1:10,000), atropine, amiodarone, lidocaine, adenosine, calcium chloride, sodium bicarbonate, vasopressin, and dextrose 50%. Also contains defibrillator, airway supplies, and IV equipment. Checked regularly for completeness and expiry."
+    },
+    {
+      "id": 12,
+      "question": "The BeyondUse Date (BUD) of a compounded sterile preparation is different from an expiration date because the BUD:",
+      "choices": ["Is set by the manufacturer based on stability studies", "Is assigned based on the time and conditions of compounding, not long-term stability data", "Is always longer than the expiration date", "Applies only to non-sterile preparations"],
+      "answer": "Is assigned based on the time and conditions of compounding, not long-term stability data",
+      "explanation": "BUD is the date/time after which a compounded preparation shall not be used. It is based on risk category (low, medium, high-risk sterile preparations per USP <797>) and storage conditions, not extensive stability testing. It is typically much shorter than manufacturer expiration dates. BUD protects sterility and chemical stability."
+    },
+    {
+      "id": 13,
+      "question": "The primary purpose of the Formulary Management System in a hospital is to:",
+      "choices": ["Limit all patients to a single standard treatment regardless of individual needs", "Optimize drug use through evidence-based selection, standardization, and cost management", "Allow each physician to prescribe only their preferred drugs", "Satisfy pharmaceutical company requests for product inclusion"],
+      "answer": "Optimize drug use through evidence-based selection, standardization, and cost management",
+      "explanation": "Formulary management selects the safest, most effective, and most cost-effective medications for the institution. It reduces drug variability, supports therapeutic standardization, decreases inventory costs, and promotes rational prescribing. The P&T Committee periodically reviews the formulary based on new evidence."
+    },
+    {
+      "id": 14,
+      "question": "In Philippine drug store operations, which section or area must be supervised directly by a registered pharmacist?",
+      "choices": ["The consumer goods section", "The prescription and dangerous drug dispensing area", "The cosmetics section only", "The snacks and beverages section"],
+      "answer": "The prescription and dangerous drug dispensing area",
+      "explanation": "RA 5921 requires a registered pharmacist to personally supervise all dispensing of prescription medications and controlled substances. The pharmacist must be physically present during prescription dispensing. Other areas (OTC, consumer goods) may be managed by trained staff, but the pharmacy dispensing area requires direct pharmacist supervision."
+    },
+    {
+      "id": 15,
+      "question": "Drug storage in a hospital pharmacy requires that thermolabile medications (vaccines, insulin, some biologics) be stored at:",
+      "choices": ["Room temperature (15-30°C)", "Refrigerator temperature (2-8°C)", "Freezer temperature (-20°C or below)", "Incubator temperature (37°C)"],
+      "answer": "Refrigerator temperature (2-8°C)",
+      "explanation": "Thermolabile medications must be stored in pharmaceutical refrigerators maintaining 2-8°C. Examples: vaccines (MMR, DPT, Hepatitis B), insulin, some biological products (erythropoietin, IV immunoglobulin). Freezer (-20°C): oral polio vaccine, varicella vaccine. Temperature logs and alarms are required for compliant cold chain management."
+    },
+    {
+      "id": 16,
+      "question": "Aseptic technique in IV admixture preparation includes all of the following EXCEPT:",
+      "choices": ["Wearing sterile gloves and mask", "Working in a laminar airflow workbench", "Shaking the IV bag vigorously to mix contents", "Disinfecting vial tops and ampule necks with 70% isopropyl alcohol"],
+      "answer": "Shaking the IV bag vigorously to mix contents",
+      "explanation": "Aseptic technique principles: work in ISO 5 environment, wear PPE (sterile gloves, mask, gown), disinfect all surfaces and container tops with 70% isopropyl alcohol, minimize exposure to non-sterile surfaces, do not touch critical zones. Vigorous shaking is NOT appropriate — it can introduce air bubbles and potentially cause foaming or degradation of sensitive biologics."
+    },
+    {
+      "id": 17,
+      "question": "A drug information service in a hospital pharmacy provides:",
+      "choices": ["Marketing information about new drugs to physicians", "Evidence-based, unbiased drug information to healthcare professionals and patients for clinical decision-making", "Drug sample distribution to clinical units", "Only information about generic drug substitutions"],
+      "answer": "Evidence-based, unbiased drug information to healthcare professionals and patients for clinical decision-making",
+      "explanation": "Hospital pharmacy drug information services provide accurate, current, evidence-based, unbiased drug information: drug interactions, dosing guidelines, adverse effects, therapeutic alternatives, and pharmacokinetics. Resources include: Micromedex, Lexicomp, Clinical Pharmacology, primary literature. Distinct from pharmaceutical company promotional material."
+    },
+    {
+      "id": 18,
+      "question": "The medication use process in a hospital includes which sequential steps?",
+      "choices": ["Manufacture → Prescribing → Dispensing", "Prescribing → Transcribing → Dispensing → Administering → Monitoring", "Storage → Manufacturing → Administering → Billing", "Dispensing → Prescribing → Monitoring → Transcribing"],
+      "answer": "Prescribing → Transcribing → Dispensing → Administering → Monitoring",
+      "explanation": "The medication use process: Prescribing (physician writes order) → Transcribing (pharmacist/nurse transcribes to MAR) → Dispensing (pharmacist prepares and verifies) → Administering (nurse gives medication) → Monitoring (pharmacist/nurse monitors for response and side effects). Errors can occur at any step."
+    },
+    {
+      "id": 19,
+      "question": "In drug store management, 'dead stock' refers to:",
+      "choices": ["Expired medications requiring disposal", "Slow-moving or non-moving inventory that ties up capital without generating sales", "Controlled substances that cannot be returned", "Recalled products awaiting pickup"],
+      "answer": "Slow-moving or non-moving inventory that ties up capital without generating sales",
+      "explanation": "Dead stock is inventory that does not sell or moves very slowly, tying up capital and storage space. Management strategies: identify slow-moving items, reduce order quantities, promote discounts, return to distributor if possible, avoid ordering in excess. ABC analysis categorizes drugs by sales volume and value to optimize inventory."
+    },
+    {
+      "id": 20,
+      "question": "Therapeutic Drug Monitoring (TDM) involves measuring drug plasma levels to:",
+      "choices": ["Determine whether the patient is taking their medication", "Optimize drug therapy by ensuring levels are in the therapeutic range, especially for NTI drugs", "Check for drug abuse", "Determine drug formulation quality"],
+      "answer": "Optimize drug therapy by ensuring levels are in the therapeutic range, especially for NTI drugs",
+      "explanation": "TDM measures drug plasma concentrations to individualize dosing. Critical for narrow therapeutic index drugs: digoxin, phenytoin, lithium, vancomycin, aminoglycosides, cyclosporine, theophylline. Samples are timed precisely (trough, peak) relative to dosing. The clinical pharmacist interprets results and recommends dose adjustments."
+    },
+    {
+      "id": 21,
+      "question": "A 'Type A' drug reaction (adverse drug reaction) is characterized as:",
+      "choices": ["Idiosyncratic, unpredictable, not dose-related", "Augmented pharmacological effects, predictable, dose-related, and the most common type", "Delayed hypersensitivity reactions", "Drug withdrawal reactions"],
+      "answer": "Augmented pharmacological effects, predictable, dose-related, and the most common type",
+      "explanation": "Type A (Augmented) reactions are exaggerated but predictable pharmacological effects. They are dose-dependent, common (account for ~80% of ADRs), and manageable by dose reduction. Examples: hypoglycemia from insulin, bleeding from warfarin, constipation from opioids. Type B (Bizarre) reactions are idiosyncratic and unpredictable (e.g., penicillin anaphylaxis)."
+    },
+    {
+      "id": 22,
+      "question": "The purpose of 'batch manufacturing records' in pharmaceutical manufacturing is to:",
+      "choices": ["Track sales data for marketing purposes", "Document all production steps, materials, and quality tests for each batch to ensure reproducibility and traceability", "Record employee work hours", "Calculate manufacturing costs only"],
+      "answer": "Document all production steps, materials, and quality tests for each batch to ensure reproducibility and traceability",
+      "explanation": "Batch Manufacturing Records (BMRs) document every step in producing a pharmaceutical batch: raw materials used, quantities, equipment, processing parameters, in-process tests, yields, and QC release data. They ensure GMP compliance, allow batch traceability, support product recalls, and are legally required for all pharmaceutical products."
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is a key function of the hospital pharmacy's drug information center?",
+      "choices": ["Advertising new drugs to patients", "Providing evidence-based responses to drug information queries from healthcare providers", "Selling prescription medications directly to patients", "Managing hospital finances"],
+      "answer": "Providing evidence-based responses to drug information queries from healthcare providers",
+      "explanation": "Hospital drug information centers respond to queries from physicians, nurses, and other healthcare professionals regarding: drug dosing, interactions, adverse effects, pharmacokinetics, therapeutic alternatives, and clinical guidelines. They use tertiary (Micromedex), secondary (PubMed), and primary (original research) literature to provide unbiased, evidence-based responses."
+    },
+    {
+      "id": 24,
+      "question": "In a community pharmacy setting, 'patient counseling' for a newly dispensed prescription should include at minimum:",
+      "choices": ["Only the drug's brand name and price", "Drug name, indication, dosage, administration instructions, common side effects, storage, and when to contact a doctor", "Only the administration route", "A full pharmacology lecture on the drug's mechanism"],
+      "answer": "Drug name, indication, dosage, administration instructions, common side effects, storage, and when to contact a doctor",
+      "explanation": "Comprehensive patient counseling per Good Pharmacy Practice includes: drug name (brand and generic), indication, dose and schedule, route of administration, what to do if a dose is missed, common/important side effects, drug-food/drug-drug interactions, storage instructions, and warning signs requiring medical attention."
+    },
+    {
+      "id": 25,
+      "question": "Centralized IV admixture preparation in hospital pharmacy is preferred over ward-level preparation because it provides:",
+      "choices": ["Faster preparation times", "Greater sterility assurance, pharmacist oversight, standardization, and cost control", "Less documentation requirements", "More convenient access for nurses"],
+      "answer": "Greater sterility assurance, pharmacist oversight, standardization, and cost control",
+      "explanation": "Centralized IV admixture preparation (CIVA) in the hospital pharmacy ensures: sterility through cleanroom/LAF workbench preparation, pharmacist verification of orders, standardized concentrations, waste reduction, cost savings, and pharmacokinetic monitoring. Ward-level preparation carries higher contamination risk and is less efficiently controlled."
+    },
+    {
+      "id": 26,
+      "question": "Good Distribution Practice (GDP) for pharmaceutical products requires that during transportation, drugs must be:",
+      "choices": ["Transported at any available temperature to reduce cost", "Protected from temperature excursions, contamination, damage, and unauthorized access", "Transported only by licensed pharmacists", "Delivered directly by the manufacturer to patients"],
+      "answer": "Protected from temperature excursions, contamination, damage, and unauthorized access",
+      "explanation": "GDP guidelines (WHO, ICH) require that pharmaceutical distribution maintains drug quality by: maintaining required temperature ranges (cold chain for thermolabile products), protecting from contamination and physical damage, ensuring proper labeling and documentation, and preventing diversion or theft. Temperature monitoring during transport is mandatory."
+    },
+    {
+      "id": 27,
+      "question": "An 'on-call' pharmacist in a hospital is responsible for:",
+      "choices": ["Handling all administrative duties during business hours", "Responding to urgent pharmacy service needs after hours, including emergency drug dispensing and IV preparation", "Conducting staff performance reviews", "Ordering new pharmaceutical products only"],
+      "answer": "Responding to urgent pharmacy service needs after hours, including emergency drug dispensing and IV preparation",
+      "explanation": "On-call pharmacists ensure 24-hour pharmacy coverage for emergencies. Responsibilities include: dispensing urgent medications, preparing IV admixtures for unstable patients, providing drug information for emergency situations, managing code cart medications, and addressing after-hours controlled substance requirements."
+    },
+    {
+      "id": 28,
+      "question": "The 'turn-over rate' in drug store inventory management measures:",
+      "choices": ["The number of customers served per day", "How many times the average inventory is sold and replaced over a specific period", "The percentage of expired products", "Annual revenue from prescription sales"],
+      "answer": "How many times the average inventory is sold and replaced over a specific period",
+      "explanation": "Inventory turnover rate = Cost of Goods Sold / Average Inventory Value. A higher turnover rate means faster-moving stock (more efficient inventory, less capital tied up). Target turnover rates vary but typically 6-12 times per year for a community pharmacy. Slow turnover leads to expiry losses and cash flow problems."
+    },
+    {
+      "id": 29,
+      "question": "Drug recall in the Philippines is coordinated by the FDA and may be classified as Class I, II, or III. A Class I recall involves:",
+      "choices": ["A minor labeling defect with no safety concern", "A product that is unlikely to cause adverse health consequences", "A product where there is reasonable probability of causing serious health consequences or death"],
+      "answer": "A product where there is reasonable probability of causing serious health consequences or death",
+      "explanation": "Class I recall: most serious — product causes or has reasonable probability of causing serious adverse health consequences or death (e.g., contaminated injectable with lethal bacteria). Class II: product may cause temporary adverse health consequences, or remote probability of serious harm. Class III: unlikely to cause health harm (minor defect)."
+    },
+    {
+      "id": 30,
+      "question": "In compounding, the difference between 'compounding' and 'manufacturing' is that compounding is:",
+      "choices": ["Identical to large-scale manufacturing processes", "Preparing individualized or small quantities of drug products for specific patient needs based on a valid prescription", "Restricted to hospital inpatient use only", "Only done by pharmaceutical companies"],
+      "answer": "Preparing individualized or small quantities of drug products for specific patient needs based on a valid prescription",
+      "explanation": "Compounding prepares customized medications for individual patients per a valid prescription when commercially available products are unavailable or unsuitable (e.g., pediatric suspensions, topical preparations, allergen-free formulations). Manufacturing produces large commercial batches. Compounding is regulated differently from manufacturing."
+    },
+    {
+      "id": 31,
+      "question": "The 'double-check' procedure for high-alert medications in hospitals requires:",
+      "choices": ["The same pharmacist reviewing the order twice", "Two independent healthcare professionals each separately verifying the drug, dose, route, and patient before administration", "The nurse to check the drug price twice", "Verification by two pharmacists only"],
+      "answer": "Two independent healthcare professionals each separately verifying the drug, dose, route, and patient before administration",
+      "explanation": "Independent double-check: two separate qualified professionals (e.g., pharmacist + nurse, or two pharmacists) independently verify all critical elements (right patient, drug, dose, concentration, rate, route) before preparing or administering a high-alert medication. Required for: chemotherapy, insulin, anticoagulants, concentrated electrolytes."
+    },
+    {
+      "id": 32,
+      "question": "Which IV fluid is an isotonic crystalloid used as a maintenance fluid for most patients?",
+      "choices": ["50% Dextrose in Water (D50W)", "0.9% Sodium Chloride (Normal Saline)", "3% Sodium Chloride (Hypertonic Saline)", "Sterile Water for Injection"],
+      "answer": "0.9% Sodium Chloride (Normal Saline)",
+      "explanation": "0.9% NaCl (Normal Saline, NS) is isotonic (~308 mOsmol/L) and is the most widely used IV fluid for volume replacement, drug dilution, and medication administration. 0.45% NaCl is hypotonic (half-normal saline). Lactated Ringer's is also isotonic. D50W is used for hypoglycemia emergencies."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is NOT a component of a community pharmacy's required display or posting?",
+      "choices": ["Certificate of Registration from FDA", "Pharmacist's license displayed in a conspicuous place", "Price list of prescription medications", "The pharmacist's medical diagnosis records"],
+      "answer": "The pharmacist's medical diagnosis records",
+      "explanation": "Philippine regulations require drug stores to display: FDA Certificate of Registration, pharmacist's PRC license, business permit, and price lists of prescription/OTC drugs (per FDA price monitoring). The pharmacist's personal medical records are private and not required to be displayed or disclosed."
+    },
+    {
+      "id": 34,
+      "question": "Enteral nutrition (tube feeding) in hospital pharmacy management refers to:",
+      "choices": ["IV nutrition administration directly into the bloodstream", "Nutritional support delivered through the gastrointestinal tract via feeding tubes", "Oral nutritional supplements for alert patients", "Only amino acid solutions for surgery patients"],
+      "answer": "Nutritional support delivered through the gastrointestinal tract via feeding tubes",
+      "explanation": "Enteral nutrition (EN) delivers nutrients via the GI tract through tubes (nasogastric, nasoenteric, gastrostomy, jejunostomy). It is preferred over TPN when the GI tract is functional ('if the gut works, use it'). Benefits: maintains gut integrity, lower cost, fewer infections. Hospital pharmacists select formulas, calculate needs, and monitor."
+    },
+    {
+      "id": 35,
+      "question": "A pharmacist notices a drug has been stored at incorrect temperature for an unknown period. The appropriate action is to:",
+      "choices": ["Continue dispensing as normal since the drug looks unchanged", "Quarantine the product, document the incident, and contact the manufacturer or quality assurance for guidance", "Discard the drug immediately and reorder without documentation", "Lower the price of the potentially compromised medication"],
+      "answer": "Quarantine the product, document the incident, and contact the manufacturer or quality assurance for guidance",
+      "explanation": "Temperature excursions require quarantine of the affected product, documentation (batch numbers, duration of excursion, temperature data), and consultation with the manufacturer or QA team. The manufacturer can advise whether the product is still usable based on stability data. This prevents dispensing of potentially compromised products."
+    },
+    {
+      "id": 36,
+      "question": "The 'par level' in pharmacy inventory management is:",
+      "choices": ["The maximum amount of a drug that can be stored", "The minimum quantity of a drug that must be maintained in stock before reordering", "The average selling price of a drug", "The maximum retail price allowed by law"],
+      "answer": "The minimum quantity of a drug that must be maintained in stock before reordering",
+      "explanation": "Par level is the minimum acceptable stock level that triggers a reorder. When inventory reaches par level, a purchase order is generated. Setting appropriate par levels prevents stockouts while avoiding excess inventory. Par levels account for usage rates, lead time, and safety stock. ABC analysis helps prioritize which items need close monitoring."
+    },
+    {
+      "id": 37,
+      "question": "Hazardous drugs (antineoplastics, some antivirals) require special handling because they:",
+      "choices": ["Are more expensive than standard medications", "Can cause cancer, reproductive toxicity, organ damage, or other serious effects in healthcare workers with occupational exposure", "Have a narrow therapeutic index", "Must only be dispensed in hospital settings"],
+      "answer": "Can cause cancer, reproductive toxicity, organ damage, or other serious effects in healthcare workers with occupational exposure",
+      "explanation": "NIOSH-listed hazardous drugs (chemotherapy agents, some antivirals, immunosuppressants, hormones) require: preparation in a Class II BSC/CACI (not standard LAF), PPE (double gloves, gown, face shield), closed-system drug transfer devices, proper waste disposal, and staff training. Exposure can cause carcinogenicity, mutagenicity, and teratogenicity."
+    },
+    {
+      "id": 38,
+      "question": "The 'economic order quantity' (EOQ) formula in pharmacy management helps determine:",
+      "choices": ["The maximum profit from drug sales", "The optimal order quantity that minimizes total inventory costs (ordering + holding costs)", "The discount available from bulk purchasing", "The number of staff needed in a pharmacy"],
+      "answer": "The optimal order quantity that minimizes total inventory costs (ordering + holding costs)",
+      "explanation": "EOQ = √(2DS/H) where D = annual demand, S = ordering cost per order, H = holding cost per unit per year. It balances ordering costs (cost per order × number of orders) against holding costs (storage, refrigeration, capital tied up). Too small an order = too many orders; too large = high holding costs."
+    },
+    {
+      "id": 39,
+      "question": "Parenteral nutrition is indicated for patients who:",
+      "choices": ["Prefer IV over oral medications", "Cannot tolerate enteral feeding due to non-functioning GI tract, or require supplemental nutrition when enteral nutrition is insufficient", "Need only short-term hydration", "Have mild nausea from oral medications"],
+      "answer": "Cannot tolerate enteral feeding due to non-functioning GI tract, or require supplemental nutrition when enteral nutrition is insufficient",
+      "explanation": "TPN indications: short bowel syndrome, bowel obstruction, severe malabsorption, intractable vomiting/diarrhea, prolonged ileus, and when enteral access is impossible. Peripheral parenteral nutrition (PPN) is used for short-term when central access is unavailable. TPN via central venous catheter provides complete nutrition support."
+    },
+    {
+      "id": 40,
+      "question": "Cold chain management in a drugstore requires temperature monitoring because:",
+      "choices": ["FDA requires temperature logs only for controlled substances", "Temperature excursions can destroy vaccine potency and degrade heat-sensitive biologics irreversibly", "Cold storage is a marketing requirement for premium products", "All medications degrade at room temperature"],
+      "answer": "Temperature excursions can destroy vaccine potency and degrade heat-sensitive biologics irreversibly",
+      "explanation": "Many vaccines (inactivated and live attenuated), insulin, biologics (monoclonal antibodies, erythropoietin), and some IV preparations require 2-8°C storage. Freezing destroys some vaccines (Hep B, DPT) and insulin crystalline structure. Overheating denatures proteins and degrades heat-labile drugs. Daily temperature logs are required; alarms alert to excursions."
+    },
+    {
+      "id": 41,
+      "question": "In the context of medication safety, 'root cause analysis' (RCA) is performed after a medication error to:",
+      "choices": ["Identify and punish the individual who made the error", "Identify the underlying system factors contributing to the error and develop system-wide solutions", "Document the error for insurance purposes only", "Determine financial compensation for the patient"],
+      "answer": "Identify the underlying system factors contributing to the error and develop system-wide solutions",
+      "explanation": "RCA is a structured process to identify WHY an error occurred, looking beyond individual blame to systemic causes (communication failures, unclear labeling, inadequate training, workflow issues). The goal is to improve systems to prevent recurrence. Blame-based cultures discourage error reporting; safety cultures use RCA constructively."
+    },
+    {
+      "id": 42,
+      "question": "A community pharmacy with sales of controlled drugs must maintain a Dangerous Drug Register (DDR) that records:",
+      "choices": ["All drug sales regardless of schedule", "Only purchases and not dispensing of dangerous drugs", "Each transaction involving dangerous drugs: receipt, dispensing, balance on hand, and prescriber details", "Monthly aggregate sales only"],
+      "answer": "Each transaction involving dangerous drugs: receipt, dispensing, balance on hand, and prescriber details",
+      "explanation": "Under RA 9165 regulations, the Dangerous Drug Register (DDR) must record: date, quantity received/dispensed, prescriber name and license number, patient name, current balance. The DDR must balance the actual physical inventory. It is subject to inspection by PDEA. Discrepancies must be immediately reported."
+    },
+    {
+      "id": 43,
+      "question": "Which service is typically offered by a medication therapy management (MTM) pharmacy service?",
+      "choices": ["Filing insurance claims on behalf of patients", "Comprehensive Medication Review (CMR) to identify, resolve, and prevent drug therapy problems", "Free home delivery of all medications", "Compounding all patient medications"],
+      "answer": "Comprehensive Medication Review (CMR) to identify, resolve, and prevent drug therapy problems",
+      "explanation": "MTM services include: Comprehensive Medication Review (face-to-face or telephonic review of all medications), Targeted Medication Review (for specific conditions), medication-related action plan, intervention and referral, documentation and follow-up. Aims to optimize drug therapy outcomes, especially in elderly patients with complex medication regimens."
+    },
+    {
+      "id": 44,
+      "question": "The role of a clinical pharmacist during hospital 'rounds' (patient ward rounds) is to:",
+      "choices": ["Perform physical examination and diagnose patients", "Review medication orders, identify drug therapy problems, recommend optimizations, and monitor patient response to therapy", "Assist nurses with patient transfer", "Manage patient bed assignments"],
+      "answer": "Review medication orders, identify drug therapy problems, recommend optimizations, and monitor patient response to therapy",
+      "explanation": "During multidisciplinary ward rounds, clinical pharmacists: review all medications for appropriateness, dosing, interactions, and duplications; monitor drug efficacy and toxicity using lab values and clinical signs; recommend dose adjustments (renal/hepatic impairment); suggest therapeutic alternatives; provide drug information; and document pharmaceutical care interventions."
+    },
+    {
+      "id": 45,
+      "question": "When a patient is discharged from the hospital, the clinical pharmacist's role in discharge planning includes:",
+      "choices": ["Handling the financial billing", "Providing comprehensive discharge medication counseling and reconciling discharge medications with pre-admission medications", "Scheduling follow-up physician appointments only", "Preparing the discharge summary exclusively"],
+      "answer": "Providing comprehensive discharge medication counseling and reconciling discharge medications with pre-admission medications",
+      "explanation": "Discharge medication reconciliation ensures a complete, accurate medication list is communicated. Discharge counseling: explains new medications, discontinued medications, dose changes, administration instructions, monitoring parameters, and when to call the doctor. Prevents medication errors at care transitions, which are a leading cause of readmissions."
+    },
+    {
+      "id": 46,
+      "question": "In a hospital's antibiotic stewardship program, the clinical pharmacist helps to:",
+      "choices": ["Promote unrestricted antibiotic use for all infections", "Optimize antibiotic selection, dose, duration, and route to improve outcomes and reduce resistance", "Maintain a large floor stock of all antibiotics", "Ensure the hospital purchases the cheapest available antibiotics"],
+      "answer": "Optimize antibiotic selection, dose, duration, and route to improve outcomes and reduce resistance",
+      "explanation": "Antibiotic stewardship programs (ASPs) aim to: ensure appropriate antibiotic selection based on culture/sensitivity data, optimize PK/PD dosing, streamline/de-escalate therapy, minimize unnecessary treatment duration, and prevent Clostridioides difficile infections. Clinical pharmacists are core ASP team members who review antibiotic orders and make recommendations."
+    },
+    {
+      "id": 47,
+      "question": "The use of 'tall man' lettering for LASA drug names (e.g., hydrOXYzine vs. hydrALAzine) is a patient safety strategy to:",
+      "choices": ["Indicate the brand name of the drug", "Visually differentiate similar drug names to reduce look-alike/sound-alike medication errors", "Indicate the drug's potency level", "Show the route of administration"],
+      "answer": "Visually differentiate similar drug names to reduce look-alike/sound-alike medication errors",
+      "explanation": "Tall man lettering (mixed case) highlights the dissimilar portions of LASA drug name pairs to draw attention to the differences. Recommended by ISMP and FDA. Examples: DOPamine vs. DOBUTamine; predniSONE vs. predniSOLONE; metFORMIN vs. metronidaZOLE. Used on labels, medication administration records, and pharmacy shelving."
+    },
+    {
+      "id": 48,
+      "question": "In hospital pharmacy, 'IV push' administration means the drug is:",
+      "choices": ["Administered over 15-60 minutes via IV infusion", "Given as a rapid bolus injection over 1-5 minutes directly into the IV line", "Given intramuscularly with a push motion", "Added to a large-volume IV bag for continuous infusion"],
+      "answer": "Given as a rapid bolus injection over 1-5 minutes directly into the IV line",
+      "explanation": "IV push (IVP) or bolus: injects a small volume (usually ≤10 mL) directly into the IV line over 1-5 minutes (some over 30 seconds). Achieves rapid peak concentrations. Used for emergency drugs, furosemide, ondansetron. Must be given at the correct rate — some drugs cause cardiac arrest if given too rapidly (e.g., adenosine: very rapid; vancomycin: must be slow infusion, not IVP)."
+    },
+    {
+      "id": 49,
+      "question": "Community pharmacy operations require a pharmacy to obtain from the FDA Philippines:",
+      "choices": ["Only a business permit from the local government unit", "A License to Operate (LTO) from FDA in addition to local business permits", "Only a certification from the Philippine Pharmacists Association", "No federal license if the pharmacist holds a valid PRC license"],
+      "answer": "A License to Operate (LTO) from FDA in addition to local business permits",
+      "explanation": "All pharmaceutical establishments (drugstores, hospital pharmacies, drug manufacturers, distributors) must obtain an FDA License to Operate (LTO) annually. The LTO certifies that the establishment complies with Good Distribution Practice/Good Pharmacy Practice standards. LTO is separate from the pharmacist's PRC license and local business permits."
+    },
+    {
+      "id": 50,
+      "question": "In a hospital, which committee is responsible for investigating and developing policies to prevent medication errors?",
+      "choices": ["Medical Executive Committee", "Pharmacy and Therapeutics (P&T) Committee", "Finance and Budget Committee", "Medical Records Committee"],
+      "answer": "Pharmacy and Therapeutics (P&T) Committee",
+      "explanation": "The P&T Committee (also called Pharmacy and Therapeutics or Drug Policy Committee) oversees all aspects of medication use, including: medication error investigation and prevention, high-alert medication policies, LASA drug management, formulary decisions, adverse drug event reporting, and antibiotic stewardship. It is multidisciplinary (physicians, pharmacists, nurses, administrators)."
+    }
+  ]
+}

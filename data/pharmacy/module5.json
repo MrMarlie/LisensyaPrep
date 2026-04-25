@@ -1,0 +1,356 @@
+{
+  "module": "Module 5 - Pharmacy Practice and Laws",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Republic Act 5921, the Pharmacy Act of the Philippines, primarily governs:",
+      "choices": ["The manufacturing of pharmaceutical products", "The practice of pharmacy profession and the opening of drug establishments", "The pricing of medicines in the Philippines", "The importation of drugs and medicines"],
+      "answer": "The practice of pharmacy profession and the opening of drug establishments",
+      "explanation": "RA 5921 (Pharmacy Act, 1969) regulates the practice of pharmacy in the Philippines, including licensure of pharmacists, and governs the establishment and operation of drugstores, hospital pharmacies, and other pharmaceutical facilities. It defines who may practice pharmacy and the conditions for opening drug establishments."
+    },
+    {
+      "id": 2,
+      "question": "Under RA 9165 (Comprehensive Dangerous Drugs Act of 2002), which schedule includes heroin, methamphetamine hydrochloride (shabu), and MDMA (ecstasy)?",
+      "choices": ["Schedule II", "Schedule III", "Schedule IV", "Schedule V"],
+      "answer": "Schedule II",
+      "explanation": "RA 9165 uses the international drug schedules. Schedule II controlled substances (also called 'dangerous drugs' in Philippine law) have high abuse potential with limited medical use: heroin, methamphetamine, MDMA, cocaine. Schedule III has lower potential for abuse; Schedule IV and V have accepted medical uses."
+    },
+    {
+      "id": 3,
+      "question": "In Philippine pharmacy practice, a patient medication record (PMR) is maintained primarily to:",
+      "choices": ["Satisfy billing requirements only", "Identify drug interactions, allergies, duplications, and improve pharmaceutical care", "Comply with advertising regulations", "Calculate dispensing fees"],
+      "answer": "Identify drug interactions, allergies, duplications, and improve pharmaceutical care",
+      "explanation": "Patient Medication Records document all dispensed medications, allergies, adverse drug reactions, and medical conditions. They enable the pharmacist to screen for drug-drug interactions, drug-disease contraindications, duplicate therapy, and provide counseling. They are the foundation of patient-centered pharmaceutical care."
+    },
+    {
+      "id": 4,
+      "question": "The 'OBRA-90' equivalent in Philippine pharmacy practice requires pharmacists to:",
+      "choices": ["Dispense only generic drugs", "Perform patient counseling and offer drug use review for all new prescriptions", "Prepare all IV admixtures in hospital", "Maintain controlled substance logs only"],
+      "answer": "Perform patient counseling and offer drug use review for all new prescriptions",
+      "explanation": "Philippine pharmaceutical care guidelines, similar to OBRA-90, require pharmacists to perform prospective drug utilization review (DUR) — checking for potential problems — and to offer counseling to patients on their medications. This includes drug name, indication, dosage, side effects, interactions, and storage."
+    },
+    {
+      "id": 5,
+      "question": "Under RA 6675 (Generics Act of 1988), prescriptions in the Philippines must include:",
+      "choices": ["Only the brand name", "The generic name written prominently", "Both brand and generic names in equal prominence", "Only the International Nonproprietary Name (INN) with no brand name allowed"],
+      "answer": "The generic name written prominently",
+      "explanation": "RA 6675 mandates that prescriptions use generic drug names prominently. The brand name may be indicated as well. The law aims to promote accessibility to affordable medicines. All drug labels must display the generic name. Pharmacists may substitute with generics unless prescribers indicate 'no substitution.'"
+    },
+    {
+      "id": 6,
+      "question": "A valid prescription in the Philippines for a controlled dangerous substance must include all of the following EXCEPT:",
+      "choices": ["Patient's name and address", "Drug name, dose, and quantity", "Prescriber's professional tax receipt (PTR) and PRC license number", "Price of the medication"],
+      "answer": "Price of the medication",
+      "explanation": "A valid Philippine prescription must include: patient name and address, date, drug name and form, dose, quantity, directions for use, prescriber's name, signature, and PRC license and PTR numbers. The price is NOT a required element of a prescription."
+    },
+    {
+      "id": 7,
+      "question": "The regulatory body responsible for ensuring the quality, safety, and efficacy of pharmaceutical products in the Philippines is the:",
+      "choices": ["Department of Health (DOH)", "Food and Drug Administration (FDA Philippines)", "Philippine Pharmacists Association (PPhA)", "Bureau of Internal Revenue (BIR)"],
+      "answer": "Food and Drug Administration (FDA Philippines)",
+      "explanation": "The FDA Philippines (formerly BFAD — Bureau of Food and Drugs) under the DOH is the lead regulatory agency for food, drugs, cosmetics, household hazardous substances, and medical devices. It issues Certificates of Product Registration (CPR) and licenses to drugstores and manufacturers."
+    },
+    {
+      "id": 8,
+      "question": "Which ethical principle requires healthcare providers to 'do no harm' to patients?",
+      "choices": ["Autonomy", "Beneficence", "Non-maleficence", "Justice"],
+      "answer": "Non-maleficence",
+      "explanation": "Non-maleficence is the principle of 'do no harm' (primum non nocere). It requires pharmacists to avoid actions that harm patients (e.g., dispensing known allergens, dangerous drug interactions). Beneficence is acting for the patient's benefit. Autonomy is respecting the patient's right to decide. Justice is fair distribution of care."
+    },
+    {
+      "id": 9,
+      "question": "In the Philippines, the retail sale of prescription medicines without a valid prescription is:",
+      "choices": ["Allowed for pharmacists with proper documentation", "Allowed in rural areas without nearby physicians", "Prohibited by law under RA 5921 and FDA regulations", "Allowed only for common antibiotics"],
+      "answer": "Prohibited by law under RA 5921 and FDA regulations",
+      "explanation": "Prescription-only medicines (Rx drugs) legally require a valid prescription from a licensed prescriber before dispensing. Selling prescription drugs over-the-counter is a violation of RA 5921 and FDA regulations. Unfortunately, implementation has historically been inconsistent in the Philippines, a major public health concern."
+    },
+    {
+      "id": 10,
+      "question": "The Universal Health Care Act (RA 11223) in the Philippines aims to:",
+      "choices": ["Eliminate all out-of-pocket payments for medicines", "Provide all Filipinos with equitable access to quality health services without financial hardship", "Restrict pharmacy services to government hospitals only", "Standardize all drug prices nationally"],
+      "answer": "Provide all Filipinos with equitable access to quality health services without financial hardship",
+      "explanation": "RA 11223 (Universal Health Care Act, 2019) automatically enrolls all Filipinos in PhilHealth and provides a comprehensive health benefits package. Its goal is to achieve universal health coverage — ensuring all Filipinos can access quality health services without financial catastrophe."
+    },
+    {
+      "id": 11,
+      "question": "Drug use review (DUR) in a pharmacy setting is classified as prospective when it is performed:",
+      "choices": ["After the medication has been dispensed and used", "While reviewing patterns in a patient population", "Before dispensing, checking for potential drug therapy problems", "During a medication administration error review"],
+      "answer": "Before dispensing, checking for potential drug therapy problems",
+      "explanation": "Prospective DUR occurs BEFORE dispensing — screening prescriptions for drug interactions, contraindications, duplicate therapy, and inappropriate doses. Retrospective DUR analyzes dispensing records after the fact to identify patterns. Concurrent DUR occurs while the patient is being treated (hospital setting)."
+    },
+    {
+      "id": 12,
+      "question": "The Maximum Retail Price (MRP) policy for essential medicines in the Philippines was implemented through:",
+      "choices": ["RA 9502 (Universally Accessible and Cheaper Medicines Act)", "RA 5921 (Pharmacy Act)", "RA 8203 (Special Drug Education Center Act)", "RA 6675 (Generics Act)"],
+      "answer": "RA 9502 (Universally Accessible and Cheaper Medicines Act)",
+      "explanation": "RA 9502 (Cheaper Medicines Act, 2008) amended the Generics Act and IP Code to allow parallel importation of drugs and the price ceiling (MRP) policy on essential medicines. The President may impose MRP on drugs during a public health emergency. It also compulsory licenses."
+    },
+    {
+      "id": 13,
+      "question": "Pharmaceutical care is defined as the responsible provision of drug therapy for the purpose of:",
+      "choices": ["Maximizing pharmacist revenue from drug sales", "Achieving definite outcomes that improve a patient's quality of life", "Ensuring all patients receive the cheapest available medications", "Managing only inpatient drug therapy"],
+      "answer": "Achieving definite outcomes that improve a patient's quality of life",
+      "explanation": "Hepler and Strand (1990) defined pharmaceutical care as 'the responsible provision of drug therapy for the purpose of achieving definite outcomes that improve a patient's quality of life.' It involves identifying, resolving, and preventing drug therapy problems in collaboration with the patient and healthcare team."
+    },
+    {
+      "id": 14,
+      "question": "Under Philippine law, who may legally prescribe dangerous drugs (e.g., opioids) for legitimate medical purposes?",
+      "choices": ["Any registered pharmacist", "Licensed physicians, dentists, and veterinarians with valid S2 license", "Any healthcare worker with a PRC ID", "Only government-employed physicians"],
+      "answer": "Licensed physicians, dentists, and veterinarians with valid S2 license",
+      "explanation": "RA 9165 requires prescribers of dangerous drugs (opioids, benzodiazepines, etc.) to have a Special Dangerous Drugs License (S2 License) from the Philippine Drug Enforcement Agency (PDEA) in addition to their PRC professional license. Non-S2 prescribers cannot legally prescribe Schedule II substances."
+    },
+    {
+      "id": 15,
+      "question": "The concept of 'informed consent' in pharmacy practice means:",
+      "choices": ["The pharmacist must obtain written agreement from all patients before dispensing", "Patients have the right to receive adequate information about their medications to make voluntary decisions", "Doctors must explain all side effects before prescribing", "Insurance companies must approve all medications"],
+      "answer": "Patients have the right to receive adequate information about their medications to make voluntary decisions",
+      "explanation": "Informed consent encompasses the patient's right to receive sufficient, comprehensible information about their drug therapy (benefits, risks, alternatives) to make a voluntary, autonomous decision. In pharmacy, this is expressed through comprehensive patient counseling. Related to the bioethical principle of autonomy."
+    },
+    {
+      "id": 16,
+      "question": "A pharmacist discovers a possible medication error in a prescription (e.g., a 10-fold overdose). The most appropriate action is to:",
+      "choices": ["Dispense the medication as prescribed — the physician is responsible", "Contact the prescriber to clarify and correct the prescription before dispensing", "Refuse to fill the prescription without explanation", "Fill the prescription but warn the patient to take only half"],
+      "answer": "Contact the prescriber to clarify and correct the prescription before dispensing",
+      "explanation": "The pharmacist has a professional and ethical duty to verify potentially dangerous prescriptions. Contacting the prescriber before dispensing protects the patient. The pharmacist is the last line of defense against medication errors. This reflects the pharmaceutical care principle of identifying and resolving drug therapy problems."
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is an example of a drug therapy problem that a pharmacist should identify?",
+      "choices": ["The patient purchased a product at a competitor's pharmacy", "The patient is taking an antibiotic without an indication (unnecessary drug therapy)", "The patient prefers a specific brand name product", "The patient is paying by cash instead of insurance"],
+      "answer": "The patient is taking an antibiotic without an indication (unnecessary drug therapy)",
+      "explanation": "Cipolle, Strand, and Morley identified seven drug therapy problems: unnecessary drug therapy, needs additional drug therapy, wrong drug, too low/high dose, adverse drug reaction, drug interaction, and non-compliance/adherence issues. Prescribing an antibiotic without an indication is 'unnecessary drug therapy.'"
+    },
+    {
+      "id": 18,
+      "question": "The Philippine FDA requires a Certificate of Product Registration (CPR) for:",
+      "choices": ["Pharmacy personnel only", "All drug products sold in the Philippines before market authorization", "Only imported pharmaceutical products", "Dietary supplements but not prescription drugs"],
+      "answer": "All drug products sold in the Philippines before market authorization",
+      "explanation": "All drug products (prescription, OTC, food, cosmetics, medical devices) must obtain a Certificate of Product Registration (CPR) from the FDA Philippines before they can be marketed. The CPR certifies that the product has been evaluated for safety, efficacy, and quality."
+    },
+    {
+      "id": 19,
+      "question": "The concept of 'therapeutic substitution' differs from 'generic substitution' in that therapeutic substitution involves:",
+      "choices": ["Substituting a lower-priced generic for a branded drug with the same active ingredient", "Substituting a different drug from the same pharmacological class", "Dispensing a smaller quantity than prescribed", "Changing the dosage form as ordered"],
+      "answer": "Substituting a different drug from the same pharmacological class",
+      "explanation": "Generic substitution: same active ingredient (bioequivalent generic for brand). Therapeutic substitution: different drug but same therapeutic class (e.g., replacing enalapril with lisinopril). Therapeutic substitution requires clinical judgment and prescriber authorization. Generic substitution is routinely allowed under the Generics Act."
+    },
+    {
+      "id": 20,
+      "question": "Adverse drug reaction (ADR) reporting in the Philippines is coordinated through the:",
+      "choices": ["Bureau of Customs", "Philippine Drug Enforcement Agency (PDEA)", "FDA Philippines Pharmacovigilance Unit", "PhilHealth"],
+      "answer": "FDA Philippines Pharmacovigilance Unit",
+      "explanation": "The FDA Philippines' Pharmacovigilance Unit oversees the National Adverse Drug Reaction (ADR) Reporting System. Healthcare professionals and manufacturers are required to report serious ADRs. The data is used to monitor drug safety, identify new signals, and update drug labels. Part of the global WHO pharmacovigilance program."
+    },
+    {
+      "id": 21,
+      "question": "Continuing Professional Development (CPD) for pharmacists in the Philippines is mandated by:",
+      "choices": ["RA 5921", "RA 10912 (CPD Act of 2016)", "RA 9165", "RA 6675"],
+      "answer": "RA 10912 (CPD Act of 2016)",
+      "explanation": "RA 10912 (CPD Act of 2016) requires all PRC-licensed professionals, including pharmacists, to complete CPD units for renewal of their PRC identification card. This ensures professionals stay updated with advances in their field. The Professional Regulatory Commission (PRC) sets the CPD requirements."
+    },
+    {
+      "id": 22,
+      "question": "A pharmacist counseling a patient on warfarin therapy should include which key information about drug-food interaction?",
+      "choices": ["Avoid grapefruit juice", "Maintain consistent intake of vitamin K-containing foods (leafy greens)", "Avoid all dairy products", "Take with food to prevent GI upset"],
+      "answer": "Maintain consistent intake of vitamin K-containing foods (leafy greens)",
+      "explanation": "Warfarin inhibits vitamin K-dependent clotting factor synthesis. Varying vitamin K intake directly affects warfarin's anticoagulant effect. Patients should maintain CONSISTENT (not avoid) vitamin K intake. Suddenly increasing vitamin K (more greens) decreases anticoagulation; decreasing intake raises INR. Regular INR monitoring is essential."
+    },
+    {
+      "id": 23,
+      "question": "The 'five rights' of medication administration include all EXCEPT:",
+      "choices": ["Right patient", "Right drug", "Right cost", "Right route"],
+      "answer": "Right cost",
+      "explanation": "The Five Rights of Medication Administration are: Right Patient (two identifiers), Right Drug (correct medication), Right Dose (correct amount), Right Route (oral, IV, etc.), and Right Time (correct frequency/schedule). Some institutions add a 6th right: Right Documentation. Cost is not one of the five rights."
+    },
+    {
+      "id": 24,
+      "question": "Which Philippine law established the Dangerous Drugs Board (DDB) and the Philippine Drug Enforcement Agency (PDEA)?",
+      "choices": ["RA 6425 (Dangerous Drugs Act of 1972)", "RA 9165 (Comprehensive Dangerous Drugs Act of 2002)", "RA 5921 (Pharmacy Act)", "RA 9711 (FDA Act of 2009)"],
+      "answer": "RA 9165 (Comprehensive Dangerous Drugs Act of 2002)",
+      "explanation": "RA 9165 created the Philippine Drug Enforcement Agency (PDEA) as the lead agency for anti-drug operations, and the Dangerous Drugs Board (DDB) as the policy-making and strategy-formulating body. It also established the drug schedules, penalties for violations, and treatment/rehabilitation programs."
+    },
+    {
+      "id": 25,
+      "question": "Medication reconciliation is a process used to:",
+      "choices": ["Bill the patient for all medications used during hospitalization", "Create an accurate list of all medications a patient is taking to compare with admission, transfer, and discharge orders to avoid errors", "Dispose of expired medications", "Reconcile the hospital formulary with insurance formularies"],
+      "answer": "Create an accurate list of all medications a patient is taking to compare with admission, transfer, and discharge orders to avoid errors",
+      "explanation": "Medication reconciliation involves creating the most complete and accurate list of a patient's current medications and comparing it with physician orders at all transitions of care (admission, transfer, discharge). It prevents omissions, duplications, and discrepancies. A priority patient safety strategy recommended by WHO and JCIA."
+    },
+    {
+      "id": 26,
+      "question": "A prescription label must legally include all EXCEPT:",
+      "choices": ["Name and address of the pharmacy", "Drug name and strength", "Patient's diagnosis or medical condition", "Directions for use"],
+      "answer": "Patient's diagnosis or medical condition",
+      "explanation": "Prescription label requirements under Philippine regulations include: pharmacy name and address, prescription number, patient name, drug name and strength, quantity, directions for use, prescriber's name, dispensing date, and expiry date. The patient's diagnosis/medical condition is NOT required on the label (confidentiality)."
+    },
+    {
+      "id": 27,
+      "question": "The WHO concept of 'rational use of medicines' requires that patients receive:",
+      "choices": ["The newest and most expensive medication available", "The correct medicine, in the correct dose, for the appropriate duration, at the lowest possible cost", "Generic medications exclusively", "Medications only when lifestyle modifications have failed"],
+      "answer": "The correct medicine, in the correct dose, for the appropriate duration, at the lowest possible cost",
+      "explanation": "WHO defines rational medicine use as: medications appropriate to clinical needs, in doses meeting individual requirements, for an adequate period, and at the lowest cost to patients and community. Irrational use includes polypharmacy, inadequate dosing, overuse of antibiotics, and unnecessary injections."
+    },
+    {
+      "id": 28,
+      "question": "Which type of error involves a medication being prepared incorrectly (e.g., wrong concentration) during compounding?",
+      "choices": ["Prescribing error", "Transcription error", "Dispensing error", "Administration error"],
+      "answer": "Dispensing error",
+      "explanation": "Dispensing errors occur when a pharmacist or pharmacy staff makes an error in the dispensing process. Types include: wrong drug, wrong dose/concentration (including compounding errors), wrong dosage form, wrong quantity, wrong label, and wrong patient. A compounding error resulting in wrong concentration is a dispensing error."
+    },
+    {
+      "id": 29,
+      "question": "The 'Hippocratic Oath' and the 'Pharmacist's Oath' both emphasize:",
+      "choices": ["Financial compensation for professional services", "Professional ethics, commitment to patient welfare, and non-maleficence", "Adherence to government regulations exclusively", "Competitive pricing of pharmaceutical services"],
+      "answer": "Professional ethics, commitment to patient welfare, and non-maleficence",
+      "explanation": "Both oaths emphasize professional commitment to patient welfare, ethical conduct, non-maleficence (do no harm), and continuous professional development. The Pharmacist's Oath specifically includes commitments to maintain standards of practice, keep drug knowledge updated, and respect patient confidentiality."
+    },
+    {
+      "id": 30,
+      "question": "Under Philippine law, a pharmacist must retain prescription records for how many years?",
+      "choices": ["1 year", "2 years", "3 years", "5 years"],
+      "answer": "2 years",
+      "explanation": "Philippine pharmacy regulations under RA 5921 and its implementing rules require prescription records to be kept for at least 2 years. For controlled drugs (RA 9165), records must be retained for a longer period (usually 5 years) and are subject to inspection by PDEA and FDA."
+    },
+    {
+      "id": 31,
+      "question": "The 'medication therapy management' (MTM) service is primarily aimed at:",
+      "choices": ["Reducing inventory costs in pharmacies", "Optimizing therapeutic outcomes for patients with complex medication regimens through comprehensive review", "Preparing IV medications in hospitals", "Regulatory compliance with FDA inspections"],
+      "answer": "Optimizing therapeutic outcomes for patients with complex medication regimens through comprehensive review",
+      "explanation": "MTM services involve pharmacists conducting comprehensive medication reviews, identifying drug therapy problems, resolving them in collaboration with prescribers, and educating patients. Targets patients with multiple chronic conditions, multiple medications (polypharmacy), or those with adherence issues."
+    },
+    {
+      "id": 32,
+      "question": "The Pharmacy Act (RA 5921) provides that no drug store shall be operated without:",
+      "choices": ["A doctor-owner", "A registered pharmacist in charge (pharmacist-in-charge)", "Government ownership or partnership", "A hospital affiliation"],
+      "answer": "A registered pharmacist in charge (pharmacist-in-charge)",
+      "explanation": "RA 5921 mandates that a registered pharmacist be on duty during all hours of operation for every licensed drug establishment. The pharmacist-in-charge is responsible for all pharmacy operations, drug dispensing, and compliance with pharmaceutical laws. Operating without a pharmacist is illegal."
+    },
+    {
+      "id": 33,
+      "question": "Which principle of bioethics requires healthcare providers to treat all patients fairly and equitably?",
+      "choices": ["Non-maleficence", "Beneficence", "Autonomy", "Justice"],
+      "answer": "Justice",
+      "explanation": "Justice is the ethical principle of fair, equitable distribution of healthcare resources and equal treatment of patients. It includes distributive justice (fair allocation), rights-based justice (patients' rights), and legal justice. In pharmacy, justice means providing equitable access to medications regardless of socioeconomic status."
+    },
+    {
+      "id": 34,
+      "question": "Good Pharmacy Practice (GPP) guidelines require pharmacies to have written standard operating procedures (SOPs) for:",
+      "choices": ["Marketing strategies only", "All aspects of pharmacy operations including dispensing, compounding, storage, and patient counseling", "Financial reporting only", "Staff recruitment exclusively"],
+      "answer": "All aspects of pharmacy operations including dispensing, compounding, storage, and patient counseling",
+      "explanation": "Good Pharmacy Practice (GPP) as defined by WHO/FIP requires pharmacies to have written SOPs (standard operating procedures) for all key activities. SOPs ensure consistency, quality, and safety in pharmaceutical services. They cover dispensing procedures, drug storage, compounding, error reporting, and patient counseling protocols."
+    },
+    {
+      "id": 35,
+      "question": "A patient asks the pharmacist about a drug-drug interaction between their prescribed medications. The pharmacist's professional obligation is to:",
+      "choices": ["Refer the patient to the physician without providing any information", "Provide information about the interaction and its clinical significance, and contact the prescriber if necessary", "Ignore the question as it is outside pharmacy's scope", "Dispense the medication and recommend the patient do their own research"],
+      "answer": "Provide information about the interaction and its clinical significance, and contact the prescriber if necessary",
+      "explanation": "Pharmacists are medication experts. Providing drug interaction information is a core pharmaceutical care service. The pharmacist should explain the nature, significance, and management of the interaction. For serious interactions, contacting the prescriber to recommend alternatives or dosage adjustments is part of the pharmacist's duty."
+    },
+    {
+      "id": 36,
+      "question": "The Philippine FDA Act (RA 9711) grants the FDA the authority to:",
+      "choices": ["Set professional fees for pharmacists", "Conduct market surveillance, product recalls, and impose sanctions on violators", "Issue PRC licenses for pharmacists", "Regulate the prices of all drugs"],
+      "answer": "Conduct market surveillance, product recalls, and impose sanctions on violators",
+      "explanation": "RA 9711 (FDA Act of 2009) strengthened the FDA Philippines by giving it more regulatory powers: conducting inspections, imposing administrative sanctions, ordering product recalls and seizures, and conducting post-market surveillance. The FDA ensures all regulated products meet quality and safety standards."
+    },
+    {
+      "id": 37,
+      "question": "'Polypharmacy' is typically defined as the concurrent use of how many or more medications?",
+      "choices": ["2 or more", "3 or more", "5 or more", "10 or more"],
+      "answer": "5 or more",
+      "explanation": "Polypharmacy is generally defined as the use of 5 or more medications concurrently. It is common in elderly patients and those with multiple chronic conditions. Polypharmacy increases risks of drug interactions, adverse effects, medication non-adherence, and falls. Pharmacists play a key role in medication reviews to reduce inappropriate polypharmacy."
+    },
+    {
+      "id": 38,
+      "question": "In hospital pharmacy practice, the 'unit dose drug distribution system' refers to:",
+      "choices": ["Dispensing multi-day supplies of medications to patients for self-administration", "Dispensing individual patient doses in ready-to-administer form for a 24-hour period", "Dispensing medications in bulk to nursing units", "Dispensing only controlled substances in individual doses"],
+      "answer": "Dispensing individual patient doses in ready-to-administer form for a 24-hour period",
+      "explanation": "The unit dose dispensing system provides individually labeled, patient-specific doses for a 24-hour period. Benefits: reduces medication errors (pre-packaged, labeled), decreases drug waste, allows pharmacist review of each dose, improves cost control. It is the standard system in most accredited hospitals."
+    },
+    {
+      "id": 39,
+      "question": "Patient confidentiality in pharmacy practice means:",
+      "choices": ["Sharing patient medication records with anyone who asks", "Protecting patient health information and disclosing only to authorized persons with patient consent", "Refusing to provide any medication information to family members", "Keeping financial records private"],
+      "answer": "Protecting patient health information and disclosing only to authorized persons with patient consent",
+      "explanation": "Pharmacists are legally and ethically obligated to maintain patient confidentiality. Patient medication information can be shared with healthcare team members involved in care, or to authorized persons with patient consent. Exceptions: mandatory reporting of certain conditions, court orders, or public health emergencies."
+    },
+    {
+      "id": 40,
+      "question": "The 'right to self-determination' is an expression of which bioethical principle?",
+      "choices": ["Justice", "Non-maleficence", "Beneficence", "Autonomy"],
+      "answer": "Autonomy",
+      "explanation": "Autonomy is the patient's right to self-determination — to make informed decisions about their own healthcare. In pharmacy, respecting autonomy means providing complete medication information, supporting informed consent, and respecting the patient's decision to accept or refuse treatment even if the pharmacist disagrees."
+    },
+    {
+      "id": 41,
+      "question": "When a medication requires special handling or storage, the pharmacist should affix which type of label?",
+      "choices": ["Standard dispensing label only", "Auxiliary label (e.g., 'Refrigerate,' 'Shake Well,' 'Take with Food')", "No special labeling is required beyond the main label", "A red warning sticker with skull and crossbones"],
+      "answer": "Auxiliary label (e.g., 'Refrigerate,' 'Shake Well,' 'Take with Food')",
+      "explanation": "Auxiliary labels supplement the main dispensing label with important storage and administration instructions. Examples: 'Refrigerate but do not freeze' (insulin), 'Shake well before use' (suspensions), 'Take with a full glass of water' (bisphosphonates), 'Do not take with dairy products' (certain antibiotics). They improve medication safety."
+    },
+    {
+      "id": 42,
+      "question": "The ISMP (Institute for Safe Medication Practices) has identified 'look-alike, sound-alike' (LASA) drugs as a major source of medication errors. An example of a LASA pair is:",
+      "choices": ["Penicillin and amoxicillin (different but related)", "Hydroxyzine and hydralazine (similar names, different actions)", "Aspirin and acetaminophen (similar uses)", "Metformin and metronidazole (both start with 'met')"],
+      "answer": "Hydroxyzine and hydralazine (similar names, different actions)",
+      "explanation": "LASA errors occur due to visual similarity (look-alike: e.g., chlorproMAZINE/chlorproPAMIDE) or phonetic similarity (sound-alike: e.g., hydroxyzINE/hydrALAZINE). Hydroxyzine is an antihistamine/anxiolytic; hydralazine is an antihypertensive — confusing these can cause patient harm. TALL MAN lettering helps distinguish them."
+    },
+    {
+      "id": 43,
+      "question": "Generic substitution by a pharmacist is generally permitted in the Philippines EXCEPT when:",
+      "choices": ["The patient requests the generic", "The prescriber writes 'no substitution' or 'dispense as written' (DAW) on the prescription", "The doctor prescribes by generic name", "The patient cannot afford the brand name"],
+      "answer": "The prescriber writes 'no substitution' or 'dispense as written' (DAW) on the prescription",
+      "explanation": "Under the Generics Act (RA 6675), pharmacists may substitute a bioequivalent generic for a branded drug. However, if the prescriber specifically writes 'No Substitution,' 'DAW' (Dispense As Written), or 'Brand Necessary' on the prescription, the pharmacist must dispense the brand as prescribed."
+    },
+    {
+      "id": 44,
+      "question": "The concept of 'pharmaceutical care' requires the pharmacist to take responsibility for:",
+      "choices": ["Drug manufacturing quality only", "Patient drug therapy outcomes, working collaboratively to improve quality of life", "Billing insurance companies for drug costs", "Ensuring maximum profit from drug sales"],
+      "answer": "Patient drug therapy outcomes, working collaboratively to improve quality of life",
+      "explanation": "Pharmaceutical care (Hepler & Strand, 1990) establishes that pharmacists accept personal responsibility for individual patients' drug therapy outcomes. This represents a shift from product-oriented to patient-oriented pharmacy practice. The pharmacist partners with the patient and healthcare team to optimize drug therapy."
+    },
+    {
+      "id": 45,
+      "question": "A pharmacy inspection by the FDA Philippines may check for all of the following EXCEPT:",
+      "choices": ["Drug storage conditions (temperature, humidity)", "Prescription record-keeping", "The pharmacist's personal bank statements", "Controlled drug records and inventory"],
+      "answer": "The pharmacist's personal bank statements",
+      "explanation": "FDA pharmacy inspections verify: valid licenses and permits, prescription records, controlled drug records and inventory, drug storage conditions, expiry date management, sanitation, and compliance with Good Pharmacy Practice. Personal financial records of the pharmacist are not part of a pharmacy operations inspection."
+    },
+    {
+      "id": 46,
+      "question": "The expiration date on a drug means that the manufacturer guarantees the drug's:",
+      "choices": ["Complete safety after the date if properly stored", "Minimum potency and safety only when stored as labeled up to that date", "Freedom from any microbial contamination after the date", "Complete ineffectiveness after that date"],
+      "answer": "Minimum potency and safety only when stored as labeled up to that date",
+      "explanation": "The expiration (expiry) date is the date through which the manufacturer guarantees at least 90% of labeled potency and safety when stored per label conditions. After the expiration date, the drug cannot be sold or dispensed. Some drugs (tetracyclines) can become toxic upon degradation; others simply lose potency."
+    },
+    {
+      "id": 47,
+      "question": "High-alert medications are drugs that:",
+      "choices": ["Require no special precautions if stored correctly", "Bear a heightened risk of causing significant patient harm when used in error", "Are only used in emergency rooms", "Are all Schedule II controlled substances"],
+      "answer": "Bear a heightened risk of causing significant patient harm when used in error",
+      "explanation": "ISMP defines high-alert medications as drugs that bear a heightened risk of causing significant harm when errors occur. Examples: concentrated electrolytes (KCl), anticoagulants (heparin, warfarin), insulin, opioids, chemotherapy agents. Special safeguards: double-checks, alert stickers, sequestered storage, and protocols."
+    },
+    {
+      "id": 48,
+      "question": "The purpose of drug formularies in hospital pharmacy is to:",
+      "choices": ["Restrict patient access to all medications", "Promote the use of selected medications that are safe, effective, and cost-effective for the institution", "Eliminate generic drug use", "Satisfy FDA inspection requirements only"],
+      "answer": "Promote the use of selected medications that are safe, effective, and cost-effective for the institution",
+      "explanation": "A drug formulary is a list of approved medications selected by the Pharmacy and Therapeutics (P&T) Committee based on clinical evidence, safety, and cost-effectiveness. It guides prescribing, controls costs, and promotes rational drug use. Formulary management includes adding/deleting drugs based on current evidence."
+    },
+    {
+      "id": 49,
+      "question": "Pharmacovigilance is defined as:",
+      "choices": ["The process of drug product manufacturing quality assurance", "The science and activities relating to the detection, assessment, understanding, and prevention of adverse effects of medicines", "Drug pricing surveillance by the government", "Inspection of pharmacy facilities by FDA"],
+      "answer": "The science and activities relating to the detection, assessment, understanding, and prevention of adverse effects of medicines",
+      "explanation": "Pharmacovigilance (WHO definition) encompasses all activities related to post-marketing drug safety surveillance: collecting ADR reports, signal detection, benefit-risk assessment, regulatory action (label changes, warnings, withdrawals), and communication to healthcare providers and the public."
+    },
+    {
+      "id": 50,
+      "question": "In the context of medication errors, a 'near miss' is best described as:",
+      "choices": ["A medication error that caused permanent patient harm", "A medication error that reached the patient but caused no harm", "An error that was caught and corrected before reaching the patient", "A prescribing error by a physician"],
+      "answer": "An error that was caught and corrected before reaching the patient",
+      "explanation": "A 'near miss' (also called a 'close call' or 'good catch') is an error that was identified and corrected before it could reach the patient. Near misses should be reported and analyzed to prevent future errors. They provide valuable information about system vulnerabilities without actual patient harm occurring."
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "module": "Module 1 - Pharmacology",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which pharmacokinetic parameter describes the fraction of an administered drug that reaches systemic circulation unchanged?",
+      "choices": ["Volume of distribution", "Bioavailability", "Clearance", "Half-life"],
+      "answer": "Bioavailability",
+      "explanation": "Bioavailability (F) is the fraction of an administered dose that reaches systemic circulation in its active form. IV administration has 100% bioavailability. Oral drugs undergo first-pass metabolism which can significantly reduce bioavailability."
+    },
+    {
+      "id": 2,
+      "question": "A drug with a narrow therapeutic index requires careful monitoring because:",
+      "choices": ["It is rapidly eliminated from the body", "The toxic dose is close to the therapeutic dose", "It has poor bioavailability", "It undergoes extensive first-pass metabolism"],
+      "answer": "The toxic dose is close to the therapeutic dose",
+      "explanation": "A narrow therapeutic index (NTI) means there is little difference between the minimum effective concentration and the minimum toxic concentration. Drugs like warfarin, digoxin, lithium, and phenytoin have NTI, requiring therapeutic drug monitoring."
+    },
+    {
+      "id": 3,
+      "question": "The primary site of drug metabolism in the body is the:",
+      "choices": ["Kidney", "Lung", "Liver", "Small intestine"],
+      "answer": "Liver",
+      "explanation": "The liver is the primary site of drug metabolism. It contains cytochrome P450 enzymes (CYP450) that perform Phase I reactions (oxidation, reduction, hydrolysis) and Phase II conjugation reactions, transforming lipophilic drugs into more water-soluble metabolites for excretion."
+    },
+    {
+      "id": 4,
+      "question": "Which autonomic drug class is used to treat bradycardia by blocking muscarinic receptors?",
+      "choices": ["Beta-blockers", "Anticholinergics (atropine)", "Alpha-1 agonists", "Cholinomimetics"],
+      "answer": "Anticholinergics (atropine)",
+      "explanation": "Atropine is a competitive muscarinic antagonist. It blocks the vagal (parasympathetic) slowing of the heart, increasing heart rate. It is the first-line drug for symptomatic bradycardia per ACLS guidelines."
+    },
+    {
+      "id": 5,
+      "question": "A patient receiving warfarin is started on rifampicin. The expected drug interaction is:",
+      "choices": ["Increased anticoagulant effect", "Decreased anticoagulant effect", "No significant interaction", "Increased risk of bleeding"],
+      "answer": "Decreased anticoagulant effect",
+      "explanation": "Rifampicin is a potent CYP450 inducer (especially CYP2C9). It increases the metabolism of warfarin, reducing its plasma concentration and anticoagulant effect. Warfarin dose may need to be significantly increased, and INR must be monitored closely."
+    },
+    {
+      "id": 6,
+      "question": "Which receptor type mediates the bronchodilatory effect of salbutamol (albuterol)?",
+      "choices": ["Alpha-1 adrenergic", "Beta-1 adrenergic", "Beta-2 adrenergic", "Muscarinic M3"],
+      "answer": "Beta-2 adrenergic",
+      "explanation": "Salbutamol selectively activates Beta-2 adrenergic receptors in bronchial smooth muscle, causing relaxation and bronchodilation. Beta-2 receptors are also found in uterine smooth muscle (used in preterm labor) and skeletal muscle."
+    },
+    {
+      "id": 7,
+      "question": "The volume of distribution (Vd) of a drug that is extensively bound to tissues is:",
+      "choices": ["Less than plasma volume (3 L)", "Equal to plasma volume", "Greater than total body water (42 L)", "Equal to total body water"],
+      "answer": "Greater than total body water (42 L)",
+      "explanation": "A large Vd (>42 L) indicates extensive tissue binding. The drug distributes widely outside the plasma compartment. Lipophilic drugs and those with high tissue protein binding (e.g., chloroquine, digoxin, amiodarone) have very large Vd values."
+    },
+    {
+      "id": 8,
+      "question": "Penicillin exerts its antibacterial effect by:",
+      "choices": ["Inhibiting protein synthesis at the 50S ribosomal subunit", "Disrupting the bacterial cell membrane", "Inhibiting bacterial cell wall synthesis", "Inhibiting DNA gyrase"],
+      "answer": "Inhibiting bacterial cell wall synthesis",
+      "explanation": "Penicillins are beta-lactam antibiotics that inhibit transpeptidase enzymes (penicillin-binding proteins/PBPs), which cross-link peptidoglycan strands in the bacterial cell wall. This weakens the wall, causing osmotic lysis of the bacteria."
+    },
+    {
+      "id": 9,
+      "question": "Which opioid analgesic has the highest intrinsic analgesic activity and is used for severe cancer pain?",
+      "choices": ["Codeine", "Tramadol", "Morphine", "Naloxone"],
+      "answer": "Morphine",
+      "explanation": "Morphine is the prototype full agonist opioid with the highest intrinsic efficacy at mu-opioid receptors. It is the gold standard for severe cancer pain per WHO pain ladder (Step 3). Naloxone is an antagonist used to reverse opioid toxicity."
+    },
+    {
+      "id": 10,
+      "question": "The mechanism of action of metformin in type 2 diabetes is primarily through:",
+      "choices": ["Stimulating insulin secretion from beta cells", "Activating AMPK and decreasing hepatic glucose production", "Blocking glucose absorption in the intestine", "Increasing glucose uptake by adipose tissue"],
+      "answer": "Activating AMPK and decreasing hepatic glucose production",
+      "explanation": "Metformin activates AMP-activated protein kinase (AMPK), which decreases hepatic gluconeogenesis and glycogenolysis. It also improves peripheral insulin sensitivity. It does not stimulate insulin secretion, so hypoglycemia is rare."
+    },
+    {
+      "id": 11,
+      "question": "Which diuretic acts primarily on the ascending loop of Henle and is used in acute pulmonary edema?",
+      "choices": ["Hydrochlorothiazide", "Spironolactone", "Furosemide", "Acetazolamide"],
+      "answer": "Furosemide",
+      "explanation": "Furosemide is a loop diuretic that inhibits the Na+/K+/2Cl- cotransporter in the thick ascending limb of the loop of Henle. It produces rapid, potent diuresis and is first-line for acute pulmonary edema. It can cause hypokalemia."
+    },
+    {
+      "id": 12,
+      "question": "A competitive antagonist at a receptor can be overcome by:",
+      "choices": ["Decreasing the dose of the agonist", "Increasing the dose of the agonist", "Adding another antagonist", "Reducing receptor sensitivity"],
+      "answer": "Increasing the dose of the agonist",
+      "explanation": "A competitive antagonist competes with the agonist for the same receptor binding site reversibly. Increasing the agonist concentration can displace the antagonist, restoring full agonist effect. This shifts the dose-response curve to the right without reducing maximum effect (Emax)."
+    },
+    {
+      "id": 13,
+      "question": "Neostigmine is used in the reversal of neuromuscular blockade because it:",
+      "choices": ["Directly stimulates nicotinic receptors at the NMJ", "Inhibits acetylcholinesterase, increasing ACh at the NMJ", "Competes with non-depolarizing agents at nicotinic receptors", "Increases release of acetylcholine from nerve terminals"],
+      "answer": "Inhibits acetylcholinesterase, increasing ACh at the NMJ",
+      "explanation": "Neostigmine inhibits acetylcholinesterase, preventing the breakdown of ACh. The accumulated ACh competes with and displaces non-depolarizing neuromuscular blockers (like vecuronium) from nicotinic receptors at the NMJ, restoring neuromuscular transmission."
+    },
+    {
+      "id": 14,
+      "question": "Which antiepileptic drug works by blocking sodium channels and stabilizing neuronal membranes?",
+      "choices": ["Valproic acid", "Phenytoin", "Ethosuximide", "Benzodiazepines"],
+      "answer": "Phenytoin",
+      "explanation": "Phenytoin (and carbamazepine, lamotrigine) work primarily by blocking voltage-gated sodium channels in their inactivated state. This limits repetitive neuronal firing. Ethosuximide blocks T-type calcium channels (absence seizures). Benzodiazepines enhance GABA activity."
+    },
+    {
+      "id": 15,
+      "question": "A drug that undergoes zero-order kinetics is eliminated at a rate:",
+      "choices": ["Proportional to its plasma concentration", "Constant regardless of plasma concentration", "That doubles with each dose", "That decreases as plasma level rises"],
+      "answer": "Constant regardless of plasma concentration",
+      "explanation": "Zero-order (saturation) kinetics: a fixed amount of drug is eliminated per unit time, regardless of concentration. This occurs when metabolizing enzymes are saturated. Ethanol and phenytoin at high doses follow zero-order kinetics, making dose increases disproportionately dangerous."
+    },
+    {
+      "id": 16,
+      "question": "The antidote for acetaminophen (paracetamol) overdose is:",
+      "choices": ["Flumazenil", "Naloxone", "N-acetylcysteine", "Vitamin K"],
+      "answer": "N-acetylcysteine",
+      "explanation": "In overdose, paracetamol is converted to NAPQI (by CYP2E1), which depletes glutathione and causes hepatotoxicity. N-acetylcysteine replenishes glutathione stores and provides cysteine for conjugation, neutralizing NAPQI. It must be given within 8-10 hours for best effect."
+    },
+    {
+      "id": 17,
+      "question": "Which class of antibiotics inhibits protein synthesis by binding to the 30S ribosomal subunit?",
+      "choices": ["Macrolides", "Aminoglycosides", "Fluoroquinolones", "Beta-lactams"],
+      "answer": "Aminoglycosides",
+      "explanation": "Aminoglycosides (gentamicin, amikacin, streptomycin) bind to the 16S rRNA of the 30S ribosomal subunit, causing misreading of mRNA codons. Tetracyclines also bind the 30S subunit. Macrolides bind the 50S subunit. Fluoroquinolones inhibit DNA gyrase/topoisomerase IV."
+    },
+    {
+      "id": 18,
+      "question": "Propranolol is contraindicated in bronchial asthma because it:",
+      "choices": ["Stimulates alpha-1 receptors causing bronchoconstriction", "Blocks beta-2 receptors in bronchial smooth muscle", "Increases histamine release from mast cells", "Inhibits cholinesterase, increasing acetylcholine"],
+      "answer": "Blocks beta-2 receptors in bronchial smooth muscle",
+      "explanation": "Propranolol is a non-selective beta-blocker that blocks both beta-1 (cardiac) and beta-2 (bronchial) receptors. Beta-2 blockade causes bronchoconstriction, which can precipitate severe asthma attacks. Selective beta-1 blockers (metoprolol, atenolol) have less bronchospasm risk."
+    },
+    {
+      "id": 19,
+      "question": "The drug of choice for Plasmodium falciparum malaria with known chloroquine resistance is:",
+      "choices": ["Chloroquine alone", "Primaquine", "Artemisinin-based combination therapy (ACT)", "Quinine monotherapy"],
+      "answer": "Artemisinin-based combination therapy (ACT)",
+      "explanation": "WHO recommends ACT (e.g., artemether-lumefantrine) as first-line treatment for uncomplicated P. falciparum malaria, especially in areas of chloroquine resistance. Artemisinins act rapidly against all stages. Primaquine is used to eliminate liver stages of P. vivax."
+    },
+    {
+      "id": 20,
+      "question": "Which pharmacodynamic term describes the maximum effect a drug can produce regardless of dose increase?",
+      "choices": ["EC50", "Potency", "Efficacy (Emax)", "Therapeutic index"],
+      "answer": "Efficacy (Emax)",
+      "explanation": "Efficacy (Emax) is the maximum response a drug can produce regardless of dose increase. Potency refers to the dose needed to produce a given effect (EC50). A drug can be potent (low EC50) but have low efficacy (low Emax), like partial agonists."
+    },
+    {
+      "id": 21,
+      "question": "Heparin's anticoagulant mechanism involves:",
+      "choices": ["Directly inhibiting thrombin", "Activating antithrombin III to inhibit clotting factors", "Blocking vitamin K-dependent clotting factor synthesis", "Inhibiting platelet aggregation via COX-1"],
+      "answer": "Activating antithrombin III to inhibit clotting factors",
+      "explanation": "Heparin binds to antithrombin III (AT-III), conformationally activating it. The heparin-AT-III complex then rapidly inhibits thrombin (Factor IIa) and Factor Xa (and other serine proteases). Low-molecular-weight heparins (LMWH) primarily inhibit Factor Xa."
+    },
+    {
+      "id": 22,
+      "question": "Which antiviral drug is used prophylactically and therapeutically for influenza by inhibiting neuraminidase?",
+      "choices": ["Acyclovir", "Oseltamivir", "Zidovudine", "Ribavirin"],
+      "answer": "Oseltamivir",
+      "explanation": "Oseltamivir (Tamiflu) and zanamivir are neuraminidase inhibitors. Neuraminidase cleaves sialic acid from the cell surface, allowing viral release and spread. Inhibiting neuraminidase traps the virus at the cell surface. Must be given within 48 hours of symptom onset."
+    },
+    {
+      "id": 23,
+      "question": "The mechanism of NSAIDs in producing analgesia and anti-inflammatory effects is through:",
+      "choices": ["Blocking opioid receptors", "Inhibiting cyclooxygenase (COX) enzymes", "Antagonizing bradykinin receptors", "Stabilizing mast cells"],
+      "answer": "Inhibiting cyclooxygenase (COX) enzymes",
+      "explanation": "NSAIDs inhibit COX-1 and/or COX-2, blocking the conversion of arachidonic acid to prostaglandins. Prostaglandins sensitize pain receptors and mediate inflammation and fever. COX-1 inhibition also reduces gastric cytoprotection (GI side effects)."
+    },
+    {
+      "id": 24,
+      "question": "A patient on MAO inhibitors eats tyramine-rich food (aged cheese). The expected interaction is:",
+      "choices": ["Hypotension and bradycardia", "Hypertensive crisis", "Serotonin syndrome", "Anticholinergic toxicity"],
+      "answer": "Hypertensive crisis",
+      "explanation": "MAO normally metabolizes tyramine in the gut wall. MAO inhibitors block this, allowing tyramine to be absorbed. Tyramine releases stored norepinephrine from nerve terminals, causing severe hypertension (hypertensive crisis). Foods to avoid: aged cheese, wine, cured meats."
+    },
+    {
+      "id": 25,
+      "question": "Which antifungal drug inhibits ergosterol synthesis by blocking lanosterol 14α-demethylase?",
+      "choices": ["Amphotericin B", "Griseofulvin", "Fluconazole", "Nystatin"],
+      "answer": "Fluconazole",
+      "explanation": "Azole antifungals (fluconazole, itraconazole, voriconazole) inhibit fungal CYP51 (14α-demethylase), blocking lanosterol-to-ergosterol conversion. Ergosterol depletion disrupts the fungal cell membrane. Amphotericin B binds ergosterol directly. Nystatin also binds ergosterol."
+    },
+    {
+      "id": 26,
+      "question": "Which drug class is used as first-line treatment for essential hypertension in patients with type 2 diabetes and proteinuria?",
+      "choices": ["Calcium channel blockers", "Beta-blockers", "ACE inhibitors or ARBs", "Thiazide diuretics"],
+      "answer": "ACE inhibitors or ARBs",
+      "explanation": "ACE inhibitors (e.g., enalapril, lisinopril) and ARBs (e.g., losartan) have proven nephroprotective effects in diabetic nephropathy. They reduce intraglomerular pressure and proteinuria, slowing progression of renal disease, making them first-line in this population."
+    },
+    {
+      "id": 27,
+      "question": "The plasma half-life of a drug is the time required for:",
+      "choices": ["The drug to be completely eliminated", "Plasma concentration to decrease by 50%", "Peak plasma concentration to be reached", "The drug to distribute to tissues"],
+      "answer": "Plasma concentration to decrease by 50%",
+      "explanation": "Half-life (t½) is the time required for the plasma concentration to decrease by 50%. It takes approximately 4-5 half-lives to reach steady state and to eliminate ~97% of the drug. Half-life determines dosing interval and duration of drug effect."
+    },
+    {
+      "id": 28,
+      "question": "Lithium, used in bipolar disorder, has a narrow therapeutic index. Its toxicity is most commonly caused by:",
+      "choices": ["Drug-drug interaction with NSAIDs", "Sodium depletion (dehydration or low-sodium diet)", "Hyperkalemia", "Hepatotoxicity"],
+      "answer": "Sodium depletion (dehydration or low-sodium diet)",
+      "explanation": "Lithium competes with sodium for renal reabsorption. When sodium is depleted (dehydration, diuretics, low-Na diet), the kidneys compensate by reabsorbing more sodium AND lithium, causing toxicity. NSAIDs reduce renal lithium excretion and can also cause toxicity."
+    },
+    {
+      "id": 29,
+      "question": "Which drug acts by inhibiting HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis?",
+      "choices": ["Cholestyramine", "Gemfibrozil", "Atorvastatin", "Niacin"],
+      "answer": "Atorvastatin",
+      "explanation": "Statins (atorvastatin, simvastatin, rosuvastatin) competitively inhibit HMG-CoA reductase, the enzyme that converts HMG-CoA to mevalonate in hepatic cholesterol synthesis. This reduces LDL cholesterol and is first-line for hypercholesterolemia."
+    },
+    {
+      "id": 30,
+      "question": "What is the mechanism by which tetracyclines inhibit bacterial protein synthesis?",
+      "choices": ["Bind 50S subunit, blocking peptide bond formation", "Bind 30S subunit, blocking aminoacyl-tRNA attachment", "Inhibit mRNA transcription", "Cause misreading of mRNA codons"],
+      "answer": "Bind 30S subunit, blocking aminoacyl-tRNA attachment",
+      "explanation": "Tetracyclines bind to the 30S ribosomal subunit at the A (acceptor) site, blocking aminoacyl-tRNA from entering. This prevents elongation of the peptide chain. Aminoglycosides also bind the 30S but cause misreading. Macrolides/chloramphenicol bind the 50S subunit."
+    },
+    {
+      "id": 31,
+      "question": "A patient develops QT prolongation after taking a drug. Which drug is most likely responsible?",
+      "choices": ["Amoxicillin", "Metformin", "Metronidazole", "Haloperidol"],
+      "answer": "Haloperidol",
+      "explanation": "Haloperidol and other antipsychotics block cardiac hERG K+ channels, prolonging repolarization and the QT interval. Prolonged QT can lead to torsades de pointes. Other QT-prolonging drugs include fluoroquinolones, macrolides, amiodarone, and antifungals."
+    },
+    {
+      "id": 32,
+      "question": "Succinylcholine is a depolarizing neuromuscular blocker. Its prolonged effect in some patients is due to:",
+      "choices": ["Renal failure", "Pseudocholinesterase deficiency", "CYP450 enzyme induction", "High protein binding"],
+      "answer": "Pseudocholinesterase deficiency",
+      "explanation": "Succinylcholine is normally rapidly hydrolyzed by pseudocholinesterase (plasma cholinesterase) in the blood. Patients with pseudocholinesterase deficiency (genetic variant or acquired) metabolize it slowly, leading to prolonged neuromuscular blockade and apnea."
+    },
+    {
+      "id": 33,
+      "question": "Which class of drugs inhibits the enzyme phosphodiesterase-5 (PDE5) and is used in erectile dysfunction?",
+      "choices": ["ACE inhibitors", "Alpha-1 blockers", "Sildenafil (PDE5 inhibitors)", "Testosterone"],
+      "answer": "Sildenafil (PDE5 inhibitors)",
+      "explanation": "Sildenafil inhibits PDE5, the enzyme that degrades cGMP in penile smooth muscle. Increased cGMP promotes smooth muscle relaxation and vasodilation, enhancing erection. Contraindicated with nitrates (severe hypotension). Also used in pulmonary arterial hypertension."
+    },
+    {
+      "id": 34,
+      "question": "The 'first-pass effect' refers to:",
+      "choices": ["Drug absorption from the GI tract", "Pre-systemic metabolism of a drug before reaching systemic circulation", "Drug distribution to target tissues", "Renal excretion of unchanged drug"],
+      "answer": "Pre-systemic metabolism of a drug before reaching systemic circulation",
+      "explanation": "The first-pass effect (presystemic metabolism) is the metabolism of an orally administered drug by the intestinal wall and liver before it reaches systemic circulation. Drugs with high first-pass effects (morphine, lidocaine, propranolol) have low oral bioavailability."
+    },
+    {
+      "id": 35,
+      "question": "Which drug reverses benzodiazepine overdose by acting as a competitive antagonist at GABA-A receptors?",
+      "choices": ["Naloxone", "Flumazenil", "Physostigmine", "N-acetylcysteine"],
+      "answer": "Flumazenil",
+      "explanation": "Flumazenil competitively antagonizes benzodiazepines at the benzodiazepine binding site on the GABA-A receptor. It rapidly reverses sedation but has a short half-life, so resedation can occur. Naloxone reverses opioids, not benzodiazepines."
+    },
+    {
+      "id": 36,
+      "question": "Which antihypertensive drug class causes reflex tachycardia as a side effect due to vasodilation?",
+      "choices": ["Beta-blockers", "Dihydropyridine calcium channel blockers (amlodipine)", "ACE inhibitors", "Potassium-sparing diuretics"],
+      "answer": "Dihydropyridine calcium channel blockers (amlodipine)",
+      "explanation": "Dihydropyridine CCBs (amlodipine, nifedipine) cause peripheral vasodilation, which reflexly activates the baroreceptor reflex, increasing sympathetic tone and heart rate. Non-dihydropyridines (verapamil, diltiazem) directly depress cardiac conduction and do not cause reflex tachycardia."
+    },
+    {
+      "id": 37,
+      "question": "Chlorpromazine, a first-generation antipsychotic, produces extrapyramidal side effects by blocking:",
+      "choices": ["Muscarinic receptors in the striatum", "Dopamine D2 receptors in the nigrostriatal pathway", "Serotonin 5-HT2A receptors", "Histamine H1 receptors"],
+      "answer": "Dopamine D2 receptors in the nigrostriatal pathway",
+      "explanation": "Blocking D2 receptors in the nigrostriatal (extrapyramidal) pathway produces motor side effects: acute dystonia, akathisia, parkinsonism, and tardive dyskinesia. Blocking D2 in the mesolimbic pathway provides antipsychotic effect. Newer atypicals have lower D2 affinity in the striatum."
+    },
+    {
+      "id": 38,
+      "question": "The mechanism of action of aspirin (at low doses) in preventing myocardial infarction is through:",
+      "choices": ["Irreversible inhibition of COX-1 in platelets, reducing thromboxane A2", "Reversible inhibition of COX-2 in the vascular endothelium", "Increasing prostacyclin synthesis", "Direct thrombin inhibition"],
+      "answer": "Irreversible inhibition of COX-1 in platelets, reducing thromboxane A2",
+      "explanation": "Low-dose aspirin irreversibly acetylates COX-1 in platelets, permanently reducing thromboxane A2 (TXA2) synthesis. TXA2 promotes platelet aggregation and vasoconstriction. Since platelets have no nucleus, they cannot synthesize new COX, so inhibition lasts the platelet's lifespan (~7-10 days)."
+    },
+    {
+      "id": 39,
+      "question": "Which drug is used to treat Parkinson's disease by serving as a dopamine precursor that crosses the blood-brain barrier?",
+      "choices": ["Selegiline", "Bromocriptine", "Levodopa", "Benztropine"],
+      "answer": "Levodopa",
+      "explanation": "Levodopa (L-DOPA) is the immediate precursor to dopamine. Unlike dopamine itself, it crosses the blood-brain barrier via amino acid transporters. In the brain, it is converted to dopamine by DOPA decarboxylase. It is combined with carbidopa (peripheral decarboxylase inhibitor) to reduce peripheral side effects."
+    },
+    {
+      "id": 40,
+      "question": "Which characteristic of a drug determines its ability to cross lipid bilayers and the blood-brain barrier?",
+      "choices": ["High molecular weight", "High ionization at physiologic pH", "High lipid solubility (lipophilicity)", "High protein binding"],
+      "answer": "High lipid solubility (lipophilicity)",
+      "explanation": "Lipid solubility (measured by partition coefficient) is the primary determinant of membrane permeability. Lipophilic, un-ionized, low-molecular-weight drugs cross lipid bilayers and the blood-brain barrier most readily. Ionized, hydrophilic drugs require transporters."
+    },
+    {
+      "id": 41,
+      "question": "Proton pump inhibitors (PPIs) like omeprazole work by:",
+      "choices": ["Blocking H2 receptors on parietal cells", "Neutralizing gastric acid", "Irreversibly inhibiting H+/K+ ATPase on parietal cells", "Protecting the gastric mucosa with sucralfate"],
+      "answer": "Irreversibly inhibiting H+/K+ ATPase on parietal cells",
+      "explanation": "PPIs are prodrugs that are activated in the acidic canaliculi of parietal cells. They irreversibly bind and inhibit H+/K+ ATPase (the proton pump), the final step in acid secretion. PPIs are more effective than H2 blockers and are used in GERD, peptic ulcers, and H. pylori eradication."
+    },
+    {
+      "id": 42,
+      "question": "Which receptor does morphine act on to produce its analgesic effects?",
+      "choices": ["Kappa opioid receptor", "Delta opioid receptor", "Mu opioid receptor", "Sigma receptor"],
+      "answer": "Mu opioid receptor",
+      "explanation": "Morphine and most opioid analgesics (codeine, fentanyl, oxycodone) primarily activate mu-opioid receptors in the CNS (periaqueductal gray, spinal cord) and peripheral tissues. Mu receptor activation mediates analgesia, euphoria, respiratory depression, and constipation."
+    },
+    {
+      "id": 43,
+      "question": "Digoxin toxicity is potentiated by hypokalemia because:",
+      "choices": ["Hypokalemia increases digoxin absorption", "Potassium and digoxin compete for the same binding site on Na+/K+ ATPase", "Low potassium increases renal digoxin excretion", "Hypokalemia increases digoxin plasma protein binding"],
+      "answer": "Potassium and digoxin compete for the same binding site on Na+/K+ ATPase",
+      "explanation": "Digoxin inhibits Na+/K+ ATPase. Potassium normally competes with digoxin at this binding site. When potassium is low (hypokalemia), less competition occurs, allowing more digoxin to bind, increasing its inhibitory effect and causing toxicity even at therapeutic serum levels."
+    },
+    {
+      "id": 44,
+      "question": "Which drug is contraindicated in patients with gout because it reduces renal uric acid excretion?",
+      "choices": ["Allopurinol", "Probenecid", "Low-dose aspirin", "Colchicine"],
+      "answer": "Low-dose aspirin",
+      "explanation": "Low-dose aspirin (75-325 mg/day) inhibits tubular secretion of uric acid, causing uric acid retention and increasing serum uric acid levels. This can precipitate acute gout attacks. High-dose aspirin (>3 g/day) has uricosuric effects. Probenecid and allopurinol are used TO treat gout."
+    },
+    {
+      "id": 45,
+      "question": "The selective serotonin reuptake inhibitors (SSRIs) are used as first-line antidepressants because they:",
+      "choices": ["Cause sedation improving sleep in depressed patients", "Block serotonin, norepinephrine, and dopamine reuptake equally", "Block the serotonin transporter (SERT) with fewer side effects than TCAs", "Inhibit monoamine oxidase irreversibly"],
+      "answer": "Block the serotonin transporter (SERT) with fewer side effects than TCAs",
+      "explanation": "SSRIs selectively inhibit SERT, increasing synaptic serotonin. They are preferred over tricyclic antidepressants (TCAs) due to fewer anticholinergic, cardiovascular, and sedative side effects, and much lower lethality in overdose. SSRIs include fluoxetine, sertraline, paroxetine, citalopram."
+    },
+    {
+      "id": 46,
+      "question": "Which diuretic is potassium-sparing and works by antagonizing aldosterone receptors?",
+      "choices": ["Furosemide", "Hydrochlorothiazide", "Spironolactone", "Mannitol"],
+      "answer": "Spironolactone",
+      "explanation": "Spironolactone competitively antagonizes aldosterone at mineralocorticoid receptors in the collecting duct, blocking sodium reabsorption (and potassium excretion). It is potassium-sparing and used in heart failure, primary hyperaldosteronism, and liver cirrhosis with ascites."
+    },
+    {
+      "id": 47,
+      "question": "Which antibiotic works by inhibiting bacterial DNA gyrase and topoisomerase IV?",
+      "choices": ["Clindamycin", "Vancomycin", "Ciprofloxacin", "Rifampicin"],
+      "answer": "Ciprofloxacin",
+      "explanation": "Fluoroquinolones (ciprofloxacin, levofloxacin) inhibit bacterial DNA gyrase (topoisomerase II) and topoisomerase IV, which are essential for DNA supercoiling and strand separation during replication. This is bactericidal. They should not be given with antacids (chelation)."
+    },
+    {
+      "id": 48,
+      "question": "A drug that produces the same maximum effect as a full agonist but at a higher dose is called a:",
+      "choices": ["Partial agonist", "Competitive antagonist", "Inverse agonist", "Full agonist with lower potency"],
+      "answer": "Full agonist with lower potency",
+      "explanation": "Potency refers to the dose required to achieve a given effect (EC50). A drug with lower potency needs a higher dose to achieve the same Emax as a more potent drug. Both are full agonists (same Emax). A partial agonist can never achieve the Emax of a full agonist regardless of dose."
+    },
+    {
+      "id": 49,
+      "question": "Vancomycin is reserved for serious infections caused by methicillin-resistant organisms because it:",
+      "choices": ["Has oral bioavailability allowing home use", "Inhibits cell wall synthesis at a site unaffected by beta-lactamase", "Penetrates the CNS effectively without dose adjustment", "Has no known side effects at therapeutic doses"],
+      "answer": "Inhibits cell wall synthesis at a site unaffected by beta-lactamase",
+      "explanation": "Vancomycin binds to the D-Ala-D-Ala terminus of peptidoglycan precursors, inhibiting cell wall synthesis at a site structurally different from penicillin-binding proteins. Beta-lactamase cannot inactivate vancomycin. It is used for MRSA and is nephrotoxic and ototoxic."
+    },
+    {
+      "id": 50,
+      "question": "In pharmacokinetics, the 'loading dose' concept is used when:",
+      "choices": ["A drug has a very short half-life", "Rapid achievement of therapeutic plasma levels is needed for a drug with a long half-life", "The drug undergoes zero-order kinetics", "The therapeutic index is wide"],
+      "answer": "Rapid achievement of therapeutic plasma levels is needed for a drug with a long half-life",
+      "explanation": "Without a loading dose, it takes 4-5 half-lives to reach steady state. For drugs with long half-lives (e.g., amiodarone t½ = 40 days, digoxin t½ = 36 hours), a loading dose rapidly achieves therapeutic levels. It is calculated as: LD = (Vd × target Cp) / F."
+    }
+  ]
+}

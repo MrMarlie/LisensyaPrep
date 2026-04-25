@@ -1,0 +1,356 @@
+{
+  "module": "Module 2 - Pharmaceutical Chemistry",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which functional group is responsible for the acidity of aspirin?",
+      "choices": ["Ester group", "Carboxylic acid group", "Hydroxyl group", "Amide group"],
+      "answer": "Carboxylic acid group",
+      "explanation": "Aspirin (acetylsalicylic acid) contains a carboxylic acid (-COOH) group which donates a proton, making it acidic (pKa ~3.5). The ester group is the acetyl portion added to salicylic acid's hydroxyl. The carboxylic acid is important for its pharmacological activity and GI irritation."
+    },
+    {
+      "id": 2,
+      "question": "The process by which a drug loses its potency due to chemical degradation over time is called:",
+      "choices": ["Polymorphism", "Photolysis", "Hydrolysis", "All of these can cause degradation"],
+      "answer": "All of these can cause degradation",
+      "explanation": "Drug stability can be compromised by multiple pathways: hydrolysis (water breaks ester/amide bonds — common for aspirin, penicillin), photolysis (light-catalyzed degradation — nitroglycerin, nifedipine), oxidation (exposure to oxygen — vitamin C, adrenaline), and racemization. Proper storage conditions prevent these."
+    },
+    {
+      "id": 3,
+      "question": "Which type of isomerism involves molecules with the same molecular formula but different spatial arrangements that are non-superimposable mirror images?",
+      "choices": ["Constitutional isomers", "Geometric isomers", "Enantiomers", "Diastereomers"],
+      "answer": "Enantiomers",
+      "explanation": "Enantiomers are non-superimposable mirror images (chiral molecules). They have identical physical properties but can differ dramatically in pharmacological activity and toxicity. Example: (S)-ibuprofen is the active form; (R)-ibuprofen is much less active. Diastereomers are not mirror images."
+    },
+    {
+      "id": 4,
+      "question": "The hydrolysis of aspirin produces:",
+      "choices": ["Salicylic acid and acetic acid", "Benzoic acid and methanol", "Phenol and acetic acid", "Acetanilide and water"],
+      "answer": "Salicylic acid and acetic acid",
+      "explanation": "Aspirin (acetylsalicylic acid) undergoes hydrolysis of its ester bond to yield salicylic acid and acetic acid. This is a major stability concern — aspirin stored in humid conditions degrades, producing the vinegar smell of acetic acid. Salicylic acid causes more GI irritation than aspirin."
+    },
+    {
+      "id": 5,
+      "question": "Penicillins are unstable in acidic conditions primarily because the beta-lactam ring undergoes:",
+      "choices": ["Photolysis", "Oxidation", "Acid-catalyzed hydrolysis", "Racemization"],
+      "answer": "Acid-catalyzed hydrolysis",
+      "explanation": "The beta-lactam ring of penicillins is highly strained and susceptible to acid-catalyzed hydrolysis. In acidic conditions (like the stomach), the ring opens to produce inactive penicilloic acid. This is why early penicillins were not orally active. Amoxicillin has better acid stability due to its alpha-amino group."
+    },
+    {
+      "id": 6,
+      "question": "Buffer solutions in pharmaceutical formulations are used to:",
+      "choices": ["Increase drug solubility only", "Maintain a stable pH to prevent drug degradation and ensure stability", "Increase viscosity of liquid preparations", "Enhance drug bioavailability exclusively"],
+      "answer": "Maintain a stable pH to prevent drug degradation and ensure stability",
+      "explanation": "Buffer systems resist changes in pH upon addition of small amounts of acid or base. In pharmaceutical preparations, buffers maintain the pH range that prevents drug degradation, ensures stability, and optimizes drug activity. Examples: phosphate buffers for ophthalmic preparations, citrate buffers."
+    },
+    {
+      "id": 7,
+      "question": "The pKa of a weak acid is the pH at which:",
+      "choices": ["The drug is 100% ionized", "The drug is 100% un-ionized", "Equal concentrations of ionized and un-ionized forms exist", "The drug is most soluble"],
+      "answer": "Equal concentrations of ionized and un-ionized forms exist",
+      "explanation": "At pH = pKa, the Henderson-Hasselbalch equation gives [A-]/[HA] = 1, meaning equal concentrations of ionized and un-ionized forms. For weak acids: at pH > pKa, the ionized form predominates. Understanding pKa predicts drug absorption, distribution, and excretion."
+    },
+    {
+      "id": 8,
+      "question": "Which analytical technique separates compounds based on their differential migration through a stationary phase using a mobile phase?",
+      "choices": ["Spectrophotometry", "Chromatography", "Potentiometry", "Gravimetric analysis"],
+      "answer": "Chromatography",
+      "explanation": "Chromatography separates components based on differential partitioning between stationary and mobile phases. Types: HPLC (high-performance liquid chromatography — gold standard for drug analysis), GC (gas chromatography — volatile compounds), TLC (thin-layer chromatography — quick screening)."
+    },
+    {
+      "id": 9,
+      "question": "In pharmaceutical analysis, Beer-Lambert's Law states that absorbance is:",
+      "choices": ["Inversely proportional to concentration", "Independent of path length", "Directly proportional to concentration and path length", "Equal to transmittance"],
+      "answer": "Directly proportional to concentration and path length",
+      "explanation": "Beer-Lambert Law: A = εcl, where A = absorbance, ε = molar absorptivity (constant for a substance at a given wavelength), c = concentration, and l = path length. This is the basis of UV-visible spectrophotometry used to quantify drugs in solution."
+    },
+    {
+      "id": 10,
+      "question": "The structure-activity relationship (SAR) concept states that:",
+      "choices": ["Drug potency is unrelated to its chemical structure", "The biological activity of a drug is determined by its chemical structure", "Only molecular weight determines drug activity", "Lipophilicity alone determines drug receptor binding"],
+      "answer": "The biological activity of a drug is determined by its chemical structure",
+      "explanation": "SAR studies the relationship between chemical structure and biological activity. Changes in functional groups, stereochemistry, chain length, or ring structure can dramatically alter potency, selectivity, and pharmacokinetics. SAR guides drug design and optimization."
+    },
+    {
+      "id": 11,
+      "question": "Which property makes a drug able to form a stable complex with a metal ion like calcium?",
+      "choices": ["High lipophilicity", "Presence of chelating groups (e.g., carboxylate and amino groups)", "High molecular weight", "Presence of aromatic rings"],
+      "answer": "Presence of chelating groups (e.g., carboxylate and amino groups)",
+      "explanation": "Chelation involves a ligand forming multiple coordinate bonds with a metal ion. Tetracyclines chelate calcium, magnesium, and iron ions, forming insoluble complexes. This reduces tetracycline absorption when taken with dairy products or antacids containing these metals."
+    },
+    {
+      "id": 12,
+      "question": "The Maillard reaction in pharmaceutical formulations is a reaction between:",
+      "choices": ["Reducing sugars and amino groups of drugs or excipients", "Fats and oxygen", "Acids and bases", "Water and ester bonds"],
+      "answer": "Reducing sugars and amino groups of drugs or excipients",
+      "explanation": "The Maillard (browning) reaction occurs between reducing sugars (lactose, glucose) and primary amines (amino acids in drugs or proteins). This non-enzymatic browning causes drug-excipient incompatibility, reducing drug potency and producing colored products. Lactose is incompatible with primary amine-containing drugs."
+    },
+    {
+      "id": 13,
+      "question": "Polymorphism in pharmaceutical science refers to:",
+      "choices": ["Variation in drug metabolism between patients", "The ability of a solid material to exist in multiple crystal structures", "Multiple stereoisomers of a drug", "Different salts of the same drug"],
+      "answer": "The ability of a solid material to exist in multiple crystal structures",
+      "explanation": "Polymorphism is the ability of a compound to crystallize in different arrangements. Different polymorphs can have different solubility, stability, melting point, and bioavailability. Ritonavir (HIV drug) failed due to a more stable but less soluble polymorph appearing after manufacture."
+    },
+    {
+      "id": 14,
+      "question": "The conversion of a water-insoluble drug to a water-soluble salt form improves its:",
+      "choices": ["Lipid solubility", "Dissolution rate and oral bioavailability", "Protein binding", "Tissue distribution"],
+      "answer": "Dissolution rate and oral bioavailability",
+      "explanation": "Water-insoluble drugs must dissolve before absorption. Salt forms (e.g., sodium, HCl, potassium salts) ionize in water and dissolve more rapidly, improving dissolution rate and bioavailability. Example: diclofenac sodium is more water-soluble than diclofenac acid."
+    },
+    {
+      "id": 15,
+      "question": "Which test in the Philippines Pharmacopoeia verifies that a drug preparation meets limits for bacterial endotoxins?",
+      "choices": ["Sterility test", "Limulus Amebocyte Lysate (LAL) test", "Pyrogen test using rabbits", "Disintegration test"],
+      "answer": "Limulus Amebocyte Lysate (LAL) test",
+      "explanation": "The LAL test uses lysate from horseshoe crab blood cells (Limulus polyphemus) that clots in the presence of bacterial endotoxins (lipopolysaccharides). It is the standard in-vitro test for endotoxins in injectable preparations, replacing the older rabbit pyrogen test."
+    },
+    {
+      "id": 16,
+      "question": "Oxidation of drug molecules can be prevented by adding:",
+      "choices": ["Buffers", "Antioxidants such as sodium bisulfite or ascorbic acid", "Chelating agents like EDTA", "Both antioxidants and chelating agents"],
+      "answer": "Both antioxidants and chelating agents",
+      "explanation": "Antioxidants (sodium bisulfite, ascorbic acid, BHT, BHA) sacrifice themselves to oxidation, protecting the drug. Chelating agents (EDTA) bind trace metal ions that catalyze oxidation. Both are often used together for maximum protection of oxidation-susceptible drugs like catecholamines and steroids."
+    },
+    {
+      "id": 17,
+      "question": "The Henderson-Hasselbalch equation for a weak acid is:",
+      "choices": ["pH = pKa + log([HA]/[A-])", "pH = pKa + log([A-]/[HA])", "pH = pKb - log([A-]/[HA])", "pH = pKa × [A-]/[HA]"],
+      "answer": "pH = pKa + log([A-]/[HA])",
+      "explanation": "Henderson-Hasselbalch: pH = pKa + log([conjugate base]/[weak acid]) = pKa + log([A-]/[HA]). This predicts the degree of ionization at physiological pH, which is crucial for understanding drug absorption, distribution, and excretion. The ionized form is more water-soluble; the un-ionized form crosses membranes."
+    },
+    {
+      "id": 18,
+      "question": "In drug design, a prodrug is a compound that:",
+      "choices": ["Has direct pharmacological activity", "Is inactive until metabolically converted to the active drug in the body", "Has improved potency compared to the parent drug", "Is only used for IV administration"],
+      "answer": "Is inactive until metabolically converted to the active drug in the body",
+      "explanation": "Prodrugs are pharmacologically inactive precursors converted to active drugs by metabolism. Used to: improve bioavailability (enalapril → enalaprilat), overcome first-pass metabolism, mask bad taste or irritation, or improve stability. Codeine is a prodrug converted to morphine by CYP2D6."
+    },
+    {
+      "id": 19,
+      "question": "The rate of hydrolysis of an ester drug increases when:",
+      "choices": ["Stored in an anhydrous environment", "Stored in alkaline pH conditions", "Temperature is decreased", "The drug is light-protected"],
+      "answer": "Stored in alkaline pH conditions",
+      "explanation": "Ester hydrolysis is catalyzed by both acid and base, but base-catalyzed hydrolysis (saponification) is generally faster. Aspirin hydrolyzes much faster at alkaline pH. Storing ester-containing drugs in anhydrous conditions, away from extremes of pH, and at cool temperatures retards hydrolysis."
+    },
+    {
+      "id": 20,
+      "question": "Which functional group in drug molecules is commonly involved in glucuronide conjugation (Phase II metabolism)?",
+      "choices": ["Nitro group", "Hydroxyl, carboxyl, amino, or sulfhydryl groups", "Fluorine substituents", "Aromatic rings only"],
+      "answer": "Hydroxyl, carboxyl, amino, or sulfhydryl groups",
+      "explanation": "UDP-glucuronosyltransferases (UGTs) catalyze conjugation of glucuronic acid to nucleophilic functional groups: -OH (O-glucuronide), -COOH (acyl glucuronide), -NH2 (N-glucuronide), -SH (S-glucuronide). This increases water solubility for renal excretion. Most common Phase II reaction."
+    },
+    {
+      "id": 21,
+      "question": "The optical rotation of a drug is measured using:",
+      "choices": ["Spectrophotometer", "Polarimeter", "Refractometer", "HPLC"],
+      "answer": "Polarimeter",
+      "explanation": "A polarimeter measures optical rotation — the degree to which a chiral compound rotates plane-polarized light. (+) enantiomers rotate light clockwise (dextrorotatory); (-) rotate counterclockwise (levorotatory). Important for quality control of chiral drugs like amino acids, sugars, and alkaloids."
+    },
+    {
+      "id": 22,
+      "question": "Stability-indicating HPLC methods are developed to:",
+      "choices": ["Measure drug bioavailability in vivo", "Separate and quantify the drug from its degradation products", "Determine the pKa of the drug", "Measure the melting point of the drug"],
+      "answer": "Separate and quantify the drug from its degradation products",
+      "explanation": "Stability-indicating assays can accurately quantify the active drug in the presence of its degradation products. Required by regulatory agencies (FDA, ICH) for drug approval. HPLC is the most widely used method because it can separate chemically similar molecules with high sensitivity."
+    },
+    {
+      "id": 23,
+      "question": "Bioisosterism in drug design involves replacing one atom or group with another that has:",
+      "choices": ["The same molecular weight only", "Similar biological activity due to similar size, electronic properties, and shape", "Higher toxicity", "Different mechanism of action"],
+      "answer": "Similar biological activity due to similar size, electronic properties, and shape",
+      "explanation": "Bioisosteres are groups with similar physico-chemical properties (size, shape, electronic distribution) that can be interchanged while maintaining biological activity. Classic example: replacing -OH with -F, or -COOH with -SO2NH2 (sulfonamide). Used to improve metabolic stability, selectivity, or bioavailability."
+    },
+    {
+      "id": 24,
+      "question": "The reaction of a primary amine with an acid anhydride produces:",
+      "choices": ["An ester", "An amide", "A carboxylic acid", "An alcohol"],
+      "answer": "An amide",
+      "explanation": "Primary amines (-NH2) react with acid anhydrides to form amides (-NH-CO-R) and a carboxylic acid as byproduct. Acetaminophen (paracetamol) has an amide bond (acetamide). Acetylation of amino groups is also a common Phase II metabolic reaction."
+    },
+    {
+      "id": 25,
+      "question": "The infrared (IR) spectroscopy peak at approximately 1735 cm⁻¹ is characteristic of:",
+      "choices": ["O-H stretch of carboxylic acid", "C=O stretch of an ester", "N-H bend", "C-H stretch of alkane"],
+      "answer": "C=O stretch of an ester",
+      "explanation": "IR spectroscopy identifies functional groups by characteristic absorption frequencies. Key peaks: 1735 cm⁻¹ (ester C=O), 1710 cm⁻¹ (carboxylic acid C=O), 3200-3550 cm⁻¹ (O-H or N-H), 2950-3000 cm⁻¹ (C-H stretch). Used to confirm drug identity and detect impurities."
+    },
+    {
+      "id": 26,
+      "question": "Which reaction is used to test for the presence of reducing sugars in pharmaceutical analysis?",
+      "choices": ["Ninhydrin test", "Fehling's test", "Biuret test", "Molisch test"],
+      "answer": "Fehling's test",
+      "explanation": "Fehling's test uses an alkaline copper (II) solution. Reducing sugars (glucose, lactose, maltose but NOT sucrose) reduce Cu2+ to Cu2O (brick-red precipitate). The Molisch test is a general test for all carbohydrates. The Biuret test is for proteins. Ninhydrin tests for amino acids."
+    },
+    {
+      "id": 27,
+      "question": "A drug substance with a melting point significantly lower than the pure compound indicates:",
+      "choices": ["High purity", "Presence of impurities causing melting point depression", "Polymorphic form change", "High molecular weight"],
+      "answer": "Presence of impurities causing melting point depression",
+      "explanation": "According to Raoult's law, impurities lower the melting point of a crystalline substance (melting point depression). The greater the impurity, the lower the melting point. A sharp, expected melting point indicates high purity. This is a simple purity test used in pharmacopoeias."
+    },
+    {
+      "id": 28,
+      "question": "Microencapsulation of a drug is primarily done to:",
+      "choices": ["Increase drug toxicity", "Mask unpleasant taste and control drug release", "Decrease stability of the drug", "Reduce bioavailability"],
+      "answer": "Mask unpleasant taste and control drug release",
+      "explanation": "Microencapsulation encases drug particles in a polymer coating. Applications: masking bitter taste (chloramphenicol palmitate suspension), modified-release systems (sustained-release capsules), protecting drugs from GI degradation, preventing drug-excipient incompatibilities."
+    },
+    {
+      "id": 29,
+      "question": "The reaction of sulfonamides with nitrous acid at low temperature produces a diazonium salt used in the:",
+      "choices": ["Biuret test", "Diazotization and coupling reaction for colorimetric identification", "Fehling's test", "Kjeldahl nitrogen determination"],
+      "answer": "Diazotization and coupling reaction for colorimetric identification",
+      "explanation": "Primary aromatic amines (including sulfonamides with free -NH2) form diazonium salts with nitrous acid (NaNO2/HCl, 0-5°C). The diazonium salt couples with beta-naphthol to form an orange-red azo dye. This diazotization reaction is used as an identification test for sulfonamides."
+    },
+    {
+      "id": 30,
+      "question": "Racemization of a chiral drug during storage is clinically significant because:",
+      "choices": ["It increases solubility", "It may reduce therapeutic effect if one enantiomer is active or create a toxic enantiomer", "It has no clinical significance", "It increases drug stability"],
+      "answer": "It may reduce therapeutic effect if one enantiomer is active or create a toxic enantiomer",
+      "explanation": "Racemization converts optically pure enantiomers to a racemic mixture. This is significant if enantiomers differ in activity (thalidomide: R form is active, S form is teratogenic). Single-enantiomer drugs (esomeprazole, escitalopram) avoid this issue. Racemization in storage reduces potency of pure enantiomers."
+    },
+    {
+      "id": 31,
+      "question": "The NMR (nuclear magnetic resonance) spectroscopy is primarily used in pharmacy for:",
+      "choices": ["Measuring melting points", "Structural elucidation and confirmation of drug identity", "Determining optical rotation", "Measuring UV absorption"],
+      "answer": "Structural elucidation and confirmation of drug identity",
+      "explanation": "NMR (¹H and ¹³C) provides detailed information about the carbon-hydrogen framework of a molecule, confirming chemical structure. In pharmaceuticals, NMR verifies drug identity, detects impurities and degradation products, and studies drug-receptor or drug-excipient interactions."
+    },
+    {
+      "id": 32,
+      "question": "Amphoteric drugs possess both acidic and basic functional groups. At their isoelectric point (pI), they:",
+      "choices": ["Carry a net positive charge", "Carry a net negative charge", "Have zero net charge", "Are most soluble in organic solvents"],
+      "answer": "Have zero net charge",
+      "explanation": "At the isoelectric point (pI = (pKa1 + pKa2)/2), an amphoteric molecule has equal numbers of positive and negative charges, resulting in zero net charge. At the pI, amino acids and amphoteric drugs are least soluble in water and migrate least in an electric field."
+    },
+    {
+      "id": 33,
+      "question": "The principle behind high-performance liquid chromatography (HPLC) in reverse-phase mode is:",
+      "choices": ["Polar stationary phase and non-polar mobile phase", "Non-polar (C18) stationary phase and polar (aqueous) mobile phase", "Size-based separation", "Ion-exchange separation"],
+      "answer": "Non-polar (C18) stationary phase and polar (aqueous) mobile phase",
+      "explanation": "Reversed-phase HPLC (RP-HPLC) uses a hydrophobic (C18 or C8 silica) stationary phase with an aqueous/organic mobile phase. Non-polar compounds are retained longer; polar compounds elute first. RP-HPLC is the most widely used mode for pharmaceutical analysis of most drug molecules."
+    },
+    {
+      "id": 34,
+      "question": "Complexation of iodine with povidone (polyvinylpyrrolidone) in povidone-iodine products is done to:",
+      "choices": ["Increase iodine's antibacterial activity", "Reduce toxicity and provide sustained iodine release", "Decrease iodine's stability", "Prevent iodine absorption into the skin"],
+      "answer": "Reduce toxicity and provide sustained iodine release",
+      "explanation": "Free iodine is irritating and toxic. Complexing with povidone (PVP) reduces the free iodine concentration, decreasing irritation and increasing stability, while providing a reservoir for sustained release of free iodine (the active antimicrobial agent) to the application site."
+    },
+    {
+      "id": 35,
+      "question": "The Karl Fischer titration is specifically used to determine:",
+      "choices": ["Acid content of aspirin", "Water content in pharmaceutical preparations", "Nitrogen content", "Heavy metal impurities"],
+      "answer": "Water content in pharmaceutical preparations",
+      "explanation": "The Karl Fischer method quantitatively determines water content in pharmaceuticals. It is based on the reaction of water with iodine and sulfur dioxide in the presence of methanol and pyridine. Water content affects stability, dissolution, and microbial growth. Critical for hygroscopic drugs."
+    },
+    {
+      "id": 36,
+      "question": "Cyclodextrins are used as pharmaceutical excipients primarily to:",
+      "choices": ["Increase viscosity of liquid preparations", "Improve solubility, stability, and bioavailability of lipophilic drugs by inclusion complexation", "Act as preservatives", "Reduce pH of formulations"],
+      "answer": "Improve solubility, stability, and bioavailability of lipophilic drugs by inclusion complexation",
+      "explanation": "Cyclodextrins are cyclic oligosaccharides with a hydrophobic interior cavity that can encapsulate lipophilic drug molecules (inclusion complex). This increases aqueous solubility and stability of the drug. β-cyclodextrin is most commonly used. Applications: ophthalmic drops, oral and parenteral formulations."
+    },
+    {
+      "id": 37,
+      "question": "The reaction between carboxylic acids and alcohols to form esters is called:",
+      "choices": ["Saponification", "Fischer esterification", "Acylation", "Amide formation"],
+      "answer": "Fischer esterification",
+      "explanation": "Fischer esterification is the acid-catalyzed condensation of a carboxylic acid and alcohol to produce an ester and water. It is reversible; excess of one reactant drives equilibrium toward ester formation. Relevant in pharmacy: synthesis of aspirin (esterification of salicylic acid with acetic anhydride)."
+    },
+    {
+      "id": 38,
+      "question": "Which test is performed to check the absence of particulate matter in injectable solutions?",
+      "choices": ["Disintegration test", "Visual inspection and light obscuration particle count test", "Dissolution test", "Friability test"],
+      "answer": "Visual inspection and light obscuration particle count test",
+      "explanation": "Injectable solutions must be free of visible and sub-visible particles. Visual inspection detects gross particles. The light obscuration (HIAC) particle count test counts sub-visible particles (≥10 μm and ≥25 μm) per USP/PhilPharmacopoeia standards for large-volume parenterals."
+    },
+    {
+      "id": 39,
+      "question": "The concept of drug-receptor interaction involves:",
+      "choices": ["Covalent bonds only", "Weak reversible forces including hydrogen bonds, van der Waals, and ionic interactions", "Only hydrophobic interactions", "Disulfide bonds exclusively"],
+      "answer": "Weak reversible forces including hydrogen bonds, van der Waals, and ionic interactions",
+      "explanation": "Most drug-receptor interactions are reversible, involving multiple weak forces: ionic/electrostatic interactions (strongest), hydrogen bonds, van der Waals forces, and hydrophobic interactions. Covalent bonds form with irreversible drugs (aspirin-COX, penicillin-PBP, omeprazole-H+/K+ ATPase)."
+    },
+    {
+      "id": 40,
+      "question": "In a British Pharmacopoeia limit test for chloride, precipitation with silver nitrate produces:",
+      "choices": ["Yellow precipitate of silver iodide", "White precipitate of silver chloride (AgCl)", "Red precipitate of silver chromate", "No visible reaction"],
+      "answer": "White precipitate of silver chloride (AgCl)",
+      "explanation": "Silver nitrate (AgNO3) precipitates halides: AgCl (white), AgBr (pale yellow), AgI (yellow). In the limit test for chlorides, the opalescence of the test solution is compared against a standard. This verifies that chloride contamination does not exceed the pharmacopoeial specification."
+    },
+    {
+      "id": 41,
+      "question": "The term 'partition coefficient (P)' or 'log P' measures a drug's:",
+      "choices": ["Aqueous solubility at pH 7.4", "Distribution between an organic solvent (octanol) and water", "Rate of metabolic clearance", "Degree of protein binding"],
+      "answer": "Distribution between an organic solvent (octanol) and water",
+      "explanation": "The partition coefficient (P) = [drug in octanol]/[drug in water]. Log P quantifies lipophilicity. High log P = lipophilic = good membrane penetration but poor water solubility. The 'Rule of 5' by Lipinski states log P ≤ 5 for good oral bioavailability. Critical in drug design."
+    },
+    {
+      "id": 42,
+      "question": "Thin-layer chromatography (TLC) Rf value is calculated as:",
+      "choices": ["Distance traveled by solvent / distance traveled by compound", "Distance traveled by compound / distance traveled by solvent", "Retention time / run time", "Peak area / peak height"],
+      "answer": "Distance traveled by compound / distance traveled by solvent",
+      "explanation": "Rf = distance traveled by compound from origin / distance traveled by solvent front from origin. Rf values are characteristic for each compound in a specific solvent system. Values range from 0 to 1. Used for drug identification and purity testing in pharmacopeial methods."
+    },
+    {
+      "id": 43,
+      "question": "Diclofenac sodium is better absorbed than diclofenac acid because the salt form has:",
+      "choices": ["Higher molecular weight", "Greater lipophilicity", "Higher aqueous solubility and faster dissolution rate", "Stronger protein binding"],
+      "answer": "Higher aqueous solubility and faster dissolution rate",
+      "explanation": "Salt formation converts a weakly acidic drug (diclofenac) to its ionized sodium salt form, dramatically increasing water solubility. Faster dissolution leads to faster absorption, particularly important for poorly water-soluble BCS Class II drugs where dissolution is the rate-limiting step."
+    },
+    {
+      "id": 44,
+      "question": "Which concept explains why two drugs with similar pharmacological effects can have very different therapeutic potencies?",
+      "choices": ["Different protein binding", "Different physicochemical properties affecting receptor binding affinity", "Different molecular weights", "Different routes of administration exclusively"],
+      "answer": "Different physicochemical properties affecting receptor binding affinity",
+      "explanation": "Potency depends on affinity for the receptor (Kd) and intrinsic efficacy. Minor structural differences (functional groups, stereochemistry, chain length) alter the fit to the receptor's binding pocket. SAR studies explain why one drug binds more tightly (lower EC50, higher potency) than a structurally similar one."
+    },
+    {
+      "id": 45,
+      "question": "The principle of isotonicity in ophthalmic and parenteral preparations is based on:",
+      "choices": ["Matching the refractive index of the preparation to that of body fluid", "Matching the osmotic pressure of the preparation to that of blood or tears (approximately 308 mOsm/kg)", "Adjusting the pH to exactly 7.0", "Making the preparation sterile"],
+      "answer": "Matching the osmotic pressure of the preparation to that of blood or tears (approximately 308 mOsm/kg)",
+      "explanation": "Isotonic solutions have the same osmotic pressure as body fluids (~308 mOsm/kg, equivalent to 0.9% NaCl). Hypertonic solutions cause cell crenation (shrinkage); hypotonic solutions cause cell lysis. Isotonicity is critical for IV solutions and ophthalmic drops to prevent irritation."
+    },
+    {
+      "id": 46,
+      "question": "Photodegradation of drugs can be prevented by:",
+      "choices": ["Storing in amber/opaque containers and adding UV-absorbing excipients", "Adding antioxidants only", "Increasing temperature during storage", "Adding chelating agents"],
+      "answer": "Storing in amber/opaque containers and adding UV-absorbing excipients",
+      "explanation": "Amber glass absorbs UV light (wavelengths 290-450 nm), protecting photosensitive drugs (nitroglycerin, nifedipine, sodium nitroprusside, chlorpromazine, riboflavin). UV-absorbing excipients can be added to some formulations. Opaque packaging and light-proof storage also protect photolabile drugs."
+    },
+    {
+      "id": 47,
+      "question": "The term 'hygroscopic' describes a substance that:",
+      "choices": ["Decomposes upon exposure to heat", "Absorbs moisture from the atmosphere", "Is insoluble in water", "Has a high vapor pressure"],
+      "answer": "Absorbs moisture from the atmosphere",
+      "explanation": "Hygroscopic substances readily absorb moisture from the air. This is important in pharmacy because moisture can cause drug degradation (hydrolysis), change tablet hardness, and affect powder flow. Hygroscopic drugs (aspirin, ascorbic acid) must be stored in sealed containers with desiccants."
+    },
+    {
+      "id": 48,
+      "question": "Phase I biotransformation reactions primarily involve:",
+      "choices": ["Conjugation with endogenous molecules", "Functionalization reactions: oxidation, reduction, hydrolysis", "Formation of glucuronides", "Sulfate conjugation"],
+      "answer": "Functionalization reactions: oxidation, reduction, hydrolysis",
+      "explanation": "Phase I reactions introduce or expose functional groups (-OH, -NH2, -COOH, -SH) via oxidation, reduction, or hydrolysis. They are primarily catalyzed by CYP450 enzymes. Phase I metabolites may be more or less active. Phase II conjugation reactions follow to increase water solubility."
+    },
+    {
+      "id": 49,
+      "question": "The dissolution test for solid oral dosage forms measures:",
+      "choices": ["Drug stability under storage conditions", "Rate at which the drug dissolves from the dosage form under standardized conditions", "Drug-protein binding affinity", "Drug permeability across membranes"],
+      "answer": "Rate at which the drug dissolves from the dosage form under standardized conditions",
+      "explanation": "The dissolution test (USP <711>) simulates in vivo drug release. It measures the amount of drug that dissolves in a specified medium over time. Q value (query value) at a specified time is compared to acceptance criteria. Dissolution predicts in vivo bioavailability (IVIVC) and is used for QC release testing."
+    },
+    {
+      "id": 50,
+      "question": "When a drug contains an aromatic amine (-NH2 group), it is susceptible to which degradation pathway?",
+      "choices": ["Hydrolysis", "Photolysis causing dimerization", "Oxidation to form colored quinone-type compounds", "Racemization"],
+      "answer": "Oxidation to form colored quinone-type compounds",
+      "explanation": "Aromatic amines are susceptible to oxidation in the presence of oxygen, forming colored oxidation products (quinones, azo compounds). This causes discoloration of formulations containing drugs like procaine, sulfanilamide, and dopamine. Antioxidants and purging with inert gas (nitrogen) prevent oxidation."
+    }
+  ]
+}

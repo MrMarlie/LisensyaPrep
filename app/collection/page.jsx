@@ -10,6 +10,7 @@ const EDU_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'educatio
 const CRI_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'criminology');
 const MED_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'medical-technology');
 const NURS_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'nursing');
+const PHA_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'pharmacy');
 
 const COURSES = [
   {
@@ -66,6 +67,17 @@ const COURSES = [
     completeBorder: 'border-pink-400',
     href: '/nursing',
     modules: NURS_MODS,
+  },
+  {
+    examId: 'pharmacy',
+    label: 'Pharmacy',
+    icon: '💊',
+    color: 'from-purple-900/30 to-purple-800/10',
+    border: 'border-purple-500/40',
+    accent: 'text-purple-400',
+    completeBorder: 'border-purple-400',
+    href: '/pharmacy',
+    modules: PHA_MODS,
   },
 ];
 

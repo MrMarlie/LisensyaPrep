@@ -102,7 +102,7 @@ export default function HomePage() {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg mx-auto">
             {[
-              { value: '950+', label: 'Questions' },
+              { value: '1,250+', label: 'Questions' },
               { value: '6', label: 'Courses' },
               { value: '100%', label: 'Free' },
             ].map(({ value, label }) => (

@@ -1,0 +1,356 @@
+{
+  "module": "Module 3 - Pharmacognosy",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Pharmacognosy is the study of:",
+      "choices": ["Synthetic drug manufacturing", "Medicinal drugs obtained from natural sources including plants, animals, and microorganisms", "Drug metabolism in the body", "Drug formulation and dosage forms"],
+      "answer": "Medicinal drugs obtained from natural sources including plants, animals, and microorganisms",
+      "explanation": "Pharmacognosy (from Greek: pharmakon = drug, gnosis = knowledge) is the branch of pharmacy that deals with natural drugs — their biological, chemical, biochemical, and economic aspects. It covers plant-derived, animal-derived, and microbial drugs including their identification, preparation, and evaluation."
+    },
+    {
+      "id": 2,
+      "question": "Morphine, codeine, and other opioid alkaloids are derived from:",
+      "choices": ["Cannabis sativa", "Papaver somniferum (opium poppy)", "Cinchona bark", "Atropa belladonna"],
+      "answer": "Papaver somniferum (opium poppy)",
+      "explanation": "Opium is the dried latex from unripe seed capsules of Papaver somniferum. It contains over 25 alkaloids. Morphine (10-16%) is the principal alkaloid, followed by codeine (0.5-3%), and thebaine. Opium alkaloids are classified as phenanthrene (morphine, codeine) and benzylisoquinoline (papaverine) types."
+    },
+    {
+      "id": 3,
+      "question": "Quinine, used to treat malaria, is obtained from which plant source?",
+      "choices": ["Ipecac root", "Rauwolfia serpentina", "Cinchona bark (Cinchona species)", "Nux vomica"],
+      "answer": "Cinchona bark (Cinchona species)",
+      "explanation": "Cinchona bark (Cinchona calisaya, C. succirubra, C. ledgeriana) is the source of quinine and other cinchona alkaloids (quinidine, cinchonine, cinchonidine). They are quinoline alkaloids used as antimalarials and quinidine as an antiarrhythmic. The bark is also known as Peruvian bark or Jesuits' bark."
+    },
+    {
+      "id": 4,
+      "question": "Digitalis glycosides (digoxin, digitoxin) used in heart failure are obtained from:",
+      "choices": ["Belladonna leaves", "Foxglove leaves (Digitalis purpurea and D. lanata)", "Squill bulb", "Strophanthus seeds"],
+      "answer": "Foxglove leaves (Digitalis purpurea and D. lanata)",
+      "explanation": "Digitalis purpurea (purple foxglove) yields digitoxin; Digitalis lanata (woolly foxglove) yields digoxin. These cardiac glycosides inhibit Na+/K+ ATPase in cardiac myocytes. D. lanata is the commercial source of digoxin used today. The glycosides consist of an aglycone (genin) and sugar moieties."
+    },
+    {
+      "id": 5,
+      "question": "Alkaloids are a class of natural products characterized by:",
+      "choices": ["Basic nitrogen-containing compounds that are physiologically active", "Acidic sugar-containing compounds", "Volatile aromatic compounds", "Long-chain fatty acid esters"],
+      "answer": "Basic nitrogen-containing compounds that are physiologically active",
+      "explanation": "Alkaloids are naturally occurring organic compounds containing at least one basic nitrogen atom (derived from amino acids). They are typically physiologically active and often pharmacologically important. Examples: morphine, caffeine, nicotine, cocaine, quinine, colchicine, vincristine, berberine."
+    },
+    {
+      "id": 6,
+      "question": "The Filipino medicinal plant Blumea balsamifera (Sambong) is officially recognized for its use in:",
+      "choices": ["Treatment of hypertension", "Dissolution of kidney stones and as a diuretic", "Treatment of diabetes mellitus", "Analgesic and anti-inflammatory effects"],
+      "answer": "Dissolution of kidney stones and as a diuretic",
+      "explanation": "Sambong (Blumea balsamifera) is one of the 10 medicinal plants endorsed by the Philippine Department of Health. It is used for kidney stones (dissolution), as a diuretic, and for urinary tract problems. The active constituent is blumealactone. It is also anti-edematous."
+    },
+    {
+      "id": 7,
+      "question": "Colchicine, used in gout treatment, is derived from:",
+      "choices": ["Autumn crocus (Colchicum autumnale)", "Foxglove (Digitalis purpurea)", "Periwinkle (Catharanthus roseus)", "Ergot (Claviceps purpurea)"],
+      "answer": "Autumn crocus (Colchicum autumnale)",
+      "explanation": "Colchicine is a tropolone alkaloid obtained from Colchicum autumnale (autumn crocus or meadow saffron). It treats acute gout by inhibiting microtubule polymerization, preventing neutrophil migration to urate crystal deposits. Also used in familial Mediterranean fever."
+    },
+    {
+      "id": 8,
+      "question": "Vinca alkaloids (vincristine, vinblastine) used in cancer chemotherapy are obtained from:",
+      "choices": ["Podophyllum peltatum", "Catharanthus roseus (Vinca rosea / periwinkle)", "Taxus brevifolia (Pacific yew)", "Camptotheca acuminata"],
+      "answer": "Catharanthus roseus (Vinca rosea / periwinkle)",
+      "explanation": "Catharanthus roseus (Madagascar periwinkle, formerly Vinca rosea) contains vincristine and vinblastine. These antineoplastic alkaloids bind to tubulin and inhibit microtubule polymerization, arresting cells in metaphase. They are used in leukemia (vincristine) and Hodgkin's lymphoma (vinblastine)."
+    },
+    {
+      "id": 9,
+      "question": "Taxol (paclitaxel), an anticancer drug, was originally isolated from:",
+      "choices": ["Periwinkle plant", "Taxus brevifolia (Pacific yew) bark", "Cinchona bark", "Opium poppy"],
+      "answer": "Taxus brevifolia (Pacific yew) bark",
+      "explanation": "Paclitaxel (Taxol) was first isolated from the bark of Taxus brevifolia by Wani and Wall in 1971. It works by stabilizing microtubules (opposite to vinca alkaloids), preventing cell division. Now produced semi-synthetically from Taxus baccata needle extracts. Used in breast, ovarian, and lung cancers."
+    },
+    {
+      "id": 10,
+      "question": "Which of the Philippine Department of Health's 10 medicinal plants is used for cough and fever (particularly in children)?",
+      "choices": ["Ampalaya (Momordica charantia)", "Lagundi (Vitex negundo)", "Tsaang Gubat (Ehretia microphylla)", "Akapulko (Cassia alata)"],
+      "answer": "Lagundi (Vitex negundo)",
+      "explanation": "Lagundi (Vitex negundo) is one of the 10 DOH-endorsed Philippine medicinal plants. Clinical studies support its use as a cough and asthma remedy (anti-asthmatic, expectorant), particularly for children. The syrup from lagundi leaves is approved by BFAD/FDA Philippines. It contains casticin as a key component."
+    },
+    {
+      "id": 11,
+      "question": "Cardiac glycosides exert their positive inotropic effect through:",
+      "choices": ["Activation of beta-1 adrenergic receptors", "Inhibition of Na+/K+ ATPase, indirectly increasing intracellular calcium", "Direct calcium channel opening", "Inhibition of phosphodiesterase"],
+      "answer": "Inhibition of Na+/K+ ATPase, indirectly increasing intracellular calcium",
+      "explanation": "Cardiac glycosides inhibit Na+/K+ ATPase in cardiac myocytes. Intracellular Na+ accumulates, reducing the Na+/Ca2+ exchanger activity, leading to increased intracellular Ca2+. More Ca2+ is available for cardiac contraction (positive inotropy). This increases contractile force in heart failure."
+    },
+    {
+      "id": 12,
+      "question": "The crude drug 'Cascara sagrada' is used as a laxative. It belongs to which class of natural products?",
+      "choices": ["Tannins", "Anthraquinone glycosides", "Volatile oils", "Alkaloids"],
+      "answer": "Anthraquinone glycosides",
+      "explanation": "Cascara sagrada (Rhamnus purshiana bark) contains anthraquinone glycosides (cascarosides, barbaloin). These are hydrolyzed by colonic bacteria to active aglycones that stimulate colonic motility (stimulant laxatives). Other anthraquinone-containing laxatives: senna, aloe, rhubarb, frangula."
+    },
+    {
+      "id": 13,
+      "question": "The Philippine plant Niyog-niyogan (Quisqualis indica) is primarily used for:",
+      "choices": ["Urinary tract infections", "Anthelmintic (expulsion of intestinal worms)", "Diabetes management", "Wound healing"],
+      "answer": "Anthelmintic (expulsion of intestinal worms)",
+      "explanation": "Niyog-niyogan (Quisqualis indica / Combretum indicum) is one of the DOH 10 medicinal plants used as an anthelmintic for ascariasis (roundworm) and other intestinal parasite infections. The seeds contain quisqualic acid. It is taken orally and should not be used for 3 consecutive days without medical advice."
+    },
+    {
+      "id": 14,
+      "question": "Penicillin was first discovered from which microorganism?",
+      "choices": ["Streptomyces griseus", "Penicillium notatum (now P. chrysogenum)", "Cephalosporium acremonium", "Bacillus subtilis"],
+      "answer": "Penicillium notatum (now P. chrysogenum)",
+      "explanation": "Alexander Fleming discovered penicillin in 1928 from Penicillium notatum (now P. chrysogenum), a mold that contaminated his Staphylococcus culture plates. Florey and Chain later purified it. Streptomyces griseus produces streptomycin; Cephalosporium produces cephalosporins."
+    },
+    {
+      "id": 15,
+      "question": "Volatile oils (essential oils) in plants are characterized by:",
+      "choices": ["High boiling points and non-volatile nature", "Volatility at room temperature and distinctive aromatic odor", "Insolubility in alcohol", "Fixed nature (non-evaporating)"],
+      "answer": "Volatility at room temperature and distinctive aromatic odor",
+      "explanation": "Volatile oils evaporate at room temperature (unlike fixed oils), have distinctive odors, are typically liquid at room temperature, and are mainly composed of terpenes and terpenoids. They are steam-distillable. Examples: peppermint oil (menthol), clove oil (eugenol), cinnamon oil, camphor."
+    },
+    {
+      "id": 16,
+      "question": "Atropine and scopolamine are tropane alkaloids obtained from which plant family?",
+      "choices": ["Solanaceae (nightshade family)", "Papaveraceae (poppy family)", "Fabaceae (legume family)", "Amaryllidaceae"],
+      "answer": "Solanaceae (nightshade family)",
+      "explanation": "Tropane alkaloids (atropine, scopolamine, hyoscyamine) are found in Solanaceae: Atropa belladonna (deadly nightshade), Hyoscyamus niger (henbane), and Datura stramonium (jimsonweed). Atropine is an antimuscarinic; scopolamine is used for motion sickness and as a sedative."
+    },
+    {
+      "id": 17,
+      "question": "Tannins in plants are primarily characterized by their ability to:",
+      "choices": ["Fluoresce under UV light", "Precipitate proteins and form astringent complexes", "Produce alkaline reactions", "Act as reducing agents for copper"],
+      "answer": "Precipitate proteins and form astringent complexes",
+      "explanation": "Tannins are polyphenolic compounds that precipitate proteins, alkaloids, and heavy metal ions. Their protein-precipitating ability causes astringency (puckering sensation). Pharmaceutically, they are used as astringents, antidiarrheals, and in wound healing. Types: hydrolyzable (gallotannins, ellagitannins) and condensed (proanthocyanidins)."
+    },
+    {
+      "id": 18,
+      "question": "Ampalaya (Momordica charantia), endorsed by DOH Philippines, is primarily used for:",
+      "choices": ["Hypertension", "Lowering blood glucose in diabetes management", "Cough and fever", "Skin infections"],
+      "answer": "Lowering blood glucose in diabetes management",
+      "explanation": "Ampalaya (bitter gourd/bitter melon) is endorsed by DOH Philippines for the management of mild non-insulin dependent diabetes mellitus (Type 2). The active constituents include charantin, vicine, and polypeptide-P, which have hypoglycemic effects. Available as capsules and as fresh juice."
+    },
+    {
+      "id": 19,
+      "question": "The drug Reserpine, an early antihypertensive, is obtained from:",
+      "choices": ["Curare (Chondrodendron tomentosum)", "Rauwolfia serpentina (Indian snakeroot)", "Ergot fungus", "Belladonna"],
+      "answer": "Rauwolfia serpentina (Indian snakeroot)",
+      "explanation": "Reserpine is an indole alkaloid from Rauwolfia serpentina roots. It depletes catecholamines (norepinephrine, dopamine, serotonin) from storage vesicles in nerve terminals, causing antihypertensive and antipsychotic effects. Largely replaced by newer agents due to depression side effects."
+    },
+    {
+      "id": 20,
+      "question": "Saponins are glycosides characterized by their ability to:",
+      "choices": ["Taste sweet and dissolve fats", "Produce persistent foam when shaken with water and lyse red blood cells", "Precipitate alkaloids", "Produce volatile aromatic vapors"],
+      "answer": "Produce persistent foam when shaken with water and lyse red blood cells",
+      "explanation": "Saponins produce persistent foam in aqueous solutions (due to surface-active properties) and cause hemolysis of red blood cells. They have a steroid or triterpenoid aglycone (sapogenin). Examples: glycyrrhizin (licorice), diosgenin (source of cortisone precursors), sarsaparilla. Used as expectorants."
+    },
+    {
+      "id": 21,
+      "question": "The standardization of crude drugs involves:",
+      "choices": ["Measuring only the color and odor", "Determining the identity, purity, quality, and potency using pharmacopoeial standards", "Only measuring the moisture content", "Assessing only the weight and volume"],
+      "answer": "Determining the identity, purity, quality, and potency using pharmacopoeial standards",
+      "explanation": "Drug standardization ensures consistent quality. Methods include: macroscopic and microscopic identity tests, chemical identification tests, physical constants (moisture, ash content), limit tests for impurities, and quantitative assays for active constituents. Pharmacopoeias (Phil. Pharmacopoeia, USP, BP) set standards."
+    },
+    {
+      "id": 22,
+      "question": "Akapulko (Cassia alata), one of the DOH 10 medicinal plants, is primarily used for:",
+      "choices": ["Lowering blood pressure", "Antifungal treatment of skin infections (ringworm, tinea)", "Treatment of diarrhea", "Anti-inflammatory treatment of arthritis"],
+      "answer": "Antifungal treatment of skin infections (ringworm, tinea)",
+      "explanation": "Akapulko (ringworm bush/acapulco) contains chrysophanic acid and other anthraquinones with antifungal properties. DOH endorses it for the topical treatment of fungal skin infections: ringworm (tinea), scabies, and athlete's foot. Prepared as ointment or cream from fresh leaves."
+    },
+    {
+      "id": 23,
+      "question": "Strychnine, a highly toxic alkaloid used in minute doses as a CNS stimulant, is obtained from:",
+      "choices": ["Cacao beans", "Nux vomica (Strychnos nux-vomica) seeds", "Coffee beans", "Tea leaves"],
+      "answer": "Nux vomica (Strychnos nux-vomica) seeds",
+      "explanation": "Strychnine and brucine are indole alkaloids from the seeds of Strychnos nux-vomica. Strychnine antagonizes glycine receptors in the spinal cord, causing convulsions. It was historically used in minute doses as a tonic/stimulant and for rodent control. Brucine is less potent."
+    },
+    {
+      "id": 24,
+      "question": "The active principle of Aloe vera with laxative properties is:",
+      "choices": ["Aloe-emodin (an anthraquinone glycoside)", "Aloesin (a chromone)", "Acemannan (a polysaccharide)", "Barbaloin only"],
+      "answer": "Aloe-emodin (an anthraquinone glycoside)",
+      "explanation": "The latex (aloin/barbaloin, aloe-emodin) from Aloe vera leaf has stimulant laxative effects via anthraquinone glycosides. The gel (inner leaf pulp) contains acemannan (a polysaccharide) used for wound healing and burns. The latex and gel have different indications."
+    },
+    {
+      "id": 25,
+      "question": "Caffeine, the methylxanthine found in coffee, is classified as a:",
+      "choices": ["Alkaloid", "Glycoside", "Tannin", "Fixed oil"],
+      "answer": "Alkaloid",
+      "explanation": "Caffeine (1,3,7-trimethylxanthine) is a purine alkaloid found in coffee (Coffea arabica), tea (Camellia sinensis), cocoa (Theobroma cacao), cola (Cola nitida), guarana, and mate. It acts as an adenosine receptor antagonist, producing CNS stimulation, diuresis, and bronchodilation."
+    },
+    {
+      "id": 26,
+      "question": "Senna is used as a stimulant laxative. The active constituents are stored in the plant as:",
+      "choices": ["Free anthraquinones", "Anthraquinone glycosides (sennosides A and B)", "Volatile oils", "Alkaloids"],
+      "answer": "Anthraquinone glycosides (sennosides A and B)",
+      "explanation": "Senna (Cassia acutifolia, C. angustifolia) leaves and pods contain sennosides A and B (dianthrone glycosides). These are hydrolyzed by intestinal bacteria to rheinanthrone, which stimulates colonic peristalsis and inhibits water reabsorption. Action begins in 6-12 hours."
+    },
+    {
+      "id": 27,
+      "question": "The process of extracting essential oils from plant material by passage of steam through the plant is called:",
+      "choices": ["Cold expression", "Solvent extraction", "Steam distillation", "Maceration"],
+      "answer": "Steam distillation",
+      "explanation": "Steam distillation passes steam through plant material, vaporizing the volatile oil. The steam-oil vapor is condensed to yield water (hydrosol) and the volatile oil (essential oil). Used for thermolabile oils that would decompose at their normal boiling points. Cold expression is used for citrus peel oils."
+    },
+    {
+      "id": 28,
+      "question": "Ipecac (Cephaelis ipecacuanha) root contains emetine, which is used for:",
+      "choices": ["Antimalarial treatment", "Induction of emesis and treatment of amoebic dysentery", "Antihypertensive treatment", "Analgesic effect"],
+      "answer": "Induction of emesis and treatment of amoebic dysentery",
+      "explanation": "Emetine is an isoquinoline alkaloid from ipecac root. Ipecac syrup induces vomiting (emetic) by local gastric irritation and CNS stimulation. Emetine hydrochloride is also used parenterally for amoebiasis. Use as an emetic has declined (now not recommended for home use in poisoning)."
+    },
+    {
+      "id": 29,
+      "question": "Glycosides are defined as compounds that yield a sugar (glycone) and a non-sugar part (aglycone or genin) upon:",
+      "choices": ["Oxidation", "Hydrolysis", "Fermentation", "Distillation"],
+      "answer": "Hydrolysis",
+      "explanation": "Glycosides are compounds in which a sugar moiety (glycone) is attached to a non-sugar aglycone (genin) via a glycosidic bond. Hydrolysis (by acid, enzymes, or intestinal bacteria) cleaves the glycosidic bond, releasing the aglycone which is often the pharmacologically active component."
+    },
+    {
+      "id": 30,
+      "question": "Tsaang Gubat (Ehretia microphylla), one of DOH's 10 medicinal plants, is used for:",
+      "choices": ["Kidney stones", "Toothache and diarrhea (as mouthwash/gargle and oral antidiarrheal)", "Fungal infections", "High blood pressure"],
+      "answer": "Toothache and diarrhea (as mouthwash/gargle and oral antidiarrheal)",
+      "explanation": "Tsaang Gubat (Carmona retusa/wild tea) is endorsed by DOH for diarrhea and as a mouthwash for toothache and mouth infections. The leaves contain rosmarinic acid, chlorogenic acid, and tannins that have antidiarrheal and antimicrobial properties. Prepared as a tea decoction."
+    },
+    {
+      "id": 31,
+      "question": "Ergot alkaloids (ergotamine, ergonovine) are produced by which fungus growing on rye?",
+      "choices": ["Aspergillus flavus", "Claviceps purpurea", "Rhizopus stolonifer", "Penicillium chrysogenum"],
+      "answer": "Claviceps purpurea",
+      "explanation": "Claviceps purpurea is a parasitic fungus that infects rye (and other cereals), producing sclerotia (ergot). Ergot contains many alkaloids: ergotamine (antimigraine, vasoconstrictor), ergonovine (uterotonic), ergocryptine, bromocriptine. Ergotism (St. Anthony's Fire) results from eating ergot-contaminated grain."
+    },
+    {
+      "id": 32,
+      "question": "Volatile oils are stored in plants in specialized structures called:",
+      "choices": ["Rhizomes", "Oil glands, canals, ducts, and trichomes (secretary cells)", "Xylem vessels", "Cortex cells"],
+      "answer": "Oil glands, canals, ducts, and trichomes (secretary cells)",
+      "explanation": "Essential oils are stored in secretory structures: oil glands (Myrtaceae - eucalyptus, cloves), oil canals/vittae (Umbelliferae - dill, fennel), oil ducts (Pinaceae - turpentine), and glandular trichomes/hairs (Lamiaceae - mint, lavender). Location helps identify plant families in microscopy."
+    },
+    {
+      "id": 33,
+      "question": "Peppermint oil (Mentha piperita) contains menthol as the main constituent, which produces a cooling sensation by:",
+      "choices": ["Stimulating cold thermoreceptors (TRPM8) without actually lowering temperature", "Inhibiting pain receptors directly", "Causing vasoconstriction", "Releasing histamine from mast cells"],
+      "answer": "Stimulating cold thermoreceptors (TRPM8) without actually lowering temperature",
+      "explanation": "Menthol activates TRPM8 cold-sensitive transient receptor potential channels, producing a cooling sensation without actual temperature change. This explains peppermint's use in topical analgesics, cough drops, and toothpaste. Peppermint oil is also antispasmodic for IBS."
+    },
+    {
+      "id": 34,
+      "question": "The Bayberry (Morella cerifera) wax is an example of which type of natural wax used in pharmacy?",
+      "choices": ["Insect wax", "Mineral wax", "Vegetable wax", "Marine wax"],
+      "answer": "Vegetable wax",
+      "explanation": "Vegetable waxes are esters of long-chain fatty acids and fatty alcohols. Examples: carnauba wax (Copernicia prunifera palm), bayberry wax, jojoba wax, candelilla wax. Used in pharmacy as coating agents, tablet binders, suppository bases, and in cosmetics. Carnauba wax is used for tablet film coating."
+    },
+    {
+      "id": 35,
+      "question": "The active constituent responsible for the anti-inflammatory and hepatoprotective effects of Milk Thistle (Silybum marianum) is:",
+      "choices": ["Silymarin (a flavonolignan complex)", "Berberine", "Curcumin", "Quercetin"],
+      "answer": "Silymarin (a flavonolignan complex)",
+      "explanation": "Silymarin is a complex of flavonolignans (silybin, silydianin, silychristin) from milk thistle seeds. It stabilizes hepatocyte membranes, acts as an antioxidant, and stimulates protein synthesis in liver cells. Used for toxic liver damage (Amanita poisoning), alcoholic liver disease, and chronic hepatitis."
+    },
+    {
+      "id": 36,
+      "question": "Opium alkaloids are classified into two chemical groups: phenanthrene and benzylisoquinoline. Morphine belongs to which group?",
+      "choices": ["Benzylisoquinoline", "Phenanthrene", "Indole alkaloids", "Purine alkaloids"],
+      "answer": "Phenanthrene",
+      "explanation": "Morphine, codeine, and thebaine are phenanthrene alkaloids (have a morphine ring system with 5 rings including phenanthrene). Papaverine is a benzylisoquinoline alkaloid with antispasmodic but no analgesic activity. Phenanthrene alkaloids have narcotic properties."
+    },
+    {
+      "id": 37,
+      "question": "Psyllium husk (Plantago ovata seeds) is classified as which type of laxative?",
+      "choices": ["Stimulant laxative", "Osmotic laxative", "Bulk-forming laxative", "Lubricant laxative"],
+      "answer": "Bulk-forming laxative",
+      "explanation": "Psyllium husk is rich in mucilaginous polysaccharides that absorb water and swell in the intestine, increasing fecal bulk and stimulating peristalsis. Unlike stimulant laxatives, bulk-forming agents are safe for long-term use and also used to lower cholesterol. Also found in Isabgol husk."
+    },
+    {
+      "id": 38,
+      "question": "Curare, used historically as an arrow poison and now as a muscle relaxant precursor, is derived from:",
+      "choices": ["Strychnos toxifera and Chondrodendron tomentosum", "Atropa belladonna", "Erythroxylum coca", "Papaver somniferum"],
+      "answer": "Strychnos toxifera and Chondrodendron tomentosum",
+      "explanation": "Curare (South American arrow poison) is a mixture of alkaloids from Strychnos toxifera (containing toxiferine) and Chondrodendron tomentosum (containing tubocurarine). Tubocurarine was the first non-depolarizing neuromuscular blocker. It blocks nicotinic receptors at the NMJ, causing skeletal muscle relaxation."
+    },
+    {
+      "id": 39,
+      "question": "The 10 DOH-endorsed Philippine medicinal plants include all EXCEPT:",
+      "choices": ["Lagundi", "Sambong", "Herba buena", "Ginseng"],
+      "answer": "Ginseng",
+      "explanation": "The 10 DOH-endorsed Philippine medicinal plants are: Lagundi, Ampalaya, Sambong, Ulasimang Bato (pansit-pansitan), Bawang (garlic), Bayabas (guava), Tsaang Gubat, Yerba Buena (herba buena), Akapulko, and Niyog-niyogan. Ginseng is not part of this list — it is a traditional Chinese/Korean medicine."
+    },
+    {
+      "id": 40,
+      "question": "Artemisinins, the most rapidly acting antimalarials, are sesquiterpene lactones derived from:",
+      "choices": ["Cinchona bark", "Sweet wormwood (Artemisia annua)", "Neem tree (Azadirachta indica)", "Ipecac root"],
+      "answer": "Sweet wormwood (Artemisia annua)",
+      "explanation": "Artemisinin is a sesquiterpene lactone endoperoxide from Artemisia annua (sweet wormwood / qing hao). The Nobel Prize in Physiology or Medicine 2015 was awarded to Tu Youyou for discovering artemisinins. They act faster than all other antimalarials and are now formulated as ACTs (artemisinin combination therapies)."
+    },
+    {
+      "id": 41,
+      "question": "Fixed oils and fats from plant and animal sources are primarily composed of:",
+      "choices": ["Sterols and terpenes", "Triglycerides (glycerol esters of fatty acids)", "Polysaccharides", "Proteins"],
+      "answer": "Triglycerides (glycerol esters of fatty acids)",
+      "explanation": "Fixed oils and fats are triglycerides (triacylglycerols) — esters of glycerol with three fatty acid molecules. Unlike volatile oils, they are non-volatile and leave a permanent grease stain. Pharmaceutical uses: as solvents for fat-soluble vitamins, bases for ointments (castor oil, cottonseed oil), and in emulsions."
+    },
+    {
+      "id": 42,
+      "question": "Bayabas (Psidium guajava / guava) is endorsed by DOH Philippines primarily for:",
+      "choices": ["Lowering blood sugar", "Antiseptic wound cleaning and treatment of diarrhea", "Relief of arthritis pain", "Treatment of hypertension"],
+      "answer": "Antiseptic wound cleaning and treatment of diarrhea",
+      "explanation": "Bayabas (guava) leaves contain flavonoids (quercetin) and tannins with antimicrobial and antidiarrheal properties. The decoction is used as a wound cleanser/antiseptic and for mild diarrhea. It is also used as a gargle for mouth infections. Available as soap and cream preparations."
+    },
+    {
+      "id": 43,
+      "question": "The drug podophyllotoxin, used to treat genital warts, is derived from:",
+      "choices": ["Mayapple root (Podophyllum peltatum)", "Pacific yew bark", "Opium poppy", "Autumn crocus"],
+      "answer": "Mayapple root (Podophyllum peltatum)",
+      "explanation": "Podophyllum resin from Podophyllum peltatum (American mayapple) contains podophyllotoxin. It inhibits microtubule assembly and is used topically for condyloma acuminata (genital warts). Semi-synthetic derivatives etoposide and teniposide (topoisomerase II inhibitors) are used in cancer chemotherapy."
+    },
+    {
+      "id": 44,
+      "question": "The glycoalkaloid solanine found in green potatoes (Solanum tuberosum) is toxic because it:",
+      "choices": ["Stimulates GABA receptors causing sedation", "Inhibits acetylcholinesterase, causing cholinergic toxicity", "Activates histamine receptors", "Blocks calcium channels"],
+      "answer": "Inhibits acetylcholinesterase, causing cholinergic toxicity",
+      "explanation": "Solanine inhibits acetylcholinesterase (like organophosphates), allowing ACh accumulation at synapses. It also disrupts cell membranes by binding cholesterol. Symptoms of green potato poisoning: nausea, vomiting, diarrhea, neurological symptoms. Green areas of potatoes should be removed before consumption."
+    },
+    {
+      "id": 45,
+      "question": "Ulasimang Bato (Peperomia pellucida / pansit-pansitan), one of the DOH 10, is used for:",
+      "choices": ["Antibacterial for UTI", "Treatment of gout and arthritis (uric acid lowering)", "Anti-asthmatic effects", "Treatment of fungal infections"],
+      "answer": "Treatment of gout and arthritis (uric acid lowering)",
+      "explanation": "Ulasimang Bato (Peperomia pellucida, pansit-pansitan) is DOH-endorsed for the management of gout and arthritis. Studies show it can lower serum uric acid levels. The fresh plant is used as a tea decoction. It contains apiol, dillapiole, and other bioactive compounds."
+    },
+    {
+      "id": 46,
+      "question": "Garlic (Allium sativum / Bawang), one of the DOH 10 medicinal plants, exerts its cardiovascular effects primarily through:",
+      "choices": ["Allicin and related organosulfur compounds reducing cholesterol and blood pressure", "Flavonoids blocking calcium channels", "Saponins inhibiting platelet aggregation", "Alkaloids inhibiting ACE"],
+      "answer": "Allicin and related organosulfur compounds reducing cholesterol and blood pressure",
+      "explanation": "When garlic is crushed, alliinase enzyme converts alliin to allicin (diallyl thiosulfinate) and other organosulfur compounds. Allicin and its derivatives (diallyl disulfide, S-allyl cysteine) have hypolipidemic, antiplatelet, antihypertensive, and antimicrobial effects. DOH endorses it for hypercholesterolemia."
+    },
+    {
+      "id": 47,
+      "question": "The test used to detect starch in plant material is:",
+      "choices": ["Dragendorff's reagent", "Lugol's iodine solution", "Mayer's reagent", "Fehling's solution"],
+      "answer": "Lugol's iodine solution",
+      "explanation": "Starch forms a deep blue-black complex with Lugol's iodine solution (I2/KI). This is used to detect starch in plant tissues microscopically and analytically. Heating breaks the complex (color disappears), cooling restores it. Used in quality control of starch-containing crude drugs."
+    },
+    {
+      "id": 48,
+      "question": "Morphine is contraindicated in head injury patients because it:",
+      "choices": ["Decreases blood pressure dangerously", "Causes respiratory depression and increases intracranial pressure via CO2 retention", "Is directly toxic to neurons", "Causes seizures at therapeutic doses"],
+      "answer": "Causes respiratory depression and increases intracranial pressure via CO2 retention",
+      "explanation": "Morphine causes dose-dependent respiratory depression. CO2 retention (from hypoventilation) causes cerebral vasodilation, increasing intracranial pressure (ICP). In head injury, raised ICP is already a concern, making morphine potentially dangerous. Additionally, morphine causes miosis (masking pupillary responses)."
+    },
+    {
+      "id": 49,
+      "question": "Yerba Buena (Clinopodium douglasii / Satureja douglasii), one of the DOH 10 plants, is used as:",
+      "choices": ["An antifungal for skin diseases", "An analgesic and antipyretic", "A diuretic for kidney stones", "An antihypertensive"],
+      "answer": "An analgesic and antipyretic",
+      "explanation": "Yerba Buena (mint family) is DOH-endorsed as an analgesic (for headaches, toothaches, muscle pain) and antipyretic (for fever). The leaves contain pulegone and other volatile compounds. Used as a tea decoction or applied topically. It also has antispasmodic effects."
+    },
+    {
+      "id": 50,
+      "question": "Alkaloids are generally detected in plant extracts using which group of general precipitation reagents?",
+      "choices": ["Fehling's and Benedict's reagents", "Dragendorff's, Mayer's, and Wagner's reagents", "Ninhydrin and Biuret reagents", "FeCl3 and ferricyanide reagents"],
+      "answer": "Dragendorff's, Mayer's, and Wagner's reagents",
+      "explanation": "Alkaloidal precipitation reagents form insoluble complexes with alkaloids. Dragendorff's (potassium bismuth iodide — orange precipitate), Mayer's (potassium mercuric iodide — white/cream precipitate), and Wagner's (iodine-potassium iodide — brown precipitate). Two positive results from three tests confirm alkaloid presence."
+    }
+  ]
+}
