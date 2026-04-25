@@ -103,7 +103,7 @@ export default function HomePage() {
           <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg mx-auto">
             {[
               { value: '950+', label: 'Questions' },
-              { value: '5', label: 'Courses' },
+              { value: '6', label: 'Courses' },
               { value: '100%', label: 'Free' },
             ].map(({ value, label }) => (
               <div key={label} className="text-center">
@@ -212,17 +212,21 @@ export default function HomePage() {
             </div>
           </Link>
 
-          {/* Coming soon placeholders */}
-          {['Pharmacy'].map((exam) => (
-            <div key={exam} className="w-full bg-white/5 border border-white/10 rounded-2xl p-6 opacity-50 cursor-not-allowed text-center">
-              <div className="text-5xl mb-4 grayscale">📋</div>
-              <h3 className="text-xl font-bold text-white mb-2">{exam}</h3>
-              <p className="text-gray-500 text-sm mb-4">Coming soon — be the first to know when we launch!</p>
-              <span className="bg-white/10 text-gray-500 text-xs font-semibold px-3 py-1 rounded-full">
-                🔒 Coming Soon
-              </span>
+          {/* Pharmacy — Active */}
+          <Link href="/pharmacy" className="group w-full">
+            <div className="bg-gradient-to-br from-purple-900/40 to-purple-800/20 border-2 border-purple-600/40 hover:border-purple-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-purple-500/10 text-center">
+              <div className="text-5xl mb-4">💊</div>
+              <h3 className="text-xl font-bold text-white mb-2">Pharmacy</h3>
+              <p className="text-gray-400 text-sm mb-4">
+                Pharmacology, Pharmaceutical Chemistry, Pharmacy Practice, and more. Full PLE coverage.
+              </p>
+              <div className="flex items-center justify-center gap-2">
+                <span className="bg-purple-500/20 text-purple-400 text-xs font-semibold px-3 py-1 rounded-full">
+                  ✓ Available Now
+                </span>
+              </div>
             </div>
-          ))}
+          </Link>
         </div>
       </section>
 
