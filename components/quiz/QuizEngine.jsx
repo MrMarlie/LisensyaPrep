@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import BossHPBar from './BossHPBar';
 import PlayerHPBar from './PlayerHPBar';
@@ -50,6 +50,7 @@ export default function QuizEngine({ initialState, moduleInfo }) {
     return () => window.removeEventListener('beforeunload', handleBeforeUnload);
   }, [state.status]);
 
+  const questionRef = useRef(null);
   const currentQuestion = state.questions[state.currentQuestionIndex];
   const isGameOver = state.status !== 'active';
 
@@ -59,6 +60,13 @@ export default function QuizEngine({ initialState, moduleInfo }) {
       saveActiveQuizState(state);
     }
   }, [state]);
+
+  // Scroll to question card after answering so explanation doesn't push it off screen on mobile
+  useEffect(() => {
+    if (answered && questionRef.current) {
+      questionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [answered]);
 
   const handleAnswer = useCallback(
     async (choice) => {
@@ -208,7 +216,7 @@ export default function QuizEngine({ initialState, moduleInfo }) {
         })()}
 
         {/* Question Card */}
-        <div className="bg-[#0f1629] rounded-2xl p-5 sm:p-7 border border-white/10">
+        <div ref={questionRef} className="bg-[#0f1629] rounded-2xl p-5 sm:p-7 border border-white/10">
           <div className="flex items-start gap-3 mb-6">
             <span className="bg-yellow-400/20 text-yellow-400 font-bold text-xs px-2 py-1 rounded-lg whitespace-nowrap mt-0.5">
               Q{state.currentQuestionIndex + 1}

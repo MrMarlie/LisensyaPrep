@@ -14,6 +14,8 @@ const TAG_COLORS = {
   'Nursing': 'bg-pink-500/10 text-pink-400',
   'Criminology': 'bg-red-500/10 text-red-400',
   'Education': 'bg-violet-500/10 text-violet-400',
+  'Medical Technology': 'bg-sky-500/10 text-sky-400',
+  'Pharmacy': 'bg-fuchsia-500/10 text-fuchsia-400',
 };
 
 const CATEGORIES = [

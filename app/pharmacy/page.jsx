@@ -128,6 +128,29 @@ export default function PharmacyPage() {
           </div>
         </div>
       </section>
+
+      {/* Articles */}
+      <section className="py-14 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-2">PLE Study Guides</h2>
+        <p className="text-gray-400 mb-8">Free reviewer articles for the Pharmacy Licensure Examination.</p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <Link href="/pharmacy/ple-coverage-2026" className="group bg-white/5 border border-white/10 hover:border-purple-500/40 rounded-2xl p-6 transition-colors">
+            <p className="text-purple-400 text-xs font-semibold uppercase tracking-wide mb-2">PLE Hub</p>
+            <h3 className="text-white font-bold text-base leading-snug group-hover:text-purple-400 transition-colors">PLE Coverage 2026: Complete Subject Breakdown</h3>
+            <p className="text-gray-500 text-xs mt-2">9 min read</p>
+          </Link>
+          <Link href="/pharmacy/pharmacology-reviewer" className="group bg-white/5 border border-white/10 hover:border-purple-500/40 rounded-2xl p-6 transition-colors">
+            <p className="text-purple-400 text-xs font-semibold uppercase tracking-wide mb-2">Reviewer</p>
+            <h3 className="text-white font-bold text-base leading-snug group-hover:text-purple-400 transition-colors">Pharmacology Reviewer for PLE Philippines 2026</h3>
+            <p className="text-gray-500 text-xs mt-2">12 min read</p>
+          </Link>
+          <Link href="/pharmacy/pharmacy-law-ethics-reviewer" className="group bg-white/5 border border-white/10 hover:border-purple-500/40 rounded-2xl p-6 transition-colors">
+            <p className="text-purple-400 text-xs font-semibold uppercase tracking-wide mb-2">Reviewer</p>
+            <h3 className="text-white font-bold text-base leading-snug group-hover:text-purple-400 transition-colors">Pharmacy Law and Ethics Reviewer for PLE 2026</h3>
+            <p className="text-gray-500 text-xs mt-2">10 min read</p>
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }

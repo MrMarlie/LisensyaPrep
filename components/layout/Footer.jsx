@@ -29,10 +29,10 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="/agriculture" className="hover:text-yellow-400 transition-colors">Agriculture</Link></li>
               <li><Link href="/education" className="hover:text-yellow-400 transition-colors">Education (LET)</Link></li>
-              <li><span className="text-gray-600 cursor-not-allowed">Nursing (Soon)</span></li>
+              <li><Link href="/nursing" className="hover:text-yellow-400 transition-colors">Nursing</Link></li>
               <li><Link href="/criminology" className="hover:text-yellow-400 transition-colors">Criminology</Link></li>
               <li><Link href="/medical-technology" className="hover:text-yellow-400 transition-colors">Medical Technology</Link></li>
-              <li><span className="text-gray-600 cursor-not-allowed">Pharmacy (Soon)</span></li>
+              <li><Link href="/pharmacy" className="hover:text-yellow-400 transition-colors">Pharmacy</Link></li>
             </ul>
           </div>
 
