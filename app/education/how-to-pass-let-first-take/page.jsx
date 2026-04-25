@@ -34,7 +34,7 @@ const SCHEMA = {
 };
 
 function formatInline(text) {
-  let result = text
+  return text
     .replace(
       /\[([^\]]+)\]\((https?:\/\/[^)]+|\/[^)]*)\)/g,
       (_, t, url) =>
@@ -43,13 +43,6 @@ function formatInline(text) {
     .replace(/\*\*(.+?)\*\*/g, '<strong class="text-white font-semibold">$1</strong>')
     .replace(/\*([^*]+)\*/g, '<em class="text-gray-400 italic">$1</em>')
     .replace(/`(.+?)`/g, '<code class="bg-white/10 px-1 rounded text-yellow-300 text-xs">$1</code>');
-  return result.replace(
-    /(?<![">])\b((?:https?:\/\/)?(?:www\.)?[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*\.(?:gov\.ph|com\.ph|edu\.ph|org\.ph|com|net|org|ph)(?:\/[^\s<>"']*)?)\b/g,
-    (url) => {
-      const href = /^https?:\/\//.test(url) ? url : `https://${url}`;
-      return `<a href="${href}" target="_blank" rel="noopener noreferrer" class="text-yellow-400 hover:text-yellow-300 underline underline-offset-2">${url}</a>`;
-    }
-  );
 }
 
 function renderContent(content) {
