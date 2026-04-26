@@ -230,6 +230,54 @@ export default function EducationPage() {
             <p className="text-gray-500 text-xs">12-week study plan, LET coverage breakdown, and 7 proven tips from LET passers.</p>
             <span className="text-sky-400 text-sm font-semibold mt-3 inline-block group-hover:translate-x-1 transition-transform">Read →</span>
           </Link>
+          <Link href="/education/let-coverage-2026" className="group block bg-[#0f1629] border border-white/10 hover:border-sky-500/40 rounded-2xl p-5 transition-all">
+            <span className="text-xs font-semibold px-2 py-1 rounded-full bg-sky-500/10 text-sky-400">LET Coverage</span>
+            <h3 className="text-white font-bold mt-3 mb-2 group-hover:text-sky-400 transition-colors leading-snug">
+              LET Coverage 2026: Complete Subject Breakdown for the Teaching Board Exam
+            </h3>
+            <p className="text-gray-500 text-xs">All three LET components explained with reviewer links for every topic.</p>
+            <span className="text-sky-400 text-sm font-semibold mt-3 inline-block group-hover:translate-x-1 transition-transform">Read →</span>
+          </Link>
+          <Link href="/education/let-secondary-major-filipino-reviewer" className="group block bg-[#0f1629] border border-white/10 hover:border-sky-500/40 rounded-2xl p-5 transition-all">
+            <span className="text-xs font-semibold px-2 py-1 rounded-full bg-violet-500/10 text-violet-400">Specialization</span>
+            <h3 className="text-white font-bold mt-3 mb-2 group-hover:text-sky-400 transition-colors leading-snug">
+              LET Secondary Major Filipino Reviewer 2026
+            </h3>
+            <p className="text-gray-500 text-xs">Kasaysayan ng wika, gramatika, panitikan, retorika, at mga pamamaraan ng pagtuturo.</p>
+            <span className="text-sky-400 text-sm font-semibold mt-3 inline-block group-hover:translate-x-1 transition-transform">Read →</span>
+          </Link>
+          <Link href="/education/let-secondary-major-science-reviewer" className="group block bg-[#0f1629] border border-white/10 hover:border-sky-500/40 rounded-2xl p-5 transition-all">
+            <span className="text-xs font-semibold px-2 py-1 rounded-full bg-violet-500/10 text-violet-400">Specialization</span>
+            <h3 className="text-white font-bold mt-3 mb-2 group-hover:text-sky-400 transition-colors leading-snug">
+              LET Secondary Major Science Reviewer 2026
+            </h3>
+            <p className="text-gray-500 text-xs">Biology, chemistry, physics, earth science, process skills, and science teaching methods.</p>
+            <span className="text-sky-400 text-sm font-semibold mt-3 inline-block group-hover:translate-x-1 transition-transform">Read →</span>
+          </Link>
+          <Link href="/education/let-secondary-major-social-studies-reviewer" className="group block bg-[#0f1629] border border-white/10 hover:border-sky-500/40 rounded-2xl p-5 transition-all">
+            <span className="text-xs font-semibold px-2 py-1 rounded-full bg-violet-500/10 text-violet-400">Specialization</span>
+            <h3 className="text-white font-bold mt-3 mb-2 group-hover:text-sky-400 transition-colors leading-snug">
+              LET Secondary Major Social Studies Reviewer 2026
+            </h3>
+            <p className="text-gray-500 text-xs">Philippine history, world history, economics, political science, geography, and teaching methods.</p>
+            <span className="text-sky-400 text-sm font-semibold mt-3 inline-block group-hover:translate-x-1 transition-transform">Read →</span>
+          </Link>
+          <Link href="/education/let-application-guide-2026" className="group block bg-[#0f1629] border border-white/10 hover:border-sky-500/40 rounded-2xl p-5 transition-all">
+            <span className="text-xs font-semibold px-2 py-1 rounded-full bg-sky-500/10 text-sky-400">LET Guide</span>
+            <h3 className="text-white font-bold mt-3 mb-2 group-hover:text-sky-400 transition-colors leading-snug">
+              How to Apply for LET via PRC LERIS 2026 (Step by Step Guide)
+            </h3>
+            <p className="text-gray-500 text-xs">Requirements checklist, LERIS steps, exam schedule, and common application mistakes.</p>
+            <span className="text-sky-400 text-sm font-semibold mt-3 inline-block group-hover:translate-x-1 transition-transform">Read →</span>
+          </Link>
+          <Link href="/education/let-passing-rate-results-2026" className="group block bg-[#0f1629] border border-white/10 hover:border-sky-500/40 rounded-2xl p-5 transition-all">
+            <span className="text-xs font-semibold px-2 py-1 rounded-full bg-sky-500/10 text-sky-400">LET Guide</span>
+            <h3 className="text-white font-bold mt-3 mb-2 group-hover:text-sky-400 transition-colors leading-snug">
+              LET Passing Rate and Results 2026 Philippines (PRC Official Data)
+            </h3>
+            <p className="text-gray-500 text-xs">Official PRC LET results data, how to check your scores, and what to do after results are released.</p>
+            <span className="text-sky-400 text-sm font-semibold mt-3 inline-block group-hover:translate-x-1 transition-transform">Read →</span>
+          </Link>
         </div>
       </section>
     </div>
