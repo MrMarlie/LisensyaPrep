@@ -119,6 +119,11 @@ export default function NursingPage() {
             { title: 'PNLE Coverage 2026', desc: 'Complete topic breakdown and exam structure', href: '/nursing/pnle-coverage-2026' },
             { title: 'Community Health Nursing Reviewer', desc: 'DOH programs, EPI vaccines, epidemiology, family planning', href: '/nursing/community-health-nursing-reviewer' },
             { title: 'Medical-Surgical Nursing Reviewer', desc: 'Cardiovascular, respiratory, neuro, GI, and renal nursing', href: '/nursing/medical-surgical-nursing-reviewer' },
+            { title: 'Psychiatric Nursing Reviewer', desc: 'Therapeutic communication, disorders, psychopharmacology, crisis intervention', href: '/nursing/psychiatric-nursing-reviewer' },
+            { title: 'Maternal and Child Nursing Reviewer', desc: 'Labor stages, APGAR, postpartum care, child milestones', href: '/nursing/maternal-child-nursing-reviewer' },
+            { title: 'PNLE 3-Month Study Plan', desc: 'Week-by-week self-review plan for the nursing board exam', href: '/nursing/pnle-3-month-study-plan' },
+            { title: 'PNLE Application Guide 2026', desc: 'Step by step guide to applying via PRC LERIS', href: '/nursing/pnle-application-guide-2026' },
+            { title: 'PNLE Passing Rate and Results 2026', desc: 'Official PRC results data, passing rates, and what to do next', href: '/nursing/pnle-passing-rate-results-2026' },
           ].map(({ title, desc, href }) => (
             <a key={href} href={href} className="group bg-[#0f1629] border border-white/10 hover:border-pink-500/40 rounded-2xl p-5 transition-all">
               <p className="text-white font-bold text-sm mb-1 group-hover:text-pink-400 transition-colors">{title}</p>
