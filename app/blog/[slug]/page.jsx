@@ -12,8 +12,8 @@ export async function generateMetadata({ params }) {
   const post = BLOG_POSTS.find((p) => p.slug === params.slug);
   if (!post) return {};
   return buildMetadata({
-    title: post.title,
-    description: post.excerpt,
+    title: post.metaTitle || post.title,
+    description: post.metaDescription || post.excerpt,
     path: `/blog/${post.slug}`,
   });
 }
