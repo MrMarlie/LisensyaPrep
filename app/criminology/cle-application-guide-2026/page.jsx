@@ -4,12 +4,19 @@ import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
 
-export const metadata = buildMetadata({
-  title: 'How to Apply for CLE via PRC LERIS 2026 Step by Step Guide Philippines',
+const _cleAppMeta = buildMetadata({
+  title: 'CLE Requirements 2026: How to Apply for the Criminology Board Exam',
   description:
-    'Planning to take the criminology board exam? This step by step guide walks you through how to apply for the CLE via PRC LERIS in 2026 including requirements and deadlines.',
+    'Complete CLE requirements and step-by-step application guide for 2026. Covers documents needed, PRC LERIS walkthrough, exam schedule, and deadlines for the August 2026 criminology board exam.',
   path: '/criminology/cle-application-guide-2026',
 });
+const _cleAppTitle = 'CLE Requirements 2026: How to Apply for the Criminology Board Exam | LisensyaPrep';
+export const metadata = {
+  ..._cleAppMeta,
+  title: { absolute: _cleAppTitle },
+  openGraph: { ..._cleAppMeta.openGraph, title: _cleAppTitle },
+  twitter: { ..._cleAppMeta.twitter, title: _cleAppTitle },
+};
 
 const SCHEMA = {
   '@context': 'https://schema.org',
