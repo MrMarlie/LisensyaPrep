@@ -11,11 +11,17 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const post = BLOG_POSTS.find((p) => p.slug === params.slug);
   if (!post) return {};
-  return buildMetadata({
-    title: post.metaTitle || post.title,
+  const meta = buildMetadata({
+    title: post.title,
     description: post.metaDescription || post.excerpt,
     path: `/blog/${post.slug}`,
   });
+  if (post.metaTitle) {
+    meta.title = { absolute: post.metaTitle };
+    if (meta.openGraph) meta.openGraph.title = post.metaTitle;
+    if (meta.twitter) meta.twitter.title = post.metaTitle;
+  }
+  return meta;
 }
 
 function formatInline(text) {
