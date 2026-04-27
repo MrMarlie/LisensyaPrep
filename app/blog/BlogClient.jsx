@@ -10,6 +10,7 @@ const TAG_COLORS = {
   'Soil Science': 'bg-amber-500/10 text-amber-400',
   'Economics': 'bg-blue-500/10 text-blue-400',
   'Crop Science': 'bg-green-500/10 text-green-400',
+  'Agriculture': 'bg-lime-500/10 text-lime-400',
   'Board Exam Guide': 'bg-purple-500/10 text-purple-400',
   'Nursing': 'bg-pink-500/10 text-pink-400',
   'Criminology': 'bg-red-500/10 text-red-400',
@@ -34,7 +35,7 @@ const CATEGORY_TAG_MAP = {
   'Nursing': ['Nursing'],
   'Criminology': ['Criminology'],
   'Education': ['Education'],
-  'Agriculture': ['Study Tips', 'Soil Science', 'Economics', 'Crop Science'],
+  'Agriculture': ['Agriculture', 'Study Tips', 'Soil Science', 'Economics', 'Crop Science'],
   'Pharmacy': ['Pharmacy'],
   'Medical Technology': ['Medical Technology'],
 };

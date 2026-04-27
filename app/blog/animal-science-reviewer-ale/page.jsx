@@ -1,0 +1,434 @@
+import Link from 'next/link';
+import Image from 'next/image';
+import Script from 'next/script';
+import AdPlaceholder from '@/components/ui/AdPlaceholder';
+import { buildMetadata } from '@/lib/seo';
+
+export const metadata = buildMetadata({
+  title: 'Animal Science Reviewer for ALE Philippines 2026 (Agriculture Board Exam)',
+  description:
+    'Studying for the PRC agriculture board exam? This animal science reviewer covers livestock breeds, animal nutrition, reproductive management, and poultry production tested in the ALE.',
+  path: '/blog/animal-science-reviewer-ale',
+});
+
+const SCHEMA = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'Animal Science Reviewer for ALE Philippines 2026 (Agriculture Board Exam)',
+  description:
+    'Complete animal science reviewer for the PRC Agriculture Licensure Examination covering livestock breeds, animal nutrition, reproductive management, poultry production, and common livestock diseases.',
+  image: 'https://lisensyaprep.com/images/articles/hero-ale-animal-science.jpg',
+  author: { '@type': 'Organization', name: 'LisensyaPrep Team', url: 'https://lisensyaprep.com/about' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'LisensyaPrep',
+    logo: { '@type': 'ImageObject', url: 'https://lisensyaprep.com/images/logo.png' },
+  },
+  datePublished: '2026-04-27',
+  dateModified: '2026-04-27',
+  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/blog/animal-science-reviewer-ale' },
+};
+
+const ALL_ALE_ARTICLES = [
+  { text: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/blog/how-to-pass-agriculture-board-exam' },
+  { text: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/blog/ale-coverage-2026' },
+  { text: 'Animal Science Reviewer for ALE Philippines 2026', href: '/blog/animal-science-reviewer-ale' },
+  { text: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/blog/ale-crop-protection-reviewer' },
+  { text: 'How to Apply for ALE via PRC LERIS 2026', href: '/blog/ale-application-guide-2026' },
+  { text: 'ALE Passing Rate and Results 2026', href: '/blog/ale-passing-rate-results-2026' },
+];
+
+function formatInline(text) {
+  return text
+    .replace(
+      /\[([^\]]+)\]\((https?:\/\/[^)]+|\/[^)]*)\)/g,
+      (_, t, url) =>
+        `<a href="${url}"${url.startsWith('http') ? ' target="_blank" rel="noopener noreferrer"' : ''} class="text-yellow-400 hover:text-yellow-300 underline underline-offset-2">${t}</a>`
+    )
+    .replace(/\*\*(.+?)\*\*/g, '<strong class="text-white font-semibold">$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em class="text-gray-400 italic">$1</em>');
+}
+
+function renderContent(content) {
+  const lines = content.trim().split('\n');
+  const elements = [];
+  let key = 0;
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (line.startsWith('## ')) {
+      elements.push(<h2 key={key++} className="text-2xl font-extrabold text-white mt-8 mb-4">{line.slice(3)}</h2>);
+    } else if (line.startsWith('### ')) {
+      elements.push(<h3 key={key++} className="text-lg font-bold text-yellow-400 mt-6 mb-3">{line.slice(4)}</h3>);
+    } else if (line.trim() === '---') {
+      elements.push(<hr key={key++} className="border-white/10 my-6" />);
+    } else if (line.startsWith('- ')) {
+      elements.push(
+        <li key={key++} className="text-gray-300 text-sm ml-4 mb-1 flex items-start gap-2">
+          <span className="text-yellow-400 mt-1 flex-shrink-0">•</span>
+          <span dangerouslySetInnerHTML={{ __html: formatInline(line.slice(2)) }} />
+        </li>
+      );
+    } else if (line.startsWith('| ') && line.endsWith(' |')) {
+      const cells = line.split('|').filter((c) => c.trim() && !c.match(/^[-\s]+$/));
+      const isHeader = i > 0 && lines[i + 1]?.includes('---');
+      if (isHeader) {
+        elements.push(<tr key={key++} className="border-b border-white/10">{cells.map((cell, ci) => <th key={ci} className="px-4 py-2 text-left text-yellow-400 font-semibold text-sm">{cell.trim()}</th>)}</tr>);
+      } else if (!line.match(/^\|[-\s|]+\|$/)) {
+        elements.push(<tr key={key++} className="border-b border-white/5">{cells.map((cell, ci) => <td key={ci} className="px-4 py-2 text-gray-300 text-sm" dangerouslySetInnerHTML={{ __html: formatInline(cell.trim()) }} />)}</tr>);
+      }
+    } else if (line.trim() === '') {
+      elements.push(<div key={key++} className="h-2" />);
+    } else {
+      elements.push(<p key={key++} className="text-gray-300 text-sm my-2 leading-relaxed" dangerouslySetInnerHTML={{ __html: formatInline(line) }} />);
+    }
+  }
+  const wrapped = [];
+  let tableBuffer = [];
+  let inTable = false;
+  for (const el of elements) {
+    if (el.type === 'tr') { inTable = true; tableBuffer.push(el); }
+    else {
+      if (inTable) { wrapped.push(<div key={`tbl-${key++}`} className="overflow-x-auto my-4"><table className="w-full bg-[#0a1022] border border-white/10 rounded-xl overflow-hidden"><tbody>{tableBuffer}</tbody></table></div>); tableBuffer = []; inTable = false; }
+      wrapped.push(el);
+    }
+  }
+  if (inTable && tableBuffer.length) wrapped.push(<div key="tbl-final" className="overflow-x-auto my-4"><table className="w-full bg-[#0a1022] border border-white/10 rounded-xl overflow-hidden"><tbody>{tableBuffer}</tbody></table></div>);
+  return wrapped;
+}
+
+const INTRO = `
+Animal Science is one of the five major subject areas in the Agriculture Licensure Examination. It covers the production, management, nutrition, and reproduction of livestock and poultry species that are economically important to Philippine agriculture.
+
+For many BSA graduates, Animal Science feels manageable because the concepts connect directly to practical farm experience. The challenge in the ALE is that questions often test specific technical knowledge: the right nutrient ratios, the correct breed characteristics, the proper reproductive parameters. This reviewer organizes the most consistently tested topics so you know exactly what to focus on.
+
+---
+
+## Major Livestock Species in Philippine Agriculture
+
+### Swine (Hog) Production
+
+The hog industry is one of the most economically significant livestock sectors in the Philippines. ALE questions on swine production cover breeds, production stages, and management practices.
+
+**Major swine breeds:**
+`;
+
+const SECTION2 = `
+**Swine production stages:**
+
+**Gestation period:** 114 days (3 months, 3 weeks, 3 days). This is one of the most memorized figures in ALE animal science.
+
+**Litter size:** 8 to 12 piglets per litter for commercial breeds.
+
+**Weaning age:** 21 to 28 days in commercial production.
+
+**Boar to sow ratio:** 1:20 for natural mating in commercial farms.
+
+---
+
+### Cattle Production
+
+**Major cattle breeds in the Philippines:**
+
+**Brahman:** The dominant beef breed in the Philippines. Heat-tolerant, tick-resistant, and well-adapted to tropical conditions. Characterized by a prominent hump over the shoulders and drooping ears.
+
+**Holstein Friesian:** The dominant dairy breed worldwide and in the Philippines. Black and white coloring. Highest milk production of any breed but less heat-tolerant. Often crossed with local breeds for better adaptability.
+
+**Philippine Native (Batangas cattle):** Small, hardy, well-adapted to local conditions. Lower milk and meat production but disease-resistant.
+
+**Crossbreeds:** The most common commercial approach in the Philippines is crossing Brahman or local breeds with Holstein Friesian for improved milk or meat production while maintaining tropical adaptability.
+
+**Key cattle parameters:**
+
+Gestation period: 280 days (approximately 9 months)
+
+Estrous cycle: 21 days
+
+Duration of estrus (heat): 18 hours
+
+Best time for breeding: 12 hours after the onset of estrus
+
+---
+
+### Carabao (Water Buffalo)
+
+The carabao is the national animal of the Philippines and holds special importance in Philippine agriculture and ALE questions.
+
+**Uses:** Draft power for field preparation, meat production (carabeef), dairy production (carabao milk for kesong puti).
+
+**Gestation period:** 310 to 330 days
+
+**Estrous cycle:** 21 to 23 days
+
+**Philippine Carabao Center (PCC):** The government agency responsible for carabao development and conservation in the Philippines. Based in Nueva Ecija.
+
+**Murrah:** The most productive dairy buffalo breed in the world, used for crossbreeding with Philippine carabaos to improve milk production.
+
+---
+
+### Poultry Production
+
+Poultry is the most intensively produced livestock sector in the Philippines. ALE questions cover both broiler (meat) and layer (egg) production.
+
+**Broiler production:**
+
+Market age: 35 to 42 days
+
+Market weight: 1.8 to 2.2 kg live weight
+
+Feed conversion ratio (FCR): 1.6 to 1.8 (kg feed per kg weight gain). Lower FCR is better.
+
+**Layer production:**
+
+Age at first egg (point of lay): 18 to 20 weeks for commercial breeds
+
+Peak production: 90 to 95 percent lay rate at peak
+
+Production period: 72 to 80 weeks before replacement
+
+**Major broiler breeds:** Ross, Cobb, Hubbard (all are proprietary commercial crosses)
+
+**Major layer breeds:** Lohmann Brown, Hy-Line Brown, ISA Brown (commercial layers)
+
+**Philippine Native chicken:** The Darag (Visayas), Banaba (Batangas), and other native breeds are covered in ALE questions about local genetic resources.
+
+---
+
+## Animal Nutrition
+
+Animal nutrition is a high-yield topic in ALE animal science because it connects directly to production performance and economic outcomes.
+`;
+
+const SECTION3 = `
+### Feed Ingredients Commonly Used in Philippine Livestock Feeds
+
+**Energy sources:** Corn (yellow corn is the primary energy ingredient), cassava, copra meal, rice bran.
+
+**Protein sources:** Soybean meal (primary), fish meal, meat and bone meal, copra meal.
+
+**Mineral supplements:** Dicalcium phosphate (DCP) for calcium and phosphorus, limestone for calcium, salt for sodium and chloride.
+
+**Vitamin premix:** Commercial vitamin-mineral premix added to complete rations.
+
+---
+
+## Reproductive Management
+
+### Key Reproductive Terms
+
+**Estrus (heat):** The period when a female animal is sexually receptive and will accept mating.
+
+**Estrous cycle:** The recurring cycle from one estrus to the next.
+
+**Gestation:** The period of pregnancy from conception to birth.
+
+**Parturition:** The act of giving birth (farrowing in swine, calving in cattle, kidding in goats, lambing in sheep).
+
+**Weaning:** Separation of the young from the mother and transition to solid feed.
+
+### Reproductive Parameters Quick Reference
+
+| Species | Gestation (days) | Estrous Cycle (days) | Age at Puberty |
+|---------|-----------------|---------------------|----------------|
+| Swine | 114 | 21 | 5 to 6 months |
+| Cattle | 280 | 21 | 8 to 12 months |
+| Carabao | 310 to 330 | 21 to 23 | 2 to 3 years |
+| Goat | 150 | 21 | 4 to 8 months |
+| Sheep | 147 | 17 | 6 to 8 months |
+| Chicken | 21 (incubation) | Continuous | 18 to 20 weeks |
+| Duck | 28 (incubation) | Continuous | 5 to 6 months |
+
+---
+
+## Common Livestock Diseases in the Philippines
+
+Disease recognition and control are regularly tested in ALE animal science. Know the major diseases, their causative agents, and the key control measures.
+
+**Hog Cholera (Classical Swine Fever):** Caused by a virus. Highly contagious. Characterized by high fever, reddish discoloration of skin, hemorrhages. Notifiable disease. Vaccination is the primary control measure.
+
+**Foot and Mouth Disease (FMD):** Caused by a virus. Affects cloven-hoofed animals (cattle, carabao, hog, goat). Characterized by fever and vesicles (blisters) on the mouth, feet, and teats. Notifiable disease. Philippines has been working toward FMD-free status.
+
+**Newcastle Disease (ND):** Caused by a virus. Affects poultry. Characterized by respiratory signs, nervous signs, and greenish diarrhea. High mortality. Vaccination is essential in commercial production.
+
+**Avian Influenza (Bird Flu):** Caused by influenza A virus. Notifiable disease. Can be highly pathogenic (HPAI) with near 100% mortality in poultry. Zoonotic risk.
+
+---
+
+## Practice What You Just Learned
+
+Animal science questions in the ALE combine breed identification, nutrition concepts, reproductive parameters, and disease recognition. Practice all of these at LisensyaPrep. No account needed.
+
+**[Practice Agriculture Questions at LisensyaPrep](https://lisensyaprep.com/agriculture)**
+
+---
+
+## Related ALE Articles
+
+- [How to Pass the Agriculture Board Exam on Your First Take](https://lisensyaprep.com/blog/how-to-pass-agriculture-board-exam)
+- [ALE Coverage 2026 Complete Subject Breakdown](https://lisensyaprep.com/blog/ale-coverage-2026)
+- [Crop Science Topics for the Agriculture Board Exam](https://lisensyaprep.com/blog/crop-science-board-exam-tips)
+- [Soil Science Cheat Sheet: pH, CEC, and Nutrient Availability](https://lisensyaprep.com/blog/soil-science-cheat-sheet)
+- [Agricultural Economics Key Formulas and Concepts](https://lisensyaprep.com/blog/agricultural-economics-key-concepts)
+`;
+
+export default function AnimalScienceReviewerAlePage() {
+  return (
+    <div className="min-h-screen py-10">
+      <Script id="schema-ale-animal-science" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+          <article className="lg:col-span-2">
+            <nav className="flex items-center gap-2 text-sm mb-6" aria-label="Breadcrumb">
+              <Link href="/" className="text-gray-500 hover:text-gray-300 transition-colors">Home</Link>
+              <span className="text-gray-700">/</span>
+              <Link href="/blog" className="text-gray-500 hover:text-gray-300 transition-colors">Blog</Link>
+              <span className="text-gray-700">/</span>
+              <span className="text-gray-400 truncate">Animal Science Reviewer for ALE</span>
+            </nav>
+
+            <header className="mb-8">
+              <span className="text-xs font-semibold px-3 py-1 rounded-full bg-lime-500/10 text-lime-400">Agriculture (ALE)</span>
+              <h1 className="text-3xl sm:text-4xl font-extrabold text-white mt-4 mb-3 leading-tight">
+                Animal Science Reviewer for ALE Philippines 2026 (Agriculture Board Exam)
+              </h1>
+              <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
+                <span>LisensyaPrep Team</span><span>•</span>
+                <span>April 27, 2026</span><span>•</span>
+                <span>11 min read</span>
+              </div>
+            </header>
+
+            <Image
+              src="/images/articles/hero-ale-animal-science.jpg"
+              alt="Young Filipino male agriculture student holding clipboard for ALE animal science reviewer Philippines 2026"
+              width={1200} height={630}
+              style={{ width: '100%', height: 'auto', borderRadius: '12px', marginBottom: '2rem' }}
+              priority
+            />
+
+            <div className="prose-content">
+              {renderContent(INTRO)}
+
+              <figure style={{ margin: '2rem 0' }}>
+                <svg viewBox="0 0 760 280" xmlns="http://www.w3.org/2000/svg" style={{ width: '100%', height: 'auto', borderRadius: '10px' }}>
+                  <rect width="760" height="280" fill="#0f172a" rx="10"/>
+                  <text x="380" y="26" textAnchor="middle" fill="#f8fafc" fontSize="15" fontWeight="700" fontFamily="Georgia,serif">Major Swine Breeds for the ALE</text>
+                  <line x1="40" y1="38" x2="720" y2="38" stroke="#334155" strokeWidth="1"/>
+                  <text x="160" y="56" textAnchor="middle" fill="#f59e0b" fontSize="12" fontWeight="700" fontFamily="Arial,sans-serif">BREED</text>
+                  <text x="360" y="56" textAnchor="middle" fill="#f59e0b" fontSize="12" fontWeight="700" fontFamily="Arial,sans-serif">ORIGIN</text>
+                  <text x="570" y="56" textAnchor="middle" fill="#f59e0b" fontSize="12" fontWeight="700" fontFamily="Arial,sans-serif">KEY CHARACTERISTICS</text>
+                  <line x1="40" y1="64" x2="720" y2="64" stroke="#334155" strokeWidth="1"/>
+                  <rect x="40" y="70" width="680" height="30" fill="#1e3a5f" rx="4"/>
+                  <text x="160" y="90" textAnchor="middle" fill="#f8fafc" fontSize="12" fontFamily="Arial,sans-serif">Large White (Yorkshire)</text>
+                  <text x="360" y="90" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="Arial,sans-serif">England</text>
+                  <text x="570" y="90" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="Arial,sans-serif">White, erect ears, large litter size, good mother</text>
+                  <rect x="40" y="106" width="680" height="30" fill="#172033" rx="4"/>
+                  <text x="160" y="126" textAnchor="middle" fill="#f8fafc" fontSize="12" fontFamily="Arial,sans-serif">Landrace</text>
+                  <text x="360" y="126" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="Arial,sans-serif">Denmark</text>
+                  <text x="570" y="126" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="Arial,sans-serif">White, drooping ears, long body, bacon-type</text>
+                  <rect x="40" y="142" width="680" height="30" fill="#1e3a5f" rx="4"/>
+                  <text x="160" y="162" textAnchor="middle" fill="#f8fafc" fontSize="12" fontFamily="Arial,sans-serif">Duroc</text>
+                  <text x="360" y="162" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="Arial,sans-serif">USA</text>
+                  <text x="570" y="162" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="Arial,sans-serif">Red/reddish brown, drooping ears, good growth rate</text>
+                  <rect x="40" y="178" width="680" height="30" fill="#172033" rx="4"/>
+                  <text x="160" y="198" textAnchor="middle" fill="#f8fafc" fontSize="12" fontFamily="Arial,sans-serif">Berkshire</text>
+                  <text x="360" y="198" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="Arial,sans-serif">England</text>
+                  <text x="570" y="198" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="Arial,sans-serif">Black with white points, erect ears, good meat quality</text>
+                  <rect x="40" y="214" width="680" height="30" fill="#1e3a5f" rx="4"/>
+                  <text x="160" y="234" textAnchor="middle" fill="#f8fafc" fontSize="12" fontFamily="Arial,sans-serif">Philippine Native (Improved)</text>
+                  <text x="360" y="234" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="Arial,sans-serif">Philippines</text>
+                  <text x="570" y="234" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="Arial,sans-serif">Hardy, disease resistant, small body size</text>
+                  <rect x="40" y="250" width="680" height="24" fill="#14532d" rx="4"/>
+                  <text x="380" y="267" textAnchor="middle" fill="#86efac" fontSize="11" fontWeight="700" fontFamily="Arial,sans-serif">Most common commercial cross in Philippines: Large White x Landrace (F1 dam) x Duroc (terminal sire)</text>
+                  <text x="380" y="273" textAnchor="middle" fill="#475569" fontSize="9" fontFamily="Arial,sans-serif">LisensyaPrep.com</text>
+                </svg>
+                <figcaption style={{ textAlign: 'center', fontSize: '0.8rem', color: '#64748b', marginTop: '0.5rem' }}>Major swine breeds tested in the ALE</figcaption>
+              </figure>
+
+              {renderContent(SECTION2)}
+
+              <figure style={{ margin: '2rem 0' }}>
+                <svg viewBox="0 0 760 260" xmlns="http://www.w3.org/2000/svg" style={{ width: '100%', height: 'auto', borderRadius: '10px' }}>
+                  <rect width="760" height="260" fill="#0f172a" rx="10"/>
+                  <text x="380" y="26" textAnchor="middle" fill="#f8fafc" fontSize="15" fontWeight="700" fontFamily="Georgia,serif">Six Essential Nutrient Classes for Animals</text>
+                  <line x1="40" y1="38" x2="720" y2="38" stroke="#334155" strokeWidth="1"/>
+                  <rect x="46" y="52" width="200" height="80" fill="#1e3a5f" rx="8"/>
+                  <text x="146" y="78" textAnchor="middle" fill="#f59e0b" fontSize="13" fontWeight="700" fontFamily="Arial,sans-serif">WATER</text>
+                  <text x="146" y="96" textAnchor="middle" fill="#93c5fd" fontSize="11" fontFamily="Arial,sans-serif">Most essential nutrient.</text>
+                  <text x="146" y="112" textAnchor="middle" fill="#94a3b8" fontSize="10" fontFamily="Arial,sans-serif">Makes up 60 to 70% of</text>
+                  <text x="146" y="126" textAnchor="middle" fill="#94a3b8" fontSize="10" fontFamily="Arial,sans-serif">animal body weight.</text>
+                  <rect x="260" y="52" width="200" height="80" fill="#172033" rx="8"/>
+                  <text x="360" y="78" textAnchor="middle" fill="#f59e0b" fontSize="13" fontWeight="700" fontFamily="Arial,sans-serif">CARBOHYDRATES</text>
+                  <text x="360" y="96" textAnchor="middle" fill="#93c5fd" fontSize="11" fontFamily="Arial,sans-serif">Primary energy source.</text>
+                  <text x="360" y="112" textAnchor="middle" fill="#94a3b8" fontSize="10" fontFamily="Arial,sans-serif">Grains (corn, sorghum)</text>
+                  <text x="360" y="126" textAnchor="middle" fill="#94a3b8" fontSize="10" fontFamily="Arial,sans-serif">are main dietary sources.</text>
+                  <rect x="474" y="52" width="246" height="80" fill="#1e3a5f" rx="8"/>
+                  <text x="597" y="78" textAnchor="middle" fill="#f59e0b" fontSize="13" fontWeight="700" fontFamily="Arial,sans-serif">PROTEINS</text>
+                  <text x="597" y="96" textAnchor="middle" fill="#93c5fd" fontSize="11" fontFamily="Arial,sans-serif">Growth and tissue repair.</text>
+                  <text x="597" y="112" textAnchor="middle" fill="#94a3b8" fontSize="10" fontFamily="Arial,sans-serif">Soybean meal is the main</text>
+                  <text x="597" y="126" textAnchor="middle" fill="#94a3b8" fontSize="10" fontFamily="Arial,sans-serif">protein source in PH feeds.</text>
+                  <rect x="46" y="148" width="200" height="80" fill="#14532d" rx="8"/>
+                  <text x="146" y="174" textAnchor="middle" fill="#86efac" fontSize="13" fontWeight="700" fontFamily="Arial,sans-serif">FATS</text>
+                  <text x="146" y="192" textAnchor="middle" fill="#d1fae5" fontSize="11" fontFamily="Arial,sans-serif">Energy-dense nutrient.</text>
+                  <text x="146" y="208" textAnchor="middle" fill="#86efac" fontSize="10" fontFamily="Arial,sans-serif">2.25x energy of carbs.</text>
+                  <text x="146" y="224" textAnchor="middle" fill="#86efac" fontSize="10" fontFamily="Arial,sans-serif">Also carries fat-soluble vitamins.</text>
+                  <rect x="260" y="148" width="200" height="80" fill="#172033" rx="8"/>
+                  <text x="360" y="174" textAnchor="middle" fill="#f59e0b" fontSize="13" fontWeight="700" fontFamily="Arial,sans-serif">VITAMINS</text>
+                  <text x="360" y="192" textAnchor="middle" fill="#93c5fd" fontSize="11" fontFamily="Arial,sans-serif">Regulatory functions.</text>
+                  <text x="360" y="208" textAnchor="middle" fill="#94a3b8" fontSize="10" fontFamily="Arial,sans-serif">Fat-soluble: A, D, E, K</text>
+                  <text x="360" y="224" textAnchor="middle" fill="#94a3b8" fontSize="10" fontFamily="Arial,sans-serif">Water-soluble: B complex, C</text>
+                  <rect x="474" y="148" width="246" height="80" fill="#1e3a5f" rx="8"/>
+                  <text x="597" y="174" textAnchor="middle" fill="#f59e0b" fontSize="13" fontWeight="700" fontFamily="Arial,sans-serif">MINERALS</text>
+                  <text x="597" y="192" textAnchor="middle" fill="#93c5fd" fontSize="11" fontFamily="Arial,sans-serif">Structural and regulatory.</text>
+                  <text x="597" y="208" textAnchor="middle" fill="#94a3b8" fontSize="10" fontFamily="Arial,sans-serif">Macro: Ca, P, K, Na, Mg</text>
+                  <text x="597" y="224" textAnchor="middle" fill="#94a3b8" fontSize="10" fontFamily="Arial,sans-serif">Micro (trace): Fe, Zn, Cu, Mn</text>
+                  <text x="380" y="252" textAnchor="middle" fill="#475569" fontSize="10" fontFamily="Arial,sans-serif">LisensyaPrep.com | ALE Animal Science Reviewer 2026</text>
+                </svg>
+                <figcaption style={{ textAlign: 'center', fontSize: '0.8rem', color: '#64748b', marginTop: '0.5rem' }}>Six essential nutrient classes for animals</figcaption>
+              </figure>
+
+              <AdPlaceholder slot="banner" className="my-6" />
+              {renderContent(SECTION3)}
+            </div>
+
+            <div className="mt-10 bg-[#0f1629] border border-white/10 rounded-2xl p-6">
+              <h2 className="text-xl font-extrabold text-white mb-4">All ALE Articles on LisensyaPrep</h2>
+              <ul className="space-y-3">
+                {ALL_ALE_ARTICLES.map(({ text, href }) => (
+                  <li key={href}>
+                    <Link href={href} className="text-yellow-400 hover:text-yellow-300 underline underline-offset-2 text-sm transition-colors">{text}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="mt-8 bg-gradient-to-br from-green-900/20 to-green-900/10 border border-green-500/30 rounded-2xl p-6 text-center">
+              <p className="text-green-400 font-extrabold text-lg mb-2">Start Your ALE Review</p>
+              <p className="text-gray-400 text-sm mb-4">Free practice questions for all ALE subject areas. No account required.</p>
+              <Link href="/agriculture" className="inline-block bg-green-600 hover:bg-green-500 text-white font-bold px-6 py-3 rounded-xl transition-colors">
+                ⚔️ Start Practicing at LisensyaPrep →
+              </Link>
+            </div>
+
+            <AdPlaceholder slot="banner" className="mt-8" />
+          </article>
+
+          <aside className="space-y-6">
+            <div className="bg-[#0f1629] border border-white/10 rounded-2xl p-5">
+              <h3 className="text-white font-bold mb-4">ALE Reviewer Series</h3>
+              <div className="space-y-3">
+                {ALL_ALE_ARTICLES.map(({ text, href }) => (
+                  <Link key={href} href={href} className="group block">
+                    <p className="text-gray-300 text-sm group-hover:text-yellow-400 transition-colors leading-snug">{text}</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <AdPlaceholder slot="sidebar" />
+          </aside>
+
+        </div>
+      </div>
+    </div>
+  );
+}

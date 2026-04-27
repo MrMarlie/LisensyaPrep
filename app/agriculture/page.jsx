@@ -111,6 +111,38 @@ export default function AgriculturePage() {
         </div>
       </section>
 
+      {/* ALE Study Articles */}
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between mb-6">
+            <div>
+              <h2 className="text-2xl font-extrabold text-white">ALE Study Articles</h2>
+              <p className="text-gray-400 text-sm mt-1">Free reviewers and guides for every ALE subject area.</p>
+            </div>
+            <Link href="/blog/ale-coverage-2026" className="text-yellow-400 hover:text-yellow-300 text-sm font-semibold transition-colors whitespace-nowrap">
+              View all →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { title: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/blog/ale-coverage-2026', tag: 'Study Map' },
+              { title: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/blog/how-to-pass-agriculture-board-exam', tag: 'Exam Guide' },
+              { title: 'Animal Science Reviewer for ALE Philippines 2026', href: '/blog/animal-science-reviewer-ale', tag: 'Subject Reviewer' },
+              { title: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/blog/ale-crop-protection-reviewer', tag: 'Subject Reviewer' },
+              { title: 'How to Apply for ALE via PRC LERIS 2026', href: '/blog/ale-application-guide-2026', tag: 'Application Guide' },
+              { title: 'ALE Passing Rate and Results 2026', href: '/blog/ale-passing-rate-results-2026', tag: 'Results & Stats' },
+            ].map(({ title, href, tag }) => (
+              <Link key={href} href={href} className="group">
+                <div className="bg-[#0f1629] border border-white/10 hover:border-green-500/30 rounded-xl p-4 h-full transition-all">
+                  <span className="text-xs font-semibold text-green-400 bg-green-500/10 px-2 py-0.5 rounded-full">{tag}</span>
+                  <p className="text-white text-sm font-semibold mt-2 group-hover:text-yellow-400 transition-colors leading-snug">{title}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Exam Info */}
       <section className="py-12 bg-[#0a1029]/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
