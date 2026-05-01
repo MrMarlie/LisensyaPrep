@@ -62,9 +62,9 @@ function renderContent(content) {
       );
     } else if (line.startsWith('**') && line.endsWith('**')) {
       elements.push(
-        <p key={key++} className="font-bold text-white my-2">
-          {line.slice(2, -2)}
-        </p>
+        <p key={key++} className="font-bold text-white my-2"
+          dangerouslySetInnerHTML={{ __html: formatInline(line.slice(2, -2)) }}
+        />
       );
     } else if (line.startsWith('- ')) {
       elements.push(
