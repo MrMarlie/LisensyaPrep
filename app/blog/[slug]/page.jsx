@@ -177,21 +177,26 @@ function renderContent(content) {
 }
 
 const TAG_COLORS = {
-  'Board Exam Guide': 'bg-blue-500/10 text-blue-400',
-  'Study Tips':       'bg-yellow-400/10 text-yellow-400',
-  'Soil Science':     'bg-amber-500/10 text-amber-400',
-  'Economics':        'bg-emerald-500/10 text-emerald-400',
-  'Crop Science':     'bg-green-500/10 text-green-400',
-  'Nursing':          'bg-sky-500/10 text-sky-400',
-  'Criminology':      'bg-red-500/10 text-red-400',
-  'Education':        'bg-violet-500/10 text-violet-400',
-  'Agriculture':      'bg-lime-500/10 text-lime-400',
+  'Board Exam Guide':   'bg-blue-500/10 text-blue-400',
+  'Study Tips':         'bg-yellow-400/10 text-yellow-400',
+  'Soil Science':       'bg-amber-500/10 text-amber-400',
+  'Economics':          'bg-emerald-500/10 text-emerald-400',
+  'Crop Science':       'bg-green-500/10 text-green-400',
+  'Nursing':            'bg-sky-500/10 text-sky-400',
+  'Criminology':        'bg-red-500/10 text-red-400',
+  'Education':          'bg-violet-500/10 text-violet-400',
+  'Agriculture':        'bg-lime-500/10 text-lime-400',
+  'Pharmacy':           'bg-purple-500/10 text-purple-400',
+  'Medical Technology': 'bg-teal-500/10 text-teal-400',
 };
 
 // Determine the best quiz CTA destination based on article tag
 function getCtaHref(tag) {
   if (tag === 'Criminology') return '/criminology';
   if (tag === 'Education') return '/education';
+  if (tag === 'Nursing') return '/nursing';
+  if (tag === 'Pharmacy') return '/pharmacy';
+  if (tag === 'Medical Technology') return '/medtech';
   if (tag === 'Agriculture' || tag === 'Soil Science' || tag === 'Crop Science' || tag === 'Economics') return '/agriculture';
   return '/';
 }
