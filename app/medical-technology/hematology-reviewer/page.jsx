@@ -8,7 +8,7 @@ export const metadata = buildMetadata({
   title: 'Hematology Reviewer for MTLE Philippines 2026 (Complete Guide)',
   description:
     'Studying for the PRC medical technology board exam? This hematology reviewer covers blood cell morphology, CBC interpretation, coagulation, and hemoglobin disorders tested in the MTLE.',
-  path: '/medtech/hematology-reviewer',
+  path: '/medical-technology/hematology-reviewer',
   image: '/images/articles/hero-mtle-hematology.jpg',
 });
 
@@ -29,15 +29,15 @@ const SCHEMA = {
   dateModified: '2026-04-25',
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': 'https://lisensyaprep.com/medtech/hematology-reviewer',
+    '@id': 'https://lisensyaprep.com/medical-technology/hematology-reviewer',
   },
 };
 
 const RELATED_ARTICLES = [
   { text: 'Clinical Chemistry Reviewer for MTLE Philippines 2026', href: '/medtech/clinical-chemistry-reviewer' },
   { text: 'Microbiology and Parasitology Reviewer MTLE 2026', href: '/medtech/microbiology-parasitology-reviewer' },
-  { text: 'Blood Banking and Serology Reviewer MTLE Philippines', href: '/medtech/blood-banking-serology-reviewer' },
-  { text: 'Urinalysis and Body Fluids Reviewer MTLE 2026', href: '/medtech/urinalysis-body-fluids-reviewer' },
+  { text: 'Blood Banking and Serology Reviewer MTLE Philippines', href: '/medical-technology/blood-banking-serology-reviewer' },
+  { text: 'Urinalysis and Body Fluids Reviewer MTLE 2026', href: '/medical-technology/urinalysis-body-fluids-reviewer' },
   { text: 'PRC Board Exam Passing Rate by Profession 2026', href: '/blog/prc-board-exam-passing-rate-by-profession' },
 ];
 
