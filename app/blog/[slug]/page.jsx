@@ -188,6 +188,7 @@ const TAG_COLORS = {
   'Agriculture':        'bg-lime-500/10 text-lime-400',
   'Pharmacy':           'bg-purple-500/10 text-purple-400',
   'Medical Technology': 'bg-teal-500/10 text-teal-400',
+  'PRC Guides':         'bg-blue-500/10 text-blue-400',
 };
 
 // Determine the best quiz CTA destination based on article tag
