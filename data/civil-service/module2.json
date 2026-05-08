@@ -1,0 +1,481 @@
+{
+  "module": "Module 2 – Verbal Ability (Filipino)",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Piliin ang salitang may katulad na kahulugan sa MAAGAP.",
+      "choices": ["Tamad", "Masipag", "Palaging handa", "Mapagpaliban"],
+      "answer": "Palaging handa",
+      "explanation": "Ang maagap ay nangangahulugang laging handa at maagang gumagawa ng hakbang. Ito ay nagpapahayag ng pagiging alerto at handang kumilos."
+    },
+    {
+      "id": 2,
+      "question": "Piliin ang salitang KASALUNGAT ng MAPANGHUSGA.",
+      "choices": ["Mapanuri", "Mapagparaya", "Mapagpuna", "Mapang-api"],
+      "answer": "Mapagparaya",
+      "explanation": "Ang mapanghusga ay nangangahulugang madaling humusga ng iba nang walang sapat na batayan. Ang kasalungat nito ay mapagparaya — bukas sa pagkakaiba ng iba."
+    },
+    {
+      "id": 3,
+      "question": "Alin sa mga sumusunod ang TAMANG balarila?",
+      "choices": [
+        "Ang mga bata ay naglaro sa labas ng bahay.",
+        "Ang mga bata naglaro sa labas ng bahay.",
+        "Ang mga bata ay nilaro sa labas ng bahay.",
+        "Ang mga bata naglaro sa labas ng bahay nila."
+      ],
+      "answer": "Ang mga bata ay naglaro sa labas ng bahay.",
+      "explanation": "Ang wastong pangungusap ay may paksa (ang mga bata), panaguri (naglaro), at panlunan (sa labas ng bahay). Ginagamit ang 'ay' bilang katumbas ng 'is/are/was/were' sa pagitan ng paksa at panaguri."
+    },
+    {
+      "id": 4,
+      "question": "Ano ang kahulugan ng salitang MANGMANG?",
+      "choices": ["Matalino", "Walang kaalaman", "Mapagkakatiwalaan", "Maingat"],
+      "answer": "Walang kaalaman",
+      "explanation": "Ang mangmang ay nangangahulugang walang kaalaman o karunungan; ignorante. Ito ay ginagamit para sa taong kulang ang edukasyon o pag-alam sa isang bagay."
+    },
+    {
+      "id": 5,
+      "question": "Piliin ang TAMANG anyo ng pangungusap.",
+      "choices": [
+        "Siya ay pumunta sa ospital kahapon.",
+        "Siya ay pumunta sa ospital noong kahapon.",
+        "Siya pumunta sa ospital kahapon.",
+        "Siya pumunta sa ospital noong kahapon."
+      ],
+      "answer": "Siya ay pumunta sa ospital kahapon.",
+      "explanation": "Ang 'kahapon' ay nagsasaad ng nakaraang panahon nang walang pangangailangan ng 'noong'. Ginagamit ang 'noong' sa mas tiyak na petsa o panahon, tulad ng 'noong Lunes'."
+    },
+    {
+      "id": 6,
+      "question": "Alin ang salitang may katulad na kahulugan sa MAUNAWAIN?",
+      "choices": ["Mapagbigay", "Mapagintindi", "Mapagmataas", "Mapagsamantala"],
+      "answer": "Mapagintindi",
+      "explanation": "Ang maunawain ay nangangahulugang handang umintindi sa kalagayan ng iba; may kakayahang makaunawa. Ang mapagintindi ay ang pinakamalapit na katumbas."
+    },
+    {
+      "id": 7,
+      "question": "Ang salitang BALINTUNA ay nangangahulugang:",
+      "choices": [
+        "Tapat at matuwid",
+        "Kabaligtaran ng inaasahan",
+        "Maayos at organisado",
+        "Masaya at masigla"
+      ],
+      "answer": "Kabaligtaran ng inaasahan",
+      "explanation": "Ang balintuna ay nangangahulugang irony o ang kabaligtaran ng nararapat. Ginagamit ito para sa mga sitwasyong nakakatawa o nakakalungkot dahil sa hindi inaasahang kinalabasan."
+    },
+    {
+      "id": 8,
+      "question": "Piliin ang tamang gamit ng PANLAPING 'ma-'.",
+      "choices": [
+        "Siya ay matutulog ng maaga.",
+        "Makain ko na ang pagkain.",
+        "Mabilis na nagtatakbo ang bata.",
+        "Mahal ko ang aking pamilya."
+      ],
+      "answer": "Mabilis na nagtatakbo ang bata.",
+      "explanation": "Ang panlaping 'ma-' na ginagamit bilang pang-uri (adjective) ay nagpapakita ng katangian. Sa 'mabilis', ang 'ma-' ay nagbibigay ng katangian ng bilis sa kilos ng bata."
+    },
+    {
+      "id": 9,
+      "question": "Ano ang kahulugan ng salitang MAPAGBIGAY?",
+      "choices": ["Mapagmataas", "Mapagbiyaya", "Mapagpigil", "Mapanghusga"],
+      "answer": "Mapagbiyaya",
+      "explanation": "Ang mapagbigay ay nangangahulugang maluwag na nagbibigay ng tulong o bagay sa iba. Katumbas nito ang mapagbiyaya o generous."
+    },
+    {
+      "id": 10,
+      "question": "Alin sa mga sumusunod ang WASTONG pag-gamit ng bantas?",
+      "choices": [
+        "Sinabi niya, 'Babalik ako bukas'.",
+        "Sinabi niya 'Babalik ako bukas'.",
+        "Sinabi niya: Babalik ako bukas.",
+        "Sinabi niya \"Babalik ako bukas\"."
+      ],
+      "answer": "Sinabi niya, 'Babalik ako bukas'.",
+      "explanation": "Sa Filipino, ginagamit ang kuwit bago ang siniping salita, at ang mga panipi (single quotes) ay ginagamit para sa direktang sipi. Ang tuldok ay nasa loob ng pangwakas na panipi."
+    },
+    {
+      "id": 11,
+      "question": "Piliin ang salitang may katulad na kahulugan sa TULAD-DAGAT.",
+      "choices": ["Payapa", "Maalwan", "Magulong-mugulo", "Malakas"],
+      "answer": "Payapa",
+      "explanation": "Ang tulad-dagat (kung ito ay nangangahulugang mapayapa o tahimik) ay katumbas ng payapa. Ngunit sa karaniwang gamit, ginagamit ang 'kalmado' o 'tahimik'. Ang pinakaangkop na sagot dito ay payapa."
+    },
+    {
+      "id": 12,
+      "question": "Ano ang tamang kahulugan ng SALAWIKAIN na: 'Ang hindi marunong lumingon sa pinanggalingan ay hindi makararating sa paroroonan'?",
+      "choices": [
+        "Ang taong hindi marunong mag-navigate ay maliligaw.",
+        "Ang taong walang paggalang sa kanyang nakaraan ay hindi magtatagumpay sa kinabukasan.",
+        "Ang taong mahirap ay dapat lumaban para sa kanyang kinabukasan.",
+        "Ang taong maraming nakaraan ay hindi makakarating sa kinabukasan."
+      ],
+      "answer": "Ang taong walang paggalang sa kanyang nakaraan ay hindi magtatagumpay sa kinabukasan.",
+      "explanation": "Ang salawikain ay nagpapahayag na ang isang tao na hindi nagpapahalaga sa kanyang mga pinagmulan, ninuno, at kasaysayan ay hindi magiging matagumpay sa hinaharap."
+    },
+    {
+      "id": 13,
+      "question": "Alin ang PANG-URI (adjective) sa pangungusap na: 'Ang matandang guro ay dahan-dahang naglakad sa makulay na hardin.'",
+      "choices": ["guro", "naglakad", "dahan-dahan", "matanda"],
+      "answer": "matanda",
+      "explanation": "Ang pang-uri ay naglalarawan sa pangngalan. Sa pangungusap na ito, ang 'matanda' ay naglalarawan sa 'guro'. Ang 'dahan-dahan' ay pang-abay (adverb) na nagbabago ng kilos."
+    },
+    {
+      "id": 14,
+      "question": "Ano ang KASALUNGAT ng salitang MAPANLINLANG?",
+      "choices": ["Mapagsamantala", "Tapat", "Mapanganib", "Mapagmataas"],
+      "answer": "Tapat",
+      "explanation": "Ang mapanlinlang ay nangangahulugang madaya o mapandaya. Ang kasalungat nito ay tapat — matapat, walang pagkukunwari."
+    },
+    {
+      "id": 15,
+      "question": "Piliin ang pangungusap na may WASTONG gamit ng mga salita.",
+      "choices": [
+        "Nag-aral siya para makapasa sa eksamen.",
+        "Nag-aral siya upang makapasa sa eksamen.",
+        "Nag-aral siya dahil makapasa sa eksamen.",
+        "Nag-aral siya kung makapasa sa eksamen."
+      ],
+      "answer": "Nag-aral siya upang makapasa sa eksamen.",
+      "explanation": "Ang 'upang' ay ginagamit para ipakita ang layunin ng isang kilos. Parehong tama ang 'para' at 'upang', ngunit sa mas pormal na pagsulat, mas angkop ang 'upang'."
+    },
+    {
+      "id": 16,
+      "question": "Basahin ang talata at sagutin ang tanong:\n\n'Maraming kabataan ngayon ang mas interesado sa social media kaysa sa pagbabasa ng mga libro. Ito ay nagdudulot ng pagbaba ng antas ng pagbabasa at kritikal na pag-iisip. Ayon sa mga eksperto, kailangan ng mga magulang at guro na gabayan ang mga kabataan sa tamang paggamit ng teknolohiya.'\n\nAno ang PANGUNAHING ideya ng talata?",
+      "choices": [
+        "Masama ang social media para sa lahat ng kabataan.",
+        "Ang sobrang paggamit ng social media ay nakakaapekto sa mga kasanayan ng kabataan.",
+        "Dapat ipagbawal ang social media sa paaralan.",
+        "Ang mga guro ay hindi mahusay sa pagtuturo ng pagbabasa."
+      ],
+      "answer": "Ang sobrang paggamit ng social media ay nakakaapekto sa mga kasanayan ng kabataan.",
+      "explanation": "Ang talata ay nagtatala ng problema (mas gusto ang social media kaysa pagbabasa), epekto nito (pagbaba ng kasanayan), at rekomendasyon (gabay ng mga magulang at guro). Ang pangunahing ideya ay ang epekto ng social media sa kabataan."
+    },
+    {
+      "id": 17,
+      "question": "Alin sa mga ito ang tamang gamit ng PANGHALIP (pronoun)?",
+      "choices": [
+        "Ikaw at ako ay magkasamang pumunta.",
+        "Ako at ikaw ay magkasamang pumunta.",
+        "Kami ni ikaw ay magkasamang pumunta.",
+        "Tayo at ako ay magkasamang pumunta."
+      ],
+      "answer": "Ikaw at ako ay magkasamang pumunta.",
+      "explanation": "Sa Filipino, ang tamang ayos ay ang panghalip ng kausap ('ikaw') ang nauuna bago ang panghalip ng nagsasalita ('ako'). Ito ay palatuntunang pangkultura ng paggalang."
+    },
+    {
+      "id": 18,
+      "question": "Piliin ang TAMANG kahulugan ng salitang DUNONG.",
+      "choices": ["Kaibigan", "Karunungan", "Kalungkutan", "Katapatan"],
+      "answer": "Karunungan",
+      "explanation": "Ang dunong ay katumbas ng kaalaman o karunungan. Ito ay tumutukoy sa katalinuhan at kaalamang nakuha mula sa karanasan o pag-aaral."
+    },
+    {
+      "id": 19,
+      "question": "Alin ang PANG-ABAY (adverb) sa pangungusap na: 'Dali-daling lumakad ang estudyante papunta sa klase.'?",
+      "choices": ["estudyante", "papunta", "klase", "dali-dali"],
+      "answer": "dali-dali",
+      "explanation": "Ang pang-abay ay nagbabago ng pandiwa, pang-uri, o kapwa pang-abay. Dito, ang 'dali-dali' ay nagbabago ng 'lumakad' — nagpapakita kung paano lumakad ang estudyante."
+    },
+    {
+      "id": 20,
+      "question": "Basahin ang pangungusap: 'Ang opisyal ay nagpakita ng KAHUSAYAN sa kanyang trabaho.' Ano ang kahulugan ng salitang KAHUSAYAN?",
+      "choices": ["Pagkabigo", "Kahusayan sa pagganap ng gawain", "Kakulangan", "Kapabayaan"],
+      "answer": "Kahusayan sa pagganap ng gawain",
+      "explanation": "Ang kahusayan ay nangangahulugang kasanayan o kagalingan sa isang partikular na larangan. Ito ay nagpapakita ng mataas na antas ng kakayahan."
+    },
+    {
+      "id": 21,
+      "question": "Piliin ang TAMANG pagkakasunod-sunod ng talata. Alin ang unang pangungusap?\n\n1. Bilang resulta, maraming pamilya ang nakakatipid sa kanilang gastos sa kuryente.\n2. Ang paggamit ng solar panels ay isa sa mga solusyon sa mataas na bayarin sa kuryente.\n3. Ang solar panels ay nagko-convert ng sikat ng araw sa kuryente.\n4. Maraming tahanan na ngayon ang nag-install ng solar panels.",
+      "choices": ["Pangungusap 1", "Pangungusap 2", "Pangungusap 3", "Pangungusap 4"],
+      "answer": "Pangungusap 2",
+      "explanation": "Ang Pangungusap 2 ay nagpapakilala ng paksa (solar panels bilang solusyon). Sinusundan ito ng Pangungusap 3 (paliwanag kung paano gumagana), Pangungusap 4 (paglaganap nito), at Pangungusap 1 (resulta)."
+    },
+    {
+      "id": 22,
+      "question": "Ano ang kahulugan ng KASABIHAN: 'Kung ano ang puno, siya ang bunga'?",
+      "choices": [
+        "Ang mga puno ay nagbibigay ng masustansiyang prutas.",
+        "Ang mga anak ay karaniwang sumasalamin sa ugali ng kanilang mga magulang.",
+        "Ang buhay ng tao ay tulad ng isang puno na may prutas.",
+        "Ang matandang puno ay nagbibigay ng malaking lilim."
+      ],
+      "answer": "Ang mga anak ay karaniwang sumasalamin sa ugali ng kanilang mga magulang.",
+      "explanation": "Ang kasabihing ito ay nagpapahayag na ang ugali at pagkatao ng mga anak ay karaniwang katulad ng kanilang mga magulang, tulad ng prutas na sumasalamin sa kalidad ng punong pinagmulan nito."
+    },
+    {
+      "id": 23,
+      "question": "Piliin ang TAMANG gamit ng pandiwang may panlapi.",
+      "choices": [
+        "Nag-aral siya ng Ingles.",
+        "Nag-aaral siya ng Ingles ngayon.",
+        "Mag-aaral siya ng Ingles bukas.",
+        "Lahat ng nabanggit ay tama."
+      ],
+      "answer": "Lahat ng nabanggit ay tama.",
+      "explanation": "Ang 'nag-aral' ay nakaraang panahon, 'nag-aaral' ay kasalukuyang panahon, at 'mag-aaral' ay hinaharap na panahon. Lahat ng tatlo ay tamang paggamit ng iba't ibang aspeto ng pandiwa."
+    },
+    {
+      "id": 24,
+      "question": "Alin sa mga ito ang TAMANG pagbuo ng pangungusap?",
+      "choices": [
+        "Ang larawan ay maganda.",
+        "Larawan ay maganda ang.",
+        "Maganda ang larawan ay.",
+        "Ang maganda ay larawan."
+      ],
+      "answer": "Ang larawan ay maganda.",
+      "explanation": "Sa wikang Filipino, ang karaniwang ayos ng pangungusap ay: Paksa + 'ay' + Panaguri. Ang 'ang larawan' ay paksa, at ang 'maganda' ay panaguri."
+    },
+    {
+      "id": 25,
+      "question": "Ano ang tawag sa uri ng pangungusap na nagtatanong?",
+      "choices": ["Pangungusap na pasalaysay", "Pangungusap na patanong", "Pangungusap na pautos", "Pangungusap na padamdam"],
+      "answer": "Pangungusap na patanong",
+      "explanation": "Ang pangungusap na patanong ay nagtatanong at karaniwang nagtatapos sa tandang pananong (?). Ito ay isa sa apat na uri ng pangungusap ayon sa layunin."
+    },
+    {
+      "id": 26,
+      "question": "Basahin ang talata at sagutin ang tanong:\n\n'Ang Bataan Death March ay isa sa pinakamalupit na kaganapan sa kasaysayan ng Pilipinas sa panahon ng Ikalawang Digmaang Pandaigdig. Libu-libong mga sundalong Pilipino at Amerikano ang napilitang maglakad ng ilang daan kilometro nang walang sapat na pagkain at tubig.'\n\nAno ang IPINAPAHAYAG ng talata?",
+      "choices": [
+        "Ang Bataan Death March ay isang matagumpay na operasyong militar.",
+        "Ang Bataan Death March ay isang malupit na karanasan ng mga sundalo sa panahon ng giyera.",
+        "Ang mga Pilipino ay boluntaryong lumakad ng ilang daan kilometro.",
+        "Ang Ikalawang Digmaang Pandaigdig ay nagbunga ng maraming kabutihan para sa Pilipinas."
+      ],
+      "answer": "Ang Bataan Death March ay isang malupit na karanasan ng mga sundalo sa panahon ng giyera.",
+      "explanation": "Ang talata ay malinaw na nagsasabing ang Bataan Death March ay 'isa sa pinakamalupit na kaganapan' kung saan napilitan ang mga sundalo na maglakad nang walang sapat na pagkain at tubig."
+    },
+    {
+      "id": 27,
+      "question": "Alin sa mga sumusunod na salita ang may maling ispeling?",
+      "choices": ["kapaligiran", "pangkalahatang", "kaganapan", "pagkakataun"],
+      "answer": "pagkakataun",
+      "explanation": "Ang tamang ispeling ay 'pagkakataon' — nagtatapos sa 'on', hindi 'un'. Ang ibang mga salita ay wastong nabaybay."
+    },
+    {
+      "id": 28,
+      "question": "Piliin ang salitang KASALUNGAT ng MAINGAT.",
+      "choices": ["Matiyaga", "Maingay", "Pabaya", "Mapagbigay"],
+      "answer": "Pabaya",
+      "explanation": "Ang maingat ay nangangahulugang mabusisi at mapanuri; palaging gumagawa ng may pag-iingat. Ang kasalungat nito ay pabaya — walang ingat at responsibilidad."
+    },
+    {
+      "id": 29,
+      "question": "Ano ang kahulugan ng salitang MAPALAD?",
+      "choices": ["Malungkot", "Maswerte", "Mahirap", "Mapanganib"],
+      "answer": "Maswerte",
+      "explanation": "Ang mapalad ay katumbas ng masuwerte o blessed. Ito ay nagpapahayag ng pagkakaroon ng kabutihang palad o blessings sa buhay."
+    },
+    {
+      "id": 30,
+      "question": "Piliin ang TAMANG kahulugan ng IDYOMA na 'mahaba ang pasensya'.",
+      "choices": [
+        "Ang tao ay may mahabang kamay.",
+        "Ang tao ay madaling galit.",
+        "Ang tao ay may kakayahang magtiis at hintayin.",
+        "Ang tao ay matagal na naghihintay."
+      ],
+      "answer": "Ang tao ay may kakayahang magtiis at hintayin.",
+      "explanation": "Ang idyomang 'mahaba ang pasensya' ay nangangahulugang ang isang tao ay napakatitiis at hindi madaling mainis o magalit. Ito ay positibong katangian ng pagtitiis."
+    },
+    {
+      "id": 31,
+      "question": "Alin ang PANGNGALAN (noun) sa pangungusap na: 'Ang masayang bata ay mabilis na tumakbo sa malawak na bukid.'",
+      "choices": ["masaya", "mabilis", "tumakbo", "bata"],
+      "answer": "bata",
+      "explanation": "Ang pangngalan ay salitang nagbibigay ng pangalan sa tao, bagay, lugar, o ideya. Dito, ang 'bata' ay ang tao na pinag-uusapan. Ang 'masaya' at 'mabilis' ay pang-uri, at 'tumakbo' ay pandiwa."
+    },
+    {
+      "id": 32,
+      "question": "Ano ang kahulugan ng salitang SIBAK?",
+      "choices": ["Pagtanggap", "Pagpapalayas sa trabaho", "Pagsulong", "Pagbibigay ng parangal"],
+      "answer": "Pagpapalayas sa trabaho",
+      "explanation": "Ang sibak ay nangangahulugang tinanggal o pinalayas sa trabaho. Ito ay isang impormal na salita para sa 'dismissal' o pagpapatanggal."
+    },
+    {
+      "id": 33,
+      "question": "Basahin ang talata at piliin ang pinakamainam na pamagat:\n\n'Ang pagkain ng prutas at gulay ay nakakatulong sa pagpapalakas ng immune system. Bukod sa mga bitamina at mineral na matatagpuan dito, ang fiber ay nagpapanatili ng maayos na digestive health. Ipinapayo ng mga doktor na kumain ng limang serving ng prutas at gulay bawat araw.'",
+      "choices": [
+        "Ang Mga Doktor at Kanilang Payo",
+        "Kahalagahan ng Pagkain ng Prutas at Gulay",
+        "Ang Immune System ng Tao",
+        "Fiber at Digestive Health"
+      ],
+      "answer": "Kahalagahan ng Pagkain ng Prutas at Gulay",
+      "explanation": "Ang buong talata ay nagtatala ng mga benepisyo (immune system, bitamina, mineral, fiber) ng pagkain ng prutas at gulay. Ang pamagat ay dapat sumaklaw sa pangunahing paksa ng talata."
+    },
+    {
+      "id": 34,
+      "question": "Piliin ang TAMANG gamit ng PANGATNIG (conjunction).",
+      "choices": [
+        "Pumunta siya sa palengke at nag-aral sa bahay.",
+        "Pumunta siya sa palengke bagaman nag-aral sa bahay.",
+        "Pumunta siya sa palengke pagkatapos nag-aral sa bahay.",
+        "Pumunta siya sa palengke bago nag-aral sa bahay."
+      ],
+      "answer": "Pumunta siya sa palengke bago nag-aral sa bahay.",
+      "explanation": "Ang 'bago' ay pangatnig ng oras na nagpapakita ng pagkakasunod-sunod ng mga pangyayari. Ang pangungusap ay nagpapahayag na nanguna ang pagpunta sa palengke bago ang pag-aaral."
+    },
+    {
+      "id": 35,
+      "question": "Ano ang KASALUNGAT ng salitang KATAMARAN?",
+      "choices": ["Kababaang-loob", "Kasipagan", "Kahirapan", "Kahinaan"],
+      "answer": "Kasipagan",
+      "explanation": "Ang katamaran ay ang ugaling hindi gustong magtrabaho o gumawa ng anumang bagay. Ang kasalungat nito ay kasipagan — ang ugaling masipag at matiyaga sa gawain."
+    },
+    {
+      "id": 36,
+      "question": "Alin sa mga sumusunod na pangungusap ang MAYROONG redundansya (paulit-ulit na kahulugan)?",
+      "choices": [
+        "Bumili siya ng bagong kasuotan.",
+        "Pumasok siya sa loob ng silid.",
+        "Mag-ingat ka sa iyong kalusugan.",
+        "Ibinalik niya ang libro sa aklatan."
+      ],
+      "answer": "Pumasok siya sa loob ng silid.",
+      "explanation": "Ang 'pumasok' ay nangangahulugang pumunta sa loob, kaya ang 'sa loob' ay redundante. Sapat na ang sabihing 'Pumasok siya sa silid.'"
+    },
+    {
+      "id": 37,
+      "question": "Piliin ang salitang MAGKATULAD ang kahulugan sa MAPAGKUMBABA.",
+      "choices": ["Mapagmataas", "Walang pagmamalaki", "Mapang-api", "Mapanganib"],
+      "answer": "Walang pagmamalaki",
+      "explanation": "Ang mapagkumbaba ay katumbas ng humble — walang pagmamalaki at may paggalang sa iba. Ito ay kabaligtaran ng mapagmataas."
+    },
+    {
+      "id": 38,
+      "question": "Basahin ang pangungusap: 'Kahit mahirap ang buhay, hindi siya nawalan ng PANANAMPALATAYA.' Ano ang kahulugan ng PANANAMPALATAYA?",
+      "choices": ["Pera", "Paniniwala at tiwala sa Diyos", "Kaalaman", "Katapangan"],
+      "answer": "Paniniwala at tiwala sa Diyos",
+      "explanation": "Ang pananampalataya ay nangangahulugang pananalig o tiwala, lalo na sa Diyos o sa isang mas mataas na kapangyarihan. Ito ay malapit sa kahulugan ng 'faith'."
+    },
+    {
+      "id": 39,
+      "question": "Alin ang TAMANG paraan ng pagbabago ng aktibong pangungusap sa pasibong anyo?\n\nAktibo: 'Sinulat ni Maria ang liham.'",
+      "choices": [
+        "Ang liham ay sinulat ni Maria.",
+        "Sinulat ang liham ni Maria.",
+        "Isinulat si Maria ang liham.",
+        "Ang liham ni Maria ay sumulat."
+      ],
+      "answer": "Ang liham ay sinulat ni Maria.",
+      "explanation": "Sa pasibong pangungusap, ang tumatanggap ng kilos (liham) ay nagiging paksa. Ang 'ni Maria' ay nagiging aktor sa katumbas na anyo."
+    },
+    {
+      "id": 40,
+      "question": "Piliin ang TAMANG kahulugan ng IDYOMA na 'nagbubukas ng sariling bangko'.",
+      "choices": [
+        "Nagtayo ng opisyal na bangko",
+        "Nag-iimpok ng pera",
+        "Nagpapatakbo ng hindi opisyal na negosyo sa pagpapautang",
+        "Nagbibigay ng libreng pautang"
+      ],
+      "answer": "Nagpapatakbo ng hindi opisyal na negosyo sa pagpapautang",
+      "explanation": "Ang ekspresyong 'nagbubukas ng sariling bangko' ay madalas na ginagamit para sa mga taong nagpapautang ng pera sa mataas na interes nang hindi opisyal — katulad ng 'loan shark' o '5-6' na negosyo."
+    },
+    {
+      "id": 41,
+      "question": "Ano ang tawag sa mga salitang magkatulad ang tunog ngunit magkaiba ang kahulugan at ispeling?",
+      "choices": ["Sinonimo", "Antonimo", "Homopono", "Palipat-diwa"],
+      "answer": "Homopono",
+      "explanation": "Ang homopono (homophones) ay mga salitang magkatulad ang tunog ngunit magkaiba ang kahulugan at ispeling. Halimbawa: 'oras' (time) at 'oras' (gold in Spanish, commonly used in Filipino)."
+    },
+    {
+      "id": 42,
+      "question": "Piliin ang TAMANG gamit ng salitang 'ng' at 'nang'.",
+      "choices": [
+        "Kumain nang kanin ang bata.",
+        "Kumain ng kanin ang bata.",
+        "Kumain ng mabilis ang bata.",
+        "Kumain nang masustansya ng bata."
+      ],
+      "answer": "Kumain ng kanin ang bata.",
+      "explanation": "'Ng' ay ginagamit bilang pantukoy sa bagay na tinatanggap ng kilos (object marker), tulad ng 'ng kanin'. 'Nang' ay ginagamit bilang pang-abay ng paraan, tulad ng 'nang mabilis'."
+    },
+    {
+      "id": 43,
+      "question": "Alin ang PANDIWA (verb) sa pangungusap na: 'Masayang kumanta ang mga bata sa entablado kahapon.'",
+      "choices": ["masaya", "mga bata", "kumanta", "entablado"],
+      "answer": "kumanta",
+      "explanation": "Ang pandiwa ay salitang nagpapahayag ng kilos, kalagayan, o proseso. Dito, ang 'kumanta' ay ang kilos na ginawa ng mga bata."
+    },
+    {
+      "id": 44,
+      "question": "Ano ang kahulugan ng salitang PAGPAPANGGAP?",
+      "choices": ["Pagiging tapat", "Pakikipagkaibigan", "Pagpapakita ng sarili bilang iba sa tunay", "Pagbabago ng isip"],
+      "answer": "Pagpapakita ng sarili bilang iba sa tunay",
+      "explanation": "Ang pagpapanggap ay nangangahulugang pagkukunwari — ang pagpapakita ng sarili bilang ibang tao o pagtatago ng tunay na nararamdaman o katangian."
+    },
+    {
+      "id": 45,
+      "question": "Basahin ang talata at sagutin ang tanong:\n\n'Ang mga kabataang Pilipino ay ipinagmamalaki ang kanilang kultura sa pamamagitan ng sayaw, musika, at sining. Sa kabila ng modernisasyon, patuloy nilang inaalagaan ang mga tradisyon ng kanilang mga ninuno. Ito ay patunay na ang pagmamahal sa sariling kultura ay hindi kailanman namamatay.'\n\nAno ang KONKLUSYON ng talata?",
+      "choices": [
+        "Ang modernisasyon ay nagpapalaya sa mga kabataan mula sa kanilang kultura.",
+        "Ang mga kabataan ay walang oras para sa tradisyon.",
+        "Ang pagmamahal sa sariling kultura ay nananatili kahit sa modernong panahon.",
+        "Ang sining at musika ay ang tanging paraan ng pagpapahayag ng kultura."
+      ],
+      "answer": "Ang pagmamahal sa sariling kultura ay nananatili kahit sa modernong panahon.",
+      "explanation": "Ang huling pangungusap ng talata mismo ang nagpapahayag ng konklusyon: ang pagmamahal sa sariling kultura ay hindi kailanman namamatay, kahit may modernisasyon."
+    },
+    {
+      "id": 46,
+      "question": "Piliin ang TAMANG kahulugan ng salitang MABUTING-LOOB.",
+      "choices": ["Mapagbigay at tapat", "Matapang at makapangyarihan", "Palakaibigan ngunit may mapanlinlang na layunin", "Palaging masaya"],
+      "answer": "Mapagbigay at tapat",
+      "explanation": "Ang mabuting-loob ay nagpapahayag ng kagandahang-loob — ang pagiging mabuti, mapagbigay, at may malalim na pagmamalasakit sa kapwa."
+    },
+    {
+      "id": 47,
+      "question": "Alin ang TAMANG paraan ng paggamit ng tuldik (accent mark) sa salitang may pagbabago ng kahulugan?",
+      "choices": [
+        "'Bágo' ay nangangahulugang new; 'bagó' ay nangangahulugang before.",
+        "'Bágo' ay nangangahulugang before; 'bagó' ay nangangahulugang new.",
+        "'Bago' ay laging nangangahulugang new.",
+        "'Bago' ay laging nangangahulugang before."
+      ],
+      "answer": "'Bágo' ay nangangahulugang before; 'bagó' ay nangangahulugang new.",
+      "explanation": "Sa wikang Filipino, ang tuldik ay nagbabago ng kahulugan ng salita. 'Bágo' (stress sa unang pantig) ay nangangahulugang 'before', habang 'bagó' (stress sa ikalawang pantig) ay nangangahulugang 'new'."
+    },
+    {
+      "id": 48,
+      "question": "Piliin ang pangungusap na may MALI sa gamit ng panghalip.",
+      "choices": [
+        "Siya ay pumunta sa palengke.",
+        "Sila ay naglaro sa labas.",
+        "Kami ay kumain ng hapunan.",
+        "Tayo ay kumain ng hapunan kasama ang lahat ng grupo."
+      ],
+      "answer": "Tayo ay kumain ng hapunan kasama ang lahat ng grupo.",
+      "explanation": "Ang 'tayo' ay inclusive — kasama ang kausap. Kung sasabihing 'kasama ang lahat ng grupo', ibig sabihin ay kasama na ang kausap sa 'tayo', kaya't ang pagdaragdag ng 'lahat ng grupo' ay nagiging redundante o nakakalito."
+    },
+    {
+      "id": 49,
+      "question": "Ano ang kahulugan ng SAWIKAIN na 'ang naghahasik ng hangin ay umaani ng bagyo'?",
+      "choices": [
+        "Ang panahon ay hindi mahuhulaan.",
+        "Ang mga gawa ng tao ay may katumbas na kahihinatnan.",
+        "Ang agrikultura ay mahalagang bahagi ng buhay.",
+        "Ang kalikasan ay makapangyarihan."
+      ],
+      "answer": "Ang mga gawa ng tao ay may katumbas na kahihinatnan.",
+      "explanation": "Ang sawikain ay nagpapahayag ng prinsipyong 'cause and effect' — ang taong nagsimula ng gulo o gumagawa ng masama ay matatanggap ang mas malaking parusa o kahihinatnan ng kanyang mga kilos."
+    },
+    {
+      "id": 50,
+      "question": "Basahin ang pangungusap at sagutin ang tanong: 'Dahil sa kanyang KATUSUHAN, naalis siya sa posisyon.' Ano ang kahulugan ng KATUSUHAN sa pangungusap na ito?",
+      "choices": [
+        "Katalinuhan at kahusayan sa trabaho",
+        "Pagkamapanlinlang at pagkatuso sa masamang paraan",
+        "Katapangan sa pagharap sa hamon",
+        "Kahusayan sa pakikipag-ugnayan sa iba"
+      ],
+      "answer": "Pagkamapanlinlang at pagkatuso sa masamang paraan",
+      "explanation": "Sa kontekstong ito, ang katusuhan ay may negatibong kahulugan — ang pagiging tuso sa mapanlinlang na paraan. Dahil sa kanyang katusuhan, naalis siya sa posisyon, na nagpapahiwatig ng masamang kilos."
+    }
+  ]
+}

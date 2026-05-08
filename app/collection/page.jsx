@@ -6,6 +6,7 @@ import { getExamCollectibles, getOverallStats } from '@/lib/storage';
 import { MODULE_INFO } from '@/lib/quizEngine';
 
 const AGR_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'agriculture');
+const CSE_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'civil-service');
 const EDU_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'education');
 const CRI_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'criminology');
 const MED_MODS = Object.values(MODULE_INFO).filter((m) => m.examId === 'medical-technology');
@@ -23,6 +24,17 @@ const COURSES = [
     completeBorder: 'border-green-400',
     href: '/agriculture',
     modules: AGR_MODS,
+  },
+  {
+    examId: 'civil-service',
+    label: 'Civil Service (CSE)',
+    icon: '🏛️',
+    color: 'from-blue-900/30 to-blue-800/10',
+    border: 'border-blue-500/40',
+    accent: 'text-blue-400',
+    completeBorder: 'border-blue-400',
+    href: '/civil-service',
+    modules: CSE_MODS,
   },
   {
     examId: 'education',
@@ -215,9 +227,10 @@ function CourseCollection({ course, collectibles, stats }) {
 }
 
 export default function CollectionPage() {
-  const [collectiblesMap, setCollectiblesMap] = useState({ agriculture: {}, education: {}, criminology: {}, 'medical-technology': {}, nursing: {}, pharmacy: {} });
+  const [collectiblesMap, setCollectiblesMap] = useState({ agriculture: {}, 'civil-service': {}, education: {}, criminology: {}, 'medical-technology': {}, nursing: {}, pharmacy: {} });
   const [statsMap, setStatsMap] = useState({
     agriculture: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
+    'civil-service': { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
     education: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
     criminology: { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
     'medical-technology': { totalStagesPlayed: 0, totalStagesPassed: 0, averageScore: 0 },
@@ -227,22 +240,24 @@ export default function CollectionPage() {
 
   useEffect(() => {
     async function load() {
-      const [agrC, eduC, criC, medC, nursC, phaC, agrS, eduS, criS, medS, nursS, phaS] = await Promise.all([
+      const [agrC, cseC, eduC, criC, medC, nursC, phaC, agrS, cseS, eduS, criS, medS, nursS, phaS] = await Promise.all([
         getExamCollectibles('agriculture'),
+        getExamCollectibles('civil-service'),
         getExamCollectibles('education'),
         getExamCollectibles('criminology'),
         getExamCollectibles('medical-technology'),
         getExamCollectibles('nursing'),
         getExamCollectibles('pharmacy'),
         getOverallStats('agriculture'),
+        getOverallStats('civil-service'),
         getOverallStats('education'),
         getOverallStats('criminology'),
         getOverallStats('medical-technology'),
         getOverallStats('nursing'),
         getOverallStats('pharmacy'),
       ]);
-      setCollectiblesMap({ agriculture: agrC, education: eduC, criminology: criC, 'medical-technology': medC, nursing: nursC, pharmacy: phaC });
-      setStatsMap({ agriculture: agrS, education: eduS, criminology: criS, 'medical-technology': medS, nursing: nursS, pharmacy: phaS });
+      setCollectiblesMap({ agriculture: agrC, 'civil-service': cseC, education: eduC, criminology: criC, 'medical-technology': medC, nursing: nursC, pharmacy: phaC });
+      setStatsMap({ agriculture: agrS, 'civil-service': cseS, education: eduS, criminology: criS, 'medical-technology': medS, nursing: nursS, pharmacy: phaS });
     }
     load();
   }, []);

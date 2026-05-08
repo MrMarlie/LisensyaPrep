@@ -1,0 +1,521 @@
+{
+  "module": "Module 5 – General Information",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the supreme law of the Philippines?",
+      "choices": ["The Civil Code", "The Revised Penal Code", "The 1987 Constitution", "The Administrative Code"],
+      "answer": "The 1987 Constitution",
+      "explanation": "The 1987 Philippine Constitution is the fundamental and supreme law of the land. All other laws must conform to it."
+    },
+    {
+      "id": 2,
+      "question": "Under R.A. 6713, which of the following is an act of government employees that is PROHIBITED?",
+      "choices": [
+        "Attending official functions as a representative",
+        "Receiving a token gift of small value",
+        "Having financial or business interest in any government contract",
+        "Engaging in civic activities outside office hours"
+      ],
+      "answer": "Having financial or business interest in any government contract",
+      "explanation": "R.A. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees) prohibits officials and employees from having a financial or business interest in any contract, project, or activity requiring their office's approval."
+    },
+    {
+      "id": 3,
+      "question": "How many branches does the Philippine government have?",
+      "choices": ["2", "3", "4", "5"],
+      "answer": "3",
+      "explanation": "The Philippine government has three branches: the Legislative (Congress), the Executive (President), and the Judiciary (Supreme Court and lower courts). This is the principle of separation of powers."
+    },
+    {
+      "id": 4,
+      "question": "According to the 1987 Constitution, who exercises legislative power?",
+      "choices": ["The President", "The Supreme Court", "The Congress of the Philippines", "The Cabinet"],
+      "answer": "The Congress of the Philippines",
+      "explanation": "Article VI of the 1987 Constitution vests legislative power in the Congress of the Philippines, which consists of the Senate and the House of Representatives."
+    },
+    {
+      "id": 5,
+      "question": "What is the age requirement to be a Senator of the Philippines?",
+      "choices": ["At least 25 years old", "At least 30 years old", "At least 35 years old", "At least 40 years old"],
+      "answer": "At least 35 years old",
+      "explanation": "Under Article VI, Section 3 of the 1987 Constitution, a Senator must be at least 35 years old on the day of the election."
+    },
+    {
+      "id": 6,
+      "question": "Under R.A. 6713, public officials must file a Statement of Assets, Liabilities and Net Worth (SALN) how often?",
+      "choices": ["Every 2 years", "Every 3 years", "Annually", "Only upon appointment"],
+      "answer": "Annually",
+      "explanation": "R.A. 6713 requires public officials and employees to file a SALN annually within thirty (30) days after the end of every calendar year."
+    },
+    {
+      "id": 7,
+      "question": "Which article of the 1987 Constitution enshrines the Bill of Rights?",
+      "choices": ["Article II", "Article III", "Article VI", "Article VIII"],
+      "answer": "Article III",
+      "explanation": "Article III of the 1987 Philippine Constitution contains the Declaration of Principles and State Policies — wait, Article III is the Bill of Rights. Article II is Declaration of Principles. Article III = Bill of Rights."
+    },
+    {
+      "id": 8,
+      "question": "The principle that the government cannot take private property without just compensation is known as:",
+      "choices": ["Due Process", "Equal Protection", "Eminent Domain", "Habeas Corpus"],
+      "answer": "Eminent Domain",
+      "explanation": "Eminent domain is the power of the state to take private property for public use, provided just compensation is paid to the owner. This is recognized under Article III of the 1987 Constitution."
+    },
+    {
+      "id": 9,
+      "question": "What does R.A. 6713 stand for?",
+      "choices": [
+        "Anti-Graft and Corrupt Practices Act",
+        "Code of Conduct and Ethical Standards for Public Officials and Employees",
+        "Government Service Insurance System Act",
+        "Civil Service Reform Act"
+      ],
+      "answer": "Code of Conduct and Ethical Standards for Public Officials and Employees",
+      "explanation": "Republic Act 6713 is known as the Code of Conduct and Ethical Standards for Public Officials and Employees. It was enacted in 1989 to promote high standards of ethics in the government."
+    },
+    {
+      "id": 10,
+      "question": "Which right is protected by the writ of habeas corpus?",
+      "choices": [
+        "The right to vote",
+        "The right against unlawful detention",
+        "The right to free education",
+        "The right to own property"
+      ],
+      "answer": "The right against unlawful detention",
+      "explanation": "Habeas corpus is a legal order requiring a person under arrest to be brought before a judge or court. It protects individuals from illegal or unjustified imprisonment."
+    },
+    {
+      "id": 11,
+      "question": "Under the 1987 Constitution, how long is the term of the President of the Philippines?",
+      "choices": ["4 years", "5 years", "6 years", "7 years"],
+      "answer": "6 years",
+      "explanation": "Article VII, Section 4 of the 1987 Constitution provides that the President serves a term of six years and is not eligible for re-election."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is a core value under R.A. 6713?",
+      "choices": ["Partiality", "Nationalism", "Favoritism", "Nepotism"],
+      "answer": "Nationalism",
+      "explanation": "R.A. 6713 promotes norms of conduct including commitment to public interest, professionalism, justness and sincerity, nationalism, and responsiveness to the public. Nationalism is a core value."
+    },
+    {
+      "id": 13,
+      "question": "What is the Universal Declaration of Human Rights (UDHR)?",
+      "choices": [
+        "A treaty binding all countries to protect rights",
+        "A UN General Assembly declaration setting a common standard of human rights for all",
+        "A Philippine law on human rights",
+        "An agreement between the US and the Philippines on civil rights"
+      ],
+      "answer": "A UN General Assembly declaration setting a common standard of human rights for all",
+      "explanation": "The UDHR was adopted by the UN General Assembly on December 10, 1948. It is not a legally binding treaty but a declaration that sets a common standard of achievement for all peoples and nations regarding human rights."
+    },
+    {
+      "id": 14,
+      "question": "Which branch of government is responsible for interpreting the law?",
+      "choices": ["Legislative", "Executive", "Judicial", "Constitutional Commission"],
+      "answer": "Judicial",
+      "explanation": "The Judicial branch, headed by the Supreme Court, is responsible for interpreting laws and determining their constitutionality. This is the principle of judicial review."
+    },
+    {
+      "id": 15,
+      "question": "What does 'due process of law' mean?",
+      "choices": [
+        "The government can do anything as long as it follows a procedure",
+        "Every person has the right to a fair and proper legal process before being deprived of life, liberty, or property",
+        "Only lawyers can challenge government decisions",
+        "Laws must always favor the majority"
+      ],
+      "answer": "Every person has the right to a fair and proper legal process before being deprived of life, liberty, or property",
+      "explanation": "Due process (Article III, Section 1 of the 1987 Constitution) means the government cannot deprive any person of life, liberty, or property without following fair procedures and according to the rules of law."
+    },
+    {
+      "id": 16,
+      "question": "According to R.A. 6713, the norms of conduct for public officials include being 'NATIONALIST.' This means:",
+      "choices": [
+        "Promoting foreign interests above local ones",
+        "Being loyal to the Philippines and placing national interests above personal interests",
+        "Opposing all foreign investments",
+        "Limiting foreign trade relationships"
+      ],
+      "answer": "Being loyal to the Philippines and placing national interests above personal interests",
+      "explanation": "Under R.A. 6713, being nationalist means public officials must be loyal to the Republic and to the Filipino people, placing national interest above personal gain."
+    },
+    {
+      "id": 17,
+      "question": "What right does the Miranda Doctrine protect?",
+      "choices": [
+        "The right to a speedy trial",
+        "The right of a person under custodial investigation to be informed of their rights",
+        "The right to bail",
+        "The right to confront witnesses"
+      ],
+      "answer": "The right of a person under custodial investigation to be informed of their rights",
+      "explanation": "The Miranda Doctrine (enshrined in Article III, Sec. 12 of the Constitution) requires that persons under custodial investigation be informed of their right to remain silent, right to counsel, and that anything they say may be used against them."
+    },
+    {
+      "id": 18,
+      "question": "What is R.A. 9003 about?",
+      "choices": [
+        "Clean Air Act",
+        "Ecological Solid Waste Management Act",
+        "Clean Water Act",
+        "Philippine Environment Code"
+      ],
+      "answer": "Ecological Solid Waste Management Act",
+      "explanation": "Republic Act 9003, known as the Ecological Solid Waste Management Act of 2000, establishes the policy of the state on solid waste management — including segregation, collection, and disposal of waste."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is a human right classified as a CIVIL right?",
+      "choices": [
+        "Right to education",
+        "Right to work",
+        "Right to a fair trial",
+        "Right to social security"
+      ],
+      "answer": "Right to a fair trial",
+      "explanation": "Civil rights protect individuals from arbitrary government action and guarantee liberty in civil matters. The right to a fair trial (due process, legal representation) is a civil right. Education, work, and social security are economic/social rights."
+    },
+    {
+      "id": 20,
+      "question": "Under the 1987 Constitution, what is the age requirement to vote in Philippine elections?",
+      "choices": ["15 years old", "17 years old", "18 years old", "21 years old"],
+      "answer": "18 years old",
+      "explanation": "Article V, Section 1 of the 1987 Constitution provides that all citizens of the Philippines, not otherwise disqualified by law, who are at least eighteen (18) years of age, may vote."
+    },
+    {
+      "id": 21,
+      "question": "R.A. 9275 is known as the:",
+      "choices": [
+        "Clean Air Act",
+        "Philippine Clean Water Act",
+        "Solid Waste Management Act",
+        "Wildlife Resources Conservation Act"
+      ],
+      "answer": "Philippine Clean Water Act",
+      "explanation": "Republic Act 9275 is the Philippine Clean Water Act of 2004. It aims to protect the country's water bodies from pollution from land-based sources."
+    },
+    {
+      "id": 22,
+      "question": "What does the principle of 'separation of church and state' mean in the Philippine context?",
+      "choices": [
+        "The Church has no role in society.",
+        "The government cannot interfere with religious affairs, and the Church cannot control the state.",
+        "Religion is banned from public schools.",
+        "The government controls all religious activities."
+      ],
+      "answer": "The government cannot interfere with religious affairs, and the Church cannot control the state.",
+      "explanation": "Article II, Section 6 of the 1987 Constitution states that the separation of Church and State shall be inviolable. This means neither the government controls religion nor religion controls government policy."
+    },
+    {
+      "id": 23,
+      "question": "What is the penalty for a public official who fails to file their SALN under R.A. 6713?",
+      "choices": [
+        "Oral reprimand",
+        "Administrative sanctions including suspension or dismissal",
+        "A fine of ₱50,000 only",
+        "No penalty; it is optional"
+      ],
+      "answer": "Administrative sanctions including suspension or dismissal",
+      "explanation": "Failure to file the SALN or filing a false SALN is a ground for administrative disciplinary action under R.A. 6713, which may include suspension, dismissal from service, and other penalties."
+    },
+    {
+      "id": 24,
+      "question": "Which right guarantees that a person shall NOT be tried twice for the same offense?",
+      "choices": ["Right to due process", "Right against double jeopardy", "Right to equal protection", "Right against self-incrimination"],
+      "answer": "Right against double jeopardy",
+      "explanation": "Article III, Section 21 of the 1987 Constitution provides that no person shall be twice put in jeopardy of punishment for the same offense. This is the right against double jeopardy."
+    },
+    {
+      "id": 25,
+      "question": "Which of the following is a responsibility of citizens under the 1987 Constitution?",
+      "choices": [
+        "To pay taxes",
+        "To avoid paying taxes whenever possible",
+        "To refuse military service in all cases",
+        "To follow only laws they agree with"
+      ],
+      "answer": "To pay taxes",
+      "explanation": "Article II, Section 4 of the 1987 Constitution declares that the prime duty of the government is to serve and protect the people, while citizens have the duty to pay taxes to fund government services."
+    },
+    {
+      "id": 26,
+      "question": "What does the term 'GRAFT' mean in the context of public service?",
+      "choices": [
+        "Hard work and dedication in government",
+        "Corrupt practices involving abuse of power for personal gain",
+        "Transfer of government funds to a new office",
+        "A type of agricultural technique"
+      ],
+      "answer": "Corrupt practices involving abuse of power for personal gain",
+      "explanation": "Graft refers to unscrupulous use of a politician's authority for personal gain, such as bribery or corruption. In the Philippine context, it is covered by R.A. 3019 (Anti-Graft and Corrupt Practices Act)."
+    },
+    {
+      "id": 27,
+      "question": "The right to freedom of speech is guaranteed under which Article of the 1987 Constitution?",
+      "choices": ["Article II", "Article III", "Article VI", "Article XIV"],
+      "answer": "Article III",
+      "explanation": "Freedom of speech, expression, and the press are guaranteed under Article III (Bill of Rights), Section 4 of the 1987 Constitution."
+    },
+    {
+      "id": 28,
+      "question": "Which body is responsible for promulgating rules and regulations on Civil Service under the Philippine Constitution?",
+      "choices": [
+        "Department of Justice",
+        "Office of the President",
+        "Civil Service Commission",
+        "Commission on Elections"
+      ],
+      "answer": "Civil Service Commission",
+      "explanation": "The Civil Service Commission (CSC) is a constitutional body under Article IX-B of the 1987 Constitution. It is the central personnel agency of the government and administers the Civil Service Law."
+    },
+    {
+      "id": 29,
+      "question": "R.A. 9512 is the:",
+      "choices": [
+        "Environmental Awareness and Education Act",
+        "Clean Air Act",
+        "Fisheries Code",
+        "Climate Change Act"
+      ],
+      "answer": "Environmental Awareness and Education Act",
+      "explanation": "Republic Act 9512, the National Environmental Awareness and Education Act of 2008, mandates the integration of environmental education in all school curricula at all levels in the Philippines."
+    },
+    {
+      "id": 30,
+      "question": "What does 'EQUAL PROTECTION OF THE LAWS' mean under Article III of the 1987 Constitution?",
+      "choices": [
+        "All laws must protect wealthy citizens first.",
+        "All persons similarly situated must be treated alike by the law.",
+        "Every law applies only to government employees.",
+        "Laws can discriminate based on social class."
+      ],
+      "answer": "All persons similarly situated must be treated alike by the law.",
+      "explanation": "The equal protection clause means the government may not discriminate arbitrarily. Persons who are similarly situated must be treated the same way under the law."
+    },
+    {
+      "id": 31,
+      "question": "Which principle ensures that public servants are accountable to the public for their actions?",
+      "choices": ["Sovereignty", "Public Accountability", "Separation of Powers", "Checks and Balances"],
+      "answer": "Public Accountability",
+      "explanation": "Public accountability is the principle that public officials are answerable to the people for the exercise of their power and use of public resources. It is a core principle of democratic governance."
+    },
+    {
+      "id": 32,
+      "question": "Under the Philippine Constitution, freedom of religion means:",
+      "choices": [
+        "The government promotes Christianity as the state religion.",
+        "No person may be compelled to support any religion or worship.",
+        "All religious groups must register with the government.",
+        "Religion is limited to private homes only."
+      ],
+      "answer": "No person may be compelled to support any religion or worship.",
+      "explanation": "Article III, Section 5 guarantees freedom of religion, meaning no law may be made respecting an establishment of religion or prohibiting the free exercise thereof, and no person shall be compelled to worship."
+    },
+    {
+      "id": 33,
+      "question": "What is the concept of 'CHECKS AND BALANCES' in government?",
+      "choices": [
+        "All branches have equal budgets.",
+        "Each branch of government has powers to limit the others, preventing any single branch from becoming too powerful.",
+        "The President checks the bank accounts of all government agencies.",
+        "Congress balances the national budget annually."
+      ],
+      "answer": "Each branch of government has powers to limit the others, preventing any single branch from becoming too powerful.",
+      "explanation": "Checks and balances is a system where each branch of government can oversee and limit the actions of the other branches, ensuring no single branch becomes dominant."
+    },
+    {
+      "id": 34,
+      "question": "Which of the following is a violation of peace as understood in human rights frameworks?",
+      "choices": [
+        "Community dialogue",
+        "Arbitrary arrest and detention",
+        "Freedom of peaceful assembly",
+        "Access to public education"
+      ],
+      "answer": "Arbitrary arrest and detention",
+      "explanation": "Arbitrary arrest and detention — taking someone into custody without legal basis — is a violation of human rights and a breach of the peace. It violates the right to liberty and security."
+    },
+    {
+      "id": 35,
+      "question": "Which government agency administers the implementation of R.A. 9003 (Ecological Solid Waste Management Act)?",
+      "choices": [
+        "Department of Health",
+        "Department of Environment and Natural Resources",
+        "National Solid Waste Management Commission",
+        "Department of Agriculture"
+      ],
+      "answer": "National Solid Waste Management Commission",
+      "explanation": "R.A. 9003 created the National Solid Waste Management Commission (NSWMC) under the Office of the President to oversee the implementation of the solid waste management program."
+    },
+    {
+      "id": 36,
+      "question": "Article II, Section 15 of the 1987 Constitution states that the State shall protect and promote the right of the people to:",
+      "choices": ["Free education", "Health and well-being", "Own land", "Vote in all elections"],
+      "answer": "Health and well-being",
+      "explanation": "Article II, Section 15 of the Constitution provides: 'The State shall protect and promote the right to health of the people and instill health consciousness among them.'"
+    },
+    {
+      "id": 37,
+      "question": "Under R.A. 6713, 'PROFESSIONALISM' in public service means:",
+      "choices": [
+        "Wearing uniforms at all times",
+        "Performing duties with the highest degree of excellence and competence",
+        "Refusing to accept any criticism",
+        "Working the maximum number of hours every day"
+      ],
+      "answer": "Performing duties with the highest degree of excellence and competence",
+      "explanation": "R.A. 6713 requires public officials and employees to perform duties with the highest degree of excellence, intelligence, and skill. This is the norm of professionalism."
+    },
+    {
+      "id": 38,
+      "question": "What is the primary purpose of the SALN (Statement of Assets, Liabilities and Net Worth)?",
+      "choices": [
+        "To allow the government to tax officials more accurately",
+        "To promote transparency and detect unexplained wealth among public officials",
+        "To track employee salary increases",
+        "To record pension contributions"
+      ],
+      "answer": "To promote transparency and detect unexplained wealth among public officials",
+      "explanation": "The SALN serves as a transparency mechanism to detect ill-gotten wealth and conflicts of interest. It allows the public and oversight bodies to see if a public official's lifestyle matches their declared income."
+    },
+    {
+      "id": 39,
+      "question": "Which international document outlines the rights of children?",
+      "choices": [
+        "Universal Declaration of Human Rights",
+        "UN Convention on the Rights of the Child",
+        "International Covenant on Civil and Political Rights",
+        "Geneva Convention"
+      ],
+      "answer": "UN Convention on the Rights of the Child",
+      "explanation": "The UN Convention on the Rights of the Child (CRC), adopted in 1989, is the primary international document outlining the civil, political, economic, social, and cultural rights of every child."
+    },
+    {
+      "id": 40,
+      "question": "Which Philippine law established the policy on integrated and comprehensive pollution control?",
+      "choices": [
+        "R.A. 8749 – Clean Air Act",
+        "R.A. 6969 – Toxic Substances and Hazardous and Nuclear Wastes Act",
+        "Presidential Decree 984 – Pollution Control Law",
+        "R.A. 9003 – Ecological Solid Waste Management Act"
+      ],
+      "answer": "Presidential Decree 984 – Pollution Control Law",
+      "explanation": "Presidential Decree 984, known as the National Pollution Control Decree of 1976, was the pioneering legislation on pollution control in the Philippines, establishing the framework for environmental protection."
+    },
+    {
+      "id": 41,
+      "question": "Under the 1987 Constitution, the State recognizes the sanctity of family life and protects and strengthens the family as a basic social institution. This is found in which Article?",
+      "choices": ["Article I", "Article II", "Article III", "Article VII"],
+      "answer": "Article II",
+      "explanation": "Article II (Declaration of Principles and State Policies), Section 12 states: 'The State recognizes the sanctity of family life and shall protect and strengthen the family as a basic autonomous social institution.'"
+    },
+    {
+      "id": 42,
+      "question": "What is the meaning of 'SOCIAL JUSTICE' under the Philippine Constitution?",
+      "choices": [
+        "All citizens receive the same salary regardless of work",
+        "Giving priority to the needs of the poor and disadvantaged to achieve a more equitable society",
+        "Punishing the wealthy for being rich",
+        "Ensuring all citizens live in the same type of housing"
+      ],
+      "answer": "Giving priority to the needs of the poor and disadvantaged to achieve a more equitable society",
+      "explanation": "Article XIII on Social Justice and Human Rights mandates the State to reduce inequality and give priority to the welfare of the less privileged, ensuring a more equitable distribution of wealth and opportunities."
+    },
+    {
+      "id": 43,
+      "question": "Which agency is primarily responsible for enforcing R.A. 8749 (Clean Air Act)?",
+      "choices": [
+        "Department of Health",
+        "Department of Environment and Natural Resources",
+        "Department of Energy",
+        "Climate Change Commission"
+      ],
+      "answer": "Department of Environment and Natural Resources",
+      "explanation": "The Department of Environment and Natural Resources (DENR) is the primary agency responsible for implementing and enforcing R.A. 8749 or the Philippine Clean Air Act of 1999."
+    },
+    {
+      "id": 44,
+      "question": "What does the 1987 Constitution say about the national territory of the Philippines?",
+      "choices": [
+        "It consists only of the main islands of Luzon, Visayas, and Mindanao.",
+        "It includes the Philippine archipelago, with all the islands and waters embraced therein, and other territories over which the Philippines has sovereignty or jurisdiction.",
+        "It is limited to islands recognized by Spain in the Treaty of Paris.",
+        "It is defined solely by the UNCLOS maritime boundaries."
+      ],
+      "answer": "It includes the Philippine archipelago, with all the islands and waters embraced therein, and other territories over which the Philippines has sovereignty or jurisdiction.",
+      "explanation": "Article I of the 1987 Constitution defines the national territory as the Philippine archipelago, with all islands and waters embraced therein, and all other territories over which the Philippines has sovereignty or jurisdiction, including territorial sea, sea-bed, subsoil, insular shelves, and other submarine areas."
+    },
+    {
+      "id": 45,
+      "question": "Under R.A. 6713, which of the following is an example of NEPOTISM that is prohibited?",
+      "choices": [
+        "Promoting an employee based on merit and performance",
+        "Appointing a qualified relative within the third degree of consanguinity to a position in the same office",
+        "Hiring a highly qualified non-relative for a senior position",
+        "Recommending a colleague for a merit-based award"
+      ],
+      "answer": "Appointing a qualified relative within the third degree of consanguinity to a position in the same office",
+      "explanation": "R.A. 6713 prohibits nepotism — the appointment of relatives within the third civil degree of consanguinity or affinity in the official's office, even if the relative is qualified, as this creates a conflict of interest."
+    },
+    {
+      "id": 46,
+      "question": "The principle that 'sovereignty resides in the people and all government authority emanates from them' is found in which Article of the 1987 Constitution?",
+      "choices": ["Article I", "Article II", "Article III", "Article V"],
+      "answer": "Article II",
+      "explanation": "Article II, Section 1 of the 1987 Constitution states: 'The Philippines is a democratic and republican State. Sovereignty resides in the people and all government authority emanates from them.'"
+    },
+    {
+      "id": 47,
+      "question": "Which human right is described as the right NOT to be subjected to torture or cruel, inhuman, or degrading treatment?",
+      "choices": [
+        "Right to life",
+        "Right to freedom from torture",
+        "Right to a fair trial",
+        "Right to privacy"
+      ],
+      "answer": "Right to freedom from torture",
+      "explanation": "Article 5 of the Universal Declaration of Human Rights and Article III, Section 12 of the 1987 Constitution protect the right of every person to be free from torture or cruel, inhuman, or degrading treatment."
+    },
+    {
+      "id": 48,
+      "question": "What is the purpose of the Philippine Clean Air Act (R.A. 8749)?",
+      "choices": [
+        "To promote the use of private vehicles over public transportation",
+        "To protect and preserve the atmosphere and prevent air pollution",
+        "To require all factories to close permanently",
+        "To limit international trade of chemical products"
+      ],
+      "answer": "To protect and preserve the atmosphere and prevent air pollution",
+      "explanation": "R.A. 8749 aims to achieve and maintain clean air that meets the National Ambient Air Quality Guidelines through the prevention and control of air pollution."
+    },
+    {
+      "id": 49,
+      "question": "According to R.A. 6713, what should a public official do when given a gift of substantial value?",
+      "choices": [
+        "Keep it since it was given voluntarily",
+        "Share it with the team",
+        "Report and return it or turn it over to the government",
+        "Donate it to charity without reporting"
+      ],
+      "answer": "Report and return it or turn it over to the government",
+      "explanation": "Under R.A. 6713, public officials who receive gifts of substantial value (beyond what is allowed) in the course of official duties must return it or, if that is not possible, turn it over to the government. Accepting it would be a violation."
+    },
+    {
+      "id": 50,
+      "question": "What is the 1987 Philippine Constitution's stand on war?",
+      "choices": [
+        "The Philippines may declare war against any nation at any time.",
+        "The Philippines renounces war as an instrument of national policy.",
+        "War is allowed only for territorial expansion.",
+        "The President has sole authority to declare war without Congress."
+      ],
+      "answer": "The Philippines renounces war as an instrument of national policy.",
+      "explanation": "Article II, Section 2 of the 1987 Constitution states: 'The Philippines renounces war as an instrument of national policy, adopts the generally accepted principles of international law as part of the law of the land, and adheres to the policy of peace, equality, justice, freedom, cooperation, and amity with all nations.'"
+    }
+  ]
+}

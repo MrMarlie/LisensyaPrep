@@ -1,0 +1,471 @@
+{
+  "module": "Module 1 – Verbal Ability (English)",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Choose the word closest in meaning to BENEVOLENT.",
+      "choices": ["Cruel", "Generous", "Strict", "Passive"],
+      "answer": "Generous",
+      "explanation": "Benevolent means well-meaning and kindly disposed. Generous is the closest synonym among the choices."
+    },
+    {
+      "id": 2,
+      "question": "Choose the word most nearly OPPOSITE in meaning to VERBOSE.",
+      "choices": ["Talkative", "Concise", "Wordy", "Lengthy"],
+      "answer": "Concise",
+      "explanation": "Verbose means using more words than needed. Its antonym is concise, meaning brief and to the point."
+    },
+    {
+      "id": 3,
+      "question": "Select the correct sentence.",
+      "choices": [
+        "Neither the manager nor the employees was informed.",
+        "Neither the manager nor the employees were informed.",
+        "Neither the manager nor the employees is informed.",
+        "Neither the manager nor the employees are informed."
+      ],
+      "answer": "Neither the manager nor the employees were informed.",
+      "explanation": "With 'neither...nor', the verb agrees with the subject closest to it. 'Employees' is plural, so 'were' is correct."
+    },
+    {
+      "id": 4,
+      "question": "Which sentence uses the correct form of the verb?",
+      "choices": [
+        "Each of the students have submitted their report.",
+        "Each of the students has submitted their report.",
+        "Each of the students have submitted his report.",
+        "Each of the students has submitted its report."
+      ],
+      "answer": "Each of the students has submitted their report.",
+      "explanation": "'Each' is singular and takes a singular verb ('has'). 'Their' is used as a gender-neutral singular pronoun."
+    },
+    {
+      "id": 5,
+      "question": "Choose the word closest in meaning to TACITURN.",
+      "choices": ["Talkative", "Reserved", "Aggressive", "Cheerful"],
+      "answer": "Reserved",
+      "explanation": "Taciturn means reserved or uncommunicative in speech. A taciturn person says very little."
+    },
+    {
+      "id": 6,
+      "question": "Select the sentence that is grammatically correct.",
+      "choices": [
+        "She is one of the teachers who has won the award.",
+        "She is one of the teachers who have won the award.",
+        "She is one of the teachers whom have won the award.",
+        "She is one of the teachers whom has won the award."
+      ],
+      "answer": "She is one of the teachers who have won the award.",
+      "explanation": "The relative clause 'who have won' refers to 'teachers' (plural), so the plural verb 'have' is correct."
+    },
+    {
+      "id": 7,
+      "question": "What does AMELIORATE mean?",
+      "choices": ["To worsen", "To improve", "To ignore", "To replicate"],
+      "answer": "To improve",
+      "explanation": "Ameliorate means to make something bad or unsatisfactory better. It is used when describing improvement of a situation."
+    },
+    {
+      "id": 8,
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "The data shows that sales has increased.",
+        "The data show that sales have increased.",
+        "The data shows that sales have increased.",
+        "The data show that sales has increased."
+      ],
+      "answer": "The data show that sales have increased.",
+      "explanation": "'Data' is the plural of 'datum' and takes a plural verb 'show'. 'Sales' is also plural, requiring 'have'."
+    },
+    {
+      "id": 9,
+      "question": "Which word is the best synonym for OSTENTATIOUS?",
+      "choices": ["Modest", "Showy", "Quiet", "Sincere"],
+      "answer": "Showy",
+      "explanation": "Ostentatious means characterized by a vulgar display of wealth or knowledge; designed to impress. Showy is the closest synonym."
+    },
+    {
+      "id": 10,
+      "question": "Select the correct sentence regarding subject-verb agreement.",
+      "choices": [
+        "The committee have reached a decision.",
+        "The committee has reached a decision.",
+        "The committee are reached a decision.",
+        "The committee were reached a decision."
+      ],
+      "answer": "The committee has reached a decision.",
+      "explanation": "In Philippine English, collective nouns like 'committee' take singular verbs when acting as a single unit."
+    },
+    {
+      "id": 11,
+      "question": "What is the meaning of PERFIDIOUS?",
+      "choices": ["Loyal", "Treacherous", "Hardworking", "Generous"],
+      "answer": "Treacherous",
+      "explanation": "Perfidious means deceitful and untrustworthy; guilty of betrayal. Treacherous is the closest in meaning."
+    },
+    {
+      "id": 12,
+      "question": "Choose the word that correctly completes the sentence: 'The principal, along with the teachers, _____ the meeting.'",
+      "choices": ["attend", "attends", "are attending", "have attended"],
+      "answer": "attends",
+      "explanation": "When 'along with' connects two subjects, the verb agrees with the main subject 'principal', which is singular. Use 'attends'."
+    },
+    {
+      "id": 13,
+      "question": "Which is the correct use of the apostrophe?",
+      "choices": [
+        "The supervisor's report was submitted late.",
+        "The supervisors report was submitted late.",
+        "The supervisor's' report was submitted late.",
+        "The supervisors' report was submitted late for one supervisor."
+      ],
+      "answer": "The supervisor's report was submitted late.",
+      "explanation": "To show possession by a singular noun, add apostrophe + s. 'Supervisor's' correctly shows one supervisor's report."
+    },
+    {
+      "id": 14,
+      "question": "What does the word RANCOR mean?",
+      "choices": ["Joy", "Bitterness", "Surprise", "Courage"],
+      "answer": "Bitterness",
+      "explanation": "Rancor means bitterness or resentfulness, especially when long-standing. It refers to a deep-seated ill will."
+    },
+    {
+      "id": 15,
+      "question": "Choose the sentence with the correct use of 'fewer' and 'less'.",
+      "choices": [
+        "There are less students in the room today.",
+        "There are fewer students in the room today.",
+        "There is fewer students in the room today.",
+        "There is less students in the room today."
+      ],
+      "answer": "There are fewer students in the room today.",
+      "explanation": "'Fewer' is used with countable nouns like 'students'. 'Less' is used with uncountable nouns."
+    },
+    {
+      "id": 16,
+      "question": "Arrange the following sentences to form a coherent paragraph. Which sentence should come FIRST?\n\n1. These programs aim to equip workers with skills needed in emerging industries.\n2. The government has launched several skills training programs nationwide.\n3. As a result, unemployment rates have slightly declined in recent quarters.\n4. Participants gain technical certifications upon completing the courses.",
+      "choices": ["Sentence 1", "Sentence 2", "Sentence 3", "Sentence 4"],
+      "answer": "Sentence 2",
+      "explanation": "Sentence 2 introduces the main topic (skills training programs). Sentence 1 explains their purpose, Sentence 4 gives a detail, and Sentence 3 gives the result. The logical order is 2-1-4-3."
+    },
+    {
+      "id": 17,
+      "question": "Which sentence should come LAST in a well-organized paragraph that discusses flood preparedness?\n\n1. Families should prepare emergency kits with food, water, and medicine.\n2. Flooding is one of the most common disasters in the Philippines.\n3. Local governments also play a key role in issuing timely evacuation orders.\n4. When these measures are in place, communities are better able to survive flood events.",
+      "choices": ["Sentence 1", "Sentence 2", "Sentence 3", "Sentence 4"],
+      "answer": "Sentence 4",
+      "explanation": "Sentence 4 serves as a concluding statement that ties together all the points about flood preparedness. It should come last."
+    },
+    {
+      "id": 18,
+      "question": "Which word BEST fills the blank: 'His _____ behavior during the hearing drew criticism from his colleagues.'",
+      "choices": ["exemplary", "erratic", "composed", "diligent"],
+      "answer": "erratic",
+      "explanation": "The context implies negative behavior (drew criticism). Erratic means unpredictable and inconsistent, which best fits the sentence."
+    },
+    {
+      "id": 19,
+      "question": "What does EQUIVOCAL mean?",
+      "choices": ["Clear and direct", "Open to more than one interpretation", "Completely false", "Morally upright"],
+      "answer": "Open to more than one interpretation",
+      "explanation": "Equivocal means unclear or ambiguous, capable of being interpreted in more than one way. It often implies intentional vagueness."
+    },
+    {
+      "id": 20,
+      "question": "Choose the correctly punctuated sentence.",
+      "choices": [
+        "The report however, was submitted on time.",
+        "The report, however was submitted on time.",
+        "The report, however, was submitted on time.",
+        "The report however was submitted on time."
+      ],
+      "answer": "The report, however, was submitted on time.",
+      "explanation": "Transitional adverbs like 'however' inserted in the middle of a sentence should be set off by commas on both sides."
+    },
+    {
+      "id": 21,
+      "question": "Read the sentence: 'After reviewing the evidence, the investigator concluded that the suspect was CULPABLE.' What does CULPABLE mean?",
+      "choices": ["Innocent", "Deserving blame", "Suspicious", "Truthful"],
+      "answer": "Deserving blame",
+      "explanation": "Culpable means deserving of blame for a fault or wrong. In legal contexts, it means responsible for a wrongdoing."
+    },
+    {
+      "id": 22,
+      "question": "Which sentence is written in the ACTIVE voice?",
+      "choices": [
+        "The proposal was approved by the board.",
+        "The board approved the proposal.",
+        "The proposal had been approved.",
+        "Approval was given by the board."
+      ],
+      "answer": "The board approved the proposal.",
+      "explanation": "In active voice, the subject (board) performs the action (approved). In passive voice, the subject receives the action."
+    },
+    {
+      "id": 23,
+      "question": "Choose the word closest in meaning to FORTUITOUS.",
+      "choices": ["Planned", "Accidental", "Unfortunate", "Deliberate"],
+      "answer": "Accidental",
+      "explanation": "Fortuitous means happening by chance rather than by design. It does not necessarily mean lucky — it simply means unplanned."
+    },
+    {
+      "id": 24,
+      "question": "Which sentence contains a DANGLING MODIFIER?",
+      "choices": [
+        "Walking to the office, Maria noticed the new building.",
+        "While reading the report, the phone rang.",
+        "Having finished the task, the employee submitted the form.",
+        "After completing the training, the certificate was awarded to her."
+      ],
+      "answer": "While reading the report, the phone rang.",
+      "explanation": "A dangling modifier is a phrase that does not clearly modify the subject. 'While reading the report' implies the phone was reading — the modifier dangles because the reader is not mentioned."
+    },
+    {
+      "id": 25,
+      "question": "What is the meaning of CIRCUMSPECT?",
+      "choices": ["Reckless", "Wary and cautious", "Talkative", "Generous"],
+      "answer": "Wary and cautious",
+      "explanation": "Circumspect means wary and unwilling to take risks; careful to consider all circumstances before acting."
+    },
+    {
+      "id": 26,
+      "question": "Read the passage: 'The government enacted the Anti-Red Tape Act to speed up public transactions and reduce bureaucratic delays.' The word BUREAUCRATIC most likely means:",
+      "choices": [
+        "Related to government administrative procedures",
+        "Related to military operations",
+        "Related to private corporations",
+        "Related to academic institutions"
+      ],
+      "answer": "Related to government administrative procedures",
+      "explanation": "Bureaucratic refers to the system of government with many complicated rules and processes. In context, bureaucratic delays are slow administrative procedures."
+    },
+    {
+      "id": 27,
+      "question": "Which sentence uses the semicolon CORRECTLY?",
+      "choices": [
+        "She studied hard; but failed the exam.",
+        "She studied hard; she passed the exam.",
+        "She studied; hard and passed.",
+        "She; studied hard and passed the exam."
+      ],
+      "answer": "She studied hard; she passed the exam.",
+      "explanation": "A semicolon correctly joins two independent clauses that are closely related. 'She studied hard' and 'she passed the exam' are both complete sentences."
+    },
+    {
+      "id": 28,
+      "question": "What does IMPECUNIOUS mean?",
+      "choices": ["Wealthy", "Having very little money", "Dishonest", "Energetic"],
+      "answer": "Having very little money",
+      "explanation": "Impecunious means having little or no money. It describes someone who is chronically poor."
+    },
+    {
+      "id": 29,
+      "question": "Choose the sentence that uses 'affect' and 'effect' CORRECTLY.",
+      "choices": [
+        "The rain will effect the game schedule.",
+        "The rain will affect the game schedule.",
+        "The effect of the rain affected the schedule affect.",
+        "The affect of the rain will effect the schedule."
+      ],
+      "answer": "The rain will affect the game schedule.",
+      "explanation": "'Affect' is a verb meaning to influence or have an impact on. 'Effect' is usually a noun meaning result. 'The rain will affect...' uses the verb form correctly."
+    },
+    {
+      "id": 30,
+      "question": "Which word is most nearly opposite to LOQUACIOUS?",
+      "choices": ["Talkative", "Reserved", "Loud", "Social"],
+      "answer": "Reserved",
+      "explanation": "Loquacious means talkative or fond of talking. Its antonym is reserved, meaning quiet and not given to expressing oneself."
+    },
+    {
+      "id": 31,
+      "question": "Which sentence has a MISPLACED MODIFIER?",
+      "choices": [
+        "The officer only reviewed the top five cases.",
+        "The officer reviewed only the top five cases.",
+        "Only the officer reviewed the top five cases.",
+        "The officer reviewed the top only five cases."
+      ],
+      "answer": "The officer only reviewed the top five cases.",
+      "explanation": "'Only' should be placed directly before the word it modifies. 'Only reviewed' implies the officer did nothing but review, while 'reviewed only the top five' clarifies which cases."
+    },
+    {
+      "id": 32,
+      "question": "What does PROPITIOUS mean?",
+      "choices": ["Unfavorable", "Giving or indicating a good chance of success", "Risky", "Neutral"],
+      "answer": "Giving or indicating a good chance of success",
+      "explanation": "Propitious means presenting favorable circumstances; likely to lead to success or good fortune."
+    },
+    {
+      "id": 33,
+      "question": "Choose the sentence that is written in PARALLEL structure.",
+      "choices": [
+        "The clerk must organize files, updating records, and to attend meetings.",
+        "The clerk must organize files, update records, and attend meetings.",
+        "The clerk must organize files, updating records, and attend meetings.",
+        "The clerk must organize files, updated records, and attending meetings."
+      ],
+      "answer": "The clerk must organize files, update records, and attend meetings.",
+      "explanation": "Parallel structure requires all items in a series to use the same grammatical form. 'Organize, update, and attend' are all base verbs — parallel and correct."
+    },
+    {
+      "id": 34,
+      "question": "What is the meaning of ALACRITY?",
+      "choices": ["Sadness", "Slowness", "Eagerness and speed", "Confusion"],
+      "answer": "Eagerness and speed",
+      "explanation": "Alacrity means brisk and cheerful readiness. It suggests both willingness and quickness in performing a task."
+    },
+    {
+      "id": 35,
+      "question": "Read the passage and answer the question:\n\n'Public servants are expected to maintain the highest standards of conduct. They must be honest, impartial, and responsive to the public's needs. Any deviation from these values undermines public trust.'\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "Public servants should be promoted based on merit.",
+        "Public servants must uphold ethical standards to maintain public trust.",
+        "The government needs more employees to serve the public.",
+        "Public servants should avoid all forms of social interaction."
+      ],
+      "answer": "Public servants must uphold ethical standards to maintain public trust.",
+      "explanation": "The passage emphasizes the importance of honesty, impartiality, and responsiveness — and states that deviating from these values hurts public trust. The main idea is about ethical conduct."
+    },
+    {
+      "id": 36,
+      "question": "What does INIMICAL mean?",
+      "choices": ["Friendly", "Harmful or hostile", "Indifferent", "Cheerful"],
+      "answer": "Harmful or hostile",
+      "explanation": "Inimical means tending to obstruct or harm; having an adverse effect. It can also mean hostile in feeling or action."
+    },
+    {
+      "id": 37,
+      "question": "Select the correct use of the colon.",
+      "choices": [
+        "The following are needed: pencil, paper, and ruler.",
+        "The following: are needed pencil, paper, and ruler.",
+        "The following are: needed pencil, paper, and ruler.",
+        "The following are needed pencil: paper, and ruler."
+      ],
+      "answer": "The following are needed: pencil, paper, and ruler.",
+      "explanation": "A colon is correctly used after a complete sentence to introduce a list. 'The following are needed' is a complete independent clause."
+    },
+    {
+      "id": 38,
+      "question": "What does EPHEMERAL mean?",
+      "choices": ["Long-lasting", "Lasting for a very short time", "Permanent", "Recurring"],
+      "answer": "Lasting for a very short time",
+      "explanation": "Ephemeral means lasting for a very short time; transitory. It is often used to describe things that pass quickly."
+    },
+    {
+      "id": 39,
+      "question": "Read the passage: 'Despite initial resistance, the new policy was eventually embraced by the staff. Its benefits became evident after just two months of implementation.' What can be INFERRED from the passage?",
+      "choices": [
+        "The staff never accepted the new policy.",
+        "The policy was implemented without any problems.",
+        "The staff changed their minds after seeing positive results.",
+        "The policy was immediately popular among all employees."
+      ],
+      "answer": "The staff changed their minds after seeing positive results.",
+      "explanation": "The passage says the policy was 'initially resisted' but 'eventually embraced' after its 'benefits became evident'. This means the staff changed their opinion based on results."
+    },
+    {
+      "id": 40,
+      "question": "Choose the correct form: 'The Mayor, together with several councilors, _____ the project.'",
+      "choices": ["approve", "approves", "have approved", "are approving"],
+      "answer": "approves",
+      "explanation": "Phrases like 'together with' do not change the subject. 'The Mayor' is singular, so the verb is 'approves'."
+    },
+    {
+      "id": 41,
+      "question": "What does MAGNANIMOUS mean?",
+      "choices": ["Petty", "Generous in forgiving", "Greedy", "Indifferent"],
+      "answer": "Generous in forgiving",
+      "explanation": "Magnanimous means very generous or forgiving, especially toward a rival or someone less powerful. It suggests a noble character."
+    },
+    {
+      "id": 42,
+      "question": "Which sentence is REDUNDANT?",
+      "choices": [
+        "Please repeat what you said.",
+        "Please repeat again what you said.",
+        "Please say it again.",
+        "Please restate your point."
+      ],
+      "answer": "Please repeat again what you said.",
+      "explanation": "'Repeat' already means to say again, so 'repeat again' is redundant. The word 'again' should be removed."
+    },
+    {
+      "id": 43,
+      "question": "What does PERSPICACIOUS mean?",
+      "choices": ["Having a ready insight; shrewd", "Slow to understand", "Easily confused", "Overconfident"],
+      "answer": "Having a ready insight; shrewd",
+      "explanation": "Perspicacious means having a ready insight into things; shrewd. It describes someone with an acute mental vision or discernment."
+    },
+    {
+      "id": 44,
+      "question": "Read the passage and answer:\n\n'Traffic congestion in Metro Manila costs billions annually in lost productivity. Commuters spend an average of three hours a day in transit. Experts say that investment in mass transit is the only sustainable solution.'\n\nAccording to the passage, what do experts recommend?",
+      "choices": [
+        "Reducing the number of vehicles in Metro Manila",
+        "Increasing road capacity by building more highways",
+        "Investing in mass transit as a long-term solution",
+        "Implementing stricter traffic laws"
+      ],
+      "answer": "Investing in mass transit as a long-term solution",
+      "explanation": "The passage explicitly states: 'Experts say that investment in mass transit is the only sustainable solution.' This directly answers the question."
+    },
+    {
+      "id": 45,
+      "question": "Choose the word that means SPARING IN USE OF WORDS.",
+      "choices": ["Verbose", "Loquacious", "Laconic", "Eloquent"],
+      "answer": "Laconic",
+      "explanation": "Laconic means using very few words; brief and concise. It describes communication that is short and to the point."
+    },
+    {
+      "id": 46,
+      "question": "Select the sentence with the correct use of 'who' and 'whom'.",
+      "choices": [
+        "Who did the supervisor assign to the task?",
+        "Whom did the supervisor assign to the task?",
+        "Who the supervisor assigned to the task?",
+        "Whom assigned the task to the supervisor?"
+      ],
+      "answer": "Whom did the supervisor assign to the task?",
+      "explanation": "'Whom' is used as an object. The supervisor assigned 'whom' — 'whom' is the object of the verb 'assign'. Replace with 'him/her' to test: 'The supervisor assigned him' → use 'whom'."
+    },
+    {
+      "id": 47,
+      "question": "What does INTRANSIGENT mean?",
+      "choices": ["Flexible", "Unwilling to change one's views", "Open-minded", "Cooperative"],
+      "answer": "Unwilling to change one's views",
+      "explanation": "Intransigent means unwilling to change one's views or to agree about something. It describes a stubborn, uncompromising position."
+    },
+    {
+      "id": 48,
+      "question": "Which sentence contains an ERROR in subject-verb agreement?",
+      "choices": [
+        "A number of employees have filed for leave.",
+        "The number of employees has increased.",
+        "A number of complaints were received.",
+        "The number of applicants have grown."
+      ],
+      "answer": "The number of employees have grown.",
+      "explanation": "'The number' (specific count) is singular and takes a singular verb. Correct: 'The number of employees has grown.' Contrast: 'A number of' means several, and is plural."
+    },
+    {
+      "id": 49,
+      "question": "What does VENAL mean?",
+      "choices": ["Honest", "Open to bribery", "Strict", "Charitable"],
+      "answer": "Open to bribery",
+      "explanation": "Venal means showing or motivated by susceptibility to bribery; corrupt. A venal official is one who can be bribed."
+    },
+    {
+      "id": 50,
+      "question": "Read the passage and choose the correct inference:\n\n'The employee arrived at the office two hours early every day for a week. She organized all files, prepared reports in advance, and stayed late to finish pending tasks. Her supervisor took notice and recommended her for promotion.'\n\nWhat can be inferred about the employee?",
+      "choices": [
+        "She was trying to impress her supervisor for personal gain.",
+        "She was new to the job and did not know her schedule.",
+        "She demonstrated dedication and initiative in her work.",
+        "She had nothing else to do outside of work."
+      ],
+      "answer": "She demonstrated dedication and initiative in her work.",
+      "explanation": "The passage describes consistent, above-and-beyond behavior — arriving early, organizing, preparing in advance. This best reflects dedication and initiative, not just impression management."
+    }
+  ]
+}

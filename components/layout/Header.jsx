@@ -10,6 +10,7 @@ import { getUserProfile } from '@/lib/storage';
 
 const COURSES = [
   { href: '/agriculture', label: '🌾 Agriculture' },
+  { href: '/civil-service', label: '🏛️ Civil Service (CSE)' },
   { href: '/education', label: '🎓 Education (LET)' },
   { href: '/criminology', label: '⚖️ Criminology' },
   { href: '/medical-technology', label: '🧪 Medical Technology' },

@@ -1,0 +1,446 @@
+{
+  "module": "Module 4 – Analytical Ability",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "DOCTOR : PATIENT :: LAWYER : ___",
+      "choices": ["Court", "Client", "Judge", "Crime"],
+      "answer": "Client",
+      "explanation": "A doctor provides professional services to a patient. Similarly, a lawyer provides professional services to a client. The relationship is professional service provider : recipient."
+    },
+    {
+      "id": 2,
+      "question": "BOOK : LIBRARY :: PAINTING : ___",
+      "choices": ["Artist", "Canvas", "Museum", "Frame"],
+      "answer": "Museum",
+      "explanation": "A book is kept in a library; a painting is kept in a museum. The relationship is object : place where it is housed."
+    },
+    {
+      "id": 3,
+      "question": "FISH : SCHOOL :: WOLF : ___",
+      "choices": ["Den", "Pack", "Pride", "Flock"],
+      "answer": "Pack",
+      "explanation": "A group of fish is called a school. A group of wolves is called a pack. The relationship is animal : collective noun for that animal's group."
+    },
+    {
+      "id": 4,
+      "question": "All managers are leaders. Some leaders are visionaries. Which conclusion is valid?",
+      "choices": [
+        "All managers are visionaries.",
+        "Some managers may be visionaries.",
+        "No managers are visionaries.",
+        "All visionaries are managers."
+      ],
+      "answer": "Some managers may be visionaries.",
+      "explanation": "Since all managers are leaders and some leaders are visionaries, it follows that some managers (those who are also visionaries) may be visionaries. We cannot conclude ALL managers are visionaries."
+    },
+    {
+      "id": 5,
+      "question": "SCALPEL : SURGEON :: GAVEL : ___",
+      "choices": ["Lawyer", "Carpenter", "Judge", "Auctioneer"],
+      "answer": "Judge",
+      "explanation": "A scalpel is the primary tool of a surgeon. A gavel (the small mallet) is the primary tool of a judge to maintain order in the courtroom."
+    },
+    {
+      "id": 6,
+      "question": "If all honest people are trustworthy, and Juan is honest, what can be concluded?",
+      "choices": [
+        "Juan is not trustworthy.",
+        "Juan is trustworthy.",
+        "Juan is sometimes trustworthy.",
+        "No conclusion can be drawn."
+      ],
+      "answer": "Juan is trustworthy.",
+      "explanation": "This is a valid deductive argument (modus ponens): All P are Q; X is P; therefore X is Q. All honest people are trustworthy; Juan is honest; therefore Juan is trustworthy."
+    },
+    {
+      "id": 7,
+      "question": "POEM : ANTHOLOGY :: SONG : ___",
+      "choices": ["Lyric", "Album", "Concert", "Singer"],
+      "answer": "Album",
+      "explanation": "An anthology is a collection of poems. An album is a collection of songs. The relationship is individual work : collection of that type of work."
+    },
+    {
+      "id": 8,
+      "question": "Study the table and answer:\n\nEmployee | Days Worked | Daily Rate\nAnna     |     20      |   ₱500\nBen      |     15      |   ₱600\nCarla    |     22      |   ₱450\n\nWho earned the most?",
+      "choices": ["Anna", "Ben", "Carla", "Anna and Ben tied"],
+      "answer": "Anna",
+      "explanation": "Anna: 20 × ₱500 = ₱10,000. Ben: 15 × ₱600 = ₱9,000. Carla: 22 × ₱450 = ₱9,900. Anna earned the most at ₱10,000."
+    },
+    {
+      "id": 9,
+      "question": "If no corrupt officials are honest, and some officials are corrupt, which statement must be true?",
+      "choices": [
+        "All officials are dishonest.",
+        "Some officials are not honest.",
+        "No officials are honest.",
+        "Some honest officials are corrupt."
+      ],
+      "answer": "Some officials are not honest.",
+      "explanation": "Since some officials are corrupt and no corrupt officials are honest, those corrupt officials are not honest. Therefore, some officials (the corrupt ones) are not honest."
+    },
+    {
+      "id": 10,
+      "question": "FEVER : ILLNESS :: WAR : ___",
+      "choices": ["Peace", "Army", "Destruction", "Soldier"],
+      "answer": "Destruction",
+      "explanation": "Fever is a symptom or consequence of illness. Destruction is a consequence of war. The relationship is symptom/consequence : cause."
+    },
+    {
+      "id": 11,
+      "question": "Study the pattern and find the missing value:\n2, 4, 3, 9, 4, 16, 5, ___",
+      "choices": ["20", "25", "30", "36"],
+      "answer": "25",
+      "explanation": "The pattern alternates: number, then its square. 2, 2²=4, 3, 3²=9, 4, 4²=16, 5, 5²=25."
+    },
+    {
+      "id": 12,
+      "question": "DEMOCRACY : VOTE :: AUTOCRACY : ___",
+      "choices": ["Election", "Decree", "Majority", "Parliament"],
+      "answer": "Decree",
+      "explanation": "In a democracy, decisions are made by vote (the will of the majority). In an autocracy, decisions are made by decree (the will of the single ruler). The relationship is system of government : how decisions are made."
+    },
+    {
+      "id": 13,
+      "question": "Premise 1: All employees who are punctual receive a bonus.\nPremise 2: Maria does not receive a bonus.\nConclusion: ?",
+      "choices": [
+        "Maria is punctual.",
+        "Maria is not punctual.",
+        "Maria works hard.",
+        "Maria did not apply for a bonus."
+      ],
+      "answer": "Maria is not punctual.",
+      "explanation": "This uses the contrapositive (modus tollens): If P then Q; not Q; therefore not P. All punctual employees get bonuses; Maria has no bonus; therefore Maria is not punctual."
+    },
+    {
+      "id": 14,
+      "question": "EVAPORATION : WATER CYCLE :: PHOTOSYNTHESIS : ___",
+      "choices": ["Respiration", "Food Chain", "Carbon Cycle", "Nitrogen Cycle"],
+      "answer": "Carbon Cycle",
+      "explanation": "Evaporation is a key process in the water cycle. Photosynthesis (which converts CO₂ into organic compounds) is a key process in the carbon cycle."
+    },
+    {
+      "id": 15,
+      "question": "Which figure completes the pattern?\n\nRow 1: ■ ■ □\nRow 2: ■ □ ■\nRow 3: □ ■ ___",
+      "choices": ["□", "■", "△", "○"],
+      "answer": "■",
+      "explanation": "In each row, there are two filled squares (■) and one empty square (□). In Row 3, the □ and ■ are placed in positions 1 and 2, so position 3 must be ■ to maintain the pattern of two ■ per row."
+    },
+    {
+      "id": 16,
+      "question": "Based on the data:\nCity A: 1,200 cases\nCity B: 850 cases\nCity C: 1,050 cases\nCity D: 720 cases\n\nWhich cities have MORE than the average number of cases?",
+      "choices": [
+        "City A only",
+        "City A and City C",
+        "City B and City D",
+        "City A, B, and C"
+      ],
+      "answer": "City A and City C",
+      "explanation": "Average = (1200 + 850 + 1050 + 720) ÷ 4 = 3820 ÷ 4 = 955. Cities above 955: City A (1200) and City C (1050)."
+    },
+    {
+      "id": 17,
+      "question": "ILLITERATE : READ :: DEAF : ___",
+      "choices": ["See", "Hear", "Speak", "Sign"],
+      "answer": "Hear",
+      "explanation": "An illiterate person cannot read. A deaf person cannot hear. The relationship is condition : inability associated with that condition."
+    },
+    {
+      "id": 18,
+      "question": "All birds have wings. A bat has wings. Therefore, a bat is a bird.\n\nThis argument is:",
+      "choices": [
+        "Valid and sound",
+        "Invalid — the conclusion does not follow from the premises",
+        "Valid but unsound",
+        "Sound but invalid"
+      ],
+      "answer": "Invalid — the conclusion does not follow from the premises",
+      "explanation": "This is the fallacy of affirming the consequent. Just because bats have wings (like birds) does not make them birds. Having wings is not a sufficient condition for being a bird."
+    },
+    {
+      "id": 19,
+      "question": "THERMOMETER : TEMPERATURE :: BAROMETER : ___",
+      "choices": ["Wind", "Rain", "Pressure", "Humidity"],
+      "answer": "Pressure",
+      "explanation": "A thermometer measures temperature. A barometer measures atmospheric pressure. The relationship is instrument : what it measures."
+    },
+    {
+      "id": 20,
+      "question": "Study the table: \n\nYear | Revenue (₱M)\n2020 | 10\n2021 | 14\n2022 | 19\n2023 | 25\n2024 | ?\n\nIf the pattern continues, what is the 2024 revenue?",
+      "choices": ["₱30M", "₱32M", "₱33M", "₱31M"],
+      "answer": "₱32M",
+      "explanation": "Differences: 4, 5, 6 — increasing by 1 each year. Next difference = 7. 2024 revenue = 25 + 7 = ₱32M."
+    },
+    {
+      "id": 21,
+      "question": "CRIME : PUNISHMENT :: CAUSE : ___",
+      "choices": ["Reason", "Effect", "Crime", "Motive"],
+      "answer": "Effect",
+      "explanation": "A crime leads to a punishment. A cause leads to an effect. The relationship is initiating event : resulting event."
+    },
+    {
+      "id": 22,
+      "question": "If it rains, the game is cancelled. The game was not cancelled. What can we conclude?",
+      "choices": [
+        "It rained.",
+        "It did not rain.",
+        "The game was postponed.",
+        "Nothing can be concluded."
+      ],
+      "answer": "It did not rain.",
+      "explanation": "This is modus tollens: If P then Q; not Q; therefore not P. If it rains (P) then game cancelled (Q). Game not cancelled (not Q). Therefore, it did not rain (not P)."
+    },
+    {
+      "id": 23,
+      "question": "CATERPILLAR : BUTTERFLY :: TADPOLE : ___",
+      "choices": ["Fish", "Salamander", "Frog", "Lizard"],
+      "answer": "Frog",
+      "explanation": "A caterpillar transforms into a butterfly through metamorphosis. A tadpole transforms into a frog through metamorphosis. The relationship is larval form : adult form."
+    },
+    {
+      "id": 24,
+      "question": "Based on the chart, if 40% of 500 employees work in Finance and 30% in HR, how many employees work in OTHER departments?",
+      "choices": ["100", "150", "200", "250"],
+      "answer": "150",
+      "explanation": "Finance: 40% of 500 = 200. HR: 30% of 500 = 150. Total in Finance + HR = 350. Other departments = 500 − 350 = 150."
+    },
+    {
+      "id": 25,
+      "question": "IGNORANCE : KNOWLEDGE :: POVERTY : ___",
+      "choices": ["Wealth", "Hardship", "Education", "Opportunity"],
+      "answer": "Wealth",
+      "explanation": "Ignorance is the absence or opposite of knowledge. Poverty is the absence or opposite of wealth. The relationship is state : its direct opposite."
+    },
+    {
+      "id": 26,
+      "question": "Premise: Only government employees are eligible for the pension program. Pedro is eligible for the pension program. Conclusion: Pedro is a government employee.\n\nIs this conclusion valid?",
+      "choices": [
+        "Yes, the conclusion is valid.",
+        "No, the conclusion is invalid.",
+        "The conclusion is valid only if Pedro applied.",
+        "The conclusion is valid only for regular employees."
+      ],
+      "answer": "Yes, the conclusion is valid.",
+      "explanation": "'Only government employees are eligible' means eligibility is exclusive to government employees. If Pedro is eligible, he must be a government employee. This is valid reasoning."
+    },
+    {
+      "id": 27,
+      "question": "PARLIAMENT : LEGISLATURE :: CABINET : ___",
+      "choices": ["Judiciary", "Executive", "Senate", "Bureau"],
+      "answer": "Executive",
+      "explanation": "Parliament is a type of legislature (law-making body). The Cabinet is part of the executive branch (the branch that implements and enforces laws)."
+    },
+    {
+      "id": 28,
+      "question": "What is the assumption in the statement: 'We should increase the salary of teachers to improve the quality of education.'?",
+      "choices": [
+        "Teachers are currently underpaid.",
+        "Higher salaries will attract better teachers and motivate existing ones.",
+        "Education quality is already high.",
+        "Only salary matters in education."
+      ],
+      "answer": "Higher salaries will attract better teachers and motivate existing ones.",
+      "explanation": "The statement assumes a causal link between higher pay and better education quality. The underlying assumption is that salary is a key driver of teacher performance and recruitment."
+    },
+    {
+      "id": 29,
+      "question": "ARCHIPELAGO : ISLANDS :: CONSTELLATION : ___",
+      "choices": ["Planets", "Stars", "Galaxies", "Moons"],
+      "answer": "Stars",
+      "explanation": "An archipelago is a group of islands. A constellation is a group of stars. The relationship is group : individual components."
+    },
+    {
+      "id": 30,
+      "question": "Some politicians are honest. All honest people are respected. Which conclusion is DEFINITELY true?",
+      "choices": [
+        "All politicians are respected.",
+        "Some politicians are respected.",
+        "No politicians are respected.",
+        "All respected people are politicians."
+      ],
+      "answer": "Some politicians are respected.",
+      "explanation": "Since some politicians are honest and all honest people are respected, those honest politicians must also be respected. Therefore, some politicians are respected."
+    },
+    {
+      "id": 31,
+      "question": "ORCHESTRA : CONDUCTOR :: ARMY : ___",
+      "choices": ["Soldier", "General", "Weapon", "Battle"],
+      "answer": "General",
+      "explanation": "A conductor leads and directs an orchestra. A general leads and commands an army. The relationship is group : its leader."
+    },
+    {
+      "id": 32,
+      "question": "A survey of 200 employees shows:\n- 120 use public transportation\n- 50 drive private cars\n- 30 ride bicycles\n\nWhat percentage uses public transportation?",
+      "choices": ["55%", "60%", "65%", "70%"],
+      "answer": "60%",
+      "explanation": "Percentage = (120 ÷ 200) × 100 = 60%."
+    },
+    {
+      "id": 33,
+      "question": "MICROSCOPE : BACTERIA :: TELESCOPE : ___",
+      "choices": ["Ocean", "Stars", "Molecules", "Germs"],
+      "answer": "Stars",
+      "explanation": "A microscope is used to observe bacteria (very small things). A telescope is used to observe stars (very distant things). The relationship is instrument : what it is used to observe."
+    },
+    {
+      "id": 34,
+      "question": "Statement: 'If a student studies consistently, they will pass the board exam.'\nAna studied consistently.\nConclusion: Ana passed the board exam.\n\nThis reasoning is:",
+      "choices": [
+        "Invalid",
+        "Valid",
+        "A false dilemma",
+        "An ad hominem fallacy"
+      ],
+      "answer": "Valid",
+      "explanation": "This is modus ponens: If P then Q; P is true; therefore Q is true. If consistent studying (P) then passing (Q); Ana studied consistently (P); therefore Ana passed (Q). Logically valid."
+    },
+    {
+      "id": 35,
+      "question": "Find the odd one out: Hammer, Screwdriver, Wrench, Calculator, Pliers",
+      "choices": ["Hammer", "Calculator", "Wrench", "Pliers"],
+      "answer": "Calculator",
+      "explanation": "All the others (Hammer, Screwdriver, Wrench, Pliers) are manual hand tools used for mechanical work. A Calculator is an electronic device used for computation — it does not belong to the same category."
+    },
+    {
+      "id": 36,
+      "question": "Based on the data below, which month had the HIGHEST number of service requests?\n\nMonth | Requests\nJan   |   240\nFeb   |   310\nMar   |   280\nApr   |   190\nMay   |   350",
+      "choices": ["January", "February", "March", "May"],
+      "answer": "May",
+      "explanation": "Comparing all values: Jan=240, Feb=310, Mar=280, Apr=190, May=350. May has the highest number of requests at 350."
+    },
+    {
+      "id": 37,
+      "question": "EQUATION : MATHEMATICS :: STATUTE : ___",
+      "choices": ["Science", "Law", "Religion", "Philosophy"],
+      "answer": "Law",
+      "explanation": "An equation is a fundamental element/tool of mathematics. A statute (a written law) is a fundamental element of the legal system (law). The relationship is component : field it belongs to."
+    },
+    {
+      "id": 38,
+      "question": "No apples are oranges. Some fruits are apples. Therefore:",
+      "choices": [
+        "Some fruits are not oranges.",
+        "All fruits are apples.",
+        "No fruits are oranges.",
+        "All oranges are fruits."
+      ],
+      "answer": "Some fruits are not oranges.",
+      "explanation": "Since some fruits are apples and no apples are oranges, those apple-fruits are definitely not oranges. Therefore, some fruits (at minimum, the apple-fruits) are not oranges."
+    },
+    {
+      "id": 39,
+      "question": "CARTOGRAPHY : MAPS :: LEXICOGRAPHY : ___",
+      "choices": ["Laws", "Dictionaries", "Libraries", "Languages"],
+      "answer": "Dictionaries",
+      "explanation": "Cartography is the science and practice of making maps. Lexicography is the science and practice of making dictionaries. The relationship is field of study : its primary product."
+    },
+    {
+      "id": 40,
+      "question": "The statement 'All that glitters is not gold' is an example of:",
+      "choices": [
+        "A valid logical argument",
+        "A warning that appearances can be deceiving",
+        "A scientific hypothesis",
+        "A direct factual observation"
+      ],
+      "answer": "A warning that appearances can be deceiving",
+      "explanation": "This proverb warns that just because something looks valuable or attractive does not mean it truly is. It is a caution against being misled by outward appearances."
+    },
+    {
+      "id": 41,
+      "question": "SUNLIGHT : SOLAR ENERGY :: WIND : ___",
+      "choices": ["Storm", "Cyclone", "Wind Energy", "Air Pressure"],
+      "answer": "Wind Energy",
+      "explanation": "Sunlight is the source of solar energy. Wind is the source of wind energy. The relationship is natural resource : the energy derived from it."
+    },
+    {
+      "id": 42,
+      "question": "A policy states: 'No government employee shall engage in private business.' Which situation VIOLATES this policy?",
+      "choices": [
+        "A government nurse volunteering at a community clinic on weekends",
+        "A government teacher tutoring students for free",
+        "A government employee managing a family-owned restaurant",
+        "A government driver helping neighbors repair their cars as a hobby"
+      ],
+      "answer": "A government employee managing a family-owned restaurant",
+      "explanation": "Managing a family-owned restaurant constitutes engaging in private business, which directly violates the stated policy. The other activities involve no private business operation."
+    },
+    {
+      "id": 43,
+      "question": "SEED : PLANT :: EGG : ___",
+      "choices": ["Nest", "Bird", "Shell", "Yolk"],
+      "answer": "Bird",
+      "explanation": "A seed develops into a plant. An egg develops into a bird. The relationship is initial form : fully developed organism."
+    },
+    {
+      "id": 44,
+      "question": "Based on the table, what is the TREND in employee satisfaction scores?\n\nYear | Score\n2020 |  72\n2021 |  68\n2022 |  65\n2023 |  61",
+      "choices": [
+        "Steadily increasing",
+        "Steadily decreasing",
+        "Fluctuating",
+        "Stable"
+      ],
+      "answer": "Steadily decreasing",
+      "explanation": "The scores consistently decrease each year: 72, 68, 65, 61. The differences are −4, −3, −4 — all negative, indicating a steady downward trend."
+    },
+    {
+      "id": 45,
+      "question": "ARCHIVIST : RECORDS :: CURATOR : ___",
+      "choices": ["Books", "Laws", "Artifacts", "Policies"],
+      "answer": "Artifacts",
+      "explanation": "An archivist manages and preserves records (documents). A curator manages and preserves artifacts (objects of historical or cultural significance, typically in a museum)."
+    },
+    {
+      "id": 46,
+      "question": "Which conclusion is INVALID based on: 'Some civil servants are lazy. All lazy people waste resources.'?",
+      "choices": [
+        "Some civil servants waste resources.",
+        "All civil servants waste resources.",
+        "Some people who waste resources are civil servants.",
+        "Some lazy people are civil servants."
+      ],
+      "answer": "All civil servants waste resources.",
+      "explanation": "The premises only tell us that SOME civil servants are lazy, not all. We can only conclude that some civil servants (the lazy ones) waste resources, not all of them."
+    },
+    {
+      "id": 47,
+      "question": "ETHICS : CONDUCT :: CONSTITUTION : ___",
+      "choices": ["Behavior", "Governance", "Culture", "Protocol"],
+      "answer": "Governance",
+      "explanation": "Ethics guides conduct (personal behavior). The Constitution guides governance (how the government operates). The relationship is guiding document/principle : what it governs."
+    },
+    {
+      "id": 48,
+      "question": "A report shows: Department A processed 500 applications in 10 days; Department B processed 420 applications in 7 days. Which department is MORE efficient (applications per day)?",
+      "choices": [
+        "Department A",
+        "Department B",
+        "They are equally efficient.",
+        "Cannot be determined."
+      ],
+      "answer": "Department B",
+      "explanation": "Dept A rate = 500 ÷ 10 = 50/day. Dept B rate = 420 ÷ 7 = 60/day. Department B is more efficient at 60 applications per day."
+    },
+    {
+      "id": 49,
+      "question": "VACCINE : DISEASE :: EDUCATION : ___",
+      "choices": ["School", "Poverty", "Learning", "Teacher"],
+      "answer": "Poverty",
+      "explanation": "A vaccine prevents or fights disease. Education prevents or fights poverty (widely considered a key tool against poverty). The relationship is preventive measure : what it combats."
+    },
+    {
+      "id": 50,
+      "question": "The government spends ₱50M annually on training programs. The data shows a 15% increase in employee productivity after training. A manager concludes that the training is worth the investment.\n\nWhat ASSUMPTION does this conclusion rest on?",
+      "choices": [
+        "All employees attended the training.",
+        "The increased productivity results in benefits that outweigh the ₱50M cost.",
+        "The government has unlimited funds.",
+        "Employee productivity is the only measure of success."
+      ],
+      "answer": "The increased productivity results in benefits that outweigh the ₱50M cost.",
+      "explanation": "For training to be 'worth the investment', the benefits (economic value of 15% productivity gain) must exceed the cost. The manager assumes this trade-off is positive — that the productivity gains justify the expenditure."
+    }
+  ]
+}

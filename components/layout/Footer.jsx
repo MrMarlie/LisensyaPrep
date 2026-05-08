@@ -28,6 +28,7 @@ export default function Footer() {
             <h3 className="text-white font-semibold text-sm mb-3 uppercase tracking-wide">Exams</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="/agriculture" className="hover:text-yellow-400 transition-colors">Agriculture</Link></li>
+              <li><Link href="/civil-service" className="hover:text-yellow-400 transition-colors">Civil Service (CSE)</Link></li>
               <li><Link href="/education" className="hover:text-yellow-400 transition-colors">Education (LET)</Link></li>
               <li><Link href="/nursing" className="hover:text-yellow-400 transition-colors">Nursing</Link></li>
               <li><Link href="/criminology" className="hover:text-yellow-400 transition-colors">Criminology</Link></li>
