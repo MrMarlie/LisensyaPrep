@@ -102,8 +102,8 @@ export default function HomePage() {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg mx-auto">
             {[
-              { value: '1,250+', label: 'Questions' },
-              { value: '6', label: 'Courses' },
+              { value: '1,500+', label: 'Questions' },
+              { value: '7', label: 'Courses' },
               { value: '100%', label: 'Free' },
             ].map(({ value, label }) => (
               <div key={label} className="text-center">
@@ -222,6 +222,22 @@ export default function HomePage() {
               </p>
               <div className="flex items-center justify-center gap-2">
                 <span className="bg-purple-500/20 text-purple-400 text-xs font-semibold px-3 py-1 rounded-full">
+                  ✓ Available Now
+                </span>
+              </div>
+            </div>
+          </Link>
+
+          {/* Civil Service — Active */}
+          <Link href="/civil-service" className="group w-full">
+            <div className="bg-gradient-to-br from-blue-900/40 to-indigo-800/20 border-2 border-blue-600/40 hover:border-blue-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-blue-500/10 text-center">
+              <div className="text-5xl mb-4">🏛️</div>
+              <h3 className="text-xl font-bold text-white mb-2">Civil Service</h3>
+              <p className="text-gray-400 text-sm mb-4">
+                Verbal Ability (English &amp; Filipino), Numerical Ability, Analytical Ability, and General Information. 5 modules, 250 questions.
+              </p>
+              <div className="flex items-center justify-center gap-2">
+                <span className="bg-blue-500/20 text-blue-400 text-xs font-semibold px-3 py-1 rounded-full">
                   ✓ Available Now
                 </span>
               </div>
