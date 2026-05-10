@@ -10,6 +10,9 @@ import { processAnswer, calculateScore, QUIZ_CONFIG } from '@/lib/quizEngine';
 import { saveStageResult, awardCollectible, saveActiveQuizState, clearActiveQuizState, getUserProfile } from '@/lib/storage';
 import PlayerSetupModal from './PlayerSetupModal';
 import { useAuth } from '@/context/AuthContext';
+import AffiliateBanner from '@/components/AffiliateBanner';
+import AffiliateBannerCompact from '@/components/AffiliateBannerCompact';
+import { getQuizProducts, getScoreMessage } from '@/lib/affiliateLinks';
 
 export default function QuizEngine({ initialState, moduleInfo }) {
   const router = useRouter();
@@ -215,6 +218,20 @@ export default function QuizEngine({ initialState, moduleInfo }) {
           );
         })()}
 
+        {/* End-of-quiz affiliate banner */}
+        {isGameOver && (() => {
+          const finalScore = calculateScore(state);
+          const quizProducts = getQuizProducts(moduleInfo.examId);
+          if (quizProducts.length === 0) return null;
+          return (
+            <AffiliateBanner
+              products={quizProducts}
+              scoreMessage={getScoreMessage(finalScore.percentage)}
+              slot="quiz-gameover"
+            />
+          );
+        })()}
+
         {/* Question Card */}
         <div ref={questionRef} className="bg-[#0f1629] rounded-2xl p-5 sm:p-7 border border-white/10">
           <div className="flex items-start gap-3 mb-6">
@@ -248,6 +265,18 @@ export default function QuizEngine({ initialState, moduleInfo }) {
             <p className="text-gray-300 text-sm leading-relaxed">{currentQuestion.explanation}</p>
           </div>
         )}
+
+        {/* Between-question affiliate banner — shown every 10 questions during explanation */}
+        {showExplanation && !isGameOver && (state.currentQuestionIndex + 1) % 10 === 0 && (() => {
+          const compactProducts = getQuizProducts(moduleInfo.examId);
+          if (compactProducts.length === 0) return null;
+          return (
+            <AffiliateBannerCompact
+              product={compactProducts[0]}
+              slot="quiz-between"
+            />
+          );
+        })()}
 
         {/* Next / Results button */}
         {answered && (

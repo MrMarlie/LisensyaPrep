@@ -51,9 +51,17 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/5 mt-8 pt-6 text-xs text-center text-gray-600">
-          LisensyaPrep is an independent review tool and is not affiliated with the Professional Regulation Commission (PRC).
-          All exam content is for educational purposes only.
+        <div className="border-t border-white/5 mt-8 pt-6 text-xs text-center text-gray-600 space-y-2">
+          <p>
+            LisensyaPrep is an independent review tool and is not affiliated with the Professional Regulation Commission (PRC).
+            All exam content is for educational purposes only.
+          </p>
+          <p>
+            LisensyaPrep participates in the Shopee Affiliate Program. We may earn a commission from qualifying purchases at no extra cost to you.{' '}
+            <Link href="/disclosure" className="underline hover:text-gray-500 transition-colors">
+              Affiliate Disclosure
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
