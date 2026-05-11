@@ -5,12 +5,12 @@ import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
 
 const _cleAppMeta = buildMetadata({
-  title: 'CLE Requirements 2026: How to Apply for the Criminology Board Exam',
+  title: 'CLE Application 2026: Complete CLE Requirements Guide (PRC LERIS Step by Step)',
   description:
-    'Complete CLE requirements and step-by-step application guide for 2026. Covers documents needed, PRC LERIS walkthrough, exam schedule, and deadlines for the August 2026 criminology board exam.',
+    'Complete guide to CLE 2026 requirements and application via PRC LERIS. Step by step process, fees, and what to bring on exam day.',
   path: '/criminology/cle-application-guide-2026',
 });
-const _cleAppTitle = 'CLE Requirements 2026: How to Apply for the Criminology Board Exam | LisensyaPrep';
+const _cleAppTitle = 'CLE Application 2026: Complete CLE Requirements Guide (PRC LERIS Step by Step)';
 export const metadata = {
   ..._cleAppMeta,
   title: { absolute: _cleAppTitle },

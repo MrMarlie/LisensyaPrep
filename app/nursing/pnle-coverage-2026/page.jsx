@@ -4,12 +4,19 @@ import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
 
-export const metadata = buildMetadata({
-  title: 'PNLE Coverage 2026 Complete Topic Breakdown for the Nursing Board Exam Philippines',
+const _pnleCoverageMeta = buildMetadata({
+  title: 'PNLE Coverage 2026: All Subjects, Items, and Schedule (Updated May 2026)',
   description:
-    'What does the PRC nursing board exam cover in 2026? Complete PNLE subject breakdown covering all tested areas with study guides and reviewer links for each topic.',
+    'Complete PNLE 2026 coverage breakdown. All 5 parts, 500 items, subject weights, and August 2026 schedule. Updated for the next exam cycle.',
   path: '/nursing/pnle-coverage-2026',
 });
+const _pnleCoverageTitle = 'PNLE Coverage 2026: All Subjects, Items, and Schedule (Updated May 2026)';
+export const metadata = {
+  ..._pnleCoverageMeta,
+  title: { absolute: _pnleCoverageTitle },
+  openGraph: { ..._pnleCoverageMeta.openGraph, title: _pnleCoverageTitle },
+  twitter: { ..._pnleCoverageMeta.twitter, title: _pnleCoverageTitle },
+};
 
 const SCHEMA = {
   '@context': 'https://schema.org',

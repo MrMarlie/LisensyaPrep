@@ -4,12 +4,19 @@ import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
 
-export const metadata = buildMetadata({
-  title: 'How to Pass the Agriculture Board Exam on Your First Take 2026 (ALE Philippines)',
+const _aleMeta = buildMetadata({
+  title: 'How to Pass the Agriculture Board Exam (2026 Proven Strategy Philippines)',
   description:
-    'Planning to take the PRC Agriculture board exam? This honest guide covers the ALE coverage, a study plan, and proven tips to help you pass the agriculture licensure exam on your first attempt.',
+    'The complete 2026 guide to passing the Agriculture Licensure Exam on your first take. Proven 12-week study plan, subject priorities, and what actually works.',
   path: '/blog/how-to-pass-agriculture-board-exam',
 });
+const _aleTitle = 'How to Pass the Agriculture Board Exam (2026 Proven Strategy Philippines)';
+export const metadata = {
+  ..._aleMeta,
+  title: { absolute: _aleTitle },
+  openGraph: { ..._aleMeta.openGraph, title: _aleTitle },
+  twitter: { ..._aleMeta.twitter, title: _aleTitle },
+};
 
 const SCHEMA = {
   '@context': 'https://schema.org',

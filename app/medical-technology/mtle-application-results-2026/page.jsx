@@ -4,12 +4,19 @@ import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
 
-export const metadata = buildMetadata({
-  title: 'MTLE Application Guide and Passing Rate 2026 Philippines (PRC Official Data)',
+const _mtleMeta = buildMetadata({
+  title: 'MTLE August 2026 Schedule, Application, and Results (PRC Official Dates)',
   description:
-    'How to apply for the MTLE and what is the medical technology board exam passing rate in 2026? Complete PRC LERIS application guide and official MTLE results data Philippines.',
+    'Complete MTLE August 2026 schedule, application window dates, and how to check results. Updated for the next medical technology board exam cycle.',
   path: '/medical-technology/mtle-application-results-2026',
 });
+const _mtleTitle = 'MTLE August 2026 Schedule, Application, and Results (PRC Official Dates)';
+export const metadata = {
+  ..._mtleMeta,
+  title: { absolute: _mtleTitle },
+  openGraph: { ..._mtleMeta.openGraph, title: _mtleTitle },
+  twitter: { ..._mtleMeta.twitter, title: _mtleTitle },
+};
 
 const SCHEMA = {
   '@context': 'https://schema.org',
