@@ -278,6 +278,14 @@ export default function EducationPage() {
             <p className="text-gray-500 text-xs">Official PRC LET results data, how to check your scores, and what to do after results are released.</p>
             <span className="text-sky-400 text-sm font-semibold mt-3 inline-block group-hover:translate-x-1 transition-transform">Read →</span>
           </Link>
+          <Link href="/education/let-march-2026-results" className="group block bg-[#0f1629] border border-yellow-500/20 hover:border-yellow-400/50 rounded-2xl p-5 transition-all">
+            <span className="text-xs font-semibold px-2 py-1 rounded-full bg-yellow-500/10 text-yellow-400">NEW — LET Results</span>
+            <h3 className="text-white font-bold mt-3 mb-2 group-hover:text-yellow-400 transition-colors leading-snug">
+              LET Results March 2026 — Passing Rate, Topnotchers, How to Check
+            </h3>
+            <p className="text-gray-500 text-xs">73.10% passed Secondary, 56.03% passed Elementary. Complete official statistics and step-by-step guide to check your rating.</p>
+            <span className="text-yellow-400 text-sm font-semibold mt-3 inline-block group-hover:translate-x-1 transition-transform">Read →</span>
+          </Link>
         </div>
       </section>
     </div>
