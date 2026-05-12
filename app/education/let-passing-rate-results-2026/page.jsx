@@ -145,6 +145,8 @@ const SECTION_1 = `
 
 The LET consistently has one of the most variable passing rates among all PRC board exams. It ranges from roughly 30 to 50 percent depending on the cycle, the level (elementary vs secondary), and the specific subject majors represented in that cycle's examinee pool.
 
+**March 2026 LET results are now available.** The PRC released results on May 12, 2026 with a 73.10 percent Secondary Level passing rate and 56.03 percent Elementary Level passing rate. See the full breakdown at [LET Results March 2026](/education/let-march-2026-results).
+
 This page tracks official PRC results for the Licensure Examination for Teachers and is updated after every exam cycle.
 
 ---
