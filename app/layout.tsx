@@ -69,6 +69,18 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-[#080d1b] text-white antialiased`}>
         <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-CP2WTTWKQH"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-CP2WTTWKQH');
+          `}
+        </Script>
+        <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4592431148309561"
           crossOrigin="anonymous"
