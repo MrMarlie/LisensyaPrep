@@ -5,6 +5,8 @@ import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
 import PremiumCTA from '@/components/PremiumCTA';
 import PremiumStickyBar from '@/components/PremiumStickyBar';
+import FreebieCTA from '@/components/FreebieCTA';
+import FreebieStickyBar from '@/components/FreebieStickyBar';
 
 export const metadata = buildMetadata({
   title: 'LET Coverage 2026 Complete Subject Breakdown for the Teaching Board Exam Philippines',
@@ -293,6 +295,7 @@ Professional Education is the heaviest component. A weak ProEd performance pulls
 export default function LETCoverageHubPage() {
   return (
     <div className="min-h-screen py-10">
+      <FreebieStickyBar />
       <PremiumStickyBar />
       <Script id="schema-let-coverage" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -368,6 +371,8 @@ export default function LETCoverageHubPage() {
               </figure>
 
               {renderContent(SECTION_2)}
+
+              <FreebieCTA />
 
               <PremiumCTA />
 

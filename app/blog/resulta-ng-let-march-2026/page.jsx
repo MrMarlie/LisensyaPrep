@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import FreebieCTA from '@/components/FreebieCTA';
+import FreebieStickyBar from '@/components/FreebieStickyBar';
 
 export const metadata = buildMetadata({
   title: 'Resulta ng LET March 2026 Released - Passing Rate, Topnotchers, Paano Tingnan',
@@ -503,6 +505,7 @@ Para sa mga naghahanda para sa darating na LET cycles o iba pang PRC board exams
 export default function ResultaNgLETMarch2026Page() {
   return (
     <div className="min-h-screen py-10">
+      <FreebieStickyBar />
       <Script id="schema-resulta-let-march-2026-news" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA_NEWS) }} />
       <Script id="schema-resulta-let-march-2026-faq" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA_FAQ) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -535,6 +538,7 @@ export default function ResultaNgLETMarch2026Page() {
 
             <div className="prose-content">
               {renderContent(CONTENT)}
+              <FreebieCTA />
             </div>
 
             <AdPlaceholder slot="banner" className="my-6" />

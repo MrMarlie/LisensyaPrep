@@ -26,6 +26,7 @@ const NAV_LINKS = [
 ];
 
 const PREMIUM_LINK = { href: '/premium/let-profed-mastery', label: 'Premium' };
+const FREEBIE_LINK = { href: '/freebies/let-profed-starter-pack', label: 'Freebies' };
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -173,6 +174,19 @@ export default function Header() {
               </Link>
             ))}
 
+            {/* Freebies link */}
+            <Link
+              href={FREEBIE_LINK.href}
+              className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors relative ${
+                pathname.startsWith('/freebies')
+                  ? 'bg-green-400/20 text-green-400'
+                  : 'text-green-400 hover:bg-green-400/10'
+              }`}
+            >
+              {FREEBIE_LINK.label}
+              <span className="absolute -top-1 -right-1 bg-green-400 text-gray-900 text-[9px] font-extrabold px-1 rounded-full leading-4">FREE</span>
+            </Link>
+
             {/* Premium link */}
             <Link
               href={PREMIUM_LINK.href}
@@ -307,6 +321,20 @@ export default function Header() {
                 {label}
               </Link>
             ))}
+
+            {/* Freebies link in mobile */}
+            <Link
+              href={FREEBIE_LINK.href}
+              onClick={() => setMenuOpen(false)}
+              className={`px-4 py-3 rounded-lg text-sm font-bold transition-colors flex items-center justify-between ${
+                pathname.startsWith('/freebies')
+                  ? 'bg-green-400/20 text-green-400'
+                  : 'text-green-400 hover:bg-green-400/10'
+              }`}
+            >
+              <span>🎁 {FREEBIE_LINK.label} — Free Reviewer</span>
+              <span className="bg-green-400 text-gray-900 text-[9px] font-extrabold px-1.5 rounded-full">FREE</span>
+            </Link>
 
             {/* Premium link in mobile */}
             <Link

@@ -5,6 +5,8 @@ import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
 import PremiumCTA from '@/components/PremiumCTA';
 import PremiumStickyBar from '@/components/PremiumStickyBar';
+import FreebieCTA from '@/components/FreebieCTA';
+import FreebieStickyBar from '@/components/FreebieStickyBar';
 
 export const metadata = buildMetadata({
   title: 'Professional Education Reviewer for LET Philippines 2026 (Complete Guide)',
@@ -275,6 +277,7 @@ Head to LisensyaPrep and start practicing now. No registration required.
 export default function ProfessionalEducationReviewerPage() {
   return (
     <div className="min-h-screen py-10">
+      <FreebieStickyBar />
       <PremiumStickyBar />
       <Script id="schema-let-proEd" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -360,6 +363,8 @@ export default function ProfessionalEducationReviewerPage() {
               </figure>
 
               {renderContent(SECTION_2)}
+
+              <FreebieCTA />
 
               <PremiumCTA />
 
