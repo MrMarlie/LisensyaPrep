@@ -28,6 +28,9 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# Private deliverables (paid products — never commit PDFs)
+/private/deliverables/*.pdf
+
 # vercel
 .vercel
 

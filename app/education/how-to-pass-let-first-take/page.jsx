@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import PremiumCTA from '@/components/PremiumCTA';
+import PremiumStickyBar from '@/components/PremiumStickyBar';
 
 export const metadata = buildMetadata({
   title: 'How to Pass the LET Board Exam on Your First Take 2026 (Self-Review Guide Philippines)',
@@ -229,6 +231,7 @@ const RELATED_ARTICLES = [
 export default function HowToPassLETPage() {
   return (
     <div className="min-h-screen py-10">
+      <PremiumStickyBar />
       <Script id="schema-let-01" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -325,6 +328,8 @@ export default function HowToPassLETPage() {
               <hr className="border-white/10 my-6" />
 
               {renderContent(SECTION_2)}
+
+              <PremiumCTA />
 
               <AdPlaceholder slot="banner" className="my-6" />
 

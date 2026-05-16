@@ -2,6 +2,16 @@ import { createServerClient } from '@supabase/ssr'
 import { NextResponse } from 'next/server'
 
 export async function middleware(request) {
+  const { pathname } = request.nextUrl
+
+  // Protect admin routes — redirect to login if no valid session cookie
+  if (pathname.startsWith('/admin') && !pathname.startsWith('/admin/login')) {
+    const session = request.cookies.get('admin_session')
+    if (!session || session.value !== process.env.ADMIN_PASSWORD) {
+      return NextResponse.redirect(new URL('/admin/login', request.url))
+    }
+  }
+
   let supabaseResponse = NextResponse.next({ request })
 
   const supabase = createServerClient(

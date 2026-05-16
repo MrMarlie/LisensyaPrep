@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import PremiumCTA from '@/components/PremiumCTA';
+import PremiumStickyBar from '@/components/PremiumStickyBar';
 
 export const metadata = buildMetadata({
   title: 'General Education Reviewer for LET Philippines 2026 (Complete Guide)',
@@ -280,6 +282,7 @@ Practice questions for LET General Education are available at LisensyaPrep. No a
 export default function GeneralEducationReviewerPage() {
   return (
     <div className="min-h-screen py-10">
+      <PremiumStickyBar />
       <Script id="schema-let-genEd" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -360,6 +363,8 @@ export default function GeneralEducationReviewerPage() {
               <AdPlaceholder slot="banner" className="my-6" />
 
               {renderContent(SECTION_2)}
+
+              <PremiumCTA />
             </div>
 
             <div className="mt-10 bg-gradient-to-br from-blue-900/20 to-blue-900/10 border border-blue-500/30 rounded-2xl p-6 text-center">

@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import PremiumCTA from '@/components/PremiumCTA';
+import PremiumStickyBar from '@/components/PremiumStickyBar';
 
 export const metadata = buildMetadata({
   title: 'What is the LET? Complete Guide to the Licensure Examination for Teachers 2026 Philippines',
@@ -304,6 +306,7 @@ This is set by the Board of Professional Teachers under the Philippine Teachers 
 export default function WhatIsTheLetPage() {
   return (
     <div className="min-h-screen py-10">
+      <PremiumStickyBar />
       <Script id="schema-let-article" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA_ARTICLE) }} />
       <Script id="schema-let-faq" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA_FAQ) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -332,6 +335,7 @@ export default function WhatIsTheLetPage() {
 
             <div className="prose-content">
               {renderContent(MAIN_CONTENT)}
+              <PremiumCTA />
               <AdPlaceholder slot="banner" className="my-6" />
             </div>
 

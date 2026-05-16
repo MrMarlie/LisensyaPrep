@@ -25,6 +25,8 @@ const NAV_LINKS = [
   { href: '/about', label: 'About' },
 ];
 
+const PREMIUM_LINK = { href: '/premium/let-profed-mastery', label: 'Premium' };
+
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [coursesOpen, setCoursesOpen] = useState(false);
@@ -170,6 +172,19 @@ export default function Header() {
                 {label}
               </Link>
             ))}
+
+            {/* Premium link */}
+            <Link
+              href={PREMIUM_LINK.href}
+              className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors relative ${
+                pathname.startsWith('/premium')
+                  ? 'bg-yellow-400/20 text-yellow-400'
+                  : 'text-yellow-400 hover:bg-yellow-400/10'
+              }`}
+            >
+              {PREMIUM_LINK.label}
+              <span className="absolute -top-1 -right-1 bg-yellow-400 text-gray-900 text-[9px] font-extrabold px-1 rounded-full leading-4">NEW</span>
+            </Link>
           </nav>
 
           {/* Desktop CTA */}
@@ -292,6 +307,20 @@ export default function Header() {
                 {label}
               </Link>
             ))}
+
+            {/* Premium link in mobile */}
+            <Link
+              href={PREMIUM_LINK.href}
+              onClick={() => setMenuOpen(false)}
+              className={`px-4 py-3 rounded-lg text-sm font-bold transition-colors flex items-center justify-between ${
+                pathname.startsWith('/premium')
+                  ? 'bg-yellow-400/20 text-yellow-400'
+                  : 'text-yellow-400 hover:bg-yellow-400/10'
+              }`}
+            >
+              <span>{PREMIUM_LINK.label} — ₱149 Reviewer</span>
+              <span className="bg-yellow-400 text-gray-900 text-[9px] font-extrabold px-1.5 rounded-full">NEW</span>
+            </Link>
 
             <Link
               href="/agriculture"
