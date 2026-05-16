@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { createClient } from '@supabase/supabase-js';
-import nodemailer, { type SendMailOptions } from 'nodemailer';
-import path from 'path';
-import fs from 'fs';
+import nodemailer from 'nodemailer';
 
 function supabaseAdmin() {
   return createClient(
@@ -57,25 +55,14 @@ export async function POST(req: NextRequest) {
   // Mark as verified first
   await supabase.from('orders').update({ status: 'verified', verified_at: new Date().toISOString() }).eq('order_id', orderId);
 
-  // Send delivery email with PDF
+  // Send delivery email with PDF download link
   try {
-    const pdfPath = path.join(process.cwd(), 'private', 'deliverables', 'LET-ProfEd-Mastery-System-2026.pdf');
-    const attachments: NonNullable<SendMailOptions['attachments']> = [];
-
-    if (fs.existsSync(pdfPath)) {
-      attachments.push({
-        filename: 'LET-ProfEd-Mastery-System-2026.pdf',
-        path: pdfPath,
-        contentType: 'application/pdf',
-      });
-    }
-
+    const pdfUrl = process.env.PDF_DOWNLOAD_URL || '';
     const transport = mailer();
     await transport.sendMail({
       from: `"LisensyaPrep" <${process.env.EMAIL_USER}>`,
       to: order.email,
       subject: '🎓 Your LET ProfEd Mastery System is here!',
-      attachments,
       html: `
         <div style="font-family:Arial,sans-serif;max-width:560px;margin:0 auto;color:#1f2937;">
           <div style="background:#080d1b;padding:24px;border-radius:12px 12px 0 0;text-align:center;">
@@ -84,7 +71,11 @@ export async function POST(req: NextRequest) {
           <div style="background:#0f1629;padding:32px;border-radius:0 0 12px 12px;color:#d1d5db;">
             <h1 style="color:#ffffff;font-size:22px;margin-top:0;">Hi ${order.full_name},</h1>
             <p>Your payment is verified — here&apos;s your reviewer!</p>
-            <p style="font-size:18px;">📎 <strong style="color:#ffffff;">Attached: LET-ProfEd-Mastery-System-2026.pdf</strong></p>
+            <div style="background:#facc1520;border:1px solid #facc1540;border-radius:10px;padding:16px;margin:16px 0;text-align:center;">
+              <p style="margin:0 0 12px;font-size:18px;font-weight:700;color:#facc15;">📥 Download Your Reviewer</p>
+              <a href="${pdfUrl}" style="background:#facc15;color:#111827;font-weight:700;padding:12px 28px;border-radius:8px;text-decoration:none;font-size:16px;">DOWNLOAD PDF →</a>
+              <p style="margin:12px 0 0;font-size:12px;color:#9ca3af;">Link is personal to you. Please do not share it.</p>
+            </div>
 
             <div style="background:#080d1b;border-radius:10px;padding:16px;margin:20px 0;">
               <p style="margin:0 0 8px;font-weight:700;color:#facc15;">Getting Started</p>
