@@ -3,9 +3,9 @@ import { createClient } from '@supabase/supabase-js';
 import nodemailer from 'nodemailer';
 
 const PDF_VIEW_URL =
-  'https://drive.google.com/file/d/1l1JnsM48Ycz7YIYWI43Rho-ytsP6K_jB/view?usp=sharing';
+  'https://drive.google.com/file/d/1nOJyn1-HlS5ut-jBK49vPleNLpQ0tlcX/view?usp=sharing';
 const PDF_DOWNLOAD_URL =
-  'https://drive.google.com/uc?export=download&id=1l1JnsM48Ycz7YIYWI43Rho-ytsP6K_jB';
+  'https://drive.google.com/uc?export=download&id=1nOJyn1-HlS5ut-jBK49vPleNLpQ0tlcX';
 
 function supabaseAdmin() {
   return createClient(
@@ -62,10 +62,10 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    // Check for existing email — if found, just resend the PDF
+    // Check if already signed up — resend if so
     const { data: existing } = await supabase
       .from('waitlist')
-      .select('id')
+      .select('id, tags')
       .eq('email', cleanEmail)
       .maybeSingle();
 
@@ -73,7 +73,7 @@ export async function POST(req: NextRequest) {
       const { error: dbError } = await supabase.from('waitlist').insert({
         name: cleanName,
         email: cleanEmail,
-        tags: ['let-profed-starter-pack', 'waitlist-mastery-system'],
+        tags: ['let-gen-ed-starter-pack', 'waitlist-gen-ed-mastery'],
         source: source || 'direct',
         ip_address: ip,
       });
@@ -83,18 +83,35 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ error: 'Failed to save. Please try again.' }, { status: 500 });
       }
     } else {
+      // Add gen-ed tag if not already present
+      const existingTags: string[] = existing.tags ?? [];
+      const newTags = Array.from(new Set([...existingTags, 'let-gen-ed-starter-pack', 'waitlist-gen-ed-mastery', 'downloaded-both-starter-packs']));
       await supabase
         .from('waitlist')
-        .update({ updated_at: new Date().toISOString() })
+        .update({ tags: newTags, updated_at: new Date().toISOString() })
         .eq('email', cleanEmail);
     }
 
-    // Send PDF delivery email (non-blocking — lead is already saved)
+    // Send PDF delivery email
+    const alreadyHasProfEd = existing?.tags?.includes('let-profed-starter-pack');
+    const crossPromoSection = alreadyHasProfEd
+      ? `
+        <div style="background:#1e3a5f;border-radius:10px;padding:16px;margin:0 0 24px;">
+          <p style="color:#fbbf24;font-weight:700;margin:0 0 6px;">👑 ProfEd Mastery Buyer Perk</p>
+          <p style="margin:0;font-size:13px;line-height:1.6;">Since you already have our ProfEd Starter Pack, you&apos;re on track for the bundle deal. When the Gen Ed Mastery System launches, ProfEd buyers get <strong style="color:#ffffff;">₱50 OFF</strong> (₱199 instead of ₱249).</p>
+        </div>`
+      : `
+        <div style="background:#1a2035;border:1px solid #facc1540;border-radius:10px;padding:16px;margin:0 0 24px;">
+          <p style="color:#facc15;font-weight:700;margin:0 0 6px;">💡 Also studying ProfEd?</p>
+          <p style="margin:0;font-size:13px;line-height:1.6;">Our <strong style="color:#ffffff;">LET ProfEd Starter Pack</strong> is also free — 30 ProfEd questions with full rationales, 8-week study schedule, and exam day checklist.</p>
+          <a href="https://lisensyaprep.com/freebies/let-profed-starter-pack" style="display:inline-block;margin-top:10px;color:#facc15;font-weight:700;font-size:13px;">Get the ProfEd Starter Pack →</a>
+        </div>`;
+
     try {
       await mailer().sendMail({
         from: `"LisensyaPrep" <${process.env.EMAIL_USER}>`,
         to: cleanEmail,
-        subject: '🎁 Your LET ProfEd Starter Pack is here!',
+        subject: '🎁 Your LET Gen Ed Starter Pack is here!',
         html: `
           <div style="font-family:Arial,sans-serif;max-width:560px;margin:0 auto;background:#080d1b;border-radius:12px;overflow:hidden;">
             <div style="background:#080d1b;padding:24px 32px;text-align:center;border-bottom:1px solid #1e293b;">
@@ -103,10 +120,10 @@ export async function POST(req: NextRequest) {
             </div>
             <div style="padding:32px;color:#d1d5db;">
               <h1 style="color:#ffffff;font-size:22px;margin:0 0 8px;">Hi ${cleanName},</h1>
-              <p style="margin:0 0 20px;">Salamat for joining the LisensyaPrep community! Your free Starter Pack is ready below.</p>
+              <p style="margin:0 0 20px;">Salamat for joining the LisensyaPrep community! Your free Gen Ed Starter Pack is ready below.</p>
 
               <div style="background:#0f1629;border:2px solid #facc15;border-radius:12px;padding:24px;text-align:center;margin:0 0 24px;">
-                <p style="color:#facc15;font-weight:700;font-size:16px;margin:0 0 16px;">📥 LET ProfEd Starter Pack 2026</p>
+                <p style="color:#facc15;font-weight:700;font-size:16px;margin:0 0 16px;">📥 LET Gen Ed Starter Pack 2026</p>
                 <a href="${PDF_VIEW_URL}"
                    style="display:inline-block;background:#facc15;color:#111827;font-weight:700;padding:14px 28px;border-radius:8px;text-decoration:none;font-size:15px;">
                   Open / Download PDF
@@ -118,36 +135,31 @@ export async function POST(req: NextRequest) {
 
               <p style="color:#ffffff;font-weight:700;margin:0 0 8px;">What&apos;s inside:</p>
               <ul style="padding-left:20px;margin:0 0 20px;line-height:2;">
-                <li>30 LET ProfEd questions with full rationales</li>
-                <li>8-Week Study Schedule</li>
-                <li>PRC Exam Day Checklist</li>
-                <li>Test-Taking Strategies</li>
-                <li>Memory hooks (Tagalog) for retention</li>
+                <li>30 LET Gen Ed questions with full rationales</li>
+                <li>6 questions per subject: English, Filipino, Math, Science, Social Sciences</li>
+                <li>Memory hooks (with Filipino expressions) for retention</li>
+                <li>Built for the 2026 Enhanced TOS</li>
               </ul>
 
               <p style="color:#ffffff;font-weight:700;margin:0 0 8px;">Getting started:</p>
               <ol style="padding-left:20px;margin:0 0 24px;line-height:2;">
-                <li>Start with the Welcome page (Page 4)</li>
-                <li>Read the 8-Week Study Schedule (Page 8)</li>
                 <li>Answer each question BEFORE reading the rationale</li>
+                <li>Read EVERY rationale (even when you got it right)</li>
+                <li>Share this PDF with fellow LET takers!</li>
               </ol>
 
               <div style="background:#1e3a5f;border-radius:10px;padding:16px;margin:0 0 24px;">
-                <p style="color:#93c5fd;font-weight:700;margin:0 0 6px;">You&apos;re on the Waitlist!</p>
-                <p style="margin:0;font-size:13px;line-height:1.6;">You&apos;ll be the first to know when the full Mastery System launches — 430+ questions, ₱249 launch price. Waitlist members save ₱50.</p>
+                <p style="color:#93c5fd;font-weight:700;margin:0 0 6px;">You&apos;re on the Gen Ed Waitlist!</p>
+                <p style="margin:0;font-size:13px;line-height:1.6;">You&apos;ll be the first to know when the full Gen Ed Mastery System (430+ questions) launches. Waitlist members save ₱49 at launch.</p>
               </div>
 
-              <div style="background:#1a2035;border:1px solid #facc1540;border-radius:10px;padding:16px;margin:0 0 24px;">
-                <p style="color:#facc15;font-weight:700;margin:0 0 6px;">🆕 Also free: LET Gen Ed Starter Pack</p>
-                <p style="margin:0 0 10px;font-size:13px;line-height:1.6;">30 more LET questions covering English, Filipino, Math, Science, and Social Sciences — same quality, 100% free.</p>
-                <a href="https://lisensyaprep.com/freebies/let-gen-ed-starter-pack" style="color:#facc15;font-weight:700;font-size:13px;">Get the Gen Ed Starter Pack →</a>
-              </div>
+              ${crossPromoSection}
 
               <p style="margin:0 0 24px;"><strong style="color:#ffffff;">Pass it forward:</strong><br>
-              Got a barkada also taking the LET? Share the PDF with them!</p>
+              Got a barkada also taking the LET? Share the PDF with them — it&apos;s free to share!</p>
 
               <p style="margin:0;">Best of luck on your LET journey,</p>
-              <p style="margin:4px 0 0;">Alexis<br><strong style="color:#ffffff;">LisensyaPrep</strong></p>
+              <p style="margin:4px 0 0;"><strong style="color:#ffffff;">LisensyaPrep</strong></p>
               <p style="color:#475569;font-size:12px;margin:20px 0 0;border-top:1px solid #1e293b;padding-top:16px;">
                 P.S. Hit reply if you have questions — we read every email.<br>
                 To stop receiving emails,
@@ -163,7 +175,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error('Freebie signup error:', err);
+    console.error('Gen Ed freebie signup error:', err);
     return NextResponse.json({ error: 'Server error. Please try again.' }, { status: 500 });
   }
 }

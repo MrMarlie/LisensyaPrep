@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
+import GenEdFreebieCTA from '@/components/GenEdFreebieCTA';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
@@ -393,6 +394,8 @@ export default function SecondaryMathReviewerPage() {
               </figure>
 
               <AdPlaceholder slot="banner" className="my-6" />
+
+              <GenEdFreebieCTA />
 
               {renderContent(SECTION_2)}
             </div>

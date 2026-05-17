@@ -42,6 +42,10 @@ export default async function AdminWaitlistPage() {
   const today = leads?.filter((l) => l.created_at >= startOfDay(0)).length ?? 0;
   const thisWeek = leads?.filter((l) => l.created_at >= startOfDay(7)).length ?? 0;
 
+  const profEdLeads = leads?.filter((l) => l.tags?.includes('let-profed-starter-pack')) ?? [];
+  const genEdLeads = leads?.filter((l) => l.tags?.includes('let-gen-ed-starter-pack')) ?? [];
+  const bothPacks = leads?.filter((l) => l.tags?.includes('downloaded-both-starter-packs')) ?? [];
+
   // Source breakdown — top 5
   const sourceCounts: Record<string, number> = {};
   for (const l of leads ?? []) {
@@ -89,6 +93,20 @@ export default async function AdminWaitlistPage() {
             </div>
           </div>
         )}
+
+        {/* Pack breakdown */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
+          {[
+            { label: 'ProfEd Downloads', value: profEdLeads.length, color: 'text-yellow-400' },
+            { label: 'Gen Ed Downloads', value: genEdLeads.length, color: 'text-green-400' },
+            { label: 'Both Packs 🔥', value: bothPacks.length, color: 'text-orange-400' },
+          ].map(({ label, value, color }) => (
+            <div key={label} className="bg-[#0f1629] border border-white/10 rounded-xl p-4">
+              <p className="text-gray-500 text-xs mb-1">{label}</p>
+              <p className={`text-2xl font-extrabold ${color}`}>{value}</p>
+            </div>
+          ))}
+        </div>
 
         <AdminWaitlistClient leads={leads ?? []} />
       </div>

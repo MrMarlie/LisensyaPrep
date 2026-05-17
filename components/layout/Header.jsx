@@ -26,7 +26,10 @@ const NAV_LINKS = [
 ];
 
 const PREMIUM_LINK = { href: '/premium/let-profed-mastery', label: 'Premium' };
-const FREEBIE_LINK = { href: '/freebies/let-profed-starter-pack', label: 'Freebies' };
+const FREEBIE_LINKS = [
+  { href: '/freebies/let-profed-starter-pack', label: '📘 LET ProfEd Starter Pack' },
+  { href: '/freebies/let-gen-ed-starter-pack', label: '📗 LET Gen Ed Starter Pack', isNew: true },
+];
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -174,18 +177,38 @@ export default function Header() {
               </Link>
             ))}
 
-            {/* Freebies link */}
-            <Link
-              href={FREEBIE_LINK.href}
-              className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors relative ${
-                pathname.startsWith('/freebies')
-                  ? 'bg-green-400/20 text-green-400'
-                  : 'text-green-400 hover:bg-green-400/10'
-              }`}
-            >
-              {FREEBIE_LINK.label}
-              <span className="absolute -top-1 -right-1 bg-green-400 text-gray-900 text-[9px] font-extrabold px-1 rounded-full leading-4">FREE</span>
-            </Link>
+            {/* Freebies dropdown */}
+            <div className="relative group">
+              <button
+                className={`flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-bold transition-colors relative ${
+                  pathname.startsWith('/freebies')
+                    ? 'bg-green-400/20 text-green-400'
+                    : 'text-green-400 hover:bg-green-400/10'
+                }`}
+              >
+                Freebies
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                </svg>
+                <span className="absolute -top-1 -right-1 bg-green-400 text-gray-900 text-[9px] font-extrabold px-1 rounded-full leading-4">FREE</span>
+              </button>
+              <div className="absolute top-full left-0 mt-1 w-56 bg-[#0f1629] border border-white/10 rounded-xl shadow-xl overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                {FREEBIE_LINKS.map(({ href, label, isNew }) => (
+                  <Link
+                    key={href}
+                    href={href}
+                    className={`flex items-center justify-between px-4 py-3 text-sm font-medium transition-colors ${
+                      pathname.startsWith(href)
+                        ? 'bg-green-400/10 text-green-400'
+                        : 'text-gray-300 hover:text-white hover:bg-white/5'
+                    }`}
+                  >
+                    <span>{label}</span>
+                    {isNew && <span className="bg-green-400 text-gray-900 text-[9px] font-extrabold px-1.5 rounded-full">NEW</span>}
+                  </Link>
+                ))}
+              </div>
+            </div>
 
             {/* Premium link */}
             <Link
@@ -322,19 +345,25 @@ export default function Header() {
               </Link>
             ))}
 
-            {/* Freebies link in mobile */}
-            <Link
-              href={FREEBIE_LINK.href}
-              onClick={() => setMenuOpen(false)}
-              className={`px-4 py-3 rounded-lg text-sm font-bold transition-colors flex items-center justify-between ${
-                pathname.startsWith('/freebies')
-                  ? 'bg-green-400/20 text-green-400'
-                  : 'text-green-400 hover:bg-green-400/10'
-              }`}
-            >
-              <span>🎁 {FREEBIE_LINK.label} — Free Reviewer</span>
-              <span className="bg-green-400 text-gray-900 text-[9px] font-extrabold px-1.5 rounded-full">FREE</span>
-            </Link>
+            {/* Freebies in mobile */}
+            <div className="px-4 py-2 text-xs font-semibold text-green-400 uppercase tracking-wider mt-1">
+              🎁 Freebies — Free Reviewers
+            </div>
+            {FREEBIE_LINKS.map(({ href, label, isNew }) => (
+              <Link
+                key={href}
+                href={href}
+                onClick={() => setMenuOpen(false)}
+                className={`pl-6 pr-4 py-3 rounded-lg text-sm font-medium transition-colors flex items-center justify-between ${
+                  pathname.startsWith(href)
+                    ? 'bg-green-400/20 text-green-400'
+                    : 'text-gray-300 hover:text-white hover:bg-white/5'
+                }`}
+              >
+                <span>{label}</span>
+                {isNew && <span className="bg-green-400 text-gray-900 text-[9px] font-extrabold px-1.5 rounded-full">NEW</span>}
+              </Link>
+            ))}
 
             {/* Premium link in mobile */}
             <Link
