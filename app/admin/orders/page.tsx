@@ -34,7 +34,12 @@ export default async function AdminOrdersPage() {
   const pending = orders?.filter((o) => o.status === 'pending').length ?? 0;
   const delivered = orders?.filter((o) => o.status === 'delivered').length ?? 0;
   const total = orders?.length ?? 0;
-  const revenue = orders?.filter((o) => ['verified', 'delivered'].includes(o.status)).reduce((s, o) => s + (o.amount || 149), 0) ?? 0;
+  const paidOrders = orders?.filter((o) => ['verified', 'delivered'].includes(o.status)) ?? [];
+  const revenue = paidOrders.reduce((s, o) => s + (o.amount || 149), 0);
+
+  const profedRevenue = paidOrders.filter((o) => !o.product || o.product === 'profed').reduce((s, o) => s + (o.amount || 149), 0);
+  const genedRevenue = paidOrders.filter((o) => o.product === 'gened').reduce((s, o) => s + (o.amount || 0), 0);
+  const bundleRevenue = paidOrders.filter((o) => o.product === 'bundle').reduce((s, o) => s + (o.amount || 0), 0);
 
   return (
     <div className="min-h-screen py-10 px-4">
@@ -43,21 +48,35 @@ export default async function AdminOrdersPage() {
         <div className="flex items-center justify-between mb-8">
           <div>
             <h1 className="text-2xl font-extrabold text-white">Order Dashboard</h1>
-            <p className="text-gray-500 text-sm">LisensyaPrep — LET ProfEd Mastery System</p>
+            <p className="text-gray-500 text-sm">LisensyaPrep — All Products</p>
           </div>
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-4">
           {[
             { label: 'Total Orders', value: total, color: 'text-white' },
             { label: 'Pending', value: pending, color: 'text-yellow-400' },
             { label: 'Delivered', value: delivered, color: 'text-green-400' },
-            { label: 'Revenue', value: `₱${revenue.toLocaleString()}`, color: 'text-yellow-400' },
+            { label: 'Total Revenue', value: `₱${revenue.toLocaleString()}`, color: 'text-yellow-400' },
           ].map(({ label, value, color }) => (
             <div key={label} className="bg-[#0f1629] border border-white/10 rounded-xl p-4">
               <p className="text-gray-500 text-xs mb-1">{label}</p>
               <p className={`text-2xl font-extrabold ${color}`}>{value}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* Revenue by product */}
+        <div className="grid grid-cols-3 gap-4 mb-8">
+          {[
+            { label: 'ProfEd Revenue', value: `₱${profedRevenue.toLocaleString()}`, color: 'text-yellow-400' },
+            { label: 'Gen Ed Revenue', value: `₱${genedRevenue.toLocaleString()}`, color: 'text-green-400' },
+            { label: 'Bundle Revenue', value: `₱${bundleRevenue.toLocaleString()}`, color: 'text-blue-400' },
+          ].map(({ label, value, color }) => (
+            <div key={label} className="bg-[#0f1629] border border-white/10 rounded-xl p-4">
+              <p className="text-gray-500 text-xs mb-1">{label}</p>
+              <p className={`text-xl font-extrabold ${color}`}>{value}</p>
             </div>
           ))}
         </div>

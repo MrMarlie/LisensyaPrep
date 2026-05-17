@@ -14,9 +14,16 @@ type Order = {
   referral_source: string;
   status: string;
   amount: number;
+  product?: string;
   created_at: string;
   verified_at: string | null;
   delivered_at: string | null;
+};
+
+const PRODUCT_LABELS: Record<string, string> = {
+  profed: '🎓 ProfEd',
+  gened: '📗 Gen Ed',
+  bundle: '🎁 Bundle',
 };
 
 const STATUS_STYLES: Record<string, string> = {
@@ -89,6 +96,9 @@ export default function AdminOrdersClient({ orders }: { orders: Order[] }) {
                     <p className="text-white font-bold">{order.full_name}</p>
                     <span className={`text-xs px-2 py-0.5 rounded-full font-semibold capitalize ${STATUS_STYLES[order.status] || 'bg-gray-400/10 text-gray-400'}`}>
                       {order.status}
+                    </span>
+                    <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 text-gray-400">
+                      {PRODUCT_LABELS[order.product || 'profed'] || order.product || 'ProfEd'}
                     </span>
                   </div>
                   <p className="text-yellow-400 text-xs font-mono">{order.order_id}</p>

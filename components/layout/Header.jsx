@@ -25,7 +25,11 @@ const NAV_LINKS = [
   { href: '/about', label: 'About' },
 ];
 
-const PREMIUM_LINK = { href: '/premium/let-profed-mastery', label: 'Premium' };
+const PREMIUM_LINKS = [
+  { href: '/premium/let-profed-mastery', label: '🎓 LET ProfEd Mastery', badge: null },
+  { href: '/premium/let-gen-ed-mastery', label: '📗 LET Gen Ed Mastery', badge: 'NEW' },
+  { href: '/premium/let-bundle-mastery', label: '🎁 Bundle Deal — Save ₱99', badge: 'BEST' },
+];
 const FREEBIE_LINKS = [
   { href: '/freebies/let-profed-starter-pack', label: '📘 LET ProfEd Starter Pack' },
   { href: '/freebies/let-gen-ed-starter-pack', label: '📗 LET Gen Ed Starter Pack', isNew: true },
@@ -34,17 +38,22 @@ const FREEBIE_LINKS = [
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [coursesOpen, setCoursesOpen] = useState(false);
+  const [premiumOpen, setPremiumOpen] = useState(false);
   const [showAuth, setShowAuth] = useState(false);
+  const premiumRef = useRef(null);
   const [localProfile, setLocalProfile] = useState(null);
   const pathname = usePathname();
   const { user, profile, signOut } = useAuth();
   const dropdownRef = useRef(null);
 
-  // Close dropdown when clicking outside
+  // Close dropdowns when clicking outside
   useEffect(() => {
     function handleClick(e) {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
         setCoursesOpen(false);
+      }
+      if (premiumRef.current && !premiumRef.current.contains(e.target)) {
+        setPremiumOpen(false);
       }
     }
     document.addEventListener('mousedown', handleClick);
@@ -216,18 +225,42 @@ export default function Header() {
               </div>
             </div>
 
-            {/* Premium link */}
-            <Link
-              href={PREMIUM_LINK.href}
-              className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors relative ${
-                pathname.startsWith('/premium')
-                  ? 'bg-yellow-400/20 text-yellow-400'
-                  : 'text-yellow-400 hover:bg-yellow-400/10'
-              }`}
-            >
-              {PREMIUM_LINK.label}
-              <span className="absolute -top-1 -right-1 bg-yellow-400 text-gray-900 text-[9px] font-extrabold px-1 rounded-full leading-4">NEW</span>
-            </Link>
+            {/* Premium dropdown */}
+            <div className="relative" ref={premiumRef}>
+              <button
+                onClick={() => setPremiumOpen((o) => !o)}
+                className={`flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-bold transition-colors relative ${
+                  pathname.startsWith('/premium')
+                    ? 'bg-yellow-400/20 text-yellow-400'
+                    : 'text-yellow-400 hover:bg-yellow-400/10'
+                }`}
+              >
+                Premium
+                <svg className={`w-3.5 h-3.5 transition-transform ${premiumOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                </svg>
+                <span className="absolute -top-1 -right-1 bg-yellow-400 text-gray-900 text-[9px] font-extrabold px-1 rounded-full leading-4">NEW</span>
+              </button>
+              {premiumOpen && (
+                <div className="absolute top-full right-0 mt-1 w-60 bg-[#0f1629] border border-white/10 rounded-xl shadow-xl overflow-hidden">
+                  {PREMIUM_LINKS.map(({ href, label, badge }) => (
+                    <Link
+                      key={href}
+                      href={href}
+                      onClick={() => setPremiumOpen(false)}
+                      className={`flex items-center justify-between px-4 py-3 text-sm font-medium transition-colors ${
+                        pathname.startsWith(href)
+                          ? 'bg-yellow-400/10 text-yellow-400'
+                          : 'text-gray-300 hover:text-white hover:bg-white/5'
+                      }`}
+                    >
+                      <span>{label}</span>
+                      {badge && <span className="bg-yellow-400 text-gray-900 text-[9px] font-extrabold px-1.5 rounded-full">{badge}</span>}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
           </nav>
 
           {/* Desktop CTA */}
@@ -371,19 +404,25 @@ export default function Header() {
               </Link>
             ))}
 
-            {/* Premium link in mobile */}
-            <Link
-              href={PREMIUM_LINK.href}
-              onClick={() => setMenuOpen(false)}
-              className={`px-4 py-3 rounded-lg text-sm font-bold transition-colors flex items-center justify-between ${
-                pathname.startsWith('/premium')
-                  ? 'bg-yellow-400/20 text-yellow-400'
-                  : 'text-yellow-400 hover:bg-yellow-400/10'
-              }`}
-            >
-              <span>{PREMIUM_LINK.label} — ₱149 Reviewer</span>
-              <span className="bg-yellow-400 text-gray-900 text-[9px] font-extrabold px-1.5 rounded-full">NEW</span>
-            </Link>
+            {/* Premium section in mobile */}
+            <div className="px-4 py-2 text-xs font-semibold text-yellow-400 uppercase tracking-wider mt-1">
+              ⭐ Premium Reviewers
+            </div>
+            {PREMIUM_LINKS.map(({ href, label, badge }) => (
+              <Link
+                key={href}
+                href={href}
+                onClick={() => setMenuOpen(false)}
+                className={`pl-6 pr-4 py-3 rounded-lg text-sm font-bold transition-colors flex items-center justify-between ${
+                  pathname.startsWith(href)
+                    ? 'bg-yellow-400/20 text-yellow-400'
+                    : 'text-yellow-400 hover:bg-yellow-400/10'
+                }`}
+              >
+                <span>{label}</span>
+                {badge && <span className="bg-yellow-400 text-gray-900 text-[9px] font-extrabold px-1.5 rounded-full">{badge}</span>}
+              </Link>
+            ))}
 
             <Link
               href="/agriculture"

@@ -4,6 +4,7 @@ import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
 import PremiumCTA from '@/components/PremiumCTA';
+import GenEdMasteryCTA from '@/components/GenEdMasteryCTA';
 import PremiumStickyBar from '@/components/PremiumStickyBar';
 
 export const metadata = buildMetadata({
@@ -365,6 +366,8 @@ export default function GeneralEducationReviewerPage() {
               {renderContent(SECTION_2)}
 
               <PremiumCTA />
+
+              <GenEdMasteryCTA />
             </div>
 
             <div className="mt-10 bg-gradient-to-br from-blue-900/20 to-blue-900/10 border border-blue-500/30 rounded-2xl p-6 text-center">
