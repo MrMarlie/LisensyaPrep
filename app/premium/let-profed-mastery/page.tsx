@@ -55,7 +55,7 @@ const FAQS = [
   { q: 'What format is the reviewer in?', a: 'PDF, optimized for mobile viewing. Works on any device — phone, tablet, laptop, desktop.' },
   { q: 'Can I print it?', a: 'Yes, you can print it for personal use. Sharing or reselling the file is strictly prohibited.' },
   { q: 'Is this enough to pass LET ProfEd alone?', a: 'This reviewer covers 100% of the Enhanced TOS topics. We recommend pairing it with our free articles for additional context.' },
-  { q: 'What\'s your refund policy?', a: '7-day money-back guarantee. If you\'re not satisfied, email lisensyaprep@gmail.com within 7 days for a full refund. No questions asked.' },
+  { q: 'What\'s your refund policy?', a: 'As this is a digital product, all sales are final. No refunds will be issued once the file has been delivered.' },
   { q: 'When do I get the reviewer?', a: 'Within 12 hours of payment confirmation (usually same hour during 8 AM–10 PM).' },
   { q: 'Will there be a Gen Ed version?', a: 'Yes — coming after this launch. ProfEd buyers will get a launch discount on Gen Ed when it releases.' },
 ];
@@ -179,7 +179,7 @@ export default function PremiumLandingPage() {
             >
               GET YOUR COPY NOW →
             </Link>
-            <p className="text-gray-700 text-sm mt-4">7-day money-back guarantee • PDF delivered to your email</p>
+            <p className="text-gray-700 text-sm mt-4">PDF delivered to your email</p>
           </div>
         </section>
 
@@ -296,7 +296,7 @@ export default function PremiumLandingPage() {
           <div className="max-w-xl mx-auto text-center">
             <p className="text-gray-400 text-sm mb-2">Still on the fence?</p>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-6">
-              7-day money-back guarantee. Zero risk.
+              Get your copy today and start studying smarter.
             </h2>
             <Link
               href="/premium/let-profed-mastery/checkout"
@@ -307,7 +307,7 @@ export default function PremiumLandingPage() {
             <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm text-gray-500">
               <span>📱 Pay via GCash</span>
               <span>📩 PDF delivered to email</span>
-              <span>💯 7-day refund guarantee</span>
+              <span>✅ Digital copy, instant access</span>
             </div>
           </div>
         </section>

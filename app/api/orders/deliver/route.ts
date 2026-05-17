@@ -88,7 +88,7 @@ export async function POST(req: NextRequest) {
             </div>
 
             <p><strong style="color:#ffffff;">Important:</strong> This PDF is for your personal use only. Please don&apos;t share, repost, or resell.</p>
-            <p>7-day refund policy: not happy? Just reply to this email.</p>
+            <p>This is a digital product. All sales are final once the file has been delivered.</p>
 
             <hr style="border-color:#ffffff22;margin:24px 0;">
 
