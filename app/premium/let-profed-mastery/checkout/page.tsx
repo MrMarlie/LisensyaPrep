@@ -106,10 +106,6 @@ export default function CheckoutPage() {
                   <p className="text-gray-500 text-xs mb-1">GCash Number</p>
                   <p className="text-white font-extrabold text-xl tracking-widest">0906-346-5789</p>
                 </div>
-                <div className="bg-[#080d1b] rounded-xl p-4 border border-white/10">
-                  <p className="text-gray-500 text-xs mb-1">Account Name</p>
-                  <p className="text-white font-bold text-lg">Alexis Mar Mendiola</p>
-                </div>
               </div>
               <div className="bg-yellow-400/10 border border-yellow-400/20 rounded-xl p-3">
                 <p className="text-yellow-400 text-xs font-semibold">⚠️ Double-check the account name before sending!</p>
@@ -285,7 +281,6 @@ export default function CheckoutPage() {
         <div className="text-center space-y-2 text-sm text-gray-500 pb-8">
           <p>🔒 We never store your payment info — GCash handles the transaction.</p>
           <p>🛡️ Your email is used only for product delivery and updates.</p>
-          <p>✅ 7-day money-back guarantee — full refund, no questions asked.</p>
         </div>
 
       </div>
