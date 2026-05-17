@@ -51,6 +51,12 @@ export default function Header() {
     return () => document.removeEventListener('mousedown', handleClick);
   }, []);
 
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [menuOpen]);
+
   // Load localStorage profile for users who signed in via PlayerSetupModal
   // (not Supabase auth). This makes "Hi [name]!" work for everyone.
   useEffect(() => {
@@ -277,7 +283,7 @@ export default function Header() {
 
       {/* Mobile nav */}
       {menuOpen && (
-        <div className="md:hidden border-t border-white/10 bg-[#0a0f1e]">
+        <div className="md:hidden border-t border-white/10 bg-[#0a0f1e] overflow-y-auto max-h-[calc(100dvh-4rem)]">
           <nav className="flex flex-col px-4 py-3 gap-1">
             {/* User greeting row in mobile */}
             {firstName ? (
