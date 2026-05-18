@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { trackEvent } from '@/lib/analytics';
+import First100StatusBar from '@/components/First100StatusBar';
 
 const REFERRAL_OPTIONS = [
   { value: 'article', label: 'LisensyaPrep article' },
@@ -79,6 +80,8 @@ export default function CheckoutPage() {
   return (
     <div className="min-h-screen py-10 px-4">
       <div className="max-w-xl mx-auto">
+
+        <First100StatusBar variant="compact" />
 
         {/* Back link */}
         <Link href="/premium/let-profed-mastery" className="text-yellow-400 hover:text-yellow-300 text-sm mb-6 inline-block transition-colors">

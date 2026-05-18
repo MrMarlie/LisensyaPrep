@@ -1,6 +1,7 @@
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { createClient } from '@supabase/supabase-js';
+import Link from 'next/link';
 import AdminOrdersClient from './AdminOrdersClient';
 
 function supabaseAdmin() {
@@ -22,6 +23,12 @@ export default async function AdminOrdersPage() {
     .from('orders')
     .select('*')
     .order('created_at', { ascending: false });
+
+  const { data: promoData } = await supabase
+    .from('promo_counters')
+    .select('claimed, total_slots, active')
+    .eq('id', 'let-first-100-shared')
+    .single();
 
   if (error) {
     return (
@@ -80,6 +87,20 @@ export default async function AdminOrdersPage() {
             </div>
           ))}
         </div>
+
+        {promoData && (
+          <div className={`mb-6 bg-[#0f1629] border rounded-xl p-4 flex items-center justify-between gap-4 flex-wrap ${promoData.active ? 'border-yellow-400/30' : 'border-white/10'}`}>
+            <div>
+              <p className={`font-bold text-sm ${promoData.active ? 'text-yellow-400' : 'text-gray-500'}`}>
+                {promoData.active ? '🔥' : '⏸️'} First 100: {promoData.claimed}/{promoData.total_slots} — {Math.max(0, promoData.total_slots - promoData.claimed)} spots left
+              </p>
+              <p className="text-gray-600 text-xs">{promoData.active ? 'Promo active' : 'Promo paused'}</p>
+            </div>
+            <Link href="/admin/promos" className="text-yellow-400 hover:text-yellow-300 text-sm font-semibold transition-colors">
+              Manage →
+            </Link>
+          </div>
+        )}
 
         <AdminOrdersClient orders={orders ?? []} />
       </div>

@@ -57,6 +57,35 @@ export async function POST(req: NextRequest) {
 
   // Resolve PDF URLs and email content based on product
   const product = order.product || 'profed';
+
+  // Increment shared First 100 promo counter for LET Mastery products
+  const letProducts = ['profed', 'gened', 'bundle'];
+  if (letProducts.includes(product) && order.status === 'pending') {
+    const { data: promo } = await supabase
+      .from('promo_counters')
+      .select('claimed, total_slots, active')
+      .eq('id', 'let-first-100-shared')
+      .single();
+    if (promo && promo.active && promo.claimed < promo.total_slots) {
+      const newClaimed = promo.claimed + 1;
+      await supabase
+        .from('promo_counters')
+        .update({
+          claimed: newClaimed,
+          updated_at: new Date().toISOString(),
+          active: newClaimed < promo.total_slots,
+        })
+        .eq('id', 'let-first-100-shared');
+      await supabase.from('promo_audit_log').insert({
+        promo_id: 'let-first-100-shared',
+        action: 'increment',
+        old_value: { claimed: promo.claimed },
+        new_value: { claimed: newClaimed },
+        performed_by: 'system',
+        reason: `Order ${orderId} verified`,
+      });
+    }
+  }
   const profedUrl = process.env.PDF_DOWNLOAD_URL || '';
   const genedUrl = process.env.GEN_ED_PDF_DOWNLOAD_URL || '';
 

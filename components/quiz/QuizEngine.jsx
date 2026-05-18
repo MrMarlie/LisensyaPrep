@@ -13,6 +13,7 @@ import { useAuth } from '@/context/AuthContext';
 import AffiliateBanner from '@/components/AffiliateBanner';
 import AffiliateBannerCompact from '@/components/AffiliateBannerCompact';
 import { getQuizProducts, getScoreMessage } from '@/lib/affiliateLinks';
+import SmartFreebiePopup from '@/components/SmartFreebiePopup';
 
 export default function QuizEngine({ initialState, moduleInfo }) {
   const router = useRouter();
@@ -24,6 +25,7 @@ export default function QuizEngine({ initialState, moduleInfo }) {
   const [showExplanation, setShowExplanation] = useState(false);
   const [playerName, setPlayerName] = useState('You');
   const [showSetupModal, setShowSetupModal] = useState(true);
+  const [showFreebiePopup, setShowFreebiePopup] = useState(false);
 
   useEffect(() => {
     if (user && authProfile?.display_name) {
@@ -57,6 +59,15 @@ export default function QuizEngine({ initialState, moduleInfo }) {
   const currentQuestion = state.questions[state.currentQuestionIndex];
   const isGameOver = state.status !== 'active';
 
+  // Determine which freebie pack to suggest based on quiz subject
+  const quizPopupType = (() => {
+    if (moduleInfo?.examId !== 'education') return null;
+    const id = moduleInfo?.id || '';
+    if (id.includes('general_education') || id.includes('gened')) return 'gened';
+    if (id.includes('professional_education') || id.includes('profed')) return 'profed';
+    return 'auto';
+  })();
+
   // Persist state to session storage on each change
   useEffect(() => {
     if (state.status === 'active') {
@@ -83,6 +94,21 @@ export default function QuizEngine({ initialState, moduleInfo }) {
       setShowExplanation(true);
       setState(newState);
 
+      // Show freebie popup after 5th answered question (once per session)
+      if (quizPopupType && newState.answers.length === 5) {
+        try {
+          if (!sessionStorage.getItem('lp_popup_shown')) {
+            const alreadyBought = localStorage.getItem('lp_mastery_purchased');
+            const downloaded = localStorage.getItem('lp_starter_pack_downloaded');
+            const alreadyHas = quizPopupType !== 'auto' && (downloaded === quizPopupType || downloaded === 'both');
+            if (!alreadyBought && !alreadyHas) {
+              sessionStorage.setItem('lp_popup_shown', '1');
+              setShowFreebiePopup(true);
+            }
+          }
+        } catch { /* ignore storage errors */ }
+      }
+
       if (isCorrect) {
         setEffect({ type: 'attack', damage: newState.lastDamage });
       } else {
@@ -104,7 +130,7 @@ export default function QuizEngine({ initialState, moduleInfo }) {
         clearActiveQuizState();
       }
     },
-    [answered, isGameOver, state, currentQuestion, moduleInfo]
+    [answered, isGameOver, state, currentQuestion, moduleInfo, quizPopupType]
   );
 
   const handleNext = useCallback(() => {
@@ -288,6 +314,14 @@ export default function QuizEngine({ initialState, moduleInfo }) {
           </button>
         )}
       </div>
+
+      {showFreebiePopup && quizPopupType && (
+        <SmartFreebiePopup
+          type={quizPopupType}
+          trigger="quiz"
+          onClose={() => setShowFreebiePopup(false)}
+        />
+      )}
     </div>
   );
 }

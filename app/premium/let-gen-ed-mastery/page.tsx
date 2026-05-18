@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Script from 'next/script';
 import type { Metadata } from 'next';
 import { PremiumPageViewTracker } from '@/components/PremiumAnalytics';
+import First100StatusBar from '@/components/First100StatusBar';
+import MasteryPopupTrigger from '@/components/MasteryPopupTrigger';
 
 export const metadata: Metadata = {
   title: 'LET Gen Ed Mastery System 2026 — Premium Reviewer | LisensyaPrep',
@@ -99,6 +101,8 @@ export default function GenEdMasteryPage() {
             <p className="text-gray-500 text-sm mt-4">ProfEd Mastery buyer? Get Gen Ed at ₱199 — email us for your discount code.</p>
           </div>
         </section>
+
+        <First100StatusBar variant="full" />
 
         {/* ── Subject Breakdown ── */}
         <section className="py-14 px-4">
@@ -375,6 +379,7 @@ export default function GenEdMasteryPage() {
         </section>
 
       </div>
+      <MasteryPopupTrigger type="gened" />
     </>
   );
 }

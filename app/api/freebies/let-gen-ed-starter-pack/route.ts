@@ -73,7 +73,7 @@ export async function POST(req: NextRequest) {
       const { error: dbError } = await supabase.from('waitlist').insert({
         name: cleanName,
         email: cleanEmail,
-        tags: ['let-gen-ed-starter-pack', 'waitlist-gen-ed-mastery'],
+        tags: ['let-gen-ed-starter-pack', 'let-gen-ed-buyer-lead'],
         source: source || 'direct',
         ip_address: ip,
       });
@@ -85,7 +85,7 @@ export async function POST(req: NextRequest) {
     } else {
       // Add gen-ed tag if not already present
       const existingTags: string[] = existing.tags ?? [];
-      const newTags = Array.from(new Set([...existingTags, 'let-gen-ed-starter-pack', 'waitlist-gen-ed-mastery', 'downloaded-both-starter-packs']));
+      const newTags = Array.from(new Set([...existingTags, 'let-gen-ed-starter-pack', 'let-gen-ed-buyer-lead', 'downloaded-both-starter-packs']));
       await supabase
         .from('waitlist')
         .update({ tags: newTags, updated_at: new Date().toISOString() })
@@ -148,9 +148,12 @@ export async function POST(req: NextRequest) {
                 <li>Share this PDF with fellow LET takers!</li>
               </ol>
 
-              <div style="background:#1e3a5f;border-radius:10px;padding:16px;margin:0 0 24px;">
-                <p style="color:#93c5fd;font-weight:700;margin:0 0 6px;">You&apos;re on the Gen Ed Waitlist!</p>
-                <p style="margin:0;font-size:13px;line-height:1.6;">You&apos;ll be the first to know when the full Gen Ed Mastery System (430+ questions) launches. Waitlist members save ₱49 at launch.</p>
+              <div style="background:#1a150a;border:1px solid #facc1540;border-radius:10px;padding:16px;margin:0 0 24px;">
+                <p style="color:#facc15;font-weight:700;margin:0 0 6px;">🎓 ProfEd Mastery is also LIVE!</p>
+                <p style="margin:0 0 10px;font-size:13px;line-height:1.6;">430+ Professional Education questions — required for ALL LET takers, BEEd and BSEd. Get it now while the ₱149 launch price lasts.</p>
+                <a href="https://lisensyaprep.com/premium/let-profed-mastery" style="display:inline-block;background:#facc15;color:#111827;font-weight:700;padding:10px 20px;border-radius:8px;text-decoration:none;font-size:14px;">Buy ProfEd — ₱149 →</a>
+                <p style="color:#475569;font-size:12px;margin:8px 0 0;">Or get the Bundle (ProfEd + Gen Ed) for ₱399 (save ₱99).</p>
+                <a href="https://lisensyaprep.com/premium/let-bundle-mastery" style="color:#facc15;font-size:12px;font-weight:700;">See Bundle Deal →</a>
               </div>
 
               ${crossPromoSection}

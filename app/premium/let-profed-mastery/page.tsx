@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Script from 'next/script';
 import type { Metadata } from 'next';
 import { PremiumPageViewTracker } from '@/components/PremiumAnalytics';
+import First100StatusBar from '@/components/First100StatusBar';
+import MasteryPopupTrigger from '@/components/MasteryPopupTrigger';
 
 export const metadata: Metadata = {
   title: 'LET ProfEd Mastery System 2026 — Premium Reviewer | LisensyaPrep',
@@ -57,7 +59,7 @@ const FAQS = [
   { q: 'Is this enough to pass LET ProfEd alone?', a: 'This reviewer covers 100% of the Enhanced TOS topics. We recommend pairing it with our free articles for additional context.' },
   { q: 'What\'s your refund policy?', a: 'As this is a digital product, all sales are final. No refunds will be issued once the file has been delivered.' },
   { q: 'When do I get the reviewer?', a: 'Within 12 hours of payment confirmation (usually same hour during 8 AM–10 PM).' },
-  { q: 'Will there be a Gen Ed version?', a: 'Yes — coming after this launch. ProfEd buyers will get a launch discount on Gen Ed when it releases.' },
+  { q: 'Is there a Gen Ed version?', a: 'Yes — Gen Ed Mastery is NOW LIVE at lisensyaprep.com/premium/let-gen-ed-mastery. ProfEd Mastery buyers get Gen Ed at ₱199 (₱50 off). Email us with your order ID to claim.' },
 ];
 
 const TOC = [
@@ -104,6 +106,8 @@ export default function PremiumLandingPage() {
             <p className="text-gray-500 text-sm mt-4">🔥 Launch price — ₱249 after first 100 buyers</p>
           </div>
         </section>
+
+        <First100StatusBar variant="full" />
 
         {/* ── Product headline ── */}
         <section className="py-14 px-4">
@@ -313,6 +317,7 @@ export default function PremiumLandingPage() {
         </section>
 
       </div>
+      <MasteryPopupTrigger type="profed" />
     </>
   );
 }

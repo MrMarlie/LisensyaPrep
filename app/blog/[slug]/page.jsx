@@ -3,6 +3,7 @@ import Link from 'next/link';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { BLOG_POSTS } from '@/lib/blogData';
 import { buildMetadata } from '@/lib/seo';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export async function generateStaticParams() {
   return BLOG_POSTS.filter((p) => !p.url).map((p) => ({ slug: p.slug }));
@@ -283,6 +284,7 @@ export default function BlogPostPage({ params }) {
           </aside>
         </div>
       </div>
+      {post.tag === 'Education' && <ArticlePopupTriggers type="auto" />}
     </div>
   );
 }

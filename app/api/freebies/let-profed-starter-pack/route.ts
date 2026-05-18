@@ -132,9 +132,12 @@ export async function POST(req: NextRequest) {
                 <li>Answer each question BEFORE reading the rationale</li>
               </ol>
 
-              <div style="background:#1e3a5f;border-radius:10px;padding:16px;margin:0 0 24px;">
-                <p style="color:#93c5fd;font-weight:700;margin:0 0 6px;">You&apos;re on the Waitlist!</p>
-                <p style="margin:0;font-size:13px;line-height:1.6;">You&apos;ll be the first to know when the full Mastery System launches — 430+ questions, ₱249 launch price. Waitlist members save ₱50.</p>
+              <div style="background:#0f2218;border:1px solid #4ade8040;border-radius:10px;padding:16px;margin:0 0 24px;">
+                <p style="color:#4ade80;font-weight:700;margin:0 0 6px;">🎓 LET Gen Ed Mastery — NOW LIVE!</p>
+                <p style="margin:0 0 10px;font-size:13px;line-height:1.6;">English, Filipino, Math, Science, Social Sciences — 430+ questions with full rationales. Also studying Gen Ed? Get it now while the ₱149 launch price lasts.</p>
+                <a href="https://lisensyaprep.com/premium/let-gen-ed-mastery" style="display:inline-block;background:#4ade80;color:#111827;font-weight:700;padding:10px 20px;border-radius:8px;text-decoration:none;font-size:14px;">Buy Gen Ed — ₱149 →</a>
+                <p style="color:#475569;font-size:12px;margin:8px 0 0;">Or get the Bundle (ProfEd + Gen Ed) for ₱399.</p>
+                <a href="https://lisensyaprep.com/premium/let-bundle-mastery" style="color:#4ade80;font-size:12px;font-weight:700;">See Bundle Deal →</a>
               </div>
 
               <div style="background:#1a2035;border:1px solid #facc1540;border-radius:10px;padding:16px;margin:0 0 24px;">

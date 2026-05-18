@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 import type { Metadata } from 'next';
 import { PremiumPageViewTracker } from '@/components/PremiumAnalytics';
+import First100StatusBar from '@/components/First100StatusBar';
 
 export const metadata: Metadata = {
   title: 'LET Mastery Bundle — ProfEd + Gen Ed (Save ₱99) | LisensyaPrep',
@@ -79,6 +80,8 @@ export default function BundleMasteryPage() {
             <p className="text-gray-500 text-sm mt-4">Two PDF reviewers delivered to your email within 12 hours</p>
           </div>
         </section>
+
+        <First100StatusBar variant="full" bundleOverride />
 
         {/* ── What you get ── */}
         <section className="py-14 px-4">
