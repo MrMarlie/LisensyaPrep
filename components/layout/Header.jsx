@@ -27,12 +27,16 @@ const NAV_LINKS = [
 
 const PREMIUM_LINKS = [
   { href: '/premium/let-profed-mastery', label: '🎓 LET ProfEd Mastery', badge: null },
-  { href: '/premium/let-gen-ed-mastery', label: '📗 LET Gen Ed Mastery', badge: 'NEW' },
+  { href: '/premium/let-gen-ed-mastery', label: '📗 LET Gen Ed Mastery', badge: null },
   { href: '/premium/let-bundle-mastery', label: '🎁 Bundle Deal — Save ₱99', badge: 'BEST' },
+  { href: '/premium/cse-pro-mastery', label: '📊 CSE Pro Mastery', badge: 'SOON' },
+  { href: '/premium/cse-subprof-mastery', label: '📋 CSE SubProf Mastery', badge: 'SOON' },
 ];
 const FREEBIE_LINKS = [
   { href: '/freebies/let-profed-starter-pack', label: '📘 LET ProfEd Starter Pack' },
-  { href: '/freebies/let-gen-ed-starter-pack', label: '📗 LET Gen Ed Starter Pack', isNew: true },
+  { href: '/freebies/let-gen-ed-starter-pack', label: '📗 LET Gen Ed Starter Pack' },
+  { href: '/freebies/cse-pro-starter-pack', label: '📊 CSE Pro Starter Pack', isNew: true },
+  { href: '/freebies/cse-subprof-starter-pack', label: '📋 CSE SubProf Starter Pack', isNew: true },
 ];
 
 export default function Header() {
