@@ -2,8 +2,10 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import nodemailer from 'nodemailer';
 
-const PDF_VIEW_URL = process.env.CSE_PRO_PDF_VIEW_URL ?? '';
-const PDF_DOWNLOAD_URL = process.env.CSE_PRO_PDF_DOWNLOAD_URL ?? '';
+const PDF_VIEW_URL =
+  'https://drive.google.com/file/d/1XLS4KWKH8KlIh2yz8qKwyBwoooOqNYn1/view?usp=sharing';
+const PDF_DOWNLOAD_URL =
+  'https://drive.google.com/uc?export=download&id=1XLS4KWKH8KlIh2yz8qKwyBwoooOqNYn1';
 
 function supabaseAdmin() {
   return createClient(
