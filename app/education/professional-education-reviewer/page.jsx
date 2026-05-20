@@ -322,6 +322,24 @@ export default function ProfessionalEducationReviewerPage() {
             <div className="prose-content">
               {renderContent(SECTION_1)}
 
+              <div className="my-8 bg-gradient-to-r from-yellow-900/20 to-[#0f1629] border border-yellow-400/30 rounded-2xl p-6">
+                <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-yellow-400/10 text-yellow-400 uppercase tracking-wider inline-block mb-3">
+                  8-Week Study Plan
+                </span>
+                <p className="text-white font-extrabold text-lg leading-tight mb-2">
+                  Want a complete week-by-week Prof Ed study plan?
+                </p>
+                <p className="text-gray-400 text-sm leading-relaxed mb-4">
+                  This reviewer covers the core theories and frameworks. For a structured 8-week mastery plan covering all 6 Prof Ed content areas — including a daily schedule, weak-spot repair strategy, and mock exam prep — read the full study plan.
+                </p>
+                <Link
+                  href="/education/let-prof-ed-mastery-study-plan-2026"
+                  className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-6 py-3 rounded-xl text-sm transition-colors"
+                >
+                  Read the Complete 8-Week Prof Ed Mastery Plan →
+                </Link>
+              </div>
+
               <figure style={{ margin: '2rem 0' }}>
                 <svg viewBox="0 0 760 380" xmlns="http://www.w3.org/2000/svg" style={{ width: '100%', height: 'auto', borderRadius: '10px' }}>
                   <rect width="760" height="380" fill="#0f172a" rx="10"/>

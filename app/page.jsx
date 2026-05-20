@@ -4,6 +4,61 @@ import { PAGE_SEO } from '@/lib/seo';
 
 export const metadata = PAGE_SEO.home;
 
+const HOT_THIS_WEEK = [
+  {
+    title: 'LET March 2026 Results — Passing Rate and Topnotchers',
+    desc: 'Full results breakdown, passing rates by school, and topnotchers for the March 2026 LET.',
+    href: '/education/let-march-2026-results',
+    tag: 'LET Results',
+  },
+  {
+    title: 'Resulta ng LET March 2026',
+    desc: 'Kumpletong listahan ng mga pumasa sa LET March 2026. Kasama ang passing rate at mga topnotcher.',
+    href: '/blog/resulta-ng-let-march-2026',
+    tag: 'Filipino',
+  },
+  {
+    title: 'PNLE Coverage 2026 — Complete Breakdown',
+    desc: 'Complete subject coverage for the Philippine Nurse Licensure Examination. Know exactly what to review.',
+    href: '/nursing/pnle-coverage-2026',
+    tag: 'Nursing',
+  },
+];
+
+const LET_MASTERY = [
+  {
+    title: 'LET Prof Ed Mastery Study Plan 2026',
+    desc: 'Complete 8-week study plan covering all 6 ProfEd content areas. Built for the September 2026 LET.',
+    href: '/education/let-prof-ed-mastery-study-plan-2026',
+    tag: 'Best for Retakers',
+    tagColor: 'text-orange-400 bg-orange-400/10',
+  },
+  {
+    title: 'LET Gen Ed Mastery Study Plan 2026',
+    desc: 'Complete 8-week study plan covering English, Math, Science, Filipino, and Social Sciences.',
+    href: '/education/let-gen-ed-mastery-study-plan-2026',
+    tag: 'Most Comprehensive',
+    tagColor: 'text-green-400 bg-green-400/10',
+  },
+  {
+    title: 'English Major LET Reviewer 2026',
+    desc: 'Complete English Specialization reviewer covering Literature, Language, and Communication.',
+    href: '/education/let-secondary-major-english-reviewer',
+    tag: 'High Passing Rate',
+    tagColor: 'text-sky-400 bg-sky-400/10',
+  },
+];
+
+const PROFESSION_CARDS = [
+  { href: '/nursing', label: 'Nursing', icon: '🏥', color: 'from-pink-900/40 to-pink-800/20 border-pink-600/40 hover:border-pink-400' },
+  { href: '/criminology', label: 'Criminology', icon: '⚖️', color: 'from-red-900/40 to-red-800/20 border-red-600/40 hover:border-red-400' },
+  { href: '/education', label: 'Education (LET)', icon: '🎓', color: 'from-sky-900/40 to-sky-800/20 border-sky-600/40 hover:border-sky-400' },
+  { href: '/pharmacy', label: 'Pharmacy', icon: '💊', color: 'from-purple-900/40 to-purple-800/20 border-purple-600/40 hover:border-purple-400' },
+  { href: '/medical-technology', label: 'Medical Technology', icon: '🧪', color: 'from-cyan-900/40 to-cyan-800/20 border-cyan-600/40 hover:border-cyan-400' },
+  { href: '/agriculture', label: 'Agriculture', icon: '🌾', color: 'from-green-900/40 to-green-800/20 border-green-600/40 hover:border-green-400' },
+  { href: '/civil-service', label: 'Civil Service', icon: '🏛️', color: 'from-blue-900/40 to-indigo-800/20 border-blue-600/40 hover:border-blue-400' },
+];
+
 const HOW_IT_WORKS = [
   {
     step: '01',
@@ -31,76 +86,90 @@ const HOW_IT_WORKS = [
   },
 ];
 
-const BLOG_PREVIEWS = [
+const TOP_RESOURCES = [
   {
-    title: '10 Must-Know Crop Science Topics for the Agriculture Board Exam',
-    excerpt: 'Master plant physiology, crop management, and production systems. We break down the top topics that consistently appear on the PRC Agriculture exam.',
-    slug: 'crop-science-board-exam-tips',
-    date: 'April 10, 2025',
-    readTime: '5 min read',
-    tag: 'Study Tips',
+    title: 'PNLE Coverage 2026 — Complete Breakdown',
+    desc: 'Know exactly what subjects are tested in the Philippine Nurse Licensure Examination.',
+    href: '/nursing/pnle-coverage-2026',
+    tag: 'Nursing',
   },
   {
-    title: 'Soil Science Cheat Sheet: pH, CEC, and Nutrient Availability',
-    excerpt: 'Quick-reference guide covering soil texture, pH effects on nutrients, CEC, and fertilizer calculations. Perfect for last-minute review.',
-    slug: 'soil-science-cheat-sheet',
-    date: 'April 5, 2025',
-    readTime: '4 min read',
-    tag: 'Soil Science',
+    title: 'General Education Reviewer for LET 2026',
+    desc: 'Covers English, Filipino, Math, Science, Social Studies. High-yield topics for the LET.',
+    href: '/education/general-education-reviewer',
+    tag: 'LET',
   },
   {
-    title: 'Agricultural Economics: Key Formulas and Concepts Explained',
-    excerpt: 'Farm budgeting, break-even analysis, ROI, and extension methods — all the economics concepts you need to pass the board exam.',
-    slug: 'agricultural-economics-key-concepts',
-    date: 'March 28, 2025',
-    readTime: '6 min read',
-    tag: 'Economics',
+    title: 'CLE Coverage 2026 — Complete Breakdown',
+    desc: 'Full subject breakdown for the Criminologist Licensure Examination September 2026.',
+    href: '/criminology/cle-coverage-2026',
+    tag: 'Criminology',
+  },
+  {
+    title: 'English Major LET Reviewer 2026',
+    desc: 'Complete secondary major reviewer for LET English Specialization examinees.',
+    href: '/education/let-secondary-major-english-reviewer',
+    tag: 'LET',
+  },
+  {
+    title: 'Professional Education Reviewer for LET 2026',
+    desc: "Learning theories, Bloom's Taxonomy, curriculum development, and classroom management.",
+    href: '/education/professional-education-reviewer',
+    tag: 'LET',
+  },
+  {
+    title: 'Math Major LET Reviewer 2026',
+    desc: 'High-yield Math Specialization topics for LET Secondary Major Mathematics examinees.',
+    href: '/education/let-secondary-major-math-reviewer',
+    tag: 'LET',
   },
 ];
 
 export default function HomePage() {
   return (
     <>
-      {/* Hero */}
+      {/* ── Section 1: Hero ──────────────────────────────────────── */}
       <section className="relative overflow-hidden bg-gradient-to-b from-[#0a1029] via-[#080d1b] to-[#080d1b] py-20 sm:py-28">
-        {/* Background glow effects */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute top-10 right-20 w-64 h-64 bg-yellow-400/5 rounded-full blur-2xl pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <div className="inline-flex items-center gap-2 bg-yellow-400/10 border border-yellow-400/30 text-yellow-400 text-sm font-semibold px-4 py-2 rounded-full mb-6">
-            <span>⚔️</span> Gamified PRC Licensure Review
+            <span>🎓</span> Free PRC Board Exam Review Philippines
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6 text-balance">
-            Review Smarter.
+            Pass Your Philippine
             <br />
-            <span className="text-yellow-400">Fight Harder.</span>
+            <span className="text-yellow-400">Board Exam</span> on Your
             <br />
-            Pass the Board.
+            First Take
           </h1>
 
-          <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 text-balance">
-            LisensyaPrep turns PRC licensure exam review into a boss-battle game. Answer questions, defeat enemies, collect PRZ pieces, and prove you are exam-ready.
+          <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-8 text-balance">
+            Free practice quizzes for PRC board exams + Civil Service Exam. Plus premium LET Mastery Packs for serious examinees.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-5">
             <Link
-              href="#choose-exam"
-              className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-extrabold px-8 py-4 rounded-xl text-lg transition-all shadow-lg shadow-yellow-400/25 hover:shadow-yellow-400/40"
+              href="/education"
+              className="min-h-[48px] flex items-center justify-center bg-orange-500 hover:bg-orange-400 text-white font-extrabold px-8 py-3 rounded-xl text-lg transition-all shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40"
             >
-              Start Your Review
+              Try Free Quiz
             </Link>
             <Link
-              href="#how-it-works"
-              className="bg-white/10 hover:bg-white/15 text-white font-semibold px-8 py-4 rounded-xl text-lg border border-white/20 transition-all"
+              href="#featured-reviewers"
+              className="min-h-[48px] flex items-center justify-center bg-white/10 hover:bg-white/15 text-white font-semibold px-8 py-3 rounded-xl text-lg border border-white/20 transition-all"
             >
-              How It Works
+              Browse Free Reviewers
             </Link>
           </div>
 
-          {/* Stats */}
-          <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg mx-auto">
+          <p className="text-sm text-gray-500 mb-12">
+            ✓ Used by <span className="text-gray-300 font-semibold">1,600+ examinees</span> in May 2026
+          </p>
+
+          <div className="grid grid-cols-3 gap-6 max-w-lg mx-auto">
             {[
               { value: '1,500+', label: 'Questions' },
               { value: '7', label: 'Courses' },
@@ -120,133 +189,102 @@ export default function HomePage() {
         <AdPlaceholder slot="banner" />
       </div>
 
-      {/* Exam Categories */}
-      <section id="choose-exam" className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-3">
-            Choose Your Exam
-          </h2>
-          <p className="text-gray-400 text-lg max-w-xl mx-auto">
-            Select your PRC licensure exam and start battling your way to your license.
-          </p>
+      {/* ── Section 2: Featured Content ─────────────────────────── */}
+      <section id="featured-reviewers" className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* Row 1: Hot This Week */}
+        <div className="mb-14">
+          <div className="flex items-center gap-3 mb-6">
+            <h2 className="text-2xl font-extrabold text-white">Hot This Week</h2>
+            <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-orange-400/10 text-orange-400 uppercase tracking-wider">Trending</span>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {HOT_THIS_WEEK.map(({ title, desc, href, tag }) => (
+              <Link key={href} href={href} className="group">
+                <div className="bg-[#0f1629] border border-white/10 rounded-2xl p-5 h-full hover:border-orange-400/30 hover:bg-[#111a35] transition-all">
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="text-xs font-semibold text-orange-400 bg-orange-400/10 px-2.5 py-1 rounded-full">{tag}</span>
+                    <span className="text-xs text-orange-400 font-bold">🔥</span>
+                  </div>
+                  <h3 className="text-white font-bold text-sm leading-snug mb-2 group-hover:text-yellow-400 transition-colors">{title}</h3>
+                  <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">{desc}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center sm:justify-items-stretch">
-          {/* Agriculture — Active */}
-          <Link href="/agriculture" className="group w-full">
-            <div className="bg-gradient-to-br from-green-900/40 to-green-800/20 border-2 border-green-600/40 hover:border-green-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-green-500/10 text-center">
-              <div className="text-5xl mb-4">🌾</div>
-              <h3 className="text-xl font-bold text-white mb-2">Agriculture</h3>
-              <p className="text-gray-400 text-sm mb-4">
-                Crop Science, Soil Science, Crop Protection, Animal Science, and more. 6 modules, 300 questions.
-              </p>
-              <div className="flex items-center justify-center gap-2">
-                <span className="bg-green-500/20 text-green-400 text-xs font-semibold px-3 py-1 rounded-full">
-                  ✓ Available Now
-                </span>
-              </div>
-            </div>
-          </Link>
+        {/* Row 2: LET Mastery Study Plans */}
+        <div className="mb-14">
+          <div className="flex items-center gap-3 mb-6">
+            <h2 className="text-2xl font-extrabold text-white">LET Mastery Study Plans</h2>
+            <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-yellow-400/10 text-yellow-400 uppercase tracking-wider">New</span>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {LET_MASTERY.map(({ title, desc, href, tag, tagColor }) => (
+              <Link key={href} href={href} className="group">
+                <div className="bg-[#0f1629] border border-yellow-400/20 rounded-2xl p-5 h-full hover:border-yellow-400/50 hover:bg-[#111a35] transition-all">
+                  <span className={`text-xs font-bold px-2.5 py-1 rounded-full inline-block mb-3 ${tagColor}`}>{tag}</span>
+                  <h3 className="text-white font-bold text-sm leading-snug mb-2 group-hover:text-yellow-400 transition-colors">{title}</h3>
+                  <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">{desc}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
 
-          {/* Education — Active */}
-          <Link href="/education" className="group w-full">
-            <div className="bg-gradient-to-br from-sky-900/40 to-sky-800/20 border-2 border-sky-600/40 hover:border-sky-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-sky-500/10 text-center">
-              <div className="text-5xl mb-4">🎓</div>
-              <h3 className="text-xl font-bold text-white mb-2">Education</h3>
-              <p className="text-gray-400 text-sm mb-4">
-                LET Review — General Education, Professional Education, and Specialization (English, Filipino, Math, Biology).
-              </p>
-              <div className="flex items-center justify-center gap-2">
-                <span className="bg-sky-500/20 text-sky-400 text-xs font-semibold px-3 py-1 rounded-full">
-                  ✓ Available Now
-                </span>
-              </div>
-            </div>
-          </Link>
-
-          {/* Criminology — Active */}
-          <Link href="/criminology" className="group w-full">
-            <div className="bg-gradient-to-br from-red-900/40 to-red-800/20 border-2 border-red-600/40 hover:border-red-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-red-500/10 text-center">
-              <div className="text-5xl mb-4">⚖️</div>
-              <h3 className="text-xl font-bold text-white mb-2">Criminology</h3>
-              <p className="text-gray-400 text-sm mb-4">
-                Criminal Jurisprudence, Criminalistics, Law Enforcement, Crime Investigation, Corrections, and Sociology of Crimes. 6 modules, 300 questions.
-              </p>
-              <div className="flex items-center justify-center gap-2">
-                <span className="bg-red-500/20 text-red-400 text-xs font-semibold px-3 py-1 rounded-full">
-                  ✓ Available Now
-                </span>
-              </div>
-            </div>
-          </Link>
-
-          {/* Medical Technology — Active */}
-          <Link href="/medical-technology" className="group w-full">
-            <div className="bg-gradient-to-br from-cyan-900/40 to-cyan-800/20 border-2 border-cyan-600/40 hover:border-cyan-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-cyan-500/10 text-center">
-              <div className="text-5xl mb-4">🧪</div>
-              <h3 className="text-xl font-bold text-white mb-2">Medical Technology</h3>
-              <p className="text-gray-400 text-sm mb-4">
-                Clinical Chemistry, Hematology, Microbiology, Immunology, Blood Banking, and Urinalysis. 6 modules, 300 questions.
-              </p>
-              <div className="flex items-center justify-center gap-2">
-                <span className="bg-cyan-500/20 text-cyan-400 text-xs font-semibold px-3 py-1 rounded-full">
-                  ✓ Available Now
-                </span>
-              </div>
-            </div>
-          </Link>
-
-          {/* Nursing — Active */}
-          <Link href="/nursing" className="group w-full">
-            <div className="bg-gradient-to-br from-pink-900/40 to-pink-800/20 border-2 border-pink-600/40 hover:border-pink-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-pink-500/10 text-center">
-              <div className="text-5xl mb-4">🏥</div>
-              <h3 className="text-xl font-bold text-white mb-2">Nursing</h3>
-              <p className="text-gray-400 text-sm mb-4">
-                Community Health Nursing, Medical-Surgical Nursing, and more. Full NLE coverage.
-              </p>
-              <div className="flex items-center justify-center gap-2">
-                <span className="bg-pink-500/20 text-pink-400 text-xs font-semibold px-3 py-1 rounded-full">
-                  ✓ Available Now
-                </span>
-              </div>
-            </div>
-          </Link>
-
-          {/* Pharmacy — Active */}
-          <Link href="/pharmacy" className="group w-full">
-            <div className="bg-gradient-to-br from-purple-900/40 to-purple-800/20 border-2 border-purple-600/40 hover:border-purple-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-purple-500/10 text-center">
-              <div className="text-5xl mb-4">💊</div>
-              <h3 className="text-xl font-bold text-white mb-2">Pharmacy</h3>
-              <p className="text-gray-400 text-sm mb-4">
-                Pharmacology, Pharmaceutical Chemistry, Pharmacy Practice, and more. Full PLE coverage.
-              </p>
-              <div className="flex items-center justify-center gap-2">
-                <span className="bg-purple-500/20 text-purple-400 text-xs font-semibold px-3 py-1 rounded-full">
-                  ✓ Available Now
-                </span>
-              </div>
-            </div>
-          </Link>
-
-          {/* Civil Service — Active */}
-          <Link href="/civil-service" className="group w-full">
-            <div className="bg-gradient-to-br from-blue-900/40 to-indigo-800/20 border-2 border-blue-600/40 hover:border-blue-400 rounded-2xl p-6 transition-all h-full hover:shadow-lg hover:shadow-blue-500/10 text-center">
-              <div className="text-5xl mb-4">🏛️</div>
-              <h3 className="text-xl font-bold text-white mb-2">Civil Service</h3>
-              <p className="text-gray-400 text-sm mb-4">
-                Verbal Ability (English &amp; Filipino), Numerical Ability, Analytical Ability, and General Information. 5 modules, 250 questions.
-              </p>
-              <div className="flex items-center justify-center gap-2">
-                <span className="bg-blue-500/20 text-blue-400 text-xs font-semibold px-3 py-1 rounded-full">
-                  ✓ Available Now
-                </span>
-              </div>
-            </div>
-          </Link>
+        {/* Row 3: Browse by Profession */}
+        <div>
+          <div className="flex items-center gap-3 mb-6">
+            <h2 className="text-2xl font-extrabold text-white">Browse by Profession</h2>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            {PROFESSION_CARDS.map(({ href, label, icon, color }) => (
+              <Link key={href} href={href} className="group">
+                <div className={`bg-gradient-to-br ${color} border-2 rounded-2xl p-4 transition-all h-full hover:shadow-lg text-center`}>
+                  <div className="text-3xl mb-2">{icon}</div>
+                  <h3 className="text-white font-bold text-sm leading-tight">{label}</h3>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* How It Works */}
+      {/* ── Section 3: Premium Promo Banner ────────────────────── */}
+      <section className="py-14 bg-gradient-to-r from-indigo-950 via-[#0f1340] to-indigo-950 border-y border-indigo-500/20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="inline-block text-xs font-bold px-3 py-1 rounded-full bg-yellow-400/10 text-yellow-400 uppercase tracking-wider mb-4">
+            September 2026 LET
+          </span>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4 leading-tight">
+            Get Serious About the
+            <br className="hidden sm:block" /> September 2026 LET
+          </h2>
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-8">
+            The LET Mastery Pack is our complete PDF study compilation for serious examinees. Hundreds of practice questions, complete subject coverage, and proven study frameworks.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-5">
+            <Link
+              href="/premium/let-profed-mastery"
+              className="min-h-[48px] flex items-center justify-center bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-extrabold px-7 py-3 rounded-xl text-sm transition-colors"
+            >
+              Get Prof Ed Mastery Pack →
+            </Link>
+            <Link
+              href="/premium/let-gen-ed-mastery"
+              className="min-h-[48px] flex items-center justify-center bg-white/10 hover:bg-white/15 text-white font-semibold px-7 py-3 rounded-xl text-sm border border-white/20 transition-colors"
+            >
+              Get Gen Ed Mastery Pack →
+            </Link>
+          </div>
+          <p className="text-gray-600 text-xs">
+            Instant PDF download. One-time payment. Lifetime access.
+          </p>
+        </div>
+      </section>
+
+      {/* ── How It Works (unchanged) ────────────────────────────── */}
       <section id="how-it-works" className="py-16 bg-[#0a1029]/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -277,57 +315,52 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Blog Preview */}
+      {/* ── Section 4: Most Helpful Resources ───────────────────── */}
       <section className="py-16 bg-[#0a1029]/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-3">Latest Study Tips</h2>
-            <p className="text-gray-400 text-lg max-w-xl mx-auto mb-6">Tips, strategies, and insights to help you pass your board exam.</p>
-            <Link href="/blog" className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-6 py-2 rounded-full text-sm transition-all">
-              View All Articles →
-            </Link>
+          <div className="text-center mb-10">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-3">
+              Most Helpful Resources This Month
+            </h2>
+            <p className="text-gray-400 text-base max-w-xl mx-auto">
+              Curated by actual traffic data — the reviewers examinees are using most right now.
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {BLOG_PREVIEWS.map((post) => (
-              <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
-                <article className="bg-[#0f1629] border border-white/10 rounded-2xl p-8 h-full hover:border-yellow-400/30 hover:scale-[1.02] transition-all">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {TOP_RESOURCES.map(({ title, desc, href, tag }) => (
+              <Link key={href} href={href} className="group">
+                <article className="bg-[#0f1629] border border-white/10 rounded-2xl p-6 h-full hover:border-yellow-400/30 hover:scale-[1.02] transition-all">
                   <span className="text-xs font-semibold text-yellow-400 bg-yellow-400/10 px-3 py-1 rounded-full">
-                    {post.tag}
+                    {tag}
                   </span>
-                  <h3 className="text-white font-bold text-lg mt-3 mb-2 group-hover:text-yellow-400 transition-colors leading-snug">
-                    {post.title}
+                  <h3 className="text-white font-bold text-base mt-3 mb-2 group-hover:text-yellow-400 transition-colors leading-snug">
+                    {title}
                   </h3>
-                  <p className="text-gray-400 text-sm mb-4 line-clamp-3">{post.excerpt}</p>
-                  <div className="flex items-center gap-2 text-xs text-gray-600">
-                    <span>{post.date}</span>
-                    <span>•</span>
-                    <span>{post.readTime}</span>
-                  </div>
+                  <p className="text-gray-400 text-sm line-clamp-2 leading-relaxed">{desc}</p>
                 </article>
               </Link>
             ))}
           </div>
 
-          {/* Ad below blog */}
           <div className="mt-8">
             <AdPlaceholder slot="banner" />
           </div>
         </div>
       </section>
 
-      {/* CTA */}
+      {/* ── Bottom CTA ───────────────────────────────────────────── */}
       <section className="py-20 text-center">
         <div className="max-w-2xl mx-auto px-4">
           <p className="text-5xl mb-4">🏆</p>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">
-            Ready to Battle?
+            Ready to Start Reviewing?
           </h2>
           <p className="text-gray-400 text-lg mb-8">
-            Start your Agriculture PRC review now. No registration required — just pick a module and fight.
+            Pick your exam and start practicing now. No registration required.
           </p>
           <Link
-            href="/agriculture"
+            href="#featured-reviewers"
             className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-extrabold px-10 py-4 rounded-xl text-xl transition-all shadow-lg shadow-yellow-400/25"
           >
             Start For Free →

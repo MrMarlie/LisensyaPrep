@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#060c1a] border-t border-white/10 text-gray-400">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-3">
@@ -34,6 +34,18 @@ export default function Footer() {
               <li><Link href="/criminology" className="hover:text-yellow-400 transition-colors">Criminology</Link></li>
               <li><Link href="/medical-technology" className="hover:text-yellow-400 transition-colors">Medical Technology</Link></li>
               <li><Link href="/pharmacy" className="hover:text-yellow-400 transition-colors">Pharmacy</Link></li>
+            </ul>
+          </div>
+
+          {/* Top Resources */}
+          <div>
+            <h3 className="text-white font-semibold text-sm mb-3 uppercase tracking-wide">Top Resources</h3>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/education" className="hover:text-yellow-400 transition-colors">LET 2026 Reviewers</Link></li>
+              <li><Link href="/nursing/pnle-coverage-2026" className="hover:text-yellow-400 transition-colors">PNLE 2026</Link></li>
+              <li><Link href="/criminology/cle-coverage-2026" className="hover:text-yellow-400 transition-colors">CLE 2026</Link></li>
+              <li><Link href="/civil-service" className="hover:text-yellow-400 transition-colors">Civil Service Exam</Link></li>
+              <li><Link href="/premium/let-profed-mastery" className="hover:text-yellow-400 transition-colors text-yellow-500 font-medium">LET Mastery Packs</Link></li>
             </ul>
           </div>
 

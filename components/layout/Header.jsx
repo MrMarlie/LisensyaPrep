@@ -43,8 +43,10 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [coursesOpen, setCoursesOpen] = useState(false);
   const [premiumOpen, setPremiumOpen] = useState(false);
+  const [quizOpen, setQuizOpen] = useState(false);
   const [showAuth, setShowAuth] = useState(false);
   const premiumRef = useRef(null);
+  const quizRef = useRef(null);
   const [localProfile, setLocalProfile] = useState(null);
   const pathname = usePathname();
   const { user, profile, signOut } = useAuth();
@@ -58,6 +60,9 @@ export default function Header() {
       }
       if (premiumRef.current && !premiumRef.current.contains(e.target)) {
         setPremiumOpen(false);
+      }
+      if (quizRef.current && !quizRef.current.contains(e.target)) {
+        setQuizOpen(false);
       }
     }
     document.addEventListener('mousedown', handleClick);
@@ -291,12 +296,43 @@ export default function Header() {
                 Sign in
               </button>
             )}
-            <Link
-              href="/agriculture"
-              className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-4 py-2 rounded-lg text-sm transition-colors"
-            >
-              Start Quiz
-            </Link>
+            <div className="relative" ref={quizRef}>
+              <button
+                onClick={() => setQuizOpen((o) => !o)}
+                className="flex items-center gap-1.5 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-4 py-2 rounded-lg text-sm transition-colors"
+              >
+                Start Quiz
+                <svg
+                  className={`w-3.5 h-3.5 transition-transform ${quizOpen ? 'rotate-180' : ''}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {quizOpen && (
+                <div className="absolute top-full right-0 mt-2 w-56 bg-[#0f1629] border border-white/10 rounded-xl shadow-xl overflow-hidden z-50">
+                  <div className="px-4 py-2 border-b border-white/10">
+                    <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Choose your exam</p>
+                  </div>
+                  {COURSES.map(({ href, label }) => (
+                    <Link
+                      key={href}
+                      href={href}
+                      onClick={() => setQuizOpen(false)}
+                      className={`flex items-center px-4 py-3 text-sm font-medium transition-colors ${
+                        pathname.startsWith(href)
+                          ? 'bg-yellow-400/10 text-yellow-400'
+                          : 'text-gray-300 hover:text-white hover:bg-white/5'
+                      }`}
+                    >
+                      {label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
 
           {/* Mobile menu button */}
@@ -428,13 +464,38 @@ export default function Header() {
               </Link>
             ))}
 
-            <Link
-              href="/agriculture"
-              onClick={() => setMenuOpen(false)}
-              className="mt-2 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-4 py-3 rounded-lg text-sm text-center transition-colors"
+            <button
+              onClick={() => setQuizOpen((o) => !o)}
+              className="mt-2 w-full bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-4 py-3 rounded-lg text-sm text-center transition-colors flex items-center justify-center gap-2"
             >
               Start Quiz
-            </Link>
+              <svg
+                className={`w-4 h-4 transition-transform ${quizOpen ? 'rotate-180' : ''}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            {quizOpen && (
+              <div className="mt-1 rounded-xl overflow-hidden border border-white/10 bg-[#0f1629]">
+                {COURSES.map(({ href, label }) => (
+                  <Link
+                    key={href}
+                    href={href}
+                    onClick={() => { setMenuOpen(false); setQuizOpen(false); }}
+                    className={`block px-4 py-3 text-sm font-medium transition-colors border-b border-white/5 last:border-0 ${
+                      pathname.startsWith(href)
+                        ? 'bg-yellow-400/10 text-yellow-400'
+                        : 'text-gray-300 hover:text-white hover:bg-white/5'
+                    }`}
+                  >
+                    {label}
+                  </Link>
+                ))}
+              </div>
+            )}
           </nav>
         </div>
       )}
