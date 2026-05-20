@@ -124,7 +124,7 @@ export default function AdminOrdersClient({ orders }: { orders: Order[] }) {
                     disabled={loading[order.order_id]}
                     className="bg-yellow-400 hover:bg-yellow-300 disabled:opacity-60 text-gray-900 font-bold px-4 py-2 rounded-lg text-sm transition-colors"
                   >
-                    {loading[order.order_id] ? 'Sending...' : '✅ Verify & Deliver PDF'}
+                    {loading[order.order_id] ? 'Sending...' : '✅ Verify & Send Confirmation'}
                   </button>
                   <button
                     onClick={() => handleAction(order.order_id, 'refund')}
@@ -141,7 +141,7 @@ export default function AdminOrdersClient({ orders }: { orders: Order[] }) {
                   disabled={loading[order.order_id]}
                   className="bg-blue-600 hover:bg-blue-500 disabled:opacity-60 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors"
                 >
-                  {loading[order.order_id] ? 'Sending...' : '📧 Send PDF'}
+                  {loading[order.order_id] ? 'Sending...' : '📧 Resend Confirmation'}
                 </button>
               )}
             </div>
