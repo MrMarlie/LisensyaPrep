@@ -86,6 +86,9 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+        <Script id="grow-me" strategy="afterInteractive">
+          {`!(function(){window.growMe||((window.growMe=function(e){window.growMe._.push(e);}),(window.growMe._=[]));var e=document.createElement("script");(e.type="text/javascript"),(e.src="https://faves.grow.me/main.js"),(e.defer=!0),e.setAttribute("data-grow-faves-site-id","U2l0ZTowNTRkN2Q0Ny0yMGVkLTRmOTYtOWY4MS04MDMzNzJlZjQyNTQ=");var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);})();`}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
