@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import PNLEFreebieCTA from '@/components/PNLEFreebieCTA';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'Medical-Surgical Nursing Reviewer for NLE Philippines 2026 (Complete Guide)',
@@ -264,6 +266,7 @@ Head to LisensyaPrep and start practicing now. No registration required.
 export default function MedSurgNursingReviewerPage() {
   return (
     <div className="min-h-screen py-10">
+      <ArticlePopupTriggers type="pnle" />
       <Script id="schema-medsurg-reviewer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -342,6 +345,8 @@ export default function MedSurgNursingReviewerPage() {
 
               <AdPlaceholder slot="banner" className="my-6" />
               {renderContent(MAIN_CONTENT)}
+
+              <PNLEFreebieCTA />
             </div>
 
             <div className="mt-10 bg-[#0f1629] border border-white/10 rounded-2xl p-6">

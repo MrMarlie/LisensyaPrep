@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import PNLEFreebieCTA from '@/components/PNLEFreebieCTA';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 const _pnleCoverageMeta = buildMetadata({
   title: 'PNLE Coverage 2026: All Subjects, Items, and Schedule (Updated May 2026)',
@@ -252,6 +254,7 @@ Do not review subjects in equal amounts of time. Community Health Nursing gets s
 export default function PnleCoverage2026Page() {
   return (
     <div className="min-h-screen py-10">
+      <ArticlePopupTriggers type="pnle" />
       <Script id="schema-pnle-coverage" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -340,6 +343,8 @@ export default function PnleCoverage2026Page() {
 
               <AdPlaceholder slot="banner" className="my-6" />
               {renderContent(MAIN_CONTENT)}
+
+              <PNLEFreebieCTA />
             </div>
 
             <div className="mt-10 bg-[#0f1629] border border-white/10 rounded-2xl p-6">

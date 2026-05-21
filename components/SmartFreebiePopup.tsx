@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 type Props = {
-  type: 'profed' | 'gened' | 'auto';
+  type: 'profed' | 'gened' | 'auto' | 'pnle';
   trigger?: string;
   onClose: () => void;
 };
@@ -15,7 +15,10 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [errorMsg, setErrorMsg] = useState('');
 
-  const packLabel = selectedPack === 'profed' ? 'LET ProfEd Starter Pack' : 'LET Gen Ed Starter Pack';
+  const isPNLE = type === 'pnle';
+  const packLabel = isPNLE
+    ? 'PNLE Nursing Starter Pack'
+    : selectedPack === 'profed' ? 'LET ProfEd Starter Pack' : 'LET Gen Ed Starter Pack';
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -23,22 +26,33 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
 
     setStatus('loading');
     try {
-      const res = await fetch('/api/popup/freebie-signup', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name: name.trim(), email: email.trim(), pack: selectedPack, trigger }),
-      });
+      let res: Response;
+      if (isPNLE) {
+        res = await fetch('/api/freebies/pnle-nursing-starter-pack', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name: name.trim(), email: email.trim(), source: trigger }),
+        });
+      } else {
+        res = await fetch('/api/popup/freebie-signup', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name: name.trim(), email: email.trim(), pack: selectedPack, trigger }),
+        });
+      }
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Signup failed.');
 
-      try {
-        const existing = localStorage.getItem('lp_starter_pack_downloaded');
-        if (!existing) {
-          localStorage.setItem('lp_starter_pack_downloaded', selectedPack);
-        } else if (existing !== 'both' && existing !== selectedPack) {
-          localStorage.setItem('lp_starter_pack_downloaded', 'both');
-        }
-      } catch { /* ignore */ }
+      if (!isPNLE) {
+        try {
+          const existing = localStorage.getItem('lp_starter_pack_downloaded');
+          if (!existing) {
+            localStorage.setItem('lp_starter_pack_downloaded', selectedPack);
+          } else if (existing !== 'both' && existing !== selectedPack) {
+            localStorage.setItem('lp_starter_pack_downloaded', 'both');
+          }
+        } catch { /* ignore */ }
+      }
 
       setStatus('success');
     } catch (err: unknown) {
@@ -75,7 +89,7 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
             <p className="text-gray-500 text-xs mt-2">Check spam if you don&apos;t see it within a few minutes.</p>
             <button
               onClick={onClose}
-              className="mt-4 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-6 py-2.5 rounded-xl text-sm transition-colors"
+              className={`mt-4 ${isPNLE ? 'bg-pink-500 hover:bg-pink-400 text-white' : 'bg-yellow-400 hover:bg-yellow-300 text-gray-900'} font-bold px-6 py-2.5 rounded-xl text-sm transition-colors`}
             >
               Continue Studying →
             </button>
@@ -86,7 +100,9 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
               <p className="text-3xl mb-2">🎁</p>
               <h2 className="text-white font-extrabold text-xl">Get Your FREE Starter Pack</h2>
               <p className="text-gray-400 text-sm mt-1">
-                30 LET questions with full rationales — delivered to your email instantly.
+                {isPNLE
+                  ? '30 PNLE questions with full rationales — delivered to your email instantly.'
+                  : '30 LET questions with full rationales — delivered to your email instantly.'}
               </p>
             </div>
 
@@ -116,7 +132,7 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
-                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm placeholder-gray-500 focus:outline-none focus:border-yellow-400/50 transition-colors"
+                className={`w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm placeholder-gray-500 focus:outline-none ${isPNLE ? 'focus:border-pink-400/50' : 'focus:border-yellow-400/50'} transition-colors`}
                 style={{ fontSize: '16px' }}
               />
               <input
@@ -125,7 +141,7 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm placeholder-gray-500 focus:outline-none focus:border-yellow-400/50 transition-colors"
+                className={`w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm placeholder-gray-500 focus:outline-none ${isPNLE ? 'focus:border-pink-400/50' : 'focus:border-yellow-400/50'} transition-colors`}
                 style={{ fontSize: '16px' }}
               />
               {status === 'error' && (
@@ -134,7 +150,7 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
               <button
                 type="submit"
                 disabled={status === 'loading'}
-                className="w-full bg-yellow-400 hover:bg-yellow-300 disabled:opacity-60 text-gray-900 font-extrabold py-3 rounded-xl text-sm transition-colors"
+                className={`w-full ${isPNLE ? 'bg-pink-500 hover:bg-pink-400 text-white' : 'bg-yellow-400 hover:bg-yellow-300 text-gray-900'} disabled:opacity-60 font-extrabold py-3 rounded-xl text-sm transition-colors`}
               >
                 {status === 'loading' ? 'Sending…' : `Get the ${packLabel} →`}
               </button>
