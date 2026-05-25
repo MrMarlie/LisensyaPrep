@@ -89,7 +89,7 @@ function buildAnnouncementEmail(name: string): string {
   `;
 }
 
-export async function POST(req: NextRequest) {
+export async function POST(_req: NextRequest) {
   const cookieStore = cookies();
   const session = cookieStore.get('admin_session');
   if (!session || session.value !== process.env.ADMIN_PASSWORD) {

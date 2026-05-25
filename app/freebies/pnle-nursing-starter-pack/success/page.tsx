@@ -49,16 +49,15 @@ export default function PNLEFreebieSuccessPage() {
 
         {/* Coming soon CTA */}
         <div className="bg-[#0f1629] border border-pink-400/20 rounded-2xl p-5 mb-8 text-left">
-          <p className="text-pink-400 font-semibold text-sm mb-2">🚀 PNLE Mastery System — Coming Soon</p>
+          <p className="text-pink-400 font-semibold text-sm mb-2">🏥 PNLE Mastery System — Now Available!</p>
           <p className="text-gray-400 text-sm mb-3">
-            We&apos;re building the full PNLE Mastery System with 300+ questions across all 6 NLE subjects.
-            Be the first to know when it launches.
+            The full PNLE Mastery System with 300+ questions across all 6 NLE subjects is live now for only ₱199.
           </p>
           <Link
             href="/premium/pnle-mastery"
             className="inline-block bg-pink-500 hover:bg-pink-400 text-white font-bold px-5 py-2.5 rounded-xl text-sm transition-colors"
           >
-            See What&apos;s Coming →
+            Get PNLE Mastery System →
           </Link>
         </div>
 

@@ -132,8 +132,8 @@ export async function POST(req: NextRequest) {
               </ol>
 
               <div style="background:#1a2035;border:1px solid #ec489940;border-radius:10px;padding:16px;margin:0 0 24px;">
-                <p style="color:#f9a8d4;font-weight:700;margin:0 0 6px;">🚀 PNLE Mastery System — Coming Soon</p>
-                <p style="margin:0;font-size:13px;line-height:1.6;">We&apos;re building the full PNLE Mastery System with 300+ questions across all 6 NLE subjects. Stay tuned for the launch announcement!</p>
+                <p style="color:#f9a8d4;font-weight:700;margin:0 0 6px;">🏥 PNLE Mastery System — Now Available!</p>
+                <p style="margin:0;font-size:13px;line-height:1.6;">The full PNLE Mastery System with 300+ questions across all 6 NLE subjects is now live for only ₱199. <a href="https://lisensyaprep.com/premium/pnle-mastery" style="color:#f9a8d4;">Get it here →</a></p>
               </div>
 
               <p style="margin:0;">Best of luck on your PNLE journey,</p>

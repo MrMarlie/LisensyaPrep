@@ -144,18 +144,18 @@ export default function PNLENursingStarterPackPage() {
           <h2 className="text-white font-extrabold text-lg mb-3">Why We&apos;re Giving This Away Free</h2>
           <p className="text-gray-300 text-sm leading-relaxed">
             We believe quality PNLE prep should be accessible to every Filipino nursing graduate.
-            The full PNLE Mastery System (300+ questions across all NLE subjects) is coming soon.
-            This Starter Pack is our way of saying salamat in advance — and helping you start preparing now.
+            The full PNLE Mastery System (300+ questions across all NLE subjects) is now available!
+            This Starter Pack is our way of saying salamat — and helping you start preparing now.
           </p>
         </section>
 
         {/* Coming soon teaser */}
         <section className="mt-6 bg-gradient-to-br from-pink-900/20 to-rose-900/10 border border-pink-400/20 rounded-2xl p-6">
           <div className="flex items-center gap-2 mb-3">
-            <span className="bg-pink-400/20 text-pink-400 text-xs font-extrabold px-2 py-1 rounded-full uppercase tracking-wide">🚀 Coming Soon</span>
+            <span className="bg-pink-400/20 text-pink-400 text-xs font-extrabold px-2 py-1 rounded-full uppercase tracking-wide">🏥 Now Available</span>
           </div>
           <h2 className="text-pink-400 font-extrabold text-lg mb-3">
-            PNLE Mastery System — In Development
+            PNLE Mastery System — Available Now
           </h2>
           <ul className="space-y-2 text-gray-300 text-sm mb-4">
             <li className="flex items-start gap-2"><span className="text-pink-400 font-bold flex-shrink-0">✓</span> 300+ questions across all 6 NLE subjects</li>
@@ -166,9 +166,9 @@ export default function PNLENursingStarterPackPage() {
           </ul>
           <Link
             href="/premium/pnle-mastery"
-            className="inline-block text-pink-400 hover:text-pink-300 font-bold text-sm underline underline-offset-2 transition-colors"
+            className="inline-block bg-pink-500 hover:bg-pink-400 text-white font-bold px-5 py-2.5 rounded-xl text-sm transition-colors"
           >
-            See what&apos;s coming — PNLE Mastery System →
+            Get PNLE Mastery System — ₱199 →
           </Link>
         </section>
 
