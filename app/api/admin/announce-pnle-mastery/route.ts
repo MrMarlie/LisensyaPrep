@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { createClient } from '@supabase/supabase-js';
 import nodemailer from 'nodemailer';
@@ -89,7 +89,7 @@ function buildAnnouncementEmail(name: string): string {
   `;
 }
 
-export async function POST(_req: NextRequest) {
+export async function POST() {
   const cookieStore = cookies();
   const session = cookieStore.get('admin_session');
   if (!session || session.value !== process.env.ADMIN_PASSWORD) {
