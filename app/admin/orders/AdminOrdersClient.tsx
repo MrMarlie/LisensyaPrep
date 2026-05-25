@@ -24,6 +24,7 @@ const PRODUCT_LABELS: Record<string, string> = {
   profed: '🎓 ProfEd',
   gened: '📗 Gen Ed',
   bundle: '🎁 Bundle',
+  'pnle-mastery': '🏥 PNLE',
 };
 
 const STATUS_STYLES: Record<string, string> = {

@@ -3,6 +3,7 @@ import { redirect } from 'next/navigation';
 import { createClient } from '@supabase/supabase-js';
 import Link from 'next/link';
 import AdminOrdersClient from './AdminOrdersClient';
+import AnnouncePNLEButton from './AnnouncePNLEButton';
 
 function supabaseAdmin() {
   return createClient(
@@ -47,6 +48,7 @@ export default async function AdminOrdersPage() {
   const profedRevenue = paidOrders.filter((o) => !o.product || o.product === 'profed').reduce((s, o) => s + (o.amount || 149), 0);
   const genedRevenue = paidOrders.filter((o) => o.product === 'gened').reduce((s, o) => s + (o.amount || 0), 0);
   const bundleRevenue = paidOrders.filter((o) => o.product === 'bundle').reduce((s, o) => s + (o.amount || 0), 0);
+  const pnleRevenue = paidOrders.filter((o) => o.product === 'pnle-mastery').reduce((s, o) => s + (o.amount || 0), 0);
 
   return (
     <div className="min-h-screen py-10 px-4">
@@ -75,17 +77,23 @@ export default async function AdminOrdersPage() {
         </div>
 
         {/* Revenue by product */}
-        <div className="grid grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
           {[
             { label: 'ProfEd Revenue', value: `₱${profedRevenue.toLocaleString()}`, color: 'text-yellow-400' },
             { label: 'Gen Ed Revenue', value: `₱${genedRevenue.toLocaleString()}`, color: 'text-green-400' },
             { label: 'Bundle Revenue', value: `₱${bundleRevenue.toLocaleString()}`, color: 'text-blue-400' },
+            { label: 'PNLE Revenue', value: `₱${pnleRevenue.toLocaleString()}`, color: 'text-pink-400' },
           ].map(({ label, value, color }) => (
             <div key={label} className="bg-[#0f1629] border border-white/10 rounded-xl p-4">
               <p className="text-gray-500 text-xs mb-1">{label}</p>
               <p className={`text-xl font-extrabold ${color}`}>{value}</p>
             </div>
           ))}
+        </div>
+
+        {/* Announcements */}
+        <div className="mb-6">
+          <AnnouncePNLEButton />
         </div>
 
         {promoData && (
