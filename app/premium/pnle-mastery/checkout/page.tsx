@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { trackEvent } from '@/lib/analytics';
+import PNLEPromoBar from '@/components/PNLEPromoBar';
 
 const REFERRAL_OPTIONS = [
   { value: 'article', label: 'LisensyaPrep article' },
@@ -85,6 +86,9 @@ export default function PNLEMasteryCheckoutPage() {
         <Link href="/premium/pnle-mastery" className="text-pink-400 hover:text-pink-300 text-sm mb-6 inline-block transition-colors">
           ← Back to product page
         </Link>
+
+        {/* PNLE Promo Counter */}
+        <PNLEPromoBar variant="compact" />
 
         {/* Header */}
         <div className="bg-[#0f1629] border border-pink-400/30 rounded-2xl p-6 mb-6">

@@ -25,11 +25,10 @@ export default async function AdminOrdersPage() {
     .select('*')
     .order('created_at', { ascending: false });
 
-  const { data: promoData } = await supabase
-    .from('promo_counters')
-    .select('claimed, total_slots, active')
-    .eq('id', 'let-first-100-shared')
-    .single();
+  const [{ data: promoData }, { data: pnlePromoData }] = await Promise.all([
+    supabase.from('promo_counters').select('claimed, total_slots, active').eq('id', 'let-first-100-shared').single(),
+    supabase.from('promo_counters').select('claimed, total_slots, active').eq('id', 'pnle-first-100-shared').single(),
+  ]);
 
   if (error) {
     return (
@@ -96,19 +95,48 @@ export default async function AdminOrdersPage() {
           <AnnouncePNLEButton />
         </div>
 
-        {promoData && (
-          <div className={`mb-6 bg-[#0f1629] border rounded-xl p-4 flex items-center justify-between gap-4 flex-wrap ${promoData.active ? 'border-yellow-400/30' : 'border-white/10'}`}>
-            <div>
-              <p className={`font-bold text-sm ${promoData.active ? 'text-yellow-400' : 'text-gray-500'}`}>
-                {promoData.active ? '🔥' : '⏸️'} First 100: {promoData.claimed}/{promoData.total_slots} — {Math.max(0, promoData.total_slots - promoData.claimed)} spots left
-              </p>
-              <p className="text-gray-600 text-xs">{promoData.active ? 'Promo active' : 'Promo paused'}</p>
+        <div className="grid sm:grid-cols-2 gap-4 mb-6">
+          {promoData && (
+            <div className={`bg-[#0f1629] border rounded-xl p-4 flex items-center justify-between gap-4 flex-wrap ${promoData.active ? 'border-yellow-400/30' : 'border-white/10'}`}>
+              <div>
+                <p className="text-gray-500 text-xs mb-1">LET — First 100 Promo</p>
+                <p className={`font-bold text-sm ${promoData.active ? 'text-yellow-400' : 'text-gray-500'}`}>
+                  {promoData.active ? '🔥' : '⏸️'} {promoData.claimed}/{promoData.total_slots} claimed — {Math.max(0, promoData.total_slots - promoData.claimed)} spots left
+                </p>
+                <div className="mt-2 h-1.5 w-full bg-white/10 rounded-full overflow-hidden">
+                  <div
+                    className={`h-full rounded-full transition-all ${promoData.active ? 'bg-yellow-400' : 'bg-gray-600'}`}
+                    style={{ width: `${Math.round((promoData.claimed / promoData.total_slots) * 100)}%` }}
+                  />
+                </div>
+                <p className="text-gray-600 text-xs mt-1">{promoData.active ? 'Promo active · ₱149 → ₱249' : 'Promo ended'}</p>
+              </div>
+              <Link href="/admin/promos" className="text-yellow-400 hover:text-yellow-300 text-sm font-semibold transition-colors flex-shrink-0">
+                Manage →
+              </Link>
             </div>
-            <Link href="/admin/promos" className="text-yellow-400 hover:text-yellow-300 text-sm font-semibold transition-colors">
-              Manage →
-            </Link>
-          </div>
-        )}
+          )}
+          {pnlePromoData && (
+            <div className={`bg-[#0f1629] border rounded-xl p-4 flex items-center justify-between gap-4 flex-wrap ${pnlePromoData.active ? 'border-pink-400/30' : 'border-white/10'}`}>
+              <div>
+                <p className="text-gray-500 text-xs mb-1">PNLE — First 100 Promo</p>
+                <p className={`font-bold text-sm ${pnlePromoData.active ? 'text-pink-400' : 'text-gray-500'}`}>
+                  {pnlePromoData.active ? '🏥' : '⏸️'} {pnlePromoData.claimed}/{pnlePromoData.total_slots} claimed — {Math.max(0, pnlePromoData.total_slots - pnlePromoData.claimed)} spots left
+                </p>
+                <div className="mt-2 h-1.5 w-full bg-white/10 rounded-full overflow-hidden">
+                  <div
+                    className={`h-full rounded-full transition-all ${pnlePromoData.active ? 'bg-pink-400' : 'bg-gray-600'}`}
+                    style={{ width: `${Math.round((pnlePromoData.claimed / pnlePromoData.total_slots) * 100)}%` }}
+                  />
+                </div>
+                <p className="text-gray-600 text-xs mt-1">{pnlePromoData.active ? 'Promo active · ₱199 → ₱249' : 'Promo ended'}</p>
+              </div>
+              <Link href="/admin/promos" className="text-pink-400 hover:text-pink-300 text-sm font-semibold transition-colors flex-shrink-0">
+                Manage →
+              </Link>
+            </div>
+          )}
+        </div>
 
         <AdminOrdersClient orders={orders ?? []} />
       </div>

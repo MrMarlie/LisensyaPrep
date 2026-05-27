@@ -58,13 +58,19 @@ export async function POST(req: NextRequest) {
   // Resolve PDF URLs and email content based on product
   const product = order.product || 'profed';
 
-  // Increment shared First 100 promo counter for LET Mastery products
-  const letProducts = ['profed', 'gened', 'bundle'];
-  if (letProducts.includes(product) && order.status === 'pending') {
+  // Increment promo counter on first delivery (pending or verified → delivered)
+  const counterMap: Record<string, string> = {
+    profed: 'let-first-100-shared',
+    gened: 'let-first-100-shared',
+    bundle: 'let-first-100-shared',
+    'pnle-mastery': 'pnle-first-100-shared',
+  };
+  const promoId = counterMap[product];
+  if (promoId && ['pending', 'verified'].includes(order.status)) {
     const { data: promo } = await supabase
       .from('promo_counters')
       .select('claimed, total_slots, active')
-      .eq('id', 'let-first-100-shared')
+      .eq('id', promoId)
       .single();
     if (promo && promo.active && promo.claimed < promo.total_slots) {
       const newClaimed = promo.claimed + 1;
@@ -75,14 +81,14 @@ export async function POST(req: NextRequest) {
           updated_at: new Date().toISOString(),
           active: newClaimed < promo.total_slots,
         })
-        .eq('id', 'let-first-100-shared');
+        .eq('id', promoId);
       await supabase.from('promo_audit_log').insert({
-        promo_id: 'let-first-100-shared',
+        promo_id: promoId,
         action: 'increment',
         old_value: { claimed: promo.claimed },
         new_value: { claimed: newClaimed },
         performed_by: 'system',
-        reason: `Order ${orderId} verified`,
+        reason: `Order ${orderId} delivered`,
       });
     }
   }

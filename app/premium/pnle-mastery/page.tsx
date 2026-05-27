@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Script from 'next/script';
 import type { Metadata } from 'next';
+import PNLEPromoBar from '@/components/PNLEPromoBar';
 
 export const metadata: Metadata = {
   title: 'PNLE Mastery System 2026 — Premium Reviewer | LisensyaPrep',
@@ -120,6 +121,9 @@ export default function PNLEMasteryPage() {
             <p className="text-gray-500 text-sm mt-4">Pay via GCash · PDF delivered to your email</p>
           </div>
         </section>
+
+        {/* ── PNLE First 100 Promo Bar ── */}
+        <PNLEPromoBar variant="full" />
 
         {/* ── Product headline ── */}
         <section className="py-14 px-4">
