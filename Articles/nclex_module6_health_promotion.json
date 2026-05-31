@@ -1,0 +1,606 @@
+{
+  "module": "Module 6 - Health Promotion and Maintenance",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A nurse is teaching a pregnant woman in her first trimester about prenatal care. Which is most important to emphasize?",
+      "choices": [
+        "Avoiding all exercise",
+        "Daily folic acid intake (400-800 mcg) and prenatal vitamins",
+        "Increasing caffeine intake",
+        "Drinking alcohol in moderation"
+      ],
+      "answer": "Daily folic acid intake (400-800 mcg) and prenatal vitamins",
+      "explanation": "Folic acid in the first trimester (and ideally before conception) reduces neural tube defects (spina bifida) by up to 70%. The CDC recommends 400 mcg daily for women of childbearing age, increasing to 600-800 mcg during pregnancy. Avoid alcohol completely and limit caffeine."
+    },
+    {
+      "id": 2,
+      "question": "Which developmental milestone is expected for a 9-month-old infant?",
+      "choices": [
+        "Walking independently",
+        "Saying full sentences",
+        "Sitting without support and pulling to stand",
+        "Toilet trained"
+      ],
+      "answer": "Sitting without support and pulling to stand",
+      "explanation": "At 9 months, infants typically sit without support, pull to standing, and may cruise. They babble, respond to their name, develop pincer grasp, and experience stranger anxiety. Walking usually occurs 12-15 months. First words around 12 months."
+    },
+    {
+      "id": 3,
+      "question": "A nurse is administering immunizations to a 2-month-old. Which vaccines are appropriate?",
+      "choices": [
+        "MMR and varicella",
+        "DTaP, IPV, Hib, PCV, RV, HepB",
+        "Influenza only",
+        "All vaccines available"
+      ],
+      "answer": "DTaP, IPV, Hib, PCV, RV, HepB",
+      "explanation": "The CDC 2-month vaccine schedule includes: DTaP (diphtheria, tetanus, pertussis), IPV (polio), Hib (Haemophilus influenzae type B), PCV13 (pneumococcal), Rotavirus, and HepB (second dose). MMR and varicella are typically given at 12-15 months."
+    },
+    {
+      "id": 4,
+      "question": "When teaching about breastfeeding, which is appropriate guidance?",
+      "choices": [
+        "Supplement with formula daily",
+        "Breastfeed every 2-3 hours on demand for 8-12 feedings per day",
+        "Wait 6 hours between feedings",
+        "Pump only, do not direct feed"
+      ],
+      "answer": "Breastfeed every 2-3 hours on demand for 8-12 feedings per day",
+      "explanation": "Newborns breastfeed 8-12 times per 24 hours, on demand, with each feeding 15-30 minutes. Signs of adequate intake: 6+ wet diapers, 3+ stools daily, weight gain. Exclusive breastfeeding is recommended for 6 months, with continued breastfeeding to 12+ months."
+    },
+    {
+      "id": 5,
+      "question": "Which screening is recommended for women starting at age 21?",
+      "choices": [
+        "Mammogram annually",
+        "Pap smear (cervical cancer screening)",
+        "Colonoscopy",
+        "Bone density scan"
+      ],
+      "answer": "Pap smear (cervical cancer screening)",
+      "explanation": "USPSTF recommends Pap smear every 3 years for women 21-29, every 3 years (cytology only) or every 5 years (with HPV co-testing) for women 30-65. Mammograms start at 40-50 (varies by guideline). Colonoscopy starts at 45 (recent update from 50)."
+    },
+    {
+      "id": 6,
+      "question": "A pregnant woman at 28 weeks gestation reports decreased fetal movement. The nurse should:",
+      "choices": [
+        "Reassure her that it is normal",
+        "Have her perform kick counts and seek immediate evaluation if concerning",
+        "Tell her to wait 24 hours",
+        "Suggest she eat a meal"
+      ],
+      "answer": "Have her perform kick counts and seek immediate evaluation if concerning",
+      "explanation": "Decreased fetal movement is a warning sign. Kick counts: lying on left side, count fetal movements. 10 movements within 2 hours is reassuring. If fewer or concerns, NST (non-stress test) and biophysical profile evaluation are needed."
+    },
+    {
+      "id": 7,
+      "question": "The nurse is teaching parents about car seat safety for their 3-year-old child. The appropriate recommendation is:",
+      "choices": [
+        "Booster seat with shoulder belt only",
+        "Forward-facing car seat with 5-point harness in the back seat",
+        "Lap belt only",
+        "Front seat is now appropriate"
+      ],
+      "answer": "Forward-facing car seat with 5-point harness in the back seat",
+      "explanation": "Car seat recommendations by age (AAP): rear-facing until age 2 or maximum height/weight, forward-facing 5-point harness from age 2 until outgrown (usually 4-7 years), booster seat until adult seatbelt fits properly. Always back seat until age 13."
+    },
+    {
+      "id": 8,
+      "question": "A nurse is providing education about colon cancer screening. Which is the most appropriate recommendation for average-risk adults?",
+      "choices": [
+        "Start screening at age 65",
+        "Begin screening at age 45 with colonoscopy or stool tests",
+        "No screening needed",
+        "Screen every 20 years"
+      ],
+      "answer": "Begin screening at age 45 with colonoscopy or stool tests",
+      "explanation": "The USPSTF updated colon cancer screening in 2021 to start at age 45 (previously 50). Options: colonoscopy every 10 years, FIT yearly, FIT-DNA every 3 years, flexible sigmoidoscopy every 5 years. Higher risk individuals start earlier."
+    },
+    {
+      "id": 9,
+      "question": "A pregnant woman in her second trimester reports mild swelling in her ankles. The nurse identifies this as:",
+      "choices": [
+        "Emergency requiring immediate intervention",
+        "Normal physiological change due to increased blood volume",
+        "Sign of impending preeclampsia",
+        "Indication of blood clot"
+      ],
+      "answer": "Normal physiological change due to increased blood volume",
+      "explanation": "Mild dependent edema is common in pregnancy due to increased blood volume (40-45% increase) and venous compression by the uterus. Concerning findings: sudden swelling of face/hands, headache, visual changes (preeclampsia), or unilateral leg swelling (DVT)."
+    },
+    {
+      "id": 10,
+      "question": "The nurse is teaching an elderly client about fall prevention at home. Which is most important?",
+      "choices": [
+        "Use throw rugs for warmth",
+        "Install grab bars in bathroom, ensure adequate lighting, remove tripping hazards",
+        "Sleep with all lights off",
+        "Move all furniture to the center of rooms"
+      ],
+      "answer": "Install grab bars in bathroom, ensure adequate lighting, remove tripping hazards",
+      "explanation": "Home fall prevention: remove throw rugs and clutter, install grab bars (bathroom, near toilet, in shower), adequate lighting (especially nightlights), non-slip footwear, organize commonly used items at reach, exercise for strength/balance, medication review."
+    },
+    {
+      "id": 11,
+      "question": "A nurse is providing education about exclusive breastfeeding. The recommendation is to exclusively breastfeed for:",
+      "choices": [
+        "1 month",
+        "3 months",
+        "6 months",
+        "12 months"
+      ],
+      "answer": "6 months",
+      "explanation": "WHO and AAP recommend exclusive breastfeeding for the first 6 months, then introducing complementary foods while continuing to breastfeed for at least 1 year (AAP) or up to 2 years (WHO). Benefits include immunity, lower infection rates, and optimal nutrition."
+    },
+    {
+      "id": 12,
+      "question": "A 50-year-old client asks about routine adult vaccinations. Which is recommended?",
+      "choices": [
+        "Single MMR vaccine only",
+        "Annual flu shot, Tdap booster every 10 years, shingles vaccine at 50",
+        "No vaccines needed in adulthood",
+        "Only travel vaccines"
+      ],
+      "answer": "Annual flu shot, Tdap booster every 10 years, shingles vaccine at 50",
+      "explanation": "Adult immunizations include: annual influenza vaccine, Tdap booster (one dose, then Td every 10 years), shingles (Shingrix at 50+), pneumococcal vaccines (PCV13/PPSV23 at 65+ or earlier with conditions), COVID-19 vaccines, and HPV through age 26."
+    },
+    {
+      "id": 13,
+      "question": "The nurse is teaching a postpartum mother about newborn safety. Which is correct?",
+      "choices": [
+        "Place baby on stomach to sleep",
+        "Use soft pillows and stuffed animals in crib",
+        "Place baby on back to sleep, on a firm surface, alone in crib",
+        "Co-sleep in parent's bed"
+      ],
+      "answer": "Place baby on back to sleep, on a firm surface, alone in crib",
+      "explanation": "Safe sleep: 'Back to Sleep, Tummy to Play.' Place infants on their backs to sleep, on firm flat surface, in their own crib without bumpers, blankets, pillows, or toys. Room-share but not bed-share for first year. These practices reduce SIDS risk."
+    },
+    {
+      "id": 14,
+      "question": "Which finding in a pregnant woman warrants immediate provider notification?",
+      "choices": [
+        "Mild morning sickness in first trimester",
+        "Severe headache with visual changes and elevated BP",
+        "Frequent urination",
+        "Breast tenderness"
+      ],
+      "answer": "Severe headache with visual changes and elevated BP",
+      "explanation": "Preeclampsia warning signs: severe headache, visual changes (blurred vision), epigastric pain, edema (especially face/hands), elevated BP, sudden weight gain, decreased urine output. Eclampsia (seizures) can develop. Magnesium sulfate is used for seizure prevention."
+    },
+    {
+      "id": 15,
+      "question": "A nurse is providing teaching about adolescent development. The primary developmental task during adolescence is:",
+      "choices": [
+        "Industry vs. inferiority",
+        "Identity vs. role confusion",
+        "Intimacy vs. isolation",
+        "Generativity vs. stagnation"
+      ],
+      "answer": "Identity vs. role confusion",
+      "explanation": "Erikson's stages: infancy (Trust vs Mistrust), toddler (Autonomy vs Shame), preschool (Initiative vs Guilt), school-age (Industry vs Inferiority), adolescence (Identity vs Role Confusion), young adult (Intimacy vs Isolation), middle adult (Generativity vs Stagnation), older adult (Integrity vs Despair)."
+    },
+    {
+      "id": 16,
+      "question": "When discussing menopause, which symptom is most commonly reported?",
+      "choices": [
+        "Severe abdominal pain",
+        "Hot flashes and night sweats",
+        "Vision changes",
+        "Joint deformities"
+      ],
+      "answer": "Hot flashes and night sweats",
+      "explanation": "Menopause (defined as 12 months without menses) symptoms: hot flashes/night sweats, sleep disturbances, mood changes, vaginal dryness, decreased libido, irregular periods (perimenopause). Treatment: HRT, SSRIs for hot flashes, lifestyle modifications."
+    },
+    {
+      "id": 17,
+      "question": "A nurse is teaching parents about toddler safety. Which is the priority?",
+      "choices": [
+        "Childproofing electrical outlets, securing cabinets, pool safety",
+        "Bedtime stories",
+        "Educational toys",
+        "Television limits"
+      ],
+      "answer": "Childproofing electrical outlets, securing cabinets, pool safety",
+      "explanation": "Toddler safety priorities: childproofing (electrical outlets, cabinet locks, gates at stairs), water safety (never leave alone near water, fence pools), poison prevention (secure medications, cleaners), car seat safety, supervision, smoke detectors."
+    },
+    {
+      "id": 18,
+      "question": "A nurse is providing care for a client at 32 weeks gestation. Which symptom is concerning?",
+      "choices": [
+        "Mild backache",
+        "Regular contractions every 5 minutes",
+        "Frequent urination",
+        "Mild nausea"
+      ],
+      "answer": "Regular contractions every 5 minutes",
+      "explanation": "Regular contractions before 37 weeks indicate preterm labor. Signs: 4+ contractions per hour, low backache, pelvic pressure, vaginal bleeding, fluid leakage. Treatment includes tocolytics, corticosteroids for fetal lung maturity, magnesium sulfate for neuroprotection."
+    },
+    {
+      "id": 19,
+      "question": "The nurse is providing teaching about reducing risk of osteoporosis. Which is most important?",
+      "choices": [
+        "High-protein diet only",
+        "Adequate calcium, vitamin D, weight-bearing exercise, and avoiding smoking",
+        "Bed rest",
+        "Avoiding all dairy"
+      ],
+      "answer": "Adequate calcium, vitamin D, weight-bearing exercise, and avoiding smoking",
+      "explanation": "Osteoporosis prevention: 1000-1200 mg calcium daily, 600-800 IU vitamin D daily, weight-bearing exercise (walking, weight training), avoid smoking and excessive alcohol, fall prevention. Bone density screening for women 65+. Bisphosphonates for those with osteoporosis."
+    },
+    {
+      "id": 20,
+      "question": "A nurse is providing prenatal teaching. The expectant mother should be advised to avoid:",
+      "choices": [
+        "Walking 30 minutes daily",
+        "Raw fish, deli meats, unpasteurized dairy",
+        "Eating fruits and vegetables",
+        "Drinking 8 glasses of water daily"
+      ],
+      "answer": "Raw fish, deli meats, unpasteurized dairy",
+      "explanation": "Pregnant women should avoid: raw/undercooked meat/fish (listeria, toxoplasma), unpasteurized dairy/juice, deli meats (unless heated), high-mercury fish (shark, swordfish), alcohol, caffeine excess (>200 mg/day), and smoking. Moderate exercise is encouraged."
+    },
+    {
+      "id": 21,
+      "question": "A nurse is teaching an 8-year-old child about diabetes management. The most effective approach is:",
+      "choices": [
+        "Use complex medical terminology",
+        "Use age-appropriate language and involve the child in care",
+        "Speak only with parents",
+        "Show medical textbook diagrams"
+      ],
+      "answer": "Use age-appropriate language and involve the child in care",
+      "explanation": "School-age children (6-12) are in Erikson's industry vs. inferiority stage and can learn concrete concepts. Use clear, simple language, demonstrations, and involve them in self-care to promote competence. They can begin learning glucose checking and insulin administration with supervision."
+    },
+    {
+      "id": 22,
+      "question": "Which assessment finding suggests a 4-month-old has developmental delay?",
+      "choices": [
+        "Lifting head when prone",
+        "Lack of social smile",
+        "Reaching for objects",
+        "Cooing sounds"
+      ],
+      "answer": "Lack of social smile",
+      "explanation": "By 4 months, infants should: have social smile (by 2 months), hold head steady when upright, push up on arms when prone, follow objects, reach for items, and laugh. Lack of social smile may indicate visual impairment, hearing loss, autism, or other developmental concerns."
+    },
+    {
+      "id": 23,
+      "question": "A nurse is providing teaching about cervical cancer prevention. Which is recommended?",
+      "choices": [
+        "HPV vaccination starting at age 11-12 and routine cervical cancer screening",
+        "Cervical cancer screening only after symptoms develop",
+        "HPV vaccination only after age 30",
+        "No prevention is needed"
+      ],
+      "answer": "HPV vaccination starting at age 11-12 and routine cervical cancer screening",
+      "explanation": "HPV vaccination (Gardasil-9) is recommended ages 11-12 (can start at 9), with catch-up to age 26. Two doses if before 15, three doses if 15+. Cervical cancer screening per USPSTF guidelines starting at age 21. HPV vaccination is preventive against most causes of cervical cancer."
+    },
+    {
+      "id": 24,
+      "question": "An elderly client with cognitive decline is being assessed. Which is appropriate during the assessment?",
+      "choices": [
+        "Speak rapidly to save time",
+        "Allow extra time, speak clearly, face the client, minimize distractions",
+        "Use complex medical terms",
+        "Test in a noisy environment"
+      ],
+      "answer": "Allow extra time, speak clearly, face the client, minimize distractions",
+      "explanation": "Communication with cognitively impaired clients: speak clearly and slowly, face the client at eye level, minimize background noise, use simple sentences, allow processing time, repeat information as needed. Validation therapy is therapeutic. Avoid arguing about reality."
+    },
+    {
+      "id": 25,
+      "question": "A pregnant woman at 16 weeks gestation should expect which assessment as routine?",
+      "choices": [
+        "Fetal heart tones, blood pressure, weight, urine analysis",
+        "Cesarean section preparation",
+        "Cervical dilation check",
+        "Anesthesia consultation"
+      ],
+      "answer": "Fetal heart tones, blood pressure, weight, urine analysis",
+      "explanation": "Routine prenatal visits include: weight, BP, urine dip (protein, glucose), fetal heart tones (audible 10-12 weeks by Doppler), fundal height, fetal movement assessment. Visit frequency: every 4 weeks until 28 weeks, every 2 weeks 28-36 weeks, weekly after 36 weeks until delivery."
+    },
+    {
+      "id": 26,
+      "question": "The nurse is providing teaching to a smoker about smoking cessation. The most important information is:",
+      "choices": [
+        "It is hard to quit, so do not try",
+        "Combination of medication (NRT, bupropion, varenicline) and counseling is most effective",
+        "Use only willpower",
+        "Switch to e-cigarettes permanently"
+      ],
+      "answer": "Combination of medication (NRT, bupropion, varenicline) and counseling is most effective",
+      "explanation": "Smoking cessation success rates: willpower alone ~5%, NRT alone ~15-20%, combination of medication + counseling ~25-35%. Options: nicotine patches/gum/lozenges/inhalers, bupropion, varenicline. Behavior modification and identification of triggers are critical."
+    },
+    {
+      "id": 27,
+      "question": "When teaching about adolescent depression and suicide, which is true?",
+      "choices": [
+        "Asking about suicide will cause it",
+        "Suicide is a leading cause of death in adolescents and warning signs should be taken seriously",
+        "Adolescents who talk about suicide rarely do it",
+        "Only certain adolescents are at risk"
+      ],
+      "answer": "Suicide is a leading cause of death in adolescents and warning signs should be taken seriously",
+      "explanation": "Suicide is among leading causes of death in adolescents 10-24. Warning signs: talking about wanting to die, withdrawal, behavior changes, giving away belongings, mood swings, substance abuse. Asking about suicide does not cause it. Direct, caring questioning and professional referral are appropriate."
+    },
+    {
+      "id": 28,
+      "question": "A pregnant woman tests positive for Group B Streptococcus (GBS) at 36 weeks. The nurse anticipates:",
+      "choices": [
+        "Cesarean section is required",
+        "IV antibiotics during labor",
+        "Termination of pregnancy",
+        "No intervention needed"
+      ],
+      "answer": "IV antibiotics during labor",
+      "explanation": "GBS-positive women receive IV antibiotic prophylaxis during labor (typically penicillin) to prevent neonatal GBS sepsis. Vaginal-rectal swab cultures are done at 35-37 weeks. Penicillin allergy: cefazolin or vancomycin. C-section before labor (with intact membranes) does not require GBS treatment."
+    },
+    {
+      "id": 29,
+      "question": "A nurse is teaching parents about preventing childhood obesity. Which is most important?",
+      "choices": [
+        "Restrict all calories",
+        "Encourage healthy eating, daily physical activity, limit screen time, family meals",
+        "Use weight-loss medications",
+        "Avoid all snacks"
+      ],
+      "answer": "Encourage healthy eating, daily physical activity, limit screen time, family meals",
+      "explanation": "Healthy weight in children: 60 minutes daily physical activity, limit screen time to 2 hours/day, family meals (not in front of TV), variety of nutrients, age-appropriate portions, water as main beverage, model healthy behaviors. Strict dieting is not recommended in growing children."
+    },
+    {
+      "id": 30,
+      "question": "Which screening is recommended for men at age 50?",
+      "choices": [
+        "Mammography",
+        "Discussion of prostate cancer screening with provider",
+        "Cervical screening",
+        "Pap smear"
+      ],
+      "answer": "Discussion of prostate cancer screening with provider",
+      "explanation": "Prostate cancer screening: discuss with provider starting at age 50 (45 for African American or family history). PSA testing is controversial; shared decision-making with provider considering risk factors, life expectancy, and patient preferences."
+    },
+    {
+      "id": 31,
+      "question": "An infant should receive which vaccine at birth?",
+      "choices": [
+        "Influenza",
+        "Hepatitis B (first dose)",
+        "MMR",
+        "Varicella"
+      ],
+      "answer": "Hepatitis B (first dose)",
+      "explanation": "HepB vaccine is given at birth (within 24 hours of birth, preferably) to prevent vertical transmission and protect newborns. The series is: birth, 1-2 months, and 6-18 months. Newborns born to HepB+ mothers also receive HBIG within 12 hours of birth."
+    },
+    {
+      "id": 32,
+      "question": "A pregnant woman at 18 weeks asks about gestational diabetes screening. The nurse explains:",
+      "choices": [
+        "Screening is done immediately after conception",
+        "1-hour glucose challenge test typically done 24-28 weeks",
+        "Only done if symptoms develop",
+        "After delivery"
+      ],
+      "answer": "1-hour glucose challenge test typically done 24-28 weeks",
+      "explanation": "Gestational diabetes screening: 1-hour 50g glucose challenge at 24-28 weeks (no fasting required). If >130-140 (cutoffs vary), proceed with 3-hour 100g oral glucose tolerance test. High-risk women screened earlier. Treatment: diet, exercise, insulin or metformin."
+    },
+    {
+      "id": 33,
+      "question": "A school nurse is teaching elementary school children about hand hygiene. The most effective teaching method is:",
+      "choices": [
+        "Lecture only",
+        "Demonstration with practice and engaging activities",
+        "Reading from a textbook",
+        "Watch a video only"
+      ],
+      "answer": "Demonstration with practice and engaging activities",
+      "explanation": "School-age children learn best with active, engaging methods: demonstrations, hands-on practice, songs (like singing 'Happy Birthday' twice for 20-second wash), games, and incentives. Reinforcement through repetition and visual aids."
+    },
+    {
+      "id": 34,
+      "question": "A nurse is teaching a postpartum mother about post-birth recovery. Which sign warrants concern?",
+      "choices": [
+        "Lochia rubra for first few days",
+        "Heavy bleeding saturating a pad in 1 hour or large clots",
+        "Mild perineal soreness",
+        "Engorgement"
+      ],
+      "answer": "Heavy bleeding saturating a pad in 1 hour or large clots",
+      "explanation": "Postpartum hemorrhage signs: saturating pad in <1 hour, large clots, lightheadedness, tachycardia, hypotension. Normal lochia progression: rubra (red, days 1-3), serosa (pink/brown, 4-10), alba (white/yellow, 10-14). Foul odor or fever may indicate infection."
+    },
+    {
+      "id": 35,
+      "question": "When teaching about safe sex practices, which is most effective for preventing STIs?",
+      "choices": [
+        "Hormonal birth control",
+        "Consistent condom use with every sexual encounter",
+        "Withdrawal method",
+        "Rhythm method"
+      ],
+      "answer": "Consistent condom use with every sexual encounter",
+      "explanation": "Condoms (male or female) are the most effective barrier method against STIs when used consistently and correctly. Abstinence is the only 100% method. Hormonal contraception prevents pregnancy but not STIs. Regular STI testing is also recommended for sexually active individuals."
+    },
+    {
+      "id": 36,
+      "question": "A 75-year-old client asks about exercise. Which recommendation is appropriate?",
+      "choices": [
+        "Bed rest only",
+        "150 minutes weekly moderate aerobic activity plus strength and balance exercises",
+        "Avoid all exercise",
+        "Only seated exercises"
+      ],
+      "answer": "150 minutes weekly moderate aerobic activity plus strength and balance exercises",
+      "explanation": "Exercise recommendations for older adults: 150 minutes moderate aerobic exercise weekly (walking, swimming), 2+ days strength training, balance exercises (Tai chi), flexibility. Reduces fall risk, improves mood, prevents chronic disease, maintains functional ability."
+    },
+    {
+      "id": 37,
+      "question": "A nurse is teaching about safe handling of raw chicken to prevent foodborne illness. Which is correct?",
+      "choices": [
+        "Wash raw chicken in the sink before cooking",
+        "Cook chicken to internal temperature of 165°F (74°C); avoid cross-contamination",
+        "Marinate at room temperature",
+        "Use the same cutting board for chicken and vegetables"
+      ],
+      "answer": "Cook chicken to internal temperature of 165°F (74°C); avoid cross-contamination",
+      "explanation": "Food safety with poultry: do not wash (spreads bacteria), cook to 165°F internal temp, separate cutting boards for raw meat and produce, hand washing, refrigerate within 2 hours, thaw in refrigerator not counter. Common pathogens: Salmonella, Campylobacter."
+    },
+    {
+      "id": 38,
+      "question": "Which immunization is recommended yearly for everyone 6 months and older?",
+      "choices": [
+        "Pneumococcal vaccine",
+        "Influenza vaccine",
+        "MMR vaccine",
+        "Tetanus vaccine"
+      ],
+      "answer": "Influenza vaccine",
+      "explanation": "Annual influenza vaccination is recommended for everyone 6 months and older (with rare exceptions). High-risk groups especially benefit: elderly, pregnant women, immunocompromised, young children, chronic conditions. Multiple formulations available."
+    },
+    {
+      "id": 39,
+      "question": "A pregnant woman in her third trimester reports occasional Braxton Hicks contractions. The nurse explains:",
+      "choices": [
+        "These are signs of preterm labor and emergency",
+        "These are irregular, non-progressive practice contractions; true labor is regular and progressive",
+        "Cesarean is needed immediately",
+        "Hospital admission required"
+      ],
+      "answer": "These are irregular, non-progressive practice contractions; true labor is regular and progressive",
+      "explanation": "Braxton Hicks (false labor): irregular, decrease with rest/hydration, not painful, no cervical change. True labor: regular contractions, increasing frequency/intensity, progressive cervical change. Patient should call provider if regular contractions <5 minutes apart."
+    },
+    {
+      "id": 40,
+      "question": "A nurse is providing genetic counseling for a couple with a family history of cystic fibrosis. Which education is most important?",
+      "choices": [
+        "There is no need for screening",
+        "Carrier screening is available; CF is autosomal recessive (need two copies for disease)",
+        "Only women carry CF genes",
+        "Vaccination prevents CF"
+      ],
+      "answer": "Carrier screening is available; CF is autosomal recessive (need two copies for disease)",
+      "explanation": "CF is autosomal recessive: if both parents are carriers, 25% chance of affected child, 50% carrier child, 25% unaffected. Carrier screening (CFTR gene) recommended for couples planning pregnancy. ACOG/ACMG recommend CF carrier screening for all women planning pregnancy."
+    },
+    {
+      "id": 41,
+      "question": "An adolescent reports symptoms of an eating disorder. The most appropriate nurse action is:",
+      "choices": [
+        "Tell the parents only",
+        "Provide thorough assessment, build trust, refer to appropriate mental health services",
+        "Dismiss as a phase",
+        "Force the adolescent to eat"
+      ],
+      "answer": "Provide thorough assessment, build trust, refer to appropriate mental health services",
+      "explanation": "Eating disorders require comprehensive assessment, building therapeutic relationship, medical stabilization if severe, multidisciplinary approach (medical, psychiatric, nutrition, family), monitoring electrolytes, weight, vital signs. Severe cases may require hospitalization."
+    },
+    {
+      "id": 42,
+      "question": "A nurse is teaching new parents about infant safety in the bath. The most important instruction is:",
+      "choices": [
+        "Use bubble bath daily",
+        "Never leave the infant unattended; water temperature 100°F (37°C) maximum",
+        "Bath water can be very hot",
+        "Use any towel available"
+      ],
+      "answer": "Never leave the infant unattended; water temperature 100°F (37°C) maximum",
+      "explanation": "Infant bath safety: never leave unattended (drowning in 1-2 inches), water 100°F or less (test with elbow/wrist), support head/neck, slip-proof surface, hot water heater set <120°F. Sponge baths until umbilical cord falls off (~2 weeks)."
+    },
+    {
+      "id": 43,
+      "question": "An adult client asks about adult immunizations they may have missed. Which is appropriate?",
+      "choices": [
+        "Refuse all vaccines now",
+        "Review vaccination history and catch up on missing or recommended vaccines",
+        "Restart from scratch with all vaccines",
+        "Only get one vaccine per year"
+      ],
+      "answer": "Review vaccination history and catch up on missing or recommended vaccines",
+      "explanation": "Adult vaccine catch-up: review records, complete missed series (HPV through age 26, second MMR if needed, second varicella if needed, Tdap once, then Td every 10 years), age-appropriate (shingles at 50, pneumococcal at 65), travel vaccines as needed."
+    },
+    {
+      "id": 44,
+      "question": "A nurse is providing teaching about heart disease prevention. The most important modifiable risk factor is:",
+      "choices": [
+        "Family history",
+        "Smoking cessation, healthy diet, regular exercise, weight management",
+        "Age",
+        "Gender"
+      ],
+      "answer": "Smoking cessation, healthy diet, regular exercise, weight management",
+      "explanation": "Modifiable cardiovascular risk factors: smoking (most important - 2x increased risk), hypertension, hyperlipidemia, diabetes, obesity, sedentary lifestyle, poor diet, excessive alcohol, stress. Non-modifiable: age, gender, family history."
+    },
+    {
+      "id": 45,
+      "question": "When evaluating a 6-month-old's development, which is expected?",
+      "choices": [
+        "Walking",
+        "Sitting with support, transferring objects between hands, babbling",
+        "Saying full sentences",
+        "Toilet trained"
+      ],
+      "answer": "Sitting with support, transferring objects between hands, babbling",
+      "explanation": "At 6 months: sits with support, rolls in both directions, transfers objects hand-to-hand, babbles, beginning solid foods, recognizes familiar people, weight has doubled birth weight. Walking typically 12-15 months. First words around 12 months."
+    },
+    {
+      "id": 46,
+      "question": "A nurse is teaching about safe medication storage in a home with young children. The most important instruction is:",
+      "choices": [
+        "Store medications on the counter for easy access",
+        "Keep all medications in original containers, locked, and out of reach of children",
+        "Use any container that closes",
+        "Allow children to handle pill bottles"
+      ],
+      "answer": "Keep all medications in original containers, locked, and out of reach of children",
+      "explanation": "Medication safety in homes with children: original child-resistant containers, locked storage out of reach, never call medicine 'candy,' Poison Control number (1-800-222-1222) accessible, dispose of unused medications properly. Childhood medication poisonings affect 60,000+ US children annually."
+    },
+    {
+      "id": 47,
+      "question": "A school nurse is teaching adolescents about reproductive health. The most appropriate approach is:",
+      "choices": [
+        "Avoid the topic entirely",
+        "Provide accurate, age-appropriate information about anatomy, contraception, and STI prevention",
+        "Only discuss abstinence",
+        "Show graphic images"
+      ],
+      "answer": "Provide accurate, age-appropriate information about anatomy, contraception, and STI prevention",
+      "explanation": "Comprehensive sex education includes anatomy, puberty, healthy relationships, contraception, STI prevention, abstinence as an option, consent, and resources. Evidence shows comprehensive education reduces teen pregnancy and STI rates more than abstinence-only programs."
+    },
+    {
+      "id": 48,
+      "question": "An older adult asks about dementia prevention. Which evidence-based recommendation is most appropriate?",
+      "choices": [
+        "Avoid all mental challenges",
+        "Maintain physical activity, social engagement, mental stimulation, and manage cardiovascular risk factors",
+        "Take memory medications prophylactically",
+        "Stay in bed and rest"
+      ],
+      "answer": "Maintain physical activity, social engagement, mental stimulation, and manage cardiovascular risk factors",
+      "explanation": "Dementia risk reduction: physical activity (150 min/week), Mediterranean diet, social engagement, cognitive stimulation, manage CV risk factors (BP, diabetes, lipids), avoid smoking/excessive alcohol, treat depression, hearing aids if hearing loss, quality sleep. Multiple modifiable factors are linked to cognitive health."
+    },
+    {
+      "id": 49,
+      "question": "A pregnant woman in her third trimester reports leg swelling, redness, and pain in one calf. The nurse identifies this as potentially:",
+      "choices": [
+        "Normal pregnancy discomfort",
+        "Deep vein thrombosis (DVT) requiring immediate evaluation",
+        "Muscle strain",
+        "Need for more exercise"
+      ],
+      "answer": "Deep vein thrombosis (DVT) requiring immediate evaluation",
+      "explanation": "Pregnancy increases DVT risk 4-5x due to hypercoagulability, venous stasis, and vessel compression. Signs: unilateral leg swelling, redness, pain, warmth, Homan's sign (unreliable). Requires Doppler ultrasound. Treatment with LMWH (warfarin contraindicated in pregnancy). PE is potentially fatal."
+    },
+    {
+      "id": 50,
+      "question": "A nurse is teaching young adults about cancer prevention. Which recommendation has the most impact on cancer risk?",
+      "choices": [
+        "Avoid all foods",
+        "Avoid tobacco, limit alcohol, maintain healthy weight, use sun protection, get recommended screenings",
+        "Take daily aspirin",
+        "Avoid all outdoor activities"
+      ],
+      "answer": "Avoid tobacco, limit alcohol, maintain healthy weight, use sun protection, get recommended screenings",
+      "explanation": "Cancer prevention: avoid tobacco (causes 30% of cancers), limit alcohol, maintain healthy weight, eat fruits/vegetables, regular exercise, sun protection (SPF 30+), HPV vaccination, recommended screenings (mammogram, colonoscopy, Pap, prostate, skin), avoid environmental carcinogens. About 40% of cancers are preventable."
+    }
+  ]
+}

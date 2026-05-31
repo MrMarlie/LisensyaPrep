@@ -1,0 +1,606 @@
+{
+  "module": "Module 4 - Physiological Adaptation",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A client presents to the emergency department with crushing chest pain radiating to the left arm. ECG shows ST-segment elevation. What is the priority intervention?",
+      "choices": [
+        "Administer oral aspirin and obtain IV access",
+        "Wait for cardiac enzymes to return before treatment",
+        "Send the client home with a follow-up appointment",
+        "Schedule a stress test for the following week"
+      ],
+      "answer": "Administer oral aspirin and obtain IV access",
+      "explanation": "ST-elevation myocardial infarction (STEMI) requires immediate intervention. MONA-B mnemonic: Morphine (if pain), Oxygen (if hypoxic), Nitroglycerin, Aspirin (chewed 162-325 mg), and Beta-blockers. Time to reperfusion (PCI within 90 minutes) is critical for myocardial salvage."
+    },
+    {
+      "id": 2,
+      "question": "A client with congestive heart failure is admitted with dyspnea, pink frothy sputum, and crackles in the lung bases. The nurse identifies these as signs of:",
+      "choices": [
+        "Pneumonia",
+        "Acute pulmonary edema",
+        "Pulmonary embolism",
+        "Chronic bronchitis"
+      ],
+      "answer": "Acute pulmonary edema",
+      "explanation": "Pink frothy sputum, severe dyspnea, and bilateral crackles are classic signs of acute pulmonary edema, a life-threatening complication of left-sided heart failure. Treatment includes oxygen, high Fowler's position, diuretics (furosemide), morphine, and possibly positive pressure ventilation."
+    },
+    {
+      "id": 3,
+      "question": "A client diagnosed with chronic obstructive pulmonary disease (COPD) is most likely to exhibit which arterial blood gas finding?",
+      "choices": [
+        "pH 7.50, PaCO2 30, HCO3 24",
+        "pH 7.32, PaCO2 55, HCO3 30",
+        "pH 7.45, PaCO2 40, HCO3 24",
+        "pH 7.48, PaCO2 45, HCO3 22"
+      ],
+      "answer": "pH 7.32, PaCO2 55, HCO3 30",
+      "explanation": "COPD clients typically have chronic respiratory acidosis with renal compensation. The elevated PaCO2 (>45) shows CO2 retention, elevated HCO3 indicates compensation, and pH is on the acidotic side. This 'compensated respiratory acidosis' is typical for COPD."
+    },
+    {
+      "id": 4,
+      "question": "A client with type 1 diabetes mellitus has a blood glucose of 425 mg/dL, ketones in urine, and is breathing rapidly with a fruity breath odor. What complication is occurring?",
+      "choices": [
+        "Hypoglycemia",
+        "Diabetic ketoacidosis (DKA)",
+        "Hyperosmolar hyperglycemic state",
+        "Somogyi effect"
+      ],
+      "answer": "Diabetic ketoacidosis (DKA)",
+      "explanation": "DKA presents with hyperglycemia (>250 mg/dL), ketonuria, metabolic acidosis (Kussmaul breathing), and fruity breath odor (acetone). Treatment: IV regular insulin, IV fluid resuscitation, correction of electrolyte imbalances (especially potassium), and identification of triggering cause."
+    },
+    {
+      "id": 5,
+      "question": "A client with cirrhosis develops sudden hematemesis. The nurse identifies this likely indicates:",
+      "choices": [
+        "Hemorrhoid bleeding",
+        "Bleeding esophageal varices",
+        "Hemoptysis from pneumonia",
+        "Bleeding peptic ulcer disease"
+      ],
+      "answer": "Bleeding esophageal varices",
+      "explanation": "Esophageal varices are dilated veins resulting from portal hypertension in cirrhosis. Bleeding is life-threatening with mortality up to 50%. Treatment includes vasopressors (octreotide), endoscopic banding or sclerotherapy, possible balloon tamponade, and beta-blockers for prevention."
+    },
+    {
+      "id": 6,
+      "question": "A client experiences sudden right-sided weakness and slurred speech. Within what timeframe should fibrinolytic therapy (tPA) be administered for ischemic stroke?",
+      "choices": [
+        "Within 24 hours of symptom onset",
+        "Within 4.5 hours of symptom onset",
+        "Within 12 hours of symptom onset",
+        "Within 48 hours of symptom onset"
+      ],
+      "answer": "Within 4.5 hours of symptom onset",
+      "explanation": "Alteplase (tPA) for ischemic stroke must be administered within 4.5 hours of symptom onset for maximum benefit, and ideally within 3 hours. Hemorrhagic stroke must be ruled out by CT scan first. Time is brain: each minute, approximately 1.9 million neurons die."
+    },
+    {
+      "id": 7,
+      "question": "A client with chronic kidney disease has a serum potassium of 6.8 mEq/L. Which ECG finding is the nurse most concerned about?",
+      "choices": [
+        "Inverted P waves",
+        "Peaked T waves and widened QRS",
+        "U waves",
+        "ST elevation"
+      ],
+      "answer": "Peaked T waves and widened QRS",
+      "explanation": "Hyperkalemia (>5.0 mEq/L) causes characteristic ECG changes: peaked T waves first, then widened QRS, prolonged PR, and absent P waves. Severe hyperkalemia can lead to ventricular fibrillation and cardiac arrest. Treatment: calcium gluconate (stabilizes cardiac membrane), insulin/glucose, kayexalate, dialysis."
+    },
+    {
+      "id": 8,
+      "question": "A client with rheumatoid arthritis presents with severe joint pain, swelling, and morning stiffness lasting hours. The pathophysiology of this condition involves:",
+      "choices": [
+        "Cartilage wear from age",
+        "Autoimmune inflammation of the synovial membrane",
+        "Crystal deposits in the joints",
+        "Bacterial infection in the joint"
+      ],
+      "answer": "Autoimmune inflammation of the synovial membrane",
+      "explanation": "Rheumatoid arthritis is an autoimmune disease causing synovial inflammation, joint destruction, and systemic effects. It is symmetrical and worse in the morning. Osteoarthritis is wear-related, gout involves uric acid crystals, and septic arthritis is bacterial."
+    },
+    {
+      "id": 9,
+      "question": "A client with severe burns covering 40% of the body is in the emergency phase. Which finding requires immediate intervention?",
+      "choices": [
+        "Urine output of 35 mL/hour",
+        "Heart rate of 110/min",
+        "Hoarse voice and facial burns",
+        "Pain rated 8/10"
+      ],
+      "answer": "Hoarse voice and facial burns",
+      "explanation": "Facial burns, hoarseness, singed nasal hair, or carbonaceous sputum suggest inhalation injury and impending airway obstruction from edema. Early intubation may be necessary before airway compromise occurs. Inhalation injuries significantly increase mortality in burn patients."
+    },
+    {
+      "id": 10,
+      "question": "Which finding is consistent with shock?",
+      "choices": [
+        "Blood pressure 160/90, bounding pulse",
+        "Blood pressure 80/45, weak rapid pulse",
+        "Blood pressure 140/85, regular pulse",
+        "Blood pressure 125/75, slow pulse"
+      ],
+      "answer": "Blood pressure 80/45, weak rapid pulse",
+      "explanation": "Shock is characterized by hypotension, tachycardia, weak pulse, pale cool clammy skin, oliguria, altered mental status, and increased lactate. Types include hypovolemic, cardiogenic, distributive (septic, anaphylactic, neurogenic), and obstructive. Early recognition and treatment are critical."
+    },
+    {
+      "id": 11,
+      "question": "A client with multiple sclerosis exhibits an exacerbation of symptoms. Which medication is typically used for acute exacerbations?",
+      "choices": [
+        "Antibiotics",
+        "High-dose IV corticosteroids",
+        "Diuretics",
+        "Antidepressants"
+      ],
+      "answer": "High-dose IV corticosteroids",
+      "explanation": "Acute MS exacerbations are treated with high-dose IV methylprednisolone (1g daily for 3-5 days). This reduces inflammation and shortens duration of symptoms. Disease-modifying therapies (interferons, glatiramer, monoclonal antibodies) prevent relapses long-term."
+    },
+    {
+      "id": 12,
+      "question": "A client is admitted with severe abdominal pain radiating to the back, nausea, and elevated serum amylase and lipase. The most likely diagnosis is:",
+      "choices": [
+        "Appendicitis",
+        "Acute pancreatitis",
+        "Cholecystitis",
+        "Bowel obstruction"
+      ],
+      "answer": "Acute pancreatitis",
+      "explanation": "Acute pancreatitis presents with severe epigastric pain radiating to the back, nausea/vomiting, elevated amylase and lipase. Treatment: NPO, IV fluids, pain management, antiemetics, and identification of cause (gallstones, alcohol). Complications include necrosis and pseudocysts."
+    },
+    {
+      "id": 13,
+      "question": "A client with peptic ulcer disease tests positive for H. pylori. The treatment of choice is:",
+      "choices": [
+        "Antacids only",
+        "Triple therapy: PPI plus two antibiotics for 10-14 days",
+        "H2 receptor antagonist only",
+        "Surgery"
+      ],
+      "answer": "Triple therapy: PPI plus two antibiotics for 10-14 days",
+      "explanation": "H. pylori eradication requires triple therapy: proton pump inhibitor (omeprazole) plus two antibiotics (typically clarithromycin and amoxicillin) for 10-14 days. Quadruple therapy may include bismuth. Successful eradication prevents recurrence and reduces cancer risk."
+    },
+    {
+      "id": 14,
+      "question": "A client with Parkinson's disease takes levodopa-carbidopa. Which side effect is the nurse most concerned about?",
+      "choices": [
+        "Constipation",
+        "Mild nausea",
+        "On-off phenomenon and dyskinesias",
+        "Slight drowsiness"
+      ],
+      "answer": "On-off phenomenon and dyskinesias",
+      "explanation": "Long-term levodopa use commonly causes 'on-off' phenomenon (sudden swings between mobility and rigidity) and dyskinesias (involuntary movements). Management includes dosing adjustments, addition of dopamine agonists, COMT inhibitors, or deep brain stimulation. Quality of life is significantly affected."
+    },
+    {
+      "id": 15,
+      "question": "A client receiving long-term corticosteroid therapy is at risk for:",
+      "choices": [
+        "Hypotension and bradycardia",
+        "Osteoporosis, hyperglycemia, and infection",
+        "Bone marrow stimulation",
+        "Decreased appetite and weight loss"
+      ],
+      "answer": "Osteoporosis, hyperglycemia, and infection",
+      "explanation": "Long-term corticosteroid effects include: osteoporosis, hyperglycemia/diabetes, cataracts, glaucoma, peptic ulcers, hypertension, weight gain, mood changes, immunosuppression, adrenal suppression, and Cushing's syndrome features. Bone density monitoring and calcium/vitamin D supplementation recommended."
+    },
+    {
+      "id": 16,
+      "question": "A client with Addison's disease (adrenal insufficiency) experiences a stress event. The nurse anticipates:",
+      "choices": [
+        "Decreased glucocorticoid needs",
+        "Need for increased corticosteroid dosing to prevent Addisonian crisis",
+        "Routine medication administration",
+        "Discontinuation of medications"
+      ],
+      "answer": "Need for increased corticosteroid dosing to prevent Addisonian crisis",
+      "explanation": "Addison's disease requires lifelong corticosteroid replacement. During stress (illness, surgery, trauma), the dose must be increased to prevent Addisonian crisis (hypotension, hyponatremia, hyperkalemia, hypoglycemia, fever). Untreated crisis is fatal. Clients carry emergency injection."
+    },
+    {
+      "id": 17,
+      "question": "A client with cystic fibrosis exhibits salty-tasting skin, frequent respiratory infections, and steatorrhea. The pathophysiology involves:",
+      "choices": [
+        "Bacterial infection of the lungs only",
+        "Defective chloride channel causing thick mucus secretions throughout body",
+        "Inherited liver disease",
+        "Autoimmune destruction of pancreas"
+      ],
+      "answer": "Defective chloride channel causing thick mucus secretions throughout body",
+      "explanation": "Cystic fibrosis is an autosomal recessive disorder of the CFTR gene causing defective chloride transport. Result: thick mucus affects lungs (infections), pancreas (malabsorption), reproductive system (infertility), and sweat glands (salty skin). Modern treatment includes CFTR modulators."
+    },
+    {
+      "id": 18,
+      "question": "A client with sickle cell anemia presents with severe pain in the joints and back. The nurse identifies this as:",
+      "choices": [
+        "Acute chest syndrome",
+        "Vaso-occlusive crisis",
+        "Splenic sequestration",
+        "Aplastic crisis"
+      ],
+      "answer": "Vaso-occlusive crisis",
+      "explanation": "Vaso-occlusive (pain) crisis occurs when sickled RBCs obstruct blood vessels causing ischemia and severe pain. Treatment: IV hydration, pain management (often opioids), oxygen, identifying triggers (dehydration, infection, hypoxia). Hydroxyurea reduces frequency of crises."
+    },
+    {
+      "id": 19,
+      "question": "A client with hyperthyroidism is at risk for which life-threatening complication?",
+      "choices": [
+        "Myxedema coma",
+        "Thyroid storm",
+        "Severe hypothermia",
+        "Hyperkalemia"
+      ],
+      "answer": "Thyroid storm",
+      "explanation": "Thyroid storm is severe hyperthyroidism with fever (>104°F), tachycardia, hypertension, tremors, agitation, and altered mental status. Treatment: beta-blockers (propranolol), antithyroid drugs (PTU or methimazole), iodine solution, corticosteroids, cooling, and treatment of triggers."
+    },
+    {
+      "id": 20,
+      "question": "A client with chronic kidney disease has a phosphorus level of 6.5 mg/dL. Which intervention helps reduce phosphorus?",
+      "choices": [
+        "Encourage milk and dairy products",
+        "Administer phosphate binders with meals",
+        "Increase intake of high-phosphorus foods",
+        "Limit fluid intake"
+      ],
+      "answer": "Administer phosphate binders with meals",
+      "explanation": "Phosphate binders (calcium acetate, sevelamer, lanthanum) bind dietary phosphorus and must be given WITH meals to be effective. Dietary phosphorus restriction (limit dairy, nuts, beans, cola) is also important. Hyperphosphatemia contributes to bone disease and vascular calcification in CKD."
+    },
+    {
+      "id": 21,
+      "question": "A client with myasthenia gravis is started on pyridostigmine. The nurse teaches the client to take the medication:",
+      "choices": [
+        "On an empty stomach for best absorption",
+        "30 minutes before meals to improve chewing and swallowing",
+        "Only when symptoms are severe",
+        "At bedtime"
+      ],
+      "answer": "30 minutes before meals to improve chewing and swallowing",
+      "explanation": "Pyridostigmine (Mestinon) is given 30 minutes before meals to enable swallowing during peak medication effect, reducing aspiration risk. Myasthenic crisis (severe weakness, respiratory failure) requires immediate treatment. Cholinergic crisis (overdose with excess saliva, bradycardia) requires atropine."
+    },
+    {
+      "id": 22,
+      "question": "A client diagnosed with deep vein thrombosis (DVT) is at risk for which complication?",
+      "choices": [
+        "Stroke",
+        "Pulmonary embolism",
+        "Hemorrhage",
+        "Renal failure"
+      ],
+      "answer": "Pulmonary embolism",
+      "explanation": "Pulmonary embolism (PE) is the most serious complication of DVT. Signs: sudden dyspnea, chest pain, tachycardia, hypoxia. Diagnosis: D-dimer, CT pulmonary angiography. Treatment: anticoagulation (heparin, then warfarin or DOAC), supportive care. Massive PE may require thrombolytics."
+    },
+    {
+      "id": 23,
+      "question": "A client diagnosed with Guillain-Barré syndrome demonstrates ascending paralysis. The priority nursing assessment is:",
+      "choices": [
+        "Bowel sounds",
+        "Respiratory function",
+        "Skin integrity",
+        "Pain level"
+      ],
+      "answer": "Respiratory function",
+      "explanation": "Guillain-Barré syndrome causes ascending paralysis that can affect respiratory muscles. Continuous respiratory monitoring is essential. Forced vital capacity (FVC) is monitored; intubation may be needed if FVC drops. Treatment: plasmapheresis or IVIG. Most clients recover but the recovery is prolonged."
+    },
+    {
+      "id": 24,
+      "question": "A client with chronic liver failure has elevated ammonia levels. The treatment to reduce ammonia is:",
+      "choices": [
+        "High-protein diet",
+        "Lactulose",
+        "Antibiotics for liver",
+        "Pain medications"
+      ],
+      "answer": "Lactulose",
+      "explanation": "Lactulose reduces ammonia by trapping it in the colon as ammonium (NH4+) and producing osmotic diarrhea. Goal: 2-3 soft stools daily. Rifaximin is also used. Hepatic encephalopathy is a major complication of liver failure with confusion, asterixis, and possible coma."
+    },
+    {
+      "id": 25,
+      "question": "A client presents with sudden severe headache described as 'the worst headache of my life,' photophobia, and stiff neck. The priority diagnostic test is:",
+      "choices": [
+        "EEG",
+        "CT scan of the head",
+        "Lumbar puncture",
+        "MRI of the spine"
+      ],
+      "answer": "CT scan of the head",
+      "explanation": "'Worst headache of my life' suggests subarachnoid hemorrhage. CT scan (non-contrast) is done first to identify bleeding. If CT is negative but suspicion remains, lumbar puncture follows. Subarachnoid hemorrhage from aneurysm rupture requires emergency neurosurgical intervention."
+    },
+    {
+      "id": 26,
+      "question": "A client with HIV is most concerned about opportunistic infections when their CD4 count drops below:",
+      "choices": [
+        "1000 cells/mm³",
+        "500 cells/mm³",
+        "200 cells/mm³",
+        "50 cells/mm³"
+      ],
+      "answer": "200 cells/mm³",
+      "explanation": "CD4 count below 200 defines AIDS and indicates high risk for opportunistic infections (PCP pneumonia, candidiasis, cryptococcal meningitis, CMV, toxoplasmosis). Prophylactic medications are started at this threshold. Antiretroviral therapy aims to maintain CD4 counts and suppress viral load."
+    },
+    {
+      "id": 27,
+      "question": "A client with severe burns has urine output of 20 mL/hour. The nurse identifies this likely indicates:",
+      "choices": [
+        "Excellent renal function",
+        "Adequate fluid resuscitation",
+        "Inadequate fluid resuscitation or kidney injury",
+        "Normal response to burns"
+      ],
+      "answer": "Inadequate fluid resuscitation or kidney injury",
+      "explanation": "Burn clients require aggressive fluid resuscitation. Target urine output: 30-50 mL/hour for adults. Parkland formula calculates fluid needs: 4 mL × kg × % TBSA in first 24 hours, with half in first 8 hours. Low output suggests inadequate resuscitation or acute kidney injury."
+    },
+    {
+      "id": 28,
+      "question": "A client with breast cancer has a positive HER2 receptor status. Which medication may be added to their treatment?",
+      "choices": [
+        "Tamoxifen",
+        "Trastuzumab (Herceptin)",
+        "Doxorubicin only",
+        "Methotrexate only"
+      ],
+      "answer": "Trastuzumab (Herceptin)",
+      "explanation": "Trastuzumab is a monoclonal antibody targeting HER2-positive breast cancers. It significantly improves outcomes in HER2+ disease. Side effects include cardiotoxicity (LVEF monitoring required), infusion reactions, and increased infection risk. Targeted therapies revolutionized breast cancer treatment."
+    },
+    {
+      "id": 29,
+      "question": "A client with chronic kidney disease has metabolic acidosis. The body's compensation mechanism includes:",
+      "choices": [
+        "Hyperventilation (Kussmaul respirations)",
+        "Hypoventilation",
+        "Bradycardia",
+        "Increased blood pressure"
+      ],
+      "answer": "Hyperventilation (Kussmaul respirations)",
+      "explanation": "Metabolic acidosis triggers respiratory compensation through hyperventilation (Kussmaul respirations) to blow off CO2 and raise pH. This is seen in DKA, CKD, lactic acidosis, and salicylate overdose. Treatment addresses underlying cause; severe cases may require bicarbonate."
+    },
+    {
+      "id": 30,
+      "question": "A client with hypothyroidism presents with severe lethargy, hypothermia, and altered mental status. The nurse identifies this as:",
+      "choices": [
+        "Thyroid storm",
+        "Myxedema coma",
+        "Addisonian crisis",
+        "Diabetic coma"
+      ],
+      "answer": "Myxedema coma",
+      "explanation": "Myxedema coma is severe hypothyroidism with hypothermia, bradycardia, hypotension, hypoventilation, and altered consciousness. It is life-threatening with high mortality. Treatment: IV levothyroxine, warming, supportive care. Often triggered by stress, infection, or medications."
+    },
+    {
+      "id": 31,
+      "question": "A client with chronic atrial fibrillation is at increased risk for:",
+      "choices": [
+        "Pulmonary embolism",
+        "Ischemic stroke from cardiac thromboembolism",
+        "Aortic dissection",
+        "Acute myocardial infarction"
+      ],
+      "answer": "Ischemic stroke from cardiac thromboembolism",
+      "explanation": "Atrial fibrillation causes blood stasis in the atria, allowing clot formation that can embolize to the brain causing stroke. CHA2DS2-VASc score determines stroke risk and anticoagulation needs. Treatment includes rate/rhythm control and anticoagulation (warfarin or DOACs)."
+    },
+    {
+      "id": 32,
+      "question": "A client receiving heparin has a sudden drop in hemoglobin from 12 to 8 g/dL. The nurse suspects:",
+      "choices": [
+        "Iron deficiency anemia",
+        "Active hemorrhage",
+        "Vitamin B12 deficiency",
+        "Hemolytic reaction"
+      ],
+      "answer": "Active hemorrhage",
+      "explanation": "Sudden drop in hemoglobin in a client on anticoagulation suggests active bleeding. Common sites: GI tract, urinary, retroperitoneal, intracranial. Assessment includes hemodynamic monitoring, identifying source. Treatment may include reversal agents (protamine for heparin), transfusion, and surgical intervention."
+    },
+    {
+      "id": 33,
+      "question": "A client with chronic obstructive pulmonary disease (COPD) requires supplemental oxygen. The flow rate should be:",
+      "choices": [
+        "10-15 L/min via mask",
+        "1-3 L/min via nasal cannula",
+        "6-8 L/min via nasal cannula",
+        "Never use oxygen with COPD"
+      ],
+      "answer": "1-3 L/min via nasal cannula",
+      "explanation": "COPD clients often have chronic hypercapnia and rely on hypoxic drive for respiratory stimulation. Low-flow oxygen (1-3 L/min) targets SpO2 88-92%. Higher concentrations may suppress respiratory drive. Continuous monitoring of mental status and oxygenation is essential."
+    },
+    {
+      "id": 34,
+      "question": "A client with chronic kidney disease has a hemoglobin of 8.5 g/dL. The cause of anemia in CKD is:",
+      "choices": [
+        "Iron deficiency only",
+        "Decreased erythropoietin production by the kidneys",
+        "Vitamin B12 deficiency",
+        "Bone marrow failure"
+      ],
+      "answer": "Decreased erythropoietin production by the kidneys",
+      "explanation": "CKD anemia results from decreased erythropoietin production (the kidneys produce 90% of erythropoietin). Treatment: erythropoiesis-stimulating agents (epoetin alfa, darbepoetin), iron supplementation. Target hemoglobin: 10-11 g/dL (over-correction increases cardiovascular risk)."
+    },
+    {
+      "id": 35,
+      "question": "A client with diabetes insipidus excretes large volumes of dilute urine. The treatment of choice is:",
+      "choices": [
+        "Insulin therapy",
+        "Desmopressin (DDAVP)",
+        "Furosemide",
+        "Mannitol"
+      ],
+      "answer": "Desmopressin (DDAVP)",
+      "explanation": "Diabetes insipidus (DI) involves deficient ADH (central DI) or renal resistance to ADH (nephrogenic DI). Central DI is treated with desmopressin (synthetic ADH) intranasally or PO. Clients experience polyuria and polydipsia. Monitor for water intoxication during treatment."
+    },
+    {
+      "id": 36,
+      "question": "A client with systemic lupus erythematosus (SLE) experiences a butterfly rash, joint pain, and fatigue. The pathophysiology of SLE involves:",
+      "choices": [
+        "Bacterial infection",
+        "Autoimmune attack on multiple body systems",
+        "Vitamin deficiency",
+        "Genetic enzyme defect"
+      ],
+      "answer": "Autoimmune attack on multiple body systems",
+      "explanation": "SLE is an autoimmune disease producing antibodies against self-antigens, affecting multiple systems: skin (malar rash, discoid), joints, kidneys (lupus nephritis), heart, lungs, blood (cytopenias), nervous system. Treatment includes immunosuppressants, antimalarials (hydroxychloroquine), and corticosteroids."
+    },
+    {
+      "id": 37,
+      "question": "A client with cardiac tamponade exhibits which classic finding?",
+      "choices": [
+        "Loud heart sounds",
+        "Beck's triad: hypotension, muffled heart sounds, JVD",
+        "High blood pressure",
+        "Bradycardia"
+      ],
+      "answer": "Beck's triad: hypotension, muffled heart sounds, JVD",
+      "explanation": "Beck's triad (hypotension, muffled heart sounds, jugular venous distention) is classic for cardiac tamponade. Pulsus paradoxus may also be present. Emergency pericardiocentesis is required. Cardiac tamponade restricts ventricular filling, causing obstructive shock."
+    },
+    {
+      "id": 38,
+      "question": "A client with hepatitis B is HBsAg positive. This indicates:",
+      "choices": [
+        "Immunity to hepatitis B",
+        "Active hepatitis B infection",
+        "Recovery from hepatitis B",
+        "Never exposed to hepatitis B"
+      ],
+      "answer": "Active hepatitis B infection",
+      "explanation": "HBsAg (surface antigen) indicates active infection (acute or chronic). Anti-HBs indicates immunity (from infection or vaccination). HBcAb indicates past or current infection. HBeAg indicates high infectivity. Hepatitis B is preventable by vaccination."
+    },
+    {
+      "id": 39,
+      "question": "A client with renal calculi (kidney stones) is most likely to experience:",
+      "choices": [
+        "Constant dull pain",
+        "Severe colicky pain radiating from flank to groin",
+        "No pain at all",
+        "Mild headache only"
+      ],
+      "answer": "Severe colicky pain radiating from flank to groin",
+      "explanation": "Renal colic from stones produces severe, intermittent flank pain radiating to groin (renal colic), often with nausea, hematuria, and urinary urgency. Treatment includes pain management (NSAIDs or opioids), hydration, alpha-blockers to facilitate passage, lithotripsy for larger stones."
+    },
+    {
+      "id": 40,
+      "question": "A client with myocardial infarction is started on a beta-blocker. The therapeutic effect is:",
+      "choices": [
+        "Increased heart rate and contractility",
+        "Decreased myocardial oxygen demand by reducing heart rate and contractility",
+        "Increased blood pressure",
+        "Bronchodilation"
+      ],
+      "answer": "Decreased myocardial oxygen demand by reducing heart rate and contractility",
+      "explanation": "Beta-blockers reduce heart rate, blood pressure, and contractility, decreasing myocardial oxygen demand. They reduce mortality post-MI, prevent reinfarction, and treat heart failure. Contraindications: severe bradycardia, heart block, acute decompensated heart failure, severe asthma."
+    },
+    {
+      "id": 41,
+      "question": "A client with chronic alcoholism develops Wernicke-Korsakoff syndrome. The primary cause is:",
+      "choices": [
+        "Vitamin B12 deficiency",
+        "Thiamine (B1) deficiency",
+        "Vitamin C deficiency",
+        "Iron deficiency"
+      ],
+      "answer": "Thiamine (B1) deficiency",
+      "explanation": "Wernicke-Korsakoff syndrome results from thiamine (B1) deficiency, common in chronic alcoholism. Wernicke's encephalopathy: confusion, ophthalmoplegia, ataxia. Korsakoff's psychosis: anterograde and retrograde amnesia. IV thiamine should be given BEFORE glucose to prevent worsening."
+    },
+    {
+      "id": 42,
+      "question": "A client with chronic asthma uses an inhaled corticosteroid. The most important teaching point is:",
+      "choices": [
+        "Use only during acute attacks",
+        "Rinse mouth after each use to prevent oral candidiasis",
+        "Discontinue if symptoms improve",
+        "Use only at bedtime"
+      ],
+      "answer": "Rinse mouth after each use to prevent oral candidiasis",
+      "explanation": "Inhaled corticosteroids (fluticasone, budesonide) are controller medications for chronic asthma. Rinsing the mouth after use prevents oral candidiasis (thrush). Use spacer for better delivery. Inhaled steroids are not for acute attacks (use SABA like albuterol)."
+    },
+    {
+      "id": 43,
+      "question": "A client with Parkinson's disease may benefit from which non-pharmacological intervention?",
+      "choices": [
+        "Bedrest",
+        "Physical therapy, speech therapy, and occupational therapy",
+        "Avoiding all activity",
+        "Restricting fluids"
+      ],
+      "answer": "Physical therapy, speech therapy, and occupational therapy",
+      "explanation": "Multidisciplinary care for Parkinson's includes physical therapy (gait, balance), speech therapy (dysphagia, dysarthria), occupational therapy (ADLs), and exercise programs. These help maintain function and quality of life. Deep brain stimulation may be considered for advanced cases."
+    },
+    {
+      "id": 44,
+      "question": "A client undergoing chemotherapy develops a fever of 101.5°F (38.6°C) with an absolute neutrophil count of 400. This is identified as:",
+      "choices": [
+        "Common cold",
+        "Febrile neutropenia (oncologic emergency)",
+        "Drug reaction",
+        "Sepsis only"
+      ],
+      "answer": "Febrile neutropenia (oncologic emergency)",
+      "explanation": "Febrile neutropenia (ANC <500 with fever) is an oncologic emergency. Immediate cultures and broad-spectrum antibiotics within 1 hour are critical. Common sources: lungs, urinary tract, GI, indwelling lines. Growth factors (filgrastim) may be used to stimulate WBC production."
+    },
+    {
+      "id": 45,
+      "question": "A client with chronic obstructive pulmonary disease (COPD) is in respiratory distress with a pH of 7.25, PaCO2 of 70, and HCO3 of 24. The nurse recognizes:",
+      "choices": [
+        "Compensated metabolic acidosis",
+        "Uncompensated respiratory acidosis",
+        "Compensated respiratory alkalosis",
+        "Metabolic alkalosis"
+      ],
+      "answer": "Uncompensated respiratory acidosis",
+      "explanation": "pH <7.35 with elevated PaCO2 indicates respiratory acidosis. Normal HCO3 (22-26) indicates uncompensated state - the kidneys have not had time to retain bicarbonate. Treatment includes addressing the cause, oxygen, bronchodilators, and possibly non-invasive ventilation (BiPAP)."
+    },
+    {
+      "id": 46,
+      "question": "A client with type 1 diabetes mellitus has a fasting blood glucose of 65 mg/dL and reports feeling shaky and sweaty. What is the appropriate action?",
+      "choices": [
+        "Administer insulin as scheduled",
+        "Give 15 g fast-acting carbohydrate (juice, glucose tablets) immediately",
+        "Wait 30 minutes and recheck",
+        "Restrict fluids"
+      ],
+      "answer": "Give 15 g fast-acting carbohydrate (juice, glucose tablets) immediately",
+      "explanation": "Hypoglycemia treatment: '15-15 rule' - give 15g carbs (4 oz juice, 3-4 glucose tablets), wait 15 min, recheck. If still <70, repeat. Then follow with protein/complex carb meal. Unconscious clients receive IV dextrose or glucagon IM. Hypoglycemia unawareness in long-term DM patients is dangerous."
+    },
+    {
+      "id": 47,
+      "question": "A client with chronic kidney disease has a calcium of 7.0 mg/dL and phosphorus of 6.5 mg/dL. The nurse anticipates which complication?",
+      "choices": [
+        "Bone disease (renal osteodystrophy)",
+        "Acute pancreatitis",
+        "Hypothyroidism",
+        "Adrenal failure"
+      ],
+      "answer": "Bone disease (renal osteodystrophy)",
+      "explanation": "Renal osteodystrophy: CKD causes decreased vitamin D activation, low calcium, elevated phosphorus, secondary hyperparathyroidism, bone resorption, and fracture risk. Treatment: phosphate binders, calcitriol (active vitamin D), calcimimetics. Bone mineral density monitoring is recommended."
+    },
+    {
+      "id": 48,
+      "question": "A client with severe sepsis has a serum lactate of 4.5 mmol/L (normal <2). The elevated lactate indicates:",
+      "choices": [
+        "Excellent tissue perfusion",
+        "Tissue hypoperfusion with anaerobic metabolism",
+        "Dehydration only",
+        "Normal stress response"
+      ],
+      "answer": "Tissue hypoperfusion with anaerobic metabolism",
+      "explanation": "Lactate >2 mmol/L indicates anaerobic metabolism from poor tissue perfusion. In sepsis, this signals severe sepsis requiring aggressive treatment. Sepsis bundle: blood cultures, lactate, broad-spectrum antibiotics within 1 hour, 30 mL/kg crystalloid for hypotension/lactate >4, vasopressors if needed."
+    },
+    {
+      "id": 49,
+      "question": "A client with hyperparathyroidism has elevated calcium. Treatment goals include:",
+      "choices": [
+        "Increasing calcium intake",
+        "Hydration, weight-bearing exercise, and possibly surgical removal of parathyroid",
+        "Bedrest",
+        "Avoiding all fluids"
+      ],
+      "answer": "Hydration, weight-bearing exercise, and possibly surgical removal of parathyroid",
+      "explanation": "Hyperparathyroidism causes hypercalcemia and bone loss. Treatment: adequate hydration (saline diuresis), weight-bearing exercise, bisphosphonates, surgical removal of parathyroid adenoma. Calcimimetics like cinacalcet may be used. Severe hypercalcemia (>14) is a medical emergency."
+    },
+    {
+      "id": 50,
+      "question": "A client diagnosed with acute kidney injury (AKI) has decreased urine output and rising creatinine. Which is the most important nursing action?",
+      "choices": [
+        "Encourage high-protein diet",
+        "Monitor intake and output, fluid balance, and electrolytes (especially potassium)",
+        "Administer NSAIDs for pain",
+        "Increase IV fluids significantly"
+      ],
+      "answer": "Monitor intake and output, fluid balance, and electrolytes (especially potassium)",
+      "explanation": "AKI management requires meticulous fluid and electrolyte monitoring. Hyperkalemia is a major concern (can cause cardiac arrest). NSAIDs are nephrotoxic and contraindicated. Treatment addresses cause (pre-renal, intrarenal, post-renal). Dialysis is indicated for severe electrolyte abnormalities, fluid overload, uremia, or acidosis."
+    }
+  ]
+}

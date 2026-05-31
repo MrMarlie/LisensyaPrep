@@ -1,0 +1,606 @@
+{
+  "module": "Module 3 - Safety and Infection Prevention and Control",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which precautions are required for a client with active pulmonary tuberculosis?",
+      "choices": [
+        "Contact precautions only",
+        "Droplet precautions only",
+        "Airborne precautions with N95 respirator",
+        "Standard precautions only"
+      ],
+      "answer": "Airborne precautions with N95 respirator",
+      "explanation": "Tuberculosis spreads via droplet nuclei that remain suspended in air. Airborne precautions require a negative pressure room and N95 or higher respirator. Surgical masks are insufficient as TB particles are small enough to pass through them."
+    },
+    {
+      "id": 2,
+      "question": "A nurse is caring for a client with methicillin-resistant Staphylococcus aureus (MRSA) in a wound. Which type of precautions should be implemented?",
+      "choices": [
+        "Airborne precautions",
+        "Contact precautions",
+        "Droplet precautions",
+        "Protective isolation"
+      ],
+      "answer": "Contact precautions",
+      "explanation": "MRSA is transmitted by contact with infected wounds, skin, or contaminated surfaces. Contact precautions require gown and gloves, private room or cohorting with similar clients, and dedicated equipment. Hand hygiene before and after care is essential."
+    },
+    {
+      "id": 3,
+      "question": "The most effective single intervention to prevent the spread of infection in healthcare settings is:",
+      "choices": [
+        "Wearing gloves with every client",
+        "Hand hygiene before and after each client contact",
+        "Isolating all infected clients",
+        "Using bleach for all cleaning"
+      ],
+      "answer": "Hand hygiene before and after each client contact",
+      "explanation": "Hand hygiene is the single most important practice to prevent healthcare-associated infections. The WHO 'Five Moments for Hand Hygiene' includes: before client contact, before aseptic task, after body fluid exposure risk, after client contact, and after contact with client surroundings."
+    },
+    {
+      "id": 4,
+      "question": "When should alcohol-based hand rub NOT be used as a substitute for soap and water?",
+      "choices": [
+        "Before donning sterile gloves",
+        "Between client contacts",
+        "After caring for a client with Clostridium difficile",
+        "After removing gloves"
+      ],
+      "answer": "After caring for a client with Clostridium difficile",
+      "explanation": "C. difficile spores are resistant to alcohol-based hand sanitizers. After caring for clients with C. difficile, hands must be washed with soap and water to physically remove the spores. Alcohol rubs are effective against most other pathogens."
+    },
+    {
+      "id": 5,
+      "question": "A nurse is preparing to enter the room of a client on droplet precautions. Which personal protective equipment (PPE) is required?",
+      "choices": [
+        "N95 respirator and gown",
+        "Surgical mask, gloves",
+        "Gloves only",
+        "Full hazmat suit"
+      ],
+      "answer": "Surgical mask, gloves",
+      "explanation": "Droplet precautions require a surgical mask when within 3-6 feet of the client. Gloves are also worn per standard precautions. Examples of diseases requiring droplet precautions include influenza, pertussis, meningitis, and rubella."
+    },
+    {
+      "id": 6,
+      "question": "When removing PPE after caring for a client with C. difficile, which item should the nurse remove FIRST?",
+      "choices": [
+        "Gown",
+        "Gloves",
+        "Mask",
+        "Goggles"
+      ],
+      "answer": "Gloves",
+      "explanation": "The proper order to remove PPE is: gloves, goggles/face shield, gown, mask/respirator. Gloves are removed first because they are most contaminated. After PPE removal, hand hygiene must be performed immediately."
+    },
+    {
+      "id": 7,
+      "question": "A nurse accidentally sustains a needlestick injury from a contaminated needle. What is the FIRST action?",
+      "choices": [
+        "Notify the supervisor immediately",
+        "Apply pressure to stop the bleeding",
+        "Wash the area thoroughly with soap and water",
+        "Document the incident in writing"
+      ],
+      "answer": "Wash the area thoroughly with soap and water",
+      "explanation": "Immediate response to a needlestick: wash with soap and water (eyes flushed with saline for splash exposures), then report incident, complete documentation, and follow occupational health protocols for testing and post-exposure prophylaxis if indicated."
+    },
+    {
+      "id": 8,
+      "question": "A nurse is caring for a client on neutropenic precautions. Which intervention is appropriate?",
+      "choices": [
+        "Allow fresh flowers in the room",
+        "Provide a low-bacteria diet (no raw fruits or vegetables)",
+        "Permit visits from anyone with a cold",
+        "Use the same equipment for all clients"
+      ],
+      "answer": "Provide a low-bacteria diet (no raw fruits or vegetables)",
+      "explanation": "Neutropenic clients are at high risk for infection. Protective measures include: low-bacteria diet (no raw fruits/vegetables, no fresh flowers), private room, restricting ill visitors, strict hand hygiene, and avoiding invasive procedures when possible."
+    },
+    {
+      "id": 9,
+      "question": "Which client requires airborne precautions?",
+      "choices": [
+        "Client with influenza",
+        "Client with measles (rubeola)",
+        "Client with MRSA wound infection",
+        "Client with pertussis"
+      ],
+      "answer": "Client with measles (rubeola)",
+      "explanation": "Airborne precautions are required for diseases transmitted by small particles that remain suspended in air: tuberculosis, measles (rubeola), varicella (chickenpox), and disseminated zoster. Influenza and pertussis require droplet precautions."
+    },
+    {
+      "id": 10,
+      "question": "A nurse is preparing to start an IV. What is the most important infection prevention practice?",
+      "choices": [
+        "Wear sterile gloves",
+        "Use clean technique only",
+        "Clean the site with alcohol or chlorhexidine and allow to dry",
+        "Use the same gauze for site preparation and dressing"
+      ],
+      "answer": "Clean the site with alcohol or chlorhexidine and allow to dry",
+      "explanation": "Skin antisepsis with chlorhexidine (preferred) or alcohol is critical to prevent catheter-related bloodstream infections. The solution must be allowed to dry completely (usually 30 seconds) for maximum antimicrobial effect before catheter insertion."
+    },
+    {
+      "id": 11,
+      "question": "When caring for a client in restraints, the nurse should:",
+      "choices": [
+        "Check the client every 4 hours",
+        "Check the client and circulation every 2 hours",
+        "Remove restraints only at shift change",
+        "Tie the restraints to the side rails"
+      ],
+      "answer": "Check the client and circulation every 2 hours",
+      "explanation": "Restraints require frequent monitoring including checking circulation, skin integrity, range of motion, and toileting needs every 2 hours. Restraints are tied to the bed frame, not side rails. Restraints require a current physician order, renewed per facility policy."
+    },
+    {
+      "id": 12,
+      "question": "Which is the highest priority intervention to prevent falls in older adult clients?",
+      "choices": [
+        "Keep all side rails up",
+        "Conduct fall risk assessment and implement individualized interventions",
+        "Restrict client mobility",
+        "Place all clients in wheelchairs"
+      ],
+      "answer": "Conduct fall risk assessment and implement individualized interventions",
+      "explanation": "Fall prevention requires individualized assessment (Morse Fall Scale, Hendrich II) and targeted interventions: non-slip footwear, bed in low position, call light within reach, scheduled toileting, and bed alarms for high-risk clients. Side rails can be considered restraints."
+    },
+    {
+      "id": 13,
+      "question": "A client is receiving oxygen therapy via nasal cannula. Which safety measure is the most important?",
+      "choices": [
+        "Apply petroleum jelly to dry nostrils",
+        "Increase oxygen flow rate if the client complains of dyspnea",
+        "Ensure no smoking or open flames near the oxygen source",
+        "Disconnect oxygen during meals"
+      ],
+      "answer": "Ensure no smoking or open flames near the oxygen source",
+      "explanation": "Oxygen supports combustion. No smoking, open flames, or electrical equipment that could spark should be near the oxygen source. Use water-based lubricants (not petroleum) for dry nostrils. Oxygen flow rate is changed only per provider orders."
+    },
+    {
+      "id": 14,
+      "question": "Which patient safety event MUST be reported as a sentinel event?",
+      "choices": [
+        "A medication error caught before administration",
+        "Wrong-site surgery resulting in major harm",
+        "A patient fall without injury",
+        "A IV infiltration"
+      ],
+      "answer": "Wrong-site surgery resulting in major harm",
+      "explanation": "Sentinel events include unexpected occurrences involving death or serious physical/psychological injury. Examples: wrong-site surgery, infant abduction, unanticipated death, fall with significant injury. These require root cause analysis under Joint Commission standards."
+    },
+    {
+      "id": 15,
+      "question": "Which is the best method to identify a client before administering medication?",
+      "choices": [
+        "Calling the client by name",
+        "Using two identifiers: name and date of birth from the ID band",
+        "Checking the room number on the door",
+        "Asking the family to confirm identity"
+      ],
+      "answer": "Using two identifiers: name and date of birth from the ID band",
+      "explanation": "The Joint Commission requires two identifiers for client identification (typically name and date of birth or medical record number). Room numbers and provider name are NOT acceptable identifiers. ID bands must be verified directly, not by asking the client."
+    },
+    {
+      "id": 16,
+      "question": "When transferring a client from bed to chair, which is the best practice to prevent injury to both the nurse and client?",
+      "choices": [
+        "Lift the client straight up",
+        "Use a gait belt and proper body mechanics",
+        "Have the client transfer independently",
+        "Drag the client to the chair"
+      ],
+      "answer": "Use a gait belt and proper body mechanics",
+      "explanation": "Gait belts provide a secure grip for transfers. Proper body mechanics include wide stance, bent knees, straight back, using leg muscles (not back), and using assist devices when needed. Mechanical lifts are used for dependent clients. Two-person assists may be necessary."
+    },
+    {
+      "id": 17,
+      "question": "Which intervention prevents central line-associated bloodstream infections (CLABSI)?",
+      "choices": [
+        "Use the femoral site whenever possible",
+        "Change the dressing daily even if intact",
+        "Use maximum sterile barrier precautions during insertion",
+        "Replace catheters every 48 hours"
+      ],
+      "answer": "Use maximum sterile barrier precautions during insertion",
+      "explanation": "CLABSI bundle includes: hand hygiene, maximum sterile barrier precautions during insertion (cap, mask, sterile gown, sterile gloves, large drape), chlorhexidine skin antisepsis, avoiding femoral site in adults, and daily review of necessity."
+    },
+    {
+      "id": 18,
+      "question": "A nurse notices smoke coming from a trash can. Following RACE protocol, what is the nurse's FIRST action?",
+      "choices": [
+        "Activate the fire alarm",
+        "Confine the fire",
+        "Extinguish the fire",
+        "Rescue clients from immediate danger"
+      ],
+      "answer": "Rescue clients from immediate danger",
+      "explanation": "RACE: Rescue clients in immediate danger first, then Alarm (pull alarm/call code), Confine (close doors), Extinguish (if small/safe to do so). PASS for extinguisher use: Pull pin, Aim at base, Squeeze handle, Sweep side to side."
+    },
+    {
+      "id": 19,
+      "question": "Which environmental safety practice prevents injuries to clients with dementia?",
+      "choices": [
+        "Restrict all client movement to their rooms",
+        "Use bed alarms and identify high-risk wanderers",
+        "Lock all unit doors continuously",
+        "Sedate clients with confusion"
+      ],
+      "answer": "Use bed alarms and identify high-risk wanderers",
+      "explanation": "Safe environments for clients with dementia include bed/chair alarms, identification bracelets, secure but not locked units, supervised activities, regular toileting schedules, and avoiding restraints/sedation when possible. The goal is safety without restricting dignity."
+    },
+    {
+      "id": 20,
+      "question": "What is the nurse's responsibility when an incident occurs that results in client harm?",
+      "choices": [
+        "Tell the client what happened",
+        "Document the incident in the medical record only",
+        "Complete an incident report and notify the provider, client/family per policy",
+        "Wait for the supervisor to handle it"
+      ],
+      "answer": "Complete an incident report and notify the provider, client/family per policy",
+      "explanation": "Following an incident with harm: ensure client safety, notify provider, document facts in chart (not 'incident report filed'), complete incident report, follow facility disclosure policy. Many facilities now follow disclosure policies that include apologizing for medical errors."
+    },
+    {
+      "id": 21,
+      "question": "A client receiving total parenteral nutrition (TPN) at home asks why the bag should not be at room temperature for more than 24 hours. The nurse explains:",
+      "choices": [
+        "TPN becomes less effective",
+        "Bacterial growth can occur in the high-glucose solution",
+        "The medication crystallizes",
+        "It loses its color"
+      ],
+      "answer": "Bacterial growth can occur in the high-glucose solution",
+      "explanation": "TPN's high glucose content supports rapid bacterial growth at room temperature. Bags are refrigerated until use and changed every 24 hours. Lipid emulsions also have growth potential and must be infused within specific timeframes."
+    },
+    {
+      "id": 22,
+      "question": "When working with biological hazardous materials, what is the nurse's most important safety practice?",
+      "choices": [
+        "Wear scrubs daily",
+        "Use appropriate PPE based on the hazard and follow facility protocols",
+        "Avoid hazardous areas",
+        "Trust the cleaning crew"
+      ],
+      "answer": "Use appropriate PPE based on the hazard and follow facility protocols",
+      "explanation": "OSHA's Bloodborne Pathogens Standard requires appropriate PPE based on exposure risk. Universal precautions assume all body fluids are infectious. PPE selection depends on the procedure: gloves, masks, gowns, eye protection. Proper donning/doffing prevents contamination."
+    },
+    {
+      "id": 23,
+      "question": "Which is the most effective method to prevent catheter-associated urinary tract infections (CAUTIs)?",
+      "choices": [
+        "Use larger catheter sizes",
+        "Insert catheters only when truly necessary and remove ASAP",
+        "Irrigate the catheter daily",
+        "Use prophylactic antibiotics"
+      ],
+      "answer": "Insert catheters only when truly necessary and remove ASAP",
+      "explanation": "CAUTI prevention bundle: avoid unnecessary catheter use, daily review for removal, aseptic insertion, maintain closed system, keep drainage bag below bladder level, secure to leg. Each day of catheter use increases CAUTI risk by 3-7%."
+    },
+    {
+      "id": 24,
+      "question": "A client experiences a seizure. What is the nurse's priority action?",
+      "choices": [
+        "Restrain the client to prevent injury",
+        "Place an object in the client's mouth",
+        "Protect the head and turn the client on their side",
+        "Hold the client down forcefully"
+      ],
+      "answer": "Protect the head and turn the client on their side",
+      "explanation": "During seizures: protect from injury (especially head), turn to side to maintain airway and prevent aspiration, time the seizure, never restrain or insert objects into mouth. Document onset, duration, type of movements, and post-ictal state."
+    },
+    {
+      "id": 25,
+      "question": "A nurse notices that a patient's identification bracelet is unreadable. What is the appropriate action?",
+      "choices": [
+        "Ask the patient what their name is and continue care",
+        "Replace the bracelet immediately and verify identity with two identifiers",
+        "Use the room number for identification",
+        "Continue care since the patient is alert"
+      ],
+      "answer": "Replace the bracelet immediately and verify identity with two identifiers",
+      "explanation": "Patient identification must be verifiable at all times. Damaged or missing ID bands must be replaced immediately after verifying identity using two identifiers per facility policy. Never use room numbers or asking patients alone for high-risk situations."
+    },
+    {
+      "id": 26,
+      "question": "A nurse is performing wound care. Which is sterile technique?",
+      "choices": [
+        "Reaching across the sterile field",
+        "Touching the inside of the sterile glove with bare hands",
+        "Keeping the sterile field within the visual field at all times",
+        "Coughing or sneezing over the sterile field"
+      ],
+      "answer": "Keeping the sterile field within the visual field at all times",
+      "explanation": "Sterile technique principles: keep sterile field in view (turn back = contaminated), only sterile touches sterile, 1-inch border of sterile field is non-sterile, item below waist or behind back is non-sterile, don't cough/sneeze/reach over the field."
+    },
+    {
+      "id": 27,
+      "question": "A nurse is preparing to administer a medication. The label is partially torn off. What should the nurse do?",
+      "choices": [
+        "Use the medication anyway since it's clearly the right one",
+        "Discard the medication and obtain a new properly labeled supply",
+        "Tape the label back on and use the medication",
+        "Have a coworker verify the medication"
+      ],
+      "answer": "Discard the medication and obtain a new properly labeled supply",
+      "explanation": "Medications with damaged, missing, or unreadable labels must never be administered. The medication is discarded properly (controlled substances per protocol) and a new supply obtained with intact, readable labeling."
+    },
+    {
+      "id": 28,
+      "question": "When caring for a client in protective isolation due to severe immunosuppression, which is appropriate?",
+      "choices": [
+        "Allow flowers in the room",
+        "Use positive pressure room with HEPA filtration",
+        "Allow visits from anyone willing",
+        "No private room is needed"
+      ],
+      "answer": "Use positive pressure room with HEPA filtration",
+      "explanation": "Protective isolation (reverse isolation) protects severely immunocompromised clients (HSCT recipients) using positive pressure rooms with HEPA filtration. The pressure differential keeps contaminated air out. No fresh flowers, raw vegetables, or sick visitors permitted."
+    },
+    {
+      "id": 29,
+      "question": "Which is the proper temperature range for refrigerator storage of medications and vaccines?",
+      "choices": [
+        "32-36°F (0-2°C)",
+        "36-46°F (2-8°C)",
+        "50-60°F (10-15°C)",
+        "70-75°F (21-24°C)"
+      ],
+      "answer": "36-46°F (2-8°C)",
+      "explanation": "Vaccines and many medications require storage at 36-46°F (2-8°C). Temperature monitoring with continuous logs is required. Excursions outside this range can render medications ineffective or unsafe. Frozen vaccines have separate temperature requirements."
+    },
+    {
+      "id": 30,
+      "question": "A pregnant nurse is assigned to care for clients on the unit. Which client should the pregnant nurse NOT be assigned to?",
+      "choices": [
+        "A client with hypertension",
+        "A client with diabetes mellitus",
+        "A client receiving cytotoxic chemotherapy",
+        "A client recovering from surgery"
+      ],
+      "answer": "A client receiving cytotoxic chemotherapy",
+      "explanation": "Pregnant nurses should avoid administration of cytotoxic chemotherapy due to potential teratogenic effects. Some facilities also restrict caring for clients with rubella, CMV, or receiving radiation therapy. Pregnant nurses should discuss accommodations with their employer."
+    },
+    {
+      "id": 31,
+      "question": "Which intervention prevents pressure injuries in immobile clients?",
+      "choices": [
+        "Massaging reddened areas",
+        "Repositioning every 8 hours",
+        "Repositioning every 2 hours and using pressure-reducing surfaces",
+        "Applying heating pads to bony prominences"
+      ],
+      "answer": "Repositioning every 2 hours and using pressure-reducing surfaces",
+      "explanation": "Pressure injury prevention: reposition every 2 hours, use pressure-reducing mattresses, keep skin clean and dry, manage moisture, optimize nutrition. Never massage reddened areas as it can damage tissue. Use lift sheets (not dragging) to prevent shearing."
+    },
+    {
+      "id": 32,
+      "question": "A nurse identifies that a client has potential for self-harm. Which environmental safety measure is most important?",
+      "choices": [
+        "Allow only family members to visit",
+        "Remove potentially harmful objects (sharps, cords, plastic bags)",
+        "Keep all doors locked",
+        "Restrain the client preemptively"
+      ],
+      "answer": "Remove potentially harmful objects (sharps, cords, plastic bags)",
+      "explanation": "Suicide precautions include removing potential weapons (sharps, glass, cords, plastic bags), continuous observation if needed, locked windows, and frequent reassessment. The Joint Commission's National Patient Safety Goals address suicide prevention in healthcare settings."
+    },
+    {
+      "id": 33,
+      "question": "When following standard precautions, which item is the nurse always considered to potentially be contaminated?",
+      "choices": [
+        "The client's hand",
+        "The client's gown",
+        "All body fluids except sweat",
+        "The bed linens"
+      ],
+      "answer": "All body fluids except sweat",
+      "explanation": "Standard precautions assume all blood and body fluids (except sweat) are potentially infectious, regardless of suspected infection status. This includes blood, urine, feces, vomit, saliva, semen, vaginal secretions, amniotic fluid, and any fluid with visible blood."
+    },
+    {
+      "id": 34,
+      "question": "A client suddenly becomes combative and confused. Which medication may be ordered to manage acute agitation?",
+      "choices": [
+        "Lorazepam or haloperidol",
+        "Acetaminophen",
+        "Ibuprofen",
+        "Furosemide"
+      ],
+      "answer": "Lorazepam or haloperidol",
+      "explanation": "Acute agitation may be managed with benzodiazepines (lorazepam) or antipsychotics (haloperidol). Underlying causes must be assessed: pain, hypoxia, delirium, infection, medication reactions. Chemical restraints have the same monitoring requirements as physical restraints."
+    },
+    {
+      "id": 35,
+      "question": "A nurse notices that the medication closet door has been left unlocked. What is the appropriate immediate action?",
+      "choices": [
+        "Ignore it; the medications are in the cabinet",
+        "Close and lock the door, then notify charge nurse and document",
+        "Wait for someone else to lock it",
+        "Leave it open since it's needed for patient care"
+      ],
+      "answer": "Close and lock the door, then notify charge nurse and document",
+      "explanation": "Medication security is critical for patient safety and regulatory compliance. Unsecured medications can lead to diversion, errors, and harm. Immediate action is required: secure the area, report through appropriate channels, and document the incident."
+    },
+    {
+      "id": 36,
+      "question": "When teaching a client about home safety, which is most important for an elderly client at risk for falls?",
+      "choices": [
+        "Use throw rugs throughout the home",
+        "Install grab bars, adequate lighting, and remove tripping hazards",
+        "Move all furniture against the walls",
+        "Sleep with all lights on"
+      ],
+      "answer": "Install grab bars, adequate lighting, and remove tripping hazards",
+      "explanation": "Home fall prevention for elderly: remove throw rugs and clutter, install grab bars in bathrooms, ensure adequate lighting (especially nightlights), wear non-slip footwear, keep frequently used items at reach, use assistive devices as prescribed, and review medications for fall risk."
+    },
+    {
+      "id": 37,
+      "question": "Which client requires assistance with daily bathing as the highest infection prevention priority?",
+      "choices": [
+        "A client with stable type 2 diabetes",
+        "A client with a central venous catheter",
+        "A client recovering from elective surgery",
+        "A client with stable hypertension"
+      ],
+      "answer": "A client with a central venous catheter",
+      "explanation": "Daily bathing with chlorhexidine wipes for clients with central lines is an evidence-based practice that reduces CLABSI. The CDC and IHI recommend daily CHG bathing as part of central line care bundles, especially in ICU settings."
+    },
+    {
+      "id": 38,
+      "question": "A nurse is teaching a client about emergency preparedness. Which item is essential in an emergency kit?",
+      "choices": [
+        "Cash credit card",
+        "Three days of water, food, medications, and important documents",
+        "All electronic devices charged",
+        "A car ready to drive"
+      ],
+      "answer": "Three days of water, food, medications, and important documents",
+      "explanation": "Emergency preparedness kits should include 72 hours of water (1 gallon per person per day), non-perishable food, prescription medications, first aid supplies, flashlights, batteries, important documents (in waterproof container), emergency contacts, and special needs supplies."
+    },
+    {
+      "id": 39,
+      "question": "A nurse is preparing a client for an MRI. What is the priority safety assessment?",
+      "choices": [
+        "Allergies to seafood",
+        "Presence of metal implants, pacemakers, or other ferromagnetic objects",
+        "Pregnancy status only",
+        "Recent meals"
+      ],
+      "answer": "Presence of metal implants, pacemakers, or other ferromagnetic objects",
+      "explanation": "MRI uses powerful magnets that can move metal objects, potentially causing injury or death. Strict screening for pacemakers (newer ones may be MRI-safe), aneurysm clips, metal fragments, cochlear implants, and other ferromagnetic objects is essential before MRI."
+    },
+    {
+      "id": 40,
+      "question": "Which intervention prevents ventilator-associated pneumonia (VAP)?",
+      "choices": [
+        "Position the client flat",
+        "Elevate the head of the bed 30-45 degrees",
+        "Suction every 30 minutes",
+        "Use oral care every 24 hours"
+      ],
+      "answer": "Elevate the head of the bed 30-45 degrees",
+      "explanation": "VAP prevention bundle: head of bed elevated 30-45 degrees, oral care with chlorhexidine every 2-4 hours, daily sedation interruption and readiness to extubate assessment, peptic ulcer disease prophylaxis, deep vein thrombosis prophylaxis."
+    },
+    {
+      "id": 41,
+      "question": "A nurse is teaching a young mother about car seat safety. Which is the most appropriate guidance?",
+      "choices": [
+        "Place the car seat in the front passenger seat",
+        "Use a rear-facing car seat in the back seat until at least age 2 or as long as height/weight allows",
+        "Move to a forward-facing seat at 6 months",
+        "Use the seat belt without a booster after age 4"
+      ],
+      "answer": "Use a rear-facing car seat in the back seat until at least age 2 or as long as height/weight allows",
+      "explanation": "AAP recommends rear-facing car seats until at least age 2 or until the child reaches the maximum height/weight allowed by the seat manufacturer (typically 40 lbs). Car seats should always be in the back seat. Front airbags are dangerous for children."
+    },
+    {
+      "id": 42,
+      "question": "When preparing chemotherapy for administration, which safety measure is required?",
+      "choices": [
+        "Wear standard PPE",
+        "Use a closed-system transfer device and PPE including chemo gown, gloves, mask, and goggles",
+        "Prepare in any clean area",
+        "Disposing in regular trash"
+      ],
+      "answer": "Use a closed-system transfer device and PPE including chemo gown, gloves, mask, and goggles",
+      "explanation": "Hazardous drug handling requires: USP 800 compliance, biological safety cabinet or compounding aseptic containment isolator, double chemo gloves, chemo gown, mask, goggles, closed-system transfer devices, dedicated disposal containers, spill kits readily available."
+    },
+    {
+      "id": 43,
+      "question": "Which client is at HIGHEST risk for medication errors?",
+      "choices": [
+        "An adult client receiving one PO medication",
+        "An elderly client receiving multiple medications",
+        "A teenager receiving acetaminophen",
+        "An adult on routine birth control"
+      ],
+      "answer": "An elderly client receiving multiple medications",
+      "explanation": "Elderly clients on polypharmacy (multiple medications) are at highest risk for errors due to: complex regimens, drug interactions, age-related pharmacokinetics, cognitive changes affecting adherence, multiple prescribers, and over-the-counter additions. Medication reconciliation is critical."
+    },
+    {
+      "id": 44,
+      "question": "A client states they are allergic to latex. Which item must be avoided?",
+      "choices": [
+        "Stainless steel forceps",
+        "Glass syringes",
+        "Standard latex gloves and rubber tourniquets",
+        "Wood tongue depressors"
+      ],
+      "answer": "Standard latex gloves and rubber tourniquets",
+      "explanation": "Latex allergies require avoidance of latex products: latex gloves, rubber catheters, tourniquets, IV ports, blood pressure cuffs with latex bladders. Use non-latex (nitrile, vinyl) alternatives. Severe latex allergies can cause anaphylaxis. The ID band should clearly note the allergy."
+    },
+    {
+      "id": 45,
+      "question": "Which is the proper disposal of needles after use?",
+      "choices": [
+        "Recap and place in regular trash",
+        "Bend the needle and discard in biohazard bag",
+        "Discard immediately in puncture-resistant sharps container without recapping",
+        "Save for cleaning and reuse"
+      ],
+      "answer": "Discard immediately in puncture-resistant sharps container without recapping",
+      "explanation": "OSHA requires immediate disposal of used needles in puncture-resistant sharps containers without recapping (which causes needlesticks). Containers should be replaced when 3/4 full. Engineering controls (safety needles, self-sheathing devices) further reduce risks."
+    },
+    {
+      "id": 46,
+      "question": "A client receiving blood transfusion develops hives but no other symptoms. What is the nurse's appropriate response?",
+      "choices": [
+        "Continue the transfusion at the same rate",
+        "Slow the transfusion and notify provider; may give antihistamine and continue if no progression",
+        "Stop the transfusion permanently",
+        "Increase the transfusion rate"
+      ],
+      "answer": "Slow the transfusion and notify provider; may give antihistamine and continue if no progression",
+      "explanation": "Mild allergic reactions (hives only) during transfusion: slow the infusion, notify provider, administer antihistamine as ordered, monitor closely. If symptoms progress (respiratory, hypotension), stop transfusion. Hemolytic reactions (fever, back pain, chills) require immediate cessation."
+    },
+    {
+      "id": 47,
+      "question": "Which is the most appropriate action to prevent injury when caring for a client with confusion who is trying to remove an IV?",
+      "choices": [
+        "Apply physical restraints immediately",
+        "Cover the IV with a long sleeve or specialized mitt and provide one-on-one observation",
+        "Sedate the client",
+        "Allow the client to remove the IV"
+      ],
+      "answer": "Cover the IV with a long sleeve or specialized mitt and provide one-on-one observation",
+      "explanation": "Least restrictive interventions are tried first: covering IV with sleeves, mitts to prevent pulling, family at bedside, distraction, frequent reorientation, sitter, addressing underlying causes (pain, hypoxia, full bladder, infection). Restraints require orders and have strict monitoring requirements."
+    },
+    {
+      "id": 48,
+      "question": "What is the proper technique when using an N95 respirator?",
+      "choices": [
+        "Use the same respirator for multiple shifts",
+        "Perform a fit check each time it's donned and discard if damaged or contaminated",
+        "Share respirators between similar-sized staff",
+        "Wear over a beard"
+      ],
+      "answer": "Perform a fit check each time it's donned and discard if damaged or contaminated",
+      "explanation": "N95 respirators require: annual fit testing, seal/fit check with each use, no facial hair interfering with the seal, single-use unless reuse protocols are in place, replacement when damaged/contaminated/wet. Failure to fit properly compromises protection."
+    },
+    {
+      "id": 49,
+      "question": "A nurse witnesses a client fall. After ensuring the client is stable, what is the next priority action?",
+      "choices": [
+        "Help the client back into bed",
+        "Assess for injuries and notify the provider",
+        "Document only the fall happened",
+        "Call security"
+      ],
+      "answer": "Assess for injuries and notify the provider",
+      "explanation": "Post-fall protocol: do not move client until assessed for injuries (especially head, hip, spine), check vital signs and neurological status, notify provider, document factually, complete incident report, implement post-fall huddle to identify root causes."
+    },
+    {
+      "id": 50,
+      "question": "The nurse is teaching a client about safe medication storage at home. Which instruction is most important?",
+      "choices": [
+        "Keep medications in the bathroom medicine cabinet",
+        "Store medications in their original containers, in a cool dry place, out of reach of children",
+        "Mix all medications in one bottle for convenience",
+        "Refrigerate all medications"
+      ],
+      "answer": "Store medications in their original containers, in a cool dry place, out of reach of children",
+      "explanation": "Safe medication storage: original labeled containers, cool dry place (NOT bathroom due to humidity), out of children's reach (high cabinet, locked container), check expiration dates regularly, dispose of unused medications properly via take-back programs."
+    }
+  ]
+}

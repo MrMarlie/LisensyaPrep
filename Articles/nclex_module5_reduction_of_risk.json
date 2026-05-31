@@ -1,0 +1,606 @@
+{
+  "module": "Module 5 - Reduction of Risk Potential",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which laboratory value indicates the need for immediate intervention in a client with chronic kidney disease?",
+      "choices": [
+        "Serum creatinine 1.5 mg/dL",
+        "Serum potassium 6.5 mEq/L",
+        "Hemoglobin 11 g/dL",
+        "BUN 25 mg/dL"
+      ],
+      "answer": "Serum potassium 6.5 mEq/L",
+      "explanation": "Normal potassium is 3.5-5.0 mEq/L. A level of 6.5 is severe hyperkalemia, life-threatening due to risk of cardiac dysrhythmias including ventricular fibrillation. Immediate treatment includes calcium gluconate, insulin/glucose, and possibly dialysis."
+    },
+    {
+      "id": 2,
+      "question": "A client's INR is 5.5. The client is on warfarin therapy. The nurse anticipates:",
+      "choices": [
+        "Increasing the warfarin dose",
+        "Holding warfarin and administering vitamin K",
+        "Continuing the current dose",
+        "Adding heparin"
+      ],
+      "answer": "Holding warfarin and administering vitamin K",
+      "explanation": "Therapeutic INR is 2.0-3.0 for most indications. An INR of 5.5 indicates significant bleeding risk. Treatment depends on bleeding severity: hold warfarin, oral or IV vitamin K, fresh frozen plasma or prothrombin complex concentrate for serious bleeding."
+    },
+    {
+      "id": 3,
+      "question": "A client's serum sodium is 118 mEq/L. The nurse identifies this as:",
+      "choices": [
+        "Normal sodium level",
+        "Severe hyponatremia at risk for seizures",
+        "Mild hypernatremia",
+        "Acceptable level"
+      ],
+      "answer": "Severe hyponatremia at risk for seizures",
+      "explanation": "Normal sodium is 135-145 mEq/L. Severe hyponatremia (<125) can cause cerebral edema, seizures, and coma. Treatment varies based on volume status: fluid restriction for SIADH, sodium replacement for true hyponatremia. Correction must be slow (<12 mEq/L in 24 hours) to prevent central pontine myelinolysis."
+    },
+    {
+      "id": 4,
+      "question": "A client receiving heparin has an aPTT of 90 seconds. The control value is 30 seconds. The nurse interprets this as:",
+      "choices": [
+        "Therapeutic level achieved",
+        "aPTT too high; increased bleeding risk",
+        "aPTT too low; need to increase heparin",
+        "Within normal limits"
+      ],
+      "answer": "aPTT too high; increased bleeding risk",
+      "explanation": "Therapeutic heparin aPTT is 1.5-2.5 times the control (so 45-75 seconds with control of 30). An aPTT of 90 (3 times control) is supratherapeutic, indicating bleeding risk. The heparin dose should be reduced or held. Protamine sulfate is the antidote if needed."
+    },
+    {
+      "id": 5,
+      "question": "Which finding is consistent with a positive troponin level?",
+      "choices": [
+        "Normal cardiac function",
+        "Myocardial injury or infarction",
+        "Liver dysfunction",
+        "Kidney failure"
+      ],
+      "answer": "Myocardial injury or infarction",
+      "explanation": "Troponin I and T are specific to cardiac muscle. Elevated troponin indicates myocardial injury, with significant elevation suggesting MI. Troponin rises 3-4 hours after MI, peaks at 12-24 hours, and remains elevated for 7-14 days. Highly sensitive assays detect smaller infarcts."
+    },
+    {
+      "id": 6,
+      "question": "A client's hemoglobin A1C is 9.5%. The nurse recognizes this indicates:",
+      "choices": [
+        "Excellent diabetes control",
+        "Pre-diabetes",
+        "Poor long-term glucose control (average glucose ~225 mg/dL)",
+        "Normal blood glucose"
+      ],
+      "answer": "Poor long-term glucose control (average glucose ~225 mg/dL)",
+      "explanation": "Hemoglobin A1C reflects average blood glucose over 2-3 months. Target for most diabetics is <7%. 9.5% suggests poor control. Approximate conversion: A1C 6 = 126, A1C 7 = 154, A1C 8 = 183, A1C 9 = 212, A1C 10 = 240. Modifications to therapy and education are needed."
+    },
+    {
+      "id": 7,
+      "question": "Before a contrast CT scan, the nurse should assess for:",
+      "choices": [
+        "Recent meals only",
+        "Allergies to shellfish or iodine, and renal function (creatinine)",
+        "Blood pressure only",
+        "Recent travel"
+      ],
+      "answer": "Allergies to shellfish or iodine, and renal function (creatinine)",
+      "explanation": "Iodinated contrast risks: allergic reactions (assess shellfish/iodine allergy, prior reactions), contrast-induced nephropathy (assess renal function, hold metformin temporarily). Hydration before and after helps prevent kidney injury. Premedication with steroids and antihistamines for prior reactions."
+    },
+    {
+      "id": 8,
+      "question": "A client is scheduled for a colonoscopy. What is the most important teaching point?",
+      "choices": [
+        "Have a heavy meal before the procedure",
+        "Complete bowel preparation as prescribed and have NPO status",
+        "Take regular medications without interruption",
+        "Drive yourself home after"
+      ],
+      "answer": "Complete bowel preparation as prescribed and have NPO status",
+      "explanation": "Colonoscopy preparation: clear liquid diet day before, bowel prep solution (polyethylene glycol), NPO after midnight. Complete preparation is essential for adequate visualization. Anticoagulants and antiplatelets may need to be held. Sedation requires accompaniment home; client cannot drive."
+    },
+    {
+      "id": 9,
+      "question": "After a thoracentesis, which finding requires immediate intervention?",
+      "choices": [
+        "Mild pain at the insertion site",
+        "Sudden dyspnea and decreased breath sounds",
+        "Slight cough",
+        "Anxiety about the procedure"
+      ],
+      "answer": "Sudden dyspnea and decreased breath sounds",
+      "explanation": "Pneumothorax is a serious complication of thoracentesis. Sudden dyspnea, decreased breath sounds, hyperresonance to percussion, tracheal deviation, and tachycardia suggest pneumothorax. Treatment may require chest tube insertion. Post-procedure chest X-ray rules this out."
+    },
+    {
+      "id": 10,
+      "question": "A client's platelet count is 50,000/mm³. The nurse should:",
+      "choices": [
+        "Encourage vigorous exercise",
+        "Implement bleeding precautions",
+        "Promote use of dental floss",
+        "Administer aspirin for pain"
+      ],
+      "answer": "Implement bleeding precautions",
+      "explanation": "Normal platelets are 150,000-400,000/mm³. With platelets <50,000, bleeding precautions are needed: soft toothbrush, electric razor, avoid IM injections, no aspirin/NSAIDs, watch for petechiae, bleeding gums, hematuria, melena. <20,000 has high risk of spontaneous bleeding."
+    },
+    {
+      "id": 11,
+      "question": "A client is receiving total parenteral nutrition (TPN). Which assessment is the highest priority?",
+      "choices": [
+        "Skin temperature",
+        "Blood glucose monitoring",
+        "Range of motion",
+        "Speech assessment"
+      ],
+      "answer": "Blood glucose monitoring",
+      "explanation": "TPN contains 25-50% dextrose, causing hyperglycemia. Frequent blood glucose monitoring (every 4-6 hours) is essential. Insulin may be needed. Other complications: hypoglycemia if abrupt discontinuation, infections (catheter-related), electrolyte imbalances, refeeding syndrome in malnourished clients."
+    },
+    {
+      "id": 12,
+      "question": "Before administering digoxin, the nurse should check which laboratory value?",
+      "choices": [
+        "Sodium level",
+        "Serum potassium level",
+        "BUN only",
+        "Hemoglobin"
+      ],
+      "answer": "Serum potassium level",
+      "explanation": "Hypokalemia increases the risk of digoxin toxicity and dysrhythmias. Normal potassium (3.5-5.0) is essential for safe digoxin therapy. Therapeutic digoxin: 0.5-2.0 ng/mL. Toxicity signs: nausea, visual changes (yellow halos), dysrhythmias, bradycardia."
+    },
+    {
+      "id": 13,
+      "question": "Following a cardiac catheterization with femoral access, the nurse should monitor for:",
+      "choices": [
+        "Bleeding at the insertion site and distal pulse, color, temperature",
+        "Bowel movements",
+        "Vision changes",
+        "Speech clarity"
+      ],
+      "answer": "Bleeding at the insertion site and distal pulse, color, temperature",
+      "explanation": "Post-catheterization care includes monitoring the access site for bleeding/hematoma, checking distal pulses (pedal, posterior tibial), capillary refill, temperature, and color. Bedrest with affected leg straight for 4-6 hours. Hematoma, retroperitoneal bleeding, and pseudoaneurysm are complications."
+    },
+    {
+      "id": 14,
+      "question": "A client's serum calcium is 12.5 mg/dL. The nurse identifies this as:",
+      "choices": [
+        "Normal calcium",
+        "Hypercalcemia at risk for cardiac dysrhythmias",
+        "Hypocalcemia at risk for tetany",
+        "Below normal range"
+      ],
+      "answer": "Hypercalcemia at risk for cardiac dysrhythmias",
+      "explanation": "Normal calcium is 8.5-10.5 mg/dL. Hypercalcemia (>10.5) can cause cardiac dysrhythmias, weakness, constipation, kidney stones, and altered mental status. Common causes: malignancy, hyperparathyroidism. Treatment: hydration with normal saline, bisphosphonates, calcitonin for severe cases."
+    },
+    {
+      "id": 15,
+      "question": "After a paracentesis, which assessment is the priority?",
+      "choices": [
+        "Vital signs and signs of hypovolemia",
+        "Bowel sounds only",
+        "Skin integrity",
+        "Range of motion"
+      ],
+      "answer": "Vital signs and signs of hypovolemia",
+      "explanation": "Large-volume paracentesis (>5L) can cause hemodynamic instability due to rapid fluid shifts. Monitor blood pressure, heart rate, and signs of hypovolemia. Albumin may be administered to maintain intravascular volume. Other complications: bleeding, perforation, infection."
+    },
+    {
+      "id": 16,
+      "question": "A client's WBC is 18,000/mm³. The nurse interprets this as:",
+      "choices": [
+        "Normal WBC",
+        "Leukocytosis suggesting infection or inflammation",
+        "Leukopenia",
+        "Bone marrow failure"
+      ],
+      "answer": "Leukocytosis suggesting infection or inflammation",
+      "explanation": "Normal WBC is 4,500-11,000/mm³. Elevation (leukocytosis) suggests infection, inflammation, leukemia, or stress response. The differential helps identify cause: neutrophilia (bacterial infection), lymphocytosis (viral), eosinophilia (allergies, parasites). Low WBC (leukopenia) increases infection risk."
+    },
+    {
+      "id": 17,
+      "question": "Before administering chemotherapy, which laboratory value is most important to verify?",
+      "choices": [
+        "Hemoglobin only",
+        "Absolute neutrophil count, platelets, and creatinine",
+        "Glucose level",
+        "Cholesterol levels"
+      ],
+      "answer": "Absolute neutrophil count, platelets, and creatinine",
+      "explanation": "Chemotherapy can cause severe myelosuppression. ANC <1000 increases infection risk; <500 is severe neutropenia. Platelets <100,000 increase bleeding risk. Creatinine indicates renal function for drug elimination. Dose adjustments or treatment delays may be necessary."
+    },
+    {
+      "id": 18,
+      "question": "A pulse oximetry reading shows SpO2 of 84% on room air. The nurse should:",
+      "choices": [
+        "Continue routine monitoring",
+        "Apply supplemental oxygen and assess respiratory status",
+        "Document and recheck in an hour",
+        "Have the client lie flat"
+      ],
+      "answer": "Apply supplemental oxygen and assess respiratory status",
+      "explanation": "SpO2 <90% indicates hypoxemia requiring intervention. Apply oxygen, assess airway, breathing, level of consciousness. Position upright (Fowler's) to facilitate breathing. Notify provider. Goal SpO2: 92-100% (88-92% for COPD). Investigate cause: pneumonia, pulmonary embolism, heart failure."
+    },
+    {
+      "id": 19,
+      "question": "A client is scheduled for an MRI. Which information is most important to obtain?",
+      "choices": [
+        "Recent dietary intake",
+        "Presence of metal implants, pacemakers, or claustrophobia",
+        "Family history",
+        "Current medications only"
+      ],
+      "answer": "Presence of metal implants, pacemakers, or claustrophobia",
+      "explanation": "MRI uses powerful magnets. Contraindications include older pacemakers, aneurysm clips, cochlear implants, metal fragments in eyes. Some newer pacemakers are MRI-conditional. Claustrophobia may require sedation. Tattoos, piercings, and embedded metal must be assessed."
+    },
+    {
+      "id": 20,
+      "question": "A client's prothrombin time (PT) is significantly prolonged. This finding may indicate:",
+      "choices": [
+        "Excellent blood clotting",
+        "Liver disease, vitamin K deficiency, or warfarin therapy",
+        "Iron deficiency",
+        "Thyroid dysfunction"
+      ],
+      "answer": "Liver disease, vitamin K deficiency, or warfarin therapy",
+      "explanation": "PT measures the extrinsic clotting pathway and vitamin K-dependent factors. Prolonged PT can result from warfarin therapy, vitamin K deficiency, liver disease, or DIC. PT is reported as INR for standardization. Therapeutic INR for most warfarin indications: 2.0-3.0."
+    },
+    {
+      "id": 21,
+      "question": "A client undergoes a bone marrow biopsy. Following the procedure, what is the priority assessment?",
+      "choices": [
+        "Bowel movements",
+        "Bleeding at the puncture site",
+        "Range of motion",
+        "Speech assessment"
+      ],
+      "answer": "Bleeding at the puncture site",
+      "explanation": "Bone marrow biopsies require pressure dressings and monitoring for bleeding. Posterior iliac crest is most common site. Pain, bleeding, hematoma, and infection are complications. Clients should lie on the side of biopsy for 1-2 hours to maintain pressure."
+    },
+    {
+      "id": 22,
+      "question": "Which laboratory value indicates effective heparin therapy?",
+      "choices": [
+        "Platelet count of 50,000",
+        "aPTT 1.5-2.5 times the control",
+        "Normal hemoglobin",
+        "Normal INR"
+      ],
+      "answer": "aPTT 1.5-2.5 times the control",
+      "explanation": "Therapeutic heparin: aPTT 1.5-2.5 times control (typically 60-80 seconds). Anti-Xa levels can also be used. Monitor for HIT (sudden drop in platelets), bleeding signs. Protamine sulfate is the antidote. LMWH (enoxaparin) usually doesn't require monitoring except in renal failure."
+    },
+    {
+      "id": 23,
+      "question": "A client is receiving an MRI with gadolinium contrast. Which condition warrants caution?",
+      "choices": [
+        "History of stroke",
+        "Chronic kidney disease (eGFR <30)",
+        "Mild hypertension",
+        "Type 2 diabetes"
+      ],
+      "answer": "Chronic kidney disease (eGFR <30)",
+      "explanation": "Gadolinium-based contrast in severe renal disease can cause nephrogenic systemic fibrosis (NSF), a rare but serious condition with skin thickening, joint contractures, and multi-organ fibrosis. Risk is highest with eGFR <30. Newer gadolinium agents have lower risk."
+    },
+    {
+      "id": 24,
+      "question": "After endoscopic retrograde cholangiopancreatography (ERCP), the nurse monitors for:",
+      "choices": [
+        "Diarrhea",
+        "Severe abdominal pain, fever (suggesting pancreatitis or perforation)",
+        "Excessive urination",
+        "Vision changes"
+      ],
+      "answer": "Severe abdominal pain, fever (suggesting pancreatitis or perforation)",
+      "explanation": "ERCP complications: pancreatitis (most common), bleeding, perforation, cholangitis, infection. Severe abdominal pain post-procedure requires immediate evaluation. Lipase and amylase levels assist diagnosis. NPO is maintained for several hours after procedure due to sedation."
+    },
+    {
+      "id": 25,
+      "question": "A client's BNP (B-type natriuretic peptide) is 1200 pg/mL. This finding indicates:",
+      "choices": [
+        "Normal cardiac function",
+        "Heart failure",
+        "Dehydration",
+        "Healthy heart"
+      ],
+      "answer": "Heart failure",
+      "explanation": "BNP is released by ventricular myocytes in response to stretch from fluid overload. Levels >400 pg/mL suggest heart failure. BNP helps differentiate cardiac from pulmonary causes of dyspnea and guides treatment. Higher levels indicate more severe disease."
+    },
+    {
+      "id": 26,
+      "question": "A client with diabetes is scheduled for surgery. The nurse should:",
+      "choices": [
+        "Hold all diabetes medications",
+        "Coordinate insulin and oral hypoglycemic adjustments with the provider",
+        "Give a full dose of insulin",
+        "Restrict glucose monitoring"
+      ],
+      "answer": "Coordinate insulin and oral hypoglycemic adjustments with the provider",
+      "explanation": "Diabetic clients require careful glucose management perioperatively. Long-acting insulin may continue at reduced dose; short-acting held while NPO. Metformin held 24-48 hours before. Frequent glucose monitoring. IV insulin protocols for tight control during major surgery."
+    },
+    {
+      "id": 27,
+      "question": "Which finding warrants holding metformin?",
+      "choices": [
+        "Stable blood pressure",
+        "Creatinine of 2.5 mg/dL or scheduled contrast study",
+        "Headache",
+        "Normal blood glucose"
+      ],
+      "answer": "Creatinine of 2.5 mg/dL or scheduled contrast study",
+      "explanation": "Metformin is contraindicated in renal impairment (eGFR <30) due to risk of lactic acidosis. It should be held 24-48 hours before and after iodinated contrast. Other contraindications: hepatic failure, heart failure (acute), severe hypoxia, alcoholism. Lactic acidosis is rare but serious."
+    },
+    {
+      "id": 28,
+      "question": "After cardiac catheterization, a client develops sudden severe back pain and a drop in blood pressure. The nurse suspects:",
+      "choices": [
+        "Anxiety",
+        "Retroperitoneal hemorrhage",
+        "Indigestion",
+        "Muscle spasm"
+      ],
+      "answer": "Retroperitoneal hemorrhage",
+      "explanation": "Retroperitoneal hemorrhage is a serious complication of femoral catheterization. Symptoms: severe back/flank pain, hypotension, tachycardia, decreased hemoglobin. Requires immediate intervention with fluid resuscitation, possible transfusion, and surgical/interventional consultation."
+    },
+    {
+      "id": 29,
+      "question": "A client's serum magnesium is 1.0 mg/dL. The nurse anticipates which finding?",
+      "choices": [
+        "Bradycardia",
+        "Tetany, tremors, and dysrhythmias",
+        "Hypertension",
+        "Increased reflexes"
+      ],
+      "answer": "Tetany, tremors, and dysrhythmias",
+      "explanation": "Normal magnesium is 1.8-2.6 mg/dL. Hypomagnesemia (<1.8) causes neuromuscular irritability (tremors, tetany, seizures), cardiac dysrhythmias (especially torsades de pointes), and weakness. Often coexists with hypokalemia. Treatment: IV magnesium sulfate."
+    },
+    {
+      "id": 30,
+      "question": "A nurse is preparing a client for a thoracentesis. Which position is appropriate?",
+      "choices": [
+        "Supine flat",
+        "Sitting upright leaning forward over a bedside table",
+        "Prone",
+        "Trendelenburg"
+      ],
+      "answer": "Sitting upright leaning forward over a bedside table",
+      "explanation": "Thoracentesis position: upright leaning forward over bedside table with arms on a pillow. This widens intercostal spaces and allows fluid to accumulate at the base. The procedure removes pleural fluid for diagnosis (analysis) or therapy (relieving dyspnea)."
+    },
+    {
+      "id": 31,
+      "question": "A client undergoes a stress test. Which finding indicates the test should be stopped?",
+      "choices": [
+        "Mild fatigue",
+        "Chest pain, ST depression, or ventricular dysrhythmias",
+        "Heart rate increase to 130",
+        "Mild increase in blood pressure"
+      ],
+      "answer": "Chest pain, ST depression, or ventricular dysrhythmias",
+      "explanation": "Stress tests are stopped for: significant chest pain, ST changes (>2mm depression), dysrhythmias, hypotension (drop in systolic >10), severe shortness of breath, claudication, or exhaustion. Target heart rate is 85% of (220-age). Resting baseline and recovery are also monitored."
+    },
+    {
+      "id": 32,
+      "question": "A client's serum osmolality is 320 mOsm/kg. The nurse identifies this as:",
+      "choices": [
+        "Normal osmolality",
+        "Hyperosmolar state (dehydration)",
+        "Hypoosmolar state",
+        "Equipment error"
+      ],
+      "answer": "Hyperosmolar state (dehydration)",
+      "explanation": "Normal serum osmolality is 280-300 mOsm/kg. Elevation indicates hyperosmolar state from dehydration, hypernatremia, hyperglycemia (DKA, HHS), or alcohol intoxication. Calculation: 2(Na) + (glucose/18) + (BUN/2.8). Low osmolality suggests overhydration or SIADH."
+    },
+    {
+      "id": 33,
+      "question": "A client receiving a blood transfusion suddenly develops back pain, fever, and dark urine. The nurse identifies:",
+      "choices": [
+        "Mild allergic reaction",
+        "Acute hemolytic transfusion reaction",
+        "Anxiety",
+        "Normal response"
+      ],
+      "answer": "Acute hemolytic transfusion reaction",
+      "explanation": "Acute hemolytic reaction: chills, fever, back/flank pain, dark urine (hemoglobinuria), hypotension. Usually from ABO incompatibility. Action: STOP transfusion immediately, maintain IV with NS through new tubing, treat shock, send blood and urine for analysis. Can lead to DIC and renal failure."
+    },
+    {
+      "id": 34,
+      "question": "A client is scheduled for an electroencephalogram (EEG). The nurse teaches the client to:",
+      "choices": [
+        "Skip the morning meal",
+        "Wash hair and avoid hair products before the test; do not skip meals",
+        "Take extra anti-anxiety medications",
+        "Not eat anything for 24 hours"
+      ],
+      "answer": "Wash hair and avoid hair products before the test; do not skip meals",
+      "explanation": "EEG preparation: clean hair without conditioners or products (electrodes need clean attachment), avoid caffeine for 8-12 hours, eat normally (hypoglycemia can affect results), continue most medications unless instructed otherwise, sleep deprivation may be requested for activation EEG."
+    },
+    {
+      "id": 35,
+      "question": "Which laboratory finding suggests acute kidney injury?",
+      "choices": [
+        "BUN of 10, creatinine of 0.8",
+        "BUN of 50, creatinine of 3.5",
+        "Glucose 100, BUN of 15",
+        "Cholesterol 200"
+      ],
+      "answer": "BUN of 50, creatinine of 3.5",
+      "explanation": "Normal BUN: 7-20; normal creatinine: 0.6-1.3. Elevated BUN and creatinine indicate decreased renal function. AKI is acute rise in creatinine. Causes: prerenal (dehydration, shock), intrarenal (ATN, nephrotoxic drugs), postrenal (obstruction). Daily monitoring is crucial."
+    },
+    {
+      "id": 36,
+      "question": "Before an upper endoscopy (EGD), the nurse should:",
+      "choices": [
+        "Provide a hearty breakfast",
+        "Ensure NPO status for 6-8 hours before procedure",
+        "Hydrate with IV fluids only",
+        "Have the client drink contrast"
+      ],
+      "answer": "Ensure NPO status for 6-8 hours before procedure",
+      "explanation": "EGD requires NPO 6-8 hours before to prevent aspiration during sedation and provide clear visualization. Conscious sedation is used. After procedure: NPO until gag reflex returns (usually 1-2 hours). Complications: bleeding, perforation, aspiration."
+    },
+    {
+      "id": 37,
+      "question": "A client has a serum albumin of 2.5 g/dL. The nurse anticipates which complication?",
+      "choices": [
+        "Hyperkalemia",
+        "Generalized edema due to decreased oncotic pressure",
+        "Hyperglycemia",
+        "Hypertension"
+      ],
+      "answer": "Generalized edema due to decreased oncotic pressure",
+      "explanation": "Normal albumin: 3.5-5.0 g/dL. Hypoalbuminemia decreases plasma oncotic pressure, causing fluid to shift into interstitial spaces (edema). Causes: liver disease, nephrotic syndrome, malnutrition, sepsis. Affects drug binding and delivery. Albumin replacement may be considered."
+    },
+    {
+      "id": 38,
+      "question": "A client is to receive a fluoroquinolone antibiotic. Which condition is a concern?",
+      "choices": [
+        "Hypertension",
+        "Tendinitis or tendon rupture risk, especially in elderly",
+        "Hypothyroidism",
+        "Liver disease"
+      ],
+      "answer": "Tendinitis or tendon rupture risk, especially in elderly",
+      "explanation": "Fluoroquinolones (ciprofloxacin, levofloxacin) carry FDA black box warnings for tendinitis and tendon rupture (especially Achilles), peripheral neuropathy, CNS effects, and aortic aneurysm risk. Risk increased in elderly, corticosteroid users, and post-transplant. Avoid if alternatives exist."
+    },
+    {
+      "id": 39,
+      "question": "A nurse identifies that a client's potassium dropped from 4.0 to 3.0 mEq/L after starting a diuretic. The most appropriate intervention is:",
+      "choices": [
+        "Restrict potassium intake",
+        "Encourage potassium-rich foods or supplement potassium",
+        "Increase diuretic dose",
+        "Continue current management"
+      ],
+      "answer": "Encourage potassium-rich foods or supplement potassium",
+      "explanation": "Hypokalemia from diuretics (especially loop and thiazide) is common. Treatment: dietary increase (bananas, oranges, potatoes, spinach), oral or IV potassium supplements. Monitor closely. Potassium-sparing diuretics (spironolactone) may be added. IV potassium must be diluted and infused slowly."
+    },
+    {
+      "id": 40,
+      "question": "A client's serum lipase is significantly elevated. This finding is most consistent with:",
+      "choices": [
+        "Liver disease",
+        "Acute pancreatitis",
+        "Kidney failure",
+        "Heart attack"
+      ],
+      "answer": "Acute pancreatitis",
+      "explanation": "Lipase is more specific to pancreas than amylase. Elevation suggests pancreatitis (acute, often >3x upper limit). Causes: gallstones, alcohol, hypertriglyceridemia, drugs. Treatment: NPO, IV fluids, pain management, treat underlying cause. Severity assessed by Ranson criteria or APACHE II."
+    },
+    {
+      "id": 41,
+      "question": "A client is receiving warfarin. Which food can interfere with the medication?",
+      "choices": [
+        "Lean meats",
+        "Green leafy vegetables (high vitamin K)",
+        "Fresh fruits",
+        "White bread"
+      ],
+      "answer": "Green leafy vegetables (high vitamin K)",
+      "explanation": "Vitamin K from green leafy vegetables (spinach, kale, broccoli) antagonizes warfarin effect. Clients should maintain consistent vitamin K intake rather than avoiding entirely. INR should be monitored when diet changes significantly. Cranberry, grapefruit, and herbal supplements also affect warfarin."
+    },
+    {
+      "id": 42,
+      "question": "A client undergoes a lumbar puncture. Following the procedure, the nurse should:",
+      "choices": [
+        "Have the client ambulate immediately",
+        "Maintain bedrest, encourage fluids to reduce post-LP headache",
+        "Apply ice to the puncture site",
+        "Withhold all fluids"
+      ],
+      "answer": "Maintain bedrest, encourage fluids to reduce post-LP headache",
+      "explanation": "Post-lumbar puncture: bedrest 1-4 hours, encourage fluids (caffeine helps), monitor for headache (postural - worse upright), bleeding, leakage of CSF. Severe persistent headache may require blood patch. Atraumatic needles reduce risk. Position flat may help post-procedure."
+    },
+    {
+      "id": 43,
+      "question": "A client is taking digoxin and has a potassium of 3.0 mEq/L. The nurse identifies this as:",
+      "choices": [
+        "Optimal level for digoxin therapy",
+        "Increased risk for digoxin toxicity",
+        "Excellent renal function",
+        "Normal finding"
+      ],
+      "answer": "Increased risk for digoxin toxicity",
+      "explanation": "Hypokalemia potentiates digoxin's effects and increases risk of toxicity, even at therapeutic digoxin levels. Diuretics often cause both elevated digoxin levels and hypokalemia. Monitor for nausea, vomiting, visual changes (yellow halos), bradycardia, dysrhythmias."
+    },
+    {
+      "id": 44,
+      "question": "Which client should NOT receive a flu vaccine?",
+      "choices": [
+        "An elderly adult with hypertension",
+        "A 6-month-old infant",
+        "An adult with severe allergic reaction to a previous flu vaccine",
+        "A pregnant woman in second trimester"
+      ],
+      "answer": "An adult with severe allergic reaction to a previous flu vaccine",
+      "explanation": "Severe allergic reaction (anaphylaxis) to a previous flu vaccine is a contraindication. Egg allergy is no longer a contraindication for most flu vaccines. Influenza vaccination is recommended annually for everyone 6 months and older, especially high-risk groups (elderly, pregnant, immunocompromised)."
+    },
+    {
+      "id": 45,
+      "question": "A client is to receive an IV bolus of furosemide. The nurse should:",
+      "choices": [
+        "Administer rapidly for fast effect",
+        "Administer slowly over at least 1-2 minutes to avoid ototoxicity",
+        "Mix with dextrose only",
+        "Give without dilution rapidly"
+      ],
+      "answer": "Administer slowly over at least 1-2 minutes to avoid ototoxicity",
+      "explanation": "IV furosemide should be administered slowly (no faster than 20 mg/minute) to reduce risk of ototoxicity (tinnitus, hearing loss). Higher doses require even slower administration. Onset is rapid; expect diuresis within 5-30 minutes. Monitor potassium, BP, urine output."
+    },
+    {
+      "id": 46,
+      "question": "A client undergoes a coronary angiogram. Following the procedure, which finding requires intervention?",
+      "choices": [
+        "Pedal pulse present, warm extremity",
+        "Cool, pale, pulseless extremity",
+        "Mild discomfort at site",
+        "Heart rate 80"
+      ],
+      "answer": "Cool, pale, pulseless extremity",
+      "explanation": "Cool, pale, pulseless extremity post-catheterization suggests arterial occlusion (thrombosis or embolism) requiring emergency intervention. Compare bilaterally. Other complications: bleeding, hematoma, pseudoaneurysm, retroperitoneal hemorrhage. Frequent assessments per protocol are essential."
+    },
+    {
+      "id": 47,
+      "question": "A client's hemoglobin is 6.5 g/dL. The nurse anticipates:",
+      "choices": [
+        "Routine monitoring",
+        "Possible blood transfusion and identification of bleeding source",
+        "Increased exercise tolerance",
+        "Excellent oxygenation"
+      ],
+      "answer": "Possible blood transfusion and identification of bleeding source",
+      "explanation": "Normal hemoglobin: 12-16 g/dL women, 14-18 men. Severe anemia (<7 g/dL or symptomatic) may require transfusion. Investigate cause: bleeding (GI, GU), hemolysis, decreased production. Type and crossmatch needed. Use restrictive transfusion strategy (Hb <7) in most stable patients."
+    },
+    {
+      "id": 48,
+      "question": "Before administering a new prescription, the nurse identifies that the client has multiple drug allergies. The nurse should:",
+      "choices": [
+        "Administer the medication as ordered",
+        "Verify the prescription does not contain any reported allergens; question the order if necessary",
+        "Document the allergies and proceed",
+        "Have the family check the medication"
+      ],
+      "answer": "Verify the prescription does not contain any reported allergens; question the order if necessary",
+      "explanation": "Medication safety requires verification against documented allergies. Cross-reactivities (penicillin-cephalosporin, sulfa drugs) must be considered. Anaphylaxis can be fatal. The nurse advocates for the client by questioning potentially harmful orders. Allergies should be prominently displayed."
+    },
+    {
+      "id": 49,
+      "question": "A client receiving heparin has heparin-induced thrombocytopenia (HIT). What is the appropriate management?",
+      "choices": [
+        "Continue heparin and monitor platelets",
+        "Discontinue all heparin and use alternative anticoagulant (argatroban, fondaparinux)",
+        "Increase heparin dose",
+        "Switch to LMWH"
+      ],
+      "answer": "Discontinue all heparin and use alternative anticoagulant (argatroban, fondaparinux)",
+      "explanation": "HIT is a serious immune-mediated reaction. ALL heparin must be stopped (including LMWH and flushes). Alternative anticoagulants: direct thrombin inhibitors (argatroban, bivalirudin) or fondaparinux. Despite low platelets, clients are paradoxically prothrombotic with risk of thrombosis."
+    },
+    {
+      "id": 50,
+      "question": "A client's troponin I level is 2.5 ng/mL (normal <0.04). The nurse identifies this as indicating:",
+      "choices": [
+        "Normal cardiac function",
+        "Acute myocardial injury or infarction",
+        "Liver disease",
+        "Renal failure"
+      ],
+      "answer": "Acute myocardial injury or infarction",
+      "explanation": "Elevated troponin I is highly specific for myocardial injury. The greater the elevation, the larger the infarct. Troponin rises 3-4 hours after injury, peaks at 24 hours, remains elevated 7-14 days. Serial troponins are obtained for diagnosis. Causes besides MI include myocarditis, PE, sepsis."
+    }
+  ]
+}

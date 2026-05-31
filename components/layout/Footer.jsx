@@ -30,6 +30,7 @@ export default function Footer() {
               <li><Link href="/agriculture" className="hover:text-yellow-400 transition-colors">Agriculture</Link></li>
               <li><Link href="/civil-service" className="hover:text-yellow-400 transition-colors">Civil Service (CSE)</Link></li>
               <li><Link href="/education" className="hover:text-yellow-400 transition-colors">Education (LET)</Link></li>
+              <li><Link href="/nclex" className="hover:text-yellow-400 transition-colors">NCLEX</Link></li>
               <li><Link href="/nursing" className="hover:text-yellow-400 transition-colors">Nursing</Link></li>
               <li><Link href="/criminology" className="hover:text-yellow-400 transition-colors">Criminology</Link></li>
               <li><Link href="/medical-technology" className="hover:text-yellow-400 transition-colors">Medical Technology</Link></li>

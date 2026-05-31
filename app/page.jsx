@@ -57,6 +57,7 @@ const PROFESSION_CARDS = [
   { href: '/medical-technology', label: 'Medical Technology', icon: '🧪', color: 'from-cyan-900/40 to-cyan-800/20 border-cyan-600/40 hover:border-cyan-400' },
   { href: '/agriculture', label: 'Agriculture', icon: '🌾', color: 'from-green-900/40 to-green-800/20 border-green-600/40 hover:border-green-400' },
   { href: '/civil-service', label: 'Civil Service', icon: '🏛️', color: 'from-blue-900/40 to-indigo-800/20 border-blue-600/40 hover:border-blue-400' },
+  { href: '/nclex', label: 'NCLEX', icon: '💉', color: 'from-teal-900/40 to-teal-800/20 border-teal-600/40 hover:border-teal-400' },
 ];
 
 const HOW_IT_WORKS = [

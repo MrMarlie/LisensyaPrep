@@ -14,6 +14,7 @@ const COURSES = [
   { href: '/education', label: '🎓 Education (LET)' },
   { href: '/criminology', label: '⚖️ Criminology' },
   { href: '/medical-technology', label: '🧪 Medical Technology' },
+  { href: '/nclex', label: '💉 NCLEX' },
   { href: '/nursing', label: '🏥 Nursing' },
   { href: '/pharmacy', label: '💊 Pharmacy' },
 ];

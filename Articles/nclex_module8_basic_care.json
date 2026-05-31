@@ -1,0 +1,606 @@
+{
+  "module": "Module 8 - Basic Care and Comfort",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A client reports difficulty sleeping. Which is the most appropriate first-line intervention?",
+      "choices": [
+        "Administer sleep medication immediately",
+        "Teach sleep hygiene practices including consistent schedule and bedtime routine",
+        "Recommend prolonged daytime napping",
+        "Suggest caffeine in the evening"
+      ],
+      "answer": "Teach sleep hygiene practices including consistent schedule and bedtime routine",
+      "explanation": "Sleep hygiene is first-line for insomnia: consistent sleep/wake times, comfortable environment (cool, dark, quiet), avoid screens before bed, no caffeine after noon, exercise (not late evening), limit fluids before bed, use bed only for sleep. Medications cause dependence and rebound insomnia."
+    },
+    {
+      "id": 2,
+      "question": "A client with a pressure injury requires repositioning. The minimum frequency for repositioning is:",
+      "choices": [
+        "Every 8 hours",
+        "Every 4 hours",
+        "Every 2 hours",
+        "Once per shift"
+      ],
+      "answer": "Every 2 hours",
+      "explanation": "Repositioning every 2 hours minimum prevents pressure injury formation by relieving pressure on bony prominences. Use pressure-reducing mattresses, lift sheets (not dragging) to prevent shearing, keep skin clean and dry, optimize nutrition. High-risk clients may need more frequent repositioning."
+    },
+    {
+      "id": 3,
+      "question": "When assessing pain in a non-verbal adult client, the nurse should use:",
+      "choices": [
+        "Wait until the client speaks",
+        "Behavioral pain assessment tools (FLACC, CPOT) and observe non-verbal cues",
+        "Assume no pain",
+        "Family report only"
+      ],
+      "answer": "Behavioral pain assessment tools (FLACC, CPOT) and observe non-verbal cues",
+      "explanation": "Non-verbal pain assessment tools: FLACC (Face, Legs, Activity, Cry, Consolability) for children/non-verbal adults, CPOT (Critical Care Pain Observation Tool), PAINAD for dementia. Observe: facial expressions (grimacing), body movements (guarding, restlessness), vocalizations, autonomic responses (HR, BP)."
+    },
+    {
+      "id": 4,
+      "question": "A client receiving end-of-life care has decreased oral intake. The nurse should:",
+      "choices": [
+        "Force fluids and food",
+        "Provide oral care, ice chips, small amounts of food as desired, respect comfort",
+        "Insert a feeding tube immediately",
+        "Withhold all care"
+      ],
+      "answer": "Provide oral care, ice chips, small amounts of food as desired, respect comfort",
+      "explanation": "End-of-life care focuses on comfort, not nutrition goals. Decreased intake is normal in dying process. Oral care (moistened swabs), ice chips, small comfort foods as desired and tolerated, respect autonomy. Forcing fluids can cause discomfort and aspiration. Family education is important."
+    },
+    {
+      "id": 5,
+      "question": "A nurse is assessing a client's hydration status. Which is the most reliable indicator?",
+      "choices": [
+        "Thirst sensation",
+        "Daily weights, intake and output, vital signs, skin turgor, mucous membranes",
+        "Skin color only",
+        "Bowel sounds"
+      ],
+      "answer": "Daily weights, intake and output, vital signs, skin turgor, mucous membranes",
+      "explanation": "Hydration assessment: daily weights (1 kg = 1 L fluid), strict I/O, vital signs (tachycardia, hypotension), skin turgor, mucous membrane moisture, urine color/output, capillary refill. Each indicator alone is unreliable; comprehensive assessment is needed. Elderly have decreased thirst sensation."
+    },
+    {
+      "id": 6,
+      "question": "A client is on a low-sodium diet for hypertension. Which food choice is appropriate?",
+      "choices": [
+        "Canned soup and pretzels",
+        "Fresh fruits, vegetables, lean protein, herbs for flavor",
+        "Processed lunch meats",
+        "Fast food regularly"
+      ],
+      "answer": "Fresh fruits, vegetables, lean protein, herbs for flavor",
+      "explanation": "Low-sodium diet (<2,000 mg/day): fresh foods, avoid processed/canned foods, read labels, use herbs/spices instead of salt, limit restaurant food. DASH diet (Dietary Approaches to Stop Hypertension) emphasizes fruits, vegetables, whole grains, lean protein, low-fat dairy."
+    },
+    {
+      "id": 7,
+      "question": "A client with chronic back pain reports the pain is rated 7/10. The most effective non-pharmacological intervention is:",
+      "choices": [
+        "Strict bed rest",
+        "Multimodal approach: physical therapy, exercises, heat/cold, relaxation techniques",
+        "Avoid all movement",
+        "Reduce all activity"
+      ],
+      "answer": "Multimodal approach: physical therapy, exercises, heat/cold, relaxation techniques",
+      "explanation": "Chronic pain management: multimodal approach including physical therapy, exercise (improves strength/flexibility), heat/cold therapy, relaxation, biofeedback, acupuncture, massage, cognitive behavioral therapy. Pharmacologic agents support but should not be sole treatment. Bed rest worsens chronic pain."
+    },
+    {
+      "id": 8,
+      "question": "A nurse is providing oral care to an unconscious client. Which is the most important consideration?",
+      "choices": [
+        "Skip oral care to avoid risk",
+        "Position laterally to prevent aspiration; use suction available",
+        "Use large amounts of water",
+        "Keep client supine"
+      ],
+      "answer": "Position laterally to prevent aspiration; use suction available",
+      "explanation": "Oral care in unconscious clients: lateral position to prevent aspiration, suction equipment ready, soft swab or toothbrush, minimal fluid, dental floss if appropriate. Oral care every 2-4 hours prevents VAP (ventilator-associated pneumonia), maintains comfort and dignity."
+    },
+    {
+      "id": 9,
+      "question": "A client requires bedrest. To prevent complications of immobility, the nurse should:",
+      "choices": [
+        "Allow complete bed rest without intervention",
+        "Provide ROM exercises, encourage deep breathing, sequential compression devices, frequent position changes",
+        "Restrict all movement",
+        "Limit fluid intake"
+      ],
+      "answer": "Provide ROM exercises, encourage deep breathing, sequential compression devices, frequent position changes",
+      "explanation": "Immobility complications and prevention: DVT (SCDs, ambulation), atelectasis (deep breathing, incentive spirometry), pressure injuries (repositioning), muscle atrophy (ROM exercises), constipation (fiber, fluids), urinary retention (offer bedpan regularly), depression (engagement, family)."
+    },
+    {
+      "id": 10,
+      "question": "A client with dysphagia is at risk for aspiration. The most appropriate intervention is:",
+      "choices": [
+        "Provide thin liquids only",
+        "Use thickened liquids, modified diet texture, sit upright while eating, slow feeding",
+        "Feed quickly",
+        "Have client recline while eating"
+      ],
+      "answer": "Use thickened liquids, modified diet texture, sit upright while eating, slow feeding",
+      "explanation": "Dysphagia management: speech therapy assessment, modified texture (mechanical soft, pureed), thickened liquids (nectar, honey, pudding consistency), upright position (90 degrees) during/30 min after meals, small bites/sips, chin tuck swallow, oral care, monitor for aspiration signs."
+    },
+    {
+      "id": 11,
+      "question": "A client is constipated. The nurse's initial intervention is:",
+      "choices": [
+        "Administer laxatives immediately",
+        "Encourage increased fluids, fiber, and activity",
+        "Restrict diet",
+        "Recommend immobility"
+      ],
+      "answer": "Encourage increased fluids, fiber, and activity",
+      "explanation": "Constipation management: increase fluids (8 glasses/day), high-fiber diet (25-30 g/day), regular physical activity, respond to urge to defecate, scheduled toileting, address medication causes (opioids), bowel training. Laxatives may be needed but lifestyle changes are first-line."
+    },
+    {
+      "id": 12,
+      "question": "A client is on a clear liquid diet. Which is appropriate?",
+      "choices": [
+        "Milk and ice cream",
+        "Water, broth, clear juice, gelatin, popsicles",
+        "Mashed potatoes",
+        "Yogurt"
+      ],
+      "answer": "Water, broth, clear juice, gelatin, popsicles",
+      "explanation": "Clear liquid diet: transparent fluids that leave minimal residue - water, broth, clear juice (apple, white grape), tea, coffee (no cream), gelatin, popsicles. Not allowed: milk, juice with pulp, cream soups, smoothies. Used pre-procedure or initial post-op."
+    },
+    {
+      "id": 13,
+      "question": "A client is post-operative and is reluctant to ambulate due to pain. The nurse should:",
+      "choices": [
+        "Force the client to walk",
+        "Provide pain medication 30 minutes before ambulation, encourage progress",
+        "Allow continued bed rest",
+        "Threaten the client"
+      ],
+      "answer": "Provide pain medication 30 minutes before ambulation, encourage progress",
+      "explanation": "Post-operative ambulation: critical for preventing complications. Pre-medicate with analgesic 30 min before activity, progressive increase in distance, support and encouragement, multi-disciplinary approach (PT, OT). Early ambulation prevents DVT, pneumonia, ileus, and muscle weakness."
+    },
+    {
+      "id": 14,
+      "question": "A nurse is teaching a client about using complementary therapies for pain management. Which is most appropriate?",
+      "choices": [
+        "Replace all conventional medicine",
+        "Use as adjunct to conventional treatment with provider knowledge",
+        "Avoid all complementary therapies",
+        "Use without supervision"
+      ],
+      "answer": "Use as adjunct to conventional treatment with provider knowledge",
+      "explanation": "Complementary and alternative medicine (CAM): integrate with conventional treatment, communicate with all providers, evidence-based approaches (acupuncture, massage, mindfulness, yoga), avoid harmful interactions (herbal supplements + warfarin), do not replace effective conventional treatment without consultation."
+    },
+    {
+      "id": 15,
+      "question": "A client is at risk for falls. The most important intervention is:",
+      "choices": [
+        "Restrain the client",
+        "Individualized fall prevention plan based on risk assessment",
+        "Restrict all movement",
+        "Place client in wheelchair always"
+      ],
+      "answer": "Individualized fall prevention plan based on risk assessment",
+      "explanation": "Fall prevention: assessment tools (Morse Fall Scale, Hendrich II), bed in low position, call light within reach, non-slip footwear, scheduled toileting, bed/chair alarms for high-risk, adequate lighting, ID high-risk patients (yellow socks, signage), staff education, medication review."
+    },
+    {
+      "id": 16,
+      "question": "A client with chronic pain is using opioids. Which assessment is most important?",
+      "choices": [
+        "Hearing acuity",
+        "Pain level, sedation, respiratory rate, bowel function, signs of misuse",
+        "Hair growth",
+        "Nail health"
+      ],
+      "answer": "Pain level, sedation, respiratory rate, bowel function, signs of misuse",
+      "explanation": "Opioid monitoring: pain control (acceptable function), sedation level (Pasero Scale), respiratory rate (>12), bowel function (constipation universal), nausea, signs of misuse (escalating use, requesting early refills, illicit substances). Naloxone available for reversal. Risk assessment ongoing."
+    },
+    {
+      "id": 17,
+      "question": "A client requires nutrition support. Enteral nutrition (tube feeding) is preferred over parenteral nutrition when:",
+      "choices": [
+        "Gut is non-functional",
+        "Gut is functional but oral intake inadequate",
+        "Client refuses food",
+        "Surgery is scheduled"
+      ],
+      "answer": "Gut is functional but oral intake inadequate",
+      "explanation": "Nutrition support guideline: 'If the gut works, use it.' Enteral nutrition preferred when gut is functional: maintains GI function, reduces infection risk, more physiologic, less expensive than TPN. Parenteral nutrition reserved for non-functional GI tract (severe IBD, bowel obstruction, malabsorption)."
+    },
+    {
+      "id": 18,
+      "question": "Which type of exercise is most appropriate for an elderly client to maintain bone density?",
+      "choices": [
+        "Swimming exclusively",
+        "Weight-bearing exercises (walking, weight training, stair climbing)",
+        "Sedentary activities",
+        "Avoid all exercise"
+      ],
+      "answer": "Weight-bearing exercises (walking, weight training, stair climbing)",
+      "explanation": "Weight-bearing exercises stimulate bone formation, maintaining/improving bone density. Examples: walking, jogging, dancing, hiking, stair climbing, weight training, tennis. Swimming is excellent for cardiovascular health but not weight-bearing. Combine with calcium/vitamin D for optimal bone health."
+    },
+    {
+      "id": 19,
+      "question": "A client is on a diabetic diet. Which carbohydrate choice has the lowest glycemic index?",
+      "choices": [
+        "White bread",
+        "Whole grain bread, beans, lentils, non-starchy vegetables",
+        "Sugary cereals",
+        "Soda"
+      ],
+      "answer": "Whole grain bread, beans, lentils, non-starchy vegetables",
+      "explanation": "Low glycemic index foods produce slower, smaller blood glucose rises: whole grains, legumes, non-starchy vegetables, most fruits, dairy. High GI foods: white bread, white rice, sugary cereals, candy, sweetened beverages. Combine carbs with protein/fat to slow absorption."
+    },
+    {
+      "id": 20,
+      "question": "A client experiences chronic nausea from chemotherapy. The most appropriate dietary recommendation is:",
+      "choices": [
+        "Large heavy meals",
+        "Small frequent bland meals, avoid strong odors and greasy foods",
+        "Spicy foods only",
+        "No food at all"
+      ],
+      "answer": "Small frequent bland meals, avoid strong odors and greasy foods",
+      "explanation": "Chemotherapy nausea management: small frequent meals (6-8/day), bland foods (toast, crackers, rice), cold foods (less odor), avoid greasy/spicy/very sweet foods, ginger, BRAT diet, separate fluids from meals, antiemetics 30 min before meals if needed, stay upright after eating."
+    },
+    {
+      "id": 21,
+      "question": "A client is receiving continuous tube feedings. The head of the bed should be:",
+      "choices": [
+        "Flat at all times",
+        "Elevated at least 30-45 degrees to prevent aspiration",
+        "In Trendelenburg",
+        "Rotated frequently"
+      ],
+      "answer": "Elevated at least 30-45 degrees to prevent aspiration",
+      "explanation": "Tube feeding safety: HOB elevated 30-45 degrees minimum during and 30-60 min after feedings, check residuals per protocol, verify tube placement before each use, flush tube with water, monitor for aspiration signs (cough, dyspnea, decreased SpO2)."
+    },
+    {
+      "id": 22,
+      "question": "A client experiences urinary incontinence. Which intervention is most appropriate?",
+      "choices": [
+        "Restrict all fluids",
+        "Scheduled toileting, pelvic floor exercises, addressing reversible causes",
+        "Indwelling catheter immediately",
+        "Adult diapers permanently"
+      ],
+      "answer": "Scheduled toileting, pelvic floor exercises, addressing reversible causes",
+      "explanation": "Urinary incontinence management: identify type (stress, urge, overflow, functional), scheduled toileting every 2-3 hours, pelvic floor exercises (Kegels), address reversible causes (UTI, medications, mobility), bladder training, weight loss, limit caffeine. Last resort: catheterization."
+    },
+    {
+      "id": 23,
+      "question": "A nurse is providing care to a client with a urinary catheter. Which is most important to prevent infection?",
+      "choices": [
+        "Daily catheter changes",
+        "Maintain closed system, keep drainage bag below bladder, perineal care, remove when no longer needed",
+        "Disconnect frequently",
+        "Use antibiotics prophylactically"
+      ],
+      "answer": "Maintain closed system, keep drainage bag below bladder, perineal care, remove when no longer needed",
+      "explanation": "CAUTI prevention: aseptic insertion, closed drainage system (do not disconnect), drainage bag below bladder level (prevent backflow), secure catheter, perineal care daily, remove ASAP. Each day with catheter increases UTI risk 3-7%. Daily assessment of necessity."
+    },
+    {
+      "id": 24,
+      "question": "A client with chronic illness experiences fatigue. Which intervention is most helpful?",
+      "choices": [
+        "Forced increased activity",
+        "Energy conservation techniques, pacing activities, rest periods, address underlying causes",
+        "Continuous bed rest",
+        "Avoid all activity"
+      ],
+      "answer": "Energy conservation techniques, pacing activities, rest periods, address underlying causes",
+      "explanation": "Fatigue management: energy conservation (sit when possible, organize tasks, use adaptive equipment), prioritize activities, pace yourself, rest periods, address underlying causes (anemia, depression, medications, sleep disorders, dehydration), gradual exercise. Total inactivity worsens fatigue."
+    },
+    {
+      "id": 25,
+      "question": "A client requires a blood glucose check before meals. The recommended testing schedule for type 1 diabetes is:",
+      "choices": [
+        "Once weekly",
+        "Multiple times daily (before meals, bedtime, additional as needed)",
+        "Monthly only",
+        "Only when feeling symptoms"
+      ],
+      "answer": "Multiple times daily (before meals, bedtime, additional as needed)",
+      "explanation": "Type 1 diabetes monitoring: 4-10 times daily (before meals, bedtime, before/during exercise, when feeling symptoms, before driving). Continuous glucose monitors (CGMs) provide ongoing data. HbA1C every 3 months. Target HbA1C <7% for most adults. Hypoglycemia prevention critical."
+    },
+    {
+      "id": 26,
+      "question": "A client is preparing to begin a new exercise program. The nurse should recommend:",
+      "choices": [
+        "Start with intense exercise immediately",
+        "Start gradually, warm up, cool down, increase intensity progressively",
+        "Exercise only on weekends",
+        "Avoid any exercise"
+      ],
+      "answer": "Start gradually, warm up, cool down, increase intensity progressively",
+      "explanation": "Exercise prescription: medical clearance if needed, FITT principle (Frequency, Intensity, Type, Time), start gradually, warm-up 5-10 min, cool-down 5-10 min, progressive overload, variety, hydration, listen to body. Target: 150 min moderate or 75 min vigorous activity weekly plus strength training."
+    },
+    {
+      "id": 27,
+      "question": "A client experiences neuropathic pain. Which medication is most likely effective?",
+      "choices": [
+        "Acetaminophen only",
+        "Gabapentin, pregabalin, or duloxetine",
+        "Antibiotics",
+        "Antihistamines"
+      ],
+      "answer": "Gabapentin, pregabalin, or duloxetine",
+      "explanation": "Neuropathic pain (burning, tingling, shooting): anticonvulsants (gabapentin, pregabalin), SNRIs (duloxetine), TCAs (amitriptyline), topical (lidocaine patches, capsaicin). NSAIDs/acetaminophen less effective. Diabetic neuropathy, post-herpetic neuralgia, trigeminal neuralgia respond to these medications."
+    },
+    {
+      "id": 28,
+      "question": "A nurse is teaching a client about heart-healthy eating. The most important recommendation is:",
+      "choices": [
+        "Eliminate all fats",
+        "Mediterranean-style diet: fruits, vegetables, whole grains, healthy fats, fish, limit red meat",
+        "Eat only protein",
+        "Avoid all carbohydrates"
+      ],
+      "answer": "Mediterranean-style diet: fruits, vegetables, whole grains, healthy fats, fish, limit red meat",
+      "explanation": "Heart-healthy diet (Mediterranean or DASH): emphasize fruits/vegetables/whole grains, healthy fats (olive oil, avocado, nuts), lean protein (fish, poultry, legumes), limit red/processed meats, limit refined sugars/grains, moderate dairy, herbs/spices over salt. Improves cardiovascular outcomes."
+    },
+    {
+      "id": 29,
+      "question": "A client has chronic insomnia. Which behavioral change is most effective?",
+      "choices": [
+        "Nap during the day frequently",
+        "Establish consistent sleep-wake schedule, even on weekends",
+        "Vary sleep times daily",
+        "Use bed for activities other than sleep"
+      ],
+      "answer": "Establish consistent sleep-wake schedule, even on weekends",
+      "explanation": "Sleep hygiene: consistent sleep-wake times (including weekends), avoid daytime napping (or limit to 20 min before 3 PM), bed only for sleep/intimacy, cool/dark/quiet bedroom, no screens before bed, no caffeine after noon, regular exercise (not late evening), relaxation routine before bed."
+    },
+    {
+      "id": 30,
+      "question": "A client receiving palliative care experiences dyspnea. The nurse should:",
+      "choices": [
+        "Increase activity",
+        "Position upright, provide oxygen if needed, low-dose opioids per orders, fan to face",
+        "Restrict fluids",
+        "Force activity"
+      ],
+      "answer": "Position upright, provide oxygen if needed, low-dose opioids per orders, fan to face",
+      "explanation": "Palliative dyspnea management: upright/forward leaning position, oxygen if hypoxic, low-dose opioids (morphine - paradoxically helpful for dyspnea), benzodiazepines for anxiety, cool air or fan to face (relieves sensation), pace activities, relaxation techniques. Comfort goals prioritized."
+    },
+    {
+      "id": 31,
+      "question": "A nurse is teaching a client about diabetic foot care. Which is most important?",
+      "choices": [
+        "Walk barefoot to toughen feet",
+        "Inspect feet daily, keep clean and dry, wear properly-fitting shoes, regular podiatry care",
+        "Soak feet in hot water",
+        "Cut nails very short"
+      ],
+      "answer": "Inspect feet daily, keep clean and dry, wear properly-fitting shoes, regular podiatry care",
+      "explanation": "Diabetic foot care: daily inspection (mirror for soles), wash daily with mild soap and dry thoroughly (especially between toes), moisturize (not between toes), proper footwear (never barefoot), cut nails straight across, podiatry care for calluses/corns, avoid heating pads, prompt attention to injuries."
+    },
+    {
+      "id": 32,
+      "question": "A client is in pain after surgery. The nurse rates the pain as 8/10. The nurse should:",
+      "choices": [
+        "Wait an hour to see if pain improves",
+        "Administer prescribed analgesia and reassess in 30-60 minutes",
+        "Provide only non-pharmacological measures",
+        "Tell the client pain is expected"
+      ],
+      "answer": "Administer prescribed analgesia and reassess in 30-60 minutes",
+      "explanation": "Pain management: assess pain, intervene with prescribed analgesia, reassess in appropriate time frame (30 min for IV, 60 min for PO), document effectiveness, use multimodal approach. Pain is the '5th vital sign' but emphasis on functional pain assessment (acceptable pain level for sleep, ADLs)."
+    },
+    {
+      "id": 33,
+      "question": "A nurse is providing care for a client with chronic kidney disease on a renal diet. Which food should be limited?",
+      "choices": [
+        "White rice",
+        "Bananas, oranges, potatoes (high potassium)",
+        "Apples",
+        "White bread"
+      ],
+      "answer": "Bananas, oranges, potatoes (high potassium)",
+      "explanation": "Renal diet restrictions: potassium (bananas, oranges, potatoes, tomatoes, spinach), phosphorus (dairy, nuts, beans, cola), sodium (processed foods), protein (moderate restriction depending on stage), fluids (later stages). Individualized based on labs and stage. Renal dietitian consultation."
+    },
+    {
+      "id": 34,
+      "question": "A client requires positioning to promote optimal breathing after surgery. The best position is:",
+      "choices": [
+        "Flat supine",
+        "Semi-Fowler's or high Fowler's (30-90 degrees head elevation)",
+        "Prone",
+        "Trendelenburg"
+      ],
+      "answer": "Semi-Fowler's or high Fowler's (30-90 degrees head elevation)",
+      "explanation": "Postoperative positioning: head of bed elevated 30-45 degrees (Semi-Fowler's) or 60-90 degrees (high Fowler's) reduces work of breathing, decreases aspiration risk, decreases venous return reducing pulmonary congestion. Specific positions for specific surgeries (sided position post-thoracic, etc.)."
+    },
+    {
+      "id": 35,
+      "question": "A client experiences a pressure injury Stage II. The nurse identifies this as:",
+      "choices": [
+        "Intact skin with non-blanchable redness",
+        "Partial-thickness loss of dermis (shallow open ulcer)",
+        "Full-thickness skin loss with visible fat",
+        "Full-thickness with exposed bone/muscle"
+      ],
+      "answer": "Partial-thickness loss of dermis (shallow open ulcer)",
+      "explanation": "Pressure injury stages: Stage 1 - non-blanchable erythema of intact skin; Stage 2 - partial-thickness loss with exposed dermis (shallow ulcer/blister); Stage 3 - full-thickness loss with visible fat; Stage 4 - full-thickness with exposed muscle/bone; Unstageable - obscured by slough/eschar; Deep tissue - persistent non-blanchable deep red/maroon/purple."
+    },
+    {
+      "id": 36,
+      "question": "A nurse is providing perineal care to a male client with a catheter. The correct technique is:",
+      "choices": [
+        "Clean from glans toward base of penis",
+        "Clean from urethral opening outward (clean to dirty)",
+        "Clean back and forth",
+        "Use harsh soap"
+      ],
+      "answer": "Clean from urethral opening outward (clean to dirty)",
+      "explanation": "Perineal/catheter care: always clean from clean (urethra) to dirty (outward), use mild soap and water, daily and as needed for soiling, retract foreskin for cleaning then return (uncircumcised), inspect for redness/discharge, secure catheter to prevent traction. Reduces UTI risk."
+    },
+    {
+      "id": 37,
+      "question": "A client requests information about acupuncture for chronic pain. The nurse explains:",
+      "choices": [
+        "It is unsafe",
+        "Acupuncture has evidence for certain types of chronic pain; can complement conventional treatment",
+        "Replace all medications",
+        "Has no benefit"
+      ],
+      "answer": "Acupuncture has evidence for certain types of chronic pain; can complement conventional treatment",
+      "explanation": "Acupuncture: NIH recognizes effectiveness for many conditions (chronic pain, nausea, headaches, low back pain), works through neurochemical mechanisms. Choose licensed practitioner. Generally safe with minimal side effects. Complementary therapy, not replacement for conventional care."
+    },
+    {
+      "id": 38,
+      "question": "A nurse is teaching about basic nutrition. The recommended daily water intake for adults is:",
+      "choices": [
+        "1 glass per day",
+        "8 cups (64 ounces) per day, more with exercise or hot weather",
+        "Only when thirsty",
+        "1 gallon minimum"
+      ],
+      "answer": "8 cups (64 ounces) per day, more with exercise or hot weather",
+      "explanation": "Daily water intake: approximately 8 cups (2 liters) for adults, more with exercise, hot weather, fever, breastfeeding. Indicators of adequate hydration: pale yellow urine, urinating regularly, not thirsty. Adjust for cardiac/renal conditions requiring fluid restriction."
+    },
+    {
+      "id": 39,
+      "question": "A client is preparing for hospital discharge. The most important component of discharge planning is:",
+      "choices": [
+        "Quick discharge process",
+        "Comprehensive education, medication reconciliation, follow-up appointments, identify resources",
+        "Minimal information",
+        "Family handles everything"
+      ],
+      "answer": "Comprehensive education, medication reconciliation, follow-up appointments, identify resources",
+      "explanation": "Discharge planning: medication reconciliation, education on conditions/medications/symptoms to report, follow-up appointments scheduled, home care/equipment as needed, community resources, written instructions in client's language, teach-back method to verify understanding, financial considerations. Begins at admission."
+    },
+    {
+      "id": 40,
+      "question": "A client has a high-fiber diet prescribed. Which food has the highest fiber content?",
+      "choices": [
+        "White bread",
+        "Beans, whole grains, fruits with skin, vegetables",
+        "Rice cakes",
+        "Plain pasta"
+      ],
+      "answer": "Beans, whole grains, fruits with skin, vegetables",
+      "explanation": "High-fiber foods: beans/lentils (15g/cup), whole grains (oats, quinoa), fruits with skin (apples, pears, berries), vegetables (especially Brussels sprouts, broccoli), nuts/seeds. Adult goal: 25-30g/day. Increase gradually with fluids to prevent gas/bloating. Benefits: digestive health, cholesterol reduction, blood sugar control."
+    },
+    {
+      "id": 41,
+      "question": "A nurse is providing back massage as a comfort measure. The therapeutic benefit includes:",
+      "choices": [
+        "Painful experience",
+        "Promotes relaxation, decreases muscle tension, may reduce pain perception",
+        "Cardiac stress",
+        "Negative effects only"
+      ],
+      "answer": "Promotes relaxation, decreases muscle tension, may reduce pain perception",
+      "explanation": "Back massage benefits: relaxation, decreased muscle tension, improved circulation, may reduce pain perception (gate control theory), promotes sleep, demonstrates caring. Use lotion, warm hands, 3-5 minutes, gliding strokes (effleurage), respect client preferences and contraindications (skin breakdown, DVT)."
+    },
+    {
+      "id": 42,
+      "question": "A client expresses spiritual distress. The nurse's appropriate response is:",
+      "choices": [
+        "Ignore the topic",
+        "Listen attentively, provide privacy, offer chaplain services per client preference",
+        "Argue about beliefs",
+        "Impose nurse's beliefs"
+      ],
+      "answer": "Listen attentively, provide privacy, offer chaplain services per client preference",
+      "explanation": "Spiritual care: holistic nursing includes addressing spiritual needs, listen without judgment, provide privacy for prayer/practice, respect diverse beliefs, offer chaplain or clergy referral per client preference, support meaning-making, religious objects/rituals respected. Avoid imposing personal beliefs."
+    },
+    {
+      "id": 43,
+      "question": "A client has chronic constipation from opioid use. The nurse anticipates the prescription of:",
+      "choices": [
+        "Antidiarrheal",
+        "Stool softener and stimulant laxative regimen (senna + docusate)",
+        "Bedrest",
+        "Reduction of fiber"
+      ],
+      "answer": "Stool softener and stimulant laxative regimen (senna + docusate)",
+      "explanation": "Opioid-induced constipation: prophylactic bowel regimen when opioids initiated - stool softener (docusate) + stimulant (senna). Other options: PEG (polyethylene glycol), methylnaltrexone (peripherally acting opioid antagonist). Address constipation actively as it does not improve with tolerance like other opioid effects."
+    },
+    {
+      "id": 44,
+      "question": "A nurse is providing care for a client with a colostomy. Which is most important to teach?",
+      "choices": [
+        "Avoid all activities",
+        "Skin care around stoma, proper appliance changes, dietary modifications, signs of complications",
+        "Stay home permanently",
+        "Avoid showering"
+      ],
+      "answer": "Skin care around stoma, proper appliance changes, dietary modifications, signs of complications",
+      "explanation": "Ostomy teaching: stoma assessment (pink/red, moist), skin protection (skin barrier, pouch fit), appliance change technique, dietary considerations (chew well, gas-producing foods), normal output expectations, signs of complications (bleeding, prolapse, hernia, dehydration with high output), support groups."
+    },
+    {
+      "id": 45,
+      "question": "A client with chronic pain shows signs of tolerance to opioids. The nurse identifies this as:",
+      "choices": [
+        "Addiction",
+        "Need for higher doses to achieve same effect (a physiological response, not addiction)",
+        "Mental illness",
+        "Faking pain"
+      ],
+      "answer": "Need for higher doses to achieve same effect (a physiological response, not addiction)",
+      "explanation": "Pain terminology: tolerance (need higher dose for same effect - physiological), physical dependence (withdrawal if stopped suddenly - physiological), addiction (compulsive use despite harm - psychological/disease). Tolerance and dependence are expected with long-term opioids. Pseudoaddiction (drug-seeking due to undertreated pain) resolves with adequate pain control."
+    },
+    {
+      "id": 46,
+      "question": "A nurse is providing range of motion (ROM) exercises to an immobile client. Active ROM is:",
+      "choices": [
+        "Nurse moves the joints",
+        "Client moves their own joints",
+        "Nurse moves joints with assistance from client",
+        "No movement"
+      ],
+      "answer": "Client moves their own joints",
+      "explanation": "ROM exercises: Active ROM (client performs independently), Active-assistive (partial assistance from nurse), Passive ROM (nurse performs while client cannot). All maintain joint flexibility, prevent contractures, promote circulation, muscle tone. Each joint: full range, 5 reps each, twice daily minimum."
+    },
+    {
+      "id": 47,
+      "question": "A client is preparing for a colonoscopy. The bowel preparation typically includes:",
+      "choices": [
+        "Heavy meal night before",
+        "Clear liquid diet day before, polyethylene glycol (PEG) solution",
+        "Regular diet",
+        "Solid food the morning of procedure"
+      ],
+      "answer": "Clear liquid diet day before, polyethylene glycol (PEG) solution",
+      "explanation": "Colonoscopy bowel prep: clear liquid diet day before, PEG solution (4 liters or split-dose), NPO after midnight (or 4 hours before). Complete preparation is essential for adequate visualization - poor prep leads to missed lesions or repeat procedure. Hold anticoagulants per provider."
+    },
+    {
+      "id": 48,
+      "question": "Which sleep position is recommended for a client with gastroesophageal reflux disease (GERD)?",
+      "choices": [
+        "Flat supine",
+        "Head of bed elevated 6-8 inches, left side preferred",
+        "Right side only",
+        "Prone position"
+      ],
+      "answer": "Head of bed elevated 6-8 inches, left side preferred",
+      "explanation": "GERD positioning: elevate head of bed 6-8 inches (using bed wedge or blocks under head of bed - not just extra pillows), avoid lying down 2-3 hours after meals, sleeping on left side reduces reflux (compared to right). Lifestyle: avoid trigger foods, smaller meals, weight loss, no smoking, avoid late meals."
+    },
+    {
+      "id": 49,
+      "question": "A nurse is providing care to a client who is fasting before surgery. The client has DNPO (nothing by mouth) status. The nurse should:",
+      "choices": [
+        "Allow sips of water",
+        "Ensure no oral intake including water, ice chips, gum",
+        "Allow black coffee",
+        "Allow clear liquids"
+      ],
+      "answer": "Ensure no oral intake including water, ice chips, gum",
+      "explanation": "NPO before surgery: typically 6-8 hours for solid food, 2 hours for clear liquids (per ASA guidelines). NPO prevents aspiration during anesthesia. No food, fluids, ice chips, gum, candy, mints. Necessary medications may be allowed with small sip of water per anesthesia/surgeon. Verify NPO status before surgery."
+    },
+    {
+      "id": 50,
+      "question": "A client at end of life is experiencing 'death rattle' (rattling breath sounds). The nurse should:",
+      "choices": [
+        "Vigorously suction the airway",
+        "Reposition client, gentle suctioning if needed, explain to family this is part of dying process",
+        "Increase IV fluids",
+        "Encourage forced fluid intake"
+      ],
+      "answer": "Reposition client, gentle suctioning if needed, explain to family this is part of dying process",
+      "explanation": "End-of-life 'death rattle': accumulated secretions client cannot clear; usually more distressing to family than client. Management: position changes (lateral), gentle oral care, anti-cholinergic medications (glycopyrrolate, scopolamine), minimal suctioning (can cause distress), education for family that this is part of natural dying process."
+    }
+  ]
+}
