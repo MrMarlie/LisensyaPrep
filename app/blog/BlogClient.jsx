@@ -13,6 +13,7 @@ const TAG_COLORS = {
   'Agriculture': 'bg-lime-500/10 text-lime-400',
   'Board Exam Guide': 'bg-purple-500/10 text-purple-400',
   'Nursing': 'bg-pink-500/10 text-pink-400',
+  'NCLEX': 'bg-blue-600/10 text-blue-400',
   'Criminology': 'bg-red-500/10 text-red-400',
   'Education': 'bg-violet-500/10 text-violet-400',
   'Education (Filipino)': 'bg-violet-500/10 text-violet-400',
@@ -24,6 +25,7 @@ const CATEGORIES = [
   'All',
   'Board Exam Guides',
   'Nursing',
+  'NCLEX',
   'Criminology',
   'Education',
   'Agriculture',
@@ -34,6 +36,7 @@ const CATEGORIES = [
 const CATEGORY_TAG_MAP = {
   'Board Exam Guides': ['Board Exam Guide'],
   'Nursing': ['Nursing'],
+  'NCLEX': ['NCLEX'],
   'Criminology': ['Criminology'],
   'Education': ['Education'],
   'Agriculture': ['Agriculture', 'Study Tips', 'Soil Science', 'Economics', 'Crop Science'],
