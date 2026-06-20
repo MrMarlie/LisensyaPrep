@@ -58,15 +58,20 @@ export async function POST(req: NextRequest) {
   // Resolve PDF URLs and email content based on product
   const product = order.product || 'profed';
 
-  // Increment promo counter on first delivery (pending or verified → delivered)
+  // Maps each product to the shared promo counter it counts toward.
   const counterMap: Record<string, string> = {
     profed: 'let-first-100-shared',
     gened: 'let-first-100-shared',
     bundle: 'let-first-100-shared',
     'pnle-mastery': 'pnle-first-100-shared',
   };
-  const promoId = counterMap[product];
-  if (promoId && ['pending', 'verified'].includes(order.status)) {
+
+  // Count this buyer exactly once, only after the order is truly delivered.
+  // The early return above guarantees the order was not already delivered,
+  // so this runs once per order — no double-counting on delivery retries.
+  async function incrementPromoCounter() {
+    const promoId = counterMap[product];
+    if (!promoId) return;
     const { data: promo } = await supabase
       .from('promo_counters')
       .select('claimed, total_slots, active')
@@ -92,6 +97,7 @@ export async function POST(req: NextRequest) {
       });
     }
   }
+
   function buildThankYouHtml(name: string): string {
     return `
       <div style="font-family:Arial,sans-serif;max-width:560px;margin:0 auto;">
@@ -127,6 +133,9 @@ export async function POST(req: NextRequest) {
       .from('orders')
       .update({ status: 'delivered', delivered_at: new Date().toISOString() })
       .eq('order_id', orderId);
+
+    // Now that delivery succeeded, count the buyer toward the promo (exactly once).
+    await incrementPromoCounter();
 
     return NextResponse.json({ success: true, status: 'delivered' });
   } catch (emailErr) {
