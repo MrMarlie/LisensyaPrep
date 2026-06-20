@@ -351,6 +351,356 @@
       "choices": ["Applying fertilizer at planting time", "Applying liquid fertilizer directly to plant leaves", "Incorporating fertilizer into the soil before planting", "Using slow-release pellets placed near the roots"],
       "answer": "Applying liquid fertilizer directly to plant leaves",
       "explanation": "Foliar fertilization involves spraying dilute nutrient solutions directly onto plant leaves for rapid absorption. It is used to correct micronutrient deficiencies quickly or supplement soil application during critical growth stages."
+    },
+    {
+      "id": 51,
+      "question": "An ideal agricultural surface soil is composed of roughly what proportion of mineral matter, organic matter, water, and air?",
+      "choices": ["45% mineral, 5% organic, 25% water, 25% air", "90% mineral, 10% organic, 0% water, 0% air", "25% mineral, 25% organic, 25% water, 25% air", "70% mineral, 30% water, no air or organic matter"],
+      "answer": "45% mineral, 5% organic, 25% water, 25% air",
+      "explanation": "An ideal medium-textured soil is about 45% mineral matter, 5% organic matter, 25% water, and 25% air by volume. The balance of pore space between water and air is critical for healthy root growth and microbial activity."
+    },
+    {
+      "id": 52,
+      "question": "Soil bulk density is defined as the:",
+      "choices": ["Mass of soil solids per unit volume of soil including pore space", "Mass of water held by the soil", "Density of individual mineral particles only", "Weight of organic matter in the soil"],
+      "answer": "Mass of soil solids per unit volume of soil including pore space",
+      "explanation": "Bulk density is the dry mass of soil per total volume (solids plus pores). High bulk density indicates compaction and low porosity, restricting roots, water, and air. Sandy soils have higher bulk density than well-aggregated, organic-rich soils."
+    },
+    {
+      "id": 53,
+      "question": "The density of soil solids alone, excluding pore space, is called particle density and averages about:",
+      "choices": ["1.0 g/cm³", "1.3 g/cm³", "2.65 g/cm³", "5.0 g/cm³"],
+      "answer": "2.65 g/cm³",
+      "explanation": "Particle density, the mass of soil solids per unit volume of solids (no pores), averages about 2.65 g/cm³ for most mineral soils, reflecting the density of quartz and silicate minerals. It is used with bulk density to calculate porosity."
+    },
+    {
+      "id": 54,
+      "question": "The amount of water a soil holds after gravitational water has drained away is the:",
+      "choices": ["Saturation point", "Field capacity", "Permanent wilting point", "Hygroscopic water"],
+      "answer": "Field capacity",
+      "explanation": "Field capacity is the water content remaining after excess (gravitational) water has drained, usually 1–3 days after saturation. It represents the upper limit of plant-available water; the lower limit is the permanent wilting point."
+    },
+    {
+      "id": 55,
+      "question": "Soil clay and humus colloids generally carry what kind of surface charge, allowing them to retain nutrient cations?",
+      "choices": ["A net positive charge", "A net negative charge", "No charge at all", "A charge that is always neutral"],
+      "answer": "A net negative charge",
+      "explanation": "Clay and humus colloids carry predominantly negative surface charges, which attract and hold positively charged cations (Ca²⁺, Mg²⁺, K⁺, NH₄⁺). This is the basis of cation exchange capacity and the soil's ability to retain nutrients against leaching."
+    },
+    {
+      "id": 56,
+      "question": "A soil's resistance to changes in pH when acid or base is added is called its:",
+      "choices": ["Buffering capacity", "Permeability", "Bulk density", "Salinity"],
+      "answer": "Buffering capacity",
+      "explanation": "Buffering capacity is a soil's ability to resist pH change, due mainly to clay, organic matter, and carbonates. Soils high in clay and organic matter are well-buffered and require more lime or sulfur to change their pH."
+    },
+    {
+      "id": 57,
+      "question": "On the soil textural triangle, a soil with roughly balanced sand, silt, and clay that is ideal for most crops is classified as:",
+      "choices": ["Sand", "Loam", "Heavy clay", "Gravel"],
+      "answer": "Loam",
+      "explanation": "Loam is a textural class with a balanced mix of sand, silt, and clay. It combines good drainage and aeration (from sand) with water and nutrient retention (from silt and clay), making it the most desirable soil for general crop production."
+    },
+    {
+      "id": 58,
+      "question": "A grayish or bluish-gray soil color in poorly drained subsoil usually indicates:",
+      "choices": ["High organic matter content", "Waterlogged, oxygen-poor (gleyed) conditions", "Very high fertility", "A sandy texture"],
+      "answer": "Waterlogged, oxygen-poor (gleyed) conditions",
+      "explanation": "Gray or bluish-gray (gley) colors result from prolonged waterlogging, where lack of oxygen reduces iron to its ferrous form. Mottling and gleying signal poor drainage, which restricts root respiration and limits crop choice."
+    },
+    {
+      "id": 59,
+      "question": "In a soil profile, the horizon characterized by the loss (eluviation) of clay, iron, and aluminum, often appearing light-colored, is the:",
+      "choices": ["O horizon", "E horizon", "B horizon", "R horizon"],
+      "answer": "E horizon",
+      "explanation": "The E horizon is the zone of maximum eluviation (leaching out) of clay, iron, and aluminum, leaving behind resistant, light-colored sand and silt. The illuvial B horizon below accumulates those leached materials, and R is the bedrock."
+    },
+    {
+      "id": 60,
+      "question": "The unconsolidated mineral or organic material from which a soil develops is called the:",
+      "choices": ["Topsoil", "Parent material", "Humus", "Subsoil aggregate"],
+      "answer": "Parent material",
+      "explanation": "Parent material is the underlying geologic or organic material (e.g., weathered rock, volcanic ash, alluvium) from which a soil forms. Along with climate, organisms, relief, and time, it is one of the five soil-forming factors."
+    },
+    {
+      "id": 61,
+      "question": "The chemical breakdown of rock minerals through processes like hydrolysis and oxidation is an example of:",
+      "choices": ["Physical weathering", "Chemical weathering", "Soil compaction", "Salinization"],
+      "answer": "Chemical weathering",
+      "explanation": "Chemical weathering alters mineral composition through reactions such as hydrolysis, oxidation, and carbonation, releasing nutrients and forming clays. Physical weathering merely breaks rock into smaller pieces without changing its chemical makeup."
+    },
+    {
+      "id": 62,
+      "question": "Dolomitic limestone is often preferred over ordinary limestone for liming because it also supplies:",
+      "choices": ["Nitrogen", "Magnesium", "Sulfur", "Potassium"],
+      "answer": "Magnesium",
+      "explanation": "Dolomitic lime is calcium-magnesium carbonate. Besides raising pH like ordinary calcitic lime, it supplies magnesium, correcting Mg deficiency. It is valuable on acidic, magnesium-poor soils common in high-rainfall areas."
+    },
+    {
+      "id": 63,
+      "question": "Gypsum (calcium sulfate) is applied to reclaim sodic soils because it:",
+      "choices": ["Strongly raises the soil pH", "Replaces sodium on the exchange sites with calcium without greatly changing pH", "Adds large amounts of nitrogen", "Increases soil sodium levels"],
+      "answer": "Replaces sodium on the exchange sites with calcium without greatly changing pH",
+      "explanation": "Gypsum supplies calcium that displaces excess sodium from the exchange complex of sodic soils; the sodium is then leached away, improving structure. Unlike lime, gypsum is pH-neutral, so it reclaims sodicity without strongly raising pH."
+    },
+    {
+      "id": 64,
+      "question": "To LOWER the pH of an alkaline soil, a farmer would typically apply:",
+      "choices": ["Agricultural lime", "Elemental sulfur", "Wood ash", "Calcium carbonate"],
+      "answer": "Elemental sulfur",
+      "explanation": "Elemental sulfur is oxidized by soil bacteria to sulfuric acid, lowering soil pH over time. It is used to acidify alkaline soils for acid-loving crops. Lime, wood ash, and calcium carbonate all raise pH and would worsen alkalinity."
+    },
+    {
+      "id": 65,
+      "question": "Soil salinity is most commonly measured by determining the soil's:",
+      "choices": ["Bulk density", "Electrical conductivity (EC)", "Cation exchange capacity", "Organic carbon content"],
+      "answer": "Electrical conductivity (EC)",
+      "explanation": "Salinity is measured by electrical conductivity (EC), because dissolved salts conduct electricity in proportion to their concentration. A high EC indicates saline soil that can cause osmotic stress and reduce crop water uptake and yield."
+    },
+    {
+      "id": 66,
+      "question": "Which nitrogen transformation converts ammonium (NH₄⁺) to nitrate (NO₃⁻) by Nitrosomonas and Nitrobacter bacteria?",
+      "choices": ["Ammonification", "Nitrification", "Denitrification", "Nitrogen fixation"],
+      "answer": "Nitrification",
+      "explanation": "Nitrification is the two-step aerobic microbial oxidation of ammonium to nitrite (by Nitrosomonas) and then to nitrate (by Nitrobacter). Nitrate is mobile and readily taken up by plants but is also prone to leaching."
+    },
+    {
+      "id": 67,
+      "question": "The microbial conversion of organic nitrogen in residues into ammonium is called:",
+      "choices": ["Ammonification (mineralization)", "Nitrification", "Volatilization", "Immobilization"],
+      "answer": "Ammonification (mineralization)",
+      "explanation": "Ammonification (part of mineralization) is the breakdown of organic nitrogen compounds (proteins, amino acids) by microorganisms, releasing ammonium (NH₄⁺) into the soil where it becomes available to plants or undergoes nitrification."
+    },
+    {
+      "id": 68,
+      "question": "Surface-applied urea can lose nitrogen to the air as ammonia gas through the process of:",
+      "choices": ["Leaching", "Volatilization", "Denitrification", "Fixation"],
+      "answer": "Volatilization",
+      "explanation": "Ammonia volatilization is the loss of nitrogen as ammonia gas when urea or ammonium fertilizers are left on the soil surface, especially in warm, moist, alkaline conditions. Incorporating or watering in the fertilizer reduces this loss."
+    },
+    {
+      "id": 69,
+      "question": "Incorporating crop residue with a high carbon-to-nitrogen (C:N) ratio, such as rice straw, can temporarily reduce available soil nitrogen because of:",
+      "choices": ["Nitrogen fixation", "Nitrogen immobilization by microbes", "Excess nitrification", "Denitrification"],
+      "answer": "Nitrogen immobilization by microbes",
+      "explanation": "When high C:N residues are added, soil microbes decomposing the carbon-rich material take up (immobilize) available soil nitrogen for their own growth, temporarily depriving crops. As decomposition completes, the nitrogen is later released (mineralized)."
+    },
+    {
+      "id": 70,
+      "question": "A complete fertilizer such as 14-14-14 contains:",
+      "choices": ["Only nitrogen", "Nitrogen, phosphorus, and potassium", "Only micronutrients", "Calcium, magnesium, and sulfur"],
+      "answer": "Nitrogen, phosphorus, and potassium",
+      "explanation": "A 'complete' fertilizer contains all three primary macronutrients — nitrogen (N), phosphorus (P₂O₅), and potassium (K₂O). The grade 14-14-14 means 14% of each. Complete fertilizers are commonly used as basal fertilizer at planting."
+    },
+    {
+      "id": 71,
+      "question": "How many kilograms of actual nitrogen are supplied by one 50-kg bag of urea (46-0-0)?",
+      "choices": ["46 kg", "23 kg", "50 kg", "9.2 kg"],
+      "answer": "23 kg",
+      "explanation": "Urea is 46% nitrogen, so a 50-kg bag supplies 50 × 0.46 = 23 kg of actual N. Computing actual nutrient content from the fertilizer grade is essential for accurate fertilizer recommendations and rate calculations."
+    },
+    {
+      "id": 72,
+      "question": "Muriate of potash (0-0-60) is valued mainly as a source of:",
+      "choices": ["Nitrogen", "Phosphorus", "Potassium", "Calcium"],
+      "answer": "Potassium",
+      "explanation": "Muriate of potash (potassium chloride, 0-0-60) is the most widely used potassium fertilizer, supplying about 60% K₂O. Potassium improves water regulation, enzyme activation, disease resistance, and overall crop quality."
+    },
+    {
+      "id": 73,
+      "question": "Which secondary macronutrient, a component of certain amino acids and proteins, is supplied by ammonium sulfate and gypsum?",
+      "choices": ["Boron", "Sulfur", "Zinc", "Molybdenum"],
+      "answer": "Sulfur",
+      "explanation": "Sulfur is a secondary macronutrient essential for synthesizing sulfur-containing amino acids (cysteine, methionine) and proteins. Ammonium sulfate (21-0-0-24S) and gypsum are common sulfur sources; deficiency causes yellowing of younger leaves."
+    },
+    {
+      "id": 74,
+      "question": "Zinc deficiency in rice, common in wetland soils, is locally known as:",
+      "choices": ["Hopperburn", "Khaira / bronzing", "Blast", "Tungro"],
+      "answer": "Khaira / bronzing",
+      "explanation": "Zinc deficiency in rice causes bronzing or brown blotches on leaves and stunted growth, sometimes called 'khaira' disease. It is common in calcareous, alkaline, or continuously flooded soils and is corrected with zinc sulfate."
+    },
+    {
+      "id": 75,
+      "question": "Deficiency symptoms of immobile nutrients such as calcium, iron, and boron appear first in:",
+      "choices": ["The oldest (lower) leaves", "The youngest (upper) leaves and growing points", "The roots only", "The fruits only"],
+      "answer": "The youngest (upper) leaves and growing points",
+      "explanation": "Immobile nutrients (Ca, Fe, B, Zn, Cu) cannot be translocated from old tissue to new, so deficiency symptoms appear first in young leaves and growing tips. Mobile nutrients (N, P, K, Mg) show symptoms first in older leaves."
+    },
+    {
+      "id": 76,
+      "question": "When collecting a representative soil sample for analysis, the best practice is to:",
+      "choices": ["Take a single sample from the center of the field", "Collect several subsamples in a zigzag pattern and combine them into one composite sample", "Sample only the most fertile spot", "Use only subsoil from 1 meter deep"],
+      "answer": "Collect several subsamples in a zigzag pattern and combine them into one composite sample",
+      "explanation": "A representative composite sample is made by taking many subsamples (10–15) in a zigzag pattern across a uniform area, mixing them, and submitting a portion. This averages out field variability, giving reliable soil test results for fertilizer recommendations."
+    },
+    {
+      "id": 77,
+      "question": "The main reason to conduct a soil test before applying fertilizer is to:",
+      "choices": ["Increase fertilizer sales", "Determine nutrient levels and pH so fertilizer can be applied at the right rate", "Measure crop yield", "Identify insect pests"],
+      "answer": "Determine nutrient levels and pH so fertilizer can be applied at the right rate",
+      "explanation": "Soil testing reveals existing nutrient levels, pH, and other properties, enabling site-specific, balanced fertilizer recommendations. This avoids both under-fertilizing (low yield) and over-fertilizing (wasted money and environmental pollution)."
+    },
+    {
+      "id": 78,
+      "question": "Deep plowing to invert and loosen soil before planting is classified as:",
+      "choices": ["Secondary tillage", "Primary tillage", "Zero tillage", "Foliar tillage"],
+      "answer": "Primary tillage",
+      "explanation": "Primary tillage (e.g., plowing) is the first, deeper soil-loosening operation that breaks and inverts the soil. Secondary tillage (harrowing, leveling) follows to refine the seedbed. Both prepare soil for planting but at different depths and intensities."
+    },
+    {
+      "id": 79,
+      "question": "A key benefit of zero (no-till) tillage and keeping residue on the surface is:",
+      "choices": ["Increased soil erosion", "Reduced soil erosion and improved moisture conservation", "Faster organic matter loss", "Greater fuel use"],
+      "answer": "Reduced soil erosion and improved moisture conservation",
+      "explanation": "No-till leaves crop residue on the surface and avoids inverting the soil, which reduces water and wind erosion, conserves soil moisture, builds organic matter, and saves fuel and labor. It is a core conservation agriculture practice."
+    },
+    {
+      "id": 80,
+      "question": "On steep hillsides, constructing level step-like platforms to control erosion is called:",
+      "choices": ["Terracing", "Broadcasting", "Fallowing", "Ratooning"],
+      "answer": "Terracing",
+      "explanation": "Terracing converts steep slopes into a series of level or gently sloping steps, slowing runoff, increasing infiltration, and reducing erosion. The Banaue Rice Terraces are a famous Philippine example of this conservation technique."
+    },
+    {
+      "id": 81,
+      "question": "Rows of trees or shrubs planted to reduce wind speed and protect crops and soil are called:",
+      "choices": ["Cover crops", "Windbreaks (shelterbelts)", "Green manures", "Hedgerows for fruit"],
+      "answer": "Windbreaks (shelterbelts)",
+      "explanation": "Windbreaks or shelterbelts are rows of trees/shrubs that slow wind, reducing wind erosion, protecting crops from desiccation and physical damage, and conserving soil moisture. They are important in open, wind-prone agricultural areas."
+    },
+    {
+      "id": 82,
+      "question": "Saline soils are best reclaimed by:",
+      "choices": ["Adding more salt to balance the soil", "Applying good-quality water to leach salts below the root zone with adequate drainage", "Increasing the soil pH with lime", "Reducing irrigation completely"],
+      "answer": "Applying good-quality water to leach salts below the root zone with adequate drainage",
+      "explanation": "Reclaiming saline soil requires leaching: applying enough good-quality water to dissolve and flush salts below the root zone, combined with adequate drainage to carry the salty water away. Without drainage, salts simply return."
+    },
+    {
+      "id": 83,
+      "question": "Installing subsurface drains or open ditches in waterlogged fields primarily helps by:",
+      "choices": ["Increasing soil salinity", "Lowering the water table and improving soil aeration", "Reducing soil organic matter", "Compacting the soil"],
+      "answer": "Lowering the water table and improving soil aeration",
+      "explanation": "Drainage removes excess water and lowers a high water table, restoring air-filled pore space so roots and aerobic microbes can respire. Good drainage prevents waterlogging, root suffocation, denitrification losses, and salt accumulation."
+    },
+    {
+      "id": 84,
+      "question": "The upward movement of water through fine soil pores against gravity is due to:",
+      "choices": ["Capillary action", "Leaching", "Denitrification", "Evaporation only"],
+      "answer": "Capillary action",
+      "explanation": "Capillary action is the movement of water through small soil pores driven by adhesion and surface tension, allowing water to rise from a wet zone toward drier soil or the surface. It supplies water to roots and can also carry salts upward in dry climates."
+    },
+    {
+      "id": 85,
+      "question": "Compared with synthetic inorganic fertilizers, organic fertilizers such as compost generally:",
+      "choices": ["Release nutrients more slowly and improve soil structure", "Contain higher concentrations of nutrients", "Provide an immediate nutrient boost", "Have no effect on soil microorganisms"],
+      "answer": "Release nutrients more slowly and improve soil structure",
+      "explanation": "Organic fertilizers release nutrients slowly as they decompose, supply organic matter that improves soil structure and water retention, and feed soil microbes. Inorganic fertilizers are more concentrated and fast-acting but do not build soil organic matter."
+    },
+    {
+      "id": 86,
+      "question": "Azolla, a small aquatic fern used as a biofertilizer in rice paddies, fixes nitrogen because of its symbiosis with:",
+      "choices": ["Rhizobium bacteria", "The cyanobacterium Anabaena azollae", "Mycorrhizal fungi", "Earthworms"],
+      "answer": "The cyanobacterium Anabaena azollae",
+      "explanation": "Azolla hosts the nitrogen-fixing cyanobacterium Anabaena azollae in its leaf cavities. Grown in flooded rice fields and incorporated, azolla supplies significant biologically fixed nitrogen, reducing the need for synthetic N fertilizer."
+    },
+    {
+      "id": 87,
+      "question": "Good soil aeration is important for crop production mainly because plant roots and aerobic microbes require:",
+      "choices": ["Nitrogen gas for fixation", "Oxygen for respiration", "Carbon dioxide for photosynthesis", "Methane for energy"],
+      "answer": "Oxygen for respiration",
+      "explanation": "Roots and aerobic soil organisms need oxygen for respiration to produce energy for nutrient and water uptake. Poorly aerated (waterlogged or compacted) soils starve roots of oxygen, causing poor growth and promoting denitrification and toxic conditions."
+    },
+    {
+      "id": 88,
+      "question": "In strongly acidic soils (pH below about 5.0), reduced crop growth is often caused by the toxicity of:",
+      "choices": ["Aluminum and manganese", "Sodium and chloride", "Calcium and magnesium", "Nitrogen and phosphorus"],
+      "answer": "Aluminum and manganese",
+      "explanation": "At low pH, aluminum and manganese become more soluble and reach toxic levels, damaging roots and impairing nutrient uptake. This is a major reason for liming acidic soils — it precipitates these elements and improves the root environment."
+    },
+    {
+      "id": 89,
+      "question": "The good physical condition of a soil that is loose, friable, and well-aggregated for planting is referred to as good:",
+      "choices": ["Tilth", "Salinity", "Bulk density", "Albedo"],
+      "answer": "Tilth",
+      "explanation": "Tilth describes the physical condition of soil for crop growth — its structure, aggregation, friability, and ease of tillage. Good tilth means a crumbly, well-aggregated soil that allows easy root penetration, water infiltration, and aeration."
+    },
+    {
+      "id": 90,
+      "question": "Applying nitrogen fertilizer in two or more split applications during the crop's growth, rather than all at once, mainly serves to:",
+      "choices": ["Increase leaching and volatilization losses", "Match nutrient supply to crop demand and reduce nitrogen losses", "Reduce total yield", "Raise the soil pH"],
+      "answer": "Match nutrient supply to crop demand and reduce nitrogen losses",
+      "explanation": "Split application of nitrogen synchronizes supply with the crop's changing demand across growth stages, improving uptake efficiency and reducing losses from leaching and volatilization. It is standard practice for nitrogen in rice and corn."
+    },
+    {
+      "id": 91,
+      "question": "Which property makes sandy soils prone to nutrient leaching?",
+      "choices": ["High clay content", "Low cation exchange capacity and high permeability", "Very high organic matter", "Strong aggregation"],
+      "answer": "Low cation exchange capacity and high permeability",
+      "explanation": "Sandy soils have large particles, large pores, high permeability, and low CEC, so water and dissolved nutrients move through them quickly with little retention. This makes them prone to leaching losses, requiring frequent, light fertilizer applications."
+    },
+    {
+      "id": 92,
+      "question": "The 4R Nutrient Stewardship framework promotes applying nutrients using the:",
+      "choices": ["Right source, right rate, right time, and right place", "Right color, right brand, right bag, and right store", "Right rain, right river, right road, and right region", "Right rotation, right ridge, right row, and right ratoon"],
+      "answer": "Right source, right rate, right time, and right place",
+      "explanation": "The 4R Nutrient Stewardship concept guides efficient, responsible fertilizer use: the Right source (nutrient form), at the Right rate, at the Right time, and in the Right place. It maximizes crop uptake while minimizing environmental losses."
+    },
+    {
+      "id": 93,
+      "question": "Soil organic matter improves a sandy soil's productivity largely by:",
+      "choices": ["Decreasing its water-holding capacity", "Increasing its water-holding capacity and cation exchange capacity", "Lowering its nutrient content", "Making it more prone to erosion"],
+      "answer": "Increasing its water-holding capacity and cation exchange capacity",
+      "explanation": "Organic matter acts like a sponge and a nutrient reservoir: it boosts water-holding capacity and adds negative exchange sites (raising CEC), helping otherwise droughty, nutrient-poor sandy soils retain more water and nutrients."
+    },
+    {
+      "id": 94,
+      "question": "Continuous flooding of rice paddies creates which soil condition in the root zone?",
+      "choices": ["Aerobic (oxygen-rich)", "Anaerobic (oxygen-poor) reduced conditions", "Highly saline", "Strongly alkaline only"],
+      "answer": "Anaerobic (oxygen-poor) reduced conditions",
+      "explanation": "Submerged paddy soils quickly become anaerobic because oxygen diffuses very slowly through water. These reduced conditions change nutrient chemistry (e.g., favoring ammonium over nitrate) and explain why nitrate fertilizers are inefficient in flooded rice."
+    },
+    {
+      "id": 95,
+      "question": "Which practice best builds and maintains soil organic matter over the long term?",
+      "choices": ["Burning all crop residues", "Returning crop residues, adding compost, and using cover crops", "Continuous intensive tillage", "Removing all plant material after harvest"],
+      "answer": "Returning crop residues, adding compost, and using cover crops",
+      "explanation": "Soil organic matter is built by adding and retaining organic inputs — incorporating crop residues, applying compost/manure, growing cover crops, and minimizing tillage. Burning residues and excessive tillage accelerate organic matter loss."
+    },
+    {
+      "id": 96,
+      "question": "A soil with an exchangeable sodium percentage (ESP) above 15 and poor structure is classified as a:",
+      "choices": ["Saline soil", "Sodic (alkali) soil", "Acid sulfate soil", "Sandy loam"],
+      "answer": "Sodic (alkali) soil",
+      "explanation": "Sodic soils have high exchangeable sodium (ESP > 15), which disperses clay particles, destroying soil structure and causing poor permeability and crusting. They are reclaimed with gypsum (to supply Ca) followed by leaching of the displaced sodium."
+    },
+    {
+      "id": 97,
+      "question": "Why is phosphorus considered relatively immobile in the soil compared with nitrate?",
+      "choices": ["It readily leaches with water", "It is strongly fixed/adsorbed by soil minerals and moves very little", "It volatilizes into the air", "It is taken up only by microbes"],
+      "answer": "It is strongly fixed/adsorbed by soil minerals and moves very little",
+      "explanation": "Phosphate ions are quickly fixed by iron and aluminum (in acid soils) or calcium (in alkaline soils) and adsorbed onto soil particles, so phosphorus moves very little and resists leaching. This is why phosphorus is best placed near the seed/roots (band placement)."
+    },
+    {
+      "id": 98,
+      "question": "Mottling — patches of contrasting colors in the subsoil — is generally an indicator of:",
+      "choices": ["Excellent drainage", "Fluctuating water table and periodic waterlogging", "High organic matter", "Low pH"],
+      "answer": "Fluctuating water table and periodic waterlogging",
+      "explanation": "Mottles (rusty and gray patches) form where the water table rises and falls, alternately oxidizing and reducing iron. They indicate impeded drainage and a fluctuating water table — useful field clues to a soil's drainage class and management needs."
+    },
+    {
+      "id": 99,
+      "question": "Maintaining a balanced soil fertility program is best described as supplying:",
+      "choices": ["Only nitrogen, since it gives the biggest yield response", "All essential nutrients in the proper amounts and proportions based on crop need and soil test", "Maximum amounts of every nutrient regardless of need", "Only organic matter with no mineral fertilizer"],
+      "answer": "All essential nutrients in the proper amounts and proportions based on crop need and soil test",
+      "explanation": "Balanced fertility means supplying all essential nutrients in the right amounts and ratios, guided by soil tests and crop requirements. Liebig's Law of the Minimum holds that yield is limited by the most deficient nutrient, so balance — not just more nitrogen — is key."
+    },
+    {
+      "id": 100,
+      "question": "Hydroponics differs from conventional crop production in that plants are grown:",
+      "choices": ["In compacted clay soil", "In a nutrient solution without soil", "Only in flooded paddies", "Exclusively under plastic mulch"],
+      "answer": "In a nutrient solution without soil",
+      "explanation": "Hydroponics grows plants without soil, with roots supported in an inert medium or directly in a nutrient solution containing all essential elements in balanced form. It allows precise nutrient control and is used for high-value vegetables, though it requires careful management."
     }
   ]
 }

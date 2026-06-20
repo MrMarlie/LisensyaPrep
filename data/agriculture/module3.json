@@ -277,10 +277,10 @@
     },
     {
       "id": 40,
-      "question": "What is agribusiness?",
-      "choices": ["Farming activities restricted to large commercial estates", "The sector encompassing agricultural production, processing, distribution, and related industries", "Government programs supporting agricultural development", "Small-scale farming using traditional methods"],
-      "answer": "The sector encompassing agricultural production, processing, distribution, and related industries",
-      "explanation": "Agribusiness refers to all business activities in the agricultural system — from input supply and farming to processing, marketing, and distribution. It integrates farming with commercial business principles."
+      "question": "What is the 'farm-gate price' of an agricultural product?",
+      "choices": ["The retail price paid by the final consumer", "The price the farmer receives at the farm, before transport and marketing costs are added", "The price set by the government for exports", "The wholesale price at the central market"],
+      "answer": "The price the farmer receives at the farm, before transport and marketing costs are added",
+      "explanation": "The farm-gate price is the net price received by the farmer at the farm, excluding the transport, handling, and marketing costs added later in the chain. Comparing the farm-gate and retail prices reveals the marketing margin and the farmer's share of the consumer peso."
     },
     {
       "id": 41,
@@ -326,10 +326,10 @@
     },
     {
       "id": 47,
-      "question": "What is contract farming?",
-      "choices": ["A seasonal labor contract between a farmer and farm workers", "An arrangement where a buyer provides inputs and guarantees purchase of the crop at an agreed price", "A lease agreement for renting agricultural land", "A government contract to supply food for public institutions"],
-      "answer": "An arrangement where a buyer provides inputs and guarantees purchase of the crop at an agreed price",
-      "explanation": "Contract farming is an agreement between a processing company or buyer and farmers, where the company provides inputs, technical support, and guarantees to buy the crop at a pre-agreed price, reducing market risk for farmers."
+      "question": "Why does the perishability of many agricultural products strongly affect their marketing?",
+      "choices": ["It makes them easy to store indefinitely", "It forces timely handling, storage, and quick sale to avoid spoilage and losses", "It eliminates the need for cold storage", "It guarantees stable prices all year round"],
+      "answer": "It forces timely handling, storage, and quick sale to avoid spoilage and losses",
+      "explanation": "Perishable products (fruits, vegetables, milk, fish) deteriorate quickly, so marketing must handle, cool, transport, and sell them rapidly to prevent spoilage and losses. Perishability raises marketing costs and risk and underlies the need for cold chains, processing, and efficient logistics."
     },
     {
       "id": 48,
@@ -351,6 +351,356 @@
       "choices": ["Gross margin is total revenue; net profit includes all costs", "Gross margin is revenue minus variable costs; net profit is gross margin minus fixed costs", "Gross margin is the profit before tax; net profit is after tax", "Gross margin applies to crops; net profit applies to livestock"],
       "answer": "Gross margin is revenue minus variable costs; net profit is gross margin minus fixed costs",
       "explanation": "Gross margin = Total Revenue – Variable Costs. It is a useful measure for comparing enterprises. Net profit = Gross Margin – Fixed Costs (overhead). Net profit represents the true profitability of the farm business."
+    },
+    {
+      "id": 51,
+      "question": "The Law of Supply states that, all else equal, as the price of a product rises:",
+      "choices": ["The quantity supplied falls", "The quantity supplied rises", "Supply becomes fixed", "Demand rises"],
+      "answer": "The quantity supplied rises",
+      "explanation": "The Law of Supply describes a direct (positive) relationship between price and quantity supplied: higher prices give producers an incentive to supply more, while lower prices reduce the quantity supplied, ceteris paribus."
+    },
+    {
+      "id": 52,
+      "question": "In a competitive market, the equilibrium price is determined where:",
+      "choices": ["The government sets it", "Quantity demanded equals quantity supplied", "Total cost is lowest", "Demand is zero"],
+      "answer": "Quantity demanded equals quantity supplied",
+      "explanation": "Market equilibrium occurs where the demand and supply curves intersect, so that the quantity buyers wish to purchase equals the quantity sellers wish to sell. At this price there is neither surplus nor shortage."
+    },
+    {
+      "id": 53,
+      "question": "The difference between the farm-gate price a farmer receives and the retail price the consumer pays is called the:",
+      "choices": ["Gross margin", "Marketing margin", "Opportunity cost", "Price floor"],
+      "answer": "Marketing margin",
+      "explanation": "The marketing margin is the gap between the price paid by consumers and the price received by farmers. It covers the costs and profits of intermediaries performing functions such as transport, storage, processing, and retailing."
+    },
+    {
+      "id": 54,
+      "question": "Storing onions after harvest until prices rise later in the year primarily adds which type of utility?",
+      "choices": ["Form utility", "Time utility", "Place utility", "Possession utility"],
+      "answer": "Time utility",
+      "explanation": "Storage creates time utility by making a product available when consumers want it rather than only at harvest. Transport adds place utility, processing adds form utility, and exchange adds possession utility — the core marketing functions."
+    },
+    {
+      "id": 55,
+      "question": "Because the demand for most staple foods is price-inelastic, a bumper harvest often results in:",
+      "choices": ["Higher total revenue for farmers", "Lower total revenue for farmers as prices fall sharply", "No change in prices", "A shortage of the commodity"],
+      "answer": "Lower total revenue for farmers as prices fall sharply",
+      "explanation": "With inelastic demand, a large increase in supply causes prices to drop more than proportionally, so total farm revenue can actually fall during a bumper harvest. This 'paradox of plenty' is a key reason for farm price instability and policy support."
+    },
+    {
+      "id": 56,
+      "question": "Engel's Law states that as a household's income rises, the proportion of income spent on food:",
+      "choices": ["Increases", "Decreases", "Stays exactly the same", "Becomes zero"],
+      "answer": "Decreases",
+      "explanation": "Engel's Law observes that as income increases, the share (percentage) of income spent on food declines, even though absolute food spending may rise. This has important implications for agricultural demand and rural development as economies grow."
+    },
+    {
+      "id": 57,
+      "question": "Grading and standardization of agricultural products mainly benefit marketing by:",
+      "choices": ["Increasing post-harvest losses", "Allowing products to be bought and sold by description and ensuring fair pricing by quality", "Eliminating the need for transport", "Reducing crop yields"],
+      "answer": "Allowing products to be bought and sold by description and ensuring fair pricing by quality",
+      "explanation": "Grading sorts products into uniform quality classes and standardization sets common measures, enabling trade by description (even without physical inspection), fairer price differentiation by quality, and greater market efficiency and consumer confidence."
+    },
+    {
+      "id": 58,
+      "question": "The recurring pattern in which this year's high prices lead to overproduction and low prices next year (and vice versa) is described by the:",
+      "choices": ["Cobweb theorem", "Multiplier effect", "Law of demand", "Engel's Law"],
+      "answer": "Cobweb theorem",
+      "explanation": "The cobweb theorem explains cyclical price and quantity fluctuations in agriculture: farmers base planting decisions on current prices, but because production takes time, supply responses lag, causing alternating gluts and shortages and oscillating prices."
+    },
+    {
+      "id": 59,
+      "question": "A major economic reason for the existence of agricultural marketing intermediaries (middlemen) is that they:",
+      "choices": ["Always exploit farmers with no benefit", "Perform necessary functions like assembly, transport, storage, and risk-bearing that add value", "Replace the need for farmers", "Only increase consumer prices without service"],
+      "answer": "Perform necessary functions like assembly, transport, storage, and risk-bearing that add value",
+      "explanation": "Intermediaries perform real marketing functions — assembling small lots, transporting, storing, financing, grading, and bearing risk — that bridge the gap between dispersed farmers and consumers. Their margins reflect these costs and services, though efficiency varies."
+    },
+    {
+      "id": 60,
+      "question": "Processing raw sugarcane into refined sugar is an example of adding:",
+      "choices": ["Time utility", "Place utility", "Form utility", "Possession utility"],
+      "answer": "Form utility",
+      "explanation": "Processing changes a product's physical form to make it more useful or marketable, creating form utility (e.g., cane to sugar, palay to rice, milk to cheese). It is one of the value-adding marketing functions in the agricultural value chain."
+    },
+    {
+      "id": 61,
+      "question": "A distinctive principle of a genuine cooperative, unlike a stock corporation, is:",
+      "choices": ["One share, one vote", "One member, one vote regardless of shares", "Voting power based on landholding", "Only managers can vote"],
+      "answer": "One member, one vote regardless of shares",
+      "explanation": "Cooperatives follow democratic member control: each member has one vote regardless of capital contributed, unlike corporations where votes are proportional to shares. This principle keeps cooperatives member-centered and equitable."
+    },
+    {
+      "id": 62,
+      "question": "Republic Act No. 11203, which replaced quantitative import restrictions on rice with tariffs, is known as the:",
+      "choices": ["Agrarian Reform Law", "Rice Tariffication Law", "Organic Agriculture Act", "Agri-Agra Reform Law"],
+      "answer": "Rice Tariffication Law",
+      "explanation": "The Rice Tariffication Law (RA 11203, 2019) lifted the quantitative restriction on rice imports and imposed tariffs instead, while creating the Rice Competitiveness Enhancement Fund (RCEF) to help local farmers modernize and compete."
+    },
+    {
+      "id": 63,
+      "question": "The Comprehensive Agrarian Reform Program (CARP) under RA 6657 primarily aims to:",
+      "choices": ["Increase land taxes", "Redistribute agricultural land to landless farmers with just compensation to owners", "Convert farmland to industrial use", "Privatize all public lands"],
+      "answer": "Redistribute agricultural land to landless farmers with just compensation to owners",
+      "explanation": "CARP (RA 6657, 1988) seeks a more equitable distribution of agricultural land by transferring ownership to landless tenant-farmers and farmworkers, with just compensation to landowners, to promote social justice and rural productivity."
+    },
+    {
+      "id": 64,
+      "question": "An import tariff on an agricultural commodity is best described as a:",
+      "choices": ["Quantity limit on imports", "Tax imposed on imported goods", "Government purchase guarantee", "Subsidy to exporters"],
+      "answer": "Tax imposed on imported goods",
+      "explanation": "A tariff is a tax on imports that raises their price, protecting domestic producers and generating government revenue. It differs from a quota, which directly limits the quantity of imports allowed."
+    },
+    {
+      "id": 65,
+      "question": "Holding a buffer stock of rice to release during shortages and buy during surpluses is a government tool mainly intended to:",
+      "choices": ["Maximize government profit", "Stabilize prices and ensure food supply", "Eliminate all imports", "Lower farmer incomes"],
+      "answer": "Stabilize prices and ensure food supply",
+      "explanation": "A buffer stock scheme stabilizes prices: the agency buys and stores grain when prices are low (supporting farmers) and releases stock when prices are high (protecting consumers), smoothing supply and price swings and supporting food security."
+    },
+    {
+      "id": 66,
+      "question": "Microfinance and the Agri-Agra Reform Credit Act are important to agriculture because they:",
+      "choices": ["Eliminate the need for farming", "Improve smallholder farmers' access to credit and capital", "Set crop prices", "Provide free land"],
+      "answer": "Improve smallholder farmers' access to credit and capital",
+      "explanation": "Access to affordable credit lets farmers buy inputs and invest in productivity. Microfinance and laws like the Agri-Agra Reform Credit Act (mandating banks to allocate credit to agriculture) aim to expand financial access for small farmers who often lack collateral."
+    },
+    {
+      "id": 67,
+      "question": "A forward (or futures) contract helps a farmer manage risk by:",
+      "choices": ["Guaranteeing higher yields", "Locking in a price for the crop in advance, reducing price uncertainty", "Eliminating production costs", "Removing the need for buyers"],
+      "answer": "Locking in a price for the crop in advance, reducing price uncertainty",
+      "explanation": "A forward/futures contract sets the selling price (and quantity) before delivery, hedging against adverse price movements. This reduces price risk and aids planning, though the farmer forgoes potential gains if market prices later rise."
+    },
+    {
+      "id": 68,
+      "question": "Which set of factors would shift the DEMAND curve for a farm product (rather than just move along it)?",
+      "choices": ["A change in the product's own price only", "Changes in consumer income, population, tastes, and prices of related goods", "A change in fertilizer cost", "A change in the weather"],
+      "answer": "Changes in consumer income, population, tastes, and prices of related goods",
+      "explanation": "Demand determinants other than the product's own price — income, population, tastes/preferences, and prices of substitutes and complements — shift the whole demand curve. A change in the good's own price only causes movement along the curve."
+    },
+    {
+      "id": 69,
+      "question": "Agricultural supply tends to be more price-elastic in the long run than the short run because:",
+      "choices": ["Crops grow instantly", "Over time farmers can adjust land, technology, and other resources to price changes", "Prices never change", "Demand is always inelastic"],
+      "answer": "Over time farmers can adjust land, technology, and other resources to price changes",
+      "explanation": "In the short run, biological and resource constraints limit how quickly farmers can change output, so supply is inelastic. Given more time, they can reallocate land, adopt technology, and expand or contract, making long-run supply more elastic."
+    },
+    {
+      "id": 70,
+      "question": "A profit-maximizing farmer should keep adding a variable input up to the point where:",
+      "choices": ["Total cost is zero", "Marginal revenue equals marginal cost (MR = MC)", "Average product is highest", "Fixed cost is highest"],
+      "answer": "Marginal revenue equals marginal cost (MR = MC)",
+      "explanation": "Profit is maximized where the marginal revenue from the last unit of input equals its marginal cost (MR = MC). Beyond this point, additional input costs more than it returns; before it, more input would still add profit."
+    },
+    {
+      "id": 71,
+      "question": "A curve showing the maximum combinations of two products a farm can produce with given resources is the:",
+      "choices": ["Demand curve", "Production possibility frontier (PPF)", "Supply curve", "Cost curve"],
+      "answer": "Production possibility frontier (PPF)",
+      "explanation": "The production possibility frontier shows the maximum output combinations of two goods attainable with available resources and technology. Points on the curve are efficient; moving along it illustrates the opportunity cost of producing more of one good."
+    },
+    {
+      "id": 72,
+      "question": "The 'cost of production per kilogram' is a critical figure for a farmer mainly because it:",
+      "choices": ["Determines the weather", "Indicates the minimum price needed to avoid a loss and helps in pricing decisions", "Sets the market demand", "Replaces the need for records"],
+      "answer": "Indicates the minimum price needed to avoid a loss and helps in pricing decisions",
+      "explanation": "Knowing the per-unit cost of production tells the farmer the break-even price below which selling means a loss. It guides pricing, enterprise selection, and competitiveness analysis, and is computed from total cost divided by output."
+    },
+    {
+      "id": 73,
+      "question": "In agricultural extension, the basic communication process consists of a source, a message, a channel, a receiver, and:",
+      "choices": ["A subsidy", "Feedback", "A tariff", "A contract"],
+      "answer": "Feedback",
+      "explanation": "The communication model (source–message–channel–receiver) is completed by feedback, the receiver's response that lets the extension worker gauge understanding and adjust. Effective two-way communication, not one-way delivery, drives successful technology transfer."
+    },
+    {
+      "id": 74,
+      "question": "A 'result demonstration' in extension differs from a 'method demonstration' in that it:",
+      "choices": ["Shows how to perform a practice step by step", "Shows the proven results/advantage of a practice over time, often on a farmer's field", "Is only done indoors", "Involves no farmers"],
+      "answer": "Shows the proven results/advantage of a practice over time, often on a farmer's field",
+      "explanation": "A result demonstration shows the end results of adopting a recommended practice (e.g., higher yield from a new variety) to convince farmers it works. A method demonstration teaches how to do a specific skill or technique step by step."
+    },
+    {
+      "id": 75,
+      "question": "A general farmers' meeting or a field day is classified as which type of extension teaching method?",
+      "choices": ["Individual method", "Group method", "Mass method", "No method"],
+      "answer": "Group method",
+      "explanation": "Extension methods are grouped as individual (farm visits, office calls), group (meetings, demonstrations, field days, FFS), and mass (radio, TV, print, social media). Group methods allow interaction and discussion among a moderate number of farmers at once."
+    },
+    {
+      "id": 76,
+      "question": "In Rogers' adopter categories, the small group of venturesome, risk-taking farmers who try new technologies first are the:",
+      "choices": ["Laggards", "Innovators", "Late majority", "Early majority"],
+      "answer": "Innovators",
+      "explanation": "Rogers classified adopters as innovators (first, venturesome risk-takers), early adopters (opinion leaders), early majority, late majority, and laggards (last, most traditional). Innovators are crucial entry points for introducing new agricultural technologies."
+    },
+    {
+      "id": 77,
+      "question": "The extension worker who facilitates the introduction and adoption of new practices in a community is best described as a:",
+      "choices": ["Change agent", "Wholesaler", "Money lender", "Tariff officer"],
+      "answer": "Change agent",
+      "explanation": "A change agent is a professional (such as an extension worker) who influences clients' innovation decisions in a direction deemed desirable, linking research and farmers, building trust, and facilitating adoption of improved technologies and practices."
+    },
+    {
+      "id": 78,
+      "question": "Effective agricultural program planning should be based primarily on:",
+      "choices": ["The preferences of input sellers", "The felt needs and actual situation of the farmers/community", "Random selection of topics", "The personal interest of the planner only"],
+      "answer": "The felt needs and actual situation of the farmers/community",
+      "explanation": "Sound extension program planning starts from a situation analysis and the felt needs of the target farmers, ensuring relevance, participation, and ownership. Programs imposed without regard to local needs typically fail to gain adoption."
+    },
+    {
+      "id": 79,
+      "question": "In project management, monitoring and evaluation (M&E) is conducted to:",
+      "choices": ["Increase taxes", "Track progress and assess whether objectives and impacts are being achieved", "Replace farmers", "Set commodity prices"],
+      "answer": "Track progress and assess whether objectives and impacts are being achieved",
+      "explanation": "Monitoring tracks ongoing implementation (inputs, activities, outputs), while evaluation assesses outcomes and impact against objectives. Together, M&E provides feedback for accountability, learning, and improving agricultural and extension programs."
+    },
+    {
+      "id": 80,
+      "question": "A SWOT analysis used in farm or agribusiness planning examines Strengths, Weaknesses, Opportunities, and:",
+      "choices": ["Taxes", "Threats", "Tariffs", "Tillage"],
+      "answer": "Threats",
+      "explanation": "SWOT analysis evaluates internal Strengths and Weaknesses and external Opportunities and Threats of a farm or enterprise. It is a strategic planning tool that helps managers build on advantages and prepare for risks in the business environment."
+    },
+    {
+      "id": 81,
+      "question": "E-extension (using mobile phones, the internet, and ICT) primarily improves agricultural extension by:",
+      "choices": ["Eliminating the need for any information", "Widening and speeding up farmers' access to information and advisory services", "Increasing post-harvest losses", "Reducing crop diversity"],
+      "answer": "Widening and speeding up farmers' access to information and advisory services",
+      "explanation": "ICT-based (e-)extension uses mobile apps, SMS, websites, and social media to deliver timely market prices, weather, and technical advice to many farmers at low cost, overcoming the limited reach of traditional face-to-face extension."
+    },
+    {
+      "id": 82,
+      "question": "Recognizing the role of women in Philippine agriculture is important because women:",
+      "choices": ["Play no role in farming", "Contribute substantially to production, post-harvest, and household food security and should have equal access to resources", "Only handle marketing", "Are excluded from cooperatives by law"],
+      "answer": "Contribute substantially to production, post-harvest, and household food security and should have equal access to resources",
+      "explanation": "Women are major contributors to farming, post-harvest handling, livestock care, and household food security. Gender-responsive extension that ensures women's equal access to land, credit, training, and technology improves productivity and rural welfare."
+    },
+    {
+      "id": 83,
+      "question": "Value addition in agriculture refers to:",
+      "choices": ["Selling raw produce only", "Increasing a product's worth through processing, packaging, branding, or improved quality", "Reducing the product's price", "Removing the product from the market"],
+      "answer": "Increasing a product's worth through processing, packaging, branding, or improved quality",
+      "explanation": "Value addition raises the economic value (and price) of farm products through activities like processing (e.g., fruit into jam), grading, packaging, branding, and certification, allowing farmers to capture a larger share of the consumer's spending."
+    },
+    {
+      "id": 84,
+      "question": "Reducing post-harvest losses is economically important because it:",
+      "choices": ["Lowers the food supply", "Increases the quantity and quality of marketable produce without additional production", "Raises production costs only", "Has no effect on farmer income"],
+      "answer": "Increases the quantity and quality of marketable produce without additional production",
+      "explanation": "Post-harvest losses (from poor handling, storage, and transport) waste resources already invested in production. Cutting these losses increases the amount and quality of food available for sale and consumption, boosting incomes and food security without extra land or inputs."
+    },
+    {
+      "id": 85,
+      "question": "A consumer's responsiveness in buying more of a good as their income rises is measured by the:",
+      "choices": ["Price elasticity of supply", "Income elasticity of demand", "Cross elasticity only", "Marketing margin"],
+      "answer": "Income elasticity of demand",
+      "explanation": "Income elasticity of demand measures the percentage change in quantity demanded relative to a percentage change in income. Staple foods tend to have low income elasticity (consistent with Engel's Law), while higher-value foods like meat and fruit have higher income elasticity."
+    },
+    {
+      "id": 86,
+      "question": "Two goods such as rice and bread, where a rise in the price of one increases demand for the other, are:",
+      "choices": ["Complements", "Substitutes", "Inferior goods", "Public goods"],
+      "answer": "Substitutes",
+      "explanation": "Substitute goods can replace each other in consumption; when one's price rises, consumers shift to the other, increasing its demand (positive cross elasticity). Complements (e.g., coffee and sugar) are used together, so a price rise in one reduces demand for the other."
+    },
+    {
+      "id": 87,
+      "question": "Direct marketing channels such as farmers' markets and 'farm-to-table' schemes benefit farmers mainly by:",
+      "choices": ["Adding more middlemen", "Reducing intermediaries so farmers capture a larger share of the consumer price", "Lowering product quality", "Eliminating consumers"],
+      "answer": "Reducing intermediaries so farmers capture a larger share of the consumer price",
+      "explanation": "Direct marketing shortens the value chain by connecting farmers directly with consumers, cutting intermediary margins so producers receive a higher price and consumers may pay less, while building relationships and freshness — though it requires farmer time and effort."
+    },
+    {
+      "id": 88,
+      "question": "Crop insurance and diversification are examples of strategies that help farmers manage:",
+      "choices": ["Soil pH", "Risk and uncertainty in farming", "Photosynthesis", "Seed dormancy"],
+      "answer": "Risk and uncertainty in farming",
+      "explanation": "Farming faces production risk (weather, pests) and price/market risk. Risk-management strategies include insurance, diversification, contract farming, forward contracts, savings, and flexible planning, which stabilize income against these uncertainties."
+    },
+    {
+      "id": 89,
+      "question": "The 'farmer's share' of the consumer peso refers to:",
+      "choices": ["The total retail price", "The percentage of the final retail price that the farmer actually receives", "The government's tax revenue", "The wholesaler's profit only"],
+      "answer": "The percentage of the final retail price that the farmer actually receives",
+      "explanation": "The farmer's share is the proportion of the consumer's retail price that reaches the farmer, with the rest being the marketing margin. A low farmer's share can indicate long marketing channels or high intermediary costs, prompting interest in improving marketing efficiency."
+    },
+    {
+      "id": 90,
+      "question": "A positive externality of agriculture, such as a well-maintained watershed benefiting downstream communities, is one where:",
+      "choices": ["Only the farmer benefits and pays", "Benefits spill over to others who do not pay for them", "There are no benefits", "The market fully captures all benefits"],
+      "answer": "Benefits spill over to others who do not pay for them",
+      "explanation": "An externality is a cost or benefit affecting third parties not involved in a transaction. Positive externalities (e.g., watershed protection, pollination) benefit others freely; negative externalities (e.g., pesticide runoff) impose uncompensated costs, both causing market failure."
+    },
+    {
+      "id": 91,
+      "question": "Organic certification adds market value mainly by:",
+      "choices": ["Guaranteeing higher yields", "Assuring consumers the product was grown to defined organic standards, allowing a price premium", "Eliminating all production costs", "Removing the need for marketing"],
+      "answer": "Assuring consumers the product was grown to defined organic standards, allowing a price premium",
+      "explanation": "Third-party organic certification verifies compliance with organic production standards, building consumer trust and enabling producers to command a price premium. The Philippine Organic Agriculture Act (RA 10068) supports the development of this sector."
+    },
+    {
+      "id": 92,
+      "question": "Liebig's Law of the Minimum, applied to farm planning, implies that:",
+      "choices": ["Yield is determined by the most abundant resource", "Yield is limited by the scarcest essential factor, not the total of all factors", "More of any input always raises yield", "Inputs have no effect on yield"],
+      "answer": "Yield is limited by the scarcest essential factor, not the total of all factors",
+      "explanation": "Liebig's Law of the Minimum states that growth (and yield) is constrained by the most limiting factor (nutrient, water, etc.). Increasing other factors will not help until the limiting one is addressed — guiding farmers to target the true constraint for cost-effective gains."
+    },
+    {
+      "id": 93,
+      "question": "An enterprise budget for a single crop typically lists:",
+      "choices": ["Only the selling price", "Expected yield, price, gross income, and itemized variable and fixed costs to estimate profit", "Only the farmer's name", "The weather forecast"],
+      "answer": "Expected yield, price, gross income, and itemized variable and fixed costs to estimate profit",
+      "explanation": "An enterprise budget projects, for one crop or activity, the expected output, price, gross revenue, and detailed costs (inputs, labor, fixed costs), yielding an estimate of gross margin and net profit. It is a key tool for comparing and planning farm enterprises."
+    },
+    {
+      "id": 94,
+      "question": "Vertical coordination through contract farming benefits the buyer/processor mainly by:",
+      "choices": ["Giving up control of quality", "Securing a reliable supply of raw material of the desired quality and quantity", "Increasing market uncertainty", "Eliminating the need for farmers"],
+      "answer": "Securing a reliable supply of raw material of the desired quality and quantity",
+      "explanation": "For processors and buyers, contract farming ensures a steady, predictable supply of produce meeting their specifications and timing, reducing procurement uncertainty. Farmers gain market assurance and often inputs/credit, though they accept obligations and some loss of flexibility."
+    },
+    {
+      "id": 95,
+      "question": "A cooperative's practice of returning surplus to members in proportion to their patronage is called a:",
+      "choices": ["Dividend on shares only", "Patronage refund", "Tariff rebate", "Price floor"],
+      "answer": "Patronage refund",
+      "explanation": "Cooperatives distribute net surplus partly as patronage refunds, returned to members in proportion to how much they transacted with the cooperative (their patronage), rather than solely on capital. This reflects the cooperative principle of member economic participation."
+    },
+    {
+      "id": 96,
+      "question": "Agricultural mechanization affects farm economics mainly by:",
+      "choices": ["Always increasing labor requirements", "Raising labor productivity and timeliness while requiring capital investment", "Reducing total output", "Eliminating the need for land"],
+      "answer": "Raising labor productivity and timeliness while requiring capital investment",
+      "explanation": "Mechanization (tractors, transplanters, combine harvesters) increases output per worker, improves the timeliness of operations, and can reduce post-harvest losses, but it requires capital and is most economical at sufficient scale, shifting cost structures from labor to capital."
+    },
+    {
+      "id": 97,
+      "question": "The Department of Agriculture's promotion of high-value crops (e.g., vegetables, fruits, coffee) is economically motivated by their:",
+      "choices": ["Lower market value", "Higher income potential per unit area than traditional staples", "Inability to be exported", "Lack of demand"],
+      "answer": "Higher income potential per unit area than traditional staples",
+      "explanation": "High-value commercial crops generally yield greater income per hectare than basic staples, helping diversify and raise farm incomes. The High-Value Crops Development Act (RA 7900) supports their production, processing, and marketing to improve farmer livelihoods."
+    },
+    {
+      "id": 98,
+      "question": "A 'price ceiling' set below the market price for a basic food commodity is intended to:",
+      "choices": ["Help producers earn more", "Protect consumers by keeping the price affordable", "Increase the price farmers receive", "Encourage overproduction"],
+      "answer": "Protect consumers by keeping the price affordable",
+      "explanation": "A price ceiling is a government-imposed maximum price (e.g., a suggested retail price during emergencies) meant to keep essentials affordable for consumers. If set below equilibrium, however, it can create shortages and discourage supply — a key policy trade-off."
+    },
+    {
+      "id": 99,
+      "question": "Investing in rural infrastructure such as farm-to-market roads improves agricultural marketing primarily by:",
+      "choices": ["Increasing transport costs", "Lowering transport costs and post-harvest losses, improving market access and farmer prices", "Reducing the area planted", "Eliminating the need for storage"],
+      "answer": "Lowering transport costs and post-harvest losses, improving market access and farmer prices",
+      "explanation": "Farm-to-market roads and related infrastructure reduce the cost and time of moving produce, cut spoilage, and connect farmers to wider markets, narrowing marketing margins and raising the prices farmers receive — a high-impact public investment in agriculture."
+    },
+    {
+      "id": 100,
+      "question": "A key indicator of agricultural marketing efficiency is a:",
+      "choices": ["Very large marketing margin with poor service", "Reasonable marketing margin that delivers products at low cost while giving farmers a fair share", "Complete absence of any intermediaries", "The highest possible consumer price"],
+      "answer": "Reasonable marketing margin that delivers products at low cost while giving farmers a fair share",
+      "explanation": "Marketing efficiency means moving products from producer to consumer at the lowest possible cost consistent with the services desired, with margins that fairly reward each function. Both very high margins (excess cost) and unsustainably low ones can signal inefficiency."
     }
   ]
 }

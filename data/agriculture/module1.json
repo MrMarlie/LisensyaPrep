@@ -351,6 +351,356 @@
       "choices": ["The ability of a crop to produce identical plants through cloning", "The capacity of a genotype to express different phenotypes in response to environmental conditions", "Genetic modification to improve crop traits", "The stability of a variety across different environments"],
       "answer": "The capacity of a genotype to express different phenotypes in response to environmental conditions",
       "explanation": "Phenotypic plasticity is the ability of a single genotype to produce different phenotypes depending on environmental conditions such as temperature, water availability, and light, allowing crops to adapt to variable environments."
+    },
+    {
+      "id": 51,
+      "question": "The downward growth of a plant's primary root in response to gravity is an example of:",
+      "choices": ["Positive phototropism", "Positive gravitropism (geotropism)", "Negative thigmotropism", "Hydrotropism"],
+      "answer": "Positive gravitropism (geotropism)",
+      "explanation": "Gravitropism (geotropism) is growth in response to gravity. Roots show positive gravitropism by growing downward, while shoots show negative gravitropism by growing upward. Auxin distribution mediates this response."
+    },
+    {
+      "id": 52,
+      "question": "Which leaf structures regulate gas exchange and water loss by opening and closing?",
+      "choices": ["Trichomes", "Stomata (guard cells)", "Lenticels", "Xylem vessels"],
+      "answer": "Stomata (guard cells)",
+      "explanation": "Stomata are tiny pores bordered by guard cells on the leaf surface. They open to allow CO2 entry for photosynthesis and close to limit water loss through transpiration, balancing gas exchange and water conservation."
+    },
+    {
+      "id": 53,
+      "question": "Which mineral element is the central atom in the chlorophyll molecule?",
+      "choices": ["Iron", "Magnesium", "Calcium", "Manganese"],
+      "answer": "Magnesium",
+      "explanation": "Magnesium is the central metal ion of the chlorophyll molecule, essential for capturing light energy in photosynthesis. Magnesium deficiency causes interveinal chlorosis in older leaves."
+    },
+    {
+      "id": 54,
+      "question": "In which part of the chloroplast does the Calvin cycle (light-independent reaction) occur?",
+      "choices": ["Thylakoid membrane", "Stroma", "Grana", "Outer membrane"],
+      "answer": "Stroma",
+      "explanation": "The Calvin cycle takes place in the stroma, the fluid-filled space of the chloroplast, where CO2 is fixed into sugars using ATP and NADPH. The light-dependent reactions occur in the thylakoid membranes."
+    },
+    {
+      "id": 55,
+      "question": "Cellular respiration in plant cells primarily takes place in the:",
+      "choices": ["Chloroplast", "Mitochondrion", "Vacuole", "Nucleus"],
+      "answer": "Mitochondrion",
+      "explanation": "Mitochondria are the sites of cellular respiration, where glucose is broken down to release energy (ATP). Unlike photosynthesis, respiration occurs continuously, day and night, in all living plant cells."
+    },
+    {
+      "id": 56,
+      "question": "In rice, the production of additional shoots from the base of the main shoot is called:",
+      "choices": ["Tillering", "Booting", "Heading", "Lodging"],
+      "answer": "Tillering",
+      "explanation": "Tillering is the production of side shoots (tillers) from the basal nodes of the rice plant. The number of productive tillers directly influences panicle number and grain yield."
+    },
+    {
+      "id": 57,
+      "question": "A tomato variety that grows to a fixed height, sets fruit over a short period, and then stops growing has which growth habit?",
+      "choices": ["Indeterminate", "Determinate", "Climbing", "Prostrate"],
+      "answer": "Determinate",
+      "explanation": "Determinate plants grow to a genetically fixed size and produce their fruit in a concentrated period, suiting once-over harvest. Indeterminate types keep growing and fruiting continuously until killed by frost or disease."
+    },
+    {
+      "id": 58,
+      "question": "In grafting, the upper portion that becomes the shoot of the new plant is called the:",
+      "choices": ["Rootstock", "Scion", "Cambium", "Internode"],
+      "answer": "Scion",
+      "explanation": "In grafting, the scion is the upper part (a shoot or bud of the desired variety) that is joined to the rootstock (the lower part providing the root system). Successful union requires aligning the cambium layers of both."
+    },
+    {
+      "id": 59,
+      "question": "Marcotting (air layering) propagates plants by:",
+      "choices": ["Planting detached cuttings in soil", "Inducing roots on a stem while still attached to the parent plant", "Joining a scion to a rootstock", "Growing tissue in a sterile medium"],
+      "answer": "Inducing roots on a stem while still attached to the parent plant",
+      "explanation": "In marcotting (air layering), a section of bark is removed and the wound wrapped with moist medium to induce rooting while the stem remains attached to the mother plant. The rooted portion is later cut and planted."
+    },
+    {
+      "id": 60,
+      "question": "The propagation of plants from small pieces of tissue grown on a sterile nutrient medium is called:",
+      "choices": ["Layering", "Tissue culture (micropropagation)", "Budding", "Division"],
+      "answer": "Tissue culture (micropropagation)",
+      "explanation": "Tissue culture (micropropagation) multiplies plants from explants grown aseptically on a nutrient medium with hormones. It produces many disease-free, genetically uniform plantlets rapidly, widely used in banana and orchids."
+    },
+    {
+      "id": 61,
+      "question": "A seed that is alive but fails to germinate even under favorable conditions is exhibiting:",
+      "choices": ["Viviparity", "Seed dormancy", "Vernalization", "Imbibition"],
+      "answer": "Seed dormancy",
+      "explanation": "Seed dormancy is a state in which viable seeds do not germinate despite favorable conditions, due to factors like hard seed coats, immature embryos, or chemical inhibitors. It can be a survival mechanism against unfavorable seasons."
+    },
+    {
+      "id": 62,
+      "question": "Mechanically or chemically breaking a hard seed coat to promote germination is called:",
+      "choices": ["Stratification", "Scarification", "Inoculation", "Priming"],
+      "answer": "Scarification",
+      "explanation": "Scarification weakens or breaks the hard, impermeable seed coat (by abrasion, nicking, or acid treatment) so that water and oxygen can reach the embryo, promoting germination in hard-seeded species like some legumes."
+    },
+    {
+      "id": 63,
+      "question": "Gradually exposing greenhouse-raised seedlings to outdoor conditions before transplanting is known as:",
+      "choices": ["Hardening off", "Pricking out", "Damping off", "Etiolation"],
+      "answer": "Hardening off",
+      "explanation": "Hardening off is the gradual acclimatization of tender seedlings to harsher outdoor conditions (sunlight, wind, lower moisture) before transplanting. It reduces transplant shock and improves survival."
+    },
+    {
+      "id": 64,
+      "question": "Which rice establishment method involves sowing pre-germinated seeds directly into puddled fields without raising seedlings in a nursery?",
+      "choices": ["Transplanting", "Wet direct seeding", "Ratooning", "Dapog method"],
+      "answer": "Wet direct seeding",
+      "explanation": "Wet direct seeding broadcasts or drills pre-germinated seeds directly onto puddled soil, skipping the nursery and transplanting steps. It saves labor and water but requires good land leveling and weed management."
+    },
+    {
+      "id": 65,
+      "question": "The appearance of a black layer at the base of corn kernels indicates that the crop has reached:",
+      "choices": ["Tasseling", "Physiological maturity", "Silking", "The seedling stage"],
+      "answer": "Physiological maturity",
+      "explanation": "In corn, the formation of the black layer (abscission layer) at the kernel base signals physiological maturity — maximum dry matter accumulation. After this point, the grain only loses moisture, guiding harvest timing."
+    },
+    {
+      "id": 66,
+      "question": "The minimum, optimum, and maximum temperatures for a plant process such as germination are collectively called the:",
+      "choices": ["Cardinal temperatures", "Base temperatures", "Growing degree days", "Thermoperiod"],
+      "answer": "Cardinal temperatures",
+      "explanation": "Cardinal temperatures are the minimum (below which no growth occurs), optimum (most rapid growth), and maximum (above which growth stops) temperatures for a given physiological process. They vary among crop species."
+    },
+    {
+      "id": 67,
+      "question": "The relationship in which carbohydrates move from photosynthesizing leaves to grains or fruits is described as a:",
+      "choices": ["Predator-prey relationship", "Source-sink relationship", "Symbiotic relationship", "Host-parasite relationship"],
+      "answer": "Source-sink relationship",
+      "explanation": "In a source-sink relationship, 'sources' (mature leaves) produce assimilates that are translocated to 'sinks' (developing grains, fruits, roots, tubers). Yield depends on both source capacity and sink strength."
+    },
+    {
+      "id": 68,
+      "question": "A potato tuber is botanically a modified:",
+      "choices": ["Root", "Stem", "Leaf", "Flower"],
+      "answer": "Stem",
+      "explanation": "The potato tuber is a modified underground stem (stem tuber) that stores starch. The 'eyes' are buds (nodes) capable of sprouting. In contrast, sweet potato is a modified storage root."
+    },
+    {
+      "id": 69,
+      "question": "The development of fruit without fertilization, producing seedless fruit, is called:",
+      "choices": ["Apomixis", "Parthenocarpy", "Polyembryony", "Vivipary"],
+      "answer": "Parthenocarpy",
+      "explanation": "Parthenocarpy is fruit development without fertilization, resulting in seedless fruits such as some bananas, pineapples, and seedless cucumbers. It can occur naturally or be induced by hormones like gibberellins."
+    },
+    {
+      "id": 70,
+      "question": "Fruits that continue to ripen after harvest with a rise in respiration and ethylene, such as banana and mango, are classified as:",
+      "choices": ["Non-climacteric fruits", "Climacteric fruits", "Parthenocarpic fruits", "Aggregate fruits"],
+      "answer": "Climacteric fruits",
+      "explanation": "Climacteric fruits (banana, mango, tomato, avocado) show a respiratory burst and surge of ethylene at ripening and can ripen after harvest. Non-climacteric fruits (citrus, grapes) do not ripen further once detached."
+    },
+    {
+      "id": 71,
+      "question": "Which monocot characteristic distinguishes monocot seedlings from dicot seedlings?",
+      "choices": ["Two cotyledons", "One cotyledon", "Taproot system", "Net-veined leaves"],
+      "answer": "One cotyledon",
+      "explanation": "Monocots have a single cotyledon, parallel leaf venation, fibrous roots, and floral parts in threes. Dicots have two cotyledons, net venation, a taproot, and floral parts in fours or fives. Rice and corn are monocots."
+    },
+    {
+      "id": 72,
+      "question": "In a germinating seed, the embryonic root that emerges first is the:",
+      "choices": ["Plumule", "Radicle", "Coleoptile", "Hypocotyl"],
+      "answer": "Radicle",
+      "explanation": "The radicle is the embryonic root that emerges first during germination, anchoring the seedling and absorbing water. The plumule is the embryonic shoot, and the coleoptile is a protective sheath over the shoot in grasses."
+    },
+    {
+      "id": 73,
+      "question": "In angiosperms, double fertilization produces a zygote and a:",
+      "choices": ["Second embryo", "Triploid endosperm", "Cotyledon", "Pollen tube"],
+      "answer": "Triploid endosperm",
+      "explanation": "In double fertilization, one sperm fuses with the egg to form the diploid zygote, while a second sperm fuses with two polar nuclei to form the triploid (3n) endosperm, which nourishes the developing embryo."
+    },
+    {
+      "id": 74,
+      "question": "The superior performance of a hybrid over its parents, exploited in hybrid seed production, is called:",
+      "choices": ["Heterosis (hybrid vigor)", "Inbreeding depression", "Epistasis", "Pleiotropy"],
+      "answer": "Heterosis (hybrid vigor)",
+      "explanation": "Heterosis, or hybrid vigor, is the phenomenon in which F1 hybrids exceed their parents in yield, growth, or vigor. It is the basis of hybrid rice and hybrid corn programs that boost productivity."
+    },
+    {
+      "id": 75,
+      "question": "Why must farmers buy fresh hybrid (F1) seed each season instead of saving seed from the harvest?",
+      "choices": ["F1 seeds are sterile", "The F2 generation segregates and loses uniformity and hybrid vigor", "Hybrid plants do not produce seeds", "Saved seeds are illegal everywhere"],
+      "answer": "The F2 generation segregates and loses uniformity and hybrid vigor",
+      "explanation": "Seed saved from F1 hybrids gives an F2 generation that segregates genetically, producing variable, less vigorous plants with reduced yield. To retain uniformity and hybrid vigor, farmers purchase fresh certified F1 seed each season."
+    },
+    {
+      "id": 76,
+      "question": "Which seed class, produced from breeder seed, serves as the source for producing registered and certified seed?",
+      "choices": ["Foundation seed", "Hybrid seed", "Saved seed", "Commercial grain"],
+      "answer": "Foundation seed",
+      "explanation": "In the seed certification chain (breeder → foundation → registered → certified), foundation seed is produced from breeder seed under strict supervision and serves as the source for the next classes, ensuring genetic purity."
+    },
+    {
+      "id": 77,
+      "question": "The total leaf area of a crop per unit ground area is expressed as the:",
+      "choices": ["Harvest index", "Leaf area index (LAI)", "Crop growth rate", "Specific leaf weight"],
+      "answer": "Leaf area index (LAI)",
+      "explanation": "Leaf area index (LAI) is the ratio of total leaf surface area to the ground area beneath it. An optimum LAI maximizes light interception and photosynthesis; too high an LAI causes mutual shading of lower leaves."
+    },
+    {
+      "id": 78,
+      "question": "The loss of water as liquid droplets from the margins of leaves, often seen on rice in early morning, is called:",
+      "choices": ["Transpiration", "Guttation", "Condensation", "Exudation"],
+      "answer": "Guttation",
+      "explanation": "Guttation is the exudation of liquid water droplets from leaf margins or tips through structures called hydathodes, driven by root pressure when transpiration is low (e.g., humid nights). It differs from dew, which forms on the surface."
+    },
+    {
+      "id": 79,
+      "question": "The phenomenon in which a growing apical bud suppresses the growth of lateral buds below it is called:",
+      "choices": ["Apical dominance", "Etiolation", "Senescence", "Abscission"],
+      "answer": "Apical dominance",
+      "explanation": "Apical dominance is the inhibition of lateral (axillary) bud growth by the actively growing shoot tip, mediated by auxin. Removing the tip (e.g., pruning or topping) releases the lateral buds and promotes branching."
+    },
+    {
+      "id": 80,
+      "question": "Which plant hormone is associated with stem elongation, breaking of dormancy, and bolting?",
+      "choices": ["Abscisic acid", "Gibberellin", "Ethylene", "Cytokinin"],
+      "answer": "Gibberellin",
+      "explanation": "Gibberellins (GAs) promote stem elongation, seed germination, the breaking of dormancy, and bolting (rapid stem elongation before flowering). They are used commercially to increase berry size in grapes, for example."
+    },
+    {
+      "id": 81,
+      "question": "Which plant hormone promotes cell division and delays leaf senescence?",
+      "choices": ["Auxin", "Cytokinin", "Abscisic acid", "Ethylene"],
+      "answer": "Cytokinin",
+      "explanation": "Cytokinins promote cell division (cytokinesis), shoot formation in tissue culture, and the delay of senescence (aging) in leaves. They often work in balance with auxins to regulate plant growth and organ formation."
+    },
+    {
+      "id": 82,
+      "question": "Which hormone triggers stomatal closure and helps plants tolerate water (drought) stress?",
+      "choices": ["Gibberellin", "Abscisic acid (ABA)", "Auxin", "Cytokinin"],
+      "answer": "Abscisic acid (ABA)",
+      "explanation": "Abscisic acid (ABA) is the main stress hormone; it accumulates during drought and signals guard cells to close stomata, reducing water loss. It also promotes seed dormancy and bud dormancy."
+    },
+    {
+      "id": 83,
+      "question": "Etiolation in seedlings grown in darkness is characterized by:",
+      "choices": ["Short, thick green stems", "Pale, elongated stems with small undeveloped leaves", "Early flowering", "Strong root growth"],
+      "answer": "Pale, elongated stems with small undeveloped leaves",
+      "explanation": "Etiolation occurs when plants grow in darkness or very low light: stems elongate abnormally, internodes lengthen, leaves remain small, and the plant is pale (lacking chlorophyll) as it 'searches' for light."
+    },
+    {
+      "id": 84,
+      "question": "The time during a crop's life when competition from weeds causes the greatest yield loss is the:",
+      "choices": ["Maturity stage", "Critical period of weed competition", "Senescence phase", "Post-harvest period"],
+      "answer": "Critical period of weed competition",
+      "explanation": "The critical period of weed competition is the growth window during which weeds must be controlled to prevent unacceptable yield loss — typically the early vegetative stage. Weeds emerging before or after this period have less impact."
+    },
+    {
+      "id": 85,
+      "question": "A fast-growing crop planted mainly to protect and enrich the soil, then turned under, is a:",
+      "choices": ["Cash crop", "Green manure / cover crop", "Catch crop for market", "Trap crop"],
+      "answer": "Green manure / cover crop",
+      "explanation": "Green manures and cover crops (often legumes like mungbean or Sesbania) are grown to protect soil from erosion, suppress weeds, and add organic matter and nitrogen when incorporated, improving soil fertility and structure."
+    },
+    {
+      "id": 86,
+      "question": "When plotted over time, the growth of an annual crop typically follows what kind of curve?",
+      "choices": ["A straight line", "A sigmoid (S-shaped) curve", "An exponential curve with no limit", "A U-shaped curve"],
+      "answer": "A sigmoid (S-shaped) curve",
+      "explanation": "Crop growth over time follows a sigmoid (S-shaped) curve: a slow initial (lag) phase, a rapid linear (log) phase of growth, and a final plateau (stationary) phase as the crop matures and growth slows."
+    },
+    {
+      "id": 87,
+      "question": "The minimum soil moisture content at which a plant can no longer extract water and wilts irreversibly is the:",
+      "choices": ["Field capacity", "Permanent wilting point", "Saturation point", "Hygroscopic coefficient"],
+      "answer": "Permanent wilting point",
+      "explanation": "The permanent wilting point is the soil moisture level below which plants cannot absorb water and wilt without recovery. The water available to plants lies between field capacity (upper limit) and the wilting point (lower limit)."
+    },
+    {
+      "id": 88,
+      "question": "Providing physical support such as stakes or trellises for vine crops like ampalaya and tomato primarily serves to:",
+      "choices": ["Reduce fertilizer needs", "Improve light exposure, air circulation, and fruit quality while reducing disease", "Eliminate the need for irrigation", "Speed up germination"],
+      "answer": "Improve light exposure, air circulation, and fruit quality while reducing disease",
+      "explanation": "Staking and trellising keep vines and fruits off the ground, improving light interception and air circulation, reducing fruit rot and pest damage, easing harvest, and generally improving yield and fruit quality."
+    },
+    {
+      "id": 89,
+      "question": "Covering developing mango fruits with paper bags ('bagging') is done mainly to:",
+      "choices": ["Increase fruit size by trapping heat", "Protect fruits from pests, diseases, and blemishes and improve skin quality", "Speed up ripening on the tree", "Prevent pollination"],
+      "answer": "Protect fruits from pests, diseases, and blemishes and improve skin quality",
+      "explanation": "Fruit bagging shields developing fruits from fruit flies, other pests, diseases, mechanical injury, and sunburn, yielding cleaner, blemish-free skin and higher market quality — a common practice in Philippine mango production."
+    },
+    {
+      "id": 90,
+      "question": "Harvest maturity differs from physiological maturity in that harvest maturity refers to:",
+      "choices": ["The point of maximum dry matter accumulation", "The stage at which a crop is ready to be harvested for its intended use", "The end of the seedling stage", "The moment of flowering"],
+      "answer": "The stage at which a crop is ready to be harvested for its intended use",
+      "explanation": "Physiological maturity is when the crop reaches maximum dry matter and seed development. Harvest maturity is when the crop is at the right stage for its intended use or market (which may be before, at, or after physiological maturity)."
+    },
+    {
+      "id": 91,
+      "question": "Crops such as soybean, peanut, and coconut that are grown chiefly for their fat content are classified as:",
+      "choices": ["Cereal crops", "Oilseed crops", "Fiber crops", "Forage crops"],
+      "answer": "Oilseed crops",
+      "explanation": "Oilseed crops (soybean, peanut, sunflower, coconut, oil palm) are grown primarily for the oils extracted from their seeds or fruits. Cereals are grown for grain (starch), and fiber crops like cotton and abaca for fiber."
+    },
+    {
+      "id": 92,
+      "question": "Curing of onions and garlic after harvest is done primarily to:",
+      "choices": ["Increase their water content", "Dry the outer scales and necks to extend storage life", "Promote sprouting", "Improve their color only"],
+      "answer": "Dry the outer scales and necks to extend storage life",
+      "explanation": "Curing dries the outer skins and the neck of bulb crops like onion and garlic, reducing moisture and sealing the bulb against rot and microbial entry, which greatly extends their storage and shelf life."
+    },
+    {
+      "id": 93,
+      "question": "The opening of flowers and shedding/receiving of pollen in cereals is termed:",
+      "choices": ["Tillering", "Anthesis (flowering)", "Booting", "Senescence"],
+      "answer": "Anthesis (flowering)",
+      "explanation": "Anthesis is the period of flowering when anthers release pollen and stigmas are receptive. In cereals it is a sensitive stage; stress (heat, drought) during anthesis can cause sterility and major yield loss."
+    },
+    {
+      "id": 94,
+      "question": "The yellowing of leaves due to insufficient chlorophyll, often a symptom of nutrient deficiency, is called:",
+      "choices": ["Necrosis", "Chlorosis", "Lodging", "Abscission"],
+      "answer": "Chlorosis",
+      "explanation": "Chlorosis is the yellowing of leaf tissue from reduced chlorophyll, commonly caused by deficiencies of nitrogen, magnesium, or iron. Necrosis, by contrast, is the death (browning) of tissue."
+    },
+    {
+      "id": 95,
+      "question": "A major advantage of vegetative (asexual) propagation over seed propagation is that it:",
+      "choices": ["Always produces more genetic diversity", "Produces offspring genetically identical to the parent, preserving desirable traits", "Requires less skill and equipment", "Is the only way to grow cereals"],
+      "answer": "Produces offspring genetically identical to the parent, preserving desirable traits",
+      "explanation": "Vegetative propagation (cuttings, grafting, layering, tissue culture) produces clones genetically identical to the parent, preserving desirable traits such as fruit quality and earlier bearing. Seed propagation introduces genetic variation."
+    },
+    {
+      "id": 96,
+      "question": "The swelling of a seed as it absorbs water at the start of germination is called:",
+      "choices": ["Imbibition", "Transpiration", "Osmosis only", "Translocation"],
+      "answer": "Imbibition",
+      "explanation": "Imbibition is the rapid uptake and swelling of a dry seed as it absorbs water, the first physical step of germination. It rehydrates tissues, activates enzymes, and ruptures the seed coat to allow the radicle to emerge."
+    },
+    {
+      "id": 97,
+      "question": "Sweet potato (Ipomoea batatas) stores its food reserves in a modified:",
+      "choices": ["Stem tuber", "Storage root", "Corm", "Rhizome"],
+      "answer": "Storage root",
+      "explanation": "Sweet potato stores carbohydrates in enlarged storage roots, unlike potato, which forms stem tubers. Recognizing the botanical nature of storage organs guides propagation and harvest practices."
+    },
+    {
+      "id": 98,
+      "question": "Topping (removal of the terminal growing point) of tobacco or cotton is done to:",
+      "choices": ["Increase plant height", "Redirect growth to leaves or bolls by removing apical dominance", "Promote earlier flowering", "Reduce root growth"],
+      "answer": "Redirect growth to leaves or bolls by removing apical dominance",
+      "explanation": "Topping removes the apex (and its apical dominance), redirecting the plant's resources into the harvestable parts — larger leaves in tobacco or more bolls in cotton — and often stimulating lateral growth."
+    },
+    {
+      "id": 99,
+      "question": "Which environmental factor most directly drives the rate of transpiration in crops?",
+      "choices": ["Soil pH", "Relative humidity and temperature of the air", "Soil microbial population", "The crop's chromosome number"],
+      "answer": "Relative humidity and temperature of the air",
+      "explanation": "Transpiration rate rises with higher temperature, lower humidity, more wind, and brighter light, all of which increase the vapor pressure gradient between leaf and air. Humid, cool, still conditions reduce transpiration."
+    },
+    {
+      "id": 100,
+      "question": "Sigatoka and Fusarium wilt are important reasons why commercial banana is propagated by:",
+      "choices": ["True botanical seeds", "Disease-free tissue-cultured plantlets", "Grafting onto wild rootstocks", "Air layering of the pseudostem"],
+      "answer": "Disease-free tissue-cultured plantlets",
+      "explanation": "Because banana suckers can carry diseases like Fusarium wilt (Panama disease), commercial plantations increasingly use tissue-cultured plantlets, which are disease-free and genetically uniform, ensuring healthy, vigorous establishment."
     }
   ]
 }

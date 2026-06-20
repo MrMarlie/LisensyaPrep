@@ -416,6 +416,356 @@
       "choices": ["Producing milk from high-yielding dairy cows", "Intensively feeding livestock in a confined area to maximize rapid weight gain before slaughter", "Providing pasture-based nutrition for breeding stock", "Managing breeding herds for genetic improvement"],
       "answer": "Intensively feeding livestock in a confined area to maximize rapid weight gain before slaughter",
       "explanation": "A feedlot is a type of animal feeding operation where cattle (or other livestock) are confined in pens and fed a high-energy diet (usually grain-based) to maximize growth rate and finish them to market weight as efficiently as possible."
+    },
+    {
+      "id": 51,
+      "question": "Crude protein content of a feed is conventionally estimated by measuring its nitrogen content and multiplying by:",
+      "choices": ["2.25", "4.0", "6.25", "9.0"],
+      "answer": "6.25",
+      "explanation": "Since proteins contain on average about 16% nitrogen, crude protein is estimated as % nitrogen × 6.25 (because 100 ÷ 16 = 6.25). This Kjeldahl-based figure is used in feed analysis and ration formulation, though it does not account for protein quality."
+    },
+    {
+      "id": 52,
+      "question": "In swine and poultry diets, which amino acid is most often the 'first limiting' amino acid that must be supplied adequately?",
+      "choices": ["Glycine", "Lysine", "Proline", "Alanine"],
+      "answer": "Lysine",
+      "explanation": "Lysine is usually the first limiting amino acid in cereal-based pig and poultry diets, meaning it runs short first and limits growth. Diets are balanced to meet lysine needs (often by adding synthetic lysine), since monogastrics require dietary essential amino acids."
+    },
+    {
+      "id": 53,
+      "question": "The simple method used to balance a ration by mixing two feeds to achieve a desired nutrient level is the:",
+      "choices": ["Pearson square method", "Disease triangle", "Punnett square", "Babcock test"],
+      "answer": "Pearson square method",
+      "explanation": "The Pearson square (square method) is a quick tool for combining two feedstuffs to reach a target nutrient concentration (e.g., crude protein). It computes the proportions of each feed needed, making it handy for on-farm ration balancing."
+    },
+    {
+      "id": 54,
+      "question": "The nutrients an animal needs simply to stay alive at rest, without growth, production, or work, are called its:",
+      "choices": ["Production requirement", "Maintenance requirement", "Reproductive requirement", "Lactation requirement"],
+      "answer": "Maintenance requirement",
+      "explanation": "The maintenance requirement is the level of nutrients needed to keep body weight and basic functions constant, with no net production. Additional nutrients above maintenance support growth, lactation, pregnancy, or work — a key concept in feeding standards."
+    },
+    {
+      "id": 55,
+      "question": "For proper bone development, the dietary calcium-to-phosphorus ratio for most livestock is generally recommended at about:",
+      "choices": ["1:3", "2:1", "10:1", "1:10"],
+      "answer": "2:1",
+      "explanation": "A calcium-to-phosphorus ratio of roughly 2:1 (within a range of about 1:1 to 2:1) supports proper bone formation and metabolism in most livestock. Severe imbalance impairs absorption and can cause skeletal problems; vitamin D is also needed for their utilization."
+    },
+    {
+      "id": 56,
+      "question": "Iodine deficiency in livestock most characteristically causes:",
+      "choices": ["Night blindness", "Goiter (enlarged thyroid) and weak or stillborn young", "Rickets", "Bloat"],
+      "answer": "Goiter (enlarged thyroid) and weak or stillborn young",
+      "explanation": "Iodine is needed for thyroid hormones; its deficiency causes goiter (thyroid enlargement) and reproductive problems such as weak, hairless, or stillborn offspring. It is commonly prevented by feeding iodized salt or mineral supplements."
+    },
+    {
+      "id": 57,
+      "question": "Vitamin A deficiency in animals classically results in:",
+      "choices": ["Night blindness and impaired vision", "Goiter", "Bloat", "Mastitis"],
+      "answer": "Night blindness and impaired vision",
+      "explanation": "Vitamin A is essential for vision (forming rhodopsin), epithelial tissue, and reproduction. Deficiency causes night blindness, eventually keratinization of tissues, poor growth, and reproductive failure. Green forages and yellow corn are good sources of its precursor, carotene."
+    },
+    {
+      "id": 58,
+      "question": "Energy-dense, low-fiber feeds such as grains, soybean meal, and fish meal are classified as:",
+      "choices": ["Roughages", "Concentrates", "Forages", "Silages"],
+      "answer": "Concentrates",
+      "explanation": "Concentrates are feeds low in fiber and high in energy and/or protein (cereal grains, oil meals, fish meal, molasses). They contrast with roughages (high-fiber forages). Balanced rations, especially for high-producing animals, combine concentrates and roughages."
+    },
+    {
+      "id": 59,
+      "question": "Bloat in ruminants grazing lush legume pasture is dangerous because it involves:",
+      "choices": ["Excessive milk production", "A buildup of fermentation gas in the rumen that the animal cannot release", "Low body temperature", "Loss of appetite only"],
+      "answer": "A buildup of fermentation gas in the rumen that the animal cannot release",
+      "explanation": "Bloat is the accumulation of fermentation gases (often as a stable foam from legumes) in the rumen that the animal cannot belch out. The distended rumen presses on the lungs and can cause death. It is managed by careful pasture introduction and anti-foaming agents."
+    },
+    {
+      "id": 60,
+      "question": "Milk fever (parturient paresis) in high-producing dairy cows around calving is caused by a deficiency of:",
+      "choices": ["Iron", "Blood calcium (hypocalcemia)", "Vitamin C", "Sodium"],
+      "answer": "Blood calcium (hypocalcemia)",
+      "explanation": "Milk fever is acute hypocalcemia at the onset of lactation, when sudden heavy calcium demand for milk outpaces mobilization from bone. The cow becomes weak, goes down, and may die without treatment (IV calcium). Proper pre-calving mineral management helps prevent it."
+    },
+    {
+      "id": 61,
+      "question": "Ketosis in early-lactation dairy cows develops when the cow is in:",
+      "choices": ["Positive energy balance with excess feed", "Negative energy balance, mobilizing body fat faster than it can be fully metabolized", "Heat stress only", "Mineral excess"],
+      "answer": "Negative energy balance, mobilizing body fat faster than it can be fully metabolized",
+      "explanation": "Ketosis occurs when a fresh cow's energy demand for milk exceeds intake, forcing rapid fat breakdown that produces excess ketone bodies. Signs include reduced appetite, weight loss, and dropping milk yield. Good transition-cow feeding helps prevent it."
+    },
+    {
+      "id": 62,
+      "question": "In swine terminology, a castrated male pig is called a:",
+      "choices": ["Boar", "Barrow", "Gilt", "Sow"],
+      "answer": "Barrow",
+      "explanation": "A barrow is a castrated male pig, raised efficiently for meat. An intact (uncastrated) male used for breeding is a boar, a young female that has not farrowed is a gilt, and a female that has farrowed is a sow."
+    },
+    {
+      "id": 63,
+      "question": "The act of a sow giving birth to piglets is called:",
+      "choices": ["Calving", "Farrowing", "Lambing", "Kidding"],
+      "answer": "Farrowing",
+      "explanation": "Farrowing is parturition in swine. Equivalent terms are calving (cattle), lambing (sheep), kidding (goats), and foaling (horses). Knowing species-specific terms is basic to livestock husbandry and recordkeeping."
+    },
+    {
+      "id": 64,
+      "question": "Newborn piglets are commonly given an iron injection within the first few days of life to prevent:",
+      "choices": ["Bloat", "Anemia", "Mastitis", "Milk fever"],
+      "answer": "Anemia",
+      "explanation": "Piglets are born with low iron reserves, and sow's milk is low in iron; rapid growth quickly depletes their stores, causing iron-deficiency anemia. An iron injection (or oral iron) in the first days of life prevents this, especially in confinement where soil iron is unavailable."
+    },
+    {
+      "id": 65,
+      "question": "Providing piglets with solid feed while still nursing, to accustom them to feed before weaning, is called:",
+      "choices": ["Flushing", "Creep feeding", "Drenching", "Tethering"],
+      "answer": "Creep feeding",
+      "explanation": "Creep feeding offers highly digestible solid feed to nursing piglets (in a creep area the sow cannot reach), supplementing the sow's milk, promoting gut development, and easing the transition at weaning so piglets continue to grow well."
+    },
+    {
+      "id": 66,
+      "question": "In dairy cows, the 'dry period' refers to the:",
+      "choices": ["Time the cow has no access to water", "Non-lactating period before calving when the cow is not milked, allowing the udder to rest and regenerate", "Dry season of the year", "Period of heat stress"],
+      "answer": "Non-lactating period before calving when the cow is not milked, allowing the udder to rest and regenerate",
+      "explanation": "The dry period is the roughly 6–8 week rest from milking before the next calving. It lets udder tissue regenerate and the cow build reserves, improving milk yield and udder health in the coming lactation. Proper dry-cow nutrition and therapy are important."
+    },
+    {
+      "id": 67,
+      "question": "The fat content of milk, an important quality and pricing factor, is referred to as:",
+      "choices": ["Butterfat (milk fat)", "Lactose", "Casein only", "Whey"],
+      "answer": "Butterfat (milk fat)",
+      "explanation": "Butterfat (milk fat) is a key component affecting milk's nutritional value, flavor, and price, and the yield of butter and cheese. Milk also contains protein (casein and whey), lactose (milk sugar), minerals, and water; breeds differ in their typical butterfat percentage."
+    },
+    {
+      "id": 68,
+      "question": "The Boer is a breed developed primarily for:",
+      "choices": ["Dairy cattle", "Meat goat production", "Egg-laying poultry", "Wool sheep"],
+      "answer": "Meat goat production",
+      "explanation": "The Boer goat, developed in South Africa, is a leading meat goat breed prized for rapid growth, muscling, and hardiness. It is widely used to upgrade local goats for chevon (goat meat) production, including in the Philippines."
+    },
+    {
+      "id": 69,
+      "question": "In poultry terminology, a young female chicken that has not yet started laying is called a:",
+      "choices": ["Cockerel", "Pullet", "Capon", "Drake"],
+      "answer": "Pullet",
+      "explanation": "A pullet is a young female chicken (typically under one year and before or just starting to lay). A cockerel is a young male, a capon is a castrated male raised for meat, and a drake is a male duck. Correct terminology matters in poultry production records."
+    },
+    {
+      "id": 70,
+      "question": "Newly hatched chicks require brooding mainly to provide:",
+      "choices": ["High humidity only", "Supplemental warmth, since chicks cannot regulate their own body temperature at first", "Darkness for 24 hours", "A high-fiber diet"],
+      "answer": "Supplemental warmth, since chicks cannot regulate their own body temperature at first",
+      "explanation": "Young chicks cannot thermoregulate well, so brooding provides controlled warmth (about 32–35°C in the first week, gradually reduced), along with feed, water, and proper ventilation. Chick behavior (huddling vs. spreading) indicates whether the temperature is right."
+    },
+    {
+      "id": 71,
+      "question": "In the avian digestive tract, the muscular organ that grinds feed (often with the help of grit) is the:",
+      "choices": ["Crop", "Gizzard (ventriculus)", "Cloaca", "Liver"],
+      "answer": "Gizzard (ventriculus)",
+      "explanation": "The gizzard is the muscular 'stomach' that mechanically grinds feed, aided by swallowed grit, since birds lack teeth. The crop stores and softens feed, the proventriculus secretes digestive juices, and the cloaca is the common exit for digestive and reproductive tracts."
+    },
+    {
+      "id": 72,
+      "question": "Holding an egg up to a bright light to inspect its interior for fertility or defects is called:",
+      "choices": ["Grading", "Candling", "Culling", "Debeaking"],
+      "answer": "Candling",
+      "explanation": "Candling shines light through an egg to examine the air cell, yolk, and embryo development, and to detect cracks or blood spots. It is used in incubation to check fertility and embryo viability and in egg grading for quality control."
+    },
+    {
+      "id": 73,
+      "question": "Coccidiosis, a common and economically important disease of poultry, is caused by:",
+      "choices": ["A virus", "Protozoan parasites (Eimeria species) in the intestine", "A nutritional deficiency", "Bacteria in the respiratory tract"],
+      "answer": "Protozoan parasites (Eimeria species) in the intestine",
+      "explanation": "Coccidiosis is caused by Eimeria protozoa that damage the intestinal lining, causing bloody droppings, poor growth, and mortality, especially in young birds on litter. It is controlled with coccidiostats in feed, vaccination, and good litter and sanitation management."
+    },
+    {
+      "id": 74,
+      "question": "Marek's disease, a viral tumor-causing disease of chickens, is best prevented by:",
+      "choices": ["Deworming", "Vaccination of chicks at the hatchery (day-old)", "Increasing dietary calcium", "Debeaking"],
+      "answer": "Vaccination of chicks at the hatchery (day-old)",
+      "explanation": "Marek's disease is a herpesvirus infection causing tumors, paralysis, and immunosuppression. It is controlled mainly by vaccinating chicks at day-old (in ovo or at hatch), combined with biosecurity, since the virus is highly contagious and environmentally persistent."
+    },
+    {
+      "id": 75,
+      "question": "Debeaking (beak trimming) in commercial poultry is practiced primarily to:",
+      "choices": ["Improve egg color", "Reduce feather pecking and cannibalism among birds", "Increase feed intake", "Speed up molting"],
+      "answer": "Reduce feather pecking and cannibalism among birds",
+      "explanation": "Debeaking removes the sharp tip of the beak to limit injurious pecking and cannibalism, which can occur in crowded flocks and cause losses. It must be done properly to minimize stress, and good management (space, light control, enrichment) also reduces the behavior."
+    },
+    {
+      "id": 76,
+      "question": "Egg production in laying hens is strongly stimulated by:",
+      "choices": ["Shortening day length", "Adequate and increasing day length (photoperiod), often supplemented with artificial light", "Complete darkness", "Cold temperatures"],
+      "answer": "Adequate and increasing day length (photoperiod), often supplemented with artificial light",
+      "explanation": "Egg laying is governed by photoperiod: increasing or long day length stimulates the reproductive hormones that drive ovulation. Commercial layer houses use controlled lighting (about 14–16 hours) to maintain consistent, high egg production year-round."
+    },
+    {
+      "id": 77,
+      "question": "Heritability of a trait in animal breeding refers to:",
+      "choices": ["The number of offspring an animal produces", "The proportion of the variation in a trait that is due to genetics and can be passed to offspring", "The age at which a trait appears", "The market value of a trait"],
+      "answer": "The proportion of the variation in a trait that is due to genetics and can be passed to offspring",
+      "explanation": "Heritability estimates the share of observed variation in a trait attributable to additive genetic effects rather than environment. Traits with high heritability (e.g., growth, carcass) respond well to selection, while low-heritability traits (e.g., fertility) respond more slowly."
+    },
+    {
+      "id": 78,
+      "question": "Continued mating of closely related animals can lead to 'inbreeding depression,' which is:",
+      "choices": ["An increase in vigor and productivity", "A decline in fertility, vigor, and performance due to increased expression of harmful recessive genes", "Improved disease resistance", "No change at all"],
+      "answer": "A decline in fertility, vigor, and performance due to increased expression of harmful recessive genes",
+      "explanation": "Inbreeding increases homozygosity, raising the chance that harmful recessive alleles are expressed, which reduces fertility, survival, growth, and overall vigor — inbreeding depression. Breeders manage relatedness and use crossbreeding to capture the opposite effect (heterosis)."
+    },
+    {
+      "id": 79,
+      "question": "The improved performance of crossbred animals over the average of their purebred parents is called:",
+      "choices": ["Inbreeding depression", "Heterosis (hybrid vigor)", "Mutation", "Selection differential"],
+      "answer": "Heterosis (hybrid vigor)",
+      "explanation": "Heterosis (hybrid vigor) is the superiority of crossbred offspring over the average of the parent breeds, especially in fitness traits like fertility, survivability, and growth. It is a major reason crossbreeding systems are used in beef, swine, and poultry production."
+    },
+    {
+      "id": 80,
+      "question": "Accurate heat (estrus) detection is critical in cattle breeding because:",
+      "choices": ["Cows are in heat for several weeks", "Standing heat is brief, and insemination must be timed to it for conception", "Heat detection has no effect on conception", "Cows can be bred at any random time"],
+      "answer": "Standing heat is brief, and insemination must be timed to it for conception",
+      "explanation": "Cattle show estrus (standing heat) for only about 12–18 hours, and ovulation follows. Detecting the signs (standing to be mounted, mucus discharge, restlessness) and timing insemination correctly are essential for high conception rates in natural or artificial breeding."
+    },
+    {
+      "id": 81,
+      "question": "Difficulty in giving birth, which may require assistance, is termed:",
+      "choices": ["Dystocia", "Estrus", "Lactation", "Involution"],
+      "answer": "Dystocia",
+      "explanation": "Dystocia is difficult or abnormal parturition (birth), arising from causes like an oversized fetus, malpresentation, or a small maternal pelvis. Prompt, proper assistance reduces losses of the dam and offspring; selecting for calving ease and appropriate sire choice helps prevent it."
+    },
+    {
+      "id": 82,
+      "question": "African Swine Fever (ASF), a major threat to the Philippine swine industry, is best characterized by the fact that it:",
+      "choices": ["Has a widely available effective vaccine", "Is a highly contagious viral disease of pigs with very high mortality and no commercial cure, controlled mainly by strict biosecurity and culling", "Affects only poultry", "Is a mild, self-limiting disease"],
+      "answer": "Is a highly contagious viral disease of pigs with very high mortality and no commercial cure, controlled mainly by strict biosecurity and culling",
+      "explanation": "ASF is a highly contagious viral disease of domestic and wild pigs causing near 100% mortality. With no widely available commercial vaccine or cure, control relies on strict biosecurity, movement controls, rapid detection, and culling. It does not infect humans but has devastated pig populations."
+    },
+    {
+      "id": 83,
+      "question": "Anthrax and rabies are examples of diseases that are 'zoonotic,' meaning they:",
+      "choices": ["Affect only plants", "Can be transmitted between animals and humans", "Occur only in poultry", "Are caused by nutritional deficiency"],
+      "answer": "Can be transmitted between animals and humans",
+      "explanation": "Zoonotic diseases can spread between animals and humans. Anthrax (bacterial) and rabies (viral) are classic examples with serious public-health importance, underscoring why livestock disease control, vaccination, and meat inspection also protect human health."
+    },
+    {
+      "id": 84,
+      "question": "Animal manure is valuable in integrated farming systems mainly because it:",
+      "choices": ["Has no agricultural use", "Serves as an organic fertilizer and can be used to produce biogas", "Should always be burned", "Reduces soil fertility"],
+      "answer": "Serves as an organic fertilizer and can be used to produce biogas",
+      "explanation": "Manure recycles nutrients (N, P, K) and organic matter back to the soil as fertilizer, improving fertility and structure. In integrated systems, it can also be digested anaerobically to produce biogas (energy) with a nutrient-rich slurry byproduct, closing the loop on farm waste."
+    },
+    {
+      "id": 85,
+      "question": "The volatile fatty acids (acetate, propionate, butyrate) that supply most of a ruminant's energy are produced by:",
+      "choices": ["Enzymes in the abomasum", "Microbial fermentation of feed in the rumen", "The animal's liver directly", "Salivary glands"],
+      "answer": "Microbial fermentation of feed in the rumen",
+      "explanation": "Rumen microbes ferment carbohydrates (including fiber) into volatile fatty acids — acetate, propionate, and butyrate — which are absorbed through the rumen wall and supply the majority of the ruminant's energy. This microbial fermentation lets ruminants use fibrous feeds non-ruminants cannot."
+    },
+    {
+      "id": 86,
+      "question": "Grass tetany (hypomagnesemia) in cattle grazing lush spring pasture results from a deficiency of:",
+      "choices": ["Magnesium", "Iron", "Iodine", "Vitamin A"],
+      "answer": "Magnesium",
+      "explanation": "Grass tetany is an acute metabolic disorder from low blood magnesium, often on lush, fast-growing grass pastures low in available magnesium. Affected animals show muscle tremors, staggering, and convulsions. Prevention includes magnesium supplementation during high-risk periods."
+    },
+    {
+      "id": 87,
+      "question": "Flushing — increasing the feed/energy of breeding females shortly before mating — is done to:",
+      "choices": ["Reduce their body weight", "Improve ovulation rate and reproductive performance", "Cause weaning", "Lower fertility"],
+      "answer": "Improve ovulation rate and reproductive performance",
+      "explanation": "Flushing provides extra energy to breeding females (e.g., ewes, sows) in the weeks around mating to raise ovulation rate and improve conception and litter/lamb size. It is a strategic feeding practice tied to the reproductive cycle."
+    },
+    {
+      "id": 88,
+      "question": "External parasites such as ticks, lice, and mites harm livestock by:",
+      "choices": ["Improving coat quality", "Causing irritation, blood loss/anemia, and transmitting diseases", "Increasing milk yield", "Aiding digestion"],
+      "answer": "Causing irritation, blood loss/anemia, and transmitting diseases",
+      "explanation": "Ectoparasites (ticks, lice, mites, flies) irritate animals, cause blood loss and anemia, damage hides, reduce productivity, and can transmit diseases (e.g., ticks spread blood parasites). They are controlled with acaricides/insecticides, dips, and good husbandry."
+    },
+    {
+      "id": 89,
+      "question": "The recommended practice of isolating newly purchased animals before adding them to the herd is called:",
+      "choices": ["Quarantine", "Flushing", "Culling", "Weaning"],
+      "answer": "Quarantine",
+      "explanation": "Quarantining new or returning animals for a period before introducing them to the resident herd allows observation and testing for disease, preventing the introduction of infections. It is a fundamental biosecurity practice in livestock health management."
+    },
+    {
+      "id": 90,
+      "question": "Removing unproductive, sick, or genetically inferior animals from the herd is called:",
+      "choices": ["Culling", "Brooding", "Flushing", "Tethering"],
+      "answer": "Culling",
+      "explanation": "Culling is the selective removal of animals that are unproductive, unhealthy, infertile, or below the breeding standard. Systematic culling improves overall herd productivity, health, and genetic quality and reduces feed costs on non-performing animals."
+    },
+    {
+      "id": 91,
+      "question": "In dairy cattle, the period during which a cow produces milk after calving is called:",
+      "choices": ["Gestation", "Lactation", "Estrus", "The dry period"],
+      "answer": "Lactation",
+      "explanation": "Lactation is the milk-producing phase following calving, typically lasting about 10 months in dairy cows before the dry period. Milk yield rises to a peak in early lactation and then gradually declines; feeding and management are adjusted to the lactation stage."
+    },
+    {
+      "id": 92,
+      "question": "Goats and sheep both belong to which digestive category of livestock?",
+      "choices": ["Monogastrics", "Ruminants", "Avian species", "Pseudo-ruminants"],
+      "answer": "Ruminants",
+      "explanation": "Goats and sheep are small ruminants with the same four-compartment stomach as cattle, allowing microbial digestion of fibrous forages. This means they share many feeding and digestive principles with cattle, scaled to their smaller size and browsing/grazing habits."
+    },
+    {
+      "id": 93,
+      "question": "Selecting breeding animals based on the performance records of their relatives and progeny is the basis of:",
+      "choices": ["Random mating", "Genetic selection for improvement", "Culling for disease", "Quarantine"],
+      "answer": "Genetic selection for improvement",
+      "explanation": "Genetic improvement relies on selecting parents with superior genetic merit, judged using their own and relatives'/progeny performance records and tools like estimated breeding values (EBVs). Choosing the best animals as parents shifts the population's average toward desired traits over generations."
+    },
+    {
+      "id": 94,
+      "question": "Adequate clean water is critical in livestock production because water:",
+      "choices": ["Is needed only in hot weather", "Is essential for digestion, nutrient transport, temperature regulation, and milk production", "Reduces feed intake when provided", "Has no effect on production"],
+      "answer": "Is essential for digestion, nutrient transport, temperature regulation, and milk production",
+      "explanation": "Water is the most essential nutrient: it is involved in digestion, nutrient and waste transport, body temperature regulation, and is a major component of milk. Restricting water quickly depresses feed intake, growth, and milk yield, so constant access to clean water is vital."
+    },
+    {
+      "id": 95,
+      "question": "Pregnancy diagnosis in cattle is commonly performed by:",
+      "choices": ["Counting the animal's teeth", "Rectal palpation or ultrasound of the reproductive tract", "Weighing the animal", "Checking the color of the coat"],
+      "answer": "Rectal palpation or ultrasound of the reproductive tract",
+      "explanation": "Veterinarians and trained technicians confirm pregnancy in cattle by rectal palpation of the uterus and its contents or by transrectal ultrasound, which can detect pregnancy earlier. Early diagnosis allows rebreeding of open (non-pregnant) cows and better herd management."
+    },
+    {
+      "id": 96,
+      "question": "Wallowing in mud or providing shade and water is important for pigs and carabaos because they:",
+      "choices": ["Have many sweat glands for cooling", "Have few functional sweat glands and need help to dissipate heat", "Cannot tolerate any water", "Prefer cold climates only"],
+      "answer": "Have few functional sweat glands and need help to dissipate heat",
+      "explanation": "Pigs and carabaos have few effective sweat glands, so they cannot cool efficiently by sweating. Wallowing in mud or water and access to shade help them dissipate heat and avoid heat stress, which otherwise reduces feed intake, growth, and fertility in hot climates."
+    },
+    {
+      "id": 97,
+      "question": "A balanced ration for livestock is one that:",
+      "choices": ["Contains only one feed ingredient", "Supplies all required nutrients in the proper amounts and proportions for the animal's needs", "Maximizes fiber regardless of animal type", "Provides energy but no protein"],
+      "answer": "Supplies all required nutrients in the proper amounts and proportions for the animal's needs",
+      "explanation": "A balanced ration provides energy, protein, minerals, vitamins, and water in amounts and proportions matched to the animal's species, age, weight, and production stage. Balancing rations optimizes growth, reproduction, and production while avoiding waste and deficiencies."
+    },
+    {
+      "id": 98,
+      "question": "The reticulum, the second compartment of the ruminant stomach, is also known for:",
+      "choices": ["Producing milk", "Trapping heavy or sharp ingested objects (hardware) in its honeycomb lining", "Storing eggs", "Filtering blood"],
+      "answer": "Trapping heavy or sharp ingested objects (hardware) in its honeycomb lining",
+      "explanation": "The reticulum has a honeycomb-like lining and works closely with the rumen in fermentation and regurgitation for rumination. Heavy or sharp swallowed objects tend to lodge here, which can cause 'hardware disease' if a sharp object penetrates the wall."
+    },
+    {
+      "id": 99,
+      "question": "Proper ventilation in animal housing is important primarily to:",
+      "choices": ["Increase humidity and ammonia", "Remove moisture, heat, ammonia, and dust while supplying fresh air, reducing respiratory disease", "Keep animals in complete darkness", "Eliminate the need for cleaning"],
+      "answer": "Remove moisture, heat, ammonia, and dust while supplying fresh air, reducing respiratory disease",
+      "explanation": "Good ventilation removes excess heat, moisture, harmful gases (like ammonia from manure), and dust, while bringing in fresh oxygen. This maintains air quality, lowers respiratory disease and heat stress, and supports animal health, comfort, and productivity."
+    },
+    {
+      "id": 100,
+      "question": "Records of breeding, health, feeding, and production in a livestock operation are important because they:",
+      "choices": ["Are required only for taxes", "Enable informed management decisions, performance evaluation, and genetic selection", "Have no practical use", "Replace the need for veterinary care"],
+      "answer": "Enable informed management decisions, performance evaluation, and genetic selection",
+      "explanation": "Accurate livestock records (breeding dates, calving, health treatments, feed use, weights, and production) let the manager evaluate performance, identify problems, plan breeding and culling, select superior animals, and improve profitability — the foundation of good herd/flock management."
     }
   ]
 }

@@ -416,6 +416,356 @@
       "choices": ["A local law governing farm hygiene standards", "An international WTO agreement allowing measures to protect human, animal, and plant health from risks related to pests and diseases", "A Philippine law on pesticide registration", "Standards for pesticide residues in export products"],
       "answer": "An international WTO agreement allowing measures to protect human, animal, and plant health from risks related to pests and diseases",
       "explanation": "The WTO SPS Agreement allows countries to impose trade restrictions based on science-backed measures to protect human, animal, and plant health from food safety risks, diseases, and pests, including setting pesticide Maximum Residue Limits (MRLs)."
+    },
+    {
+      "id": 51,
+      "question": "An insect that develops through the stages egg → larva → pupa → adult undergoes:",
+      "choices": ["Incomplete metamorphosis", "Complete metamorphosis (holometabolous)", "No metamorphosis", "Direct development"],
+      "answer": "Complete metamorphosis (holometabolous)",
+      "explanation": "Complete metamorphosis (holometaboly) includes four distinct stages: egg, larva, pupa, and adult, as in butterflies, beetles, and flies. Incomplete metamorphosis (egg → nymph → adult) lacks a pupal stage, as in grasshoppers and planthoppers."
+    },
+    {
+      "id": 52,
+      "question": "The body of an adult insect is divided into three main regions:",
+      "choices": ["Head, thorax, and abdomen", "Head, neck, and tail", "Cephalothorax and abdomen", "Root, stem, and leaf"],
+      "answer": "Head, thorax, and abdomen",
+      "explanation": "Insects (class Insecta) have three body regions — head (sensory and feeding), thorax (bears three pairs of legs and usually wings), and abdomen (digestion and reproduction). The three pairs of legs distinguish insects from arachnids like spiders and mites."
+    },
+    {
+      "id": 53,
+      "question": "Rice stem borer damage is recognized by which characteristic symptoms?",
+      "choices": ["Hopperburn and sooty mold", "'Deadheart' in vegetative stage and 'whitehead' (empty white panicles) at reproductive stage", "Leaf galls and root knots", "Bronzing of leaves"],
+      "answer": "'Deadheart' in vegetative stage and 'whitehead' (empty white panicles) at reproductive stage",
+      "explanation": "Stem borer larvae tunnel inside rice stems. In the vegetative stage they cause 'deadheart' (drying central shoot), and at the reproductive stage they cause 'whitehead' — whitish, empty, unfilled panicles that pull out easily. These are classic borer symptoms."
+    },
+    {
+      "id": 54,
+      "question": "Fruit flies (Bactrocera spp.), major pests of mango and cucurbits, damage fruit by:",
+      "choices": ["Sucking sap from leaves", "Laying eggs in the fruit, where larvae (maggots) feed and cause rotting", "Chewing the roots", "Transmitting viruses only"],
+      "answer": "Laying eggs in the fruit, where larvae (maggots) feed and cause rotting",
+      "explanation": "Female fruit flies puncture and oviposit into developing or ripening fruit; the hatching maggots tunnel and feed inside, causing premature fruit drop and rot. They are major quarantine pests affecting mango and cucurbit exports, often managed with bagging and pheromone (methyl eugenol) traps."
+    },
+    {
+      "id": 55,
+      "question": "The golden apple snail (Pomacea canaliculata), a serious pest of newly transplanted rice, is best managed by:",
+      "choices": ["Aerial insecticide spraying", "Handpicking, attractant baiting, and good water management to limit snail movement", "Increasing flooding depth", "Planting later only"],
+      "answer": "Handpicking, attractant baiting, and good water management to limit snail movement",
+      "explanation": "Golden apple snails devour young rice seedlings. Integrated management includes handpicking snails and egg masses, using attractants (e.g., leaves) for collection, keeping water shallow to restrict movement after transplanting, and using ducks — reducing reliance on toxic molluscicides."
+    },
+    {
+      "id": 56,
+      "question": "In the Bt (Bacillus thuringiensis) approach to insect control, the bacterium kills susceptible caterpillars by producing:",
+      "choices": ["A nerve toxin like organophosphates", "Cry proteins (crystal toxins) that damage the insect's gut", "A growth-promoting hormone", "A repellent odor"],
+      "answer": "Cry proteins (crystal toxins) that damage the insect's gut",
+      "explanation": "Bacillus thuringiensis produces crystalline Cry proteins that, when ingested by susceptible larvae, bind to and rupture the midgut lining, killing the insect. Bt is used as a biopesticide spray and as the gene source in Bt crops (e.g., Bt corn) for targeted, eco-friendly control."
+    },
+    {
+      "id": 57,
+      "question": "What is the key difference between a predator and a parasitoid in biological control?",
+      "choices": ["Predators are insects; parasitoids are plants", "A predator kills and consumes many prey; a parasitoid develops in/on a single host, eventually killing it", "Predators are harmful; parasitoids are pests", "There is no difference"],
+      "answer": "A predator kills and consumes many prey; a parasitoid develops in/on a single host, eventually killing it",
+      "explanation": "A predator (e.g., ladybird beetle, spider) actively hunts and eats numerous prey during its life. A parasitoid (e.g., Trichogramma, Cotesia) lays eggs in or on a single host; its developing young consume and ultimately kill that one host. Both are valuable natural enemies."
+    },
+    {
+      "id": 58,
+      "question": "Conserving naturally occurring spiders, ladybird beetles, and wasps in a rice field by avoiding broad-spectrum insecticides is an example of:",
+      "choices": ["Classical biological control", "Conservation biological control", "Chemical control", "Quarantine"],
+      "answer": "Conservation biological control",
+      "explanation": "Conservation biological control protects and enhances existing natural enemies by modifying practices (e.g., reducing harmful sprays, providing habitat/refuges). Classical biocontrol imports exotic enemies, while augmentation releases reared natural enemies. Conservation is a cornerstone of rice IPM."
+    },
+    {
+      "id": 59,
+      "question": "The Sterile Insect Technique (SIT) controls pests by:",
+      "choices": ["Spraying sterilants on crops", "Releasing mass-reared, sterilized males that mate with wild females, producing no offspring", "Removing all host plants", "Importing predators"],
+      "answer": "Releasing mass-reared, sterilized males that mate with wild females, producing no offspring",
+      "explanation": "In SIT, large numbers of males are sterilized (usually by irradiation) and released to mate with wild females; the resulting eggs are infertile, so the pest population declines over generations. It has been used successfully against fruit flies and screwworm."
+    },
+    {
+      "id": 60,
+      "question": "Yellow sticky traps are commonly used in greenhouses and fields to monitor and trap:",
+      "choices": ["Soil nematodes", "Flying insects such as whiteflies, aphids, and leafminers", "Plant viruses directly", "Weeds"],
+      "answer": "Flying insects such as whiteflies, aphids, and leafminers",
+      "explanation": "Many flying insects are attracted to the color yellow. Yellow sticky traps capture whiteflies, aphids, leafminers, and fungus gnats, helping growers monitor pest presence and population trends and providing some control through mass trapping."
+    },
+    {
+      "id": 61,
+      "question": "Regular field scouting (monitoring) is essential in IPM because it:",
+      "choices": ["Replaces the need for any decision-making", "Provides data on pest and natural-enemy populations to decide if and when control is justified", "Guarantees pests never appear", "Is only useful after harvest"],
+      "answer": "Provides data on pest and natural-enemy populations to decide if and when control is justified",
+      "explanation": "Scouting — systematically inspecting the crop for pests, damage, and beneficial organisms — gives the information needed to compare pest levels with the economic threshold and decide whether intervention is warranted. It prevents both unnecessary and delayed spraying."
+    },
+    {
+      "id": 62,
+      "question": "The Economic Injury Level (EIL) is best defined as the:",
+      "choices": ["Pest density at which control should be triggered", "Lowest pest population density that will cause economic damage equal to the cost of control", "Maximum pesticide residue allowed", "Cost of one pesticide application"],
+      "answer": "Lowest pest population density that will cause economic damage equal to the cost of control",
+      "explanation": "The Economic Injury Level (EIL) is the pest density at which the value of crop loss equals the cost of control. The Economic Threshold (ET) is set slightly below the EIL, so that action is taken before the pest population reaches the damaging EIL."
+    },
+    {
+      "id": 63,
+      "question": "Bacterial leaf blight of rice, which causes wilting (kresek) and yellowing of leaves, is caused by:",
+      "choices": ["Pyricularia oryzae", "Xanthomonas oryzae pv. oryzae", "Rhizoctonia solani", "A leafhopper-transmitted virus"],
+      "answer": "Xanthomonas oryzae pv. oryzae",
+      "explanation": "Bacterial leaf blight is caused by the bacterium Xanthomonas oryzae pv. oryzae, producing water-soaked lesions, leaf yellowing/drying, and, in severe early infection, wilting of seedlings (kresek). It is managed with resistant varieties, clean seed, and balanced fertilization."
+    },
+    {
+      "id": 64,
+      "question": "Sheath blight, a common fungal disease of rice favored by dense canopies and high nitrogen, is caused by:",
+      "choices": ["Rhizoctonia solani", "Phytophthora infestans", "Xanthomonas campestris", "Meloidogyne incognita"],
+      "answer": "Rhizoctonia solani",
+      "explanation": "Sheath blight is caused by the soilborne fungus Rhizoctonia solani, producing oval, greenish-gray lesions on leaf sheaths near the waterline that enlarge upward. Dense planting and excessive nitrogen worsen it; management includes balanced fertilization and fungicides."
+    },
+    {
+      "id": 65,
+      "question": "Bacterial wilt of tomato, eggplant, and pepper, causing rapid wilting without yellowing, is caused by:",
+      "choices": ["Ralstonia solanacearum", "Alternaria solani", "Colletotrichum gloeosporioides", "Tobacco mosaic virus"],
+      "answer": "Ralstonia solanacearum",
+      "explanation": "Bacterial wilt is caused by the soilborne bacterium Ralstonia solanacearum, which invades the vascular system and blocks water flow, causing sudden wilting while leaves stay green. Cut stems ooze bacterial streaming in water. It is managed by resistant varieties, grafting, and crop rotation."
+    },
+    {
+      "id": 66,
+      "question": "Anthracnose, a major postharvest disease of mango showing dark sunken spots on fruit, is caused by a species of:",
+      "choices": ["Colletotrichum", "Rhizobium", "Meloidogyne", "Nilaparvata"],
+      "answer": "Colletotrichum",
+      "explanation": "Anthracnose of mango is caused by the fungus Colletotrichum gloeosporioides, producing dark, sunken lesions on fruit, leaves, and flowers, and causing significant postharvest rot. It is managed with field sanitation, fungicides, and hot-water treatment of harvested fruit."
+    },
+    {
+      "id": 67,
+      "question": "'Damping-off,' which causes young seedlings to rot at the soil line and collapse, is mainly caused by soilborne fungi such as:",
+      "choices": ["Pythium and Rhizoctonia", "Bacillus thuringiensis", "Trichogramma", "Aspergillus only"],
+      "answer": "Pythium and Rhizoctonia",
+      "explanation": "Damping-off, caused by soilborne pathogens like Pythium, Rhizoctonia, and Fusarium, rots seeds or topples emerging seedlings at the base. It is favored by overwatering and poor drainage, and is managed with well-drained, sterilized media, proper spacing, and seed treatment."
+    },
+    {
+      "id": 68,
+      "question": "In plant pathology, the distinction between a 'sign' and a 'symptom' is that a sign is:",
+      "choices": ["The plant's reaction such as wilting or yellowing", "The visible presence of the pathogen itself, such as fungal mycelium or spores", "The economic loss caused by disease", "The name of the disease"],
+      "answer": "The visible presence of the pathogen itself, such as fungal mycelium or spores",
+      "explanation": "A symptom is the plant's response to disease (wilting, chlorosis, lesions, stunting), while a sign is the direct evidence of the pathogen (mold growth, spores, bacterial ooze, rust pustules). Distinguishing them aids accurate diagnosis."
+    },
+    {
+      "id": 69,
+      "question": "The pathogen material that initiates plant infection, such as fungal spores or sclerotia, is collectively called the:",
+      "choices": ["Inoculum", "Vector", "Symptom", "Toxin"],
+      "answer": "Inoculum",
+      "explanation": "Inoculum is the infective propagule of a pathogen (spores, mycelial fragments, sclerotia, bacterial cells, virus particles) that can initiate disease. Primary inoculum starts the season's first infections; sanitation and clean seed aim to reduce inoculum levels."
+    },
+    {
+      "id": 70,
+      "question": "Witchweed (Striga) and dodder (Cuscuta) are examples of:",
+      "choices": ["Beneficial cover crops", "Parasitic weeds that attach to and draw nutrients from host crops", "Grassy weeds controlled by flooding", "Nitrogen-fixing legumes"],
+      "answer": "Parasitic weeds that attach to and draw nutrients from host crops",
+      "explanation": "Parasitic weeds such as Striga (witchweed, on cereals) and Cuscuta (dodder, on many crops) attach to host plants via haustoria and extract water and nutrients, severely reducing yield. They require specialized management beyond ordinary weeding."
+    },
+    {
+      "id": 71,
+      "question": "A herbicide that kills only certain plant types (e.g., broadleaf weeds) while leaving the crop unharmed is described as:",
+      "choices": ["Non-selective", "Selective", "Systemic only", "A fumigant"],
+      "answer": "Selective",
+      "explanation": "A selective herbicide controls specific weeds while sparing the crop (e.g., 2,4-D kills broadleaf weeds in grass crops like rice and corn). A non-selective herbicide (e.g., glyphosate, paraquat) kills most green plants it contacts, used for general vegetation control."
+    },
+    {
+      "id": 72,
+      "question": "Glyphosate is classified as a:",
+      "choices": ["Selective, contact herbicide", "Non-selective, systemic herbicide", "Pre-emergent soil fumigant", "Insecticide"],
+      "answer": "Non-selective, systemic herbicide",
+      "explanation": "Glyphosate is a non-selective, systemic herbicide absorbed by foliage and translocated throughout the plant (including roots), killing a wide range of weeds. It inhibits the EPSPS enzyme in the shikimate pathway. It is widely used for land preparation and weed clearing."
+    },
+    {
+      "id": 73,
+      "question": "Paraquat acts as a:",
+      "choices": ["Systemic herbicide translocated to roots", "Fast-acting contact herbicide that desiccates plant tissue it touches", "Selective grass herbicide", "Plant growth promoter"],
+      "answer": "Fast-acting contact herbicide that desiccates plant tissue it touches",
+      "explanation": "Paraquat is a non-selective contact herbicide that rapidly destroys green tissue it directly contacts, causing quick desiccation, but it is not translocated, so perennial weeds can regrow from untreated roots. It is highly toxic to humans and requires strict safety precautions."
+    },
+    {
+      "id": 74,
+      "question": "The 'stale seedbed' technique reduces weeds by:",
+      "choices": ["Planting the crop immediately after plowing", "Allowing weeds to germinate after land preparation, then killing them before sowing the crop", "Flooding continuously for a month", "Applying nitrogen heavily"],
+      "answer": "Allowing weeds to germinate after land preparation, then killing them before sowing the crop",
+      "explanation": "In the stale (or false) seedbed technique, the field is prepared early to trigger weed germination; the flush of weeds is then destroyed (by shallow tillage or non-selective herbicide) before planting, depleting the weed seedbank near the surface and giving the crop a head start."
+    },
+    {
+      "id": 75,
+      "question": "Correctly calibrating a sprayer before pesticide application is important to:",
+      "choices": ["Increase the dose far above the label rate", "Apply the correct, uniform amount of pesticide per unit area", "Avoid reading the label", "Eliminate the need for protective equipment"],
+      "answer": "Apply the correct, uniform amount of pesticide per unit area",
+      "explanation": "Sprayer calibration ensures the equipment delivers the intended, uniform volume and dose per hectare. Proper calibration prevents under-application (poor control, resistance) and over-application (crop injury, residues, environmental harm, wasted money)."
+    },
+    {
+      "id": 76,
+      "question": "When mixing and applying pesticides, the operator should always:",
+      "choices": ["Work without any protective gear to feel the spray", "Wear appropriate personal protective equipment (PPE) and follow label directions", "Eat and smoke while spraying", "Spray against the wind toward the body"],
+      "answer": "Wear appropriate personal protective equipment (PPE) and follow label directions",
+      "explanation": "Safe pesticide use requires reading and following the label and wearing PPE (gloves, mask/respirator, long sleeves, goggles, boots). Operators should avoid eating, drinking, or smoking while handling pesticides and should spray with, not against, the wind to reduce exposure."
+    },
+    {
+      "id": 77,
+      "question": "The recommended practice for empty pesticide containers before disposal is to:",
+      "choices": ["Reuse them for drinking water", "Triple-rinse them, puncture, and dispose of them properly", "Burn them in the field immediately", "Bury them full of leftover pesticide"],
+      "answer": "Triple-rinse them, puncture, and dispose of them properly",
+      "explanation": "Empty pesticide containers should be triple-rinsed (with the rinsate added to the spray tank), then punctured to prevent reuse, and disposed of according to regulations. Containers must never be reused for food, water, or feed because of toxic residues."
+    },
+    {
+      "id": 78,
+      "question": "Pesticide 'drift' refers to:",
+      "choices": ["The slow degradation of pesticides in soil", "The airborne movement of pesticide spray or vapor away from the target area", "The leaching of pesticides into groundwater", "The buildup of pesticides in the food chain"],
+      "answer": "The airborne movement of pesticide spray or vapor away from the target area",
+      "explanation": "Spray drift is the movement of pesticide droplets or vapor through the air to non-target areas, harming neighboring crops, people, beneficial insects, and the environment. It is reduced by spraying in low wind, using proper nozzles, and lowering boom height."
+    },
+    {
+      "id": 79,
+      "question": "A 'secondary pest outbreak' or pest 'resurgence' after spraying a broad-spectrum insecticide is often caused by:",
+      "choices": ["Improved crop nutrition", "Destruction of natural enemies that had been keeping pests in check", "Cooler weather", "Use of resistant varieties"],
+      "answer": "Destruction of natural enemies that had been keeping pests in check",
+      "explanation": "Broad-spectrum insecticides can kill predators and parasitoids along with the target pest. Freed from natural control, the target pest can rebound (resurgence) or a previously minor pest can flare up (secondary outbreak). This is a key reason IPM favors selective, judicious pesticide use."
+    },
+    {
+      "id": 80,
+      "question": "The fall armyworm (Spodoptera frugiperda), a major invasive pest, primarily attacks which crop in the Philippines?",
+      "choices": ["Rice paddies only", "Corn (maize)", "Coconut", "Banana"],
+      "answer": "Corn (maize)",
+      "explanation": "The fall armyworm is an invasive caterpillar that severely damages corn by feeding in the whorl and on leaves and ears. Management integrates monitoring, early detection, conservation of natural enemies, and judicious use of selective insecticides or Bt corn."
+    },
+    {
+      "id": 81,
+      "question": "Host plant resistance that is effective against many races of a pathogen but only partially, and is more durable, is termed:",
+      "choices": ["Vertical (race-specific) resistance", "Horizontal (general) resistance", "Induced resistance", "No resistance"],
+      "answer": "Horizontal (general) resistance",
+      "explanation": "Horizontal (general or polygenic) resistance is controlled by many genes, gives partial protection against all races of a pathogen, and tends to be more durable. Vertical (race-specific, single-gene) resistance is complete against certain races but can be quickly overcome by new pathogen races."
+    },
+    {
+      "id": 82,
+      "question": "Using certified disease-free seeds and planting materials is an important crop protection strategy because it:",
+      "choices": ["Guarantees higher market prices", "Prevents the introduction of seedborne pathogens and pests into the field", "Eliminates the need for fertilizer", "Increases the number of weeds"],
+      "answer": "Prevents the introduction of seedborne pathogens and pests into the field",
+      "explanation": "Many diseases and pests are carried in or on seeds and vegetative planting materials. Using certified, clean, disease-free planting stock prevents introducing pathogens (e.g., viruses, bacterial blight, fungi) into a field, a foundational preventive measure in IPM."
+    },
+    {
+      "id": 83,
+      "question": "Weeds reduce crop yields mainly because they compete with crops for:",
+      "choices": ["Pollinators only", "Light, water, nutrients, and space", "Insects only", "Carbon dioxide only"],
+      "answer": "Light, water, nutrients, and space",
+      "explanation": "Weeds compete with crops for essential resources — light, water, nutrients, and growing space — reducing crop growth and yield. Some weeds also harbor pests and diseases or release allelopathic chemicals, and they can lower harvest quality and efficiency."
+    },
+    {
+      "id": 84,
+      "question": "A weed that completes its entire life cycle within one growing season is classified as a(n):",
+      "choices": ["Perennial weed", "Annual weed", "Biennial woody shrub", "Parasitic weed"],
+      "answer": "Annual weed",
+      "explanation": "Annual weeds germinate, grow, flower, set seed, and die within one season, spreading mainly by seed (e.g., barnyard grass). Perennial weeds live for several years and often regrow from underground structures (rhizomes, tubers), making them harder to control."
+    },
+    {
+      "id": 85,
+      "question": "Insecticide formulations labeled 'EC' refer to:",
+      "choices": ["Encapsulated crystals", "Emulsifiable concentrate, a liquid that forms an emulsion when mixed with water", "Electric charge", "Edible compound"],
+      "answer": "Emulsifiable concentrate, a liquid that forms an emulsion when mixed with water",
+      "explanation": "An emulsifiable concentrate (EC) is a liquid pesticide formulation containing the active ingredient, solvent, and emulsifier; when added to water it forms a milky emulsion for spraying. Other common formulations include wettable powder (WP), soluble powder (SP), and granules (G)."
+    },
+    {
+      "id": 86,
+      "question": "Rotating insecticides with different modes of action across the season is recommended primarily to:",
+      "choices": ["Increase residues in food", "Delay the development of insecticide resistance in pest populations", "Reduce crop yield", "Attract more pests"],
+      "answer": "Delay the development of insecticide resistance in pest populations",
+      "explanation": "Repeated use of one mode of action selects for resistant individuals. Rotating among insecticides with different modes of action (and integrating non-chemical tactics) reduces this selection pressure, slowing resistance development and preserving the usefulness of available products."
+    },
+    {
+      "id": 87,
+      "question": "Maximum Residue Limit (MRL) refers to the:",
+      "choices": ["Maximum pesticide rate per hectare", "Highest concentration of a pesticide residue legally permitted in or on a food product", "Lethal dose for 50% of pests", "Number of sprays allowed per season"],
+      "answer": "Highest concentration of a pesticide residue legally permitted in or on a food product",
+      "explanation": "The Maximum Residue Limit (MRL) is the highest level of a pesticide residue legally tolerated in food or feed, set to protect consumer health. Observing label rates and the pre-harvest interval helps keep residues within MRLs, which is important for food safety and export trade."
+    },
+    {
+      "id": 88,
+      "question": "Plowing the field and exposing soil-dwelling insect pests and weed seeds to sun and predators is an example of:",
+      "choices": ["Biological control", "Mechanical/cultural control through tillage", "Chemical control", "Genetic control"],
+      "answer": "Mechanical/cultural control through tillage",
+      "explanation": "Tillage is a cultural/mechanical tactic: plowing buries some weed seeds and crop residue, exposes soil-borne insect pupae and larvae to desiccation and predators (like birds), and destroys weeds, helping reduce pest and weed pressure as part of integrated management."
+    },
+    {
+      "id": 89,
+      "question": "Rice ragged stunt and grassy stunt virus diseases are transmitted by which insect?",
+      "choices": ["Green leafhopper", "Brown planthopper", "Rice bug", "Stem borer"],
+      "answer": "Brown planthopper",
+      "explanation": "The brown planthopper (Nilaparvata lugens) not only causes direct feeding damage (hopperburn) but also transmits grassy stunt and ragged stunt viruses to rice. Managing the planthopper vector, partly through resistant varieties and natural enemies, also limits these virus diseases."
+    },
+    {
+      "id": 90,
+      "question": "The rice bug (Leptocorisa) lowers grain quality by:",
+      "choices": ["Boring into the stem", "Sucking the contents of developing grains, causing empty or discolored 'pecky' grains", "Eating the roots", "Defoliating seedlings"],
+      "answer": "Sucking the contents of developing grains, causing empty or discolored 'pecky' grains",
+      "explanation": "Rice bugs feed on grains during the milk stage, sucking out the contents and leaving unfilled, shriveled, or spotted ('pecky') grains that reduce yield and milling/market quality. They are monitored at flowering to grain-filling, when control may be justified."
+    },
+    {
+      "id": 91,
+      "question": "Soil solarization controls soil-borne pests and weeds by:",
+      "choices": ["Flooding the soil for months", "Covering moist soil with clear plastic so trapped solar heat kills pathogens, nematodes, and weed seeds", "Adding large amounts of lime", "Freezing the soil"],
+      "answer": "Covering moist soil with clear plastic so trapped solar heat kills pathogens, nematodes, and weed seeds",
+      "explanation": "Soil solarization uses transparent plastic mulch over moist soil during hot, sunny weather to raise soil temperature enough to kill many soil-borne fungi, nematodes, and weed seeds. It is a non-chemical, eco-friendly method suited to nursery beds and small plots."
+    },
+    {
+      "id": 92,
+      "question": "An 'abiotic' plant disorder differs from an infectious disease in that it is caused by:",
+      "choices": ["A living pathogen like a fungus", "Non-living factors such as nutrient deficiency, drought, frost, or chemical injury", "An insect vector", "A virus"],
+      "answer": "Non-living factors such as nutrient deficiency, drought, frost, or chemical injury",
+      "explanation": "Abiotic (non-infectious) disorders result from non-living causes — nutrient imbalances, water stress, temperature extremes, pollution, or pesticide injury — and do not spread from plant to plant. Distinguishing them from infectious diseases is vital for correct diagnosis and treatment."
+    },
+    {
+      "id": 93,
+      "question": "Trap cropping manages pests by:",
+      "choices": ["Planting a more attractive plant nearby to lure pests away from the main crop", "Trapping rainwater for irrigation", "Setting mechanical traps for rodents", "Removing all vegetation"],
+      "answer": "Planting a more attractive plant nearby to lure pests away from the main crop",
+      "explanation": "A trap crop is a more attractive host planted near or around the main crop to concentrate pests, which can then be destroyed (with the trap crop or a localized spray), protecting the cash crop. It is a cultural tactic that reduces overall pesticide use."
+    },
+    {
+      "id": 94,
+      "question": "The green leafhopper (Nephotettix virescens) is an important rice pest mainly because it:",
+      "choices": ["Bores into the grain", "Transmits rice tungro disease", "Causes root knots", "Defoliates mature plants"],
+      "answer": "Transmits rice tungro disease",
+      "explanation": "Beyond modest direct feeding damage, the green leafhopper is the principal vector of rice tungro disease (caused by two viruses). Managing the leafhopper population and using tungro-resistant varieties are key to limiting tungro spread."
+    },
+    {
+      "id": 95,
+      "question": "Why is the larval (caterpillar) stage usually the most damaging stage of moth and butterfly pests?",
+      "choices": ["Because adults eat the roots", "Because larvae have chewing mouthparts and feed voraciously on plant tissue", "Because larvae transmit all viruses", "Because larvae fly between fields"],
+      "answer": "Because larvae have chewing mouthparts and feed voraciously on plant tissue",
+      "explanation": "In Lepidoptera (moths and butterflies), the larvae (caterpillars) have strong chewing mouthparts and feed heavily on leaves, stems, fruits, or bores into plants, causing most of the crop damage. The adults typically feed on nectar and are mainly responsible for dispersal and egg-laying."
+    },
+    {
+      "id": 96,
+      "question": "Quarantine measures at ports and borders protect agriculture by:",
+      "choices": ["Increasing the spread of pests", "Preventing the entry and establishment of exotic pests and diseases into new areas", "Banning all agricultural trade", "Treating existing field infestations"],
+      "answer": "Preventing the entry and establishment of exotic pests and diseases into new areas",
+      "explanation": "Plant quarantine inspects and regulates the movement of plants and plant products to prevent the introduction and spread of exotic (foreign) pests and pathogens. Keeping new pests out is far cheaper and easier than controlling them once established."
+    },
+    {
+      "id": 97,
+      "question": "Push-pull strategy in pest management combines:",
+      "choices": ["Two insecticides applied together", "A repellent intercrop to 'push' pests away and an attractive trap crop to 'pull' them in", "Pushing and pulling weeds by hand", "Pulling crops earlier and pushing planting later"],
+      "answer": "A repellent intercrop to 'push' pests away and an attractive trap crop to 'pull' them in",
+      "explanation": "The push-pull strategy uses repellent plants intercropped with the main crop to 'push' pests away, while attractive border (trap) plants 'pull' pests toward them, where they can be managed. Developed for cereal stem borers, it is a clever habitat-management IPM tactic."
+    },
+    {
+      "id": 98,
+      "question": "Aflatoxins, the most dangerous mycotoxins in stored corn and peanuts, are produced mainly by which fungus?",
+      "choices": ["Aspergillus flavus", "Rhizoctonia solani", "Pyricularia oryzae", "Xanthomonas oryzae"],
+      "answer": "Aspergillus flavus",
+      "explanation": "Aflatoxins are produced chiefly by Aspergillus flavus (and A. parasiticus), which infect crops like corn and peanuts, especially under drought stress and poor, humid storage. Aflatoxins are potent carcinogens, so proper drying and storage are critical food-safety measures."
+    },
+    {
+      "id": 99,
+      "question": "Rodents (rats) in rice fields are best managed using a community-wide approach because:",
+      "choices": ["Rats stay in one small area", "Rats are highly mobile and breed rapidly, so coordinated, synchronized control across the whole area is more effective", "Individual baiting always eradicates them", "They cause no real damage"],
+      "answer": "Rats are highly mobile and breed rapidly, so coordinated, synchronized control across the whole area is more effective",
+      "explanation": "Rats move widely and reproduce quickly, so isolated efforts are quickly offset by reinvasion and breeding. Community-based rodent management — synchronized planting, sanitation, and coordinated trapping/baiting timed to the rats' breeding cycle — is the most effective ecologically based approach."
+    },
+    {
+      "id": 100,
+      "question": "The overall goal of Integrated Pest Management (IPM) is to:",
+      "choices": ["Completely eradicate every pest from the farm", "Keep pest populations below economically damaging levels using a combination of compatible tactics while minimizing risks to health and the environment", "Maximize the use of chemical pesticides", "Ignore pests entirely"],
+      "answer": "Keep pest populations below economically damaging levels using a combination of compatible tactics while minimizing risks to health and the environment",
+      "explanation": "IPM does not aim to eliminate all pests but to manage them below the economic threshold using a coordinated mix of cultural, biological, mechanical, host-resistance, and (as a last resort) chemical methods — maximizing effectiveness and economic return while protecting human health and the environment."
     }
   ]
 }

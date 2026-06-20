@@ -26,7 +26,7 @@ export default async function QuizPage({ params }) {
   const moduleData = (await import(`@/data/${mod.dataFolder}/${mod.dataFile}.json`)).default;
 
   // Build initial state (server-side seed — client will re-shuffle on mount via QuizEngine)
-  const initialState = initQuizState(moduleData, params.stage);
+  const initialState = initQuizState(moduleData, params.stage, mod.examId);
 
   return (
     <QuizEngine

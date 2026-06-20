@@ -476,6 +476,356 @@
       "choices": ["Formal is free, non-formal costs money, informal is government-funded", "Formal is structured schooling with credentials; non-formal is organized but flexible; informal is incidental learning from daily experience", "Formal uses lectures; non-formal uses field visits; informal uses radio", "Formal is for adults; non-formal for youth; informal for children"],
       "answer": "Formal is structured schooling with credentials; non-formal is organized but flexible; informal is incidental learning from daily experience",
       "explanation": "Most agricultural extension falls under non-formal education — organized, purposeful learning outside the formal school system, without compulsory attendance or formal credentials. Informal learning happens through everyday farming experience and social interaction."
+    },
+    {
+      "id": 51,
+      "question": "Andragogy, the theory of adult learning advanced by Malcolm Knowles, assumes that adult learners:",
+      "choices": ["Learn best through rote memorization and strict teacher control", "Are self-directed, draw on their experience, and are motivated by relevant, problem-centered learning", "Have no prior knowledge to build on", "Prefer learning unrelated to their daily lives"],
+      "answer": "Are self-directed, draw on their experience, and are motivated by relevant, problem-centered learning",
+      "explanation": "Andragogy holds that adults are self-directed, bring a rich reservoir of experience, are ready to learn what is relevant to their roles, and prefer problem-centered, immediately applicable learning. These principles shape effective extension teaching with farmers."
+    },
+    {
+      "id": 52,
+      "question": "The key difference between pedagogy and andragogy is that pedagogy is associated with:",
+      "choices": ["Adult, self-directed learning", "Teaching children in a more teacher-directed manner", "Distance education only", "Learning through farming experience"],
+      "answer": "Teaching children in a more teacher-directed manner",
+      "explanation": "Pedagogy refers to the art and science of teaching children, typically more teacher-directed with the learner dependent on the instructor. Andragogy addresses adult learning, emphasizing self-direction and experience. Extension, working with adult farmers, draws mainly on andragogy."
+    },
+    {
+      "id": 53,
+      "question": "Kolb's experiential learning cycle, relevant to Farmer Field Schools, moves through concrete experience, reflective observation, abstract conceptualization, and:",
+      "choices": ["Passive listening", "Active experimentation", "Standardized testing", "Memorization"],
+      "answer": "Active experimentation",
+      "explanation": "Kolb's experiential learning cycle has four stages: having a concrete experience, reflecting on it, forming concepts/generalizations, and actively experimenting to test them. This 'learning by doing and reflecting' underpins participatory methods like the FFS."
+    },
+    {
+      "id": 54,
+      "question": "Edgar Dale's 'Cone of Experience' suggests that learners generally retain the most from:",
+      "choices": ["Reading text alone", "Listening to words only", "Direct, purposeful, hands-on experiences", "Looking at still pictures"],
+      "answer": "Direct, purposeful, hands-on experiences",
+      "explanation": "Dale's Cone of Experience arranges learning experiences from abstract (verbal symbols) to concrete (direct experience), suggesting people generally learn and retain more through active, hands-on, direct experiences than through passive reading or listening — supporting demonstrations and practice in extension."
+    },
+    {
+      "id": 55,
+      "question": "Among Rogers' attributes of an innovation, the degree to which an innovation is seen as better than the idea it replaces is called its:",
+      "choices": ["Complexity", "Relative advantage", "Trialability", "Observability"],
+      "answer": "Relative advantage",
+      "explanation": "Relative advantage is the degree to which an innovation is perceived as better (more profitable, convenient, or satisfying) than what it supersedes. Along with compatibility, complexity, trialability, and observability, it strongly influences how quickly an innovation is adopted."
+    },
+    {
+      "id": 56,
+      "question": "The attribute of an innovation describing the degree to which it can be tested on a limited basis before full adoption is:",
+      "choices": ["Compatibility", "Trialability", "Complexity", "Relative advantage"],
+      "answer": "Trialability",
+      "explanation": "Trialability is the extent to which an innovation can be experimented with on a small scale before committing fully. Innovations that farmers can try on a small plot with low risk tend to be adopted faster, which is why extension promotes small trials and demonstrations."
+    },
+    {
+      "id": 57,
+      "question": "When farmers modify or adapt a technology to suit their own conditions during adoption, this is referred to as:",
+      "choices": ["Discontinuance", "Re-invention", "Rejection", "Diffusion lag"],
+      "answer": "Re-invention",
+      "explanation": "Re-invention is the degree to which an innovation is changed or modified by users as they adopt and implement it. Some re-invention often makes a technology more locally suitable and can increase the rate and sustainability of adoption."
+    },
+    {
+      "id": 58,
+      "question": "Plotting the cumulative number of adopters of an innovation over time typically produces a(n):",
+      "choices": ["Straight horizontal line", "S-shaped (sigmoid) curve", "Downward sloping line", "Random scatter"],
+      "answer": "S-shaped (sigmoid) curve",
+      "explanation": "The cumulative adoption of an innovation over time usually follows an S-shaped (sigmoid) curve: slow uptake by innovators and early adopters, rapid acceleration through the majority, then a plateau as the remaining laggards adopt. It reflects the diffusion process in a social system."
+    },
+    {
+      "id": 59,
+      "question": "When a farmer adopts a technology and later abandons it, this is called:",
+      "choices": ["Re-invention", "Discontinuance", "Confirmation", "Trial"],
+      "answer": "Discontinuance",
+      "explanation": "Discontinuance is the decision to stop using an innovation after previously adopting it, due to dissatisfaction (disenchantment discontinuance) or finding a better alternative (replacement discontinuance). Reducing discontinuance requires ensuring technologies truly fit farmers' needs and conditions."
+    },
+    {
+      "id": 60,
+      "question": "In Rogers' adopter categories, the last group to adopt an innovation, often tradition-bound and risk-averse, are the:",
+      "choices": ["Innovators", "Early adopters", "Early majority", "Laggards"],
+      "answer": "Laggards",
+      "explanation": "Laggards (about 16%) are the last to adopt; they tend to be traditional, localite in outlook, suspicious of change, and may have limited resources. Understanding their concerns helps extension tailor approaches, though early adopters and opinion leaders are usually more strategic entry points."
+    },
+    {
+      "id": 61,
+      "question": "In the communication process, anything that interferes with or distorts the message is called:",
+      "choices": ["Feedback", "Noise (barrier)", "Encoding", "The channel"],
+      "answer": "Noise (barrier)",
+      "explanation": "Noise refers to any physical, psychological, or semantic interference that distorts or blocks the intended message (e.g., distractions, jargon, language differences, bias). Effective extension communication minimizes noise to ensure the farmer correctly receives and understands the message."
+    },
+    {
+      "id": 62,
+      "question": "Converting an idea into words, symbols, or gestures by the sender in the communication process is called:",
+      "choices": ["Decoding", "Encoding", "Feedback", "Channeling"],
+      "answer": "Encoding",
+      "explanation": "Encoding is the sender's process of translating an idea or meaning into a transmittable message (words, images, gestures). The receiver then decodes it (interprets the message). Successful communication requires that the receiver's decoding matches the sender's intended meaning."
+    },
+    {
+      "id": 63,
+      "question": "A persuasive message about a new variety is generally MORE credible to farmers when the source is perceived as:",
+      "choices": ["Unknown and unrelated", "Trustworthy and competent (high source credibility)", "Distant and commercial only", "Anonymous"],
+      "answer": "Trustworthy and competent (high source credibility)",
+      "explanation": "Source credibility — the receiver's perception of the source's trustworthiness and competence — strongly affects persuasion and adoption. This is why trusted peers, opinion leaders, and respected extension workers are more effective at promoting innovations than distant or unknown sources."
+    },
+    {
+      "id": 64,
+      "question": "Interpersonal communication channels (face-to-face) are generally MORE effective than mass media channels at:",
+      "choices": ["Creating initial awareness among large numbers quickly", "Persuading and changing strongly held attitudes during the decision stage", "Reaching distant audiences cheaply", "Broadcasting time-sensitive alerts"],
+      "answer": "Persuading and changing strongly held attitudes during the decision stage",
+      "explanation": "Mass media excel at creating awareness rapidly among many people, but interpersonal (face-to-face) channels are more powerful at persuasion and overcoming resistance at the decision stage, because they allow dialogue, trust, and tailored responses. Effective extension combines both."
+    },
+    {
+      "id": 65,
+      "question": "A 'cosmopolite' channel in diffusion refers to communication that:",
+      "choices": ["Comes from within the local community only", "Links the individual to sources outside their immediate social system", "Is limited to family members", "Involves only printed materials"],
+      "answer": "Links the individual to sources outside their immediate social system",
+      "explanation": "Cosmopolite channels connect people to information sources beyond their local community (e.g., mass media, urban contacts, extension agencies), important at the awareness stage. Localite channels operate within the community and are more influential at later, persuasion stages."
+    },
+    {
+      "id": 66,
+      "question": "The tendency of people to expose themselves mainly to messages that agree with their existing beliefs is called:",
+      "choices": ["Selective exposure", "Encoding", "Feedback", "Re-invention"],
+      "answer": "Selective exposure",
+      "explanation": "Selective exposure is the tendency to seek out and attend to messages consistent with one's existing attitudes while avoiding conflicting ones. Along with selective perception and retention, it can hinder the spread of new ideas, so extension must present innovations persuasively and credibly."
+    },
+    {
+      "id": 67,
+      "question": "A field trip or study tour as an extension method is valuable because it:",
+      "choices": ["Avoids any farmer participation", "Lets farmers see successful practices firsthand and learn from other farmers' experiences", "Is purely a classroom lecture", "Provides only written information"],
+      "answer": "Lets farmers see successful practices firsthand and learn from other farmers' experiences",
+      "explanation": "A field trip/study tour takes farmers to observe successful farms, projects, or research stations, providing direct, convincing, hands-on exposure and farmer-to-farmer exchange. Seeing real results firsthand can motivate adoption more than verbal description."
+    },
+    {
+      "id": 68,
+      "question": "A major limitation of the lecture method in farmer education is that it:",
+      "choices": ["Encourages too much farmer participation", "Is largely one-way and may result in poor retention and limited skill development", "Cannot reach any farmers", "Is the most effective method for teaching skills"],
+      "answer": "Is largely one-way and may result in poor retention and limited skill development",
+      "explanation": "Lectures transmit information one-way with little interaction, feedback, or hands-on practice, often leading to lower retention and weak skill development, especially among adults with varied literacy. Extension favors participatory, experiential methods, using lectures sparingly to convey background information."
+    },
+    {
+      "id": 69,
+      "question": "The main reason for using visual aids and audio-visual materials in extension teaching is that they:",
+      "choices": ["Replace the need for any explanation", "Improve attention, understanding, and retention by engaging multiple senses", "Are always cheaper than any other method", "Eliminate the need for farmer participation"],
+      "answer": "Improve attention, understanding, and retention by engaging multiple senses",
+      "explanation": "Visual and audio-visual aids (posters, flip charts, videos, models) make abstract ideas concrete, hold attention, and engage more than one sense, which improves comprehension and retention. They reinforce spoken messages, especially valuable where literacy varies."
+    },
+    {
+      "id": 70,
+      "question": "A focus group discussion (FGD) is used in extension and rural appraisal primarily to:",
+      "choices": ["Lecture to a large crowd", "Gather in-depth qualitative insights and views from a small group through guided discussion", "Distribute inputs", "Conduct a formal written exam"],
+      "answer": "Gather in-depth qualitative insights and views from a small group through guided discussion",
+      "explanation": "A focus group discussion brings together a small, fairly homogeneous group (usually 6–12) guided by a facilitator to explore their knowledge, attitudes, and perceptions on a topic in depth. It is a useful qualitative tool for needs assessment, planning, and evaluation."
+    },
+    {
+      "id": 71,
+      "question": "Brainstorming as a group technique in extension is designed to:",
+      "choices": ["Criticize and reject ideas immediately", "Generate many ideas freely without immediate judgment, then evaluate them", "Allow only the leader to speak", "Replace decision-making with voting"],
+      "answer": "Generate many ideas freely without immediate judgment, then evaluate them",
+      "explanation": "Brainstorming encourages participants to produce a large number of ideas quickly in a non-judgmental atmosphere, deferring criticism until later. It stimulates creativity and participation in group problem-solving and planning before ideas are evaluated and refined."
+    },
+    {
+      "id": 72,
+      "question": "In extension program planning, well-formulated objectives should be 'SMART,' meaning Specific, Measurable, Achievable, Relevant, and:",
+      "choices": ["Theoretical", "Time-bound", "Traditional", "Tentative"],
+      "answer": "Time-bound",
+      "explanation": "SMART objectives are Specific, Measurable, Achievable, Relevant, and Time-bound. Setting SMART objectives makes extension programs clear and focused and allows progress and success to be assessed against defined targets and deadlines."
+    },
+    {
+      "id": 73,
+      "question": "Baseline data collected before an extension project begins are important because they:",
+      "choices": ["Are used only for publicity", "Provide a reference point against which later changes and impact can be measured", "Replace the need for objectives", "Are gathered only after the project ends"],
+      "answer": "Provide a reference point against which later changes and impact can be measured",
+      "explanation": "Baseline data describe the situation (knowledge, yields, incomes, practices) before an intervention. By comparing later measurements to this starting point, evaluators can assess the changes and impact attributable to the extension program."
+    },
+    {
+      "id": 74,
+      "question": "The key distinction between monitoring and evaluation is that monitoring is:",
+      "choices": ["A one-time assessment at the end of a project", "The continuous, routine tracking of ongoing implementation, while evaluation assesses results and impact periodically", "Concerned only with long-term impact", "Identical to baseline data collection"],
+      "answer": "The continuous, routine tracking of ongoing implementation, while evaluation assesses results and impact periodically",
+      "explanation": "Monitoring is the ongoing, systematic tracking of inputs, activities, and outputs during implementation to keep a program on course. Evaluation is the periodic, deeper assessment of relevance, effectiveness, outcomes, and impact. Together they support accountability and learning."
+    },
+    {
+      "id": 75,
+      "question": "Impact evaluation of an extension program focuses on:",
+      "choices": ["The number of meetings held", "The long-term, sustained changes in farmers' lives and conditions attributable to the program", "The amount of money spent", "The attendance at a single training"],
+      "answer": "The long-term, sustained changes in farmers' lives and conditions attributable to the program",
+      "explanation": "Impact evaluation assesses the long-term, often higher-level effects of a program — improvements in yields, incomes, food security, and well-being — and the extent these can be attributed to the intervention. It goes beyond immediate outputs and short-term outcomes."
+    },
+    {
+      "id": 76,
+      "question": "A core principle of effective agricultural extension is to work:",
+      "choices": ["For the people, deciding everything on their behalf", "With the people, involving them in identifying problems and solutions", "Only through written orders", "Independently of farmers' views"],
+      "answer": "With the people, involving them in identifying problems and solutions",
+      "explanation": "A guiding extension principle is to work 'with' people rather than 'for' them — engaging farmers as active participants in analyzing their situation, setting priorities, and developing solutions. This participatory, grassroots approach builds ownership, relevance, and sustainability."
+    },
+    {
+      "id": 77,
+      "question": "'Bottom-up' extension program planning differs from 'top-down' planning in that it:",
+      "choices": ["Imposes pre-set programs from the national office", "Starts from the needs and participation of local farmers and communities", "Excludes farmers entirely", "Relies only on researchers' priorities"],
+      "answer": "Starts from the needs and participation of local farmers and communities",
+      "explanation": "Bottom-up planning builds programs from the felt needs, knowledge, and participation of local farmers, leading to more relevant and accepted programs. Top-down planning originates with central authorities and is delivered to farmers, often with less local fit and ownership."
+    },
+    {
+      "id": 78,
+      "question": "The devolution of agricultural extension to Local Government Units under RA 7160 is an example of:",
+      "choices": ["Centralization", "Decentralization of extension services", "Privatization of research", "Nationalization of farms"],
+      "answer": "Decentralization of extension services",
+      "explanation": "Devolving extension to LGUs decentralizes service delivery, intended to make it more responsive to local needs. However, it also created challenges such as variable funding, capacity, and coordination across local governments, shaping the structure of Philippine extension today."
+    },
+    {
+      "id": 79,
+      "question": "A 'pluralistic' extension system is one in which services are provided by:",
+      "choices": ["The national government alone", "Multiple providers including government, NGOs, the private sector, and farmer organizations", "Only private companies", "Only universities"],
+      "answer": "Multiple providers including government, NGOs, the private sector, and farmer organizations",
+      "explanation": "Pluralistic (or demand-driven) extension recognizes that many actors — public agencies, NGOs, private agribusiness, cooperatives, and farmer organizations — deliver advisory services. Coordinating these diverse providers can broaden reach and resources but requires good governance to avoid duplication and gaps."
+    },
+    {
+      "id": 80,
+      "question": "Strong farmer organizations and cooperatives strengthen extension mainly because they:",
+      "choices": ["Discourage farmers from learning", "Provide a structured channel for group learning, collective action, and access to services and markets", "Replace the need for any technology", "Isolate farmers from one another"],
+      "answer": "Provide a structured channel for group learning, collective action, and access to services and markets",
+      "explanation": "Farmer organizations and cooperatives build social capital, giving extension an efficient channel to reach many farmers, facilitate group learning, enable collective input purchase and marketing, and amplify farmers' voice. Organized farmers are better positioned to adopt and sustain improved practices."
+    },
+    {
+      "id": 81,
+      "question": "The 4-H Club movement in agricultural extension primarily targets:",
+      "choices": ["Retired farmers", "Rural youth, developing their Head, Heart, Hands, and Health", "Urban consumers", "Government auditors"],
+      "answer": "Rural youth, developing their Head, Heart, Hands, and Health",
+      "explanation": "4-H Clubs (Head, Heart, Hands, Health) are youth development programs in rural areas that build agricultural skills, leadership, and values through 'learning by doing' projects. They cultivate the next generation of farmers and rural leaders as part of extension."
+    },
+    {
+      "id": 82,
+      "question": "The 'KAP' gap that extension seeks to close refers to the gap between farmers':",
+      "choices": ["Knowledge, Attitude, and Practice", "Kilos, Area, and Production", "Knowledge, Age, and Profit", "Kindness, Ability, and Power"],
+      "answer": "Knowledge, Attitude, and Practice",
+      "explanation": "The Knowledge-Attitude-Practice (KAP) gap describes the difference between what farmers know, how they feel, and what they actually do. Extension aims not only to increase knowledge and improve attitudes but ultimately to change practice (adoption), closing the gap between knowing and doing."
+    },
+    {
+      "id": 83,
+      "question": "Reinforcement (such as encouragement and recognition) is used in extension teaching because it:",
+      "choices": ["Discourages learning", "Strengthens desired behaviors and motivates continued learning and adoption", "Has no effect on adults", "Replaces the need for content"],
+      "answer": "Strengthens desired behaviors and motivates continued learning and adoption",
+      "explanation": "Positive reinforcement — praise, recognition, demonstrated success, awards — rewards and strengthens desired behaviors, increasing the likelihood that farmers continue to learn and adopt improved practices. Motivation and reinforcement are important principles in adult learning."
+    },
+    {
+      "id": 84,
+      "question": "The communication-for-development (C4D) perspective views communication as:",
+      "choices": ["A one-way transfer of orders to passive farmers", "A participatory, dialogue-based process that empowers communities to drive their own development", "Only entertainment broadcasting", "Irrelevant to rural development"],
+      "answer": "A participatory, dialogue-based process that empowers communities to drive their own development",
+      "explanation": "Communication for Development emphasizes dialogue, participation, and empowerment rather than mere information transfer. It uses communication to give communities a voice, facilitate shared decision-making, and enable people to be agents of their own development — aligning with participatory extension."
+    },
+    {
+      "id": 85,
+      "question": "A leaflet, folder, or bulletin distributed to farmers is an example of which extension medium?",
+      "choices": ["Interpersonal channel", "Printed (written) mass media", "Result demonstration", "Field day"],
+      "answer": "Printed (written) mass media",
+      "explanation": "Leaflets, folders, bulletins, and posters are printed media used to convey information to many farmers. They are useful for reinforcing messages and providing reference material, but their effectiveness depends on the readers' literacy and clear, simple design."
+    },
+    {
+      "id": 86,
+      "question": "The 'logical framework' (logframe) is a planning tool that links a project's:",
+      "choices": ["Only its budget lines", "Inputs, activities, outputs, outcomes, and goals with indicators and assumptions", "Staff salaries to attendance", "Weather to crop prices"],
+      "answer": "Inputs, activities, outputs, outcomes, and goals with indicators and assumptions",
+      "explanation": "The logical framework (logframe) organizes a project's hierarchy of objectives — inputs, activities, outputs, outcomes/purpose, and goal — together with indicators, means of verification, and assumptions. It is widely used to design, manage, and evaluate extension and development projects."
+    },
+    {
+      "id": 87,
+      "question": "Which sequence correctly represents the basic steps of the extension program development process?",
+      "choices": ["Evaluation → Objectives → Situation analysis → Implementation", "Situation analysis → Setting objectives → Planning → Implementation → Evaluation", "Implementation → Situation analysis → Objectives → Planning", "Objectives → Evaluation → Planning → Situation analysis"],
+      "answer": "Situation analysis → Setting objectives → Planning → Implementation → Evaluation",
+      "explanation": "The extension program development cycle generally proceeds from analyzing the situation, to setting objectives, planning the program (content and methods), implementing it, and evaluating the results — with feedback used to revise and improve subsequent programs."
+    },
+    {
+      "id": 88,
+      "question": "A key concern with shifting to fee-for-service (cost-recovery) extension is that it may:",
+      "choices": ["Reach more poor farmers for free", "Exclude resource-poor farmers who cannot afford to pay", "Eliminate all private providers", "Remove the need for technology"],
+      "answer": "Exclude resource-poor farmers who cannot afford to pay",
+      "explanation": "Charging fees for extension services can improve sustainability and accountability but risks excluding poor and marginalized farmers who cannot pay, raising equity concerns. Many systems therefore blend free public services for basic/public goods with paid or private advisory services."
+    },
+    {
+      "id": 89,
+      "question": "Sustainability of an extension program is enhanced when:",
+      "choices": ["It depends entirely on one short-term external grant", "Local capacity, ownership, and institutions are built so benefits continue after external support ends", "Farmers are never involved", "It uses only imported solutions"],
+      "answer": "Local capacity, ownership, and institutions are built so benefits continue after external support ends",
+      "explanation": "An extension program is sustainable when its benefits and activities continue after initial funding or external support ends. This is fostered by building local capacity, ownership, strong farmer organizations, and appropriate, affordable technologies suited to local conditions."
+    },
+    {
+      "id": 90,
+      "question": "The ultimate goal of agricultural extension is best described as:",
+      "choices": ["Increasing dependence of farmers on extension workers", "Improving the well-being and self-reliance of farmers and rural communities through their own informed action", "Maximizing pesticide sales", "Collecting data for the government only"],
+      "answer": "Improving the well-being and self-reliance of farmers and rural communities through their own informed action",
+      "explanation": "Beyond transferring technology, the ultimate aim of extension is human and rural development: helping farmers and communities improve their productivity, incomes, and quality of life, and become self-reliant, capable decision-makers. Empowerment, not dependence, is the goal."
+    },
+    {
+      "id": 91,
+      "question": "In Rogers' theory, the degree to which the results of an innovation are visible to others is its:",
+      "choices": ["Observability", "Complexity", "Compatibility", "Trialability"],
+      "answer": "Observability",
+      "explanation": "Observability is the extent to which the results of adopting an innovation are visible to others. When benefits are easily seen (e.g., a visibly better crop), the innovation spreads faster because observation stimulates discussion and peer learning among farmers."
+    },
+    {
+      "id": 92,
+      "question": "An innovation that is perceived as difficult to understand and use is said to have high:",
+      "choices": ["Relative advantage", "Complexity", "Trialability", "Observability"],
+      "answer": "Complexity",
+      "explanation": "Complexity is the degree to which an innovation is perceived as difficult to understand and use. Higher complexity slows adoption, so extension simplifies technologies, breaks them into manageable steps, and provides training and support to reduce the perceived difficulty."
+    },
+    {
+      "id": 93,
+      "question": "The degree to which an innovation is consistent with the existing values, experiences, and needs of farmers is its:",
+      "choices": ["Compatibility", "Complexity", "Discontinuance", "Noise"],
+      "answer": "Compatibility",
+      "explanation": "Compatibility is how well an innovation fits with the adopter's existing values, past experiences, and felt needs. Innovations compatible with local culture and practices are adopted more readily, while those clashing with established beliefs face resistance — a key consideration in extension."
+    },
+    {
+      "id": 94,
+      "question": "Demonstrations and 'learning by doing' are emphasized in extension because adults learn skills best by:",
+      "choices": ["Only hearing about them", "Actually practicing them with guidance and feedback", "Reading a manual once", "Watching a single video without practice"],
+      "answer": "Actually practicing them with guidance and feedback",
+      "explanation": "Skill learning is most effective through active practice with guidance and feedback ('learning by doing'), consistent with experiential learning and andragogy. This is why method demonstrations and hands-on activities are central to teaching farmers practical agricultural skills."
+    },
+    {
+      "id": 95,
+      "question": "Tailoring extension messages and methods to the local language, culture, and literacy level of farmers is important because it:",
+      "choices": ["Confuses the audience", "Increases understanding, acceptance, and the likelihood of adoption", "Is required only for exports", "Has no effect on learning"],
+      "answer": "Increases understanding, acceptance, and the likelihood of adoption",
+      "explanation": "Adapting messages and methods to the audience's language, culture, and literacy improves comprehension, relevance, and trust, raising the chance that farmers accept and adopt recommendations. Audience analysis is therefore a key step in designing extension communication."
+    },
+    {
+      "id": 96,
+      "question": "Involving rural women in extension programs is important because women:",
+      "choices": ["Have no role in agriculture", "Are major contributors to farm production, food security, and household nutrition and need equal access to information and resources", "Should only attend separate programs", "Cannot adopt technologies"],
+      "answer": "Are major contributors to farm production, food security, and household nutrition and need equal access to information and resources",
+      "explanation": "Rural women contribute substantially to crop and livestock production, post-harvest handling, and household food and nutrition. Gender-responsive extension that gives women equal access to information, training, credit, and technology improves productivity, equity, and family welfare."
+    },
+    {
+      "id": 97,
+      "question": "A 'campaign' as an extension method is best suited for:",
+      "choices": ["Individual long-term mentoring of one farmer", "Mobilizing many people toward a specific objective within a defined period (e.g., a clean-up or vaccination drive)", "Conducting laboratory research", "Replacing all other methods permanently"],
+      "answer": "Mobilizing many people toward a specific objective within a defined period (e.g., a clean-up or vaccination drive)",
+      "explanation": "An extension campaign is an intensive, time-bound effort that concentrates resources and multiple communication methods to achieve a specific objective (such as rat control, tree planting, or pest surveillance) across a community, creating awareness and prompting collective action."
+    },
+    {
+      "id": 98,
+      "question": "The 'two-step flow' of communication suggests that mass media messages often reach the general public:",
+      "choices": ["Directly with no intermediaries", "Through opinion leaders who then influence others in their networks", "Only via printed leaflets", "Never reach farmers at all"],
+      "answer": "Through opinion leaders who then influence others in their networks",
+      "explanation": "The two-step flow model holds that ideas from mass media first reach opinion leaders, who then pass on and interpret the information to their wider social networks. This explains the powerful role of opinion leaders in diffusion and why extension engages them as influential intermediaries."
+    },
+    {
+      "id": 99,
+      "question": "Conducting a needs assessment before designing an extension program ensures that the program:",
+      "choices": ["Ignores what farmers actually want", "Addresses the real, priority problems and felt needs of the target farmers", "Focuses only on the planner's interests", "Is identical for every community"],
+      "answer": "Addresses the real, priority problems and felt needs of the target farmers",
+      "explanation": "A needs assessment systematically identifies the gaps, problems, and felt needs of the target audience. Basing the program on these findings ensures relevance, farmer interest, and a higher likelihood of participation and adoption, rather than offering solutions farmers do not need."
+    },
+    {
+      "id": 100,
+      "question": "Triangulation in participatory rural appraisal and program evaluation means:",
+      "choices": ["Using only one source of information", "Cross-checking findings using multiple methods, sources, or team members to improve validity", "Measuring land in triangles", "Surveying exactly three farmers"],
+      "answer": "Cross-checking findings using multiple methods, sources, or team members to improve validity",
+      "explanation": "Triangulation strengthens the reliability and validity of information by gathering and comparing data from multiple methods (e.g., interviews, observation, mapping), multiple sources (different respondents), and a multidisciplinary team, helping to confirm findings and reduce bias in appraisal and evaluation."
     }
   ]
 }
