@@ -32,6 +32,10 @@ const SUBJECT_LABELS = {
   filipino: 'Filipino Specialization',
   mathematics: 'Mathematics Specialization',
   biological_science: 'Biological Science Specialization',
+  social_studies: 'Social Studies Specialization',
+  physical_science: 'Physical Science Specialization',
+  mapeh: 'MAPEH Specialization',
+  values_education: 'Values Education (EsP) Specialization',
 };
 
 export default function EducationModulePage({ params }) {

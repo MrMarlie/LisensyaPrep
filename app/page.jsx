@@ -172,7 +172,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-3 gap-6 max-w-lg mx-auto">
             {[
-              { value: '1,500+', label: 'Questions' },
+              { value: '1,700+', label: 'Questions' },
               { value: '7', label: 'Courses' },
               { value: '100%', label: 'Free' },
             ].map(({ value, label }) => (

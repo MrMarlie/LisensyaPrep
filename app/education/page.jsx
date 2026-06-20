@@ -30,6 +30,10 @@ const SUBJECT_LABELS = {
   filipino: 'Filipino',
   mathematics: 'Mathematics',
   biological_science: 'Biological Science',
+  social_studies: 'Social Studies',
+  physical_science: 'Physical Science',
+  mapeh: 'MAPEH',
+  values_education: 'Values Education',
 };
 
 export default function EducationPage() {

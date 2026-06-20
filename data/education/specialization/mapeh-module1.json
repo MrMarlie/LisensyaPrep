@@ -1,0 +1,606 @@
+{
+  "module": "MAPEH Specialization",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In music, a time signature of 4/4 indicates that:",
+      "choices": [
+        "There are four measures in the piece and each lasts a quarter note",
+        "There are four beats per measure and a quarter note receives one beat",
+        "The tempo is exactly 44 beats per minute",
+        "There are four sharps in the key signature"
+      ],
+      "answer": "There are four beats per measure and a quarter note receives one beat",
+      "explanation": "In a time signature, the top number tells how many beats are in each measure, and the bottom number indicates which note value gets one beat. In 4/4 (common time), there are four beats per measure and the quarter note (4) gets one beat. This is the most widely used meter in Western and popular music."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is an element of music that refers to the 'highness' or 'lowness' of a sound?",
+      "choices": [
+        "Dynamics",
+        "Pitch",
+        "Tempo",
+        "Texture"
+      ],
+      "answer": "Pitch",
+      "explanation": "Pitch is the element of music describing how high or low a sound is, determined by the frequency of vibration. Dynamics refers to loudness/softness, tempo to speed, and texture to how many layers of sound occur together. Understanding the basic elements is foundational to music education."
+    },
+    {
+      "id": 3,
+      "question": "The Philippine instrumental ensemble of indigenous gongs played by the Maranao and Maguindanao peoples is called the:",
+      "choices": [
+        "Rondalla",
+        "Kulintang",
+        "Banda",
+        "Pangkat Kawayan"
+      ],
+      "answer": "Kulintang",
+      "explanation": "The kulintang is a traditional ensemble of southern Philippines (Maranao, Maguindanao, Tausug) centered on a row of small, horizontally laid gongs played melodically, accompanied by larger gongs and a drum. The rondalla is a string ensemble (bandurria, laud, guitar) of Spanish-influenced origin, a different tradition."
+    },
+    {
+      "id": 4,
+      "question": "Which term refers to the gradual increase in loudness in a musical passage?",
+      "choices": [
+        "Decrescendo",
+        "Crescendo",
+        "Staccato",
+        "Legato"
+      ],
+      "answer": "Crescendo",
+      "explanation": "Crescendo (often marked with an opening hairpin '<' or 'cresc.') indicates a gradual increase in volume. Its opposite, decrescendo (or diminuendo), indicates a gradual decrease. Staccato and legato describe articulation (detached vs. smooth/connected notes), not dynamics."
+    },
+    {
+      "id": 5,
+      "question": "In the visual arts, the element that refers to the path of a moving point and can be horizontal, vertical, diagonal, or curved is:",
+      "choices": [
+        "Shape",
+        "Line",
+        "Texture",
+        "Value"
+      ],
+      "answer": "Line",
+      "explanation": "Line is a fundamental element of art—a continuous mark made on a surface, defined as the path of a moving point. Lines can vary in direction, length, and weight, and they create shapes, suggest movement, and convey emotion. Shape encloses space, value is lightness/darkness, and texture is surface quality."
+    },
+    {
+      "id": 6,
+      "question": "The principle of art that refers to the visual equilibrium of elements—symmetrical, asymmetrical, or radial—is called:",
+      "choices": [
+        "Rhythm",
+        "Balance",
+        "Emphasis",
+        "Proportion"
+      ],
+      "answer": "Balance",
+      "explanation": "Balance is the principle of distributing visual weight so a composition feels stable. It can be symmetrical (mirror-like), asymmetrical (different elements balanced by visual weight), or radial (arranged around a center). Emphasis creates a focal point, rhythm creates visual movement, and proportion concerns relative size."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following are the three primary colors in the traditional (subtractive, pigment) color model?",
+      "choices": [
+        "Red, green, and blue",
+        "Red, yellow, and blue",
+        "Cyan, magenta, and yellow",
+        "Orange, green, and violet"
+      ],
+      "answer": "Red, yellow, and blue",
+      "explanation": "In the traditional pigment (subtractive) color model used in painting, the three primary colors are red, yellow, and blue—colors that cannot be mixed from others but can combine to make secondary colors (orange, green, violet). Red, green, blue (RGB) is the additive model for light, and CMY is used in printing."
+    },
+    {
+      "id": 8,
+      "question": "In physical education, which component of physical fitness is best developed by activities like long-distance running and swimming?",
+      "choices": [
+        "Flexibility",
+        "Cardiovascular (cardiorespiratory) endurance",
+        "Muscular strength",
+        "Body composition"
+      ],
+      "answer": "Cardiovascular (cardiorespiratory) endurance",
+      "explanation": "Cardiovascular endurance is the ability of the heart, lungs, and circulatory system to supply oxygen during sustained physical activity. Aerobic activities like distance running, swimming, and cycling develop it. Flexibility is range of motion, muscular strength is maximal force, and body composition is the ratio of fat to lean mass."
+    },
+    {
+      "id": 9,
+      "question": "The FITT principle in exercise programming stands for:",
+      "choices": [
+        "Force, Intensity, Time, Type",
+        "Frequency, Intensity, Time, Type",
+        "Flexibility, Intensity, Training, Technique",
+        "Frequency, Improvement, Tempo, Type"
+      ],
+      "answer": "Frequency, Intensity, Time, Type",
+      "explanation": "FITT is a framework for designing exercise programs: Frequency (how often), Intensity (how hard), Time (how long per session), and Type (the kind of activity). Adjusting these variables allows progressive overload and tailoring of programs to fitness goals while managing the risk of injury."
+    },
+    {
+      "id": 10,
+      "question": "Which best describes the nutritional concept of a 'balanced diet'?",
+      "choices": [
+        "Eating only carbohydrates for energy",
+        "Consuming the right proportions of carbohydrates, proteins, fats, vitamins, minerals, and water to meet the body's needs",
+        "Eliminating all fats from meals",
+        "Eating large amounts of a single nutritious food"
+      ],
+      "answer": "Consuming the right proportions of carbohydrates, proteins, fats, vitamins, minerals, and water to meet the body's needs",
+      "explanation": "A balanced diet supplies all the macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins, minerals), plus water, in appropriate amounts and proportions for growth, energy, and health. The Philippine 'Pinggang Pinoy' food guide visualizes these proportions for a healthy meal."
+    },
+    {
+      "id": 11,
+      "question": "The Philippine folk dance performed with bamboo poles clapped together, requiring dancers to step in and out, is the:",
+      "choices": [
+        "Pandanggo sa Ilaw",
+        "Tinikling",
+        "Cariñosa",
+        "Singkil"
+      ],
+      "answer": "Tinikling",
+      "explanation": "Tinikling, considered the Philippine national dance, imitates the movement of the tikling bird as it dodges bamboo traps. Two people rhythmically tap and slide bamboo poles while dancers hop in and out. Singkil also uses bamboo poles but is a Maranao royal dance; Pandanggo sa Ilaw involves balancing oil lamps."
+    },
+    {
+      "id": 12,
+      "question": "In health education, which of the following is a 'non-communicable' disease?",
+      "choices": [
+        "Tuberculosis",
+        "Type 2 diabetes mellitus",
+        "Dengue fever",
+        "Influenza"
+      ],
+      "answer": "Type 2 diabetes mellitus",
+      "explanation": "Non-communicable diseases (NCDs) are not spread from person to person; they include diabetes, hypertension, heart disease, and most cancers, often linked to lifestyle and genetic factors. Tuberculosis, dengue, and influenza are communicable (infectious) diseases caused by pathogens that can be transmitted."
+    },
+    {
+      "id": 13,
+      "question": "A major scale follows which pattern of whole (W) and half (H) steps?",
+      "choices": [
+        "W-W-H-W-W-W-H",
+        "W-H-W-W-H-W-W",
+        "H-W-W-W-H-W-W",
+        "W-W-W-H-W-W-H"
+      ],
+      "answer": "W-W-H-W-W-W-H",
+      "explanation": "The major scale is built on the interval pattern Whole-Whole-Half-Whole-Whole-Whole-Half. For example, C major (C-D-E-F-G-A-B-C) uses only white keys and follows this pattern. Knowing scale construction is essential for understanding key signatures, melody, and harmony in music."
+    },
+    {
+      "id": 14,
+      "question": "Which Filipino was proclaimed National Artist for Visual Arts and is famous for paintings depicting Filipino rural life and the 'Sungka' and 'Sabungan' scenes?",
+      "choices": [
+        "Juan Luna",
+        "Fernando Amorsolo",
+        "Vicente Manansala",
+        "BenCab (Benedicto Cabrera)"
+      ],
+      "answer": "Fernando Amorsolo",
+      "explanation": "Fernando Amorsolo was the first National Artist of the Philippines (1972, Painting), celebrated for his luminous depictions of Philippine rural landscapes, genre scenes, and the play of natural sunlight ('backlighting'). Juan Luna predates the National Artist award; Manansala and BenCab are also National Artists but of later modernist styles."
+    },
+    {
+      "id": 15,
+      "question": "In sports officiating, a 'love' score and 'deuce' are terms used in which sport?",
+      "choices": [
+        "Basketball",
+        "Tennis",
+        "Volleyball",
+        "Badminton"
+      ],
+      "answer": "Tennis",
+      "explanation": "In tennis, 'love' means a score of zero, and 'deuce' is the score of 40-40, requiring a player to win two consecutive points (advantage, then game) to win the game. While badminton also has its own scoring, the specific terms 'love' and 'deuce' as used here are characteristic of tennis scoring."
+    },
+    {
+      "id": 16,
+      "question": "Which first-aid action is the recommended immediate response for a minor first-degree burn?",
+      "choices": [
+        "Apply butter or toothpaste to the burn",
+        "Cool the burn under cool (not ice-cold) running water for about 10–20 minutes",
+        "Break any blisters immediately",
+        "Cover it tightly with a cotton ball"
+      ],
+      "answer": "Cool the burn under cool (not ice-cold) running water for about 10–20 minutes",
+      "explanation": "For a minor burn, cooling it under cool running water for 10–20 minutes reduces tissue damage and pain. You should NOT apply butter, toothpaste, or ice (which can worsen injury), and you should avoid breaking blisters (risking infection) or using fluffy cotton that sticks to the wound. Loose, clean, non-adhesive covering is appropriate."
+    },
+    {
+      "id": 17,
+      "question": "The musical term 'a cappella' refers to:",
+      "choices": [
+        "Singing with full orchestral accompaniment",
+        "Vocal music performed without instrumental accompaniment",
+        "A fast, lively tempo",
+        "A solo instrumental performance"
+      ],
+      "answer": "Vocal music performed without instrumental accompaniment",
+      "explanation": "A cappella (Italian for 'in the manner of the chapel') means singing without instrumental accompaniment, relying solely on voices. It originated in sacred choral music. Understanding such Italian musical terms is part of the standard vocabulary in music education and performance."
+    },
+    {
+      "id": 18,
+      "question": "Which principle of design refers to the repetition of visual elements to create a sense of organized movement?",
+      "choices": [
+        "Contrast",
+        "Rhythm",
+        "Unity",
+        "Proportion"
+      ],
+      "answer": "Rhythm",
+      "explanation": "Rhythm in art is created by repeating elements (lines, shapes, colors) to guide the viewer's eye and produce a sense of movement, similar to rhythm in music. Contrast emphasizes differences, unity creates a sense of wholeness, and proportion deals with the relative scale of parts to the whole."
+    },
+    {
+      "id": 19,
+      "question": "To estimate a person's maximum heart rate (HRmax) for exercise intensity, the commonly used formula is:",
+      "choices": [
+        "220 minus age",
+        "200 plus age",
+        "Age multiplied by 10",
+        "180 minus weight"
+      ],
+      "answer": "220 minus age",
+      "explanation": "The widely taught estimate of maximum heart rate is 220 minus the person's age (in years). Target heart rate zones for aerobic exercise are then computed as a percentage (typically 60–85%) of this maximum. While newer formulas exist, '220 − age' remains the standard taught in PE and basic fitness education."
+    },
+    {
+      "id": 20,
+      "question": "In health, the term 'BMI' (Body Mass Index) is calculated using a person's:",
+      "choices": [
+        "Weight and age",
+        "Weight and height",
+        "Height and waist size",
+        "Age and gender"
+      ],
+      "answer": "Weight and height",
+      "explanation": "Body Mass Index is calculated as weight in kilograms divided by height in meters squared (BMI = kg/m²). It is a screening tool to classify underweight, normal weight, overweight, and obesity. While it does not measure body fat directly, it is a quick, widely used population-level indicator of weight status."
+    },
+    {
+      "id": 21,
+      "question": "Which musical texture features a single melodic line with no accompaniment?",
+      "choices": [
+        "Homophony",
+        "Polyphony",
+        "Monophony",
+        "Heterophony"
+      ],
+      "answer": "Monophony",
+      "explanation": "Monophony is a musical texture with a single melodic line and no harmony or accompaniment (e.g., one person singing alone, or Gregorian chant). Homophony has a melody supported by chords; polyphony has two or more independent melodic lines woven together (e.g., a fugue). Texture describes how layers of sound combine."
+    },
+    {
+      "id": 22,
+      "question": "The art technique 'chiaroscuro,' notably used by Renaissance masters, refers to:",
+      "choices": [
+        "The use of bright, flat colors without shading",
+        "The strong contrast between light and dark to model three-dimensional form",
+        "Painting only in shades of a single color",
+        "The use of geometric abstraction"
+      ],
+      "answer": "The strong contrast between light and dark to model three-dimensional form",
+      "explanation": "Chiaroscuro (Italian for 'light-dark') is the technique of using strong contrasts between light and shadow to give figures and objects a sense of volume and three-dimensionality. Artists like Leonardo da Vinci and Caravaggio mastered it. Monochrome painting (single color) is a different concept."
+    },
+    {
+      "id": 23,
+      "question": "In volleyball, how many players from each team are on the court during regular play?",
+      "choices": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eleven"
+      ],
+      "answer": "Six",
+      "explanation": "In indoor volleyball, each team has six players on the court at a time, arranged in two rows of three (front row and back row) and rotating positions when they win the serve. Beach volleyball, by contrast, is played with two players per side. Knowing standard player counts is basic to teaching team sports."
+    },
+    {
+      "id": 24,
+      "question": "Which of the following is a key strategy in the primary prevention of dengue, a mosquito-borne disease common in the Philippines?",
+      "choices": [
+        "Taking antibiotics regularly",
+        "Eliminating stagnant water where mosquitoes breed (the '4 o'clock habit' / search-and-destroy)",
+        "Avoiding all physical activity",
+        "Drinking more carbonated beverages"
+      ],
+      "answer": "Eliminating stagnant water where mosquitoes breed (the '4 o'clock habit' / search-and-destroy)",
+      "explanation": "Dengue is spread by Aedes mosquitoes that breed in clean, stagnant water. Primary prevention focuses on source reduction: emptying containers, covering water storage, and the Department of Health's 'search and destroy' and '4 o'clock habit' campaigns. Antibiotics do not work on viral diseases like dengue; prevention targets the vector."
+    },
+    {
+      "id": 25,
+      "question": "The Italian tempo marking 'Allegro' indicates a tempo that is:",
+      "choices": [
+        "Very slow and solemn",
+        "Fast and lively",
+        "Moderately walking pace",
+        "Gradually slowing down"
+      ],
+      "answer": "Fast and lively",
+      "explanation": "Allegro is an Italian tempo marking meaning fast, quick, and lively. Other common markings include Largo (very slow), Adagio (slow), Andante (walking pace), and Presto (very fast). Tempo markings tell the performer the intended speed and character of a musical piece."
+    },
+    {
+      "id": 26,
+      "question": "Which of these is considered a 'warm' color on the color wheel?",
+      "choices": [
+        "Blue",
+        "Green",
+        "Red",
+        "Violet"
+      ],
+      "answer": "Red",
+      "explanation": "Warm colors—red, orange, and yellow—are associated with heat, energy, and sunlight and tend to appear to advance in a composition. Cool colors—blue, green, and violet—are associated with water, sky, and calm and tend to recede. Color temperature is an important concept in art and design for creating mood and depth."
+    },
+    {
+      "id": 27,
+      "question": "In track and field, the relay event in which a baton is passed between teammates requires the exchange to occur within a designated:",
+      "choices": [
+        "Free-throw lane",
+        "Exchange (passing) zone",
+        "End zone",
+        "Service box"
+      ],
+      "answer": "Exchange (passing) zone",
+      "explanation": "In relay races (e.g., 4x100 m), the baton must be passed from one runner to the next within a marked exchange (or passing) zone on the track. Passing the baton outside this zone results in disqualification. Mastery of the smooth handoff within the zone is crucial to relay performance."
+    },
+    {
+      "id": 28,
+      "question": "Which nutrient is the body's primary and most efficient source of quick energy?",
+      "choices": [
+        "Proteins",
+        "Carbohydrates",
+        "Vitamins",
+        "Minerals"
+      ],
+      "answer": "Carbohydrates",
+      "explanation": "Carbohydrates are the body's main and most readily available source of energy, broken down into glucose to fuel cells, especially the brain and muscles during activity. Proteins are primarily for growth and repair, while vitamins and minerals are micronutrients that regulate body processes but are not major energy sources."
+    },
+    {
+      "id": 29,
+      "question": "A rest in music notation represents:",
+      "choices": [
+        "A note to be played very loudly",
+        "A measured period of silence",
+        "A change in key signature",
+        "An increase in tempo"
+      ],
+      "answer": "A measured period of silence",
+      "explanation": "A rest is a symbol indicating a specific duration of silence in music, with each rest type (whole, half, quarter, eighth) corresponding to a note value of the same duration. Rests are as essential as notes, shaping rhythm and phrasing. Reading rests correctly is fundamental to accurate musical performance."
+    },
+    {
+      "id": 30,
+      "question": "The art movement characterized by visible brushstrokes, emphasis on light and its changing qualities, and ordinary subject matter—pioneered by Monet—is:",
+      "choices": [
+        "Cubism",
+        "Impressionism",
+        "Surrealism",
+        "Baroque"
+      ],
+      "answer": "Impressionism",
+      "explanation": "Impressionism (late 19th century, France) sought to capture the fleeting effects of light and atmosphere using short, visible brushstrokes and everyday scenes, often painted outdoors (en plein air). Claude Monet's 'Impression, Sunrise' gave the movement its name. Cubism fragments form, Surrealism explores dreams, and Baroque is an earlier dramatic style."
+    },
+    {
+      "id": 31,
+      "question": "In basketball, a successful shot made from beyond the three-point line is worth how many points?",
+      "choices": [
+        "One point",
+        "Two points",
+        "Three points",
+        "Four points"
+      ],
+      "answer": "Three points",
+      "explanation": "A field goal made from behind the three-point arc counts for three points. Shots made inside the arc are worth two points, and free throws are worth one point each. Understanding the scoring system is basic to teaching and officiating basketball, a popular sport in Philippine schools."
+    },
+    {
+      "id": 32,
+      "question": "Which of the following best describes 'mental health'?",
+      "choices": [
+        "The mere absence of mental illness",
+        "A state of well-being in which a person realizes their abilities, copes with normal stresses, works productively, and contributes to the community",
+        "The ability to avoid all stressful situations",
+        "A fixed trait that cannot change over a lifetime"
+      ],
+      "answer": "A state of well-being in which a person realizes their abilities, copes with normal stresses, works productively, and contributes to the community",
+      "explanation": "The World Health Organization defines mental health as a state of well-being in which an individual realizes their potential, can cope with the normal stresses of life, work productively, and contribute to their community. It is more than the absence of illness, and it can fluctuate and be supported throughout life."
+    },
+    {
+      "id": 33,
+      "question": "The Filipino string ensemble composed of plucked instruments such as the bandurria, laud, octavina, and guitar is called the:",
+      "choices": [
+        "Kulintang",
+        "Rondalla",
+        "Gamelan",
+        "Kumintang"
+      ],
+      "answer": "Rondalla",
+      "explanation": "The rondalla is a Philippine ensemble of plucked string instruments—bandurria, laud, octavina, guitar, and bass (bajo)—of Spanish colonial influence. It is widely used to accompany folk songs and dances. The kulintang is an indigenous gong ensemble, and the gamelan is an Indonesian percussion ensemble."
+    },
+    {
+      "id": 34,
+      "question": "In drawing and painting, 'perspective' is the technique used to:",
+      "choices": [
+        "Create the illusion of depth and three-dimensional space on a flat surface",
+        "Mix complementary colors",
+        "Apply thick layers of paint",
+        "Frame a finished artwork"
+      ],
+      "answer": "Create the illusion of depth and three-dimensional space on a flat surface",
+      "explanation": "Perspective is a system (developed during the Renaissance) for representing three-dimensional space and depth on a two-dimensional surface, using techniques like a horizon line, vanishing points, and converging lines (linear perspective) or atmospheric effects (aerial perspective). It makes drawings appear realistic and spatially convincing."
+    },
+    {
+      "id": 35,
+      "question": "Which physical fitness component is being measured by the 'sit-and-reach' test?",
+      "choices": [
+        "Muscular strength",
+        "Flexibility",
+        "Cardiovascular endurance",
+        "Agility"
+      ],
+      "answer": "Flexibility",
+      "explanation": "The sit-and-reach test measures flexibility, particularly of the lower back and hamstring muscles, by assessing how far a person can reach forward while seated with legs extended. Flexibility is the range of motion available at a joint. Other fitness tests measure strength, endurance, agility, or power."
+    },
+    {
+      "id": 36,
+      "question": "Which of the following is a key message of responsible drug education in the K-12 Health curriculum?",
+      "choices": [
+        "Experimenting with substances is a normal and harmless part of growing up",
+        "Understanding the harmful effects of substance abuse and developing refusal and decision-making skills",
+        "All medicines are dangerous and should never be used",
+        "Peer pressure should always be followed"
+      ],
+      "answer": "Understanding the harmful effects of substance abuse and developing refusal and decision-making skills",
+      "explanation": "Drug education aims to give learners accurate knowledge of the harmful effects of substance abuse and to build life skills—refusal skills, healthy decision-making, and resistance to negative peer pressure. It distinguishes the legitimate, supervised use of medicines from the abuse of harmful substances, empowering students to make healthy choices."
+    },
+    {
+      "id": 37,
+      "question": "The symbol that appears at the beginning of a staff to indicate the pitch of the notes, such as the treble or bass symbol, is the:",
+      "choices": [
+        "Time signature",
+        "Clef",
+        "Key signature",
+        "Dynamic marking"
+      ],
+      "answer": "Clef",
+      "explanation": "A clef is the symbol placed at the start of the musical staff that fixes the pitch of the lines and spaces. The treble (G) clef is used for higher pitches and the bass (F) clef for lower pitches. Without a clef, the notes on the staff would have no defined pitch. The time signature and key signature serve different functions."
+    },
+    {
+      "id": 38,
+      "question": "Sculptures, pottery, and architecture are classified as which type of art based on dimension?",
+      "choices": [
+        "Two-dimensional arts",
+        "Three-dimensional arts",
+        "Performing arts",
+        "Literary arts"
+      ],
+      "answer": "Three-dimensional arts",
+      "explanation": "Three-dimensional (3D) arts have height, width, AND depth, so they occupy physical space and can be viewed from multiple angles—examples include sculpture, pottery (ceramics), and architecture. Two-dimensional arts (drawing, painting) have only height and width. Performing and literary arts are categorized differently, by their mode of expression."
+    },
+    {
+      "id": 39,
+      "question": "In soccer (football), which player is the only one normally allowed to handle the ball with the hands within the field of play?",
+      "choices": [
+        "The striker",
+        "The goalkeeper, within the penalty area",
+        "The midfielder",
+        "The defender, anywhere on the field"
+      ],
+      "answer": "The goalkeeper, within the penalty area",
+      "explanation": "In soccer, only the goalkeeper may legally use the hands or arms to handle the ball, and only within their own penalty area. All other (outfield) players may not deliberately handle the ball; doing so results in a foul. This rule is fundamental to the nature of the game and basic officiating."
+    },
+    {
+      "id": 40,
+      "question": "Which of the following best illustrates the health concept of 'holistic health'?",
+      "choices": [
+        "Focusing only on physical fitness",
+        "Addressing the physical, mental, emotional, social, and spiritual dimensions of well-being together",
+        "Treating illness only after it appears",
+        "Considering only a person's diet"
+      ],
+      "answer": "Addressing the physical, mental, emotional, social, and spiritual dimensions of well-being together",
+      "explanation": "Holistic health views a person as a whole, recognizing that physical, mental, emotional, social, and spiritual dimensions are interconnected and all contribute to overall well-being. This integrated view, central to modern health education, contrasts with a narrow focus on physical health or on treating disease only after it occurs."
+    },
+    {
+      "id": 41,
+      "question": "The musical element 'timbre' (tone color) refers to:",
+      "choices": [
+        "The speed of the music",
+        "The quality of sound that distinguishes one instrument or voice from another",
+        "The loudness of the music",
+        "The pattern of beats in a measure"
+      ],
+      "answer": "The quality of sound that distinguishes one instrument or voice from another",
+      "explanation": "Timbre (pronounced 'TAM-ber'), or tone color, is the characteristic quality of a sound that lets us tell a flute from a violin even when they play the same pitch at the same volume. It arises from the unique mix of overtones produced by each sound source. Tempo, dynamics, and meter are separate musical elements."
+    },
+    {
+      "id": 42,
+      "question": "Vincent van Gogh's 'The Starry Night' and Edvard Munch's 'The Scream' are associated with which art movement that emphasizes emotional experience over physical reality?",
+      "choices": [
+        "Realism",
+        "Expressionism",
+        "Neoclassicism",
+        "Pop Art"
+      ],
+      "answer": "Expressionism",
+      "explanation": "Expressionism prioritizes conveying subjective emotion and inner experience, often through distorted forms, exaggerated colors, and energetic brushwork—seen in van Gogh's swirling skies and Munch's anguished figure. Realism depicts subjects truthfully without idealization, Neoclassicism revives classical order, and Pop Art draws on popular/commercial imagery."
+    },
+    {
+      "id": 43,
+      "question": "The principle of 'progressive overload' in physical training means:",
+      "choices": [
+        "Keeping the same workout intensity indefinitely",
+        "Gradually increasing the demands placed on the body to continue improving fitness",
+        "Exercising only once a month",
+        "Reducing exercise as fitness improves"
+      ],
+      "answer": "Gradually increasing the demands placed on the body to continue improving fitness",
+      "explanation": "Progressive overload is the principle that, to keep improving, the body must be gradually challenged with greater demands than it is accustomed to—by increasing resistance, repetitions, frequency, intensity, or duration over time. Without progressive overload, the body adapts and improvement plateaus. It must be applied gradually to avoid injury."
+    },
+    {
+      "id": 44,
+      "question": "In emergency first aid, the acronym 'RICE' for treating a sprain stands for:",
+      "choices": [
+        "Run, Ice, Climb, Eat",
+        "Rest, Ice, Compression, Elevation",
+        "Rub, Inhale, Cover, Examine",
+        "React, Inspect, Call, Evacuate"
+      ],
+      "answer": "Rest, Ice, Compression, Elevation",
+      "explanation": "RICE is the standard immediate care for soft-tissue injuries like sprains and strains: Rest the injured part, apply Ice to reduce swelling and pain, use Compression with a bandage, and Elevate the limb above heart level. This reduces inflammation in the first 24–48 hours. It is a core first-aid concept in PE and Health."
+    },
+    {
+      "id": 45,
+      "question": "A 'chord' in music is produced when:",
+      "choices": [
+        "A single note is played repeatedly",
+        "Three or more notes are sounded together simultaneously",
+        "A note gradually fades away",
+        "Two notes are played one after another"
+      ],
+      "answer": "Three or more notes are sounded together simultaneously",
+      "explanation": "A chord is a combination of three or more pitches sounded simultaneously, forming the basis of harmony. The most basic chord is the triad (root, third, fifth). Chords give music its harmonic structure and emotional color. Notes played one after another form a melody, not a chord."
+    },
+    {
+      "id": 46,
+      "question": "Which of the following is an example of a 'lifestyle disease' linked to physical inactivity and poor diet?",
+      "choices": [
+        "Measles",
+        "Coronary heart disease",
+        "Chickenpox",
+        "Malaria"
+      ],
+      "answer": "Coronary heart disease",
+      "explanation": "Lifestyle (non-communicable) diseases such as coronary heart disease, type 2 diabetes, and hypertension are strongly associated with modifiable risk factors like physical inactivity, unhealthy diet, smoking, and excessive alcohol. Measles, chickenpox, and malaria are infectious diseases caused by pathogens, not lifestyle factors."
+    },
+    {
+      "id": 47,
+      "question": "The arrangement of sharps or flats placed after the clef to indicate the key of a piece is called the:",
+      "choices": [
+        "Time signature",
+        "Key signature",
+        "Tempo marking",
+        "Dynamic marking"
+      ],
+      "answer": "Key signature",
+      "explanation": "The key signature is the set of sharps or flats written at the beginning of the staff (after the clef) that applies throughout the piece, indicating the key and which notes are consistently raised or lowered. It saves writing accidentals repeatedly. The time signature, by contrast, indicates meter (beats per measure)."
+    },
+    {
+      "id": 48,
+      "question": "In the elements of art, 'value' refers to:",
+      "choices": [
+        "The monetary worth of an artwork",
+        "The lightness or darkness of a color or tone",
+        "The texture of the surface",
+        "The size of the artwork"
+      ],
+      "answer": "The lightness or darkness of a color or tone",
+      "explanation": "Value is the element of art describing the relative lightness or darkness of a color or a grayscale tone. Artists use value (highlights to shadows) to create contrast, model form, suggest volume, and establish mood. It is distinct from a work's monetary worth, its texture, or its dimensions."
+    },
+    {
+      "id": 49,
+      "question": "Which of the following describes 'aerobic' exercise?",
+      "choices": [
+        "Short bursts of maximum effort that cannot be sustained, like sprinting or heavy lifting",
+        "Sustained, moderate-intensity activity using oxygen to fuel the muscles, like jogging or brisk walking",
+        "Exercise performed only while holding the breath",
+        "Stretching exercises done while seated"
+      ],
+      "answer": "Sustained, moderate-intensity activity using oxygen to fuel the muscles, like jogging or brisk walking",
+      "explanation": "Aerobic ('with oxygen') exercise is sustained, rhythmic, moderate-intensity activity—jogging, brisk walking, cycling, swimming—that relies on oxygen to produce energy and improves cardiovascular endurance. Anaerobic exercise (sprinting, heavy lifting) involves short, intense bursts where the body works without sufficient oxygen."
+    },
+    {
+      "id": 50,
+      "question": "The integration of the four areas of MAPEH in the K-12 curriculum is grounded on the philosophy that:",
+      "choices": [
+        "Each subject should be taught in complete isolation from the others",
+        "Music, Arts, Physical Education, and Health together develop the learner's holistic well-being and creative, healthy living",
+        "Only physical education contributes to student development",
+        "The arts have no connection to health or movement"
+      ],
+      "answer": "Music, Arts, Physical Education, and Health together develop the learner's holistic well-being and creative, healthy living",
+      "explanation": "MAPEH is taught as an integrated learning area because Music, Arts, Physical Education, and Health collectively nurture the learner's holistic development—aesthetic, physical, social, emotional, and intellectual—and promote creative expression and healthy, active living. This integrative philosophy underlies the K-12 MAPEH curriculum design."
+    }
+  ]
+}

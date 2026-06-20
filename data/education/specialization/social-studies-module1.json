@@ -1,0 +1,606 @@
+{
+  "module": "Social Studies Specialization",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The barangay as a pre-colonial Filipino political unit was best characterized by which feature?",
+      "choices": [
+        "A centralized kingdom ruling over all the islands from a single capital",
+        "An autonomous community of 30–100 families led by a datu, bound by kinship and alliances",
+        "A theocratic state governed entirely by the babaylan priestly class",
+        "A republic with elected officials and a written constitution"
+      ],
+      "answer": "An autonomous community of 30–100 families led by a datu, bound by kinship and alliances",
+      "explanation": "Pre-colonial barangays were small, independent settlements of roughly 30 to 100 families headed by a datu (chief). They were organized around kinship ties and could form alliances or wage war with one another. There was no single unified state ruling the archipelago, which is why the Spanish later had to subdue communities one by one (reducción)."
+    },
+    {
+      "id": 2,
+      "question": "Which document is considered the first written constitution drafted by Filipinos and established the short-lived First Philippine Republic?",
+      "choices": [
+        "The Biak-na-Bato Constitution",
+        "The Malolos Constitution of 1899",
+        "The Jones Law of 1916",
+        "The 1935 Commonwealth Constitution"
+      ],
+      "answer": "The Malolos Constitution of 1899",
+      "explanation": "The Malolos Constitution, ratified by the Malolos Congress and promulgated on January 21, 1899, established the First Philippine Republic under Emilio Aguinaldo. It was the first republican constitution in Asia drafted by an Asian people. The Biak-na-Bato Constitution (1897) was a provisional document, while the Jones Law and 1935 Constitution came under American rule."
+    },
+    {
+      "id": 3,
+      "question": "Under the 1987 Philippine Constitution, the principle that 'sovereignty resides in the people and all government authority emanates from them' is found in which article?",
+      "choices": [
+        "Article II – Declaration of Principles and State Policies",
+        "Article III – Bill of Rights",
+        "Article VI – Legislative Department",
+        "Article XI – Accountability of Public Officers"
+      ],
+      "answer": "Article II – Declaration of Principles and State Policies",
+      "explanation": "Article II, Section 1 of the 1987 Constitution declares that the Philippines is a democratic and republican State, and that sovereignty resides in the people from whom all government authority emanates. This is the foundational statement of popular sovereignty. The Bill of Rights (Article III) protects individual liberties, a distinct concept."
+    },
+    {
+      "id": 4,
+      "question": "The Treaty of Paris (1898) is historically significant to the Philippines because it:",
+      "choices": [
+        "Granted the Philippines full independence from Spain",
+        "Ended the Spanish-American War and ceded the Philippines from Spain to the United States for $20 million",
+        "Established the Commonwealth government under Manuel Quezon",
+        "Recognized the First Philippine Republic of Aguinaldo"
+      ],
+      "answer": "Ended the Spanish-American War and ceded the Philippines from Spain to the United States for $20 million",
+      "explanation": "Signed on December 10, 1898, the Treaty of Paris ended the Spanish-American War. Spain ceded the Philippines, Puerto Rico, and Guam to the United States, with the U.S. paying Spain $20 million. Filipinos were not consulted, and the treaty effectively transferred colonial control to the U.S., precipitating the Philippine-American War."
+    },
+    {
+      "id": 5,
+      "question": "In economics, the concept of 'opportunity cost' refers to:",
+      "choices": [
+        "The total monetary price paid for a good or service",
+        "The value of the next best alternative forgone when a choice is made",
+        "The cost of producing one additional unit of output",
+        "The fixed cost a firm pays regardless of production levels"
+      ],
+      "answer": "The value of the next best alternative forgone when a choice is made",
+      "explanation": "Opportunity cost is the value of the best alternative that must be given up to pursue a chosen action. It captures the real economic cost of decisions in a world of scarce resources. It is distinct from monetary price (option A) and marginal cost (option C), which measure different things."
+    },
+    {
+      "id": 6,
+      "question": "The 1987 Constitution provides for a system of checks and balances. Which power best illustrates a legislative check on the executive?",
+      "choices": [
+        "The President's power to veto a bill",
+        "The Supreme Court's power of judicial review",
+        "The Senate's power to ratify treaties and confirm presidential appointments",
+        "The President's power to grant pardons"
+      ],
+      "answer": "The Senate's power to ratify treaties and confirm presidential appointments",
+      "explanation": "Checks and balances let each branch restrain the others. The Senate's concurrence (2/3 vote) in treaty ratification and the Commission on Appointments' confirmation of key appointments are legislative checks on the executive. The veto (A) and pardon (D) are executive powers; judicial review (B) is a judicial check."
+    },
+    {
+      "id": 7,
+      "question": "Which pre-colonial Philippine legal code is traditionally—though with disputed authenticity—associated with Datu Kalantiaw of Aklan?",
+      "choices": [
+        "The Maragtas",
+        "The Code of Kalantiaw",
+        "The Laguna Copperplate Inscription",
+        "The Boxer Codex"
+      ],
+      "answer": "The Code of Kalantiaw",
+      "explanation": "The Code of Kalantiaw is a set of laws traditionally attributed to Datu Kalantiaw (1433). Modern historians, following the work of William Henry Scott, regard it as a 20th-century fabrication by Jose E. Marco. Teachers should present it critically. The Laguna Copperplate Inscription (900 AD) is, by contrast, an authentic primary document—the oldest known Philippine written record."
+    },
+    {
+      "id": 8,
+      "question": "The economic principle of 'demand' states that, all else being equal:",
+      "choices": [
+        "As the price of a good rises, the quantity demanded rises",
+        "As the price of a good rises, the quantity demanded falls",
+        "Price and quantity demanded are unrelated",
+        "Quantity demanded depends only on the cost of production"
+      ],
+      "answer": "As the price of a good rises, the quantity demanded falls",
+      "explanation": "The law of demand states an inverse relationship between price and quantity demanded, ceteris paribus (all other factors constant). Higher prices reduce quantity demanded; lower prices increase it. The upward (positive) relationship in option A describes the law of supply, not demand."
+    },
+    {
+      "id": 9,
+      "question": "Which Philippine government body is constitutionally mandated as the central monetary authority responsible for maintaining price stability?",
+      "choices": [
+        "The Department of Finance",
+        "The Bangko Sentral ng Pilipinas (BSP)",
+        "The National Economic and Development Authority (NEDA)",
+        "The Securities and Exchange Commission (SEC)"
+      ],
+      "answer": "The Bangko Sentral ng Pilipinas (BSP)",
+      "explanation": "Article XII, Section 20 of the 1987 Constitution provides for an independent central monetary authority, realized as the Bangko Sentral ng Pilipinas through RA 7653 (1993). Its primary objective is maintaining price stability conducive to balanced economic growth, and it supervises banks. NEDA handles development planning, not monetary policy."
+    },
+    {
+      "id": 10,
+      "question": "The Propaganda Movement of the late 19th century primarily aimed to:",
+      "choices": [
+        "Launch an immediate armed revolution against Spain",
+        "Seek reforms and assimilation, demanding equality and representation for the Philippines in the Spanish Cortes",
+        "Establish a Filipino monarchy independent of Spain",
+        "Promote American annexation of the Philippines"
+      ],
+      "answer": "Seek reforms and assimilation, demanding equality and representation for the Philippines in the Spanish Cortes",
+      "explanation": "The Propaganda Movement (Rizal, del Pilar, Lopez Jaena and others) used peaceful, reformist means—essays, the newspaper La Solidaridad, and lobbying—to demand reforms: Philippine representation in the Cortes, secularization of parishes, and equality before the law. It sought assimilation, not separation. Armed revolution was the path of the Katipunan."
+    },
+    {
+      "id": 11,
+      "question": "In the study of geography, the concept of 'absolute location' refers to:",
+      "choices": [
+        "A place's position relative to nearby landmarks",
+        "A place's exact position on Earth expressed in latitude and longitude",
+        "The cultural significance of a place to its inhabitants",
+        "The economic value of land in a region"
+      ],
+      "answer": "A place's exact position on Earth expressed in latitude and longitude",
+      "explanation": "Absolute location is the precise, fixed position of a place, typically given by coordinates of latitude and longitude (or a specific address). It contrasts with relative location (option A), which describes where a place is in relation to other places. Both are core geographic concepts for spatial analysis."
+    },
+    {
+      "id": 12,
+      "question": "Which event is regarded as the immediate trigger of the 1896 Philippine Revolution against Spain?",
+      "choices": [
+        "The execution of Jose Rizal",
+        "The discovery of the Katipunan by Spanish authorities through Teodoro Patiño",
+        "The signing of the Pact of Biak-na-Bato",
+        "The arrival of Admiral Dewey in Manila Bay"
+      ],
+      "answer": "The discovery of the Katipunan by Spanish authorities through Teodoro Patiño",
+      "explanation": "The Katipunan's secret existence was exposed in August 1896 when Teodoro Patiño revealed it (via Fr. Mariano Gil). With discovery imminent, Bonifacio launched the revolution with the Cry of Pugad Lawin/Balintawak (tearing of cedulas). Rizal's execution came months later (December 30, 1896) and intensified, but did not start, the revolt."
+    },
+    {
+      "id": 13,
+      "question": "The 'separation of Church and State' is enshrined in the 1987 Constitution. Which provision most directly expresses it?",
+      "choices": [
+        "The guarantee of free public education",
+        "Article II, Section 6, which declares the separation of Church and State inviolable",
+        "The prohibition on political dynasties",
+        "The recognition of the family as a basic social institution"
+      ],
+      "answer": "Article II, Section 6, which declares the separation of Church and State inviolable",
+      "explanation": "Article II, Section 6 states: 'The separation of Church and State shall be inviolable.' This is reinforced by Article III, Section 5 (no law establishing religion; free exercise of religion). The principle prevents the State from favoring or funding any religion and protects religious liberty."
+    },
+    {
+      "id": 14,
+      "question": "In sociology, the process by which individuals learn and internalize the norms, values, and behaviors of their society is called:",
+      "choices": [
+        "Acculturation",
+        "Socialization",
+        "Assimilation",
+        "Stratification"
+      ],
+      "answer": "Socialization",
+      "explanation": "Socialization is the lifelong process through which people learn their culture's norms, values, beliefs, and social skills, enabling them to function in society. Agents include family, school, peers, and media. Acculturation and assimilation involve cultural contact between groups; stratification refers to the hierarchical ranking of people in society."
+    },
+    {
+      "id": 15,
+      "question": "Gross Domestic Product (GDP) is best defined as:",
+      "choices": [
+        "The total income earned by a country's citizens, whether at home or abroad",
+        "The total market value of all final goods and services produced within a country's borders in a given period",
+        "The total value of a country's exports minus its imports",
+        "The total amount of money in circulation in an economy"
+      ],
+      "answer": "The total market value of all final goods and services produced within a country's borders in a given period",
+      "explanation": "GDP measures the market value of all final goods and services produced within a nation's geographic borders over a period (usually a year). It differs from GNP/GNI, which measures output by a country's citizens regardless of location (option A is closer to GNI). Net exports (option C) are only one component of GDP."
+    },
+    {
+      "id": 16,
+      "question": "The Filipino concept of 'utang na loob' is best understood by social scientists as:",
+      "choices": [
+        "A formal legal contract enforceable in court",
+        "A deep sense of gratitude and reciprocal obligation arising from a debt of goodwill",
+        "An economic system of barter exchange",
+        "A religious obligation to tithe to the Church"
+      ],
+      "answer": "A deep sense of gratitude and reciprocal obligation arising from a debt of goodwill",
+      "explanation": "Utang na loob ('debt of inner self/gratitude') is a core Filipino value describing the felt obligation to reciprocate a kindness or favor. It is relational and moral rather than strictly economic or legal, and it underpins networks of mutual support. Understanding such indigenous concepts (Sikolohiyang Pilipino) is important in Philippine social studies."
+    },
+    {
+      "id": 17,
+      "question": "Which of the following correctly describes the three inherent powers of the State?",
+      "choices": [
+        "Executive, legislative, and judicial power",
+        "Police power, power of eminent domain, and power of taxation",
+        "Local, provincial, and national power",
+        "Civil, political, and economic power"
+      ],
+      "answer": "Police power, power of eminent domain, and power of taxation",
+      "explanation": "The three inherent powers of the State are police power (to regulate behavior for public welfare), eminent domain (to take private property for public use with just compensation), and taxation (to raise revenue). These exist independently of constitutional grant. Executive/legislative/judicial (option A) are the three branches—a separate concept."
+    },
+    {
+      "id": 18,
+      "question": "The Cordillera and the Bangsamoro illustrate the Constitution's policy on:",
+      "choices": [
+        "The abolition of indigenous communities",
+        "The creation of autonomous regions in Muslim Mindanao and the Cordilleras",
+        "The centralization of all powers in Manila",
+        "The conversion of provinces into chartered cities"
+      ],
+      "answer": "The creation of autonomous regions in Muslim Mindanao and the Cordilleras",
+      "explanation": "Article X, Sections 15–21 of the 1987 Constitution provide for autonomous regions in Muslim Mindanao and the Cordilleras, recognizing the distinct historical and cultural heritage of these areas. This led to the ARMM (now the Bangsamoro Autonomous Region, BARMM, under RA 11054) and ongoing efforts for Cordillera autonomy."
+    },
+    {
+      "id": 19,
+      "question": "During the American colonial period, the Thomasites are best remembered for:",
+      "choices": [
+        "Leading armed resistance against the U.S. military",
+        "Establishing the public education system and teaching English across the archipelago",
+        "Drafting the Malolos Constitution",
+        "Negotiating Philippine independence in 1946"
+      ],
+      "answer": "Establishing the public education system and teaching English across the archipelago",
+      "explanation": "The Thomasites were American teachers who arrived in 1901 aboard the USS Thomas to establish a public school system and teach in English. They shaped Philippine education, language, and culture profoundly. Their work institutionalized English as a medium of instruction and is central to understanding American colonial policy of 'benevolent assimilation.'"
+    },
+    {
+      "id": 20,
+      "question": "Inflation is best defined as:",
+      "choices": [
+        "A one-time increase in the price of a single good",
+        "A sustained, general increase in the overall price level of goods and services over time",
+        "A decrease in the value of exports",
+        "An increase in government spending"
+      ],
+      "answer": "A sustained, general increase in the overall price level of goods and services over time",
+      "explanation": "Inflation is a sustained rise in the general price level, which erodes the purchasing power of money. It is measured by indices like the Consumer Price Index (CPI). A rise in a single good's price (option A) is a relative price change, not inflation, which concerns the overall price level."
+    },
+    {
+      "id": 21,
+      "question": "The 'Tydings-McDuffie Act' of 1934 is significant because it:",
+      "choices": [
+        "Immediately granted the Philippines independence",
+        "Provided for a 10-year transition period (the Commonwealth) leading to Philippine independence",
+        "Annexed the Philippines as a U.S. state",
+        "Established free trade between the Philippines and Japan"
+      ],
+      "answer": "Provided for a 10-year transition period (the Commonwealth) leading to Philippine independence",
+      "explanation": "The Tydings-McDuffie Act (Philippine Independence Act) of 1934 established a 10-year transition through the Commonwealth of the Philippines (inaugurated 1935 under Quezon), after which full independence would be granted. World War II delayed it, but independence was achieved on July 4, 1946. It superseded the earlier Hare-Hawes-Cutting Act."
+    },
+    {
+      "id": 22,
+      "question": "In geography, a 'monsoon' is:",
+      "choices": [
+        "A type of ocean current that warms coastal regions",
+        "A seasonal reversal of wind direction that brings distinct wet and dry seasons",
+        "A tropical cyclone with sustained winds over 118 kph",
+        "A geological fault line prone to earthquakes"
+      ],
+      "answer": "A seasonal reversal of wind direction that brings distinct wet and dry seasons",
+      "explanation": "A monsoon is a seasonal shift in prevailing wind direction caused by differential heating of land and sea. In the Philippines, the habagat (southwest monsoon) brings rain from roughly June to October, while the amihan (northeast monsoon) brings cooler, drier air. Monsoons strongly shape Philippine agriculture and settlement patterns."
+    },
+    {
+      "id": 23,
+      "question": "Which principle of the 1987 Constitution renounces war as an instrument of national policy?",
+      "choices": [
+        "Article II, Section 2, which renounces war as an instrument of national policy and adopts generally accepted principles of international law",
+        "Article III, Section 1, on due process",
+        "Article VII, on the powers of the President",
+        "Article XVI, on general provisions"
+      ],
+      "answer": "Article II, Section 2, which renounces war as an instrument of national policy and adopts generally accepted principles of international law",
+      "explanation": "Article II, Section 2 states that the Philippines renounces war as an instrument of national policy, adopts the generally accepted principles of international law as part of the law of the land, and adheres to a policy of peace. This reflects the country's commitment to peaceful international relations and the incorporation doctrine."
+    },
+    {
+      "id": 24,
+      "question": "The historiographical approach known as 'Pantayong Pananaw,' associated with Zeus Salazar, advocates:",
+      "choices": [
+        "Writing Philippine history strictly from foreign colonial sources",
+        "A 'from-us-for-us' perspective using Filipino language and concepts to understand Philippine history and culture",
+        "Abandoning the study of pre-colonial history entirely",
+        "Adopting a purely Marxist class analysis of all events"
+      ],
+      "answer": "A 'from-us-for-us' perspective using Filipino language and concepts to understand Philippine history and culture",
+      "explanation": "Pantayong Pananaw ('for-us-from-us perspective'), developed by historian Zeus Salazar, calls for understanding Filipino history and society using indigenous language, concepts, and an internal frame of reference, fostering a shared cultural discourse among Filipinos. It is a key decolonizing framework in Philippine historiography."
+    },
+    {
+      "id": 25,
+      "question": "A 'progressive' tax system is one in which:",
+      "choices": [
+        "Everyone pays the same fixed amount regardless of income",
+        "The tax rate increases as the taxable income increases",
+        "The tax rate decreases as income increases",
+        "Only consumption, not income, is taxed"
+      ],
+      "answer": "The tax rate increases as the taxable income increases",
+      "explanation": "In a progressive tax system, higher income earners pay a higher percentage of their income in tax. The Philippine income tax is progressive. This contrasts with a regressive tax (rate falls as income rises) and a proportional/flat tax (same rate for all). Progressivity is justified on the principle of ability to pay."
+    },
+    {
+      "id": 26,
+      "question": "Which best describes the significance of the Laguna Copperplate Inscription (LCI)?",
+      "choices": [
+        "It is a Spanish-era land title",
+        "It is the earliest known calendar-dated written document found in the Philippines (900 AD), showing pre-colonial literacy and trade links",
+        "It is a fabricated artifact with no historical value",
+        "It records the founding of the Katipunan"
+      ],
+      "answer": "It is the earliest known calendar-dated written document found in the Philippines (900 AD), showing pre-colonial literacy and trade links",
+      "explanation": "The LCI, dated 900 AD, is the earliest known dated written record from the Philippines. Written in a mix of Old Malay, Sanskrit, and Old Javanese, it records the forgiveness of a debt and references places like Tundun (Tondo). It demonstrates pre-colonial literacy, governance, and links to wider Southeast Asian polities."
+    },
+    {
+      "id": 27,
+      "question": "In the structure of Philippine government, the power to declare the existence of a state of war is vested in:",
+      "choices": [
+        "The President alone",
+        "The Congress, by a two-thirds vote of both Houses in joint session voting separately",
+        "The Supreme Court",
+        "The Commission on Elections"
+      ],
+      "answer": "The Congress, by a two-thirds vote of both Houses in joint session voting separately",
+      "explanation": "Under Article VI, Section 23(1), Congress, by a vote of two-thirds of both Houses in joint session assembled, voting separately, has the sole power to declare the existence of a state of war. The President is Commander-in-Chief and may respond to invasion, but the formal declaration of war belongs to the legislature."
+    },
+    {
+      "id": 28,
+      "question": "The 'demographic transition model' describes:",
+      "choices": [
+        "The migration of people from rural to urban areas only",
+        "The historical shift of populations from high birth and death rates to low birth and death rates as societies develop",
+        "The redistribution of wealth in socialist economies",
+        "The seasonal movement of nomadic peoples"
+      ],
+      "answer": "The historical shift of populations from high birth and death rates to low birth and death rates as societies develop",
+      "explanation": "The demographic transition model outlines stages a population passes through as a society industrializes: from high birth/death rates (Stage 1), to falling death rates and rapid growth (Stage 2), to falling birth rates (Stage 3), to low birth/death rates and stable population (Stage 4). It links population dynamics to economic development."
+    },
+    {
+      "id": 29,
+      "question": "The EDSA People Power Revolution of February 1986 is historically significant because it:",
+      "choices": [
+        "Installed Ferdinand Marcos as president",
+        "Was a largely nonviolent uprising that ended the Marcos dictatorship and restored democracy",
+        "Established martial law in the Philippines",
+        "Led to the American recolonization of the Philippines"
+      ],
+      "answer": "Was a largely nonviolent uprising that ended the Marcos dictatorship and restored democracy",
+      "explanation": "The 1986 EDSA People Power Revolution was a peaceful, mass civilian-backed uprising (with military defections) that ousted Ferdinand Marcos after 20 years in power, installing Corazon Aquino as president. It became a global symbol of nonviolent democratic change and led to the drafting of the 1987 Constitution."
+    },
+    {
+      "id": 30,
+      "question": "In economics, a 'market equilibrium' occurs when:",
+      "choices": [
+        "The government sets the price of all goods",
+        "The quantity demanded equals the quantity supplied at a particular price",
+        "All firms earn maximum profit",
+        "There is no scarcity in the economy"
+      ],
+      "answer": "The quantity demanded equals the quantity supplied at a particular price",
+      "explanation": "Market equilibrium is the point where the quantity that buyers want to purchase equals the quantity that sellers want to sell, determining the equilibrium price and quantity. At this price there is no surplus or shortage. Surpluses push prices down and shortages push them up, moving the market toward equilibrium."
+    },
+    {
+      "id": 31,
+      "question": "Which ancient civilization is credited with developing one of the earliest known systems of writing, cuneiform, in Mesopotamia?",
+      "choices": [
+        "The Egyptians",
+        "The Sumerians",
+        "The Romans",
+        "The Mayans"
+      ],
+      "answer": "The Sumerians",
+      "explanation": "The Sumerians of southern Mesopotamia developed cuneiform, one of the earliest writing systems, around 3200 BCE, using wedge-shaped marks on clay tablets. They also contributed the wheel, early city-states, and codified law. Egyptian hieroglyphics developed around the same era but are a separate system."
+    },
+    {
+      "id": 32,
+      "question": "The 1987 Constitution's provision that 'the State shall promote social justice in all phases of national development' reflects which underlying principle?",
+      "choices": [
+        "Laissez-faire capitalism with no government intervention",
+        "Social justice—the equitable distribution of wealth and opportunities and protection of the disadvantaged",
+        "Absolute monarchy",
+        "Religious establishment"
+      ],
+      "answer": "Social justice—the equitable distribution of wealth and opportunities and protection of the disadvantaged",
+      "explanation": "Article II, Section 10 commits the State to promote social justice, elaborated in Article XIII (Social Justice and Human Rights), which addresses labor, agrarian reform, urban land reform, health, and the rights of marginalized sectors. Social justice aims at humanizing laws and equalizing social and economic conditions."
+    },
+    {
+      "id": 33,
+      "question": "The Manila-Acapulco Galleon Trade (1565–1815) is significant in Philippine economic history because it:",
+      "choices": [
+        "Established direct trade only between the Philippines and Japan",
+        "Connected Asia and the Americas, making Manila a hub for the exchange of silver and Asian goods under Spanish control",
+        "Was operated independently by Filipino merchants without Spanish involvement",
+        "Marked the start of Philippine industrialization"
+      ],
+      "answer": "Connected Asia and the Americas, making Manila a hub for the exchange of silver and Asian goods under Spanish control",
+      "explanation": "The Galleon Trade linked Manila and Acapulco (Mexico) for 250 years, exchanging American silver for Chinese silk, porcelain, and other Asian goods. It made Manila a key node in early globalization but largely benefited Spanish and Chinese merchants, leaving the broader Philippine economy underdeveloped and dependent."
+    },
+    {
+      "id": 34,
+      "question": "A 'unitary' system of government, like that of the Philippines, is one in which:",
+      "choices": [
+        "Power is constitutionally divided between a national government and independent regional states",
+        "Sovereignty and primary governing power are concentrated in a single national government, which may delegate authority to local units",
+        "There is no central government at all",
+        "Each province writes its own constitution"
+      ],
+      "answer": "Sovereignty and primary governing power are concentrated in a single national government, which may delegate authority to local units",
+      "explanation": "In a unitary system, the national government holds primary authority and creates/empowers local government units (LGUs) through delegation, as the Philippines does via the Local Government Code. This contrasts with a federal system (option A), where power is constitutionally divided between national and state governments that each retain sovereignty over certain matters."
+    },
+    {
+      "id": 35,
+      "question": "The Renaissance, beginning in 14th-century Italy, is best characterized as:",
+      "choices": [
+        "A period of strict religious orthodoxy rejecting classical learning",
+        "A cultural revival of classical Greek and Roman art, learning, and humanism",
+        "A military campaign to conquer the Middle East",
+        "The collapse of all European trade networks"
+      ],
+      "answer": "A cultural revival of classical Greek and Roman art, learning, and humanism",
+      "explanation": "The Renaissance ('rebirth') was a cultural and intellectual movement that revived classical Greco-Roman ideals, emphasized humanism (the dignity and potential of the individual), and produced advances in art, science, and literature (Leonardo, Michelangelo, Petrarch). It marked a transition from the medieval to the modern era in Europe."
+    },
+    {
+      "id": 36,
+      "question": "In Philippine local governance, the 'Local Government Code of 1991' (RA 7160) is important because it:",
+      "choices": [
+        "Abolished all local government units",
+        "Devolved significant powers, functions, and resources from the national government to LGUs, promoting local autonomy",
+        "Centralized all taxation in Manila",
+        "Removed the position of barangay captain"
+      ],
+      "answer": "Devolved significant powers, functions, and resources from the national government to LGUs, promoting local autonomy",
+      "explanation": "RA 7160 (Local Government Code of 1991) operationalized the constitutional policy of local autonomy by devolving functions (health, agriculture, social services), granting LGUs taxing powers, and entitling them to an Internal Revenue Allotment (now National Tax Allotment). It strengthened decentralization and grassroots participation."
+    },
+    {
+      "id": 37,
+      "question": "Which statement best distinguishes 'culture' from 'society' in the social sciences?",
+      "choices": [
+        "Culture and society are identical terms with no difference",
+        "Society refers to a group of interacting people, while culture refers to the shared beliefs, values, customs, and material objects of that group",
+        "Society refers only to government, while culture refers only to art",
+        "Culture exists only in modern nations, while society exists only in tribes"
+      ],
+      "answer": "Society refers to a group of interacting people, while culture refers to the shared beliefs, values, customs, and material objects of that group",
+      "explanation": "Sociologically, a society is an organized group of people who share a territory and interact, while culture is the totality of learned, shared beliefs, values, norms, language, and material artifacts that group possesses. A society 'has' a culture; the two concepts are interrelated but analytically distinct."
+    },
+    {
+      "id": 38,
+      "question": "The 'comparative advantage' theory, associated with David Ricardo, argues that:",
+      "choices": [
+        "A country should produce everything it needs domestically and avoid trade",
+        "Countries benefit from trade by specializing in goods they can produce at a lower opportunity cost",
+        "Only the strongest economies should engage in trade",
+        "Trade always harms developing countries"
+      ],
+      "answer": "Countries benefit from trade by specializing in goods they can produce at a lower opportunity cost",
+      "explanation": "Ricardo's theory of comparative advantage holds that even if one country is more efficient at producing all goods (absolute advantage), both countries gain from trade by specializing in goods for which they have the lowest opportunity cost and trading for the rest. It is a foundational argument for the gains from international trade."
+    },
+    {
+      "id": 39,
+      "question": "The Japanese Occupation of the Philippines (1942–1945) was marked by the establishment of:",
+      "choices": [
+        "The independent First Philippine Republic",
+        "The Second Philippine Republic (a puppet state) under President Jose P. Laurel",
+        "The American Commonwealth government",
+        "The Spanish colonial government"
+      ],
+      "answer": "The Second Philippine Republic (a puppet state) under President Jose P. Laurel",
+      "explanation": "During the WWII Japanese Occupation, Japan sponsored the Second Philippine Republic (1943–1945) under President Jose P. Laurel as a puppet government to legitimize its rule. The period also saw guerrilla resistance, severe hardship, and atrocities. Liberation came with the return of American and Filipino forces in 1944–1945."
+    },
+    {
+      "id": 40,
+      "question": "In a 'mixed economy' such as the Philippines, economic decisions are made by:",
+      "choices": [
+        "The government alone, through central planning",
+        "Both market forces (private sector) and government intervention",
+        "Private firms only, with no government role",
+        "Foreign corporations exclusively"
+      ],
+      "answer": "Both market forces (private sector) and government intervention",
+      "explanation": "A mixed economy combines elements of market capitalism (private ownership, the price mechanism) with government intervention (regulation, public services, welfare). Most modern economies, including the Philippines, are mixed: markets allocate most resources, but the State corrects market failures and pursues social goals."
+    },
+    {
+      "id": 41,
+      "question": "Which body under the 1987 Constitution is tasked with enforcing and administering all laws related to the conduct of elections?",
+      "choices": [
+        "The Commission on Audit (COA)",
+        "The Commission on Elections (COMELEC)",
+        "The Civil Service Commission (CSC)",
+        "The Commission on Human Rights (CHR)"
+      ],
+      "answer": "The Commission on Elections (COMELEC)",
+      "explanation": "COMELEC is one of the three independent Constitutional Commissions (Article IX). It enforces and administers all laws and regulations relating to the conduct of elections, plebiscites, initiatives, referenda, and recalls. COA audits government accounts; CSC oversees the civil service; CHR investigates human rights violations."
+    },
+    {
+      "id": 42,
+      "question": "The Agrarian Reform program in the Philippines, strengthened by RA 6657 (CARP), primarily aims to:",
+      "choices": [
+        "Convert all farmland into industrial zones",
+        "Redistribute agricultural lands to landless farmers and farmworkers to promote social justice and rural development",
+        "Return all land ownership to former Spanish friars",
+        "Prohibit farmers from owning land"
+      ],
+      "answer": "Redistribute agricultural lands to landless farmers and farmworkers to promote social justice and rural development",
+      "explanation": "The Comprehensive Agrarian Reform Program (CARP), under RA 6657 (1988), seeks to redistribute public and private agricultural lands to landless tenant-farmers and farmworkers, with just compensation to landowners. It implements the constitutional mandate on agrarian reform (Article XIII) to achieve a more equitable distribution of land and rural uplift."
+    },
+    {
+      "id": 43,
+      "question": "The 'push and pull factors' framework in geography and demography explains:",
+      "choices": [
+        "The rotation of the Earth on its axis",
+        "The reasons people migrate—'push' factors drive people from an origin, 'pull' factors attract them to a destination",
+        "The tides caused by the moon's gravity",
+        "The formation of mountain ranges"
+      ],
+      "answer": "The reasons people migrate—'push' factors drive people from an origin, 'pull' factors attract them to a destination",
+      "explanation": "In migration theory, push factors (poverty, conflict, lack of jobs) compel people to leave their home, while pull factors (employment, safety, better services) attract them to a new place. This framework helps explain phenomena like Filipino overseas labor migration and rural-to-urban movement."
+    },
+    {
+      "id": 44,
+      "question": "Which best describes the role of the judiciary's 'power of judicial review' in the Philippines?",
+      "choices": [
+        "The power to enact new laws",
+        "The power of courts to declare a law, treaty, or executive act unconstitutional",
+        "The power to collect taxes",
+        "The power to appoint cabinet secretaries"
+      ],
+      "answer": "The power of courts to declare a law, treaty, or executive act unconstitutional",
+      "explanation": "Judicial review is the power of the courts, ultimately the Supreme Court, to determine whether the acts of the legislative and executive branches conform to the Constitution and to void those that do not. Article VIII, Section 1 expressly recognizes the duty of courts to settle actual controversies and to determine grave abuse of discretion."
+    },
+    {
+      "id": 45,
+      "question": "The Industrial Revolution (late 18th–19th century) most fundamentally transformed societies by:",
+      "choices": [
+        "Returning economies to subsistence farming",
+        "Shifting production from hand tools and homes to machines and factories, spurring urbanization and new social classes",
+        "Eliminating all forms of trade",
+        "Restoring feudal manorial systems"
+      ],
+      "answer": "Shifting production from hand tools and homes to machines and factories, spurring urbanization and new social classes",
+      "explanation": "The Industrial Revolution introduced mechanized factory production (powered by steam and later electricity), dramatically increasing output and transforming agrarian societies into industrial ones. It drove urbanization, created the industrial working class and capitalist bourgeoisie, and reshaped global economics, politics, and daily life."
+    },
+    {
+      "id": 46,
+      "question": "In teaching social studies, the use of 'primary sources' such as the Acta de la Proclamación de la Independencia is pedagogically valuable because they:",
+      "choices": [
+        "Provide a textbook author's summarized opinion",
+        "Offer firsthand, original evidence from the time period, fostering critical analysis and historical thinking",
+        "Are always completely unbiased and factual",
+        "Should be memorized without interpretation"
+      ],
+      "answer": "Offer firsthand, original evidence from the time period, fostering critical analysis and historical thinking",
+      "explanation": "Primary sources are original materials created during the period under study (documents, artifacts, photographs). Using them develops students' skills in sourcing, contextualization, and corroboration—core to historical thinking. They are not automatically unbiased; teaching students to interrogate authorship and perspective is a key goal."
+    },
+    {
+      "id": 47,
+      "question": "The economic concept of 'scarcity' is the foundation of economics because:",
+      "choices": [
+        "Resources are unlimited and human wants are limited",
+        "Human wants are unlimited but resources are limited, forcing societies to make choices",
+        "All goods are free in a well-managed economy",
+        "Scarcity only affects poor countries"
+      ],
+      "answer": "Human wants are unlimited but resources are limited, forcing societies to make choices",
+      "explanation": "Scarcity—the gap between unlimited human wants and limited resources—is the central economic problem. Because resources (land, labor, capital) are finite, individuals and societies must make choices about what to produce, how, and for whom, which gives rise to opportunity cost. Scarcity is universal, not limited to poor nations."
+    },
+    {
+      "id": 48,
+      "question": "The Katipunan, founded by Andres Bonifacio in 1892, differed from the Propaganda Movement chiefly in that it:",
+      "choices": [
+        "Sought peaceful assimilation into Spain",
+        "Aimed to achieve independence through armed revolution rather than reform",
+        "Was composed only of wealthy ilustrados in Europe",
+        "Supported continued Spanish friar control"
+      ],
+      "answer": "Aimed to achieve independence through armed revolution rather than reform",
+      "explanation": "The Kataas-taasang, Kagalang-galangang Katipunan ng mga Anak ng Bayan (KKK) was a secret revolutionary society aiming for complete separation from Spain through armed struggle. This radical goal distinguished it from the reformist, assimilationist Propaganda Movement. Its discovery in 1896 triggered the Philippine Revolution."
+    },
+    {
+      "id": 49,
+      "question": "Which term describes the geographic phenomenon where the Philippines is located, making it prone to earthquakes and volcanic activity?",
+      "choices": [
+        "The Sahel",
+        "The Pacific Ring of Fire",
+        "The Great Rift Valley",
+        "The Gulf Stream"
+      ],
+      "answer": "The Pacific Ring of Fire",
+      "explanation": "The Philippines lies along the Pacific Ring of Fire, a horseshoe-shaped zone around the Pacific Ocean marked by frequent earthquakes and a high concentration of active volcanoes due to the movement and subduction of tectonic plates. This geographic reality underlies the country's natural hazard exposure and disaster-preparedness needs."
+    },
+    {
+      "id": 50,
+      "question": "The principle of 'accountability of public officers' in Article XI of the 1987 Constitution is encapsulated by which declaration?",
+      "choices": [
+        "Public office is a private privilege to be used for personal gain",
+        "Public office is a public trust, and officials must serve with utmost responsibility, integrity, loyalty, and efficiency",
+        "Public officers are immune from all forms of investigation",
+        "Only the President may be held accountable"
+      ],
+      "answer": "Public office is a public trust, and officials must serve with utmost responsibility, integrity, loyalty, and efficiency",
+      "explanation": "Article XI, Section 1 declares that 'Public office is a public trust,' requiring officials to be accountable to the people and to serve with responsibility, integrity, loyalty, and efficiency. The article provides mechanisms such as impeachment, the Ombudsman, and the Sandiganbayan to enforce accountability against graft and corruption."
+    }
+  ]
+}

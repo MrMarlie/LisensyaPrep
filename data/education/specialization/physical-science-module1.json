@@ -1,0 +1,606 @@
+{
+  "module": "Physical Science Specialization",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "An atom of an element has 17 protons, 18 neutrons, and 17 electrons. What is its mass number, and is it neutral or an ion?",
+      "choices": [
+        "Mass number 35; it is a neutral atom",
+        "Mass number 17; it is a positive ion",
+        "Mass number 52; it is a negative ion",
+        "Mass number 18; it is a neutral atom"
+      ],
+      "answer": "Mass number 35; it is a neutral atom",
+      "explanation": "Mass number = protons + neutrons = 17 + 18 = 35. Charge is determined by comparing protons (positive) and electrons (negative): 17 protons and 17 electrons give a net charge of zero, so the atom is electrically neutral. This element (17 protons) is chlorine, and this isotope is Cl-35."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following correctly states Newton's Second Law of Motion?",
+      "choices": [
+        "An object in motion stays in motion unless acted upon by a net force",
+        "The net force on an object equals its mass times its acceleration (F = ma)",
+        "For every action there is an equal and opposite reaction",
+        "Energy can neither be created nor destroyed"
+      ],
+      "answer": "The net force on an object equals its mass times its acceleration (F = ma)",
+      "explanation": "Newton's Second Law quantifies how force changes motion: the acceleration of an object is directly proportional to the net force and inversely proportional to its mass, expressed as F = ma. Option A states the First Law (inertia), option C the Third Law, and option D the law of conservation of energy."
+    },
+    {
+      "id": 3,
+      "question": "In the periodic table, elements in the same group (vertical column) generally share:",
+      "choices": [
+        "The same number of neutrons",
+        "The same number of valence electrons, giving similar chemical properties",
+        "The same atomic mass",
+        "The same number of energy levels (shells)"
+      ],
+      "answer": "The same number of valence electrons, giving similar chemical properties",
+      "explanation": "Elements in the same group have the same number of valence (outermost) electrons, which governs their bonding behavior and gives them similar chemical properties. For example, Group 1 (alkali metals) all have one valence electron. Elements in the same period (row) share the same number of occupied energy levels, not the same group."
+    },
+    {
+      "id": 4,
+      "question": "A car accelerates uniformly from rest to 20 m/s in 5 seconds. What is its acceleration?",
+      "choices": [
+        "100 m/s²",
+        "4 m/s²",
+        "25 m/s²",
+        "0.25 m/s²"
+      ],
+      "answer": "4 m/s²",
+      "explanation": "Acceleration = change in velocity / time = (final velocity − initial velocity) / time = (20 − 0) / 5 = 4 m/s². Starting from rest means initial velocity is 0. The unit m/s² indicates the velocity increases by 4 m/s every second."
+    },
+    {
+      "id": 5,
+      "question": "Which type of chemical bond forms when electrons are transferred from a metal to a nonmetal, producing oppositely charged ions?",
+      "choices": [
+        "Covalent bond",
+        "Ionic bond",
+        "Hydrogen bond",
+        "Metallic bond"
+      ],
+      "answer": "Ionic bond",
+      "explanation": "An ionic bond forms when one atom (typically a metal) transfers electrons to another (typically a nonmetal), creating a positively charged cation and a negatively charged anion held together by electrostatic attraction. Covalent bonds involve electron sharing; metallic bonds involve a 'sea' of delocalized electrons among metal atoms."
+    },
+    {
+      "id": 6,
+      "question": "The Law of Conservation of Mass, demonstrated by Antoine Lavoisier, states that in a chemical reaction:",
+      "choices": [
+        "Mass is always lost as energy",
+        "The total mass of reactants equals the total mass of products",
+        "Mass increases when gases are produced",
+        "Mass depends on the temperature of the reaction"
+      ],
+      "answer": "The total mass of reactants equals the total mass of products",
+      "explanation": "The Law of Conservation of Mass states that matter is neither created nor destroyed in an ordinary chemical reaction; atoms are merely rearranged. Therefore the total mass of reactants equals the total mass of products. This principle is the basis for balancing chemical equations."
+    },
+    {
+      "id": 7,
+      "question": "What is the kinetic energy of a 2 kg object moving at 3 m/s? (KE = ½mv²)",
+      "choices": [
+        "6 J",
+        "9 J",
+        "18 J",
+        "12 J"
+      ],
+      "answer": "9 J",
+      "explanation": "Kinetic energy = ½ × mass × velocity² = ½ × 2 × (3)² = ½ × 2 × 9 = 9 joules. A common error is forgetting to square the velocity or omitting the factor of ½. The SI unit of energy is the joule (J)."
+    },
+    {
+      "id": 8,
+      "question": "Which statement correctly describes an exothermic reaction?",
+      "choices": [
+        "It absorbs heat from the surroundings, lowering their temperature",
+        "It releases heat to the surroundings, raising their temperature",
+        "It neither absorbs nor releases energy",
+        "It only occurs at absolute zero"
+      ],
+      "answer": "It releases heat to the surroundings, raising their temperature",
+      "explanation": "An exothermic reaction releases energy (usually as heat) to its surroundings, so the surroundings warm up and the reaction has a negative enthalpy change (ΔH < 0). Combustion is a classic example. An endothermic reaction absorbs heat from the surroundings (ΔH > 0), making them feel cooler."
+    },
+    {
+      "id": 9,
+      "question": "The pH of a solution measures its:",
+      "choices": [
+        "Temperature in degrees Celsius",
+        "Concentration of hydrogen ions (H⁺), indicating acidity or basicity",
+        "Total dissolved mass",
+        "Electrical resistance"
+      ],
+      "answer": "Concentration of hydrogen ions (H⁺), indicating acidity or basicity",
+      "explanation": "pH is the negative logarithm of the hydrogen ion concentration: pH = −log[H⁺]. A pH below 7 is acidic (higher H⁺), 7 is neutral, and above 7 is basic/alkaline (lower H⁺). Because the scale is logarithmic, each unit represents a tenfold change in H⁺ concentration."
+    },
+    {
+      "id": 10,
+      "question": "An object is dropped from rest. Ignoring air resistance, approximately how far does it fall in 2 seconds? (g ≈ 10 m/s², d = ½gt²)",
+      "choices": [
+        "10 m",
+        "20 m",
+        "40 m",
+        "5 m"
+      ],
+      "answer": "20 m",
+      "explanation": "For free fall from rest, distance = ½ × g × t² = ½ × 10 × (2)² = ½ × 10 × 4 = 20 meters. The object accelerates under gravity, so distance grows with the square of time. Using g ≈ 9.8 m/s² gives 19.6 m; with g ≈ 10 m/s² the answer is 20 m."
+    },
+    {
+      "id": 11,
+      "question": "In the electromagnetic spectrum, which type of radiation has the highest frequency and energy?",
+      "choices": [
+        "Radio waves",
+        "Visible light",
+        "Gamma rays",
+        "Microwaves"
+      ],
+      "answer": "Gamma rays",
+      "explanation": "The electromagnetic spectrum, ordered by increasing frequency and energy, runs: radio, microwave, infrared, visible, ultraviolet, X-rays, gamma rays. Gamma rays have the highest frequency, shortest wavelength, and greatest energy. Since E = hf, higher frequency means higher photon energy."
+    },
+    {
+      "id": 12,
+      "question": "How many moles are in 36 grams of water (H₂O), given its molar mass is 18 g/mol?",
+      "choices": [
+        "1 mole",
+        "2 moles",
+        "0.5 mole",
+        "18 moles"
+      ],
+      "answer": "2 moles",
+      "explanation": "Number of moles = mass / molar mass = 36 g / 18 g/mol = 2 moles. The mole is the chemist's counting unit (1 mole = 6.022 × 10²³ particles). Knowing molar mass lets you convert between grams and moles, essential for stoichiometry."
+    },
+    {
+      "id": 13,
+      "question": "Ohm's Law relates voltage (V), current (I), and resistance (R) as:",
+      "choices": [
+        "V = I / R",
+        "V = I × R",
+        "V = I + R",
+        "V = R / I"
+      ],
+      "answer": "V = I × R",
+      "explanation": "Ohm's Law states that the voltage across a conductor equals the current through it multiplied by its resistance: V = IR. Equivalently, I = V/R and R = V/I. It describes the linear relationship in ohmic materials, where current is directly proportional to voltage for a constant resistance."
+    },
+    {
+      "id": 14,
+      "question": "Which subatomic particle determines the identity (atomic number) of an element?",
+      "choices": [
+        "The neutron",
+        "The proton",
+        "The electron",
+        "The positron"
+      ],
+      "answer": "The proton",
+      "explanation": "The atomic number, which defines an element's identity, equals the number of protons in the nucleus. Changing the proton count changes the element. Neutrons vary among isotopes of the same element, and electrons vary in ions, but the proton number remains the unique fingerprint of each element."
+    },
+    {
+      "id": 15,
+      "question": "A wave has a frequency of 500 Hz and a wavelength of 0.68 m. What is its speed? (v = fλ)",
+      "choices": [
+        "340 m/s",
+        "500 m/s",
+        "0.68 m/s",
+        "735 m/s"
+      ],
+      "answer": "340 m/s",
+      "explanation": "Wave speed = frequency × wavelength = 500 Hz × 0.68 m = 340 m/s. This is approximately the speed of sound in air at room temperature, indicating this is a sound wave. The equation v = fλ applies to all waves, relating how fast a wave travels to its frequency and wavelength."
+    },
+    {
+      "id": 16,
+      "question": "In a balanced chemical equation 2H₂ + O₂ → 2H₂O, the coefficients ensure that:",
+      "choices": [
+        "The reaction releases the maximum energy",
+        "The number of atoms of each element is equal on both sides, obeying conservation of mass",
+        "The products are always gases",
+        "The reaction occurs instantly"
+      ],
+      "answer": "The number of atoms of each element is equal on both sides, obeying conservation of mass",
+      "explanation": "Balancing coefficients ensures equal numbers of each type of atom on both sides—here 4 H and 2 O on each side—satisfying the Law of Conservation of Mass. Coefficients also indicate mole ratios: 2 moles of hydrogen react with 1 mole of oxygen to form 2 moles of water."
+    },
+    {
+      "id": 17,
+      "question": "The principle of conservation of momentum applies to a collision when:",
+      "choices": [
+        "There is a large external friction force",
+        "No net external force acts on the system, so total momentum before equals total momentum after",
+        "Only when the objects stick together",
+        "Only for objects at rest"
+      ],
+      "answer": "No net external force acts on the system, so total momentum before equals total momentum after",
+      "explanation": "Momentum (p = mv) is conserved in a closed/isolated system where no net external force acts. In collisions, the total momentum before equals the total momentum after, regardless of whether the collision is elastic or inelastic. This principle is widely used to analyze collisions and explosions."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is a physical change rather than a chemical change?",
+      "choices": [
+        "Rusting of iron",
+        "Melting of ice into water",
+        "Burning of paper",
+        "Souring of milk"
+      ],
+      "answer": "Melting of ice into water",
+      "explanation": "Melting is a physical change: the substance (water) keeps its chemical identity, only changing state from solid to liquid. Rusting, burning, and souring are chemical changes that form new substances with different properties. A key clue to chemical change is the formation of a new substance, often with energy release, gas, or color change."
+    },
+    {
+      "id": 19,
+      "question": "According to the kinetic molecular theory, the temperature of a gas is a measure of:",
+      "choices": [
+        "The total mass of the gas",
+        "The average kinetic energy of its particles",
+        "The color of the gas",
+        "The volume of the container"
+      ],
+      "answer": "The average kinetic energy of its particles",
+      "explanation": "Kinetic molecular theory holds that gas particles are in constant random motion, and the absolute temperature is directly proportional to the average kinetic energy of those particles. Higher temperature means faster-moving particles with greater average kinetic energy. This explains gas pressure and behavior described by the gas laws."
+    },
+    {
+      "id": 20,
+      "question": "A 100 W light bulb operates for 2 hours. How much energy does it consume? (Energy = Power × time)",
+      "choices": [
+        "200 watt-hours (0.2 kWh)",
+        "50 watt-hours",
+        "100 watt-hours",
+        "200 joules"
+      ],
+      "answer": "200 watt-hours (0.2 kWh)",
+      "explanation": "Energy = power × time = 100 W × 2 h = 200 watt-hours = 0.2 kilowatt-hours (kWh). Electric utilities bill in kWh. To express in joules: 100 W × (2 × 3600 s) = 720,000 J. The watt is a unit of power (energy per unit time), while energy is power integrated over time."
+    },
+    {
+      "id": 21,
+      "question": "Isotopes of the same element differ in their number of:",
+      "choices": [
+        "Protons",
+        "Electrons",
+        "Neutrons",
+        "Valence shells"
+      ],
+      "answer": "Neutrons",
+      "explanation": "Isotopes are atoms of the same element (same number of protons) that differ in the number of neutrons, and thus have different mass numbers. For example, carbon-12 and carbon-14 both have 6 protons but 6 and 8 neutrons respectively. Their chemical behavior is nearly identical, but their masses and nuclear stability differ."
+    },
+    {
+      "id": 22,
+      "question": "Which statement about static and kinetic friction is correct?",
+      "choices": [
+        "Kinetic friction is always greater than maximum static friction",
+        "Maximum static friction is generally greater than kinetic friction for the same surfaces",
+        "Friction does not depend on the nature of the surfaces in contact",
+        "Friction acts in the same direction as motion"
+      ],
+      "answer": "Maximum static friction is generally greater than kinetic friction for the same surfaces",
+      "explanation": "For most surfaces, the maximum static friction (resisting the start of motion) is greater than the kinetic friction (acting once sliding). This is why it takes more force to start an object moving than to keep it moving. Friction opposes (acts opposite to) the direction of motion or attempted motion."
+    },
+    {
+      "id": 23,
+      "question": "When an acid reacts with a base, the general products are:",
+      "choices": [
+        "A salt and water (neutralization)",
+        "Two new acids",
+        "Only a gas",
+        "A pure metal"
+      ],
+      "answer": "A salt and water (neutralization)",
+      "explanation": "An acid-base neutralization reaction produces a salt and water, e.g., HCl + NaOH → NaCl + H₂O. The H⁺ from the acid combines with the OH⁻ from the base to form water, while the remaining ions form the salt. The resulting solution moves toward a neutral pH if the acid and base fully neutralize."
+    },
+    {
+      "id": 24,
+      "question": "The First Law of Thermodynamics is essentially a statement of:",
+      "choices": [
+        "The conservation of energy",
+        "The increase of entropy",
+        "The constancy of pressure",
+        "The conservation of momentum"
+      ],
+      "answer": "The conservation of energy",
+      "explanation": "The First Law of Thermodynamics states that energy cannot be created or destroyed, only transferred or converted. For a system, the change in internal energy equals the heat added to the system minus the work done by the system (ΔU = Q − W). The increase of entropy is the Second Law, a separate principle."
+    },
+    {
+      "id": 25,
+      "question": "Which arrangement of electrons describes the correct order of filling for the first three principal energy levels' maximum capacities?",
+      "choices": [
+        "2, 8, 8 (or up to 18)",
+        "8, 2, 2",
+        "2, 2, 2",
+        "10, 10, 10"
+      ],
+      "answer": "2, 8, 8 (or up to 18)",
+      "explanation": "Using the 2n² rule, the maximum electrons per shell are: n=1 holds 2, n=2 holds 8, n=3 holds 18 (though it commonly fills to 8 before the 4s subshell begins). The simplified Bohr filling order 2, 8, 8 is taught at the basic level. Electron configuration governs an element's chemical reactivity and periodic placement."
+    },
+    {
+      "id": 26,
+      "question": "A force of 10 N is applied to push a box 5 m across a floor in the direction of the force. How much work is done? (W = F × d)",
+      "choices": [
+        "2 J",
+        "50 J",
+        "15 J",
+        "0.5 J"
+      ],
+      "answer": "50 J",
+      "explanation": "Work = force × distance (when force is parallel to displacement) = 10 N × 5 m = 50 joules. Work is done only when a force causes displacement in the direction of (a component of) the force. If the force were perpendicular to the motion, the work would be zero."
+    },
+    {
+      "id": 27,
+      "question": "Which best describes an oxidation-reduction (redox) reaction?",
+      "choices": [
+        "A reaction involving only changes in physical state",
+        "A reaction in which electrons are transferred between species, with one substance oxidized (losing electrons) and another reduced (gaining electrons)",
+        "A reaction that only produces water",
+        "A reaction that absorbs light without chemical change"
+      ],
+      "answer": "A reaction in which electrons are transferred between species, with one substance oxidized (losing electrons) and another reduced (gaining electrons)",
+      "explanation": "In redox reactions, electrons are transferred: the species that loses electrons is oxidized (its oxidation number increases), and the species that gains electrons is reduced (its oxidation number decreases). The mnemonic OIL RIG (Oxidation Is Loss, Reduction Is Gain) helps. Redox underlies batteries, corrosion, and respiration."
+    },
+    {
+      "id": 28,
+      "question": "Why does a swimmer appear bent at the surface of a pool when viewed from above?",
+      "choices": [
+        "Because light is absorbed by water",
+        "Because of refraction—light bends as it passes between water and air due to a change in speed",
+        "Because of total internal reflection only",
+        "Because water magnifies all objects equally"
+      ],
+      "answer": "Because of refraction—light bends as it passes between water and air due to a change in speed",
+      "explanation": "Refraction is the bending of light as it crosses the boundary between media of different optical densities, because its speed changes. Light from the submerged part of the body bends as it exits the water, so the brain perceives the object as displaced or 'bent.' The same effect makes a straw look broken in a glass of water."
+    },
+    {
+      "id": 29,
+      "question": "The states of matter—solid, liquid, and gas—differ primarily in the:",
+      "choices": [
+        "Type of atoms they contain",
+        "Arrangement, spacing, and motion of their particles",
+        "Chemical formula of the substance",
+        "Color of the substance"
+      ],
+      "answer": "Arrangement, spacing, and motion of their particles",
+      "explanation": "The same substance can exist in different states depending on how its particles are arranged and how they move. Solids have tightly packed particles vibrating in fixed positions; liquids have particles close but able to flow; gases have widely spaced, fast-moving particles. The chemical identity stays the same; only the physical state changes."
+    },
+    {
+      "id": 30,
+      "question": "A concave (converging) mirror is used in car headlights because it can:",
+      "choices": [
+        "Spread light in all directions randomly",
+        "Reflect light from a source at its focal point into a parallel beam",
+        "Absorb all incoming light",
+        "Only form virtual images"
+      ],
+      "answer": "Reflect light from a source at its focal point into a parallel beam",
+      "explanation": "A concave mirror converges reflected rays. When a light source is placed at its focal point, the reflected rays emerge parallel, producing a strong directed beam—ideal for headlights, flashlights, and searchlights. Concave mirrors can form both real and virtual images depending on object distance."
+    },
+    {
+      "id": 31,
+      "question": "In the equation E = mc², which Einstein derived, the relationship expressed is that:",
+      "choices": [
+        "Energy and mass are unrelated quantities",
+        "Mass and energy are equivalent and interconvertible, with c being the speed of light",
+        "Energy decreases as mass increases",
+        "Mass can only be converted to heat"
+      ],
+      "answer": "Mass and energy are equivalent and interconvertible, with c being the speed of light",
+      "explanation": "Einstein's mass-energy equivalence, E = mc², states that mass and energy are two forms of the same thing and can be converted into each other; the conversion factor is the speed of light squared (a very large number). Even a tiny mass corresponds to enormous energy, which explains the energy released in nuclear reactions."
+    },
+    {
+      "id": 32,
+      "question": "Which gas law states that, at constant temperature, the volume of a gas is inversely proportional to its pressure?",
+      "choices": [
+        "Charles's Law",
+        "Boyle's Law",
+        "Avogadro's Law",
+        "Gay-Lussac's Law"
+      ],
+      "answer": "Boyle's Law",
+      "explanation": "Boyle's Law states that for a fixed amount of gas at constant temperature, pressure and volume are inversely proportional (P₁V₁ = P₂V₂): squeezing a gas into a smaller volume raises its pressure. Charles's Law relates volume and temperature; Gay-Lussac's relates pressure and temperature; Avogadro's relates volume and amount of gas."
+    },
+    {
+      "id": 33,
+      "question": "Heat transfer that occurs through the direct contact of particles, such as a metal spoon heating up in hot soup, is called:",
+      "choices": [
+        "Convection",
+        "Conduction",
+        "Radiation",
+        "Evaporation"
+      ],
+      "answer": "Conduction",
+      "explanation": "Conduction is heat transfer through direct contact, as faster-moving (hotter) particles collide with and transfer energy to slower (cooler) neighboring particles. Metals are good conductors. Convection transfers heat through the bulk movement of fluids (liquids/gases), and radiation transfers heat via electromagnetic waves without any medium."
+    },
+    {
+      "id": 34,
+      "question": "Which of the following best describes a catalyst in a chemical reaction?",
+      "choices": [
+        "A substance that is consumed and becomes part of the product",
+        "A substance that increases the reaction rate by lowering activation energy and is not consumed",
+        "A substance that always slows the reaction",
+        "A substance that changes the products formed"
+      ],
+      "answer": "A substance that increases the reaction rate by lowering activation energy and is not consumed",
+      "explanation": "A catalyst speeds up a reaction by providing an alternative pathway with a lower activation energy, without being consumed in the overall reaction—it can be recovered unchanged. It does not alter the position of equilibrium or the identity of the products; it only affects the rate. Enzymes are biological catalysts."
+    },
+    {
+      "id": 35,
+      "question": "An object weighs 60 N on Earth where g = 10 m/s². What is its mass?",
+      "choices": [
+        "600 kg",
+        "6 kg",
+        "60 kg",
+        "10 kg"
+      ],
+      "answer": "6 kg",
+      "explanation": "Weight is the gravitational force on an object: W = mg, so mass = weight / g = 60 N / 10 m/s² = 6 kg. Mass (amount of matter, in kg) is constant everywhere, while weight (a force, in newtons) depends on local gravity. On the Moon the same 6 kg mass would weigh less."
+    },
+    {
+      "id": 36,
+      "question": "Which type of nuclear reaction powers the Sun?",
+      "choices": [
+        "Nuclear fission, splitting heavy nuclei",
+        "Nuclear fusion, combining light nuclei (hydrogen into helium) and releasing energy",
+        "Chemical combustion of hydrogen",
+        "Radioactive alpha decay only"
+      ],
+      "answer": "Nuclear fusion, combining light nuclei (hydrogen into helium) and releasing energy",
+      "explanation": "The Sun is powered by nuclear fusion: under extreme temperature and pressure, hydrogen nuclei fuse to form helium, converting a small amount of mass into a large amount of energy (E = mc²). Fission, by contrast, splits heavy nuclei (as in nuclear power plants) and is a different process."
+    },
+    {
+      "id": 37,
+      "question": "Two charges are brought closer together. According to Coulomb's Law, the electrostatic force between them:",
+      "choices": [
+        "Decreases as they get closer",
+        "Increases as the inverse square of the distance between them",
+        "Stays the same regardless of distance",
+        "Depends only on their masses"
+      ],
+      "answer": "Increases as the inverse square of the distance between them",
+      "explanation": "Coulomb's Law states that the electrostatic force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them (F ∝ q₁q₂/r²). Halving the distance quadruples the force. It depends on charge, not mass (which governs gravity)."
+    },
+    {
+      "id": 38,
+      "question": "The chemical formula CO₂ indicates that one molecule of carbon dioxide contains:",
+      "choices": [
+        "One carbon atom and two oxygen atoms",
+        "Two carbon atoms and one oxygen atom",
+        "One carbon and one oxygen atom",
+        "Two carbon and two oxygen atoms"
+      ],
+      "answer": "One carbon atom and two oxygen atoms",
+      "explanation": "In a chemical formula, the subscript indicates the number of atoms of the element it follows; an element with no subscript is assumed to be one atom. So CO₂ has one carbon (C) atom and two oxygen (O) atoms, covalently bonded. Reading formulas correctly is essential to understanding composition and stoichiometry."
+    },
+    {
+      "id": 39,
+      "question": "A transverse wave differs from a longitudinal wave in that, in a transverse wave, the particles of the medium vibrate:",
+      "choices": [
+        "Parallel to the direction of wave travel",
+        "Perpendicular to the direction of wave travel",
+        "In circles only",
+        "Not at all"
+      ],
+      "answer": "Perpendicular to the direction of wave travel",
+      "explanation": "In a transverse wave (e.g., light, water surface waves, waves on a string), particles oscillate perpendicular to the direction of energy propagation, forming crests and troughs. In a longitudinal wave (e.g., sound), particles vibrate parallel to the wave's travel, forming compressions and rarefactions."
+    },
+    {
+      "id": 40,
+      "question": "Which element is the most abundant in the Earth's atmosphere?",
+      "choices": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "answer": "Nitrogen",
+      "explanation": "Earth's atmosphere is about 78% nitrogen (N₂) and about 21% oxygen (O₂) by volume, with argon, carbon dioxide, and trace gases making up the rest. Although oxygen is vital for respiration, nitrogen is the most abundant atmospheric gas. This composition is important in chemistry and environmental science."
+    },
+    {
+      "id": 41,
+      "question": "When a ball is thrown straight up, at the highest point of its path its velocity and acceleration are respectively:",
+      "choices": [
+        "Velocity zero, acceleration zero",
+        "Velocity zero, acceleration equal to g (downward)",
+        "Velocity maximum, acceleration zero",
+        "Velocity equal to g, acceleration zero"
+      ],
+      "answer": "Velocity zero, acceleration equal to g (downward)",
+      "explanation": "At the peak of vertical motion, the ball momentarily stops, so its velocity is zero. However, gravity acts continuously, so the acceleration remains g (about 9.8 m/s² directed downward) throughout the flight, including at the top. This is why the ball does not stay at the peak but immediately begins falling."
+    },
+    {
+      "id": 42,
+      "question": "An element with the electron configuration 2, 8, 1 would most likely:",
+      "choices": [
+        "Gain seven electrons to fill its outer shell",
+        "Lose one electron to form a +1 ion, since it has one valence electron",
+        "Be chemically inert (a noble gas)",
+        "Form four covalent bonds"
+      ],
+      "answer": "Lose one electron to form a +1 ion, since it has one valence electron",
+      "explanation": "The configuration 2, 8, 1 has one electron in the outermost shell—characteristic of a Group 1 alkali metal (this is sodium, Na). Such atoms readily lose that single valence electron to achieve a stable octet, forming a +1 cation. This explains the high reactivity of alkali metals."
+    },
+    {
+      "id": 43,
+      "question": "Which device converts mechanical energy into electrical energy using electromagnetic induction?",
+      "choices": [
+        "An electric motor",
+        "A generator (dynamo)",
+        "A transformer",
+        "A battery"
+      ],
+      "answer": "A generator (dynamo)",
+      "explanation": "A generator converts mechanical energy into electrical energy through electromagnetic induction (Faraday's Law): moving a coil in a magnetic field (or vice versa) induces a voltage. An electric motor does the reverse (electrical to mechanical). A battery converts chemical energy to electrical, and a transformer changes voltage levels."
+    },
+    {
+      "id": 44,
+      "question": "The density of an object is defined as:",
+      "choices": [
+        "Its mass multiplied by its volume",
+        "Its mass divided by its volume",
+        "Its weight divided by its area",
+        "Its volume divided by its mass"
+      ],
+      "answer": "Its mass divided by its volume",
+      "explanation": "Density = mass / volume (ρ = m/V), commonly expressed in g/cm³ or kg/m³. It measures how much mass is packed into a given volume. Objects denser than water (1 g/cm³) sink, while less dense objects float. Density is an intensive property—independent of the amount of substance."
+    },
+    {
+      "id": 45,
+      "question": "In a series electrical circuit, if one bulb burns out, the others:",
+      "choices": [
+        "Continue to operate normally",
+        "Also go out, because the single path for current is broken",
+        "Become brighter",
+        "Are unaffected because each has its own path"
+      ],
+      "answer": "Also go out, because the single path for current is broken",
+      "explanation": "In a series circuit, components share a single current path. If one component fails (breaks the circuit), current can no longer flow, so all components stop working—like old-style Christmas lights. In a parallel circuit, each branch has its own path, so one failure does not stop the others."
+    },
+    {
+      "id": 46,
+      "question": "The process by which a liquid changes to a gas at its surface, below the boiling point, is called:",
+      "choices": [
+        "Condensation",
+        "Evaporation",
+        "Sublimation",
+        "Deposition"
+      ],
+      "answer": "Evaporation",
+      "explanation": "Evaporation is the surface phase change from liquid to gas occurring at temperatures below the boiling point, when higher-energy surface molecules escape. Boiling occurs throughout the liquid at the boiling point. Condensation is gas to liquid; sublimation is solid directly to gas; deposition is gas directly to solid."
+    },
+    {
+      "id": 47,
+      "question": "Which best explains why a metal feels colder than wood at the same room temperature?",
+      "choices": [
+        "The metal is actually at a lower temperature than the wood",
+        "Metal conducts heat away from your hand faster than wood does",
+        "Wood radiates more heat than metal",
+        "Metal absorbs cold from the air"
+      ],
+      "answer": "Metal conducts heat away from your hand faster than wood does",
+      "explanation": "At the same room temperature, both objects are equally warm, but metal is a much better thermal conductor than wood. It draws heat away from your skin more rapidly, so your nerves sense a faster heat loss and the metal 'feels' colder. 'Cold' is not a substance that flows; only heat is transferred."
+    },
+    {
+      "id": 48,
+      "question": "A solution in which no more solute can dissolve at a given temperature is described as:",
+      "choices": [
+        "Unsaturated",
+        "Saturated",
+        "Dilute",
+        "Supersaturated"
+      ],
+      "answer": "Saturated",
+      "explanation": "A saturated solution contains the maximum amount of dissolved solute that can be held at a given temperature, in equilibrium with undissolved solute. An unsaturated solution can dissolve more solute. A supersaturated solution holds more than the normal maximum (an unstable state), typically achieved by careful cooling."
+    },
+    {
+      "id": 49,
+      "question": "The acceleration due to gravity on the Moon is about one-sixth that on Earth. Compared to Earth, an astronaut on the Moon would have:",
+      "choices": [
+        "Less mass and less weight",
+        "The same mass but less weight",
+        "More mass and the same weight",
+        "The same mass and the same weight"
+      ],
+      "answer": "The same mass but less weight",
+      "explanation": "Mass is the amount of matter in an object and does not change with location, so the astronaut's mass is the same on the Moon as on Earth. Weight is the gravitational force (W = mg); because the Moon's gravity is about 1/6 of Earth's, the astronaut weighs about 1/6 as much there."
+    },
+    {
+      "id": 50,
+      "question": "Which statement correctly describes the relationship between an element's reactivity and its position among the noble gases (Group 18)?",
+      "choices": [
+        "Noble gases are highly reactive because they have empty outer shells",
+        "Noble gases are generally inert because they have full (stable) valence electron shells",
+        "Noble gases readily form ionic bonds with metals",
+        "Noble gases have one valence electron each"
+      ],
+      "answer": "Noble gases are generally inert because they have full (stable) valence electron shells",
+      "explanation": "Noble gases (helium, neon, argon, etc.) have completely filled valence shells (a stable octet, or duet for helium), giving them very low chemical reactivity—they rarely form compounds. This stability of a full outer shell is the model atoms of other elements 'aim for' by gaining, losing, or sharing electrons during bonding."
+    }
+  ]
+}

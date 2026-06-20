@@ -1,0 +1,606 @@
+{
+  "module": "Values Education (EsP) Specialization",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In ethics, the branch of philosophy that studies the nature of moral judgments and the meaning of terms like 'good' and 'right' is called:",
+      "choices": [
+        "Normative ethics",
+        "Meta-ethics",
+        "Applied ethics",
+        "Descriptive ethics"
+      ],
+      "answer": "Meta-ethics",
+      "explanation": "Meta-ethics examines the nature, meaning, and foundations of ethical terms and judgments (e.g., what 'good' means, whether moral truths exist). Normative ethics seeks standards for right action (e.g., virtue, duty, consequences); applied ethics addresses specific issues (bioethics, business ethics); descriptive ethics studies what people actually believe."
+    },
+    {
+      "id": 2,
+      "question": "Immanuel Kant's deontological ethics holds that the morality of an action depends primarily on:",
+      "choices": [
+        "The consequences or outcomes it produces",
+        "Whether it conforms to duty and can be universalized as a moral law (the categorical imperative)",
+        "Whether it maximizes pleasure for the greatest number",
+        "The character traits of the person performing it"
+      ],
+      "answer": "Whether it conforms to duty and can be universalized as a moral law (the categorical imperative)",
+      "explanation": "Kant's deontology judges actions by their conformity to duty and moral principle, not their consequences. His categorical imperative requires acting only on maxims one could will to become universal laws, and treating humanity always as an end, never merely as a means. Outcomes (utilitarianism) and character (virtue ethics) are different ethical frameworks."
+    },
+    {
+      "id": 3,
+      "question": "Utilitarianism, associated with Jeremy Bentham and John Stuart Mill, evaluates the rightness of an action based on:",
+      "choices": [
+        "Adherence to religious commandments",
+        "Whether it produces the greatest happiness or good for the greatest number",
+        "The intentions behind it regardless of results",
+        "Conformity to social tradition"
+      ],
+      "answer": "Whether it produces the greatest happiness or good for the greatest number",
+      "explanation": "Utilitarianism is a consequentialist theory: an action is morally right if it maximizes overall happiness or well-being (the 'greatest good for the greatest number'). Bentham emphasized quantity of pleasure; Mill distinguished higher and lower pleasures. It contrasts with Kantian duty-based ethics, which focuses on principle rather than outcome."
+    },
+    {
+      "id": 4,
+      "question": "In Aristotle's virtue ethics, 'eudaimonia' is best translated as:",
+      "choices": [
+        "Pleasure and the absence of pain",
+        "Human flourishing or living well, achieved through the exercise of virtue",
+        "Strict obedience to the law",
+        "The accumulation of wealth"
+      ],
+      "answer": "Human flourishing or living well, achieved through the exercise of virtue",
+      "explanation": "For Aristotle, eudaimonia is the highest human good—often translated as flourishing or living/doing well—attained by habitually exercising virtue (excellence of character) in accordance with reason. It is not mere pleasure or wealth but the fulfillment of one's nature and potential over a complete life. Virtue is cultivated through practice."
+    },
+    {
+      "id": 5,
+      "question": "Aristotle described moral virtue as a 'mean' between two extremes. Courage, for example, is the mean between:",
+      "choices": [
+        "Generosity and stinginess",
+        "Cowardice (deficiency) and recklessness/rashness (excess)",
+        "Honesty and deceit",
+        "Patience and anger"
+      ],
+      "answer": "Cowardice (deficiency) and recklessness/rashness (excess)",
+      "explanation": "Aristotle's doctrine of the mean holds that virtue lies between two vices—one of deficiency and one of excess. Courage is the virtuous mean between the deficiency of cowardice (too little confidence in facing fear) and the excess of rashness (too much, ignoring real danger). The mean is relative to the person and situation, guided by practical wisdom."
+    },
+    {
+      "id": 6,
+      "question": "In Edukasyon sa Pagpapakatao, the dignity of the human person ('dignidad ng tao') is grounded primarily on the human capacity for:",
+      "choices": [
+        "Physical strength and wealth",
+        "Reason (intellect) and free will, which make the person a moral agent",
+        "Membership in a particular social class",
+        "Popularity and social status"
+      ],
+      "answer": "Reason (intellect) and free will, which make the person a moral agent",
+      "explanation": "Human dignity in EsP rests on the person's spiritual faculties—intellect (the capacity to know truth) and free will (the capacity to choose the good). These make humans moral agents responsible for their actions, distinct from other creatures, and worthy of inherent respect regardless of wealth, class, or status."
+    },
+    {
+      "id": 7,
+      "question": "According to Lawrence Kohlberg's theory of moral development, a person who behaves morally mainly to gain approval or avoid disapproval from others is at which level?",
+      "choices": [
+        "Pre-conventional level",
+        "Conventional level",
+        "Post-conventional level",
+        "Amoral level"
+      ],
+      "answer": "Conventional level",
+      "explanation": "Kohlberg's conventional level centers on social conformity: Stage 3 ('good boy/girl') seeks approval and to be seen as good, while Stage 4 emphasizes law and order. The pre-conventional level is driven by punishment and self-interest, and the post-conventional level is guided by abstract universal principles and conscience that may transcend specific laws."
+    },
+    {
+      "id": 8,
+      "question": "The Natural Law theory, articulated by St. Thomas Aquinas, teaches that:",
+      "choices": [
+        "Morality is purely a human invention with no objective basis",
+        "There is an objective moral order knowable by human reason, directing us to 'do good and avoid evil'",
+        "Whatever is natural in the sense of instinctive is automatically moral",
+        "Moral laws change completely with each culture"
+      ],
+      "answer": "There is an objective moral order knowable by human reason, directing us to 'do good and avoid evil'",
+      "explanation": "For Aquinas, natural law is humanity's rational participation in the eternal law. Its first precept is 'do good and avoid evil,' and through reason humans can grasp objective moral norms ordered to genuine human flourishing. It is not mere instinct, nor wholly relative to culture; it grounds a universal moral order accessible to reason."
+    },
+    {
+      "id": 9,
+      "question": "In moral philosophy, 'conscience' is best understood as:",
+      "choices": [
+        "An emotion of fear that prevents wrongdoing",
+        "The practical judgment of reason about the moral goodness or evil of a particular act",
+        "Society's written laws and regulations",
+        "An infallible feeling that is always correct"
+      ],
+      "answer": "The practical judgment of reason about the moral goodness or evil of a particular act",
+      "explanation": "Conscience is the act of practical reason judging the moral quality of a specific action—whether one ought to do or avoid it. It must be formed and informed by sound moral principles, since it can err. It is not merely an emotion, nor identical to civil law, and it is not automatically infallible; hence the duty to educate one's conscience."
+    },
+    {
+      "id": 10,
+      "question": "The principle that genuine human freedom is 'freedom for excellence'—the capacity to choose and do what is truly good—rather than mere 'freedom of indifference,' emphasizes that:",
+      "choices": [
+        "Freedom means doing whatever one desires without limits",
+        "Authentic freedom is fulfilled in choosing the good and is inseparable from responsibility",
+        "Freedom has no connection to morality",
+        "Freedom is the absence of all rules"
+      ],
+      "answer": "Authentic freedom is fulfilled in choosing the good and is inseparable from responsibility",
+      "explanation": "EsP distinguishes 'freedom of indifference' (mere ability to choose between options, even evil) from 'freedom for excellence'—the deeper freedom realized by habitually choosing the good and growing in virtue. Authentic freedom is not license to do anything, but is oriented toward the good and always paired with responsibility (pananagutan)."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following best describes a 'value' in the context of Values Education?",
+      "choices": [
+        "A fact that can be measured scientifically",
+        "An enduring belief or standard about what is good, desirable, or worthwhile that guides behavior",
+        "A temporary mood or feeling",
+        "A government regulation"
+      ],
+      "answer": "An enduring belief or standard about what is good, desirable, or worthwhile that guides behavior",
+      "explanation": "A value is a relatively enduring conviction about what is good, important, or worthy that orients a person's attitudes, choices, and behavior. Values (e.g., honesty, justice, respect) are normative rather than purely factual, and they are more stable than passing moods. Values Education aims to help learners clarify, internalize, and live by sound values."
+    },
+    {
+      "id": 12,
+      "question": "The Filipino value of 'pakikipagkapwa-tao' refers to:",
+      "choices": [
+        "Indifference toward others",
+        "Regard for the dignity and being of others as fellow human beings, treating them as kapwa (shared self)",
+        "Competing aggressively against others",
+        "Strict obedience to authority figures"
+      ],
+      "answer": "Regard for the dignity and being of others as fellow human beings, treating them as kapwa (shared self)",
+      "explanation": "In Sikolohiyang Pilipino (Virgilio Enriquez), 'kapwa' (shared identity/self) is the core Filipino value, and pakikipagkapwa-tao is treating others with shared humanity, fellowship, and dignity—seeing the other not as separate but as connected. It underlies many Filipino interpersonal values and is central to EsP's emphasis on right relationships."
+    },
+    {
+      "id": 13,
+      "question": "A human act, to be considered fully moral and imputable to the person, must be:",
+      "choices": [
+        "Done with knowledge and freedom (voluntariness)",
+        "Performed in public for others to witness",
+        "Always pleasant and easy to do",
+        "Approved by the majority"
+      ],
+      "answer": "Done with knowledge and freedom (voluntariness)",
+      "explanation": "A 'human act' (actus humanus)—as opposed to a mere 'act of man'—is one done knowingly (with intellect/awareness) and freely (with the will). Both knowledge and freedom are required for an act to be voluntary and thus morally imputable. Factors like ignorance, fear, or coercion can reduce or remove voluntariness and therefore moral responsibility."
+    },
+    {
+      "id": 14,
+      "question": "The determinants (sources) of the morality of a human act are traditionally identified as:",
+      "choices": [
+        "The object, the intention (end), and the circumstances",
+        "The time, the place, and the cost",
+        "The popularity, the profit, and the pleasure",
+        "The law, the police, and the courts"
+      ],
+      "answer": "The object, the intention (end), and the circumstances",
+      "explanation": "The morality of a human act is determined by three sources: the object (the act itself, what is done), the intention or end (why it is done), and the circumstances (the surrounding conditions—who, where, when, how). For an act to be morally good, all three must be good; a defect in any can render the act morally wrong."
+    },
+    {
+      "id": 15,
+      "question": "The 'common good' as a principle in social ethics refers to:",
+      "choices": [
+        "The greatest material wealth of the richest few",
+        "The sum of social conditions that allow all members of society and groups to reach their fulfillment more fully and readily",
+        "Whatever benefits the government in power",
+        "The private interest of any single individual"
+      ],
+      "answer": "The sum of social conditions that allow all members of society and groups to reach their fulfillment more fully and readily",
+      "explanation": "The common good is the totality of social conditions—justice, peace, public services, respect for rights—that enable individuals and communities to flourish and reach their fulfillment. It is oriented to all members of society, especially the vulnerable, not just a privileged few or the state's narrow interest. It is a key principle in EsP and social teaching."
+    },
+    {
+      "id": 16,
+      "question": "Ethical relativism is the view that:",
+      "choices": [
+        "There are objective moral truths valid for everyone",
+        "Moral judgments are only true or valid relative to a particular culture or individual, with no universal standard",
+        "All people share exactly the same moral code",
+        "Morality is determined by natural law"
+      ],
+      "answer": "Moral judgments are only true or valid relative to a particular culture or individual, with no universal standard",
+      "explanation": "Ethical relativism holds that what is morally right or wrong depends on (is relative to) the beliefs of a culture (cultural relativism) or individual (subjectivism), denying any universal moral standard. Critics note it struggles to condemn practices like slavery across cultures. It contrasts with moral objectivism and natural law theory."
+    },
+    {
+      "id": 17,
+      "question": "In EsP, the family is considered the:",
+      "choices": [
+        "Least important social institution",
+        "Basic and primary unit of society and the first school of values formation",
+        "Same as the government",
+        "Only an economic arrangement"
+      ],
+      "answer": "Basic and primary unit of society and the first school of values formation",
+      "explanation": "EsP and the 1987 Constitution affirm the family as the foundation of the nation and the basic social institution. It is the first school where children learn values, virtues, language, and culture through the example and guidance of parents. Strong, loving families are seen as essential to forming morally upright persons and a healthy society."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following best illustrates the virtue of 'justice'?",
+      "choices": [
+        "Acting only when it benefits oneself",
+        "The constant and firm will to give each person what is due to them",
+        "Avoiding all difficult decisions",
+        "Treating everyone identically regardless of their needs or rights"
+      ],
+      "answer": "The constant and firm will to give each person what is due to them",
+      "explanation": "Justice is classically defined as the constant and perpetual will to render to each person what is due (suum cuique). It governs right relationships—commutative justice (fair exchanges), distributive justice (fair sharing of common goods), and legal/social justice. It is one of the four cardinal virtues, along with prudence, temperance, and fortitude."
+    },
+    {
+      "id": 19,
+      "question": "The four cardinal virtues that serve as 'hinges' of the moral life are:",
+      "choices": [
+        "Faith, hope, charity, and love",
+        "Prudence, justice, fortitude (courage), and temperance",
+        "Honesty, loyalty, kindness, and patience",
+        "Wisdom, wealth, power, and fame"
+      ],
+      "answer": "Prudence, justice, fortitude (courage), and temperance",
+      "explanation": "The four cardinal virtues—prudence (right judgment about what to do), justice (giving others their due), fortitude/courage (firmness in difficulty), and temperance (moderation of desires)—are the 'hinges' (Latin cardo) on which the moral life turns. Faith, hope, and charity are the three theological virtues, a distinct category."
+    },
+    {
+      "id": 20,
+      "question": "An act done out of 'invincible ignorance'—ignorance that the person could not reasonably overcome—affects moral responsibility in that it:",
+      "choices": [
+        "Increases the person's guilt",
+        "Excuses or removes the person's moral culpability for the act",
+        "Has no effect on responsibility",
+        "Makes the act objectively good"
+      ],
+      "answer": "Excuses or removes the person's moral culpability for the act",
+      "explanation": "Invincible ignorance is ignorance a person cannot overcome despite reasonable effort; because the will cannot consent to what the intellect does not know, it removes subjective moral culpability. By contrast, vincible ignorance (which one could and should dispel) does not fully excuse and may even increase blame if deliberately maintained (affected ignorance). Note: ignorance affects culpability, not the objective goodness of the act."
+    },
+    {
+      "id": 21,
+      "question": "The principle of subsidiarity in social ethics holds that:",
+      "choices": [
+        "All decisions should be made by the highest, most central authority",
+        "Matters should be handled by the smallest or lowest competent level, with higher levels assisting only when necessary",
+        "Individuals should never cooperate with one another",
+        "Government should control every aspect of life"
+      ],
+      "answer": "Matters should be handled by the smallest or lowest competent level, with higher levels assisting only when necessary",
+      "explanation": "Subsidiarity teaches that decisions and functions should be carried out at the most immediate (local) level capable of doing so, and that larger bodies (e.g., the state) should support—not absorb or replace—smaller communities and individuals. It protects human initiative and dignity, balancing the principle of solidarity in social and political life."
+    },
+    {
+      "id": 22,
+      "question": "In Values Education, 'character' is best described as:",
+      "choices": [
+        "A role one plays in a drama",
+        "The relatively stable set of virtues, values, and moral habits that define how a person consistently acts",
+        "A person's physical appearance",
+        "A temporary emotional state"
+      ],
+      "answer": "The relatively stable set of virtues, values, and moral habits that define how a person consistently acts",
+      "explanation": "Character refers to the enduring moral qualities—virtues, values, and habits—that shape how a person habitually thinks, feels, and acts, especially in moral situations. Character is formed over time through repeated choices and practice (habituation). Character education aims to cultivate good habits and virtues so that doing good becomes 'second nature.'"
+    },
+    {
+      "id": 23,
+      "question": "Which scenario best demonstrates the value of 'integrity'?",
+      "choices": [
+        "Acting honestly only when others are watching",
+        "Consistently aligning one's actions with one's moral principles, even when no one is watching",
+        "Changing one's principles to please whoever is present",
+        "Hiding one's true intentions to gain advantage"
+      ],
+      "answer": "Consistently aligning one's actions with one's moral principles, even when no one is watching",
+      "explanation": "Integrity (from Latin integer, 'whole') is the consistency between a person's values, words, and actions—being morally whole and undivided. A person of integrity acts uprightly even without external observation or reward, because their behavior flows from internalized principle rather than fear of being caught or desire to impress."
+    },
+    {
+      "id": 24,
+      "question": "The teleological (consequentialist) approach to ethics differs from the deontological approach mainly because it:",
+      "choices": [
+        "Judges actions by their consequences/ends rather than by duty or rules alone",
+        "Ignores human happiness entirely",
+        "Holds that intentions are the only thing that matters",
+        "Rejects the existence of any moral standards"
+      ],
+      "answer": "Judges actions by their consequences/ends rather than by duty or rules alone",
+      "explanation": "Teleological ethics (from telos, 'end/goal') evaluates the morality of an action by its consequences or the ends it achieves—utilitarianism is the prime example. Deontological ethics (from deon, 'duty') evaluates actions by their conformity to moral rules or duties, regardless of outcome. The two represent contrasting answers to 'what makes an act right?'"
+    },
+    {
+      "id": 25,
+      "question": "'Solidarity' as a moral and social principle calls for:",
+      "choices": [
+        "Each person looking out only for themselves",
+        "A firm commitment to the common good, recognizing our interdependence and responsibility for one another",
+        "Competition that disregards the weak",
+        "Isolation from the wider community"
+      ],
+      "answer": "A firm commitment to the common good, recognizing our interdependence and responsibility for one another",
+      "explanation": "Solidarity is the recognition that all people are interdependent members of one human family, accompanied by a firm and persevering determination to commit oneself to the common good and the welfare of all, especially the poor and vulnerable. It moves beyond vague sympathy to active responsibility for one another, complementing subsidiarity."
+    },
+    {
+      "id": 26,
+      "question": "When teaching EsP, the pedagogical approach that emphasizes presenting moral dilemmas to stimulate students' reasoning and advance their moral development is associated with:",
+      "choices": [
+        "Rote memorization of rules",
+        "Kohlberg's moral dilemma discussion approach",
+        "Behaviorist punishment only",
+        "Ignoring moral reasoning altogether"
+      ],
+      "answer": "Kohlberg's moral dilemma discussion approach",
+      "explanation": "Drawing on Kohlberg's stages, the moral dilemma discussion method presents students with morally challenging situations (like the Heinz dilemma) and guides them to reason through competing values. Encountering reasoning slightly above their current stage promotes cognitive moral development. This active approach contrasts with mere memorization or behaviorist conditioning."
+    },
+    {
+      "id": 27,
+      "question": "The 'principle of double effect' is used to evaluate actions that have both a good and a bad effect. One of its key conditions is that:",
+      "choices": [
+        "The bad effect must be directly intended as a means to the good",
+        "The good effect must not be achieved by means of the bad effect; the bad effect is only tolerated, not intended",
+        "The action must always produce only good effects",
+        "The agent must intend the bad effect for it to be moral"
+      ],
+      "answer": "The good effect must not be achieved by means of the bad effect; the bad effect is only tolerated, not intended",
+      "explanation": "The principle of double effect permits an act with a foreseen bad side-effect if: the act itself is good or neutral, the good effect is not produced by means of the bad effect, the bad effect is not intended (only tolerated), and there is a proportionate reason. It distinguishes what is intended from what is merely foreseen and permitted."
+    },
+    {
+      "id": 28,
+      "question": "In the formation of conscience, which statement is correct?",
+      "choices": [
+        "Conscience requires no education and is always reliable",
+        "One has a moral duty to form and inform one's conscience through truth, reflection, and sound moral guidance",
+        "Conscience should be ignored in moral decisions",
+        "Conscience is simply doing whatever feels good"
+      ],
+      "answer": "One has a moral duty to form and inform one's conscience through truth, reflection, and sound moral guidance",
+      "explanation": "Because conscience can err (through ignorance or poor formation), there is a serious moral obligation to form it well—seeking truth, reflecting on moral principles, learning from wisdom traditions, and examining experience. A well-formed conscience is more likely to judge rightly. Conscience is the practical judgment of reason, not mere feeling or whim."
+    },
+    {
+      "id": 29,
+      "question": "The Filipino value of 'delicadeza' refers to:",
+      "choices": [
+        "A sense of propriety, honor, and ethical sensitivity that leads one to avoid even the appearance of wrongdoing",
+        "Indifference to ethical concerns",
+        "The pursuit of luxury and comfort",
+        "Aggressiveness in achieving goals"
+      ],
+      "answer": "A sense of propriety, honor, and ethical sensitivity that leads one to avoid even the appearance of wrongdoing",
+      "explanation": "Delicadeza is a Filipino moral value denoting a refined sense of honor, propriety, and ethical sensitivity—prompting a person, for instance, to resign or step back from a situation where there is even a perceived conflict of interest or impropriety. It reflects integrity and concern for one's good name and the trust of others."
+    },
+    {
+      "id": 30,
+      "question": "Which best expresses the relationship between rights and responsibilities (pananagutan) in EsP?",
+      "choices": [
+        "Rights exist without any corresponding responsibilities",
+        "Every right carries a corresponding duty or responsibility, both to oneself and to others",
+        "Only the government has responsibilities",
+        "Responsibilities apply only to the poor"
+      ],
+      "answer": "Every right carries a corresponding duty or responsibility, both to oneself and to others",
+      "explanation": "EsP teaches that human rights and responsibilities are inseparable: claiming a right (e.g., to free speech, education, or a clean environment) entails corresponding duties, such as respecting the same rights in others and contributing to the common good. Mature moral agency means exercising freedom responsibly, mindful of one's accountability (pananagutan)."
+    },
+    {
+      "id": 31,
+      "question": "Egoism, as an ethical theory, claims that:",
+      "choices": [
+        "One ought to act for the greatest good of the greatest number",
+        "One ought to act in one's own self-interest as the standard of morality",
+        "One ought always to sacrifice oneself for others",
+        "Morality is based on divine command alone"
+      ],
+      "answer": "One ought to act in one's own self-interest as the standard of morality",
+      "explanation": "Ethical egoism holds that the morally right action is the one that best promotes the agent's own self-interest. It contrasts with utilitarianism (the good of all) and altruism (the good of others, even at one's own expense). Critics argue egoism cannot adequately ground concern for others or resolve conflicts of interest fairly."
+    },
+    {
+      "id": 32,
+      "question": "In Values Education, 'values clarification' as an approach primarily aims to help students:",
+      "choices": [
+        "Memorize a fixed list of correct answers",
+        "Examine, understand, and become aware of their own values and the reasons behind their choices",
+        "Adopt the teacher's personal values without question",
+        "Avoid discussing values entirely"
+      ],
+      "answer": "Examine, understand, and become aware of their own values and the reasons behind their choices",
+      "explanation": "The values clarification approach (Raths, Simon) engages students in examining, choosing, prizing, and acting on their values, raising self-awareness about what they value and why. While influential, it has been critiqued for tending toward relativism; many EsP frameworks combine it with virtue and character formation that affirm objective values."
+    },
+    {
+      "id": 33,
+      "question": "The statement 'the end does not justify the means' implies that:",
+      "choices": [
+        "A good goal makes any action to achieve it morally acceptable",
+        "An intrinsically evil action cannot be made good simply because it leads to a good outcome",
+        "Goals and intentions are morally irrelevant",
+        "Only consequences matter in ethics"
+      ],
+      "answer": "An intrinsically evil action cannot be made good simply because it leads to a good outcome",
+      "explanation": "This maxim asserts that a good intention or outcome cannot morally justify using an intrinsically evil means to achieve it (e.g., one cannot steal or harm an innocent to do good). It reflects the requirement that all sources of morality—object, intention, circumstances—be good. It directly opposes the idea that consequences alone determine rightness."
+    },
+    {
+      "id": 34,
+      "question": "Which of the following is an example of 'distributive justice'?",
+      "choices": [
+        "Punishing a criminal in proportion to the crime",
+        "Fairly allocating society's benefits and burdens (such as taxes, public services, and opportunities) among its members",
+        "Honoring a private contract between two parties",
+        "Returning borrowed property to its owner"
+      ],
+      "answer": "Fairly allocating society's benefits and burdens (such as taxes, public services, and opportunities) among its members",
+      "explanation": "Distributive justice concerns the fair allocation of common goods, resources, benefits, and burdens within a community according to need, merit, and contribution. Commutative justice governs fair exchanges between individuals (contracts, returning property), and retributive/legal justice concerns proportionate punishment. Each is a distinct form of justice."
+    },
+    {
+      "id": 35,
+      "question": "The conscience of a person who sincerely believes an action is right when it is objectively wrong is described as:",
+      "choices": [
+        "A correct conscience",
+        "An erroneous (mistaken) conscience",
+        "A doubtful conscience",
+        "A lax conscience"
+      ],
+      "answer": "An erroneous (mistaken) conscience",
+      "explanation": "An erroneous conscience judges wrongly—deeming a wrong act to be right (or vice versa). If the error is due to invincible ignorance, the person may not be culpable. A doubtful conscience is uncertain about the morality of an act (one should resolve doubt before acting), and a lax conscience too easily excuses wrongdoing. These distinctions guide right moral judgment."
+    },
+    {
+      "id": 36,
+      "question": "Martin Buber's 'I-Thou' versus 'I-It' distinction in ethics emphasizes that:",
+      "choices": [
+        "People should always be treated as objects to be used",
+        "Authentic relationships treat the other as a 'Thou' (a person with dignity) rather than an 'It' (a mere object or means)",
+        "Relationships have no moral dimension",
+        "Only material things have value"
+      ],
+      "answer": "Authentic relationships treat the other as a 'Thou' (a person with dignity) rather than an 'It' (a mere object or means)",
+      "explanation": "Philosopher Martin Buber distinguished the 'I-It' relation (relating to others as objects to be used or analyzed) from the 'I-Thou' relation (encountering the other as a whole person, a subject with dignity, in genuine mutual presence). Ethical life calls for I-Thou encounters, resonating with Kant's principle of treating persons as ends, never merely as means."
+    },
+    {
+      "id": 37,
+      "question": "Which statement best captures the role of emotions in the moral life according to a balanced view in EsP?",
+      "choices": [
+        "Emotions should be completely suppressed in moral decisions",
+        "Well-ordered emotions, guided by reason, can support and motivate virtuous action",
+        "Emotions alone should determine all moral choices",
+        "Emotions have no relationship to morality"
+      ],
+      "answer": "Well-ordered emotions, guided by reason, can support and motivate virtuous action",
+      "explanation": "A balanced view holds that emotions (passions) are neither to be wholly suppressed nor allowed to rule. When ordered and integrated under the guidance of reason and will, emotions like compassion, righteous indignation, and love can strengthen and motivate virtuous action. Moral maturity involves educating the emotions, not eliminating them."
+    },
+    {
+      "id": 38,
+      "question": "The 'Golden Rule'—'Do unto others as you would have them do unto you'—reflects which ethical idea?",
+      "choices": [
+        "Reciprocity and the equal dignity of others",
+        "The pursuit of personal pleasure above all",
+        "Strict legalism without compassion",
+        "Indifference to how others are treated"
+      ],
+      "answer": "Reciprocity and the equal dignity of others",
+      "explanation": "The Golden Rule, found across many cultures and religions, expresses the principle of reciprocity and the recognition that others share the same dignity and deserve the same treatment we desire for ourselves. It encourages empathy and impartiality, and it resonates with Kant's universalizability and the value of pakikipagkapwa-tao in Filipino ethics."
+    },
+    {
+      "id": 39,
+      "question": "In EsP, work and vocation are understood to have moral significance because:",
+      "choices": [
+        "Work is merely a means to accumulate wealth",
+        "Through honest work, the person develops virtues, serves others and the common good, and participates in their own fulfillment",
+        "Work has no connection to human dignity",
+        "Only certain prestigious jobs have value"
+      ],
+      "answer": "Through honest work, the person develops virtues, serves others and the common good, and participates in their own fulfillment",
+      "explanation": "EsP presents work and one's vocation as avenues of human development and service: through diligent, honest work, a person cultivates virtues (industry, responsibility, excellence), contributes to family and society, and realizes their potential. The dignity of work does not depend on prestige; all honest labor that serves the good has moral worth."
+    },
+    {
+      "id": 40,
+      "question": "Which of the following best defines a 'moral dilemma'?",
+      "choices": [
+        "A simple choice between an obviously good and obviously evil option",
+        "A situation in which a person faces a genuine conflict between two or more moral obligations, where fulfilling one means failing another",
+        "Any decision involving money",
+        "A purely factual problem with a calculable answer"
+      ],
+      "answer": "A situation in which a person faces a genuine conflict between two or more moral obligations, where fulfilling one means failing another",
+      "explanation": "A moral dilemma arises when a person confronts competing moral duties or values such that honoring one requires neglecting another, making the choice genuinely difficult. Analyzing dilemmas develops moral reasoning. It differs from a simple right-vs-wrong choice or a merely technical/factual problem, and is a common teaching tool in ethics and EsP."
+    },
+    {
+      "id": 41,
+      "question": "The virtue of 'prudence' is often called the 'charioteer of the virtues' because it:",
+      "choices": [
+        "Is the least important virtue",
+        "Guides the other virtues by enabling right judgment about how to act well in concrete situations",
+        "Concerns only physical health",
+        "Means avoiding all action out of caution"
+      ],
+      "answer": "Guides the other virtues by enabling right judgment about how to act well in concrete situations",
+      "explanation": "Prudence (practical wisdom) is the virtue that discerns the true good in each situation and the right means to achieve it, directing the exercise of the other virtues. It is not mere timid caution but the intellectual virtue that applies moral principles correctly to particular circumstances—hence its title as the 'charioteer' (auriga virtutum) guiding the others."
+    },
+    {
+      "id": 42,
+      "question": "The concept of 'human freedom' in EsP is best balanced by which complementary concept?",
+      "choices": [
+        "Unlimited license",
+        "Responsibility and accountability for one's choices",
+        "Total external control",
+        "The absence of all consequences"
+      ],
+      "answer": "Responsibility and accountability for one's choices",
+      "explanation": "Authentic freedom is inseparable from responsibility: because humans are free, they are accountable for their choices and their consequences. EsP stresses that freedom is not license to do whatever one wishes but the capacity to choose the good, exercised responsibly toward oneself, others, and the common good. Freedom and responsibility grow together."
+    },
+    {
+      "id": 43,
+      "question": "Which of the following is the most accurate description of 'virtue' in virtue ethics?",
+      "choices": [
+        "A single good deed performed once",
+        "A stable disposition or habit of choosing and doing the good, developed through practice",
+        "An inborn trait that cannot be developed or lost",
+        "Obedience to authority regardless of reason"
+      ],
+      "answer": "A stable disposition or habit of choosing and doing the good, developed through practice",
+      "explanation": "In virtue ethics, a virtue is a firm, stable disposition (habitus) to know and do what is good, cultivated through repeated good actions until acting well becomes habitual and reliable. It is more than a one-time act and is developed (and can be weakened) over time. This emphasis on habituation underlies character formation in EsP."
+    },
+    {
+      "id": 44,
+      "question": "The principle 'bonum est faciendum, malum vitandum' ('do good and avoid evil') is significant in moral philosophy because it is:",
+      "choices": [
+        "An arbitrary rule with no rational basis",
+        "The first and most fundamental precept of the natural law, grasped by practical reason",
+        "A law unique to one culture",
+        "A purely legal statute"
+      ],
+      "answer": "The first and most fundamental precept of the natural law, grasped by practical reason",
+      "explanation": "'Do good and avoid evil' is, in Thomistic ethics, the first principle of practical reason and the foundational precept of the natural law from which more specific moral norms flow. It is self-evident to practical reason and universal, not merely a cultural convention or civil statute. It orients all moral striving toward the genuine human good."
+    },
+    {
+      "id": 45,
+      "question": "In moral decision-making, 'circumstances' can affect the morality of an act by:",
+      "choices": [
+        "Never having any influence on moral judgment",
+        "Increasing or decreasing the goodness or evil of an act, though they cannot make an intrinsically evil act good",
+        "Always making any act permissible",
+        "Determining the act's morality entirely on their own"
+      ],
+      "answer": "Increasing or decreasing the goodness or evil of an act, though they cannot make an intrinsically evil act good",
+      "explanation": "Circumstances (who, what, where, by what means, why, how, when) are one of the three sources of morality. They can increase or lessen the moral goodness or gravity of an act (e.g., stealing a large vs. small amount, harming a vulnerable person), but they cannot transform an intrinsically evil act into a good one. They modify, not single-handedly determine, morality."
+    },
+    {
+      "id": 46,
+      "question": "Which best describes 'stewardship' as a value, especially regarding the environment?",
+      "choices": [
+        "Exploiting natural resources without limit for profit",
+        "The responsible care and management of creation and resources for the good of present and future generations",
+        "Ignoring environmental concerns",
+        "Owning property purely for personal pleasure"
+      ],
+      "answer": "The responsible care and management of creation and resources for the good of present and future generations",
+      "explanation": "Stewardship is the value of caring responsibly for the gifts entrusted to us—the natural environment, resources, talents—using them wisely and sustainably for the common good and for future generations rather than exploiting them selfishly. Environmental stewardship reflects justice toward future generations and respect for creation, a growing emphasis in EsP."
+    },
+    {
+      "id": 47,
+      "question": "Carol Gilligan critiqued Kohlberg's theory by emphasizing that moral development should also include:",
+      "choices": [
+        "Only abstract principles of justice",
+        "An 'ethic of care'—relationships, compassion, and responsibility for others",
+        "Strict punishment-based reasoning",
+        "The elimination of all emotion from ethics"
+      ],
+      "answer": "An 'ethic of care'—relationships, compassion, and responsibility for others",
+      "explanation": "Carol Gilligan argued that Kohlberg's justice-centered, principle-based model reflected a more typically masculine pattern and overlooked an 'ethic of care' grounded in relationships, empathy, and responsibility for others. Her work expanded moral psychology to value caring and connectedness alongside abstract justice, enriching how EsP understands moral maturity."
+    },
+    {
+      "id": 48,
+      "question": "An action that is morally 'indifferent' in itself (neither good nor evil by its object) becomes morally good or evil based on:",
+      "choices": [
+        "Nothing; it always remains neutral",
+        "The intention and circumstances with which it is performed",
+        "Its popularity",
+        "Its economic cost"
+      ],
+      "answer": "The intention and circumstances with which it is performed",
+      "explanation": "Some concrete acts are morally indifferent by their object (e.g., walking, reading). When actually performed by a person, however, the intention (end) and circumstances give the act its moral quality—walking to help someone is good, walking to commit a crime is evil. In practice, deliberate human acts take on moral character from these added sources."
+    },
+    {
+      "id": 49,
+      "question": "The Filipino concept 'hiya,' when understood positively in moral formation, functions as:",
+      "choices": [
+        "A purely negative emotion to be eliminated",
+        "A sense of propriety and moral shame that can restrain wrongdoing and uphold one's dignity and that of others",
+        "An excuse to avoid all social interaction",
+        "A justification for dishonesty"
+      ],
+      "answer": "A sense of propriety and moral shame that can restrain wrongdoing and uphold one's dignity and that of others",
+      "explanation": "While 'hiya' can be misused (e.g., excessive timidity), in Sikolohiyang Pilipino and EsP it has a positive dimension as a sense of propriety, decency, and moral shame that helps a person act appropriately, avoid disgraceful conduct, and respect the dignity of self and others. Properly understood, it supports virtuous behavior within Filipino culture."
+    },
+    {
+      "id": 50,
+      "question": "The ultimate goal of Edukasyon sa Pagpapakatao as a learning area is to develop a learner who is:",
+      "choices": [
+        "Knowledgeable in facts but indifferent to moral values",
+        "A 'makatao, makakalikasan, makabansa, at maka-Diyos' person—ethically and morally upright, making sound moral decisions for the common good",
+        "Focused solely on personal economic success",
+        "Obedient without understanding"
+      ],
+      "answer": "A 'makatao, makakalikasan, makabansa, at maka-Diyos' person—ethically and morally upright, making sound moral decisions for the common good",
+      "explanation": "EsP in the K-12 curriculum aims to form learners with 'makatao, makakalikasan, makabansa, at maka-Diyos' values—ethically upright persons capable of making rational, autonomous moral decisions, exercising responsible freedom, and contributing to the common good. Its goal is holistic character and values formation (pagpapakatao), not mere accumulation of facts or blind obedience."
+    }
+  ]
+}
