@@ -64,6 +64,8 @@ export async function POST(req: NextRequest) {
     gened: 'let-first-100-shared',
     bundle: 'let-first-100-shared',
     'pnle-mastery': 'pnle-first-100-shared',
+    'cle-mastery': 'cle-first-100-shared',
+    'agri-mastery': 'agri-first-100-shared',
   };
 
   // Count this buyer exactly once, only after the order is truly delivered.

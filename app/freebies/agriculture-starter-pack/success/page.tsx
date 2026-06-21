@@ -47,6 +47,22 @@ export default function AgricultureFreebieSuccessPage() {
           </p>
         </div>
 
+        {/* Mastery upsell */}
+        <div className="bg-[#0f1629] border border-green-400/20 rounded-2xl p-5 mb-8 text-left">
+          <p className="text-green-400 font-semibold text-sm mb-2">✅ Want the full Agriculture Mastery System?</p>
+          <p className="text-gray-400 text-sm mb-3">
+            The complete Agriculture (ALE) Mastery System is available now — 300+ questions across all 6
+            subjects with full rationales, a 100-item mock exam, and an 8-week study schedule. Launch
+            price is ₱149 for the first 100 buyers (₱249 after).
+          </p>
+          <Link
+            href="/premium/agri-mastery"
+            className="inline-block bg-green-500 hover:bg-green-400 text-white font-bold px-5 py-2.5 rounded-xl text-sm transition-colors"
+          >
+            See the Agriculture Mastery System →
+          </Link>
+        </div>
+
         {/* Keep practicing */}
         <div className="bg-[#0f1629] border border-green-400/20 rounded-2xl p-5 mb-8 text-left">
           <p className="text-green-400 font-semibold text-sm mb-2">Keep practicing — free</p>

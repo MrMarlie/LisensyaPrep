@@ -25,6 +25,8 @@ const PRODUCT_LABELS: Record<string, string> = {
   gened: '📗 Gen Ed',
   bundle: '🎁 Bundle',
   'pnle-mastery': '🏥 PNLE',
+  'cle-mastery': '⚖️ CLE',
+  'agri-mastery': '🌾 Agriculture',
 };
 
 const STATUS_STYLES: Record<string, string> = {

@@ -34,6 +34,7 @@ const PREMIUM_LINKS = [
   { href: '/premium/cse-subprof-mastery', label: '📋 CSE SubProf Mastery', badge: 'SOON' },
   { href: '/premium/pnle-mastery', label: '🏥 PNLE Mastery', badge: 'NEW' },
   { href: '/premium/cle-mastery', label: '⚖️ CLE Criminology Mastery', badge: 'NEW' },
+  { href: '/premium/agri-mastery', label: '🌾 Agriculture (ALE) Mastery', badge: 'NEW' },
 ];
 const FREEBIE_LINKS = [
   { href: '/freebies/let-profed-starter-pack', label: '📘 LET ProfEd Starter Pack' },
