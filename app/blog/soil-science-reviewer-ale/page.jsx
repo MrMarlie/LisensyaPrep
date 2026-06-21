@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'Soil Science Reviewer for ALE Philippines 2026 (Deep Dive Guide)',
@@ -402,6 +403,7 @@ export default function SoilScienceReviewerAlePage() {
 
         </div>
       </div>
+    <ArticlePopupTriggers type="agri" />
     </div>
   );
 }

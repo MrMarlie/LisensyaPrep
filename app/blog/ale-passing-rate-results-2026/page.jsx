@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'ALE Passing Rate and Results 2026 Philippines PRC Official Data',
@@ -287,6 +288,7 @@ export default function AlePassingRateResults2026Page() {
 
         </div>
       </div>
+    <ArticlePopupTriggers type="agri" />
     </div>
   );
 }

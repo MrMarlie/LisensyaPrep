@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 const _aleMeta = buildMetadata({
   title: 'How to Pass the Agriculture Board Exam (2026 Proven Strategy Philippines)',
@@ -357,6 +358,7 @@ export default function HowToPassAgricultureBoardExamPage() {
 
         </div>
       </div>
+    <ArticlePopupTriggers type="agri" />
     </div>
   );
 }

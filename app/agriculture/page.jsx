@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { PAGE_SEO } from '@/lib/seo';
 import { MODULE_INFO } from '@/lib/quizEngine';
+import AgricultureFreebieCTA from '@/components/AgricultureFreebieCTA';
 
 export const metadata = PAGE_SEO.agriculture;
 
@@ -109,6 +110,11 @@ export default function AgriculturePage() {
             </Link>
           ))}
         </div>
+      </section>
+
+      {/* Free Starter Pack CTA */}
+      <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <AgricultureFreebieCTA />
       </section>
 
       {/* ALE Study Articles */}

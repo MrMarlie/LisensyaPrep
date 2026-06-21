@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import SmartFreebiePopup from '@/components/SmartFreebiePopup';
 
 type Props = {
-  type: 'profed' | 'gened' | 'auto' | 'pnle' | 'cle';
+  type: 'profed' | 'gened' | 'auto' | 'pnle' | 'cle' | 'agri';
 };
 
 export default function ArticlePopupTriggers({ type }: Props) {

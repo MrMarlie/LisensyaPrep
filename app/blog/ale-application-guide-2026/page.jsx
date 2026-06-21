@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'How to Apply for ALE via PRC LERIS 2026 Step by Step Guide Philippines',
@@ -295,6 +296,7 @@ export default function AleApplicationGuide2026Page() {
 
         </div>
       </div>
+    <ArticlePopupTriggers type="agri" />
     </div>
   );
 }

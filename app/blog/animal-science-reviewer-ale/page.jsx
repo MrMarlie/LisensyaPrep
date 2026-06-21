@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'Animal Science Reviewer for ALE Philippines 2026 (Agriculture Board Exam)',
@@ -429,6 +430,7 @@ export default function AnimalScienceReviewerAlePage() {
 
         </div>
       </div>
+    <ArticlePopupTriggers type="agri" />
     </div>
   );
 }

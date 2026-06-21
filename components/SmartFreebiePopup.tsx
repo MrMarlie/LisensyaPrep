@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 type Props = {
-  type: 'profed' | 'gened' | 'auto' | 'pnle' | 'cle';
+  type: 'profed' | 'gened' | 'auto' | 'pnle' | 'cle' | 'agri';
   trigger?: string;
   onClose: () => void;
 };
@@ -17,13 +17,16 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
 
   const isPNLE = type === 'pnle';
   const isCLE = type === 'cle';
+  const isAgri = type === 'agri';
   // Packs delivered by a dedicated freebie endpoint (not the profed/gened popup endpoint)
-  const isDirectPack = isPNLE || isCLE;
+  const isDirectPack = isPNLE || isCLE || isAgri;
   const packLabel = isPNLE
     ? 'PNLE Nursing Starter Pack'
     : isCLE
       ? 'CLE Criminology Starter Pack'
-      : selectedPack === 'profed' ? 'LET ProfEd Starter Pack' : 'LET Gen Ed Starter Pack';
+      : isAgri
+        ? 'Agriculture (ALE) Starter Pack'
+        : selectedPack === 'profed' ? 'LET ProfEd Starter Pack' : 'LET Gen Ed Starter Pack';
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -35,7 +38,9 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
       if (isDirectPack) {
         const endpoint = isPNLE
           ? '/api/freebies/pnle-nursing-starter-pack'
-          : '/api/freebies/cle-starter-pack';
+          : isCLE
+            ? '/api/freebies/cle-starter-pack'
+            : '/api/freebies/agriculture-starter-pack';
         res = await fetch(endpoint, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -112,7 +117,9 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
                   ? '30 PNLE questions with full rationales — delivered to your email instantly.'
                   : isCLE
                     ? '30 CLE criminology questions with full rationales — delivered to your email instantly.'
-                    : '30 LET questions with full rationales — delivered to your email instantly.'}
+                    : isAgri
+                      ? '30 agriculture (ALE) questions with full rationales — delivered to your email instantly.'
+                      : '30 LET questions with full rationales — delivered to your email instantly.'}
               </p>
             </div>
 
