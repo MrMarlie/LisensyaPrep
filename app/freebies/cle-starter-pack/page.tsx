@@ -51,8 +51,8 @@ const FAQ = [
     a: 'You need a general weighted average of at least 75%, with no individual subject falling below 60%. Failing even one subject below 60% means you do not pass — even if your average is above 75%.',
   },
   {
-    q: 'When does the full CLE Mastery System launch?',
-    a: 'It\'s currently in development. Sign up above to join the waitlist and get first access plus an early-bird discount at launch.',
+    q: 'Is there a full CLE Mastery System?',
+    a: 'Yes — the CLE Criminology Mastery System is now available: 300+ questions across all 6 subjects with full rationales, a 100-item mock exam, an 8-week study schedule, and cheat sheets. Launch price is ₱149 for the first 100 buyers (₱249 after).',
   },
 ];
 
@@ -146,29 +146,33 @@ export default function CLEStarterPackPage() {
           <h2 className="text-white font-extrabold text-lg mb-3">Why We&apos;re Giving This Away Free</h2>
           <p className="text-gray-300 text-sm leading-relaxed">
             We believe quality Criminology board exam prep should be accessible to every aspiring Filipino
-            criminologist. The full CLE Mastery System is in development — and waitlist members get an
-            early-bird discount at launch. This Starter Pack is our way of saying salamat in advance.
+            criminologist. If this Starter Pack helps you, the full CLE Mastery System (300+ questions) goes
+            even deeper — and it&apos;s available now at a launch price. This Starter Pack is our way of saying
+            salamat in advance.
           </p>
         </section>
 
-        {/* Coming soon teaser */}
+        {/* Mastery upsell */}
         <section className="mt-6 bg-gradient-to-br from-yellow-900/20 to-amber-900/10 border border-yellow-400/20 rounded-2xl p-6">
           <div className="flex items-center gap-2 mb-3">
-            <span className="bg-yellow-400/20 text-yellow-400 text-xs font-extrabold px-2 py-1 rounded-full uppercase tracking-wide">🚀 Coming Soon</span>
+            <span className="bg-yellow-400/20 text-yellow-400 text-xs font-extrabold px-2 py-1 rounded-full uppercase tracking-wide">✅ Now Available</span>
           </div>
           <h2 className="text-yellow-400 font-extrabold text-lg mb-3">
-            CLE Mastery System — In Development
+            The Full CLE Criminology Mastery System
           </h2>
           <ul className="space-y-2 text-gray-300 text-sm mb-4">
-            <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Hundreds of questions across all 6 CLE subjects</li>
-            <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Full-length Mock Exams with rationales</li>
+            <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> 300+ questions across all 6 CLE subjects</li>
+            <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Full 100-item Mock Exam with rationales</li>
             <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Dactyloscopy &amp; criminology theory quick-reference sheets</li>
             <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> 8-Week Study Schedule</li>
-            <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Early-bird discount for waitlist members</li>
+            <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Launch price ₱149 for the first 100 buyers (₱249 after)</li>
           </ul>
-          <p className="text-gray-500 text-xs">
-            Sign up above to join the waitlist and get first access + early-bird discount.
-          </p>
+          <Link
+            href="/premium/cle-mastery"
+            className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-5 py-2.5 rounded-xl text-sm transition-colors"
+          >
+            See the CLE Mastery System →
+          </Link>
         </section>
 
         {/* Second form */}

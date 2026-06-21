@@ -72,7 +72,7 @@ export async function POST(req: NextRequest) {
       const { error: dbError } = await supabase.from('waitlist').insert({
         name: cleanName,
         email: cleanEmail,
-        tags: ['cle-starter-pack', 'waitlist-cle-mastery'],
+        tags: ['cle-starter-pack', 'cle-mastery-lead'],
         source: source || 'direct',
         ip_address: ip,
       });
@@ -83,7 +83,7 @@ export async function POST(req: NextRequest) {
       }
     } else {
       const existingTags: string[] = existing.tags ?? [];
-      const newTags = Array.from(new Set([...existingTags, 'cle-starter-pack', 'waitlist-cle-mastery']));
+      const newTags = Array.from(new Set([...existingTags, 'cle-starter-pack', 'cle-mastery-lead']));
       await supabase
         .from('waitlist')
         .update({ tags: newTags, updated_at: new Date().toISOString() })
@@ -131,9 +131,10 @@ export async function POST(req: NextRequest) {
                 <li>Share this PDF with fellow CLE takers!</li>
               </ol>
 
-              <div style="background:#1e3a5f;border-radius:10px;padding:16px;margin:0 0 24px;">
-                <p style="color:#93c5fd;font-weight:700;margin:0 0 6px;">You&apos;re on the CLE Mastery Waitlist!</p>
-                <p style="margin:0;font-size:13px;line-height:1.6;">We&apos;re building the full CLE Criminology Mastery System (hundreds of questions across all 6 subjects). You&apos;ll be the first to know when it launches — with an early-bird discount.</p>
+              <div style="background:#1a150a;border:1px solid #facc1540;border-radius:10px;padding:16px;margin:0 0 24px;">
+                <p style="color:#facc15;font-weight:700;margin:0 0 6px;">⚖️ CLE Mastery System is LIVE!</p>
+                <p style="margin:0 0 10px;font-size:13px;line-height:1.6;">Liked the sample? The full CLE Criminology Mastery System has 300+ questions across all 6 subjects with full rationales, a 100-item mock exam, and an 8-week study schedule. Get it now while the ₱149 launch price (first 100 buyers) lasts.</p>
+                <a href="https://lisensyaprep.com/premium/cle-mastery" style="display:inline-block;background:#facc15;color:#111827;font-weight:700;padding:10px 20px;border-radius:8px;text-decoration:none;font-size:14px;">Get CLE Mastery — ₱149 →</a>
               </div>
 
               <div style="background:#1a2035;border:1px solid #facc1540;border-radius:10px;padding:16px;margin:0 0 24px;">

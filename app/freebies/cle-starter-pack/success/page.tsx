@@ -43,18 +43,24 @@ export default function CLEFreebieSuccessPage() {
           <p className="text-white font-semibold text-sm mb-1">📌 Quick tip</p>
           <p className="text-gray-400 text-sm">
             Add <span className="text-yellow-400 font-mono">lisensyaprep@gmail.com</span> to your
-            contacts so future emails (like the CLE Mastery System launch) don&apos;t go to spam.
+            contacts so future emails (like CLE tips and updates) don&apos;t go to spam.
           </p>
         </div>
 
-        {/* Coming soon */}
+        {/* Mastery upsell */}
         <div className="bg-[#0f1629] border border-yellow-400/20 rounded-2xl p-5 mb-8 text-left">
-          <p className="text-yellow-400 font-semibold text-sm mb-2">🚀 You&apos;re on the CLE Mastery waitlist</p>
-          <p className="text-gray-400 text-sm">
-            The full CLE Criminology Mastery System is in development — hundreds of questions across all
-            6 subjects with mock exams. As a waitlist member, you&apos;ll get first access and an early-bird
-            discount at launch.
+          <p className="text-yellow-400 font-semibold text-sm mb-2">✅ Want the full CLE Mastery System?</p>
+          <p className="text-gray-400 text-sm mb-3">
+            The complete CLE Criminology Mastery System is available now — 300+ questions across all 6
+            subjects with full rationales, a 100-item mock exam, and an 8-week study schedule. Launch
+            price is ₱149 for the first 100 buyers (₱249 after).
           </p>
+          <Link
+            href="/premium/cle-mastery"
+            className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-5 py-2.5 rounded-xl text-sm transition-colors"
+          >
+            See the CLE Mastery System →
+          </Link>
         </div>
 
         {/* Keep practicing */}
