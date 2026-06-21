@@ -62,6 +62,7 @@ export default function QuizEngine({ initialState, moduleInfo }) {
   // Determine which freebie pack to suggest based on quiz subject
   const quizPopupType = (() => {
     if (moduleInfo?.examId === 'nursing') return 'pnle';
+    if (moduleInfo?.examId === 'criminology') return 'cle';
     if (moduleInfo?.examId !== 'education') return null;
     const id = moduleInfo?.id || '';
     if (id.includes('general_education') || id.includes('gened')) return 'gened';

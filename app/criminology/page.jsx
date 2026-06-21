@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { PAGE_SEO } from '@/lib/seo';
 import { MODULE_INFO } from '@/lib/quizEngine';
+import CLEFreebieCTA from '@/components/CLEFreebieCTA';
 
 export const metadata = PAGE_SEO.criminology;
 
@@ -108,6 +109,11 @@ export default function CriminologyPage() {
             </Link>
           ))}
         </div>
+      </section>
+
+      {/* Free Starter Pack CTA */}
+      <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <CLEFreebieCTA />
       </section>
 
       {/* CLE Study Articles */}

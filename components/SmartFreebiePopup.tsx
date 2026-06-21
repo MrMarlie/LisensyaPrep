@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 type Props = {
-  type: 'profed' | 'gened' | 'auto' | 'pnle';
+  type: 'profed' | 'gened' | 'auto' | 'pnle' | 'cle';
   trigger?: string;
   onClose: () => void;
 };
@@ -16,9 +16,14 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
   const [errorMsg, setErrorMsg] = useState('');
 
   const isPNLE = type === 'pnle';
+  const isCLE = type === 'cle';
+  // Packs delivered by a dedicated freebie endpoint (not the profed/gened popup endpoint)
+  const isDirectPack = isPNLE || isCLE;
   const packLabel = isPNLE
     ? 'PNLE Nursing Starter Pack'
-    : selectedPack === 'profed' ? 'LET ProfEd Starter Pack' : 'LET Gen Ed Starter Pack';
+    : isCLE
+      ? 'CLE Criminology Starter Pack'
+      : selectedPack === 'profed' ? 'LET ProfEd Starter Pack' : 'LET Gen Ed Starter Pack';
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -27,8 +32,11 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
     setStatus('loading');
     try {
       let res: Response;
-      if (isPNLE) {
-        res = await fetch('/api/freebies/pnle-nursing-starter-pack', {
+      if (isDirectPack) {
+        const endpoint = isPNLE
+          ? '/api/freebies/pnle-nursing-starter-pack'
+          : '/api/freebies/cle-starter-pack';
+        res = await fetch(endpoint, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ name: name.trim(), email: email.trim(), source: trigger }),
@@ -43,7 +51,7 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Signup failed.');
 
-      if (!isPNLE) {
+      if (!isDirectPack) {
         try {
           const existing = localStorage.getItem('lp_starter_pack_downloaded');
           if (!existing) {
@@ -102,7 +110,9 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
               <p className="text-gray-400 text-sm mt-1">
                 {isPNLE
                   ? '30 PNLE questions with full rationales — delivered to your email instantly.'
-                  : '30 LET questions with full rationales — delivered to your email instantly.'}
+                  : isCLE
+                    ? '30 CLE criminology questions with full rationales — delivered to your email instantly.'
+                    : '30 LET questions with full rationales — delivered to your email instantly.'}
               </p>
             </div>
 

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
@@ -406,6 +407,7 @@ export default function WhatIsTheClePage() {
 
         </div>
       </div>
+      <ArticlePopupTriggers type="cle" />
     </div>
   );
 }

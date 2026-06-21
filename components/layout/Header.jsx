@@ -40,6 +40,7 @@ const FREEBIE_LINKS = [
   { href: '/freebies/cse-pro-starter-pack', label: '📊 CSE Pro Starter Pack', isNew: true },
   { href: '/freebies/cse-subprof-starter-pack', label: '📋 CSE SubProf Starter Pack', isNew: true },
   { href: '/freebies/pnle-nursing-starter-pack', label: '🏥 PNLE Nursing Starter Pack', isNew: true },
+  { href: '/freebies/cle-starter-pack', label: '⚖️ CLE Criminology Starter Pack', isNew: true },
 ];
 
 export default function Header() {

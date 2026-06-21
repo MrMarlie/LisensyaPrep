@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
@@ -331,6 +332,7 @@ export default function CriminalSociologyPage() {
 
         </div>
       </div>
+      <ArticlePopupTriggers type="cle" />
     </div>
   );
 }
