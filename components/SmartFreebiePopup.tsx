@@ -28,6 +28,13 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
         ? 'Agriculture (ALE) Starter Pack'
         : selectedPack === 'profed' ? 'LET ProfEd Starter Pack' : 'LET Gen Ed Starter Pack';
 
+  // Per-profession accent colors (PNLE pink, Agriculture green, others yellow).
+  const accent = isPNLE
+    ? { btn: 'bg-pink-500 hover:bg-pink-400 text-white', focus: 'focus:border-pink-400/50' }
+    : isAgri
+      ? { btn: 'bg-green-500 hover:bg-green-400 text-white', focus: 'focus:border-green-400/50' }
+      : { btn: 'bg-yellow-400 hover:bg-yellow-300 text-gray-900', focus: 'focus:border-yellow-400/50' };
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!name.trim() || !email.trim()) return;
@@ -102,7 +109,7 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
             <p className="text-gray-500 text-xs mt-2">Check spam if you don&apos;t see it within a few minutes.</p>
             <button
               onClick={onClose}
-              className={`mt-4 ${isPNLE ? 'bg-pink-500 hover:bg-pink-400 text-white' : 'bg-yellow-400 hover:bg-yellow-300 text-gray-900'} font-bold px-6 py-2.5 rounded-xl text-sm transition-colors`}
+              className={`mt-4 ${accent.btn} font-bold px-6 py-2.5 rounded-xl text-sm transition-colors`}
             >
               Continue Studying →
             </button>
@@ -149,7 +156,7 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
-                className={`w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm placeholder-gray-500 focus:outline-none ${isPNLE ? 'focus:border-pink-400/50' : 'focus:border-yellow-400/50'} transition-colors`}
+                className={`w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm placeholder-gray-500 focus:outline-none ${accent.focus} transition-colors`}
                 style={{ fontSize: '16px' }}
               />
               <input
@@ -158,7 +165,7 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className={`w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm placeholder-gray-500 focus:outline-none ${isPNLE ? 'focus:border-pink-400/50' : 'focus:border-yellow-400/50'} transition-colors`}
+                className={`w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm placeholder-gray-500 focus:outline-none ${accent.focus} transition-colors`}
                 style={{ fontSize: '16px' }}
               />
               {status === 'error' && (
@@ -167,7 +174,7 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
               <button
                 type="submit"
                 disabled={status === 'loading'}
-                className={`w-full ${isPNLE ? 'bg-pink-500 hover:bg-pink-400 text-white' : 'bg-yellow-400 hover:bg-yellow-300 text-gray-900'} disabled:opacity-60 font-extrabold py-3 rounded-xl text-sm transition-colors`}
+                className={`w-full ${accent.btn} disabled:opacity-60 font-extrabold py-3 rounded-xl text-sm transition-colors`}
               >
                 {status === 'loading' ? 'Sending…' : `Get the ${packLabel} →`}
               </button>
