@@ -100,7 +100,18 @@ export async function POST(req: NextRequest) {
     }
   }
 
+  // Profession-specific sign-off for the confirmation email, keyed by product.
+  const signOffMap: Record<string, string> = {
+    profed: 'future teacher',
+    gened: 'future teacher',
+    bundle: 'future teacher',
+    'pnle-mastery': 'future nurse',
+    'cle-mastery': 'future criminologist',
+    'agri-mastery': 'future agriculturist',
+  };
+
   function buildThankYouHtml(name: string): string {
+    const signOff = signOffMap[product] || 'future professional';
     return `
       <div style="font-family:Arial,sans-serif;max-width:560px;margin:0 auto;">
         <div style="background:#080d1b;padding:24px;border-radius:12px 12px 0 0;text-align:center;">
@@ -110,7 +121,7 @@ export async function POST(req: NextRequest) {
           <h1 style="color:#ffffff;font-size:22px;margin-top:0;">Hi ${name},</h1>
           <p>Your payment has been verified — thank you for your order! 🎉</p>
           <p>We&apos;ll be reaching out to you shortly to share your materials. Please keep an eye on your inbox (and check your spam folder just in case).</p>
-          <p>We&apos;re rooting for you, future teacher. 💪</p>
+          <p>We&apos;re rooting for you, ${signOff}. 💪</p>
           <hr style="border-color:#ffffff22;margin:24px 0;">
           <p style="margin-bottom:0;">LisensyaPrep Team<br>
             <a href="https://lisensyaprep.com" style="color:#facc15;">lisensyaprep.com</a> |
