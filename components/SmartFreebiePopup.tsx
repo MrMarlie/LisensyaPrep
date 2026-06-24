@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { markPackDownloaded } from '@/lib/popupOffers';
 
 type Props = {
   type: 'profed' | 'gened' | 'auto' | 'pnle' | 'cle' | 'agri';
@@ -63,16 +64,10 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Signup failed.');
 
-      if (!isDirectPack) {
-        try {
-          const existing = localStorage.getItem('lp_starter_pack_downloaded');
-          if (!existing) {
-            localStorage.setItem('lp_starter_pack_downloaded', selectedPack);
-          } else if (existing !== 'both' && existing !== selectedPack) {
-            localStorage.setItem('lp_starter_pack_downloaded', 'both');
-          }
-        } catch { /* ignore */ }
-      }
+      // Record the download so we never resend a starter pack — afterwards the
+      // user sees the Mastery upsell popup instead. Direct packs (pnle/cle/agri)
+      // store their own type; the LET selector stores the chosen pack.
+      markPackDownloaded(isDirectPack ? type : selectedPack);
 
       setStatus('success');
     } catch (err: unknown) {

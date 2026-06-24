@@ -14,6 +14,8 @@ import AffiliateBanner from '@/components/AffiliateBanner';
 import AffiliateBannerCompact from '@/components/AffiliateBannerCompact';
 import { getQuizProducts, getScoreMessage } from '@/lib/affiliateLinks';
 import SmartFreebiePopup from '@/components/SmartFreebiePopup';
+import MasteryUpsellPopup from '@/components/MasteryUpsellPopup';
+import { decidePopup } from '@/lib/popupOffers';
 
 export default function QuizEngine({ initialState, moduleInfo }) {
   const router = useRouter();
@@ -25,7 +27,7 @@ export default function QuizEngine({ initialState, moduleInfo }) {
   const [showExplanation, setShowExplanation] = useState(false);
   const [playerName, setPlayerName] = useState('You');
   const [showSetupModal, setShowSetupModal] = useState(true);
-  const [showFreebiePopup, setShowFreebiePopup] = useState(false);
+  const [popupDecision, setPopupDecision] = useState(null);
 
   useEffect(() => {
     if (user && authProfile?.display_name) {
@@ -97,16 +99,15 @@ export default function QuizEngine({ initialState, moduleInfo }) {
       setShowExplanation(true);
       setState(newState);
 
-      // Show freebie popup after 5th answered question (once per session)
+      // After the 5th answered question (once per session), show the starter-pack
+      // popup — or, if the user already grabbed a pack, the Mastery upsell instead.
       if (quizPopupType && newState.answers.length === 5) {
         try {
           if (!sessionStorage.getItem('lp_popup_shown')) {
-            const alreadyBought = localStorage.getItem('lp_mastery_purchased');
-            const downloaded = localStorage.getItem('lp_starter_pack_downloaded');
-            const alreadyHas = quizPopupType !== 'auto' && (downloaded === quizPopupType || downloaded === 'both');
-            if (!alreadyBought && !alreadyHas) {
+            const decision = decidePopup(quizPopupType);
+            if (decision.kind !== 'none') {
               sessionStorage.setItem('lp_popup_shown', '1');
-              setShowFreebiePopup(true);
+              setPopupDecision(decision);
             }
           }
         } catch { /* ignore storage errors */ }
@@ -318,11 +319,18 @@ export default function QuizEngine({ initialState, moduleInfo }) {
         )}
       </div>
 
-      {showFreebiePopup && quizPopupType && (
+      {popupDecision?.kind === 'freebie' && quizPopupType && (
         <SmartFreebiePopup
           type={quizPopupType}
           trigger="quiz"
-          onClose={() => setShowFreebiePopup(false)}
+          onClose={() => setPopupDecision(null)}
+        />
+      )}
+      {popupDecision?.kind === 'mastery' && (
+        <MasteryUpsellPopup
+          offer={popupDecision.offer}
+          trigger="quiz"
+          onClose={() => setPopupDecision(null)}
         />
       )}
     </div>

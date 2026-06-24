@@ -2,31 +2,31 @@
 
 import { useState, useEffect, useRef } from 'react';
 import SmartFreebiePopup from '@/components/SmartFreebiePopup';
+import MasteryUpsellPopup from '@/components/MasteryUpsellPopup';
+import { decidePopup, type PopupType, type PopupDecision } from '@/lib/popupOffers';
 
 type Props = {
-  type: 'profed' | 'gened' | 'auto' | 'pnle' | 'cle' | 'agri';
+  type: PopupType;
 };
 
 export default function ArticlePopupTriggers({ type }: Props) {
-  const [showPopup, setShowPopup] = useState(false);
+  const [decision, setDecision] = useState<PopupDecision | null>(null);
   const [activeTrigger, setActiveTrigger] = useState<string>('scroll');
   const shownRef = useRef(false);
 
-  function shouldShow(): boolean {
-    if (shownRef.current) return false;
-    try {
-      if (sessionStorage.getItem('lp_popup_shown')) return false;
-      if (localStorage.getItem('lp_mastery_purchased')) return false;
-    } catch { /* ignore */ }
-    return true;
-  }
-
   function triggerPopup(trigger: string) {
-    if (!shouldShow()) return;
+    if (shownRef.current) return;
+    try {
+      if (sessionStorage.getItem('lp_popup_shown')) return;
+    } catch { /* ignore */ }
+
+    const d = decidePopup(type);
+    if (d.kind === 'none') return; // already a buyer (or no offer) — show nothing
+
     shownRef.current = true;
     try { sessionStorage.setItem('lp_popup_shown', '1'); } catch { /* ignore */ }
     setActiveTrigger(trigger);
-    setShowPopup(true);
+    setDecision(d);
   }
 
   useEffect(() => {
@@ -71,13 +71,23 @@ export default function ArticlePopupTriggers({ type }: Props) {
     };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  if (!showPopup) return null;
+  if (!decision) return null;
+
+  if (decision.kind === 'mastery') {
+    return (
+      <MasteryUpsellPopup
+        offer={decision.offer}
+        trigger={activeTrigger}
+        onClose={() => setDecision(null)}
+      />
+    );
+  }
 
   return (
     <SmartFreebiePopup
       type={type}
       trigger={activeTrigger}
-      onClose={() => setShowPopup(false)}
+      onClose={() => setDecision(null)}
     />
   );
 }
