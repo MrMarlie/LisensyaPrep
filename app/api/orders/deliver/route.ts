@@ -66,6 +66,7 @@ export async function POST(req: NextRequest) {
     'pnle-mastery': 'pnle-first-100-shared',
     'cle-mastery': 'cle-first-100-shared',
     'agri-mastery': 'agri-first-100-shared',
+    'mtle-mastery': 'mtle-first-100-shared',
   };
 
   // Count this buyer exactly once, only after the order is truly delivered.
@@ -108,6 +109,7 @@ export async function POST(req: NextRequest) {
     'pnle-mastery': 'future nurse',
     'cle-mastery': 'future criminologist',
     'agri-mastery': 'future agriculturist',
+    'mtle-mastery': 'future medical technologist',
   };
 
   function buildThankYouHtml(name: string): string {
