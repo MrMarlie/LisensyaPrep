@@ -1,4 +1,4 @@
-export type PopupType = 'profed' | 'gened' | 'auto' | 'pnle' | 'cle' | 'agri';
+export type PopupType = 'profed' | 'gened' | 'auto' | 'pnle' | 'cle' | 'agri' | 'cse';
 
 export type MasteryOffer = {
   name: string;
@@ -85,6 +85,36 @@ export const MASTERY_OFFERS: Record<PopupType, MasteryOffer | null> = {
     ],
     accent: 'green',
   },
+  // CSE has two products (Pro + SubProf). The default offer here is the
+  // Professional one; decidePopup() swaps in the SubProf offer when the user
+  // grabbed the SubProf starter pack. See CSE_PRO_OFFER / CSE_SUBPROF_OFFER.
+  cse: {
+    name: 'CSE Professional Mastery System',
+    url: '/premium/cse-pro-mastery',
+    price: '₱199',
+    tagline: 'You’ve got the free questions. Ready for the full reviewer?',
+    bullets: [
+      '550+ CSE Professional questions with full rationales',
+      'All 4 sections incl. Analytical Ability + 170-item mock',
+      'Mobile-friendly PDF — pay via GCash',
+    ],
+    accent: 'yellow',
+  },
+};
+
+const CSE_PRO_OFFER = MASTERY_OFFERS.cse as MasteryOffer;
+
+const CSE_SUBPROF_OFFER: MasteryOffer = {
+  name: 'CSE SubProfessional Mastery System',
+  url: '/premium/cse-subprof-mastery',
+  price: '₱149',
+  tagline: 'You’ve got the free questions. Ready for the full reviewer?',
+  bullets: [
+    '465+ CSE SubProfessional questions with full rationales',
+    'All 4 sections incl. Clerical Ability + 165-item mock',
+    'Mobile-friendly PDF — pay via GCash',
+  ],
+  accent: 'yellow',
 };
 
 const PACK_KEY = 'lp_starter_pack_downloaded';
@@ -103,6 +133,19 @@ export function hasPurchasedMastery(): boolean {
     return !!localStorage.getItem(MASTERY_KEY);
   } catch {
     return false;
+  }
+}
+
+// Read the set of starter packs the user has downloaded. The legacy 'both'
+// value maps back to the original LET packs.
+function getDownloadedPacks(): string[] {
+  try {
+    const raw = localStorage.getItem(PACK_KEY);
+    if (!raw) return [];
+    if (raw === 'both') return ['profed', 'gened'];
+    return raw.split(',').filter(Boolean);
+  } catch {
+    return [];
   }
 }
 
@@ -134,6 +177,15 @@ export type PopupDecision =
 export function decidePopup(type: PopupType): PopupDecision {
   if (hasPurchasedMastery()) return { kind: 'none' };
   if (hasDownloadedAnyPack()) {
+    // CSE has two levels — upsell the Mastery that matches the pack they grabbed
+    // (default to Professional when ambiguous or both were downloaded).
+    if (type === 'cse') {
+      const packs = getDownloadedPacks();
+      const offer = packs.includes('cse-subprof') && !packs.includes('cse-pro')
+        ? CSE_SUBPROF_OFFER
+        : CSE_PRO_OFFER;
+      return { kind: 'mastery', offer };
+    }
     const offer = MASTERY_OFFERS[type];
     return offer ? { kind: 'mastery', offer } : { kind: 'none' };
   }

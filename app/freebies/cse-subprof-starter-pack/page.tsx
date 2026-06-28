@@ -152,26 +152,26 @@ export default function CSESubProfStarterPackPage() {
           </ul>
         </section>
 
-        {/* Coming soon teaser */}
+        {/* Upgrade teaser */}
         <section className="mt-6 bg-gradient-to-br from-yellow-900/20 to-amber-900/10 border border-yellow-400/20 rounded-2xl p-6">
           <div className="flex items-center gap-2 mb-3">
-            <span className="bg-yellow-400/20 text-yellow-400 text-xs font-extrabold px-2 py-1 rounded-full uppercase tracking-wide">🚀 Coming Soon</span>
+            <span className="bg-yellow-400/20 text-yellow-400 text-xs font-extrabold px-2 py-1 rounded-full uppercase tracking-wide">⭐ Now Available</span>
           </div>
           <h2 className="text-yellow-400 font-extrabold text-lg mb-3">
-            CSE SubProfessional Mastery System — In Development
+            CSE SubProfessional Mastery System — Get the Full Reviewer
           </h2>
           <ul className="space-y-2 text-gray-300 text-sm mb-4">
             <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> 465+ questions across all 4 sections</li>
             <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Full 165-item Mock Exam with rationales</li>
             <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Clerical Ability complete coverage</li>
             <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> 8-Week Study Schedule</li>
-            <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Launch price: ₱199 (waitlist members save ₱49)</li>
+            <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Launch price: ₱149 (₱199 after first 100 buyers)</li>
           </ul>
           <Link
             href="/premium/cse-subprof-mastery"
             className="inline-block text-yellow-400 hover:text-yellow-300 font-bold text-sm underline underline-offset-2 transition-colors"
           >
-            Join the waitlist → See what&apos;s coming
+            See the full Mastery System →
           </Link>
         </section>
 

@@ -1,265 +1,357 @@
-import { buildMetadata } from '@/lib/seo';
-import CSEWaitlistCTA from '@/components/CSEWaitlistCTA';
 import Link from 'next/link';
+import Script from 'next/script';
+import { buildMetadata } from '@/lib/seo';
+import CSEPromoBar from '@/components/CSEPromoBar';
 
 export const metadata = buildMetadata({
-  title: 'CSE Professional Mastery System 2026 — Coming Soon | LisensyaPrep',
+  title: 'CSE Professional Mastery System 2026 — Premium Reviewer | LisensyaPrep',
   description:
-    '550+ CSE Professional questions with full rationales. Coming soon. Join the waitlist for early-bird discount and launch bonuses.',
+    '550+ CSE Professional questions with full rationales across Verbal, Numerical, Analytical, and General Information. Built for the 2026 CSC TOS. ₱199 launch special. Pay via GCash.',
   path: '/premium/cse-pro-mastery',
 });
+
+const PRODUCT_SCHEMA = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'CSE Professional Mastery System 2026',
+  description:
+    'Premium Civil Service Exam (Professional) reviewer with 550+ questions and full rationales across Verbal Ability, Numerical Ability, Analytical Ability, and General Information, built for the 2026 CSC Table of Specifications.',
+  brand: { '@type': 'Brand', name: 'LisensyaPrep' },
+  offers: {
+    '@type': 'Offer',
+    price: '199',
+    priceCurrency: 'PHP',
+    availability: 'https://schema.org/InStock',
+    url: 'https://lisensyaprep.com/premium/cse-pro-mastery/checkout',
+  },
+};
+
+const FEATURES = [
+  { icon: '📝', title: '550+ Questions with Full Rationales', desc: 'Every answer explains WHY it\'s right AND why the others are wrong — the way the CSC actually tests.' },
+  { icon: '🏛️', title: 'All 4 Professional Sections', desc: 'Verbal Ability, Numerical Ability, Analytical Ability, and General Information — nothing skipped.' },
+  { icon: '📊', title: 'Analytical Ability — The Hardest Section', desc: 'Word association, logic, syllogisms, assumptions, and data interpretation: full coverage of the section that fails most takers.' },
+  { icon: '📈', title: 'Full 170-Item Mock Exam', desc: 'Matches the actual Professional exam length. Take it under timed conditions before exam day.' },
+  { icon: '📅', title: 'Built-in 8-Week Study Schedule', desc: 'Day-by-day plan covering all 4 sections. Know exactly what to study each week up to exam day.' },
+  { icon: '📌', title: 'RA 6713 + Constitution Cheat Sheets', desc: 'The Code of Conduct (all 8 norms) and the 1987 Constitution essentials — the most-tested General Information in one place.' },
+  { icon: '🧠', title: 'Memory Hooks & Test-Taking Strategies', desc: 'How to actually remember rules and solve fast — no calculator allowed, so we teach the mental math too.' },
+  { icon: '📱', title: 'Mobile-Friendly Format', desc: 'Read on your phone during your commute or break. Designed for small screens first.' },
+];
 
 const COVERAGE = [
   {
     emoji: '📘',
-    section: 'Verbal Ability',
-    count: '~100 questions',
+    subject: 'Verbal Ability',
+    count: '~140 questions',
     topics: ['Grammar and Correct Usage', 'Vocabulary', 'Paragraph Organization', 'Reading Comprehension (English + Filipino)'],
   },
   {
     emoji: '📙',
-    section: 'Numerical Ability',
-    count: '~80 questions',
-    topics: ['Basic Operations', 'Word Problems (no calculator allowed!)', 'Percentage, ratio, proportion', 'Time, distance, work problems'],
+    subject: 'Numerical Ability',
+    count: '~130 questions',
+    topics: ['Basic Operations (no calculator!)', 'Word Problems', 'Percentage, ratio, proportion', 'Time, distance, work problems'],
   },
   {
     emoji: '📊',
-    section: 'Analytical Ability',
-    count: '~100 questions',
-    topics: ['Word Association (analogies)', 'Logic (syllogisms, assumptions, conclusions)', 'Data Interpretation', 'The HARDEST section of CSE Pro'],
+    subject: 'Analytical Ability — The HARDEST Section',
+    count: '~150 questions',
+    topics: ['Word Association (analogies)', 'Logic (syllogisms, assumptions, conclusions)', 'Data Interpretation', 'Number and letter series'],
   },
   {
     emoji: '📔',
-    section: 'General Information',
-    count: '~100 questions',
+    subject: 'General Information',
+    count: '~130 questions',
     topics: ['1987 Philippine Constitution', 'RA 6713 (Code of Conduct) — heavily tested', 'Peace and Human Rights Issues', 'Environmental Management and Protection'],
   },
 ];
 
-const BONUSES = [
-  'Full 170-item Mock Exam (matches actual exam length)',
-  '8-Week Study Schedule',
-  'Constitution Quick Reference Cheat Sheet',
-  'RA 6713 Full Breakdown (all 8 norms explained)',
-  'Test-Taking Strategies',
-  'Exam Day Checklist',
-  '~130 pages of curated content',
+const COMPARISON = [
+  { feature: 'Price', free: 'Free', book: '₱300–₱1,500', ours: '₱199 launch / ₱249 regular' },
+  { feature: 'Covers all 4 Professional sections', free: 'Partial', book: 'Partial', ours: 'Yes' },
+  { feature: 'Full Analytical Ability coverage', free: 'No', book: 'Partial', ours: 'Yes' },
+  { feature: 'Rationales for every answer', free: 'No', book: 'Partial', ours: 'Yes' },
+  { feature: 'Mobile-optimized', free: 'No', book: 'No', ours: 'Yes' },
+  { feature: '8-week study schedule', free: 'No', book: 'No', ours: 'Yes' },
+  { feature: '170-item mock exam included', free: 'No', book: 'No', ours: 'Yes' },
+  { feature: 'Instant delivery', free: 'No', book: '3–7 days', ours: 'Same-day' },
 ];
 
-const PRICING = [
-  { label: 'Standard Launch Price', price: '₱249', note: 'New buyers — when available' },
-  { label: 'Waitlist Early-Bird', price: '₱200', note: 'Available only to waitlist members for first 7 days after launch', highlight: true },
+const FAQS = [
+  { q: 'What format is the reviewer in?', a: 'PDF, optimized for mobile viewing. Works on any device — phone, tablet, laptop, or desktop.' },
+  { q: 'Why is the Professional exam so hard to pass?', a: 'The CSE Professional has only a 10–12% pass rate. Most takers fail because they don\'t prepare properly for Analytical Ability and the no-calculator Numerical section. This system targets exactly those weak points.' },
+  { q: 'Does this cover Analytical Ability?', a: 'Yes — fully. Analytical Ability is the section that fails most takers: word association, logic, syllogisms, assumptions, and data interpretation. We give it complete treatment with rationales for every item.' },
+  { q: 'Can I print it?', a: 'Yes, you can print it for personal use. Sharing or reselling the file is strictly prohibited.' },
+  { q: 'What\'s your refund policy?', a: 'As this is a digital product, all sales are final. No refunds will be issued once the file has been delivered.' },
+  { q: 'When do I get the reviewer?', a: 'Within 12 hours of payment confirmation (usually the same hour during 8 AM–10 PM).' },
+  { q: 'I want to take SubProfessional, not Professional.', a: 'We have a separate CSE SubProfessional Mastery System — see the link at the bottom of this page.' },
+  { q: 'I already downloaded the free Starter Pack — is the Mastery System different?', a: 'Yes, completely. The free Starter Pack has 30 sample questions. The Mastery System has 550+ questions across all 4 sections, plus a 170-item mock exam, 8-week study schedule, cheat sheets, and more.' },
 ];
 
-const FAQ = [
-  {
-    q: 'When exactly will it launch?',
-    a: 'Estimated Q3–Q4 2026. We\'re building it carefully — each of the 550+ questions gets a full rationale.',
-  },
-  {
-    q: 'Will it be as comprehensive as your LET Mastery Systems?',
-    a: 'Yes. Same format, same depth, same quality standard.',
-  },
-  {
-    q: 'Can I get a free sample now?',
-    a: 'YES! Download our free CSE Pro Starter Pack (30 questions) right now while you wait for the full system.',
-  },
-  {
-    q: 'Can I pre-order or pay in advance?',
-    a: 'No, we don\'t accept pre-orders. Join the waitlist and you\'ll be notified the moment it launches with your exclusive early-bird discount.',
-  },
-  {
-    q: 'I want to take SubProfessional, not Professional.',
-    a: 'We\'re building a separate CSE SubProf Mastery System too! Check the link below.',
-  },
-  {
-    q: 'How will I receive it?',
-    a: 'Same secure Google Drive delivery as our LET products — within 12 hours of payment confirmation via GCash (when it launches).',
-  },
-];
-
-export default function CSEProMasteryComingSoonPage() {
+export default function CSEProMasteryPage() {
   return (
-    <div className="min-h-screen py-10">
-      <div className="max-w-2xl mx-auto px-4 sm:px-6">
+    <>
+      <Script id="schema-cse-pro-mastery" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(PRODUCT_SCHEMA) }} />
+      <div className="min-h-screen">
 
-        {/* COMING SOON badge — prominent at top */}
-        <div className="text-center mb-8">
-          <div className="inline-flex flex-col items-center gap-2 bg-yellow-400/10 border border-yellow-400/30 rounded-2xl px-6 py-4 mb-6">
-            <span className="text-yellow-400 font-extrabold text-xl tracking-wide">🚀 COMING SOON</span>
-            <span className="text-gray-300 text-sm font-semibold">In Development — Launching Q3–Q4 2026</span>
+        {/* ── Hero ── */}
+        <section className="bg-gradient-to-b from-[#0a0f1e] to-[#080d1b] pt-14 pb-16 px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <span className="inline-block text-xs font-bold px-3 py-1 rounded-full bg-yellow-400/10 text-yellow-400 uppercase tracking-widest mb-5">
+              Premium Reviewer — Launch Special
+            </span>
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-5">
+              Beat the 10% Pass Rate of the CSE Professional Exam.
+            </h1>
+            <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
+              Most takers fail Analytical Ability and the no-calculator Numerical section. Free reviewers give you answer keys with no explanations. We built something different — 550+ questions across all 4 Professional sections, every single one with a full rationale.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <Link
+                href="/premium/cse-pro-mastery/checkout"
+                className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-extrabold px-8 py-4 rounded-xl text-lg transition-colors shadow-lg"
+              >
+                GET YOUR COPY — ₱199
+              </Link>
+              <a href="#whats-inside" className="border border-white/20 hover:border-white/40 text-gray-300 hover:text-white font-semibold px-8 py-4 rounded-xl text-lg transition-colors">
+                See What&apos;s Inside ↓
+              </a>
+            </div>
+            <p className="text-gray-500 text-sm mt-4">📊 Launch price — ₱249 after first 100 buyers</p>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-white leading-tight mb-3">
-            CSE Professional Mastery System 2026
-          </h1>
-          <p className="text-gray-400 text-lg mb-2">
-            550+ Questions with Full Rationales
-          </p>
-          <p className="text-gray-500 text-sm">
-            Not available yet. Join the waitlist to be first in line at launch.
-          </p>
-        </div>
-
-        {/* Top waitlist form */}
-        <div id="waitlist-form">
-          <CSEWaitlistCTA variant="cse-pro-mastery" />
-        </div>
-
-        {/* What's coming */}
-        <section className="mt-8 bg-[#0f1629] border border-white/10 rounded-2xl p-6">
-          <h2 className="text-white font-extrabold text-lg mb-3">Why We&apos;re Building This</h2>
-          <p className="text-gray-300 text-sm leading-relaxed mb-3">
-            Following the success of our LET Mastery Systems, we&apos;re building the same depth and quality for the
-            Civil Service Professional Exam.
-          </p>
-          <p className="text-gray-300 text-sm leading-relaxed">
-            The CSE Professional has only a <strong className="text-yellow-400">10–12% pass rate</strong>. Most takers fail because they don&apos;t have
-            proper preparation. We&apos;re going to change that.
-          </p>
         </section>
 
-        {/* Coverage breakdown */}
-        <section className="mt-6 bg-[#0f1629] border border-white/10 rounded-2xl p-6">
-          <h2 className="text-white font-extrabold text-lg mb-5">What It Will Cover (Per 2026 CSC TOS)</h2>
-          <div className="space-y-5">
-            {COVERAGE.map(({ emoji, section, count, topics }) => (
-              <div key={section}>
-                <div className="flex items-center gap-2 mb-2">
-                  <span>{emoji}</span>
-                  <span className="text-white font-bold text-sm">{section}</span>
-                  <span className="text-gray-500 text-xs ml-auto">{count}</span>
+        <CSEPromoBar level="pro" variant="full" />
+
+        {/* ── Product headline ── */}
+        <section className="py-14 px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-3">
+              The LisensyaPrep CSE Professional Mastery System
+            </h2>
+            <p className="text-yellow-400 font-bold text-xl mb-10">
+              550+ questions. All 4 sections. Every one with a full rationale.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left">
+              {FEATURES.map(({ icon, title, desc }) => (
+                <div key={title} className="bg-[#0f1629] border border-white/10 rounded-xl p-5 flex gap-4">
+                  <span className="text-2xl flex-shrink-0">{icon}</span>
+                  <div>
+                    <p className="text-white font-bold text-sm mb-1">{title}</p>
+                    <p className="text-gray-400 text-sm leading-relaxed">{desc}</p>
+                  </div>
                 </div>
-                <ul className="pl-6 space-y-1">
-                  {topics.map((t) => (
-                    <li key={t} className="text-gray-400 text-sm flex items-start gap-2">
-                      <span className="text-gray-600 flex-shrink-0">•</span>
-                      <span>{t}</span>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Comparison table ── */}
+        <section className="py-14 px-4 bg-[#0a0f1e]">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white text-center mb-8">
+              Compare for Yourself
+            </h2>
+            <div className="overflow-x-auto rounded-xl border border-white/10">
+              <table className="w-full bg-[#0a1022]">
+                <thead>
+                  <tr className="border-b border-white/10">
+                    <th className="px-4 py-3 text-left text-gray-400 text-sm font-semibold">Feature</th>
+                    <th className="px-4 py-3 text-center text-gray-400 text-sm font-semibold">Free PDFs Online</th>
+                    <th className="px-4 py-3 text-center text-gray-400 text-sm font-semibold">Physical Books</th>
+                    <th className="px-4 py-3 text-center text-yellow-400 text-sm font-bold">LisensyaPrep</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {COMPARISON.map((row, i) => (
+                    <tr key={row.feature} className={`border-b border-white/5 ${i % 2 === 0 ? '' : 'bg-white/[0.02]'}`}>
+                      <td className="px-4 py-3 text-gray-300 text-sm font-medium">{row.feature}</td>
+                      <td className="px-4 py-3 text-center text-sm">
+                        <span className={row.free === 'No' ? 'text-red-400' : 'text-gray-300'}>{row.free}</span>
+                      </td>
+                      <td className="px-4 py-3 text-center text-gray-300 text-sm">{row.book}</td>
+                      <td className="px-4 py-3 text-center text-sm font-bold text-yellow-400">{row.ours}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* ── CTA ── */}
+        <section className="py-16 px-4 bg-yellow-400">
+          <div className="max-w-2xl mx-auto text-center">
+            <p className="text-gray-900 font-extrabold text-3xl sm:text-4xl mb-2">
+              📊 LAUNCH SPECIAL
+            </p>
+            <p className="text-gray-900 font-bold text-xl mb-6">
+              First 100 Buyers Pay Only ₱199
+            </p>
+            <p className="text-gray-900/80 mb-8">
+              After the first 100 buyers, the price returns to <strong>₱249</strong>. Pay via GCash — no credit card needed.
+            </p>
+            <Link
+              href="/premium/cse-pro-mastery/checkout"
+              className="inline-block bg-[#080d1b] hover:bg-[#0f1629] text-yellow-400 font-extrabold px-10 py-5 rounded-xl text-xl transition-colors shadow-xl"
+            >
+              GET YOUR COPY NOW →
+            </Link>
+            <p className="text-gray-900/70 text-sm mt-4">PDF delivered to your email</p>
+          </div>
+        </section>
+
+        {/* ── Who it's for ── */}
+        <section className="py-14 px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="grid sm:grid-cols-2 gap-6">
+              <div className="bg-[#0f1629] border border-white/10 rounded-2xl p-6">
+                <p className="text-white font-extrabold text-lg mb-4">✅ This is for you if…</p>
+                <ul className="space-y-2">
+                  {[
+                    'College graduate targeting second-level government positions',
+                    'Retaker who keeps getting stuck on Analytical Ability',
+                    'Self-reviewer who needs one trusted source, not 50 random PDFs',
+                    'Someone who wants full rationales — not just answer keys',
+                    'Working professional who needs an efficient, structured plan',
+                  ].map((item) => (
+                    <li key={item} className="flex gap-2 text-gray-300 text-sm">
+                      <span className="text-yellow-400 flex-shrink-0">•</span>
+                      <span>{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
-            ))}
+              <div className="bg-[#0f1629] border border-white/10 rounded-2xl p-6">
+                <p className="text-white font-extrabold text-lg mb-4">❌ This is NOT for you if…</p>
+                <ul className="space-y-2">
+                  {[
+                    'You only want a question dump with no rationales',
+                    'You\'re taking the SubProfessional exam (get the SubProf version instead)',
+                    'You\'re not seriously preparing for the CSE',
+                  ].map((item) => (
+                    <li key={item} className="flex gap-2 text-gray-400 text-sm">
+                      <span className="text-red-400 flex-shrink-0">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
 
-        {/* Bonuses */}
-        <section className="mt-6 bg-[#0f1629] border border-white/10 rounded-2xl p-6">
-          <h2 className="text-white font-extrabold text-lg mb-4">Plus These Bonuses</h2>
-          <ul className="space-y-2.5">
-            {BONUSES.map((item) => (
-              <li key={item} className="flex items-start gap-2.5 text-gray-300 text-sm">
-                <span className="text-yellow-400 font-bold flex-shrink-0 mt-0.5">✓</span>
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        {/* Why wait for us */}
-        <section className="mt-6 bg-[#0f1629] border border-white/10 rounded-2xl p-6">
-          <h2 className="text-white font-extrabold text-lg mb-3">Why Wait for Us?</h2>
-          <p className="text-gray-300 text-sm leading-relaxed mb-3">
-            Most free CSE reviewers online give you questions without explanations. You memorize answers,
-            then fail when the real exam asks slightly different questions.
-          </p>
-          <p className="text-gray-300 text-sm leading-relaxed">
-            Our Mastery System will explain the <strong className="text-white">WHY</strong> behind every answer — the same approach
-            buyers loved in our LET Mastery Systems.
-          </p>
-        </section>
-
-        {/* Pricing — not buyable yet */}
-        <section className="mt-6 bg-[#0f1629] border border-white/10 rounded-2xl p-6">
-          <h2 className="text-white font-extrabold text-lg mb-1">Pricing at Launch</h2>
-          <p className="text-gray-500 text-xs mb-4">Not available for purchase now — join the waitlist below</p>
-          <div className="space-y-3">
-            {PRICING.map(({ label, price, note, highlight }) => (
-              <div
-                key={label}
-                className={`rounded-xl p-4 ${highlight ? 'bg-yellow-400/10 border border-yellow-400/30' : 'bg-white/5 border border-white/10'}`}
-              >
-                <div className="flex items-center justify-between mb-1">
-                  <span className={`text-sm font-bold ${highlight ? 'text-yellow-400' : 'text-white'}`}>{label}</span>
-                  <span className={`text-lg font-extrabold ${highlight ? 'text-yellow-400' : 'text-white'}`}>{price}</span>
+        {/* ── Coverage breakdown ── */}
+        <section id="whats-inside" className="py-14 px-4 bg-[#0a0f1e]">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-2 text-center">
+              Section Coverage
+            </h2>
+            <p className="text-gray-400 text-center mb-8">550+ questions distributed across all 4 Professional sections (per 2026 CSC TOS)</p>
+            <div className="space-y-4">
+              {COVERAGE.map(({ emoji, subject, count, topics }) => (
+                <div key={subject} className="bg-[#0f1629] border border-white/10 rounded-xl p-5">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span>{emoji}</span>
+                    <span className="text-white font-semibold text-sm">{subject}</span>
+                    <span className="text-yellow-400 text-xs ml-auto font-bold">{count}</span>
+                  </div>
+                  <ul className="space-y-1">
+                    {topics.map((t) => (
+                      <li key={t} className="text-gray-500 text-xs flex items-start gap-1.5">
+                        <span className="text-yellow-400/50 mt-0.5">•</span>
+                        <span>{t}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-                <p className="text-gray-500 text-xs">{note}</p>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </section>
 
-        {/* Waitlist perks */}
-        <section className="mt-6 bg-gradient-to-br from-yellow-900/20 to-amber-900/10 border border-yellow-400/20 rounded-2xl p-6">
-          <h2 className="text-yellow-400 font-extrabold text-lg mb-4">Waitlist Perks</h2>
-          <ul className="space-y-2.5">
-            <li className="flex items-start gap-2.5 text-gray-300 text-sm"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> First to know when it launches</li>
-            <li className="flex items-start gap-2.5 text-gray-300 text-sm"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Early-bird discount (₱49 OFF for first 7 days)</li>
-            <li className="flex items-start gap-2.5 text-gray-300 text-sm"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Exclusive launch-week bonus: Free RA 6713 Cheat Sheet</li>
-            <li className="flex items-start gap-2.5 text-gray-300 text-sm"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Direct email notification — no missing the launch</li>
-          </ul>
-        </section>
-
-        {/* While you wait — free starter pack */}
-        <section className="mt-6 bg-[#0f1629] border border-green-400/20 rounded-2xl p-6">
-          <p className="text-green-400 font-semibold text-sm mb-2">🎁 While You Wait</p>
-          <h2 className="text-white font-extrabold text-lg mb-2">Get the Free CSE Pro Starter Pack Now</h2>
-          <p className="text-gray-400 text-sm mb-4">
-            Download our free 30-question CSE Professional Starter Pack to preview the quality
-            while you wait for the full Mastery System.
-          </p>
-          <Link
-            href="/freebies/cse-pro-starter-pack"
-            className="inline-block bg-green-400 hover:bg-green-300 text-gray-900 font-bold px-5 py-2.5 rounded-xl text-sm transition-colors"
-          >
-            Download Free Starter Pack →
-          </Link>
-        </section>
-
-        {/* Bottom waitlist form */}
-        <div className="mt-8">
-          <p className="text-center text-gray-400 text-sm mb-2">Join the waitlist — get early-bird discount at launch.</p>
-          <CSEWaitlistCTA variant="cse-pro-mastery" />
-        </div>
-
-        {/* FAQ */}
-        <section className="mt-6">
-          <h2 className="text-white font-extrabold text-lg mb-4">Frequently Asked Questions</h2>
-          <div className="space-y-4">
-            {FAQ.map(({ q, a }) => (
-              <div key={q} className="bg-[#0f1629] border border-white/10 rounded-xl p-5">
-                <p className="text-white font-semibold text-sm mb-2">{q}</p>
-                <p className="text-gray-400 text-sm leading-relaxed">{a}</p>
-              </div>
-            ))}
+        {/* ── How it works ── */}
+        <section className="py-14 px-4">
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-4">
+              How You&apos;ll Get Your Reviewer
+            </h2>
+            <p className="text-gray-400 mb-10">
+              We use direct GCash so 100% of Filipino buyers can access the product — no credit card, no rejected transactions.
+            </p>
+            <div className="grid sm:grid-cols-4 gap-4">
+              {[
+                { step: '1', text: 'Click "Get Your Copy Now"' },
+                { step: '2', text: 'Send ₱199 via GCash' },
+                { step: '3', text: 'Fill the confirmation form' },
+                { step: '4', text: 'Get PDF in your email within 12 hours' },
+              ].map(({ step, text }) => (
+                <div key={step} className="bg-[#0f1629] border border-white/10 rounded-xl p-4">
+                  <div className="w-8 h-8 bg-yellow-400 text-gray-900 font-extrabold rounded-full flex items-center justify-center mx-auto mb-3 text-sm">
+                    {step}
+                  </div>
+                  <p className="text-gray-300 text-sm leading-snug">{text}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
-        {/* SubProf cross-link */}
-        <section className="mt-6 bg-[#0f1629] border border-white/10 rounded-2xl p-5 text-center">
-          <p className="text-gray-400 text-sm mb-2">Taking SubProfessional instead?</p>
-          <Link
-            href="/premium/cse-subprof-mastery"
-            className="text-yellow-400 hover:text-yellow-300 underline text-sm font-semibold"
-          >
-            See the CSE SubProfessional Mastery System (Coming Soon) →
-          </Link>
+        {/* ── FAQ ── */}
+        <section className="py-14 px-4 bg-[#0a0f1e]">
+          <div className="max-w-2xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-8 text-center">
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-4">
+              {FAQS.map(({ q, a }) => (
+                <div key={q} className="bg-[#0f1629] border border-white/10 rounded-xl p-5">
+                  <p className="text-white font-bold text-sm mb-2">{q}</p>
+                  <p className="text-gray-400 text-sm leading-relaxed">{a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Final CTA ── */}
+        <section className="py-16 px-4">
+          <div className="max-w-xl mx-auto text-center">
+            <p className="text-gray-400 text-sm mb-2">Still on the fence?</p>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-6">
+              Get your copy today and start studying smarter.
+            </h2>
+            <Link
+              href="/premium/cse-pro-mastery/checkout"
+              className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-extrabold px-10 py-5 rounded-xl text-xl transition-colors"
+            >
+              GET YOUR COPY — ₱199
+            </Link>
+            <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+              <span>📱 Pay via GCash</span>
+              <span>📩 PDF delivered to email</span>
+              <span>✅ All 4 Professional sections</span>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Cross-links ── */}
+        <section className="py-8 px-4 border-t border-white/10">
+          <div className="max-w-xl mx-auto text-center space-y-3">
+            <p className="text-gray-400 text-sm">
+              Taking the SubProfessional exam instead?{' '}
+              <Link href="/premium/cse-subprof-mastery" className="text-yellow-400 hover:text-yellow-300 underline underline-offset-2 transition-colors">
+                See the CSE SubProfessional Mastery System →
+              </Link>
+            </p>
+            <p className="text-gray-500 text-sm">
+              Not ready to buy yet?{' '}
+              <Link href="/freebies/cse-pro-starter-pack" className="text-yellow-400 hover:text-yellow-300 underline underline-offset-2 transition-colors">
+                🎁 Download the free Pro Starter Pack (30 questions, no cost)
+              </Link>
+            </p>
+          </div>
         </section>
 
       </div>
-
-      {/* Sticky bottom bar — mobile only */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-[#0f1629] border-t border-yellow-400/30 px-4 py-3 flex items-center justify-between gap-3">
-        <div className="flex-1 min-w-0">
-          <p className="text-white text-sm font-bold truncate">🚀 CSE Pro Mastery — Coming Soon</p>
-          <p className="text-gray-400 text-xs">Join the waitlist for early-bird discount</p>
-        </div>
-        <a
-          href="#waitlist-form"
-          className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-4 py-2 rounded-lg text-sm whitespace-nowrap transition-colors flex-shrink-0"
-        >
-          Join Waitlist
-        </a>
-      </div>
-    </div>
+    </>
   );
 }

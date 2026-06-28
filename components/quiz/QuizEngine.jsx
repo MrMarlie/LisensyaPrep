@@ -66,6 +66,7 @@ export default function QuizEngine({ initialState, moduleInfo }) {
     if (moduleInfo?.examId === 'nursing') return 'pnle';
     if (moduleInfo?.examId === 'criminology') return 'cle';
     if (moduleInfo?.examId === 'agriculture') return 'agri';
+    if (moduleInfo?.examId === 'civil-service') return 'cse';
     if (moduleInfo?.examId !== 'education') return null;
     const id = moduleInfo?.id || '';
     if (id.includes('general_education') || id.includes('gened')) return 'gened';

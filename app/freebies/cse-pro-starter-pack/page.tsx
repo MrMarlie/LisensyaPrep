@@ -144,18 +144,18 @@ export default function CSEProStarterPackPage() {
           <h2 className="text-white font-extrabold text-lg mb-3">Why We&apos;re Giving This Away Free</h2>
           <p className="text-gray-300 text-sm leading-relaxed">
             We believe quality Civil Service Exam prep should be accessible to every Filipino who wants to serve.
-            The full CSE Professional Mastery System (550+ questions) is coming soon — and waitlist members get
-            an early-bird discount. This Starter Pack is our way of saying salamat in advance.
+            The full CSE Professional Mastery System (550+ questions) is now live — and the first 100 buyers get
+            the launch price. This Starter Pack is our way of saying salamat in advance.
           </p>
         </section>
 
-        {/* Coming soon teaser */}
+        {/* Upgrade teaser */}
         <section className="mt-6 bg-gradient-to-br from-yellow-900/20 to-amber-900/10 border border-yellow-400/20 rounded-2xl p-6">
           <div className="flex items-center gap-2 mb-3">
-            <span className="bg-yellow-400/20 text-yellow-400 text-xs font-extrabold px-2 py-1 rounded-full uppercase tracking-wide">🚀 Coming Soon</span>
+            <span className="bg-yellow-400/20 text-yellow-400 text-xs font-extrabold px-2 py-1 rounded-full uppercase tracking-wide">⭐ Now Available</span>
           </div>
           <h2 className="text-yellow-400 font-extrabold text-lg mb-3">
-            CSE Professional Mastery System — In Development
+            CSE Professional Mastery System — Get the Full Reviewer
           </h2>
           <ul className="space-y-2 text-gray-300 text-sm mb-4">
             <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> 550+ questions across all 4 sections</li>
@@ -163,13 +163,13 @@ export default function CSEProStarterPackPage() {
             <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> RA 6713 Full Breakdown (all 8 norms)</li>
             <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> 8-Week Study Schedule</li>
             <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Constitution Quick Reference Cheat Sheet</li>
-            <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Launch price: ₱249 (waitlist members save ₱49)</li>
+            <li className="flex items-start gap-2"><span className="text-yellow-400 font-bold flex-shrink-0">✓</span> Launch price: ₱199 (₱249 after first 100 buyers)</li>
           </ul>
           <Link
             href="/premium/cse-pro-mastery"
             className="inline-block text-yellow-400 hover:text-yellow-300 font-bold text-sm underline underline-offset-2 transition-colors"
           >
-            Join the waitlist → See what&apos;s coming
+            See the full Mastery System →
           </Link>
         </section>
 

@@ -131,9 +131,10 @@ export async function POST(req: NextRequest) {
                 <li>Share this PDF with fellow CSE takers!</li>
               </ol>
 
-              <div style="background:#1e3a5f;border-radius:10px;padding:16px;margin:0 0 24px;">
-                <p style="color:#93c5fd;font-weight:700;margin:0 0 6px;">You&apos;re on the CSE Pro Mastery Waitlist!</p>
-                <p style="margin:0;font-size:13px;line-height:1.6;">We&apos;re building the full CSE Professional Mastery System (550+ questions). You&apos;ll be the first to know when it launches — with an early-bird discount.</p>
+              <div style="background:#1a2035;border:1px solid #facc1540;border-radius:10px;padding:16px;margin:0 0 24px;">
+                <p style="color:#facc15;font-weight:700;margin:0 0 6px;">⭐ Ready for the full reviewer?</p>
+                <p style="margin:0 0 10px;font-size:13px;line-height:1.6;">The CSE Professional Mastery System (550+ questions, 170-item mock exam, cheat sheets) is now live. First 100 buyers get the ₱199 launch price.</p>
+                <a href="https://lisensyaprep.com/premium/cse-pro-mastery" style="color:#facc15;font-weight:700;font-size:13px;">Get the CSE Pro Mastery System →</a>
               </div>
 
               <div style="background:#1a2035;border:1px solid #facc1540;border-radius:10px;padding:16px;margin:0 0 24px;">

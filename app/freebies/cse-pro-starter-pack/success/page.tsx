@@ -47,18 +47,18 @@ export default function CSEProFreebieSuccessPage() {
           </p>
         </div>
 
-        {/* Coming soon CTA */}
+        {/* Mastery upsell CTA */}
         <div className="bg-[#0f1629] border border-yellow-400/20 rounded-2xl p-5 mb-8 text-left">
-          <p className="text-yellow-400 font-semibold text-sm mb-2">🚀 Want the full Mastery System?</p>
+          <p className="text-yellow-400 font-semibold text-sm mb-2">⭐ Want the full Mastery System?</p>
           <p className="text-gray-400 text-sm mb-3">
-            The CSE Professional Mastery System (550+ questions) is in development. Join the waitlist
-            for early-bird access and a ₱49 discount at launch.
+            The CSE Professional Mastery System (550+ questions) is now live. First 100 buyers get the
+            ₱199 launch price (₱249 after).
           </p>
           <Link
             href="/premium/cse-pro-mastery"
             className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-5 py-2.5 rounded-xl text-sm transition-colors"
           >
-            Join the Waitlist →
+            Get the Mastery System →
           </Link>
         </div>
 

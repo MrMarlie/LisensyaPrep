@@ -4,13 +4,15 @@ import { useState } from 'react';
 import { markPackDownloaded } from '@/lib/popupOffers';
 
 type Props = {
-  type: 'profed' | 'gened' | 'auto' | 'pnle' | 'cle' | 'agri';
+  type: 'profed' | 'gened' | 'auto' | 'pnle' | 'cle' | 'agri' | 'cse';
   trigger?: string;
   onClose: () => void;
 };
 
 export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }: Props) {
   const [selectedPack, setSelectedPack] = useState<'profed' | 'gened'>(type === 'gened' ? 'gened' : 'profed');
+  // CSE has two levels (Professional / SubProfessional) — user picks in the popup.
+  const [cseLevel, setCseLevel] = useState<'pro' | 'subprof'>('pro');
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
@@ -19,15 +21,18 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
   const isPNLE = type === 'pnle';
   const isCLE = type === 'cle';
   const isAgri = type === 'agri';
+  const isCSE = type === 'cse';
   // Packs delivered by a dedicated freebie endpoint (not the profed/gened popup endpoint)
-  const isDirectPack = isPNLE || isCLE || isAgri;
+  const isDirectPack = isPNLE || isCLE || isAgri || isCSE;
   const packLabel = isPNLE
     ? 'PNLE Nursing Starter Pack'
     : isCLE
       ? 'CLE Criminology Starter Pack'
       : isAgri
         ? 'Agriculture (ALE) Starter Pack'
-        : selectedPack === 'profed' ? 'LET ProfEd Starter Pack' : 'LET Gen Ed Starter Pack';
+        : isCSE
+          ? (cseLevel === 'pro' ? 'CSE Professional Starter Pack' : 'CSE SubProfessional Starter Pack')
+          : selectedPack === 'profed' ? 'LET ProfEd Starter Pack' : 'LET Gen Ed Starter Pack';
 
   // Per-profession accent colors (PNLE pink, Agriculture green, others yellow).
   const accent = isPNLE
@@ -48,7 +53,11 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
           ? '/api/freebies/pnle-nursing-starter-pack'
           : isCLE
             ? '/api/freebies/cle-starter-pack'
-            : '/api/freebies/agriculture-starter-pack';
+            : isAgri
+              ? '/api/freebies/agriculture-starter-pack'
+              : cseLevel === 'pro'
+                ? '/api/freebies/cse-pro-starter-pack'
+                : '/api/freebies/cse-subprof-starter-pack';
         res = await fetch(endpoint, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -66,8 +75,9 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
 
       // Record the download so we never resend a starter pack — afterwards the
       // user sees the Mastery upsell popup instead. Direct packs (pnle/cle/agri)
-      // store their own type; the LET selector stores the chosen pack.
-      markPackDownloaded(isDirectPack ? type : selectedPack);
+      // store their own type; CSE stores the chosen level (cse-pro / cse-subprof);
+      // the LET selector stores the chosen pack.
+      markPackDownloaded(isCSE ? `cse-${cseLevel}` : isDirectPack ? type : selectedPack);
 
       setStatus('success');
     } catch (err: unknown) {
@@ -121,7 +131,9 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
                     ? '30 CLE criminology questions with full rationales — delivered to your email instantly.'
                     : isAgri
                       ? '30 agriculture (ALE) questions with full rationales — delivered to your email instantly.'
-                      : '30 LET questions with full rationales — delivered to your email instantly.'}
+                      : isCSE
+                        ? '30 Civil Service Exam questions with full rationales — delivered to your email instantly.'
+                        : '30 LET questions with full rationales — delivered to your email instantly.'}
               </p>
             </div>
 
@@ -139,6 +151,25 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
                     }`}
                   >
                     {pack === 'profed' ? '📘 ProfEd' : '📗 Gen Ed'}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {isCSE && (
+              <div className="flex gap-2 mb-4">
+                {(['pro', 'subprof'] as const).map((level) => (
+                  <button
+                    key={level}
+                    type="button"
+                    onClick={() => setCseLevel(level)}
+                    className={`flex-1 py-2.5 rounded-xl text-sm font-bold border transition-colors ${
+                      cseLevel === level
+                        ? 'bg-yellow-400 text-gray-900 border-yellow-400'
+                        : 'bg-white/5 text-gray-300 border-white/10 hover:border-white/30'
+                    }`}
+                  >
+                    {level === 'pro' ? '📊 Professional' : '📋 SubProfessional'}
                   </button>
                 ))}
               </div>

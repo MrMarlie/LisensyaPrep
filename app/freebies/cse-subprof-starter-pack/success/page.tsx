@@ -43,22 +43,22 @@ export default function CSESubProfFreebieSuccessPage() {
           <p className="text-white font-semibold text-sm mb-1">📌 Quick tip</p>
           <p className="text-gray-400 text-sm">
             Add <span className="text-yellow-400 font-mono">lisensyaprep@gmail.com</span> to your
-            contacts so future emails (like the CSE SubProf Mastery System launch) don&apos;t go to spam.
+            contacts so future emails (like your CSE SubProf Mastery System delivery) don&apos;t go to spam.
           </p>
         </div>
 
-        {/* Coming soon CTA */}
+        {/* Mastery upsell CTA */}
         <div className="bg-[#0f1629] border border-yellow-400/20 rounded-2xl p-5 mb-8 text-left">
-          <p className="text-yellow-400 font-semibold text-sm mb-2">🚀 Want the full Mastery System?</p>
+          <p className="text-yellow-400 font-semibold text-sm mb-2">⭐ Want the full Mastery System?</p>
           <p className="text-gray-400 text-sm mb-3">
-            The CSE SubProfessional Mastery System (465+ questions) is in development. Join the waitlist
-            for early-bird access and a ₱49 discount at launch.
+            The CSE SubProfessional Mastery System (465+ questions) is now live. First 100 buyers get the
+            ₱149 launch price (₱199 after).
           </p>
           <Link
             href="/premium/cse-subprof-mastery"
             className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-5 py-2.5 rounded-xl text-sm transition-colors"
           >
-            Join the Waitlist →
+            Get the Mastery System →
           </Link>
         </div>
 
