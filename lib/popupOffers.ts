@@ -1,4 +1,4 @@
-export type PopupType = 'profed' | 'gened' | 'auto' | 'pnle' | 'cle' | 'agri' | 'cse';
+export type PopupType = 'profed' | 'gened' | 'auto' | 'pnle' | 'cle' | 'agri' | 'cse' | 'mtle';
 
 export type MasteryOffer = {
   name: string;
@@ -100,6 +100,8 @@ export const MASTERY_OFFERS: Record<PopupType, MasteryOffer | null> = {
     ],
     accent: 'yellow',
   },
+  // No MTLE Mastery System live yet — show nothing as the post-pack upsell.
+  mtle: null,
 };
 
 const CSE_PRO_OFFER = MASTERY_OFFERS.cse as MasteryOffer;

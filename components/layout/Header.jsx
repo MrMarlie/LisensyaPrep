@@ -44,6 +44,7 @@ const FREEBIE_LINKS = [
   { href: '/freebies/pnle-nursing-starter-pack', label: '🏥 PNLE Nursing Starter Pack', isNew: true },
   { href: '/freebies/cle-starter-pack', label: '⚖️ CLE Criminology Starter Pack', isNew: true },
   { href: '/freebies/agriculture-starter-pack', label: '🌾 Agriculture Starter Pack', isNew: true },
+  { href: '/freebies/medical-technology-starter-pack', label: '🧪 Medical Technology Starter Pack', isNew: true },
 ];
 
 export default function Header() {

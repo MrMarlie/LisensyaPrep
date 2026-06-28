@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { markPackDownloaded } from '@/lib/popupOffers';
 
 type Props = {
-  type: 'profed' | 'gened' | 'auto' | 'pnle' | 'cle' | 'agri' | 'cse';
+  type: 'profed' | 'gened' | 'auto' | 'pnle' | 'cle' | 'agri' | 'cse' | 'mtle';
   trigger?: string;
   onClose: () => void;
 };
@@ -22,24 +22,29 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
   const isCLE = type === 'cle';
   const isAgri = type === 'agri';
   const isCSE = type === 'cse';
+  const isMTLE = type === 'mtle';
   // Packs delivered by a dedicated freebie endpoint (not the profed/gened popup endpoint)
-  const isDirectPack = isPNLE || isCLE || isAgri || isCSE;
+  const isDirectPack = isPNLE || isCLE || isAgri || isCSE || isMTLE;
   const packLabel = isPNLE
     ? 'PNLE Nursing Starter Pack'
     : isCLE
       ? 'CLE Criminology Starter Pack'
       : isAgri
         ? 'Agriculture (ALE) Starter Pack'
-        : isCSE
-          ? (cseLevel === 'pro' ? 'CSE Professional Starter Pack' : 'CSE SubProfessional Starter Pack')
-          : selectedPack === 'profed' ? 'LET ProfEd Starter Pack' : 'LET Gen Ed Starter Pack';
+        : isMTLE
+          ? 'Medical Technology (MTLE) Starter Pack'
+          : isCSE
+            ? (cseLevel === 'pro' ? 'CSE Professional Starter Pack' : 'CSE SubProfessional Starter Pack')
+            : selectedPack === 'profed' ? 'LET ProfEd Starter Pack' : 'LET Gen Ed Starter Pack';
 
-  // Per-profession accent colors (PNLE pink, Agriculture green, others yellow).
+  // Per-profession accent colors (PNLE pink, Agriculture green, MedTech cyan, others yellow).
   const accent = isPNLE
     ? { btn: 'bg-pink-500 hover:bg-pink-400 text-white', focus: 'focus:border-pink-400/50' }
     : isAgri
       ? { btn: 'bg-green-500 hover:bg-green-400 text-white', focus: 'focus:border-green-400/50' }
-      : { btn: 'bg-yellow-400 hover:bg-yellow-300 text-gray-900', focus: 'focus:border-yellow-400/50' };
+      : isMTLE
+        ? { btn: 'bg-cyan-500 hover:bg-cyan-400 text-white', focus: 'focus:border-cyan-400/50' }
+        : { btn: 'bg-yellow-400 hover:bg-yellow-300 text-gray-900', focus: 'focus:border-yellow-400/50' };
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -55,9 +60,11 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
             ? '/api/freebies/cle-starter-pack'
             : isAgri
               ? '/api/freebies/agriculture-starter-pack'
-              : cseLevel === 'pro'
-                ? '/api/freebies/cse-pro-starter-pack'
-                : '/api/freebies/cse-subprof-starter-pack';
+              : isMTLE
+                ? '/api/freebies/medical-technology-starter-pack'
+                : cseLevel === 'pro'
+                  ? '/api/freebies/cse-pro-starter-pack'
+                  : '/api/freebies/cse-subprof-starter-pack';
         res = await fetch(endpoint, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -131,9 +138,11 @@ export default function SmartFreebiePopup({ type, trigger = 'unknown', onClose }
                     ? '30 CLE criminology questions with full rationales — delivered to your email instantly.'
                     : isAgri
                       ? '30 agriculture (ALE) questions with full rationales — delivered to your email instantly.'
-                      : isCSE
-                        ? '30 Civil Service Exam questions with full rationales — delivered to your email instantly.'
-                        : '30 LET questions with full rationales — delivered to your email instantly.'}
+                      : isMTLE
+                        ? '30 medical technology (MTLE) questions with full rationales — delivered to your email instantly.'
+                        : isCSE
+                          ? '30 Civil Service Exam questions with full rationales — delivered to your email instantly.'
+                          : '30 LET questions with full rationales — delivered to your email instantly.'}
               </p>
             </div>
 
