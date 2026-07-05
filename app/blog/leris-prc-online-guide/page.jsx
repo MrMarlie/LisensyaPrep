@@ -4,9 +4,9 @@ import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'LERIS PRC Online 2026 - How to Register, Log In, Book Appointment (Guide)',
+  title: 'LERIS PRC Online 2026: Login, Register & Book Appointment (Complete Guide)',
   description:
-    'Complete LERIS PRC online guide 2026. Learn how to create a LERIS account, log in, book a PRC appointment, apply for board exams, renew your license, and fix common errors at online.prc.gov.ph.',
+    'Log in and register on LERIS (online.prc.gov.ph) step by step: create your PRC account, book your board exam appointment, renew your license, and fix common LERIS login errors. Complete 2026 guide.',
   path: '/blog/leris-prc-online-guide',
 });
 
@@ -399,7 +399,7 @@ export default function LerisGuide2026Page() {
             <header className="mb-8">
               <span className="text-xs font-semibold px-3 py-1 rounded-full bg-yellow-400/10 text-yellow-400">PRC Guide</span>
               <h1 className="text-3xl sm:text-4xl font-extrabold text-white mt-4 mb-3 leading-tight">
-                LERIS PRC Online 2026: How to Register, Log In, and Book Appointment (Complete Guide)
+                LERIS PRC Online 2026: Login, Register &amp; Book Your PRC Appointment (Complete Guide)
               </h1>
               <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
                 <span>LisensyaPrep Team</span><span>•</span>

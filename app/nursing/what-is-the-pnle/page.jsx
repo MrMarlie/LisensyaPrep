@@ -6,7 +6,7 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
-  title: 'What is the PNLE? Complete Guide to the Philippine Nurse Licensure Examination 2026',
+  title: 'What Is the PNLE? Philippine Nurse Licensure Exam Explained (2026)',
   description:
     'What is the PNLE? The Philippine Nurse Licensure Examination is the official PRC board exam for nurses. This guide covers everything: meaning, subjects, requirements, schedule, and passing rate.',
   path: '/nursing/what-is-the-pnle',
@@ -154,6 +154,8 @@ function renderContent(content) {
 }
 
 const MAIN_CONTENT = `
+**The PNLE (Philippine Nurse Licensure Examination) is the official PRC board exam that nursing graduates must pass to become a licensed Registered Nurse (RN) in the Philippines.** It is administered by the PRC Board of Nursing twice a year.
+
 If you are a nursing graduate or a current nursing student in the Philippines, you have probably heard the term PNLE many times. But what does it actually stand for, what does it cover, and what do you need to know to take it?
 
 This guide answers every question about the PNLE in one place.
@@ -370,7 +372,7 @@ export default function WhatIsThePnlePage() {
             <header className="mb-8">
               <span className="text-xs font-semibold px-3 py-1 rounded-full bg-pink-500/10 text-pink-400">Nursing (NLE)</span>
               <h1 className="text-3xl sm:text-4xl font-extrabold text-white mt-4 mb-3 leading-tight">
-                What is the PNLE? Complete Guide to the Philippine Nurse Licensure Examination 2026
+                What Is the PNLE? Philippine Nurse Licensure Exam Explained (2026)
               </h1>
               <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
                 <span>LisensyaPrep Team</span><span>•</span>

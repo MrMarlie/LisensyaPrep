@@ -7,9 +7,9 @@ import { buildMetadata } from '@/lib/seo';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata = buildMetadata({
-  title: 'CLE Coverage 2026 Complete Subject Breakdown for Criminology Board Exam Philippines',
+  title: 'CLE Coverage 2026: Complete Subjects Breakdown for the Criminology Board Exam',
   description:
-    'What does the PRC criminology board exam cover in 2026? Complete CLE subject breakdown covering all six tested areas with study guides and reviewer links for each topic.',
+    'How many subjects are in the criminology board exam? The CLE covers 6 official subject areas in 2026. Complete subjects breakdown with a free study guide and reviewer for each.',
   path: '/criminology/cle-coverage-2026',
 });
 
@@ -110,6 +110,23 @@ This page is your complete study map. It links to the deep-dive reviewer for eve
 `;
 
 const SUBJECTS = `
+---
+
+## How Many Subjects Are in the Criminology Board Exam?
+
+**The criminology board exam (CLE) covers 6 official subject areas.** Under RA 11131 (the Philippine Criminology Profession Act), the Professional Regulation Commission scores every examinee across these six subjects:
+
+**1. Criminal Jurisprudence and Procedure**
+**2. Law Enforcement Administration**
+**3. Crime Detection and Investigation**
+**4. Criminalistics**
+**5. Correctional Administration**
+**6. Criminal Sociology**
+
+### Why do people search for "37 subjects"?
+
+You may see the criminology board exam described as having "37 subjects." That does not mean 37 separate tests. It refers to the many sub-topics, or individual course areas, packed *within* the 6 official subject areas above. Criminalistics alone, for example, includes forensic ballistics, questioned documents, dactyloscopy, and forensic photography. Counted individually, these sub-topics add up to the larger numbers people remember from their college curriculum. On exam day, however, PRC computes your rating across the 6 official subject areas, not 37.
+
 ---
 
 ## The Six CLE Subject Areas
