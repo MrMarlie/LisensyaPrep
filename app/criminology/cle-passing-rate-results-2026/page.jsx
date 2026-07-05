@@ -9,7 +9,7 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 export const metadata = buildMetadata({
   title: 'CLE Passing Rate and Results 2026 Philippines PRC Official Data',
   description:
-    'What is the criminology board exam passing rate in 2026? Official PRC CLE results for February 2026 including total examinees, passers, and passing rate breakdown.',
+    'What is the criminology board exam passing rate in 2026? Official PRC CLE results for February 2026, plus live updates on the August 2026 CLE results the moment PRC releases them — passing rate, passers, and how to check online.',
   path: '/criminology/cle-passing-rate-results-2026',
 });
 
@@ -27,7 +27,7 @@ const SCHEMA = {
     logo: { '@type': 'ImageObject', url: 'https://lisensyaprep.com/images/logo.png' },
   },
   datePublished: '2026-04-23',
-  dateModified: '2026-04-23',
+  dateModified: '2026-07-05',
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id': 'https://lisensyaprep.com/criminology/cle-passing-rate-results-2026',
@@ -95,6 +95,26 @@ function renderContent(content) {
 
 const INTRO = `
 Knowing the passing rate before you sit for the CLE tells you what you are up against and helps you set a realistic goal for your review. This page tracks official PRC results for the Criminologist Licensure Examination and is updated after every exam cycle.
+
+---
+
+## CLE August 2026 Results — When Will They Be Released?
+
+**As of July 2026, the results of the August 2026 Criminologist Licensure Examination have not yet been released** — the August exam has not yet taken place. This section is updated with the official PRC figures the moment they are posted.
+
+**Bookmark this page.** When PRC releases the August 2026 CLE results, you will find the overall passing rate, total examinees and passers, the topnotchers, and the top-performing schools here — updated on the day the results go live.
+
+### When to expect the results
+
+PRC typically releases the criminology board results within a couple of weeks of the last testing day, though there is no fixed timeline. Confirm the exact August 2026 exam date and watch for the official announcement on the [PRC website](https://www.prc.gov.ph) and PRC's verified social media pages.
+
+### How to check your CLE results online
+
+- Once results are announced, go to the official PRC website (prc.gov.ph) or the PRC LERIS portal.
+- Search the official list of passers by surname, or log in to your LERIS account.
+- Your name on the official PRC list is the authoritative confirmation that you passed.
+
+*Still reviewing for the August CLE? Start with the [CLE Coverage 2026](/criminology/cle-coverage-2026) breakdown and grab the [free CLE starter pack](/freebies/cle-starter-pack).*
 `;
 
 const AFTER_STATS = `

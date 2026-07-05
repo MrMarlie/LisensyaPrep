@@ -34,7 +34,7 @@ const SCHEMA = {
     logo: { '@type': 'ImageObject', url: 'https://lisensyaprep.com/images/logo.png' },
   },
   datePublished: '2026-05-01',
-  dateModified: '2026-05-01',
+  dateModified: '2026-07-05',
   mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/medical-technology/mtle-application-results-2026' },
 };
 
@@ -150,6 +150,8 @@ const SECTION2 = `
 ---
 
 ## MTLE Passing Rate and Results
+
+**As of July 2026, the results of the August 2026 Medical Technologist Licensure Examination have not yet been released** — the August exam has not yet taken place. The official PRC passing rate, total examinees and passers, and topnotchers will be posted in this section the moment PRC releases them. **Bookmark this page** and check back on release day.
 
 ### How to Check Your MTLE Results
 

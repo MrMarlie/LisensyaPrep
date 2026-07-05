@@ -37,11 +37,11 @@ For each exam event:
 
 | Exam | Typical cycle | Exam date (VERIFY) | Predicted result window (EST) | Results page | Freebie to interlink | Status |
 |------|---------------|--------------------|-------------------------------|--------------|----------------------|--------|
-| **PNLE** (Nursing) | Feb & **Aug** | Aug 2026 — verify | ~days after exam (NLE is fast) — verify | `/nursing/pnle-passing-rate-results-2026` | `pnle-nursing-starter-pack` | ⬜ |
-| **CLE** (Criminology) | Feb & **Aug** | Aug 2026 — verify | ~2–3 wks after exam (est) | `/criminology/cle-passing-rate-results-2026` | `cle-starter-pack` | ⬜ |
-| **MTLE** (Med Tech) | Feb & **Aug** | Aug 2026 — verify | ~1–2 wks after exam (est) | `/medical-technology/mtle-application-results-2026` | `medical-technology-starter-pack` | ⬜ |
+| **PNLE** (Nursing) | Feb & **Aug** | Aug 2026 — verify | ~days after exam (NLE is fast) — verify | `/nursing/pnle-passing-rate-results-2026` | `pnle-nursing-starter-pack` | 🟨 pre-built 2026-07-05 |
+| **CLE** (Criminology) | Feb & **Aug** | Aug 2026 — verify | ~2–3 wks after exam (est) | `/criminology/cle-passing-rate-results-2026` | `cle-starter-pack` | 🟨 pre-built 2026-07-05 |
+| **MTLE** (Med Tech) | Feb & **Aug** | Aug 2026 — verify | ~5 working days after exam (per page) | `/medical-technology/mtle-application-results-2026` | `medical-technology-starter-pack` | 🟨 pre-built 2026-07-05 |
 | **LET** (Teachers) | Mar & **Sep** | Sep 2026 — verify | **~37 working days** after exam (confirmed from Mar 2026) | `/education/let-passing-rate-results-2026` | `let-profed-starter-pack` / `let-gen-ed-starter-pack` | ⬜ |
-| **CSE** (Civil Service) | Mar & **Aug** | Aug 2026 — verify (CSC) | **slow — often 1.5–2 months** (est) | `/civil-service/cse-passing-rate-2026` | `cse-pro-starter-pack` / `cse-subprof-starter-pack` | ⬜ |
+| **CSE** (Civil Service) | Mar & **Aug** | Aug 2026 — verify (CSC) | **~2 months** (confirmed: Mar 8 → May 5, 2026, via OCSERGS) | `/civil-service/cse-passing-rate-2026` | `cse-pro-starter-pack` / `cse-subprof-starter-pack` | 🟨 pre-built 2026-07-05 |
 | **PLE** (Pharmacy) | Jun & **Nov** | Nov 2026 — verify | ~days after exam (est) | `/pharmacy/ple-passing-rate-results-2026` | ⚠️ none — see gap below | ⬜ |
 | **ALE** (Agriculture) | check prc.gov.ph | TBD — verify | TBD | `/agriculture/ale-passing-rate-results-2026` | `agriculture-starter-pack` | ⬜ |
 
@@ -53,7 +53,7 @@ For each exam event:
 | PNLE | Feb 2026 | verify | record it → | fill in to sharpen the Aug prediction |
 | CLE | Feb 2026 | verify | record it → | |
 | MTLE | Feb 2026 | verify | record it → | |
-| CSE | Mar 2026 | verify (CSC) | record it → | |
+| CSE | Mar 2026 | Mar 8, 2026 | **May 5, 2026** | ~2 months later, via OCSERGS — your confirmed CSE lag anchor |
 | PLE | Jun 2026 | verify | record it → | |
 
 > **Tip:** each time results actually drop, record the exam→release gap in the
@@ -68,7 +68,7 @@ For each exam event:
 - **PNLE / PLE** — fast, often within days of the exam. Pre-build in "waiting" mode a week out and be ready to flip same-day.
 - **CLE / MTLE** — roughly 1–3 weeks (estimate).
 - **ALE** — varies; no fixed public cycle — watch prc.gov.ph.
-- **CSE** — slowest of all (CSC); commonly 1.5–2+ months. Long ranking runway on anticipation queries.
+- **CSE** — slowest of all (CSC); **~2 months confirmed** (Mar 8 → May 5, 2026, via OCSERGS). Long ranking runway on anticipation queries.
 
 ## Known gap 🚩
 

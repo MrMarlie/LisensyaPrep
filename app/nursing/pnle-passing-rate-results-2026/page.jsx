@@ -9,7 +9,7 @@ import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 export const metadata = buildMetadata({
   title: 'PNLE Passing Rate and Results 2026 Philippines PRC Official Data',
   description:
-    'What is the nursing board exam passing rate in 2026? Official PRC PNLE results for February 2026 including total examinees, passers, passing rate, and what to do after results are released.',
+    'What is the nursing board exam passing rate in 2026? Official PRC PNLE results for February 2026, plus live updates on the August 2026 PNLE results the moment PRC releases them — passing rate, passers, and how to check online.',
   path: '/nursing/pnle-passing-rate-results-2026',
 });
 
@@ -27,7 +27,7 @@ const SCHEMA = {
     logo: { '@type': 'ImageObject', url: 'https://lisensyaprep.com/images/logo.png' },
   },
   datePublished: '2026-04-26',
-  dateModified: '2026-04-26',
+  dateModified: '2026-07-05',
   mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/nursing/pnle-passing-rate-results-2026' },
 };
 
@@ -108,6 +108,26 @@ const INTRO = `
 Knowing the PNLE passing rate before you sit for the exam puts the challenge in perspective. The numbers tell a story about what kind of preparation actually works and how achievable the exam is for a well-prepared examinee.
 
 This page tracks the official PRC results for the Philippine Nurse Licensure Examination and is updated after every exam cycle.
+
+---
+
+## PNLE August 2026 Results — When Will They Be Released?
+
+**As of July 2026, the results of the August 2026 Philippine Nurse Licensure Examination have not yet been released** — the August exam has not yet taken place. This section is updated with the official PRC figures the moment they are posted.
+
+**Bookmark this page.** When PRC releases the August 2026 PNLE results, you will find the overall passing rate, total examinees and passers, the list of topnotchers, and the top-performing schools here — usually on the same day the results go live.
+
+### When to expect the results
+
+The nursing board is one of the faster PRC examinations to be released — results typically follow within a short number of working days after the last testing day, though PRC does not commit to a fixed timeline. Confirm the exact August 2026 exam date and watch for the official announcement on the [PRC website](https://www.prc.gov.ph) and PRC's verified social media pages.
+
+### How to check your PNLE results online
+
+- Once results are announced, go to the official PRC website (prc.gov.ph) or the PRC LERIS portal.
+- Search the official list of passers by surname, or log in to your LERIS account.
+- Your name on the official PRC list is the authoritative confirmation that you passed.
+
+*Still reviewing for the August PNLE? Start with the [PNLE Coverage 2026](/nursing/pnle-coverage-2026) breakdown and grab the [free PNLE starter pack](/freebies/pnle-nursing-starter-pack).*
 
 ---
 

@@ -8,7 +8,7 @@ import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 export const metadata = buildMetadata({
   title: 'Civil Service Exam Passing Rate 2026 Philippines (CSC Official Data and Trends)',
   description:
-    'What is the Civil Service Exam passing rate in 2026? Complete data on CSE-PPT passing rates including March 2026 results, historical trends, and what the numbers mean for examinees.',
+    'What is the Civil Service Exam passing rate in 2026? CSE-PPT passing rates including March 2026 results and historical trends, plus live updates on the August 2026 CSE-PPT results the moment CSC releases them via OCSERGS.',
   path: '/civil-service/cse-passing-rate-2026',
 });
 
@@ -25,7 +25,7 @@ const SCHEMA_ARTICLE = {
     logo: { '@type': 'ImageObject', url: 'https://lisensyaprep.com/images/logo.png' },
   },
   datePublished: '2026-05-09',
-  dateModified: '2026-05-09',
+  dateModified: '2026-07-05',
   mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/civil-service/cse-passing-rate-2026' },
 };
 
@@ -112,6 +112,26 @@ const MAIN_CONTENT = `
 The Civil Service Exam (CSE-PPT) has one of the **lowest passing rates** of any major Philippine examination. Understanding the historical data and what it means for your preparation is essential for any serious examinee.
 
 This page tracks official CSC passing rate data and provides context for what the numbers really mean.
+
+---
+
+## Civil Service Exam (CSE-PPT) August 2026 Results — When Will They Be Released?
+
+**As of July 2026, the results of the August 2026 CSE-PPT have not yet been released** — the second CSE-PPT cycle of the year has not yet been administered. This section is updated with the official CSC figures the moment they are posted.
+
+**Bookmark this page.** When the CSC releases the August 2026 CSE-PPT results, the overall passing rate, the number of examinees and passers, and how to view your rating online will appear here.
+
+### When to expect the results
+
+The CSC is slower than most PRC boards. For reference, the **March 8, 2026 CSE-PPT results were released on May 5, 2026 — roughly two months later**. Expect a similar window after the August exam, and watch the official [CSC website](https://www.csc.gov.ph) and CSC's verified social media pages for the announcement.
+
+### How to check your CSE-PPT results online
+
+- Results are published through the CSC's OCSERGS (Online Civil Service Exam Result Generation System) on csc.gov.ph.
+- Enter your details to generate your official examination result online.
+- The official CSC list of passers is the authoritative confirmation that you passed.
+
+*Still reviewing for the August CSE? Start with the [CSE Coverage 2026](/civil-service/cse-coverage-2026) breakdown and grab a free starter pack — [Professional](/freebies/cse-pro-starter-pack) or [SubProfessional](/freebies/cse-subprof-starter-pack).*
 
 ---
 
