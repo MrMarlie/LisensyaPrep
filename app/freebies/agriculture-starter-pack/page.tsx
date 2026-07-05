@@ -3,7 +3,7 @@ import AgricultureFreebieCTA from '@/components/AgricultureFreebieCTA';
 import Link from 'next/link';
 
 export const metadata = buildMetadata({
-  title: 'Free Agriculture (ALE) Starter Pack 2026 — 30 Questions Across All 6 Subjects | LisensyaPrep',
+  title: 'Free Agriculture (ALE) Starter Pack 2026 — 30 Questions Across All 6 Subjects',
   description:
     'Download our free Agriculturist Licensure Exam (ALE) reviewer. 30 questions covering all 6 core agriculture subjects with full rationales. Built for the 2026 PRC board exam.',
   path: '/freebies/agriculture-starter-pack',

@@ -3,83 +3,116 @@ import { BLOG_POSTS } from '@/lib/blogData';
 
 const BASE_URL = 'https://lisensyaprep.com';
 
-const AGRICULTURE_MODULES = [
-  'crop-science',
-  'soil-science',
-  'agricultural-economics',
-  'crop-protection',
-  'animal-science',
-  'agricultural-extension',
+type ChangeFreq = NonNullable<MetadataRoute.Sitemap[number]['changeFrequency']>;
+
+// Parse human-readable post dates like "June 1, 2026" -> Date. Falls back to now
+// if the string is missing or unparseable, so a single bad date never breaks the build.
+function parseDate(input?: string): Date {
+  if (!input) return new Date();
+  const d = new Date(input);
+  return isNaN(d.getTime()) ? new Date() : d;
+}
+
+// The canonical URL for a blog post: its section URL when set, otherwise the /blog/ slug.
+// One legacy post still points at the pre-redirect /medtech path — normalize it to the
+// live route so the sitemap never lists a redirecting URL.
+function canonicalPath(post: { slug: string; url?: string }): string {
+  const path = post.url || `/blog/${post.slug}`;
+  return path === '/medtech/hematology-reviewer'
+    ? '/medical-technology/hematology-reviewer'
+    : path;
+}
+
+// Real content pages that are NOT represented in BLOG_POSTS but exist as routes on disk.
+const SUPPLEMENTAL_CONTENT = [
+  '/criminology/criminal-jurisprudence-procedure-reviewer',
+  '/criminology/criminalistics-dactyloscopy-reviewer',
+  '/criminology/law-enforcement-administration-reviewer',
+  '/education/let-gen-ed-mastery-study-plan-2026',
+  '/education/let-prof-ed-mastery-study-plan-2026',
+  '/medical-technology/hematology-reviewer',
 ];
 
-const EDUCATION_MODULES = [
-  'general-education',
-  'professional-education',
-  'english',
-  'filipino',
-  'mathematics',
-  'biological-science',
+// Profession/topic landing pages. Note: /medtech has no landing page (its canonical
+// section is /medical-technology), so it is intentionally excluded.
+const SECTION_LANDINGS = [
+  '/agriculture',
+  '/education',
+  '/criminology',
+  '/civil-service',
+  '/nursing',
+  '/pharmacy',
+  '/medical-technology',
+  '/nclex',
 ];
+
+const FREEBIES = [
+  'let-profed-starter-pack',
+  'let-gen-ed-starter-pack',
+  'cse-pro-starter-pack',
+  'cse-subprof-starter-pack',
+  'cle-starter-pack',
+  'agriculture-starter-pack',
+  'medical-technology-starter-pack',
+  'pnle-nursing-starter-pack',
+].map((s) => `/freebies/${s}`);
+
+const PREMIUM = [
+  'let-profed-mastery',
+  'let-gen-ed-mastery',
+  'let-bundle-mastery',
+  'cse-pro-mastery',
+  'cse-subprof-mastery',
+  'cse',
+  'cle-mastery',
+  'agri-mastery',
+  'mtle-mastery',
+  'pnle-mastery',
+].map((s) => `/premium/${s}`);
+
+const INFO_PAGES = ['/about', '/contact', '/privacy', '/terms', '/disclosure'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes: MetadataRoute.Sitemap = [
-    { url: BASE_URL, lastModified: new Date(), changeFrequency: 'weekly', priority: 1.0 },
-    { url: `${BASE_URL}/freebies/let-profed-starter-pack`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/freebies/let-gen-ed-starter-pack`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/freebies/cse-pro-starter-pack`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/freebies/cse-subprof-starter-pack`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/freebies/cle-starter-pack`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/freebies/agriculture-starter-pack`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/freebies/medical-technology-starter-pack`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/premium/let-profed-mastery`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/premium/cse-pro-mastery`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/premium/cse-subprof-mastery`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/premium/cle-mastery`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/premium/agri-mastery`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/premium/mtle-mastery`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/premium/cse`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${BASE_URL}/premium/let-profed-mastery/checkout`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/agriculture`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/education`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/criminology`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE_URL}/criminology/criminal-jurisprudence-procedure-reviewer`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/criminology/criminalistics-dactyloscopy-reviewer`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/criminology/law-enforcement-administration-reviewer`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/education/how-to-pass-let-first-take`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/education/let-coverage-2026`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/education/let-secondary-major-filipino-reviewer`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/education/let-secondary-major-science-reviewer`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/education/let-secondary-major-social-studies-reviewer`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/education/let-application-guide-2026`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/education/let-passing-rate-results-2026`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/education/let-march-2026-results`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/blog`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.8 },
-    { url: `${BASE_URL}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${BASE_URL}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.4 },
-    { url: `${BASE_URL}/privacy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${BASE_URL}/terms`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
-  ];
+  const now = new Date();
+  // Keyed by full URL so any accidental overlap (e.g. a post whose canonical equals a
+  // landing page) collapses to a single entry — first writer wins.
+  const entries = new Map<string, MetadataRoute.Sitemap[number]>();
 
-  const agricultureModuleRoutes: MetadataRoute.Sitemap = AGRICULTURE_MODULES.map((mod) => ({
-    url: `${BASE_URL}/agriculture/${mod}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly',
-    priority: 0.7,
-  }));
+  const add = (
+    path: string,
+    opts: { lastModified?: Date; changeFrequency?: ChangeFreq; priority?: number } = {}
+  ) => {
+    const url = path === '/' ? BASE_URL : `${BASE_URL}${path}`;
+    if (entries.has(url)) return;
+    entries.set(url, {
+      url,
+      lastModified: opts.lastModified ?? now,
+      changeFrequency: opts.changeFrequency ?? 'monthly',
+      priority: opts.priority ?? 0.6,
+    });
+  };
 
-  const educationModuleRoutes: MetadataRoute.Sitemap = EDUCATION_MODULES.map((mod) => ({
-    url: `${BASE_URL}/education/${mod}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly',
-    priority: 0.7,
-  }));
+  // Core
+  add('/', { changeFrequency: 'weekly', priority: 1.0 });
+  add('/blog', { changeFrequency: 'daily', priority: 0.8 });
 
-  const blogRoutes: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
-    url: `${BASE_URL}/blog/${post.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly',
-    priority: 0.8,
-  }));
+  // Landing pages
+  SECTION_LANDINGS.forEach((p) => add(p, { changeFrequency: 'weekly', priority: 0.9 }));
+  FREEBIES.forEach((p) => add(p, { changeFrequency: 'monthly', priority: 0.9 }));
+  PREMIUM.forEach((p) => add(p, { changeFrequency: 'monthly', priority: 0.8 }));
+  INFO_PAGES.forEach((p) => add(p, { changeFrequency: 'yearly', priority: 0.3 }));
 
-  return [...staticRoutes, ...agricultureModuleRoutes, ...educationModuleRoutes, ...blogRoutes];
+  // Content pages — always the canonical destination, stamped with the real content date.
+  BLOG_POSTS.forEach((post) =>
+    add(canonicalPath(post), {
+      lastModified: parseDate(post.date),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    })
+  );
+  SUPPLEMENTAL_CONTENT.forEach((p) =>
+    add(p, { changeFrequency: 'monthly', priority: 0.7 })
+  );
+
+  return Array.from(entries.values());
 }

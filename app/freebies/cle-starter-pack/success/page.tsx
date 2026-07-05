@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'Check Your Email — CLE Criminology Starter Pack Sent | LisensyaPrep',
+  title: 'Check Your Email — CLE Criminology Starter Pack Sent',
   description: 'Your free CLE Criminology Starter Pack is on its way. Check your inbox.',
   path: '/freebies/cle-starter-pack/success',
 });

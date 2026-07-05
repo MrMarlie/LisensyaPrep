@@ -4,7 +4,7 @@ import { buildMetadata } from '@/lib/seo';
 import CSEPromoBar from '@/components/CSEPromoBar';
 
 export const metadata = buildMetadata({
-  title: 'CSE Professional Mastery System 2026 — Premium Reviewer | LisensyaPrep',
+  title: 'CSE Professional Mastery System 2026 — Premium Reviewer',
   description:
     '550+ CSE Professional questions with full rationales across Verbal, Numerical, Analytical, and General Information. Built for the 2026 CSC TOS. ₱199 launch special. Pay via GCash.',
   path: '/premium/cse-pro-mastery',

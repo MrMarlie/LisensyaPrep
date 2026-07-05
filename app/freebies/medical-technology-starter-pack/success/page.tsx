@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'Check Your Email — Medical Technology (MTLE) Starter Pack Sent | LisensyaPrep',
+  title: 'Check Your Email — Medical Technology (MTLE) Starter Pack Sent',
   description: 'Your free Medical Technology (MTLE) Starter Pack is on its way. Check your inbox.',
   path: '/freebies/medical-technology-starter-pack/success',
 });

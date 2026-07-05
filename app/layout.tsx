@@ -9,10 +9,12 @@ import { AuthProvider } from "@/context/AuthContext";
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: {
-    default: "LisensyaPrep — Free PRC Board Exam Reviewer Philippines 2026",
-    template: "%s | LisensyaPrep",
-  },
+  // Plain string (not a `{ default, template }` object) on purpose: it is the
+  // fallback title for pages that set none, and — unlike a template — it does NOT
+  // append the brand to child titles. Every page already brands its own title (via
+  // buildMetadata's `absolute` output or an explicit `| LisensyaPrep` suffix), so a
+  // template would double it: "… | LisensyaPrep | LisensyaPrep".
+  title: "LisensyaPrep — Free PRC Board Exam Reviewer Philippines 2026",
   description:
     "Free gamified PRC licensure exam reviewer for Filipino professionals. Battle bosses, earn PRZ pieces, and crush the board exam.",
   metadataBase: new URL("https://lisensyaprep.com"),

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'Check Your Email — PNLE Nursing Starter Pack Sent | LisensyaPrep',
+  title: 'Check Your Email — PNLE Nursing Starter Pack Sent',
   description: 'Your free PNLE Nursing Starter Pack is on its way. Check your inbox.',
   path: '/freebies/pnle-nursing-starter-pack/success',
 });

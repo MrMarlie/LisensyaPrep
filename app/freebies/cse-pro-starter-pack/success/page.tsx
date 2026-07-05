@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'Check Your Email — CSE Pro Starter Pack Sent | LisensyaPrep',
+  title: 'Check Your Email — CSE Pro Starter Pack Sent',
   description: 'Your free CSE Professional Starter Pack is on its way. Check your inbox.',
   path: '/freebies/cse-pro-starter-pack/success',
 });

@@ -3,7 +3,7 @@ import PNLEFreebieCTA from '@/components/PNLEFreebieCTA';
 import Link from 'next/link';
 
 export const metadata = buildMetadata({
-  title: 'Free PNLE Nursing Starter Pack 2026 — 30 NLE Questions with Full Rationales | LisensyaPrep',
+  title: 'Free PNLE Nursing Starter Pack 2026 — 30 NLE Questions with Full Rationales',
   description:
     'Download our free PNLE Nursing reviewer. 30 board exam-style questions covering all major NLE subjects with full rationales. Built for the 2026 NLE syllabus.',
   path: '/freebies/pnle-nursing-starter-pack',

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'Check Your Email — LET Gen Ed Starter Pack Sent | LisensyaPrep',
+  title: 'Check Your Email — LET Gen Ed Starter Pack Sent',
   description: 'Your free LET Gen Ed Starter Pack is on its way. Check your inbox.',
   path: '/freebies/let-gen-ed-starter-pack/success',
 });

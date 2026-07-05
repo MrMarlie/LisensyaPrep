@@ -3,7 +3,7 @@ import MedTechFreebieCTA from '@/components/MedTechFreebieCTA';
 import Link from 'next/link';
 
 export const metadata = buildMetadata({
-  title: 'Free Medical Technology (MTLE) Starter Pack 2026 — 30 Questions Across All 6 Subjects | LisensyaPrep',
+  title: 'Free Medical Technology (MTLE) Starter Pack 2026 — 30 Questions Across All 6 Subjects',
   description:
     'Download our free Medical Technologist Licensure Exam (MTLE) reviewer. 30 questions covering all 6 core med tech subjects with full rationales. Built for the 2026 PRC board exam.',
   path: '/freebies/medical-technology-starter-pack',

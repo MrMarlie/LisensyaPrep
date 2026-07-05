@@ -3,7 +3,7 @@ import CSESubProfFreebieCTA from '@/components/CSESubProfFreebieCTA';
 import Link from 'next/link';
 
 export const metadata = buildMetadata({
-  title: 'Free CSE SubProfessional Starter Pack 2026 — 30 Questions for First-Level Positions | LisensyaPrep',
+  title: 'Free CSE SubProfessional Starter Pack 2026 — 30 Questions for First-Level Positions',
   description:
     'Download our free CSE SubProfessional reviewer. 30 questions covering Verbal, Numerical, Clerical Ability, and General Information. Built for the 2026 CSC TOS.',
   path: '/freebies/cse-subprof-starter-pack',

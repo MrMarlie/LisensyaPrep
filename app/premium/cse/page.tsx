@@ -2,7 +2,7 @@ import { buildMetadata } from '@/lib/seo';
 import Link from 'next/link';
 
 export const metadata = buildMetadata({
-  title: 'CSE Premium Reviewers — Coming Soon | LisensyaPrep',
+  title: 'CSE Premium Reviewers — Coming Soon',
   description:
     'LisensyaPrep Civil Service Exam Mastery Systems are in development. Join the waitlist for early-bird access and discounts.',
   path: '/premium/cse',

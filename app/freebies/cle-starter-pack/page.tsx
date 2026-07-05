@@ -3,7 +3,7 @@ import CLEFreebieCTA from '@/components/CLEFreebieCTA';
 import Link from 'next/link';
 
 export const metadata = buildMetadata({
-  title: 'Free CLE Criminology Starter Pack 2026 — 30 Questions Across All 6 Subjects | LisensyaPrep',
+  title: 'Free CLE Criminology Starter Pack 2026 — 30 Questions Across All 6 Subjects',
   description:
     'Download our free Criminologist Licensure Exam (CLE) reviewer. 30 questions covering all 6 PRC criminology subjects with full rationales. Built for the 2026 board exam.',
   path: '/freebies/cle-starter-pack',

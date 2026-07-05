@@ -3,7 +3,7 @@ import CSEProFreebieCTA from '@/components/CSEProFreebieCTA';
 import Link from 'next/link';
 
 export const metadata = buildMetadata({
-  title: 'Free CSE Professional Starter Pack 2026 — 30 Questions Across All 4 Sections | LisensyaPrep',
+  title: 'Free CSE Professional Starter Pack 2026 — 30 Questions Across All 4 Sections',
   description:
     'Download our free CSE Professional reviewer. 30 questions covering Verbal, Numerical, Analytical Ability, and General Information. Built for the 2026 CSC TOS.',
   path: '/freebies/cse-pro-starter-pack',

@@ -3,7 +3,7 @@ import GenEdFreebieCTA from '@/components/GenEdFreebieCTA';
 import Link from 'next/link';
 
 export const metadata = buildMetadata({
-  title: 'Free LET Gen Ed Starter Pack 2026 — 30 Questions Across 5 Subjects | LisensyaPrep',
+  title: 'Free LET Gen Ed Starter Pack 2026 — 30 Questions Across 5 Subjects',
   description:
     'Download our free LET General Education reviewer. 30 questions covering English, Filipino, Math, Science, and Social Sciences. Built for the 2026 Enhanced TOS.',
   path: '/freebies/let-gen-ed-starter-pack',
