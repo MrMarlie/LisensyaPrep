@@ -117,6 +117,7 @@ export default function NursingPage() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {[
             { title: 'PNLE Coverage 2026', desc: 'Complete topic breakdown and exam structure', href: '/nursing/pnle-coverage-2026' },
+            { title: 'PNLE Reviewer with Rationale', desc: '300+ PNLE questions with full rationales across all 6 NLE subjects', href: '/nursing/pnle-reviewer-with-rationale' },
             { title: 'Community Health Nursing Reviewer', desc: 'DOH programs, EPI vaccines, epidemiology, family planning', href: '/nursing/community-health-nursing-reviewer' },
             { title: 'Medical-Surgical Nursing Reviewer', desc: 'Cardiovascular, respiratory, neuro, GI, and renal nursing', href: '/nursing/medical-surgical-nursing-reviewer' },
             { title: 'Psychiatric Nursing Reviewer', desc: 'Therapeutic communication, disorders, psychopharmacology, crisis intervention', href: '/nursing/psychiatric-nursing-reviewer' },
