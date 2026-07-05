@@ -123,8 +123,8 @@ export async function POST(req: NextRequest) {
 
               <p><strong style="color:#ffffff;">Study while you wait:</strong></p>
               <ul style="padding-left:20px;">
-                <li><a href="https://lisensyaprep.com/blog/ale-coverage-2026" style="color:#4ade80;">ALE Coverage 2026 — Complete Subject Breakdown</a></li>
-                <li><a href="https://lisensyaprep.com/blog/crop-science-reviewer-ale" style="color:#4ade80;">Crop Science Reviewer for the ALE</a></li>
+                <li><a href="https://lisensyaprep.com/agriculture/ale-coverage-2026" style="color:#4ade80;">ALE Coverage 2026 — Complete Subject Breakdown</a></li>
+                <li><a href="https://lisensyaprep.com/agriculture/crop-science-reviewer-ale" style="color:#4ade80;">Crop Science Reviewer for the ALE</a></li>
                 <li><a href="https://lisensyaprep.com/agriculture" style="color:#4ade80;">Free ALE Practice Questions</a></li>
               </ul>
 

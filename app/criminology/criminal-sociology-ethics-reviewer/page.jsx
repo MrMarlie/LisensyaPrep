@@ -4,6 +4,7 @@ import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata = buildMetadata({
   title: 'Criminal Sociology and Ethics Reviewer for CLE Philippines 2026',
@@ -178,6 +179,7 @@ export default function CriminalSociologyPage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-cle-sociology" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/criminology","name":"Criminology"},{"url":"/criminology/criminal-sociology-ethics-reviewer","name":"Criminal Sociology &amp; Ethics Reviewer"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

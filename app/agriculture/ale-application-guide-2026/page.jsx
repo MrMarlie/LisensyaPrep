@@ -3,13 +3,14 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'How to Apply for ALE via PRC LERIS 2026 Step by Step Guide Philippines',
   description:
     'Planning to take the agriculture board exam? This step by step guide walks you through how to apply for the ALE via PRC LERIS in 2026 including requirements, deadlines, and common mistakes to avoid.',
-  path: '/blog/ale-application-guide-2026',
+  path: '/agriculture/ale-application-guide-2026',
 });
 
 const SCHEMA = {
@@ -34,12 +35,12 @@ const SCHEMA = {
 };
 
 const ALL_ALE_ARTICLES = [
-  { text: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/blog/how-to-pass-agriculture-board-exam' },
-  { text: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/blog/ale-coverage-2026' },
-  { text: 'Animal Science Reviewer for ALE Philippines 2026', href: '/blog/animal-science-reviewer-ale' },
-  { text: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/blog/ale-crop-protection-reviewer' },
-  { text: 'How to Apply for ALE via PRC LERIS 2026', href: '/blog/ale-application-guide-2026' },
-  { text: 'ALE Passing Rate and Results 2026', href: '/blog/ale-passing-rate-results-2026' },
+  { text: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/agriculture/how-to-pass-agriculture-board-exam' },
+  { text: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/agriculture/ale-coverage-2026' },
+  { text: 'Animal Science Reviewer for ALE Philippines 2026', href: '/agriculture/animal-science-reviewer-ale' },
+  { text: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/agriculture/ale-crop-protection-reviewer' },
+  { text: 'How to Apply for ALE via PRC LERIS 2026', href: '/agriculture/ale-application-guide-2026' },
+  { text: 'ALE Passing Rate and Results 2026', href: '/agriculture/ale-passing-rate-results-2026' },
 ];
 
 function formatInline(text) {
@@ -179,15 +180,16 @@ The window between submitting your application and exam day is your most valuabl
 
 ## Related ALE Articles
 
-- [ALE Coverage 2026 Complete Subject Breakdown](https://lisensyaprep.com/blog/ale-coverage-2026)
-- [How to Pass the Agriculture Board Exam on Your First Take](https://lisensyaprep.com/blog/how-to-pass-agriculture-board-exam)
-- [ALE Passing Rate and Results 2026](https://lisensyaprep.com/blog/ale-passing-rate-results-2026)
+- [ALE Coverage 2026 Complete Subject Breakdown](https://lisensyaprep.com/agriculture/ale-coverage-2026)
+- [How to Pass the Agriculture Board Exam on Your First Take](https://lisensyaprep.com/agriculture/how-to-pass-agriculture-board-exam)
+- [ALE Passing Rate and Results 2026](https://lisensyaprep.com/agriculture/ale-passing-rate-results-2026)
 `;
 
 export default function AleApplicationGuide2026Page() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-ale-application" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/blog","name":"Blog"},{"url":"/agriculture/ale-application-guide-2026","name":"ALE Application Guide 2026"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

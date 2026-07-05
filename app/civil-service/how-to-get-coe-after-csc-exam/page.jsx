@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'How to Get Your Certificate of Eligibility After Passing the CSE 2026 (COE Guide)',
@@ -338,6 +340,7 @@ export default function HowToGetCoeAfterCscExamPage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-coe-howto" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA_HOWTO) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/civil-service","name":"Civil Service"},{"url":"/civil-service/how-to-get-coe-after-csc-exam","name":"How to Get Your COE After the CSE"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
@@ -405,6 +408,7 @@ export default function HowToGetCoeAfterCscExamPage() {
 
         </div>
       </div>
+      <ArticlePopupTriggers type="cse" />
     </div>
   );
 }

@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/check-sitemap-coverage.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check:sitemap": "node scripts/check-sitemap-coverage.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.2",

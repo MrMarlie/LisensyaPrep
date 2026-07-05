@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import PNLEFreebieCTA from '@/components/PNLEFreebieCTA';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
@@ -256,6 +257,7 @@ export default function PnleCoverage2026Page() {
     <div className="min-h-screen py-10">
       <ArticlePopupTriggers type="pnle" />
       <Script id="schema-pnle-coverage" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/nursing","name":"Nursing"},{"url":"/nursing/pnle-coverage-2026","name":"PNLE Coverage 2026"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

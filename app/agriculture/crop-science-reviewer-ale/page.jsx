@@ -3,13 +3,14 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'Crop Science Reviewer for ALE Philippines 2026 (Deep Dive Guide)',
   description:
     'Studying for the PRC agriculture board exam? This crop science reviewer covers plant physiology, crop production systems, major Philippine crops, NSIC varieties, and post-harvest tested in the ALE.',
-  path: '/blog/crop-science-reviewer-ale',
+  path: '/agriculture/crop-science-reviewer-ale',
 });
 
 const SCHEMA = {
@@ -27,19 +28,19 @@ const SCHEMA = {
   },
   datePublished: '2026-05-01',
   dateModified: '2026-05-01',
-  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/blog/crop-science-reviewer-ale' },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/agriculture/crop-science-reviewer-ale' },
 };
 
 const ALL_ALE_ARTICLES = [
-  { text: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/blog/how-to-pass-agriculture-board-exam' },
-  { text: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/blog/ale-coverage-2026' },
-  { text: 'Animal Science Reviewer for ALE Philippines 2026', href: '/blog/animal-science-reviewer-ale' },
-  { text: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/blog/ale-crop-protection-reviewer' },
-  { text: 'Crop Science Reviewer for ALE Philippines 2026', href: '/blog/crop-science-reviewer-ale' },
-  { text: 'Soil Science Reviewer for ALE Philippines 2026', href: '/blog/soil-science-reviewer-ale' },
-  { text: 'Agricultural Economics Reviewer for ALE Philippines 2026', href: '/blog/agri-economics-reviewer-ale' },
-  { text: 'How to Apply for ALE via PRC LERIS 2026', href: '/blog/ale-application-guide-2026' },
-  { text: 'ALE Passing Rate and Results 2026', href: '/blog/ale-passing-rate-results-2026' },
+  { text: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/agriculture/how-to-pass-agriculture-board-exam' },
+  { text: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/agriculture/ale-coverage-2026' },
+  { text: 'Animal Science Reviewer for ALE Philippines 2026', href: '/agriculture/animal-science-reviewer-ale' },
+  { text: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/agriculture/ale-crop-protection-reviewer' },
+  { text: 'Crop Science Reviewer for ALE Philippines 2026', href: '/agriculture/crop-science-reviewer-ale' },
+  { text: 'Soil Science Reviewer for ALE Philippines 2026', href: '/agriculture/soil-science-reviewer-ale' },
+  { text: 'Agricultural Economics Reviewer for ALE Philippines 2026', href: '/agriculture/agri-economics-reviewer-ale' },
+  { text: 'How to Apply for ALE via PRC LERIS 2026', href: '/agriculture/ale-application-guide-2026' },
+  { text: 'ALE Passing Rate and Results 2026', href: '/agriculture/ale-passing-rate-results-2026' },
 ];
 
 function formatInline(text) {
@@ -254,17 +255,18 @@ Crop science questions in the ALE combine plant physiology, crop-specific produc
 
 ## Related ALE Articles
 
-- [ALE Coverage 2026 Complete Subject Breakdown](https://lisensyaprep.com/blog/ale-coverage-2026)
-- [Soil Science Deep Dive Reviewer for ALE 2026](https://lisensyaprep.com/blog/soil-science-reviewer-ale)
-- [Agricultural Economics Deep Dive Reviewer for ALE 2026](https://lisensyaprep.com/blog/agri-economics-reviewer-ale)
-- [Plant Pathology and Crop Protection Reviewer ALE 2026](https://lisensyaprep.com/blog/ale-crop-protection-reviewer)
-- [Animal Science Reviewer for ALE Philippines 2026](https://lisensyaprep.com/blog/animal-science-reviewer-ale)
+- [ALE Coverage 2026 Complete Subject Breakdown](https://lisensyaprep.com/agriculture/ale-coverage-2026)
+- [Soil Science Deep Dive Reviewer for ALE 2026](https://lisensyaprep.com/agriculture/soil-science-reviewer-ale)
+- [Agricultural Economics Deep Dive Reviewer for ALE 2026](https://lisensyaprep.com/agriculture/agri-economics-reviewer-ale)
+- [Plant Pathology and Crop Protection Reviewer ALE 2026](https://lisensyaprep.com/agriculture/ale-crop-protection-reviewer)
+- [Animal Science Reviewer for ALE Philippines 2026](https://lisensyaprep.com/agriculture/animal-science-reviewer-ale)
 `;
 
 export default function CropScienceReviewerAlePage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-crop-science-ale" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/blog","name":"Blog"},{"url":"/agriculture/crop-science-reviewer-ale","name":"Crop Science Reviewer for ALE"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
@@ -228,6 +229,7 @@ export default function LETApplicationGuidePage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-let-app" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/education","name":"Education"},{"url":"/education/let-application-guide-2026","name":"LET Application Guide 2026"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

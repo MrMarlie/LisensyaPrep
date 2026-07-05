@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'NCLEX Dosage Calculation Practice 2026 (Formulas, Problems, Solutions)',
@@ -389,6 +391,7 @@ export default function NclexDosageCalculationPage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-dosage-calc-article" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA_ARTICLE) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/nursing","name":"Nursing"},{"url":"/nursing/nclex-dosage-calculation-practice","name":"NCLEX Dosage Calculation Practice"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
@@ -456,6 +459,7 @@ export default function NclexDosageCalculationPage() {
 
         </div>
       </div>
+      <ArticlePopupTriggers type="pnle" />
     </div>
   );
 }

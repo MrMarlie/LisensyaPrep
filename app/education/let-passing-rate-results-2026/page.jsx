@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata = buildMetadata({
   title: 'LET Passing Rate and Results 2026 Philippines PRC Official Data',
@@ -230,6 +231,7 @@ export default function LETPassingRatePage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-let-results" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/education","name":"Education"},{"url":"/education/let-passing-rate-results-2026","name":"LET Passing Rate and Results 2026"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

@@ -4,6 +4,7 @@ import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata = buildMetadata({
   title: 'Blood Banking and Serology Reviewer for MTLE Philippines 2026 (Complete Guide)',
@@ -33,9 +34,9 @@ const SCHEMA = {
 const ALL_MTLE_ARTICLES = [
   { text: 'How to Pass the MTLE Board Exam on Your First Take', href: '/medical-technology/how-to-pass-mtle-board-exam' },
   { text: 'MTLE Coverage 2026 Complete Subject Breakdown', href: '/medical-technology/mtle-coverage-2026' },
-  { text: 'Hematology Reviewer for MTLE Philippines 2026', href: '/medtech/hematology-reviewer' },
-  { text: 'Clinical Chemistry Reviewer for MTLE Philippines 2026', href: '/medtech/clinical-chemistry-reviewer' },
-  { text: 'Microbiology and Parasitology Reviewer MTLE 2026', href: '/medtech/microbiology-parasitology-reviewer' },
+  { text: 'Hematology Reviewer for MTLE Philippines 2026', href: '/medical-technology/hematology-reviewer' },
+  { text: 'Clinical Chemistry Reviewer for MTLE Philippines 2026', href: '/medical-technology/clinical-chemistry-reviewer' },
+  { text: 'Microbiology and Parasitology Reviewer MTLE 2026', href: '/medical-technology/microbiology-parasitology-reviewer' },
   { text: 'Blood Banking and Serology Reviewer MTLE 2026', href: '/medical-technology/blood-banking-serology-reviewer' },
   { text: 'Urinalysis and Body Fluids Reviewer MTLE 2026', href: '/medical-technology/urinalysis-body-fluids-reviewer' },
   { text: 'Histopathology and Cytology Reviewer MTLE 2026', href: '/medical-technology/histopathology-cytology-reviewer' },
@@ -223,9 +224,9 @@ Blood banking questions in the MTLE cover ABO and Rh typing, crossmatching, bloo
 
 ## Related MTLE Articles
 
-- [Hematology Reviewer for MTLE Philippines 2026](https://lisensyaprep.com/medtech/hematology-reviewer)
-- [Clinical Chemistry Reviewer MTLE 2026](https://lisensyaprep.com/medtech/clinical-chemistry-reviewer)
-- [Microbiology and Parasitology Reviewer MTLE 2026](https://lisensyaprep.com/medtech/microbiology-parasitology-reviewer)
+- [Hematology Reviewer for MTLE Philippines 2026](https://lisensyaprep.com/medical-technology/hematology-reviewer)
+- [Clinical Chemistry Reviewer MTLE 2026](https://lisensyaprep.com/medical-technology/clinical-chemistry-reviewer)
+- [Microbiology and Parasitology Reviewer MTLE 2026](https://lisensyaprep.com/medical-technology/microbiology-parasitology-reviewer)
 - [Urinalysis and Body Fluids Reviewer MTLE 2026](https://lisensyaprep.com/medical-technology/urinalysis-body-fluids-reviewer)
 - [MTLE Coverage 2026 Complete Subject Breakdown](https://lisensyaprep.com/medical-technology/mtle-coverage-2026)
 `;
@@ -234,6 +235,7 @@ export default function BloodBankingSerologyReviewerPage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-mtle-blood-banking" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/medical-technology","name":"Medical Technology"},{"url":"/medical-technology/blood-banking-serology-reviewer","name":"Blood Banking and Serology Reviewer"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

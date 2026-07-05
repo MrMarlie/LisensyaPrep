@@ -5,6 +5,7 @@ import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import GenEdFreebieCTA from '@/components/GenEdFreebieCTA';
 import GenEdMasteryCTA from '@/components/GenEdMasteryCTA';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata = buildMetadata({
   title: 'LET Secondary Major Science Reviewer 2026 Philippines (Complete Guide)',
@@ -325,6 +326,7 @@ export default function LETScienceReviewerPage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-let-science" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/education","name":"Education"},{"url":"/education/let-secondary-major-science-reviewer","name":"Secondary Major Science Reviewer"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

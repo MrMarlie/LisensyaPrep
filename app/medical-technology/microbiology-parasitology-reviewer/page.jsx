@@ -3,12 +3,14 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'Microbiology and Parasitology Reviewer for MTLE Philippines 2026 (Complete Guide)',
   description:
     'Studying for the medical technology board exam? This microbiology and parasitology reviewer covers bacteria identification, staining techniques, parasites, and culture media tested in the MTLE.',
-  path: '/medtech/microbiology-parasitology-reviewer',
+  path: '/medical-technology/microbiology-parasitology-reviewer',
   image: '/images/articles/hero-mtle-microbiology.jpg',
 });
 
@@ -27,12 +29,12 @@ const SCHEMA = {
   },
   datePublished: '2026-04-26',
   dateModified: '2026-04-26',
-  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/medtech/microbiology-parasitology-reviewer' },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/medical-technology/microbiology-parasitology-reviewer' },
 };
 
 const RELATED_ARTICLES = [
-  { text: 'Hematology Reviewer for MTLE Philippines 2026', href: '/medtech/hematology-reviewer' },
-  { text: 'Clinical Chemistry Reviewer for MTLE Philippines 2026', href: '/medtech/clinical-chemistry-reviewer' },
+  { text: 'Hematology Reviewer for MTLE Philippines 2026', href: '/medical-technology/hematology-reviewer' },
+  { text: 'Clinical Chemistry Reviewer for MTLE Philippines 2026', href: '/medical-technology/clinical-chemistry-reviewer' },
   { text: 'PRC Board Exam Passing Rate by Profession 2026', href: '/blog/prc-board-exam-passing-rate-by-profession' },
   { text: 'PRC Board Exam Schedule 2026 for All Professions', href: '/blog/prc-board-exam-schedule-2026' },
   { text: 'How Long to Study for PRC Board Exam', href: '/blog/how-long-to-study-for-prc-board-exam' },
@@ -193,6 +195,7 @@ export default function MicrobiologyParasitologyReviewerPage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-mtle-micro" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/medical-technology","name":"Medical Technology"},{"url":"/medical-technology/microbiology-parasitology-reviewer","name":"Microbiology and Parasitology Reviewer"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
@@ -357,6 +360,7 @@ export default function MicrobiologyParasitologyReviewerPage() {
 
         </div>
       </div>
+      <ArticlePopupTriggers type="mtle" />
     </div>
   );
 }

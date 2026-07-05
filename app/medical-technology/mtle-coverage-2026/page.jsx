@@ -4,6 +4,7 @@ import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata = buildMetadata({
   title: 'MTLE Coverage 2026 Complete Subject Breakdown for Medical Technology Board Exam Philippines',
@@ -33,9 +34,9 @@ const SCHEMA = {
 const ALL_MTLE_ARTICLES = [
   { text: 'How to Pass the MTLE Board Exam on Your First Take', href: '/medical-technology/how-to-pass-mtle-board-exam' },
   { text: 'MTLE Coverage 2026 Complete Subject Breakdown', href: '/medical-technology/mtle-coverage-2026' },
-  { text: 'Hematology Reviewer for MTLE Philippines 2026', href: '/medtech/hematology-reviewer' },
-  { text: 'Clinical Chemistry Reviewer for MTLE Philippines 2026', href: '/medtech/clinical-chemistry-reviewer' },
-  { text: 'Microbiology and Parasitology Reviewer MTLE 2026', href: '/medtech/microbiology-parasitology-reviewer' },
+  { text: 'Hematology Reviewer for MTLE Philippines 2026', href: '/medical-technology/hematology-reviewer' },
+  { text: 'Clinical Chemistry Reviewer for MTLE Philippines 2026', href: '/medical-technology/clinical-chemistry-reviewer' },
+  { text: 'Microbiology and Parasitology Reviewer MTLE 2026', href: '/medical-technology/microbiology-parasitology-reviewer' },
   { text: 'Blood Banking and Serology Reviewer MTLE 2026', href: '/medical-technology/blood-banking-serology-reviewer' },
   { text: 'Urinalysis and Body Fluids Reviewer MTLE 2026', href: '/medical-technology/urinalysis-body-fluids-reviewer' },
   { text: 'Histopathology and Cytology Reviewer MTLE 2026', href: '/medical-technology/histopathology-cytology-reviewer' },
@@ -119,7 +120,7 @@ Clinical Chemistry is typically the highest-weighted subject in the MTLE and cov
 
 **Major topics:** Glucose metabolism and diabetes diagnosis, lipid panel and Friedewald equation, liver function tests (bilirubin, ALT, AST, ALP, albumin), renal function tests (BUN, creatinine, GFR), electrolytes, cardiac enzymes, acid-base balance, quality control (Levey-Jennings, Westgard rules).
 
-**Full reviewer:** [Clinical Chemistry Reviewer for MTLE Philippines 2026](https://lisensyaprep.com/medtech/clinical-chemistry-reviewer)
+**Full reviewer:** [Clinical Chemistry Reviewer for MTLE Philippines 2026](https://lisensyaprep.com/medical-technology/clinical-chemistry-reviewer)
 
 **Practice now:** [LisensyaPrep Medical Technology Quiz](https://lisensyaprep.com/medical-technology)
 
@@ -131,7 +132,7 @@ Hematology covers the study of blood cells, their formation, and the disorders t
 
 **Major topics:** Hematopoiesis and cell development pathway, CBC normal values, RBC morphology (anisocytosis, poikilocytosis, target cells, sickle cells, schistocytes), WBC differential, coagulation cascade (intrinsic vs extrinsic pathway, PT vs aPTT), anemia classification by MCV (microcytic, normocytic, macrocytic), iron studies, hemoglobin disorders.
 
-**Full reviewer:** [Hematology Reviewer for MTLE Philippines 2026](https://lisensyaprep.com/medtech/hematology-reviewer)
+**Full reviewer:** [Hematology Reviewer for MTLE Philippines 2026](https://lisensyaprep.com/medical-technology/hematology-reviewer)
 
 **Practice now:** [LisensyaPrep Medical Technology Quiz](https://lisensyaprep.com/medical-technology)
 
@@ -143,7 +144,7 @@ Microbiology and Parasitology tests your knowledge of disease-causing organisms 
 
 **Major topics:** Gram stain procedure and results, clinically important bacteria profiles (S. aureus, Strep pneumoniae, E. coli, Klebsiella, Pseudomonas, Salmonella), culture media (Blood agar, MacConkey, Chocolate agar, Thayer-Martin, Sabouraud), special stains (Acid-fast, India ink, KOH, Giemsa), malaria species differentiation, intestinal and blood parasites, biosafety levels.
 
-**Full reviewer:** [Microbiology and Parasitology Reviewer MTLE 2026](https://lisensyaprep.com/medtech/microbiology-parasitology-reviewer)
+**Full reviewer:** [Microbiology and Parasitology Reviewer MTLE 2026](https://lisensyaprep.com/medical-technology/microbiology-parasitology-reviewer)
 
 **Practice now:** [LisensyaPrep Medical Technology Quiz](https://lisensyaprep.com/medical-technology)
 
@@ -188,9 +189,9 @@ Histopathology and Cytology covers tissue and cell preparation for diagnostic mi
 ## All MTLE Articles on LisensyaPrep
 
 - [How to Pass the MTLE Board Exam on Your First Take](https://lisensyaprep.com/medical-technology/how-to-pass-mtle-board-exam)
-- [Clinical Chemistry Reviewer MTLE Philippines 2026](https://lisensyaprep.com/medtech/clinical-chemistry-reviewer)
-- [Hematology Reviewer for MTLE Philippines 2026](https://lisensyaprep.com/medtech/hematology-reviewer)
-- [Microbiology and Parasitology Reviewer MTLE 2026](https://lisensyaprep.com/medtech/microbiology-parasitology-reviewer)
+- [Clinical Chemistry Reviewer MTLE Philippines 2026](https://lisensyaprep.com/medical-technology/clinical-chemistry-reviewer)
+- [Hematology Reviewer for MTLE Philippines 2026](https://lisensyaprep.com/medical-technology/hematology-reviewer)
+- [Microbiology and Parasitology Reviewer MTLE 2026](https://lisensyaprep.com/medical-technology/microbiology-parasitology-reviewer)
 - [Blood Banking and Serology Reviewer MTLE 2026](https://lisensyaprep.com/medical-technology/blood-banking-serology-reviewer)
 - [Urinalysis and Body Fluids Reviewer MTLE 2026](https://lisensyaprep.com/medical-technology/urinalysis-body-fluids-reviewer)
 - [Histopathology and Cytology Reviewer MTLE 2026](https://lisensyaprep.com/medical-technology/histopathology-cytology-reviewer)
@@ -201,6 +202,7 @@ export default function MtleCoverage2026Page() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-mtle-coverage" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/medical-technology","name":"Medical Technology"},{"url":"/medical-technology/mtle-coverage-2026","name":"MTLE Coverage 2026"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

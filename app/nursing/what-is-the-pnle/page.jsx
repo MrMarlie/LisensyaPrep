@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'What is the PNLE? Complete Guide to the Philippine Nurse Licensure Examination 2026',
@@ -351,6 +353,7 @@ export default function WhatIsThePnlePage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-pnle-article" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA_ARTICLE) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/nursing","name":"Nursing"},{"url":"/nursing/what-is-the-pnle","name":"What is the PNLE"}]} />
       <Script id="schema-pnle-faq" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA_FAQ) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -419,6 +422,7 @@ export default function WhatIsThePnlePage() {
 
         </div>
       </div>
+      <ArticlePopupTriggers type="pnle" />
     </div>
   );
 }

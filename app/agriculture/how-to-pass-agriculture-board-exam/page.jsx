@@ -3,13 +3,14 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 const _aleMeta = buildMetadata({
   title: 'How to Pass the Agriculture Board Exam (2026 Proven Strategy Philippines)',
   description:
     'The complete 2026 guide to passing the Agriculture Licensure Exam on your first take. Proven 12-week study plan, subject priorities, and what actually works.',
-  path: '/blog/how-to-pass-agriculture-board-exam',
+  path: '/agriculture/how-to-pass-agriculture-board-exam',
 });
 const _aleTitle = 'How to Pass the Agriculture Board Exam (2026 Proven Strategy Philippines)';
 export const metadata = {
@@ -34,16 +35,16 @@ const SCHEMA = {
   },
   datePublished: '2026-04-27',
   dateModified: '2026-04-27',
-  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/blog/how-to-pass-agriculture-board-exam' },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/agriculture/how-to-pass-agriculture-board-exam' },
 };
 
 const ALL_ALE_ARTICLES = [
-  { text: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/blog/how-to-pass-agriculture-board-exam' },
-  { text: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/blog/ale-coverage-2026' },
-  { text: 'Animal Science Reviewer for ALE Philippines 2026', href: '/blog/animal-science-reviewer-ale' },
-  { text: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/blog/ale-crop-protection-reviewer' },
-  { text: 'How to Apply for ALE via PRC LERIS 2026', href: '/blog/ale-application-guide-2026' },
-  { text: 'ALE Passing Rate and Results 2026', href: '/blog/ale-passing-rate-results-2026' },
+  { text: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/agriculture/how-to-pass-agriculture-board-exam' },
+  { text: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/agriculture/ale-coverage-2026' },
+  { text: 'Animal Science Reviewer for ALE Philippines 2026', href: '/agriculture/animal-science-reviewer-ale' },
+  { text: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/agriculture/ale-crop-protection-reviewer' },
+  { text: 'How to Apply for ALE via PRC LERIS 2026', href: '/agriculture/ale-application-guide-2026' },
+  { text: 'ALE Passing Rate and Results 2026', href: '/agriculture/ale-passing-rate-results-2026' },
 ];
 
 function formatInline(text) {
@@ -195,8 +196,8 @@ LisensyaPrep has a free Agriculture practice quiz with 300 questions across 6 mo
 
 ## Related ALE Articles
 
-- [ALE Coverage 2026 Complete Subject Breakdown](https://lisensyaprep.com/blog/ale-coverage-2026)
-- [Animal Science Reviewer for ALE Philippines 2026](https://lisensyaprep.com/blog/animal-science-reviewer-ale)
+- [ALE Coverage 2026 Complete Subject Breakdown](https://lisensyaprep.com/agriculture/ale-coverage-2026)
+- [Animal Science Reviewer for ALE Philippines 2026](https://lisensyaprep.com/agriculture/animal-science-reviewer-ale)
 - [Crop Science Topics for the Agriculture Board Exam](https://lisensyaprep.com/blog/crop-science-board-exam-tips)
 - [Soil Science Cheat Sheet: pH, CEC, and Nutrient Availability](https://lisensyaprep.com/blog/soil-science-cheat-sheet)
 - [Agricultural Economics Key Formulas and Concepts](https://lisensyaprep.com/blog/agricultural-economics-key-concepts)
@@ -206,6 +207,7 @@ export default function HowToPassAgricultureBoardExamPage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-ale-how-to-pass" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/blog","name":"Blog"},{"url":"/agriculture/how-to-pass-agriculture-board-exam","name":"How to Pass the Agriculture Board Exam"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

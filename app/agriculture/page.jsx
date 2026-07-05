@@ -125,18 +125,18 @@ export default function AgriculturePage() {
               <h2 className="text-2xl font-extrabold text-white">ALE Study Articles</h2>
               <p className="text-gray-400 text-sm mt-1">Free reviewers and guides for every ALE subject area.</p>
             </div>
-            <Link href="/blog/ale-coverage-2026" className="text-yellow-400 hover:text-yellow-300 text-sm font-semibold transition-colors whitespace-nowrap">
+            <Link href="/agriculture/ale-coverage-2026" className="text-yellow-400 hover:text-yellow-300 text-sm font-semibold transition-colors whitespace-nowrap">
               View all →
             </Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { title: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/blog/ale-coverage-2026', tag: 'Study Map' },
-              { title: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/blog/how-to-pass-agriculture-board-exam', tag: 'Exam Guide' },
-              { title: 'Animal Science Reviewer for ALE Philippines 2026', href: '/blog/animal-science-reviewer-ale', tag: 'Subject Reviewer' },
-              { title: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/blog/ale-crop-protection-reviewer', tag: 'Subject Reviewer' },
-              { title: 'How to Apply for ALE via PRC LERIS 2026', href: '/blog/ale-application-guide-2026', tag: 'Application Guide' },
-              { title: 'ALE Passing Rate and Results 2026', href: '/blog/ale-passing-rate-results-2026', tag: 'Results & Stats' },
+              { title: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/agriculture/ale-coverage-2026', tag: 'Study Map' },
+              { title: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/agriculture/how-to-pass-agriculture-board-exam', tag: 'Exam Guide' },
+              { title: 'Animal Science Reviewer for ALE Philippines 2026', href: '/agriculture/animal-science-reviewer-ale', tag: 'Subject Reviewer' },
+              { title: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/agriculture/ale-crop-protection-reviewer', tag: 'Subject Reviewer' },
+              { title: 'How to Apply for ALE via PRC LERIS 2026', href: '/agriculture/ale-application-guide-2026', tag: 'Application Guide' },
+              { title: 'ALE Passing Rate and Results 2026', href: '/agriculture/ale-passing-rate-results-2026', tag: 'Results & Stats' },
             ].map(({ title, href, tag }) => (
               <Link key={href} href={href} className="group">
                 <div className="bg-[#0f1629] border border-white/10 hover:border-green-500/30 rounded-xl p-4 h-full transition-all">

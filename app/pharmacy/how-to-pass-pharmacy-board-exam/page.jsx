@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata = buildMetadata({
   title: 'How to Pass the Pharmacy Board Exam on Your First Take (2026 PLE Guide Philippines)',
@@ -192,6 +193,7 @@ export default function HowToPassPharmacyBoardExamPage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-how-to-pass-ple" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/pharmacy","name":"Pharmacy"},{"url":"/pharmacy/how-to-pass-pharmacy-board-exam","name":"How to Pass the Pharmacy Board Exam"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

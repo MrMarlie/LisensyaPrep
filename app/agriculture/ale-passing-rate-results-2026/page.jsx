@@ -3,13 +3,14 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'ALE Passing Rate and Results 2026 Philippines PRC Official Data',
   description:
     'What is the agriculture board exam passing rate in 2026? This page tracks official PRC ALE results including total examinees, passers, and what to do after results are released.',
-  path: '/blog/ale-passing-rate-results-2026',
+  path: '/agriculture/ale-passing-rate-results-2026',
 });
 
 const SCHEMA = {
@@ -27,16 +28,16 @@ const SCHEMA = {
   },
   datePublished: '2026-04-27',
   dateModified: '2026-04-27',
-  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/blog/ale-passing-rate-results-2026' },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/agriculture/ale-passing-rate-results-2026' },
 };
 
 const ALL_ALE_ARTICLES = [
-  { text: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/blog/how-to-pass-agriculture-board-exam' },
-  { text: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/blog/ale-coverage-2026' },
-  { text: 'Animal Science Reviewer for ALE Philippines 2026', href: '/blog/animal-science-reviewer-ale' },
-  { text: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/blog/ale-crop-protection-reviewer' },
-  { text: 'How to Apply for ALE via PRC LERIS 2026', href: '/blog/ale-application-guide-2026' },
-  { text: 'ALE Passing Rate and Results 2026', href: '/blog/ale-passing-rate-results-2026' },
+  { text: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/agriculture/how-to-pass-agriculture-board-exam' },
+  { text: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/agriculture/ale-coverage-2026' },
+  { text: 'Animal Science Reviewer for ALE Philippines 2026', href: '/agriculture/animal-science-reviewer-ale' },
+  { text: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/agriculture/ale-crop-protection-reviewer' },
+  { text: 'How to Apply for ALE via PRC LERIS 2026', href: '/agriculture/ale-application-guide-2026' },
+  { text: 'ALE Passing Rate and Results 2026', href: '/agriculture/ale-passing-rate-results-2026' },
 ];
 
 function formatInline(text) {
@@ -171,15 +172,16 @@ LisensyaPrep has 300 free practice questions across 6 modules covering all ALE s
 
 ## Related ALE Articles
 
-- [ALE Coverage 2026 Complete Subject Breakdown](https://lisensyaprep.com/blog/ale-coverage-2026)
-- [How to Apply for ALE via PRC LERIS 2026](https://lisensyaprep.com/blog/ale-application-guide-2026)
-- [How to Pass the Agriculture Board Exam on Your First Take](https://lisensyaprep.com/blog/how-to-pass-agriculture-board-exam)
+- [ALE Coverage 2026 Complete Subject Breakdown](https://lisensyaprep.com/agriculture/ale-coverage-2026)
+- [How to Apply for ALE via PRC LERIS 2026](https://lisensyaprep.com/agriculture/ale-application-guide-2026)
+- [How to Pass the Agriculture Board Exam on Your First Take](https://lisensyaprep.com/agriculture/how-to-pass-agriculture-board-exam)
 `;
 
 export default function AlePassingRateResults2026Page() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-ale-passing-rate" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/blog","name":"Blog"},{"url":"/agriculture/ale-passing-rate-results-2026","name":"ALE Passing Rate and Results 2026"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

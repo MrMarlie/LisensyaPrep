@@ -38,3 +38,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .claude/
+
+# Local clone of the third-party SEO plugin (embedded git repo — never commit).
+# Anchored, no trailing slash, so it matches both the directory and the gitlink.
+/claude-seo

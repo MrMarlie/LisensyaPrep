@@ -14,13 +14,8 @@ function parseDate(input?: string): Date {
 }
 
 // The canonical URL for a blog post: its section URL when set, otherwise the /blog/ slug.
-// One legacy post still points at the pre-redirect /medtech path — normalize it to the
-// live route so the sitemap never lists a redirecting URL.
 function canonicalPath(post: { slug: string; url?: string }): string {
-  const path = post.url || `/blog/${post.slug}`;
-  return path === '/medtech/hematology-reviewer'
-    ? '/medical-technology/hematology-reviewer'
-    : path;
+  return post.url || `/blog/${post.slug}`;
 }
 
 // Real content pages that are NOT represented in BLOG_POSTS but exist as routes on disk.
@@ -30,7 +25,6 @@ const SUPPLEMENTAL_CONTENT = [
   '/criminology/law-enforcement-administration-reviewer',
   '/education/let-gen-ed-mastery-study-plan-2026',
   '/education/let-prof-ed-mastery-study-plan-2026',
-  '/medical-technology/hematology-reviewer',
 ];
 
 // Profession/topic landing pages. Note: /medtech has no landing page (its canonical

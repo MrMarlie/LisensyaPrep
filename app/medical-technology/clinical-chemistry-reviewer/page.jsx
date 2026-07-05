@@ -3,12 +3,14 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'Clinical Chemistry Reviewer for MTLE Philippines 2026 (Complete Guide)',
   description:
     'Studying for the medical technology board exam? This clinical chemistry reviewer covers glucose, lipids, liver function, kidney function, enzymes, and quality control tested in the MTLE.',
-  path: '/medtech/clinical-chemistry-reviewer',
+  path: '/medical-technology/clinical-chemistry-reviewer',
   image: '/images/articles/hero-mtle-clinical-chemistry.jpg',
 });
 
@@ -27,12 +29,12 @@ const SCHEMA = {
   },
   datePublished: '2026-04-26',
   dateModified: '2026-04-26',
-  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/medtech/clinical-chemistry-reviewer' },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/medical-technology/clinical-chemistry-reviewer' },
 };
 
 const RELATED_ARTICLES = [
-  { text: 'Hematology Reviewer for MTLE Philippines 2026', href: '/medtech/hematology-reviewer' },
-  { text: 'Microbiology and Parasitology Reviewer MTLE 2026', href: '/medtech/microbiology-parasitology-reviewer' },
+  { text: 'Hematology Reviewer for MTLE Philippines 2026', href: '/medical-technology/hematology-reviewer' },
+  { text: 'Microbiology and Parasitology Reviewer MTLE 2026', href: '/medical-technology/microbiology-parasitology-reviewer' },
   { text: 'PRC Board Exam Passing Rate by Profession 2026', href: '/blog/prc-board-exam-passing-rate-by-profession' },
   { text: 'PRC Board Exam Schedule 2026 for All Professions', href: '/blog/prc-board-exam-schedule-2026' },
   { text: 'How Long to Study for PRC Board Exam', href: '/blog/how-long-to-study-for-prc-board-exam' },
@@ -282,6 +284,7 @@ export default function ClinicalChemistryReviewerPage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-mtle-chem" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/medical-technology","name":"Medical Technology"},{"url":"/medical-technology/clinical-chemistry-reviewer","name":"Clinical Chemistry Reviewer"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
@@ -408,6 +411,7 @@ export default function ClinicalChemistryReviewerPage() {
 
         </div>
       </div>
+      <ArticlePopupTriggers type="mtle" />
     </div>
   );
 }

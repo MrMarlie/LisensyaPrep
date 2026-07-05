@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'Professional vs Subprofessional Civil Service Exam Complete Comparison 2026',
@@ -340,6 +342,7 @@ export default function ProfessionalVsSubprofessionalCsePage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-cse-profvssub-faq" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA_FAQ) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/civil-service","name":"Civil Service"},{"url":"/civil-service/professional-vs-subprofessional-cse","name":"Professional vs Subprofessional CSE"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
@@ -407,6 +410,7 @@ export default function ProfessionalVsSubprofessionalCsePage() {
 
         </div>
       </div>
+      <ArticlePopupTriggers type="cse" />
     </div>
   );
 }

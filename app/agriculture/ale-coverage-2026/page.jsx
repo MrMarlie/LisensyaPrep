@@ -3,13 +3,14 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'ALE Coverage 2026 Complete Subject Breakdown for Agriculture Board Exam Philippines',
   description:
     'What does the PRC agriculture board exam cover in 2026? Complete ALE subject breakdown covering all five tested areas with reviewer links and a study guide for each topic.',
-  path: '/blog/ale-coverage-2026',
+  path: '/agriculture/ale-coverage-2026',
 });
 
 const SCHEMA = {
@@ -27,16 +28,16 @@ const SCHEMA = {
   },
   datePublished: '2026-04-27',
   dateModified: '2026-04-27',
-  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/blog/ale-coverage-2026' },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/agriculture/ale-coverage-2026' },
 };
 
 const ALL_ALE_ARTICLES = [
-  { text: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/blog/how-to-pass-agriculture-board-exam' },
-  { text: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/blog/ale-coverage-2026' },
-  { text: 'Animal Science Reviewer for ALE Philippines 2026', href: '/blog/animal-science-reviewer-ale' },
-  { text: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/blog/ale-crop-protection-reviewer' },
-  { text: 'How to Apply for ALE via PRC LERIS 2026', href: '/blog/ale-application-guide-2026' },
-  { text: 'ALE Passing Rate and Results 2026', href: '/blog/ale-passing-rate-results-2026' },
+  { text: 'How to Pass the Agriculture Board Exam on Your First Take', href: '/agriculture/how-to-pass-agriculture-board-exam' },
+  { text: 'ALE Coverage 2026: Complete Subject Breakdown', href: '/agriculture/ale-coverage-2026' },
+  { text: 'Animal Science Reviewer for ALE Philippines 2026', href: '/agriculture/animal-science-reviewer-ale' },
+  { text: 'Plant Pathology and Crop Protection Reviewer for ALE 2026', href: '/agriculture/ale-crop-protection-reviewer' },
+  { text: 'How to Apply for ALE via PRC LERIS 2026', href: '/agriculture/ale-application-guide-2026' },
+  { text: 'ALE Passing Rate and Results 2026', href: '/agriculture/ale-passing-rate-results-2026' },
 ];
 
 function formatInline(text) {
@@ -182,7 +183,7 @@ Poultry production: broiler vs layer management, incubation periods, production 
 
 Common livestock diseases: hog cholera, FMD, Newcastle disease, avian influenza
 
-**Full reviewer:** [Animal Science Reviewer for ALE Philippines 2026](https://lisensyaprep.com/blog/animal-science-reviewer-ale)
+**Full reviewer:** [Animal Science Reviewer for ALE Philippines 2026](https://lisensyaprep.com/agriculture/animal-science-reviewer-ale)
 
 **Practice now:** [LisensyaPrep Agriculture Quiz](https://lisensyaprep.com/agriculture)
 
@@ -256,8 +257,8 @@ Key DA agencies: PhilRice, BAR, PCAMRD, PhilFIDA, NDA, SRA
 
 ## All Agriculture Articles on LisensyaPrep
 
-- [How to Pass the Agriculture Board Exam on Your First Take](https://lisensyaprep.com/blog/how-to-pass-agriculture-board-exam)
-- [Animal Science Reviewer for ALE Philippines 2026](https://lisensyaprep.com/blog/animal-science-reviewer-ale)
+- [How to Pass the Agriculture Board Exam on Your First Take](https://lisensyaprep.com/agriculture/how-to-pass-agriculture-board-exam)
+- [Animal Science Reviewer for ALE Philippines 2026](https://lisensyaprep.com/agriculture/animal-science-reviewer-ale)
 - [10 Must-Know Crop Science Topics for the Agriculture Board Exam](https://lisensyaprep.com/blog/crop-science-board-exam-tips)
 - [Soil Science Cheat Sheet: pH, CEC, and Nutrient Availability](https://lisensyaprep.com/blog/soil-science-cheat-sheet)
 - [Agricultural Economics Key Formulas and Concepts](https://lisensyaprep.com/blog/agricultural-economics-key-concepts)
@@ -267,6 +268,7 @@ export default function AleCoverage2026Page() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-ale-coverage" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/blog","name":"Blog"},{"url":"/agriculture/ale-coverage-2026","name":"ALE Coverage 2026"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

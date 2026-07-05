@@ -3,6 +3,7 @@ import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata = buildMetadata({
   title: 'Law Enforcement Administration Reviewer for CLE Philippines 2026',
@@ -301,6 +302,7 @@ export default function LawEnforcementAdminPage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-cle-03" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/criminology","name":"Criminology"},{"url":"/criminology/law-enforcement-administration-reviewer","name":"Law Enforcement Administration Reviewer"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 

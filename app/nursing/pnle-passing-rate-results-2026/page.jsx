@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'PNLE Passing Rate and Results 2026 Philippines PRC Official Data',
@@ -196,6 +198,7 @@ export default function PnlePassingRateResultsPage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-pnle-results" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/nursing","name":"Nursing"},{"url":"/nursing/pnle-passing-rate-results-2026","name":"PNLE Passing Rate and Results 2026"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
@@ -341,6 +344,7 @@ export default function PnlePassingRateResultsPage() {
 
         </div>
       </div>
+      <ArticlePopupTriggers type="pnle" />
     </div>
   );
 }

@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
   title: 'How to Take NCLEX in the Philippines (Step-by-Step Guide 2026)',
@@ -452,6 +454,7 @@ export default function HowToTakeNclexPhilippinesPage() {
   return (
     <div className="min-h-screen py-10">
       <Script id="schema-nclex-howto" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA_HOWTO) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/nursing","name":"Nursing"},{"url":"/nursing/how-to-take-nclex-philippines","name":"How to Take NCLEX in the Philippines"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
@@ -519,6 +522,7 @@ export default function HowToTakeNclexPhilippinesPage() {
 
         </div>
       </div>
+      <ArticlePopupTriggers type="pnle" />
     </div>
   );
 }

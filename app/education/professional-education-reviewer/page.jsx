@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { buildMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import PremiumCTA from '@/components/PremiumCTA';
 import PremiumStickyBar from '@/components/PremiumStickyBar';
 import FreebieCTA from '@/components/FreebieCTA';
@@ -280,6 +281,7 @@ export default function ProfessionalEducationReviewerPage() {
       <FreebieStickyBar />
       <PremiumStickyBar />
       <Script id="schema-let-proEd" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <BreadcrumbSchema items={[{"url":"/","name":"Home"},{"url":"/education","name":"Education"},{"url":"/education/professional-education-reviewer","name":"Professional Education Reviewer"}]} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
