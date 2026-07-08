@@ -25,6 +25,7 @@ const SUPPLEMENTAL_CONTENT = [
   '/criminology/law-enforcement-administration-reviewer',
   '/education/let-gen-ed-mastery-study-plan-2026',
   '/education/let-prof-ed-mastery-study-plan-2026',
+  '/nursing/pnle-reviewer-with-rationale',
 ];
 
 // Profession/topic landing pages. Note: /medtech has no landing page (its canonical
