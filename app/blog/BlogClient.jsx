@@ -19,6 +19,7 @@ const TAG_COLORS = {
   'Education (Filipino)': 'bg-violet-500/10 text-violet-400',
   'Medical Technology': 'bg-sky-500/10 text-sky-400',
   'Pharmacy': 'bg-fuchsia-500/10 text-fuchsia-400',
+  'Careers': 'bg-emerald-500/10 text-emerald-400',
 };
 
 const CATEGORIES = [
@@ -31,6 +32,7 @@ const CATEGORIES = [
   'Agriculture',
   'Pharmacy',
   'Medical Technology',
+  'Careers',
 ];
 
 const CATEGORY_TAG_MAP = {
@@ -42,6 +44,7 @@ const CATEGORY_TAG_MAP = {
   'Agriculture': ['Agriculture', 'Study Tips', 'Soil Science', 'Economics', 'Crop Science'],
   'Pharmacy': ['Pharmacy'],
   'Medical Technology': ['Medical Technology'],
+  'Careers': ['Careers'],
 };
 
 const POSTS_PER_PAGE = 9;
