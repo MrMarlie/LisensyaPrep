@@ -49,6 +49,30 @@ const LET_MASTERY = [
   },
 ];
 
+const STUDY_TOOLS = [
+  {
+    title: 'PRC Grade Calculator',
+    desc: 'Compute your weighted GWA and check the 75 average + per-subject floor rules to see if you passed.',
+    href: '/tools/prc-grade-calculator',
+    icon: '🧮',
+    tag: 'Calculator',
+  },
+  {
+    title: 'Board Exam Study Planner',
+    desc: 'Enter your exam date and hours to build a phased review schedule that weights your weak subjects.',
+    href: '/tools/study-planner',
+    icon: '🗓️',
+    tag: 'Planner',
+  },
+  {
+    title: 'Requirements Checker',
+    desc: 'Tick off every LET, PNLE, or Civil Service document, watch your progress fill, and print your list.',
+    href: '/tools/requirements-checker',
+    icon: '✅',
+    tag: 'Checklist',
+  },
+];
+
 const PROFESSION_CARDS = [
   { href: '/nursing', label: 'Nursing', icon: '🏥', color: 'from-pink-900/40 to-pink-800/20 border-pink-600/40 hover:border-pink-400' },
   { href: '/criminology', label: 'Criminology', icon: '⚖️', color: 'from-red-900/40 to-red-800/20 border-red-600/40 hover:border-red-400' },
@@ -234,7 +258,29 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Row 3: Browse by Profession */}
+        {/* Row 3: Free Study Tools */}
+        <div className="mb-14">
+          <div className="flex items-center gap-3 mb-6">
+            <h2 className="text-2xl font-extrabold text-white">Free Study Tools</h2>
+            <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-yellow-400/10 text-yellow-400 uppercase tracking-wider">New</span>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {STUDY_TOOLS.map(({ title, desc, href, icon, tag }) => (
+              <Link key={href} href={href} className="group">
+                <div className="bg-[#0f1629] border border-white/10 rounded-2xl p-5 h-full hover:border-yellow-400/30 hover:bg-[#111a35] transition-all">
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="text-2xl">{icon}</span>
+                    <span className="text-xs font-semibold text-yellow-400 bg-yellow-400/10 px-2.5 py-1 rounded-full">{tag}</span>
+                  </div>
+                  <h3 className="text-white font-bold text-sm leading-snug mb-2 group-hover:text-yellow-400 transition-colors">{title}</h3>
+                  <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">{desc}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Row 4: Browse by Profession */}
         <div>
           <div className="flex items-center gap-3 mb-6">
             <h2 className="text-2xl font-extrabold text-white">Browse by Profession</h2>
