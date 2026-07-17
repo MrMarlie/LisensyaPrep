@@ -91,6 +91,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   add('/', { changeFrequency: 'weekly', priority: 1.0 });
   add('/blog', { changeFrequency: 'daily', priority: 0.8 });
 
+  // Tools
+  add('/tools/prc-grade-calculator', { changeFrequency: 'monthly', priority: 0.8 });
+
   // Landing pages
   SECTION_LANDINGS.forEach((p) => add(p, { changeFrequency: 'weekly', priority: 0.9 }));
   FREEBIES.forEach((p) => add(p, { changeFrequency: 'monthly', priority: 0.9 }));
