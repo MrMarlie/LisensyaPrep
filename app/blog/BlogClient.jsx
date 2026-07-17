@@ -53,6 +53,27 @@ const SORTED_POSTS = [...BLOG_POSTS].sort(
   (a, b) => new Date(b.date) - new Date(a.date)
 );
 
+// Build a compact page list: first, last, current ±1, with '...' for gaps.
+// e.g. page 6 of 24 -> [1, '...', 5, 6, 7, '...', 24]
+function getPageItems(current, total) {
+  if (total <= 7) {
+    return Array.from({ length: total }, (_, i) => i + 1);
+  }
+  const pages = new Set([1, total, current, current - 1, current + 1]);
+  const sorted = [...pages]
+    .filter((p) => p >= 1 && p <= total)
+    .sort((a, b) => a - b);
+
+  const items = [];
+  let prev = 0;
+  for (const p of sorted) {
+    if (p - prev > 1) items.push('...');
+    items.push(p);
+    prev = p;
+  }
+  return items;
+}
+
 export default function BlogClient() {
   const [activeCategory, setActiveCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
@@ -75,6 +96,9 @@ export default function BlogClient() {
     (currentPage - 1) * POSTS_PER_PAGE,
     currentPage * POSTS_PER_PAGE
   );
+
+  // Windowed page list: always show first/last, current ±1, and '…' for gaps.
+  const pageItems = getPageItems(currentPage, totalPages);
 
   function handleCategoryChange(cat) {
     setActiveCategory(cat);
@@ -168,19 +192,28 @@ export default function BlogClient() {
                 >
                   ← Prev
                 </button>
-                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-                  <button
-                    key={page}
-                    onClick={() => setCurrentPage(page)}
-                    className={`w-9 h-9 rounded-lg text-sm font-semibold transition-all ${
-                      currentPage === page
-                        ? 'bg-yellow-400 text-gray-900'
-                        : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white border border-white/10'
-                    }`}
-                  >
-                    {page}
-                  </button>
-                ))}
+                {pageItems.map((page, i) =>
+                  page === '...' ? (
+                    <span
+                      key={`ellipsis-${i}`}
+                      className="w-9 h-9 flex items-center justify-center text-sm font-semibold text-gray-500 select-none"
+                    >
+                      …
+                    </span>
+                  ) : (
+                    <button
+                      key={page}
+                      onClick={() => setCurrentPage(page)}
+                      className={`w-9 h-9 rounded-lg text-sm font-semibold transition-all ${
+                        currentPage === page
+                          ? 'bg-yellow-400 text-gray-900'
+                          : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white border border-white/10'
+                      }`}
+                    >
+                      {page}
+                    </button>
+                  )
+                )}
                 <button
                   onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
                   disabled={currentPage === totalPages}
