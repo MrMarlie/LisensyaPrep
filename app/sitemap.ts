@@ -94,6 +94,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Tools
   add('/tools/prc-grade-calculator', { changeFrequency: 'monthly', priority: 0.8 });
   add('/tools/study-planner', { changeFrequency: 'monthly', priority: 0.8 });
+  add('/tools/requirements-checker', { changeFrequency: 'monthly', priority: 0.8 });
 
   // Landing pages
   SECTION_LANDINGS.forEach((p) => add(p, { changeFrequency: 'weekly', priority: 0.9 }));

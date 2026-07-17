@@ -352,8 +352,8 @@ function PlanOutput({ plan, exam, examDate }) {
             <span aria-hidden className="text-amber-400 text-lg leading-none">⏱</span>
             <p className="text-xs text-amber-200/90 leading-relaxed">
               Under 30 days left, so this plan skips the long Foundation phase and jumps
-              straight into Drilling, Simulation, and Taper. It's doable, but honest advice:
-              protect your review time and don't add new material late.
+              straight into Drilling, Simulation, and Taper. It&apos;s doable, but honest advice:
+              protect your review time and don&apos;t add new material late.
             </p>
           </div>
         )}
