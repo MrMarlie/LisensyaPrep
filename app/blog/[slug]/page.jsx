@@ -1,5 +1,6 @@
 import { notFound, redirect } from 'next/navigation';
 import Link from 'next/link';
+import Script from 'next/script';
 import AdPlaceholder from '@/components/ui/AdPlaceholder';
 import { BLOG_POSTS } from '@/lib/blogData';
 import { buildMetadata } from '@/lib/seo';
@@ -214,6 +215,13 @@ export default function BlogPostPage({ params }) {
 
   return (
     <div className="min-h-screen py-10">
+      {post.faqSchema && (
+        <Script
+          id={`schema-${post.slug}-faq`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: post.faqSchema }}
+        />
+      )}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Article */}
