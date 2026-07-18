@@ -41,6 +41,7 @@ const SCHEMA = {
 
 const ALL_NLE_ARTICLES = [
   { text: 'PNLE Coverage 2026 Complete Topic Breakdown', href: '/nursing/pnle-coverage-2026' },
+  { text: 'What Is the PNLE? Nursing Board Exam Explained', href: '/nursing/what-is-the-pnle' },
   { text: 'Community Health Nursing Reviewer NLE 2026', href: '/nursing/community-health-nursing-reviewer' },
   { text: 'Medical-Surgical Nursing Reviewer NLE 2026', href: '/nursing/medical-surgical-nursing-reviewer' },
   { text: 'Psychiatric Nursing Reviewer NLE 2026', href: '/nursing/psychiatric-nursing-reviewer' },

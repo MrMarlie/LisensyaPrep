@@ -7,7 +7,7 @@ import { buildMetadata } from '@/lib/seo';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 const _cleAppMeta = buildMetadata({
-  title: 'CLE Application 2026: Complete CLE Requirements Guide (PRC LERIS Step by Step)',
+  title: 'How to Apply for the CLE 2026: Requirements, Fees & Deadlines (PRC LERIS)',
   description:
     'Complete guide to CLE 2026 requirements and application via PRC LERIS. Step by step process, fees, and what to bring on exam day.',
   path: '/criminology/cle-application-guide-2026',
@@ -35,6 +35,7 @@ const SCHEMA = {
   author: { '@type': 'Organization', name: 'LisensyaPrep Team' },
   publisher: { '@type': 'Organization', name: 'LisensyaPrep' },
   datePublished: '2026-04-23',
+  dateModified: '2026-07-18',
 };
 
 const RELATED_ARTICLES = [
@@ -175,7 +176,7 @@ export default function CleApplicationGuidePage() {
               </h1>
               <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
                 <span>LisensyaPrep Team</span><span>•</span>
-                <span>April 23, 2026</span><span>•</span>
+                <span>Updated July 18, 2026</span><span>•</span>
                 <span>7 min read</span>
               </div>
             </header>

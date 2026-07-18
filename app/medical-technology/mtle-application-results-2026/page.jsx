@@ -218,7 +218,7 @@ export default function MtleApplicationResults2026Page() {
               </h1>
               <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
                 <span>LisensyaPrep Team</span><span>•</span>
-                <span>May 1, 2026</span><span>•</span>
+                <span>Updated July 5, 2026</span><span>•</span>
                 <span>7 min read</span>
               </div>
             </header>

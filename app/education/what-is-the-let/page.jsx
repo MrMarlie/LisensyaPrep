@@ -28,7 +28,7 @@ const SCHEMA_ARTICLE = {
     logo: { '@type': 'ImageObject', url: 'https://lisensyaprep.com/images/logo.png' },
   },
   datePublished: '2026-05-06',
-  dateModified: '2026-05-06',
+  dateModified: '2026-07-18',
   mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/education/what-is-the-let' },
 };
 
@@ -357,7 +357,7 @@ export default function WhatIsTheLetPage() {
               </h1>
               <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
                 <span>LisensyaPrep Team</span><span>•</span>
-                <span>May 6, 2026</span><span>•</span>
+                <span>Updated July 18, 2026</span><span>•</span>
                 <span>9 min read</span>
               </div>
             </header>

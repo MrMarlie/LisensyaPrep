@@ -10,7 +10,7 @@ import FreebieCTA from '@/components/FreebieCTA';
 import FreebieStickyBar from '@/components/FreebieStickyBar';
 
 export const metadata = buildMetadata({
-  title: 'How to Pass the LET Board Exam on Your First Take 2026 (Self-Review Guide Philippines)',
+  title: 'How to Pass the LET on Your First Take: 2026 Self-Review Guide',
   description:
     'Planning to self-review for the Licensure Examination for Teachers? This honest guide covers everything you need to pass the LET board exam on your first attempt in 2026.',
   path: '/education/how-to-pass-let-first-take',
@@ -31,7 +31,7 @@ const SCHEMA = {
     logo: { '@type': 'ImageObject', url: 'https://lisensyaprep.com/images/logo.png' },
   },
   datePublished: '2026-04-23',
-  dateModified: '2026-04-23',
+  dateModified: '2026-07-18',
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id': 'https://lisensyaprep.com/education/how-to-pass-let-first-take',
@@ -261,7 +261,7 @@ export default function HowToPassLETPage() {
               <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
                 <span>LisensyaPrep Team</span>
                 <span>•</span>
-                <span>April 23, 2026</span>
+                <span>Updated July 18, 2026</span>
                 <span>•</span>
                 <span>10 min read</span>
               </div>

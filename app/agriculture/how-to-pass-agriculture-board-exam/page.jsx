@@ -7,7 +7,7 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 const _aleMeta = buildMetadata({
-  title: 'How to Pass the Agriculture Board Exam (2026 Proven Strategy Philippines)',
+  title: 'How to Pass the Agriculture Board Exam: 2026 Proven Strategy',
   description:
     'The complete 2026 guide to passing the Agriculture Licensure Exam on your first take. Proven 12-week study plan, subject priorities, and what actually works.',
   path: '/agriculture/how-to-pass-agriculture-board-exam',
@@ -34,7 +34,7 @@ const SCHEMA = {
     logo: { '@type': 'ImageObject', url: 'https://lisensyaprep.com/images/logo.png' },
   },
   datePublished: '2026-04-27',
-  dateModified: '2026-04-27',
+  dateModified: '2026-07-18',
   mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/agriculture/how-to-pass-agriculture-board-exam' },
 };
 
@@ -227,7 +227,7 @@ export default function HowToPassAgricultureBoardExamPage() {
               </h1>
               <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
                 <span>LisensyaPrep Team</span><span>•</span>
-                <span>April 27, 2026</span><span>•</span>
+                <span>Updated July 18, 2026</span><span>•</span>
                 <span>9 min read</span>
               </div>
             </header>
