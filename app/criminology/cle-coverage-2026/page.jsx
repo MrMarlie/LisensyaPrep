@@ -7,9 +7,9 @@ import { buildMetadata } from '@/lib/seo';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata = buildMetadata({
-  title: 'CLE Coverage 2026: Complete Subjects Breakdown for the Criminology Board Exam',
+  title: 'CLE Coverage 2026: All 6 Subjects in the Criminology Board Exam',
   description:
-    'How many subjects are in the criminology board exam? The CLE covers 6 official subject areas in 2026. Complete subjects breakdown with a free study guide and reviewer for each.',
+    'How many subjects are in the criminology board exam? The 2026 CLE covers 6 official subject areas with set weights. Complete breakdown plus a free study guide and reviewer for each. Updated July 2026.',
   path: '/criminology/cle-coverage-2026',
 });
 
@@ -27,7 +27,7 @@ const SCHEMA = {
     logo: { '@type': 'ImageObject', url: 'https://lisensyaprep.com/images/logo.png' },
   },
   datePublished: '2026-04-23',
-  dateModified: '2026-04-23',
+  dateModified: '2026-07-18',
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id': 'https://lisensyaprep.com/criminology/cle-coverage-2026',
@@ -228,7 +228,7 @@ export default function CleCoverage2026Page() {
               </h1>
               <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
                 <span>LisensyaPrep Team</span><span>•</span>
-                <span>April 23, 2026</span><span>•</span>
+                <span>Updated July 18, 2026</span><span>•</span>
                 <span>8 min read</span>
               </div>
             </header>

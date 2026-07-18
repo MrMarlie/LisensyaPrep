@@ -8,12 +8,12 @@ import PNLEFreebieCTA from '@/components/PNLEFreebieCTA';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 const _pnleCoverageMeta = buildMetadata({
-  title: 'PNLE Coverage 2026: All Subjects, Items, and Schedule (Updated May 2026)',
+  title: 'PNLE Coverage 2026: All Subjects, Items & Schedule (Updated July 2026)',
   description:
-    'Complete PNLE 2026 coverage breakdown. All 5 parts, 500 items, subject weights, and August 2026 schedule. Updated for the next exam cycle.',
+    'Complete PNLE 2026 coverage: all 5 parts, 500 items, subject weights, and the August 2026 exam schedule. Updated July 2026 for the upcoming nursing board cycle.',
   path: '/nursing/pnle-coverage-2026',
 });
-const _pnleCoverageTitle = 'PNLE Coverage 2026: All Subjects, Items, and Schedule (Updated May 2026)';
+const _pnleCoverageTitle = 'PNLE Coverage 2026: All Subjects, Items & Schedule (Updated July 2026)';
 export const metadata = {
   ..._pnleCoverageMeta,
   title: { absolute: _pnleCoverageTitle },
@@ -35,7 +35,7 @@ const SCHEMA = {
     logo: { '@type': 'ImageObject', url: 'https://lisensyaprep.com/images/logo.png' },
   },
   datePublished: '2026-04-25',
-  dateModified: '2026-04-25',
+  dateModified: '2026-07-18',
   mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://lisensyaprep.com/nursing/pnle-coverage-2026' },
 };
 
@@ -121,7 +121,16 @@ This page is your complete PNLE study map. It breaks down what each part of the 
 
 ## PNLE Overview: The Basics
 
-The Philippine Nurse Licensure Examination is administered by the PRC Board of Nursing twice a year, typically in February and August.
+The Philippine Nurse Licensure Examination is administered by the PRC Board of Nursing twice a year, typically in February and August. The next cycle is the **August 2026 PNLE**, and this coverage map is updated for it.
+
+### PNLE August 2026 Schedule at a Glance
+
+- **Exam month:** August 2026 (second and main cycle of the year)
+- **Administered by:** PRC Board of Nursing, nationwide testing centers
+- **Application portal:** online.prc.gov.ph (LERIS)
+- **Full dates and deadlines:** [PNLE August 2026 schedule and application timeline](https://lisensyaprep.com/nursing/pnle-august-2026-schedule)
+
+Confirm your exact test date, room assignment, and requirements against your PRC [Notice of Admission](https://lisensyaprep.com/blog/how-to-download-prc-notice-of-admission) before exam day.
 `;
 
 const AFTER_RESULTS = `
@@ -277,7 +286,7 @@ export default function PnleCoverage2026Page() {
               </h1>
               <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
                 <span>LisensyaPrep Team</span><span>•</span>
-                <span>April 25, 2026</span><span>•</span>
+                <span>Updated July 18, 2026</span><span>•</span>
                 <span>8 min read</span>
               </div>
             </header>

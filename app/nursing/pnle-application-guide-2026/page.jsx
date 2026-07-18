@@ -7,9 +7,9 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import ArticlePopupTriggers from '@/components/ArticlePopupTriggers';
 
 export const metadata = buildMetadata({
-  title: 'How to Apply for PNLE via PRC LERIS 2026 Step by Step Guide Philippines',
+  title: 'How to Apply for the PNLE 2026: Requirements, Fees & Deadlines (PRC LERIS)',
   description:
-    'Planning to take the nursing board exam? This step by step guide walks you through how to apply for the PNLE via PRC LERIS in 2026 including requirements and deadlines.',
+    'Applying for the August 2026 nursing board exam? A step-by-step PNLE application guide via PRC LERIS: complete requirements, exam fees, deadlines, and document verification. Updated July 2026.',
   path: '/nursing/pnle-application-guide-2026',
 });
 
@@ -31,6 +31,7 @@ const SCHEMA = {
   author: { '@type': 'Organization', name: 'LisensyaPrep Team' },
   publisher: { '@type': 'Organization', name: 'LisensyaPrep' },
   datePublished: '2026-04-26',
+  dateModified: '2026-07-18',
 };
 
 const ALL_NLE_ARTICLES = [
@@ -223,7 +224,7 @@ export default function PnleApplicationGuidePage() {
               </h1>
               <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
                 <span>LisensyaPrep Team</span><span>•</span>
-                <span>April 26, 2026</span><span>•</span>
+                <span>Updated July 18, 2026</span><span>•</span>
                 <span>7 min read</span>
               </div>
             </header>

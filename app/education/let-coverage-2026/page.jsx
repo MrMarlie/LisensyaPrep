@@ -10,9 +10,9 @@ import FreebieCTA from '@/components/FreebieCTA';
 import FreebieStickyBar from '@/components/FreebieStickyBar';
 
 export const metadata = buildMetadata({
-  title: 'LET Coverage 2026 Complete Subject Breakdown for the Teaching Board Exam Philippines',
+  title: 'LET Coverage 2026: Complete Subject Breakdown for the Teaching Board Exam',
   description:
-    'What does the PRC LET board exam cover in 2026? Complete subject breakdown for the Licensure Examination for Teachers covering all three components with reviewer links for each topic.',
+    'What does the PRC LET board exam cover in 2026? Complete subject breakdown for the Licensure Examination for Teachers across all three components (Gen Ed, Prof Ed, and specialization) with a reviewer for each. Updated July 2026.',
   path: '/education/let-coverage-2026',
   image: '/images/articles/hero-let-coverage-2026.jpg',
 });
@@ -31,7 +31,7 @@ const SCHEMA = {
     logo: { '@type': 'ImageObject', url: 'https://lisensyaprep.com/images/logo.png' },
   },
   datePublished: '2026-04-27',
-  dateModified: '2026-04-27',
+  dateModified: '2026-07-18',
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id': 'https://lisensyaprep.com/education/let-coverage-2026',
@@ -322,7 +322,7 @@ export default function LETCoverageHubPage() {
               <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
                 <span>LisensyaPrep Team</span>
                 <span>•</span>
-                <span>April 27, 2026</span>
+                <span>Updated July 18, 2026</span>
                 <span>•</span>
                 <span>8 min read</span>
               </div>
