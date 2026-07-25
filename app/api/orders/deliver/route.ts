@@ -101,7 +101,7 @@ export async function POST(req: NextRequest) {
               <p style="font-size:14px;line-height:1.7;">It&apos;s a real 150-item, 180-minute timed simulation. No feedback during the test — full rationales unlock the moment you submit. Retake as many times as you want; it reshuffles every attempt.</p>
               <p style="color:#94a3b8;font-size:13px;">Access runs until <strong>October 1, 2026</strong>.</p>
               <a href="${site}/mock-board/${slug}/exam" style="display:inline-block;background:#facc15;color:#111827;font-weight:700;padding:12px 24px;border-radius:8px;text-decoration:none;font-size:15px;margin-top:8px;">Go to my exam →</a>
-              <p style="margin:24px 0 0;">Good luck! 💪<br><strong style="color:#ffffff;">LisensyaPrep Team</strong></p>
+              <p style="margin:24px 0 0;">We&apos;re rooting for you, future teacher! 💪<br><strong style="color:#ffffff;">LisensyaPrep Team</strong></p>
             </div>
           </div>
         `,

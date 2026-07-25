@@ -132,6 +132,7 @@ export async function POST(req: NextRequest) {
                 <li>Go to <a href="${site}/mock-board/login" style="color:#facc15;">${site}/mock-board/login</a>, sign in with ${cleanEmail}, and start your timed 150-item exam</li>
               </ol>
               <p style="color:#94a3b8;font-size:13px;">Access runs until <strong>October 1, 2026</strong>. Unlimited retakes — questions reshuffle every time.</p>
+              <p>Good luck, future teacher! 🎓</p>
               <p style="margin-bottom:0;">LisensyaPrep Team<br>
                 <a href="${site}" style="color:#facc15;">lisensyaprep.com</a>
               </p>
