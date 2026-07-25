@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import SmartFreebiePopup from '@/components/SmartFreebiePopup';
 import MasteryUpsellPopup from '@/components/MasteryUpsellPopup';
+import MockCampaignPopup from '@/components/MockCampaignPopup';
 import { decidePopup, type PopupType, type PopupDecision } from '@/lib/popupOffers';
 
 type Props = {
@@ -72,6 +73,16 @@ export default function ArticlePopupTriggers({ type }: Props) {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!decision) return null;
+
+  if (decision.kind === 'mock') {
+    return (
+      <MockCampaignPopup
+        offer={decision.offer}
+        trigger={activeTrigger}
+        onClose={() => setDecision(null)}
+      />
+    );
+  }
 
   if (decision.kind === 'mastery') {
     return (

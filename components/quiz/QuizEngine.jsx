@@ -15,6 +15,7 @@ import AffiliateBannerCompact from '@/components/AffiliateBannerCompact';
 import { getQuizProducts, getScoreMessage } from '@/lib/affiliateLinks';
 import SmartFreebiePopup from '@/components/SmartFreebiePopup';
 import MasteryUpsellPopup from '@/components/MasteryUpsellPopup';
+import MockCampaignPopup from '@/components/MockCampaignPopup';
 import { decidePopup } from '@/lib/popupOffers';
 
 export default function QuizEngine({ initialState, moduleInfo }) {
@@ -330,6 +331,13 @@ export default function QuizEngine({ initialState, moduleInfo }) {
       )}
       {popupDecision?.kind === 'mastery' && (
         <MasteryUpsellPopup
+          offer={popupDecision.offer}
+          trigger="quiz"
+          onClose={() => setPopupDecision(null)}
+        />
+      )}
+      {popupDecision?.kind === 'mock' && (
+        <MockCampaignPopup
           offer={popupDecision.offer}
           trigger="quiz"
           onClose={() => setPopupDecision(null)}

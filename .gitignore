@@ -31,6 +31,14 @@ yarn-error.log*
 # Private deliverables (paid products — never commit PDFs)
 /private/deliverables/*.pdf
 
+# Paid Mock Board content — repo is PUBLIC, so questions/answers must NEVER be
+# committed. Parsed JSON lives here locally and is seeded to Supabase instead.
+/private/mock-board/
+# Source Mock Board question docs (also paid content)
+/Articles/*MockBoard*.docx
+/Articles/LET_GenEd_MockBoard_Set1.docx
+/Articles/LET_ProfEd_MockBoard_Set1.docx
+
 # vercel
 .vercel
 

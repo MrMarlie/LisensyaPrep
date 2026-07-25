@@ -4,6 +4,7 @@ import { createClient } from '@supabase/supabase-js';
 import Link from 'next/link';
 import AdminOrdersClient from './AdminOrdersClient';
 import AnnouncePNLEButton from './AnnouncePNLEButton';
+import AnnounceMockButtons from './AnnounceMockButtons';
 
 function supabaseAdmin() {
   return createClient(
@@ -91,8 +92,9 @@ export default async function AdminOrdersPage() {
         </div>
 
         {/* Announcements */}
-        <div className="mb-6">
+        <div className="mb-6 space-y-4">
           <AnnouncePNLEButton />
+          <AnnounceMockButtons />
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4 mb-6">

@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import AutoAds from "@/components/AutoAds";
 import { AuthProvider } from "@/context/AuthContext";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
@@ -88,12 +89,7 @@ export default function RootLayout({
             gtag('config', 'G-CP2WTTWKQH');
           `}
         </Script>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4592431148309561"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        <AutoAds />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

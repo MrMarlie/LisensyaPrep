@@ -58,6 +58,66 @@ export async function POST(req: NextRequest) {
   // Resolve PDF URLs and email content based on product
   const product = order.product || 'profed';
 
+  // ── Mock Board products: grant timed ONLINE exam access (no PDF, no promo) ──
+  if (product === 'mock-gened' || product === 'mock-profed') {
+    const examTitle =
+      product === 'mock-gened' ? 'LET Gen Ed Mock Board Exam' : 'LET Prof Ed Mock Board Exam';
+    const slug = product === 'mock-gened' ? 'let-gened' : 'let-profed';
+    const buyerEmail = (order.email || '').toLowerCase();
+    const site = process.env.NEXT_PUBLIC_SITE_URL || 'https://lisensyaprep.com';
+
+    const { error: accessErr } = await supabase
+      .from('exam_access')
+      .upsert(
+        { email: buyerEmail, product, order_id: orderId, status: 'active' },
+        { onConflict: 'email,product' },
+      );
+    if (accessErr) {
+      console.error('exam_access grant failed:', accessErr);
+      return NextResponse.json({ error: 'Failed to grant exam access.' }, { status: 500 });
+    }
+
+    try {
+      await mailer().sendMail({
+        from: `"LisensyaPrep" <${process.env.EMAIL_USER}>`,
+        to: order.email,
+        subject: `✅ Your ${examTitle} is unlocked!`,
+        html: `
+          <div style="font-family:Arial,sans-serif;max-width:560px;margin:0 auto;">
+            <div style="background:#080d1b;padding:24px;border-radius:12px 12px 0 0;text-align:center;">
+              <p style="color:#facc15;font-weight:900;font-size:20px;margin:0;">LisensyaPrep</p>
+            </div>
+            <div style="background:#0f1629;padding:32px;border-radius:0 0 12px 12px;color:#d1d5db;">
+              <h1 style="color:#ffffff;font-size:22px;margin-top:0;">Hi ${order.full_name},</h1>
+              <p>Your payment is verified and your <strong style="color:#ffffff;">${examTitle}</strong> is now unlocked. 🎉</p>
+              <div style="background:#1a150a;border:1px solid #facc1540;border-radius:10px;padding:16px;margin:20px 0;">
+                <p style="color:#facc15;font-weight:700;margin:0 0 6px;">How to start (important):</p>
+                <ol style="margin:0;padding-left:18px;line-height:1.9;font-size:14px;">
+                  <li>Go to <a href="${site}/mock-board/login" style="color:#facc15;">${site}/mock-board/login</a></li>
+                  <li>Sign in with <strong style="color:#ffffff;">this exact email (${buyerEmail})</strong> — your access is tied to it</li>
+                  <li>Open the link we email you, then hit <strong>Start / Resume Exam</strong></li>
+                </ol>
+              </div>
+              <p style="font-size:14px;line-height:1.7;">It&apos;s a real 150-item, 180-minute timed simulation. No feedback during the test — full rationales unlock the moment you submit. Retake as many times as you want; it reshuffles every attempt.</p>
+              <p style="color:#94a3b8;font-size:13px;">Access runs until <strong>October 1, 2026</strong>.</p>
+              <a href="${site}/mock-board/${slug}/exam" style="display:inline-block;background:#facc15;color:#111827;font-weight:700;padding:12px 24px;border-radius:8px;text-decoration:none;font-size:15px;margin-top:8px;">Go to my exam →</a>
+              <p style="margin:24px 0 0;">Good luck! 💪<br><strong style="color:#ffffff;">LisensyaPrep Team</strong></p>
+            </div>
+          </div>
+        `,
+      });
+    } catch (emailErr) {
+      console.error('Mock access email failed (access already granted):', emailErr);
+    }
+
+    await supabase
+      .from('orders')
+      .update({ status: 'delivered', delivered_at: new Date().toISOString() })
+      .eq('order_id', orderId);
+
+    return NextResponse.json({ success: true, status: 'delivered' });
+  }
+
   // Maps each product to the shared promo counter it counts toward.
   const counterMap: Record<string, string> = {
     profed: 'let-first-100-shared',

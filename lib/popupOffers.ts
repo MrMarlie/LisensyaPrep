@@ -119,6 +119,61 @@ const CSE_SUBPROF_OFFER: MasteryOffer = {
   accent: 'yellow',
 };
 
+// ── Mock Board campaign (LET only, auto-expires) ────────────────────────────
+// Until this date, LET pages (Gen Ed / ProfEd / generic LET) show the ₱99 Mock
+// Board sell popup to EVERY visitor. On/after this date decidePopup() falls back
+// to the normal freebie/mastery logic automatically — no redeploy needed.
+export const MOCK_CAMPAIGN_END = new Date('2026-10-01T00:00:00+08:00');
+
+export function isMockCampaignActive(): boolean {
+  return Date.now() < MOCK_CAMPAIGN_END.getTime();
+}
+
+export type MockOffer = {
+  title: string;
+  url: string;
+  price: string;
+  tagline: string;
+  bullets: string[];
+};
+
+// Only LET popup types get a mock offer. Other professions map to nothing here.
+const MOCK_OFFERS: Partial<Record<PopupType, MockOffer>> = {
+  profed: {
+    title: 'LET Prof Ed Mock Board Exam',
+    url: '/mock-board/let-profed',
+    price: '₱99',
+    tagline: 'Sit a real, timed LET simulation — before the real thing.',
+    bullets: [
+      '150 items · 180-minute countdown',
+      'Shuffled every attempt — no memorizing answers',
+      'Full rationales + score breakdown after you submit',
+    ],
+  },
+  gened: {
+    title: 'LET Gen Ed Mock Board Exam',
+    url: '/mock-board/let-gened',
+    price: '₱99',
+    tagline: 'Sit a real, timed LET simulation — before the real thing.',
+    bullets: [
+      '150 items · 180-minute countdown',
+      'Shuffled every attempt — no memorizing answers',
+      'Full rationales + score breakdown after you submit',
+    ],
+  },
+  auto: {
+    title: 'LET Mock Board Exams',
+    url: '/mock-board',
+    price: '₱99',
+    tagline: 'Sit a real, timed LET simulation — Gen Ed & Prof Ed.',
+    bullets: [
+      '150 items each · 180-minute countdown',
+      'Shuffled every attempt — no memorizing answers',
+      'Full rationales + score breakdown after you submit',
+    ],
+  },
+};
+
 const PACK_KEY = 'lp_starter_pack_downloaded';
 const MASTERY_KEY = 'lp_mastery_purchased';
 
@@ -170,6 +225,7 @@ export function markPackDownloaded(pack: string) {
 export type PopupDecision =
   | { kind: 'freebie' }
   | { kind: 'mastery'; offer: MasteryOffer }
+  | { kind: 'mock'; offer: MockOffer }
   | { kind: 'none' };
 
 // Decide which popup (if any) to show for a given page/quiz type:
@@ -177,6 +233,13 @@ export type PopupDecision =
 //  - already grabbed any pack -> Mastery upsell (if this profession has one)
 //  - otherwise                -> the free starter-pack popup
 export function decidePopup(type: PopupType): PopupDecision {
+  // Campaign layer: until Oct 1, every visitor on a LET page gets the Mock Board
+  // sell popup. Auto-reverts to the logic below once the campaign window closes.
+  const mockOffer = MOCK_OFFERS[type];
+  if (mockOffer && isMockCampaignActive()) {
+    return { kind: 'mock', offer: mockOffer };
+  }
+
   if (hasPurchasedMastery()) return { kind: 'none' };
   if (hasDownloadedAnyPack()) {
     // CSE has two levels — upsell the Mastery that matches the pack they grabbed

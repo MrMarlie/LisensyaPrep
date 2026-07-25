@@ -21,9 +21,13 @@ const COURSES = [
 
 const NAV_LINKS = [
   { href: '/', label: 'Home' },
-  { href: '/collection', label: 'My License' },
   { href: '/blog', label: 'Blog' },
   { href: '/about', label: 'About' },
+];
+
+const MOCK_LINKS = [
+  { href: '/mock-board/let-profed', label: '📝 Prof Ed Mock Board' },
+  { href: '/mock-board/let-gened', label: '📗 Gen Ed Mock Board' },
 ];
 
 const PREMIUM_LINKS = [
@@ -243,6 +247,38 @@ export default function Header() {
               </div>
             </div>
 
+            {/* Mock Boards dropdown */}
+            <div className="relative group">
+              <button
+                className={`flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-bold transition-colors relative ${
+                  pathname.startsWith('/mock-board')
+                    ? 'bg-yellow-400/20 text-yellow-400'
+                    : 'text-yellow-400 hover:bg-yellow-400/10'
+                }`}
+              >
+                Mock Boards
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                </svg>
+                <span className="absolute -top-1 -right-1 bg-yellow-400 text-gray-900 text-[9px] font-extrabold px-1 rounded-full leading-4">NEW</span>
+              </button>
+              <div className="absolute top-full left-0 mt-1 w-56 bg-[#0f1629] border border-white/10 rounded-xl shadow-xl overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                {MOCK_LINKS.map(({ href, label }) => (
+                  <Link
+                    key={href}
+                    href={href}
+                    className={`flex items-center px-4 py-3 text-sm font-medium transition-colors ${
+                      pathname.startsWith(href)
+                        ? 'bg-yellow-400/10 text-yellow-400'
+                        : 'text-gray-300 hover:text-white hover:bg-white/5'
+                    }`}
+                  >
+                    {label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
             {/* Premium dropdown */}
             <div className="relative" ref={premiumRef}>
               <button
@@ -450,6 +486,26 @@ export default function Header() {
               >
                 <span>{label}</span>
                 {isNew && <span className="bg-green-400 text-gray-900 text-[9px] font-extrabold px-1.5 rounded-full">NEW</span>}
+              </Link>
+            ))}
+
+            {/* Mock Boards in mobile */}
+            <div className="px-4 py-2 text-xs font-semibold text-yellow-400 uppercase tracking-wider mt-1">
+              🧪 Mock Board Exams
+            </div>
+            {MOCK_LINKS.map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                onClick={() => setMenuOpen(false)}
+                className={`pl-6 pr-4 py-3 rounded-lg text-sm font-bold transition-colors flex items-center justify-between ${
+                  pathname.startsWith(href)
+                    ? 'bg-yellow-400/20 text-yellow-400'
+                    : 'text-yellow-400 hover:bg-yellow-400/10'
+                }`}
+              >
+                <span>{label}</span>
+                <span className="bg-yellow-400 text-gray-900 text-[9px] font-extrabold px-1.5 rounded-full">NEW</span>
               </Link>
             ))}
 
