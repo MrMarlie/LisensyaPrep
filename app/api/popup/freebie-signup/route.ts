@@ -127,6 +127,13 @@ export async function POST(req: NextRequest) {
       });
     } catch (emailErr) {
       console.error('Popup freebie email failed (lead saved):', emailErr);
+      return NextResponse.json(
+        {
+          error:
+            "You're on the list, but our email system hit a snag and couldn't send your pack. Please message us on Facebook and we'll send it to you right away.",
+        },
+        { status: 502 },
+      );
     }
 
     return NextResponse.json({ success: true });

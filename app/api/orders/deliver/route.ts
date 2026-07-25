@@ -77,6 +77,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Failed to grant exam access.' }, { status: 500 });
     }
 
+    let mockEmailSent = true;
     try {
       await mailer().sendMail({
         from: `"LisensyaPrep" <${process.env.EMAIL_USER}>`,
@@ -107,6 +108,7 @@ export async function POST(req: NextRequest) {
         `,
       });
     } catch (emailErr) {
+      mockEmailSent = false;
       console.error('Mock access email failed (access already granted):', emailErr);
     }
 
@@ -115,7 +117,16 @@ export async function POST(req: NextRequest) {
       .update({ status: 'delivered', delivered_at: new Date().toISOString() })
       .eq('order_id', orderId);
 
-    return NextResponse.json({ success: true, status: 'delivered' });
+    return NextResponse.json({
+      success: true,
+      status: 'delivered',
+      ...(mockEmailSent
+        ? {}
+        : {
+            warning:
+              'Exam access was granted, but the confirmation email FAILED to send. Fix the email settings, then message the buyer their access link manually.',
+          }),
+    });
   }
 
   // Maps each product to the shared promo counter it counts toward.
@@ -194,27 +205,38 @@ export async function POST(req: NextRequest) {
     `;
   }
 
+  // 1) Send the confirmation email. This is the step that fails on bad SMTP creds,
+  //    so it gets its own try/catch and an accurate error message.
   try {
-    const transport = mailer();
-    await transport.sendMail({
+    await mailer().sendMail({
       from: `"LisensyaPrep" <${process.env.EMAIL_USER}>`,
       to: order.email,
       subject: '✅ Your LisensyaPrep order is confirmed!',
       html: buildThankYouHtml(order.full_name),
     });
-
-    // Mark as delivered
-    await supabase
-      .from('orders')
-      .update({ status: 'delivered', delivered_at: new Date().toISOString() })
-      .eq('order_id', orderId);
-
-    // Now that delivery succeeded, count the buyer toward the promo (exactly once).
-    await incrementPromoCounter();
-
-    return NextResponse.json({ success: true, status: 'delivered' });
   } catch (emailErr) {
     console.error('Delivery email failed:', emailErr);
     return NextResponse.json({ error: 'Failed to send delivery email.' }, { status: 500 });
   }
+
+  // 2) Email sent — mark delivered and count the buyer toward the promo (best-effort).
+  //    The email already went out, so a bookkeeping failure must not report failure
+  //    (that would tempt a resend and double-email the buyer).
+  try {
+    await supabase
+      .from('orders')
+      .update({ status: 'delivered', delivered_at: new Date().toISOString() })
+      .eq('order_id', orderId);
+    await incrementPromoCounter();
+  } catch (postErr) {
+    console.error('Post-delivery bookkeeping failed (email already sent):', postErr);
+    return NextResponse.json({
+      success: true,
+      status: 'delivered',
+      warning:
+        'Confirmation email sent, but updating the order status/promo counter failed. Refresh to verify.',
+    });
+  }
+
+  return NextResponse.json({ success: true, status: 'delivered' });
 }

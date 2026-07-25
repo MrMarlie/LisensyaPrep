@@ -41,6 +41,7 @@ export default function AdminOrdersClient({ orders }: { orders: Order[] }) {
   const [loading, setLoading] = useState<Record<string, boolean>>({});
   const [message, setMessage] = useState('');
   const [filter, setFilter] = useState('all');
+  const [testing, setTesting] = useState(false);
 
   const filtered = filter === 'all' ? orders : orders.filter((o) => o.status === filter);
 
@@ -55,7 +56,11 @@ export default function AdminOrdersClient({ orders }: { orders: Order[] }) {
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Action failed.');
-      setMessage(action === 'deliver' ? `✅ Delivered to ${orderId}` : `Refund marked for ${orderId}`);
+      if (data.warning) {
+        setMessage(`⚠️ ${orderId}: ${data.warning}`);
+      } else {
+        setMessage(action === 'deliver' ? `✅ Delivered to ${orderId}` : `Refund marked for ${orderId}`);
+      }
       router.refresh();
     } catch (err: unknown) {
       setMessage(`❌ ${err instanceof Error ? err.message : 'Error'}`);
@@ -64,10 +69,25 @@ export default function AdminOrdersClient({ orders }: { orders: Order[] }) {
     }
   }
 
+  async function handleTestEmail() {
+    setTesting(true);
+    setMessage('');
+    try {
+      const res = await fetch('/api/admin/test-email', { method: 'POST' });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Test failed.');
+      setMessage(`✅ Test email sent to ${data.to}. Check that inbox to confirm it arrived.`);
+    } catch (err: unknown) {
+      setMessage(`❌ Email test failed — ${err instanceof Error ? err.message : 'Error'}`);
+    } finally {
+      setTesting(false);
+    }
+  }
+
   return (
     <div>
-      {/* Filter tabs */}
-      <div className="flex gap-2 mb-4 flex-wrap">
+      {/* Filter tabs + email health check */}
+      <div className="flex gap-2 mb-4 flex-wrap items-center">
         {['all', 'pending', 'verified', 'delivered', 'refunded'].map((f) => (
           <button
             key={f}
@@ -79,6 +99,14 @@ export default function AdminOrdersClient({ orders }: { orders: Order[] }) {
             {f}
           </button>
         ))}
+        <button
+          onClick={handleTestEmail}
+          disabled={testing}
+          className="ml-auto px-4 py-2 rounded-lg text-sm font-medium transition-colors bg-[#0f1629] border border-white/10 text-gray-300 hover:text-white disabled:opacity-60"
+          title="Sends a test email to the store's own inbox to verify Gmail SMTP is working"
+        >
+          {testing ? 'Testing…' : '✉️ Test email'}
+        </button>
       </div>
 
       {message && (
