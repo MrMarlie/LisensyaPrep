@@ -17,7 +17,11 @@ export default function AdPlaceholder({ slot = 'banner', className = '' }) {
   const products = getProductsForPath(pathname, slot === 'square' ? 'banner' : slot);
 
   if (products.length === 0) {
-    // Original gray placeholder — shown when no affiliate products match this page
+    // Blank gray ad placeholder disabled for now — render nothing when no
+    // affiliate products match this page. Shopee affiliate banners below are
+    // unaffected. To restore the placeholder, re-enable the block below.
+    return null;
+    /*
     const heights = {
       banner: 'h-24',
       square: 'h-64',
@@ -39,6 +43,7 @@ export default function AdPlaceholder({ slot = 'banner', className = '' }) {
         </div>
       </div>
     );
+    */
   }
 
   if (slot === 'sidebar') {
