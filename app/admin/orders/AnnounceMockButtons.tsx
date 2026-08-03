@@ -2,11 +2,11 @@
 
 import { useState } from 'react';
 
-type Exam = { key: 'gened' | 'profed'; label: string; segment: string };
+type Exam = { key: 'gened' | 'profed'; label: string; segment: string; price: number };
 
 const EXAMS: Exam[] = [
-  { key: 'gened', label: '📢 Announce Gen Ed Mock Board', segment: 'Gen Ed Starter Pack subscribers' },
-  { key: 'profed', label: '📢 Announce Prof Ed Mock Board', segment: 'Prof Ed Starter Pack subscribers' },
+  { key: 'gened', label: '📢 Announce Gen Ed Mock Board', segment: 'Gen Ed Starter Pack subscribers', price: 49 },
+  { key: 'profed', label: '📢 Announce Prof Ed Mock Board', segment: 'Prof Ed Starter Pack subscribers', price: 59 },
 ];
 
 function AnnounceButton({ exam }: { exam: Exam }) {
@@ -43,7 +43,7 @@ function AnnounceButton({ exam }: { exam: Exam }) {
         <div>
           <p className="text-yellow-400 font-bold text-sm mb-1">{exam.label}</p>
           <p className="text-gray-500 text-xs">
-            Emails every {exam.segment} that the ₱99 Mock Board is live.
+            Emails every {exam.segment} that the ₱{exam.price} Mock Board is live.
           </p>
           {result && (
             <p className={`text-xs mt-2 font-medium ${status === 'done' ? 'text-green-400' : 'text-red-400'}`}>

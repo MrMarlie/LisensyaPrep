@@ -120,7 +120,7 @@ const CSE_SUBPROF_OFFER: MasteryOffer = {
 };
 
 // ── Mock Board campaign (LET only, auto-expires) ────────────────────────────
-// Until this date, LET pages (Gen Ed / ProfEd / generic LET) show the ₱99 Mock
+// Until this date, LET pages (Gen Ed / ProfEd / generic LET) show the Mock
 // Board sell popup to EVERY visitor. On/after this date decidePopup() falls back
 // to the normal freebie/mastery logic automatically — no redeploy needed.
 export const MOCK_CAMPAIGN_END = new Date('2026-10-01T00:00:00+08:00');
@@ -142,7 +142,7 @@ const MOCK_OFFERS: Partial<Record<PopupType, MockOffer>> = {
   profed: {
     title: 'LET Prof Ed Mock Board Exam',
     url: '/mock-board/let-profed',
-    price: '₱99',
+    price: '₱59',
     tagline: 'Sit a real, timed LET simulation — before the real thing.',
     bullets: [
       '150 items · 180-minute countdown',
@@ -153,7 +153,7 @@ const MOCK_OFFERS: Partial<Record<PopupType, MockOffer>> = {
   gened: {
     title: 'LET Gen Ed Mock Board Exam',
     url: '/mock-board/let-gened',
-    price: '₱99',
+    price: '₱49',
     tagline: 'Sit a real, timed LET simulation — before the real thing.',
     bullets: [
       '150 items · 180-minute countdown',
@@ -164,7 +164,7 @@ const MOCK_OFFERS: Partial<Record<PopupType, MockOffer>> = {
   auto: {
     title: 'LET Mock Board Exams',
     url: '/mock-board',
-    price: '₱99',
+    price: 'from ₱49',
     tagline: 'Sit a real, timed LET simulation — Gen Ed & Prof Ed.',
     bullets: [
       '150 items each · 180-minute countdown',

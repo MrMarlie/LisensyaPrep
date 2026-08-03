@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { examBySlug as metaBySlug, PRICE, ACCESS_ENDS, DURATION_LABEL } from '@/lib/mockExamMeta';
+import { examBySlug as metaBySlug, ACCESS_ENDS, DURATION_LABEL } from '@/lib/mockExamMeta';
 import { getExamUser, checkAccess } from '@/lib/mockExam';
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
@@ -10,7 +10,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!exam) return { title: 'Mock Board Exam | LisensyaPrep' };
   return {
     title: `${exam.title} 2026 — Timed 150-Item Simulation | LisensyaPrep`,
-    description: `${exam.blurb} 180-minute timer, shuffled every attempt, full rationales, unlimited retakes. ₱${PRICE} via GCash.`,
+    description: `${exam.blurb} 180-minute timer, shuffled every attempt, full rationales, unlimited retakes. ₱${exam.price} via GCash.`,
     openGraph: {
       title: `${exam.title} 2026 — Timed Online Mock | LisensyaPrep`,
       description: exam.blurb,
@@ -48,7 +48,7 @@ export default async function MockLandingPage({
     brand: { '@type': 'Brand', name: 'LisensyaPrep' },
     offers: {
       '@type': 'Offer',
-      price: String(PRICE),
+      price: String(exam.price),
       priceCurrency: 'PHP',
       availability: 'https://schema.org/InStock',
       url: `https://lisensyaprep.com/mock-board/${exam.slug}/checkout`,
@@ -62,7 +62,7 @@ export default async function MockLandingPage({
         <section className="px-4 pt-14 pb-10">
           <div className="max-w-3xl mx-auto text-center">
             <span className="inline-block text-xs font-bold px-3 py-1 rounded-full bg-yellow-400/10 text-yellow-400 uppercase tracking-widest mb-5">
-              Timed Online Mock Board · ₱{PRICE}
+              Timed Online Mock Board · ₱{exam.price}
             </span>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-4">{exam.title}</h1>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 max-w-2xl mx-auto">{exam.blurb}</p>
@@ -89,7 +89,7 @@ export default async function MockLandingPage({
                   href={`/mock-board/${exam.slug}/checkout`}
                   className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-extrabold px-8 py-4 rounded-xl text-lg transition-colors shadow-lg"
                 >
-                  Get Access — ₱{PRICE}
+                  Get Access — ₱{exam.price}
                 </Link>
                 <p className="text-gray-500 text-sm">
                   Already bought?{' '}
@@ -136,7 +136,7 @@ export default async function MockLandingPage({
                 href={`/mock-board/${exam.slug}/checkout`}
                 className="inline-block mt-6 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-extrabold px-6 py-3 rounded-xl transition-colors"
               >
-                Get Access — ₱{PRICE} →
+                Get Access — ₱{exam.price} →
               </Link>
             )}
           </div>

@@ -2,11 +2,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import nodemailer from 'nodemailer';
 
-const PRICE = 99;
-
-const EXAMS: Record<string, { product: string; title: string }> = {
-  gened: { product: 'mock-gened', title: 'LET Gen Ed Mock Board Exam' },
-  profed: { product: 'mock-profed', title: 'LET Prof Ed Mock Board Exam' },
+const EXAMS: Record<string, { product: string; title: string; price: number }> = {
+  gened: { product: 'mock-gened', title: 'LET Gen Ed Mock Board Exam', price: 49 },
+  profed: { product: 'mock-profed', title: 'LET Prof Ed Mock Board Exam', price: 59 },
 };
 
 function supabaseAdmin() {
@@ -58,7 +56,7 @@ export async function POST(req: NextRequest) {
       phone: phone || null,
       referral_source: referralSource,
       status: 'pending',
-      amount: PRICE,
+      amount: cfg.price,
       product: cfg.product,
     });
 
@@ -87,7 +85,7 @@ export async function POST(req: NextRequest) {
           <p><strong>Email (grant access to THIS email):</strong> ${cleanEmail}</p>
           <p><strong>GCash Ref:</strong> ${gcashRef}</p>
           <p><strong>Payment Date:</strong> ${paymentDate}</p>
-          <p><strong>Amount:</strong> ₱${PRICE}</p>
+          <p><strong>Amount:</strong> ₱${cfg.price}</p>
           <p><strong>Phone:</strong> ${phone || '—'}</p>
           <p><strong>Referral:</strong> ${referralSource}</p>
           <p><strong>Received:</strong> ${orderDate}</p>
@@ -113,7 +111,7 @@ export async function POST(req: NextRequest) {
               <div style="background:#080d1b;border-radius:10px;padding:16px;margin:20px 0;">
                 <p style="margin:0 0 8px;font-weight:700;color:#facc15;">Your Order</p>
                 <p style="margin:4px 0;">Product: ${cfg.title}</p>
-                <p style="margin:4px 0;">Amount: ₱${PRICE}</p>
+                <p style="margin:4px 0;">Amount: ₱${cfg.price}</p>
                 <p style="margin:4px 0;">Reference: ${gcashRef}</p>
                 <p style="margin:4px 0;">Order ID: ${orderId}</p>
               </div>

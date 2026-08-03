@@ -4,7 +4,7 @@ import { EXAMS, PRICE, ACCESS_ENDS } from '@/lib/mockExamMeta';
 
 export const metadata: Metadata = {
   title: 'LET Mock Board Exams 2026 — Timed Online Simulations | LisensyaPrep',
-  description: `Timed, full-length LET Mock Board Exams for Gen Ed and Prof Ed. 150 items each, 180-minute timer, shuffled every attempt, full rationales. ₱${PRICE} each via GCash.`,
+  description: `Timed, full-length LET Mock Board Exams for Gen Ed and Prof Ed. 150 items each, 180-minute timer, shuffled every attempt, full rationales. From ₱${PRICE} via GCash.`,
   openGraph: {
     title: 'LET Mock Board Exams 2026 | LisensyaPrep',
     description: 'Timed, full-length LET Mock Board Exams for Gen Ed and Prof Ed.',
@@ -40,7 +40,7 @@ export default function MockBoardHub() {
                 <li>✓ Unlimited retakes until {ACCESS_ENDS}</li>
               </ul>
               <div className="flex items-center justify-between">
-                <span className="text-yellow-400 font-extrabold text-2xl">₱{PRICE}</span>
+                <span className="text-yellow-400 font-extrabold text-2xl">₱{e.price}</span>
                 <Link
                   href={`/mock-board/${e.slug}`}
                   className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-5 py-2.5 rounded-lg transition-colors"

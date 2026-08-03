@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { examBySlug, PRICE } from '@/lib/mockExamMeta';
+import { examBySlug } from '@/lib/mockExamMeta';
 import CheckoutForm from './CheckoutForm';
 
 const GCASH_NUMBER = '0906-346-5789';
@@ -23,7 +23,7 @@ export default function MockCheckoutPage({ params }: { params: { slug: string } 
       <div className="max-w-lg mx-auto">
         <div className="text-center mb-8">
           <span className="inline-block text-xs font-bold px-3 py-1 rounded-full bg-yellow-400/10 text-yellow-400 uppercase tracking-widest mb-3">
-            Mock Board Exam · ₱{PRICE}
+            Mock Board Exam · ₱{exam.price}
           </span>
           <h1 className="text-2xl font-extrabold text-white">{exam.title}</h1>
           <p className="text-gray-500 text-sm mt-1">150 items · 180-minute timer · unlimited retakes until Oct 1, 2026</p>
@@ -31,7 +31,7 @@ export default function MockCheckoutPage({ params }: { params: { slug: string } 
 
         {/* Step 1 */}
         <div className="bg-[#0f1629] border border-yellow-400/30 rounded-2xl p-6 mb-5">
-          <p className="text-yellow-400 font-extrabold mb-4">Step 1: Send ₱{PRICE} via GCash</p>
+          <p className="text-yellow-400 font-extrabold mb-4">Step 1: Send ₱{exam.price} via GCash</p>
           <div className="space-y-3">
             <div className="bg-[#080d1b] rounded-xl p-4 border border-white/10">
               <p className="text-gray-500 text-xs mb-1">GCash Number</p>
@@ -39,7 +39,7 @@ export default function MockCheckoutPage({ params }: { params: { slug: string } 
             </div>
             <div className="bg-[#080d1b] rounded-xl p-4 border border-white/10">
               <p className="text-gray-500 text-xs mb-1">Amount to Send</p>
-              <p className="text-yellow-400 font-extrabold text-xl">₱{PRICE}</p>
+              <p className="text-yellow-400 font-extrabold text-xl">₱{exam.price}</p>
             </div>
           </div>
           <div className="bg-yellow-400/10 border border-yellow-400/20 rounded-xl p-3 mt-3">

@@ -3,18 +3,20 @@ import { cookies } from 'next/headers';
 import { createClient } from '@supabase/supabase-js';
 import nodemailer from 'nodemailer';
 
-const CONFIG: Record<string, { tag: string; title: string; slug: string; subjectLine: string }> = {
+const CONFIG: Record<string, { tag: string; title: string; slug: string; price: number; subjectLine: string }> = {
   gened: {
     tag: 'let-gen-ed-starter-pack',
     title: 'LET Gen Ed Mock Board Exam',
     slug: 'let-gened',
-    subjectLine: '🆕 NEW: Take a timed LET Gen Ed Mock Board (₱99) — LisensyaPrep',
+    price: 49,
+    subjectLine: '🆕 NEW: Take a timed LET Gen Ed Mock Board (₱49) — LisensyaPrep',
   },
   profed: {
     tag: 'let-profed-starter-pack',
     title: 'LET Prof Ed Mock Board Exam',
     slug: 'let-profed',
-    subjectLine: '🆕 NEW: Take a timed LET Prof Ed Mock Board (₱99) — LisensyaPrep',
+    price: 59,
+    subjectLine: '🆕 NEW: Take a timed LET Prof Ed Mock Board (₱59) — LisensyaPrep',
   },
 };
 
@@ -28,7 +30,7 @@ function mailer() {
   });
 }
 
-function buildEmail(name: string, title: string, slug: string) {
+function buildEmail(name: string, title: string, slug: string, price: number) {
   const site = process.env.NEXT_PUBLIC_SITE_URL || 'https://lisensyaprep.com';
   const displayName = name || 'future teacher';
   return `
@@ -46,7 +48,7 @@ function buildEmail(name: string, title: string, slug: string) {
         <div style="background:#0f1629;border:2px solid #facc15;border-radius:12px;padding:24px;text-align:center;margin:0 0 24px;">
           <p style="color:#facc15;font-weight:900;font-size:18px;margin:0 0 6px;">🧪 ${title}</p>
           <p style="color:#f9d77e;font-size:14px;margin:0 0 16px;">150 items · 180-minute timer · shuffled every attempt · full rationales</p>
-          <p style="color:#ffffff;font-size:28px;font-weight:900;margin:0 0 16px;">₱99</p>
+          <p style="color:#ffffff;font-size:28px;font-weight:900;margin:0 0 16px;">₱${price}</p>
           <a href="${site}/mock-board/${slug}" style="display:inline-block;background:#facc15;color:#111827;font-weight:700;padding:14px 32px;border-radius:8px;text-decoration:none;font-size:16px;">See the exam →</a>
           <p style="color:#475569;font-size:12px;margin:12px 0 0;">Pay via GCash · unlimited retakes</p>
         </div>
@@ -101,7 +103,7 @@ export async function POST(req: NextRequest) {
         from: `"LisensyaPrep" <${process.env.EMAIL_USER}>`,
         to: lead.email,
         subject: cfg.subjectLine,
-        html: buildEmail(lead.name, cfg.title, cfg.slug),
+        html: buildEmail(lead.name, cfg.title, cfg.slug, cfg.price),
       });
       sent++;
     } catch (err) {
