@@ -2,9 +2,22 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import nodemailer from 'nodemailer';
 
-const EXAMS: Record<string, { product: string; title: string; price: number }> = {
-  gened: { product: 'mock-gened', title: 'LET Gen Ed Mock Board Exam', price: 49 },
-  profed: { product: 'mock-profed', title: 'LET Prof Ed Mock Board Exam', price: 59 },
+const EXAMS: Record<
+  string,
+  { product: string; title: string; price: number; signOff: string; examLine: string }
+> = {
+  gened: {
+    product: 'mock-gened', title: 'LET Gen Ed Mock Board Exam', price: 49,
+    signOff: 'future teacher', examLine: 'your timed 150-item exam',
+  },
+  profed: {
+    product: 'mock-profed', title: 'LET Prof Ed Mock Board Exam', price: 59,
+    signOff: 'future teacher', examLine: 'your timed 150-item exam',
+  },
+  pnle: {
+    product: 'mock-pnle', title: 'PNLE Mock Board Exam', price: 99,
+    signOff: 'future nurse', examLine: 'your five timed Nursing Practice modules (100 items each)',
+  },
 };
 
 function supabaseAdmin() {
@@ -127,10 +140,10 @@ export async function POST(req: NextRequest) {
               <ol style="padding-left:20px;line-height:1.9;">
                 <li>We verify your GCash payment (usually 1–2 hours, 8 AM–10 PM)</li>
                 <li>You get a &ldquo;access is live&rdquo; email</li>
-                <li>Go to <a href="${site}/mock-board/login" style="color:#facc15;">${site}/mock-board/login</a>, sign in with ${cleanEmail}, and start your timed 150-item exam</li>
+                <li>Go to <a href="${site}/mock-board/login" style="color:#facc15;">${site}/mock-board/login</a>, sign in with ${cleanEmail}, and start ${cfg.examLine}</li>
               </ol>
-              <p style="color:#94a3b8;font-size:13px;">Access runs until <strong>October 1, 2026</strong>. Unlimited retakes — questions reshuffle every time.</p>
-              <p>Good luck, future teacher! 🎓</p>
+              <p style="color:#94a3b8;font-size:13px;">Unlimited retakes — questions reshuffle every time.</p>
+              <p>Good luck, ${cfg.signOff}! 🎓</p>
               <p style="margin-bottom:0;">LisensyaPrep Team<br>
                 <a href="${site}" style="color:#facc15;">lisensyaprep.com</a>
               </p>

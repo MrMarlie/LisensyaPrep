@@ -17,7 +17,9 @@ export async function POST(req: NextRequest, { params }: { params: { exam: strin
   const user = await getExamUser();
   if (!user) return NextResponse.json({ error: 'not-logged-in' }, { status: 401 });
 
-  const access = await checkAccess(user.email, exam.product);
+  // PNLE modules gate on the umbrella entitlement (`mock-pnle`), not the
+  // per-module product; LET exams have no accessProduct so fall back to product.
+  const access = await checkAccess(user.email, exam.accessProduct || exam.product);
   if (!access.ok) {
     return NextResponse.json(
       { error: access.reason, expiresAt: access.access?.expires_at ?? null },
@@ -46,8 +48,8 @@ export async function POST(req: NextRequest, { params }: { params: { exam: strin
     ({ questions } = await resumeAttempt(admin, open));
     resumed = true;
   } else {
-    if (open) await gradeAttempt(admin, open); // deadline passed → auto-submit stale attempt
-    ({ attempt, questions } = await createAttempt(user, exam.product));
+    if (open) await gradeAttempt(admin, open, exam.passMark); // deadline passed → auto-submit stale attempt
+    ({ attempt, questions } = await createAttempt(user, exam));
   }
 
   return NextResponse.json({

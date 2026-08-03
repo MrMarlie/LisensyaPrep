@@ -12,11 +12,25 @@ export default async function ExamRunnerPage({ params }: { params: { slug: strin
   const exam = examBySlug(params.slug);
   if (!exam) redirect('/mock-board');
 
+  // PNLE modules share one hub/landing; LET exams land on their own page.
+  const landingSlug = exam.landingSlug || exam.slug;
+
   const user = await getExamUser();
   if (!user) redirect(`/mock-board/login?next=/mock-board/${exam.slug}/exam`);
 
-  const access = await checkAccess(user.email, exam.product);
-  if (!access.ok) redirect(`/mock-board/${exam.slug}?access=${access.reason}`);
+  // PNLE modules gate on the umbrella entitlement, LET on the exam product.
+  const access = await checkAccess(user.email, exam.accessProduct || exam.product);
+  if (!access.ok) redirect(`/mock-board/${landingSlug}?access=${access.reason}`);
 
-  return <ExamClient examKey={exam.exam} slug={exam.slug} />;
+  const isPnle = exam.group === 'pnle';
+  return (
+    <ExamClient
+      examKey={exam.exam}
+      slug={exam.slug}
+      backHref={`/mock-board/${landingSlug}`}
+      passPct={Math.round((exam.passMark ?? 0.75) * 100)}
+      afterHref={isPnle ? '/mock-board/pnle/results' : undefined}
+      afterLabel={isPnle ? 'View combined PNLE results →' : undefined}
+    />
+  );
 }

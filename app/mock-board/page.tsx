@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { EXAMS, PRICE, ACCESS_ENDS } from '@/lib/mockExamMeta';
+import { EXAMS, PRICE, ACCESS_ENDS, PNLE } from '@/lib/mockExamMeta';
 
 export const metadata: Metadata = {
   title: 'LET Mock Board Exams 2026 — Timed Online Simulations | LisensyaPrep',
@@ -51,6 +51,22 @@ export default function MockBoardHub() {
             </div>
           ))}
         </div>
+
+        {/* Cross-sell: PNLE (nursing) mock board */}
+        <Link
+          href="/mock-board/pnle"
+          className="block mt-6 bg-[#0f1629] border border-pink-400/30 hover:border-pink-400/60 rounded-2xl p-5 transition-colors"
+        >
+          <div className="flex items-center justify-between gap-4 flex-wrap">
+            <div>
+              <p className="text-pink-400 font-extrabold">🏥 Taking the PNLE instead?</p>
+              <p className="text-gray-400 text-sm mt-1">
+                PNLE Mock Board — 5 timed Nursing Practice modules (500 items), 2 hours each. One ₱{PNLE.price} unlocks all five.
+              </p>
+            </div>
+            <span className="text-pink-400 font-bold whitespace-nowrap">View PNLE mock →</span>
+          </div>
+        </Link>
 
         <p className="text-center text-gray-500 text-sm mt-8">
           Already purchased?{' '}

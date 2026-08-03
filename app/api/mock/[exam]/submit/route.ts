@@ -49,6 +49,6 @@ export async function POST(req: NextRequest, { params }: { params: { exam: strin
     await admin.from('mock_attempts').update({ answers: clean }).eq('id', attempt.id);
   }
 
-  const result = await gradeAttempt(admin, attempt);
+  const result = await gradeAttempt(admin, attempt, exam.passMark);
   return NextResponse.json({ attemptId: attempt.id, ...result });
 }

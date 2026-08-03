@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Script from 'next/script';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import type { Metadata } from 'next';
 import { examBySlug as metaBySlug, ACCESS_ENDS, DURATION_LABEL } from '@/lib/mockExamMeta';
 import { getExamUser, checkAccess } from '@/lib/mockExam';
@@ -35,6 +35,9 @@ export default async function MockLandingPage({
 }) {
   const exam = metaBySlug(params.slug);
   if (!exam) notFound();
+  // PNLE modules aren't sold one-by-one — one ₱99 purchase unlocks all 5. Any
+  // stray hit on a module slug goes to the shared PNLE hub/menu.
+  if (exam.group === 'pnle') redirect('/mock-board/pnle');
 
   const user = await getExamUser();
   const access = user ? await checkAccess(user.email, exam.product) : { ok: false, reason: 'no-user' };
@@ -127,7 +130,7 @@ export default async function MockLandingPage({
           <div className="max-w-3xl mx-auto bg-[#0f1629] border border-white/10 rounded-2xl p-6">
             <h2 className="text-white font-bold text-lg mb-4">What&apos;s covered</h2>
             <div className="flex flex-wrap gap-2">
-              {exam.subjects.map((s) => (
+              {exam.subjects.map((s: string) => (
                 <span key={s} className="text-sm text-gray-300 bg-white/5 border border-white/10 rounded-full px-3 py-1.5">{s}</span>
               ))}
             </div>

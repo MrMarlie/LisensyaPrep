@@ -45,7 +45,22 @@ function fmt(secs: number) {
   return `${h}:${String(m).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
 }
 
-export default function ExamClient({ examKey, slug }: { examKey: string; slug: string }) {
+export default function ExamClient({
+  examKey,
+  slug,
+  backHref,
+  passPct = 75,
+  afterHref,
+  afterLabel,
+}: {
+  examKey: string;
+  slug: string;
+  backHref?: string; // where "Back" / results link goes (defaults to the exam's own page)
+  passPct?: number; // passing threshold to display (LET 75; a PNLE module 60)
+  afterHref?: string; // optional extra CTA on the results screen (e.g. PNLE combined dashboard)
+  afterLabel?: string;
+}) {
+  const back = backHref || `/mock-board/${slug}`;
   const [phase, setPhase] = useState<'loading' | 'exam' | 'results' | 'review' | 'error'>('loading');
   const [errMsg, setErrMsg] = useState('');
   const [data, setData] = useState<StartData | null>(null);
@@ -215,7 +230,7 @@ export default function ExamClient({ examKey, slug }: { examKey: string; slug: s
             <button onClick={start} className="bg-yellow-400 text-gray-900 font-bold px-5 py-2.5 rounded-lg">
               Try again
             </button>
-            <Link href={`/mock-board/${slug}`} className="border border-white/20 text-gray-300 px-5 py-2.5 rounded-lg">
+            <Link href={back} className="border border-white/20 text-gray-300 px-5 py-2.5 rounded-lg">
               Back
             </Link>
           </div>
@@ -225,7 +240,17 @@ export default function ExamClient({ examKey, slug }: { examKey: string; slug: s
   }
 
   if (phase === 'results' && results) {
-    return <ResultsView results={results} slug={slug} onReview={openReview} onRetake={start} />;
+    return (
+      <ResultsView
+        results={results}
+        backHref={back}
+        passPct={passPct}
+        afterHref={afterHref}
+        afterLabel={afterLabel}
+        onReview={openReview}
+        onRetake={start}
+      />
+    );
   }
 
   if (phase === 'review' && review && results) {
@@ -425,12 +450,18 @@ export default function ExamClient({ examKey, slug }: { examKey: string; slug: s
 // ── Results ────────────────────────────────────────────────────────────────
 function ResultsView({
   results,
-  slug,
+  backHref,
+  passPct,
+  afterHref,
+  afterLabel,
   onReview,
   onRetake,
 }: {
   results: Results;
-  slug: string;
+  backHref: string;
+  passPct: number;
+  afterHref?: string;
+  afterLabel?: string;
   onReview: () => void;
   onRetake: () => void;
 }) {
@@ -450,7 +481,7 @@ function ResultsView({
           </p>
           <p className="text-white text-5xl font-black mt-2">{pct}%</p>
           <p className="text-gray-400 mt-1">
-            {results.score} / {results.total} correct · Passing is 75%
+            {results.score} / {results.total} correct · Passing is {passPct}%
           </p>
         </div>
 
@@ -488,8 +519,16 @@ function ResultsView({
             Retake (reshuffled)
           </button>
         </div>
+        {afterHref && afterLabel && (
+          <Link
+            href={afterHref}
+            className="block text-center mt-3 bg-pink-500/15 border border-pink-400/30 text-pink-300 font-semibold py-3 rounded-xl"
+          >
+            {afterLabel}
+          </Link>
+        )}
         <p className="text-center mt-4">
-          <Link href={`/mock-board/${slug}`} className="text-gray-500 text-sm underline">
+          <Link href={backHref} className="text-gray-500 text-sm underline">
             Back to exam page
           </Link>
         </p>

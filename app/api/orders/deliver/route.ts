@@ -58,6 +58,78 @@ export async function POST(req: NextRequest) {
   // Resolve PDF URLs and email content based on product
   const product = order.product || 'profed';
 
+  // ── PNLE Mock Board: one purchase unlocks all 5 Nursing Practice modules ────
+  if (product === 'mock-pnle') {
+    const buyerEmail = (order.email || '').toLowerCase();
+    const site = process.env.NEXT_PUBLIC_SITE_URL || 'https://lisensyaprep.com';
+
+    const { error: accessErr } = await supabase.from('exam_access').upsert(
+      {
+        email: buyerEmail,
+        product: 'mock-pnle',
+        order_id: orderId,
+        status: 'active',
+        expires_at: '2026-10-01T00:00:00+08:00', // usable through Sept 30, 2026
+      },
+      { onConflict: 'email,product' },
+    );
+    if (accessErr) {
+      console.error('exam_access grant failed (mock-pnle):', accessErr);
+      return NextResponse.json({ error: 'Failed to grant exam access.' }, { status: 500 });
+    }
+
+    let mockEmailSent = true;
+    try {
+      await mailer().sendMail({
+        from: `"LisensyaPrep" <${process.env.EMAIL_USER}>`,
+        to: order.email,
+        subject: '✅ Your PNLE Mock Board is unlocked!',
+        html: `
+          <div style="font-family:Arial,sans-serif;max-width:560px;margin:0 auto;">
+            <div style="background:#080d1b;padding:24px;border-radius:12px 12px 0 0;text-align:center;">
+              <p style="color:#ec4899;font-weight:900;font-size:20px;margin:0;">LisensyaPrep</p>
+            </div>
+            <div style="background:#0f1629;padding:32px;border-radius:0 0 12px 12px;color:#d1d5db;">
+              <h1 style="color:#ffffff;font-size:22px;margin-top:0;">Hi ${order.full_name},</h1>
+              <p>Your payment is verified and your <strong style="color:#ffffff;">PNLE Mock Board</strong> is now unlocked — all 5 Nursing Practice modules. 🎉</p>
+              <div style="background:#2a1020;border:1px solid #ec489940;border-radius:10px;padding:16px;margin:20px 0;">
+                <p style="color:#f9a8d4;font-weight:700;margin:0 0 6px;">How to start (important):</p>
+                <ol style="margin:0;padding-left:18px;line-height:1.9;font-size:14px;">
+                  <li>Go to <a href="${site}/mock-board/login" style="color:#f9a8d4;">${site}/mock-board/login</a></li>
+                  <li>Sign in with <strong style="color:#ffffff;">this exact email (${buyerEmail})</strong> — your access is tied to it</li>
+                  <li>Open <a href="${site}/mock-board/pnle" style="color:#f9a8d4;">${site}/mock-board/pnle</a> and pick a module</li>
+                </ol>
+              </div>
+              <p style="font-size:14px;line-height:1.7;">Each module is a real 100-item test with a 2-hour timer, just like the PRC board. No feedback during the test — full rationales unlock the moment you submit. Finish all five to see your combined general-average verdict (75% average, no module below 60%). Retake as many times as you want; it reshuffles every attempt.</p>
+              <p style="color:#94a3b8;font-size:13px;">Access runs until <strong>September 30, 2026</strong>.</p>
+              <a href="${site}/mock-board/pnle" style="display:inline-block;background:#ec4899;color:#ffffff;font-weight:700;padding:12px 24px;border-radius:8px;text-decoration:none;font-size:15px;margin-top:8px;">Go to my mock board →</a>
+              <p style="margin:24px 0 0;">We&apos;re rooting for you, future nurse! 💪<br><strong style="color:#ffffff;">LisensyaPrep Team</strong></p>
+            </div>
+          </div>
+        `,
+      });
+    } catch (emailErr) {
+      mockEmailSent = false;
+      console.error('PNLE mock access email failed (access already granted):', emailErr);
+    }
+
+    await supabase
+      .from('orders')
+      .update({ status: 'delivered', delivered_at: new Date().toISOString() })
+      .eq('order_id', orderId);
+
+    return NextResponse.json({
+      success: true,
+      status: 'delivered',
+      ...(mockEmailSent
+        ? {}
+        : {
+            warning:
+              'Exam access was granted, but the confirmation email FAILED to send. Fix the email settings, then message the buyer their access link manually.',
+          }),
+    });
+  }
+
   // ── Mock Board products: grant timed ONLINE exam access (no PDF, no promo) ──
   if (product === 'mock-gened' || product === 'mock-profed') {
     const examTitle =
