@@ -28,6 +28,7 @@ const NAV_LINKS = [
 const MOCK_LINKS = [
   { href: '/mock-board/let-profed', label: '📝 Prof Ed Mock Board' },
   { href: '/mock-board/let-gened', label: '📗 Gen Ed Mock Board' },
+  { href: '/mock-board/pnle', label: '🏥 PNLE Mock Board' },
 ];
 
 const PREMIUM_LINKS = [
