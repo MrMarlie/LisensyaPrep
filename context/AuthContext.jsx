@@ -2,6 +2,7 @@
 
 import { createContext, useContext, useEffect, useState } from 'react'
 import { createClient } from '@/lib/supabase'
+import { needsForcedLogout, markForcedLogoutDone } from '@/lib/authForceLogout'
 
 const AuthContext = createContext(null)
 
@@ -12,22 +13,33 @@ export function AuthProvider({ children }) {
 
   useEffect(() => {
     const supabase = createClient()
+    let subscription
 
-    supabase.auth.getUser().then(({ data: { user } }) => {
+    async function init() {
+      // Force-logout gate: if this browser hasn't been signed out for the
+      // current LOGOUT_VERSION yet, do it once before resolving auth state.
+      if (needsForcedLogout()) {
+        try { await supabase.auth.signOut() } catch { /* ignore */ }
+        markForcedLogoutDone()
+      }
+
+      const { data: { user } } = await supabase.auth.getUser()
       setUser(user)
       if (user) fetchProfile(supabase, user.id)
       else setLoading(false)
-    })
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      async (event, session) => {
-        setUser(session?.user ?? null)
-        if (session?.user) await fetchProfile(supabase, session.user.id)
-        else { setProfile(null); setLoading(false) }
-      }
-    )
+      subscription = supabase.auth.onAuthStateChange(
+        async (event, session) => {
+          setUser(session?.user ?? null)
+          if (session?.user) await fetchProfile(supabase, session.user.id)
+          else { setProfile(null); setLoading(false) }
+        }
+      ).data.subscription
+    }
 
-    return () => subscription.unsubscribe()
+    init()
+
+    return () => subscription?.unsubscribe()
   }, [])
 
   async function fetchProfile(supabase, userId) {
